@@ -1,0 +1,9 @@
+start:
+  deps:
+    - hex-list.js
+  exec: http-server -p 8080 --cors
+
+hex-list.js:
+  deps:
+    - make-hex-list.js
+  exec: . ./secrets.env && node $<  >$@
