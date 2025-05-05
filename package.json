@@ -13,8 +13,8 @@
   "dependencies": {
     "bajel": "^1.1.0",
     "h3-js": "^4.2.1",
-    "http-server": "^14.1.1",
     "is-sea": "^0.3.1",
+    "live-server": "^1.2.2",
     "standard": "^17.1.2"
   }
 }
