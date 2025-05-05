@@ -16,11 +16,17 @@ async function main () {
       [lat, lon] = h3.cellToLatLng(cell)
     }
     if (!isSea(lat, lon)) {
+      // const shape = h3.cellsToMultiPolygon([cell], true)[0][0]
       if (!place) {
         place = await geocode(lat, lon)
         await sleep(1000)
       }
-      console.log(`  "${cell}": {place: "${place}", lat: ${lat}, lon: ${lon}},`)
+      console.log(` "${cell}": {`)
+      console.log(`  place: "${place}",`)
+      console.log(`  lon: ${lon},`)
+      console.log(`  lat: ${lat},`)
+      // console.log(`  shape: ${JSON.stringify(shape)}},`)
+      console.log(' },')
     }
   }
 
