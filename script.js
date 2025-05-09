@@ -3,18 +3,15 @@ import { select } from 'https://esm.sh/d3-selection'
 import { geoPath, geoOrthographic, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
 
-/* global h3 */
-
 const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
 
 const hexFeatures = Object.entries(hexes).map(([cell, { lat, lon, place }]) => {
-  const coordinates = h3.cellsToMultiPolygon([cell], true)[0]
   return {
     type: 'Feature',
     properties: { name: place },
     geometry: {
-      type: 'Polygon',
-      coordinates
+      type: 'Point',
+      coordinates: [lon, lat]
     }
   }
 })
@@ -30,7 +27,7 @@ const projection = geoOrthographic()
 
 const geoGenerator = geoPath()
   .projection(projection)
-  .pointRadius(4)
+  .pointRadius(6.7)
   .context(context)
 
 let yaw = 300
