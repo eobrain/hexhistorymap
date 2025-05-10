@@ -7603,5 +7603,735 @@ export default {
     place: 'Departamento Ushuaia, Argentina',
     lon: -66.19371957999438,
     lat: -54.93202136623231
+  },
+  '82e12ffffffffff': {
+    place: 'Unknown',
+    lon: 63.24034412794962,
+    lat: -67.72657645242307
+  },
+  '82e167fffffffff': {
+    place: 'Antarctica',
+    lon: 50.67407045813779,
+    lat: -67.99429249600279
+  },
+  '82e177fffffffff': {
+    place: 'Antarctica',
+    lon: 56.72784830099224,
+    lat: -66.5241770414942
+  },
+  '82e467fffffffff': {
+    place: 'Unknown',
+    lon: 90.97464842261977,
+    lat: -66.78418871720648
+  },
+  '82e547fffffffff': {
+    place: 'Antarctica',
+    lon: 104.28540808967881,
+    lat: -68.62330023978794
+  },
+  '82e54ffffffffff': {
+    place: 'Antarctica',
+    lon: 95.87800112932979,
+    lat: -69.26760621510742
+  },
+  '82e55ffffffffff': {
+    place: 'Unknown',
+    lon: 98.69516017489256,
+    lat: -66.38822152425888
+  },
+  '82e567fffffffff': {
+    place: 'Antarctica',
+    lon: 110.95690528476594,
+    lat: -70.6119720516828
+  },
+  '82e56ffffffffff': {
+    place: 'Antarctica',
+    lon: 101.93918747245594,
+    lat: -71.55801298150912
+  },
+  '82e577fffffffff': {
+    place: 'Antarctica',
+    lon: 112.10936647670556,
+    lat: -67.58411257680982
+  },
+  '82e707fffffffff': {
+    place: 'Antarctica',
+    lon: 36.17916620656323,
+    lat: -69.45720235341331
+  },
+  '82e727fffffffff': {
+    place: 'Antarctica',
+    lon: 42.00428521051381,
+    lat: -71.64581841638918
+  },
+  '82e72ffffffffff': {
+    place: 'Antarctica',
+    lon: 33.02005143682538,
+    lat: -72.05822582596775
+  },
+  '82e737fffffffff': {
+    place: 'Antarctica',
+    lon: 43.850467305511984,
+    lat: -68.97806293881354
+  },
+  '82e747fffffffff': {
+    place: 'Antarctica',
+    lon: 14.211790253309207,
+    lat: -71.55598112876078
+  },
+  '82e74ffffffffff': {
+    place: 'Antarctica',
+    lon: 5.349260264866217,
+    lat: -70.62195055402825
+  },
+  '82e767fffffffff': {
+    place: 'Antarctica',
+    lon: 17.62788864377281,
+    lat: -74.4212558225434
+  },
+  '82e76ffffffffff': {
+    place: 'Antarctica',
+    lon: 7.037780203874269,
+    lat: -73.62951261694722
+  },
+  '82e777fffffffff': {
+    place: 'Antarctica',
+    lon: 23.593411672004528,
+    lat: -72.03852344855528
+  },
+  '82e897fffffffff': {
+    place: 'Antarctica',
+    lon: -66.65862778268841,
+    lat: -69.29599859960376
+  },
+  '82e997fffffffff': {
+    place: 'Antarctica',
+    lon: -86.9494488887307,
+    lat: -74.43899512496294
+  },
+  '82e9b7fffffffff': {
+    place: 'Antarctica',
+    lon: -98.0350262316527,
+    lat: -74.68609201088572
+  },
+  '82ec07fffffffff': {
+    place: 'Antarctica',
+    lon: 149.031955393451,
+    lat: -69.66345294982115
+  },
+  '82ec0ffffffffff': {
+    place: 'Antarctica',
+    lon: 144.15049662682094,
+    lat: -72.08199559197767
+  },
+  '82ec1ffffffffff': {
+    place: 'Antarctica',
+    lon: 141.14751402186454,
+    lat: -69.34631441573214
+  },
+  '82ec27fffffffff': {
+    place: 'Antarctica',
+    lon: 156.73471172617485,
+    lat: -69.62777869395327
+  },
+  '82ec2ffffffffff': {
+    place: 'Antarctica',
+    lon: 153.03766174472509,
+    lat: -72.1916220544971
+  },
+  '82ec47fffffffff': {
+    place: 'Antarctica',
+    lon: 141.22461301425545,
+    lat: -77.08366612034703
+  },
+  '82ec4ffffffffff': {
+    place: 'Antarctica',
+    lon: 131.47446327047456,
+    lat: -79.22186239233073
+  },
+  '82ec57fffffffff': {
+    place: 'Antarctica',
+    lon: 137.76422455196342,
+    lat: -74.3717000314155
+  },
+  '82ec5ffffffffff': {
+    place: 'Antarctica',
+    lon: 129.30847531391134,
+    lat: -76.43269482532892
+  },
+  '82ec67fffffffff': {
+    place: 'Antarctica',
+    lon: 153.3915145539088,
+    lat: -77.16135398764834
+  },
+  '82ec6ffffffffff': {
+    place: 'Antarctica',
+    lon: 146.2727295405932,
+    lat: -79.65370448647309
+  },
+  '82ec77fffffffff': {
+    place: 'Antarctica',
+    lon: 148.0824048259457,
+    lat: -74.70083615111174
+  },
+  '82ecc7fffffffff': {
+    place: 'Antarctica',
+    lon: 126.77802621997914,
+    lat: -70.60594967011066
+  },
+  '82eccffffffffff': {
+    place: 'Antarctica',
+    lon: 118.8174983453229,
+    lat: -72.28089102273947
+  },
+  '82ecd7fffffffff': {
+    place: 'Antarctica',
+    lon: 125.97640192603112,
+    lat: -67.60230827017023
+  },
+  '82ecdffffffffff': {
+    place: 'Antarctica',
+    lon: 119.00792807755136,
+    lat: -69.26593411819103
+  },
+  '82ece7fffffffff': {
+    place: 'Antarctica',
+    lon: 135.26108042400813,
+    lat: -71.55420849995839
+  },
+  '82eceffffffffff': {
+    place: 'Antarctica',
+    lon: 127.83906112672268,
+    lat: -73.55498887270193
+  },
+  '82ecf7fffffffff': {
+    place: 'Antarctica',
+    lon: 133.37287130469818,
+    lat: -68.65752466128036
+  },
+  '82ed57fffffffff': {
+    place: 'Antarctica',
+    lon: 161.51456447334894,
+    lat: -71.91823111595201
+  },
+  '82ed5ffffffffff': {
+    place: 'Antarctica',
+    lon: 158.15098267111443,
+    lat: -74.55947260038992
+  },
+  '82ee17fffffffff': {
+    place: 'Antarctica',
+    lon: -22.79391572045102,
+    lat: -74.61324980657085
+  },
+  '82ee37fffffffff': {
+    place: 'Antarctica',
+    lon: -27.382752994275947,
+    lat: -77.53595319720485
+  },
+  '82eea7fffffffff': {
+    place: 'Antarctica',
+    lon: -11.882109068554826,
+    lat: -73.71551207267319
+  },
+  '82eeb7fffffffff': {
+    place: 'Antarctica',
+    lon: -2.4629914075366917,
+    lat: -72.3424794769876
+  },
+  '82ef07fffffffff': {
+    place: 'Antarctica',
+    lon: -47.09179192688796,
+    lat: -82.83170919879507
+  },
+  '82ef0ffffffffff': {
+    place: 'Unknown',
+    lon: -52.543403023758145,
+    lat: -79.84798220575405
+  },
+  '82ef17fffffffff': {
+    place: 'Antarctica',
+    lon: -22.10498113717149,
+    lat: -82.82685837590914
+  },
+  '82ef1ffffffffff': {
+    place: 'Unknown',
+    lon: -34.619610996016654,
+    lat: -80.32753736539622
+  },
+  '82ef27fffffffff': {
+    place: 'Antarctica',
+    lon: -69.73480773815109,
+    lat: -84.67008649128209
+  },
+  '82ef2ffffffffff': {
+    place: 'Antarctica',
+    lon: -68.23495435932598,
+    lat: -81.61601563540889
+  },
+  '82ef37fffffffff': {
+    place: 'Unknown',
+    lon: -34.53859712901599,
+    lat: -85.63241776870042
+  },
+  '82ef47fffffffff': {
+    place: 'Antarctica',
+    lon: -67.11701252002763,
+    lat: -75.43926665440654
+  },
+  '82ef4ffffffffff': {
+    place: 'Antarctica',
+    lon: -66.84816000686752,
+    lat: -72.35442598205468
+  },
+  '82ef57fffffffff': {
+    place: 'Antarctica',
+    lon: -55.53618934837682,
+    lat: -76.7970216201133
+  },
+  '82ef67fffffffff': {
+    place: 'Antarctica',
+    lon: -78.77874475517879,
+    lat: -76.65045157496625
+  },
+  '82ef6ffffffffff': {
+    place: 'Unknown',
+    lon: -76.35154004514612,
+    lat: -73.64442786147721
+  },
+  '82ef77fffffffff': {
+    place: 'Unknown',
+    lon: -67.52813142389978,
+    lat: -78.53263047909833
+  },
+  '82ef87fffffffff': {
+    place: 'Antarctica',
+    lon: -1.7498841486606447,
+    lat: -78.52045416860516
+  },
+  '82ef8ffffffffff': {
+    place: 'Antarctica',
+    lon: -13.745329621448459,
+    lat: -76.78902396856662
+  },
+  '82ef97fffffffff': {
+    place: 'Antarctica',
+    lon: 9.475744642426244,
+    lat: -76.63483910560647
+  },
+  '82ef9ffffffffff': {
+    place: 'Antarctica',
+    lon: -2.180970672255527,
+    lat: -75.42722906322555
+  },
+  '82efa7fffffffff': {
+    place: 'Antarctica',
+    lon: -1.0092196445435515,
+    lat: -81.60360244975543
+  },
+  '82efaffffffffff': {
+    place: 'Antarctica',
+    lon: -16.708271147912583,
+    lat: -79.84108364456364
+  },
+  '82efb7fffffffff': {
+    place: 'Antarctica',
+    lon: 13.285161399395433,
+    lat: -79.6036696343507
+  },
+  '82f007fffffffff': {
+    place: 'Antarctica',
+    lon: 72.57079775696253,
+    lat: -79.22098635627603
+  },
+  '82f00ffffffffff': {
+    place: 'Antarctica',
+    lon: 58.91797239144117,
+    lat: -78.105775597577
+  },
+  '82f017fffffffff': {
+    place: 'Antarctica',
+    lon: 81.2475026666083,
+    lat: -77.08368530853505
+  },
+  '82f01ffffffffff': {
+    place: 'Antarctica',
+    lon: 68.84643758450862,
+    lat: -76.43032163711057
+  },
+  '82f027fffffffff': {
+    place: 'Antarctica',
+    lon: 78.80872276201697,
+    lat: -81.9369326156413
+  },
+  '82f02ffffffffff': {
+    place: 'Antarctica',
+    lon: 60.11269850214995,
+    lat: -81.00693141601386
+  },
+  '82f037fffffffff': {
+    place: 'Antarctica',
+    lon: 88.25275299598509,
+    lat: -79.63126029837338
+  },
+  '82f047fffffffff': {
+    place: 'Antarctica',
+    lon: 35.78181534981506,
+    lat: -77.13189781882
+  },
+  '82f04ffffffffff': {
+    place: 'Antarctica',
+    lon: 28.700922578728015,
+    lat: -74.6660475438508
+  },
+  '82f057fffffffff': {
+    place: 'Antarctica',
+    lon: 47.924864382023294,
+    lat: -76.43409735930246
+  },
+  '82f05ffffffffff': {
+    place: 'Antarctica',
+    lon: 39.467386146448014,
+    lat: -74.37332718194168
+  },
+  '82f067fffffffff': {
+    place: 'Antarctica',
+    lon: 30.006367249068788,
+    lat: -79.86990904823739
+  },
+  '82f06ffffffffff': {
+    place: 'Antarctica',
+    lon: 22.53003487973321,
+    lat: -77.21873151195844
+  },
+  '82f077fffffffff': {
+    place: 'Antarctica',
+    lon: 45.84975059264747,
+    lat: -79.3124827746171
+  },
+  '82f087fffffffff': {
+    place: 'Antarctica',
+    lon: 82.48854510808061,
+    lat: -72.0285226660569
+  },
+  '82f08ffffffffff': {
+    place: 'Antarctica',
+    lon: 73.11142090180647,
+    lat: -71.54661521525439
+  },
+  '82f097fffffffff': {
+    place: 'Antarctica',
+    lon: 87.2077397184457,
+    lat: -69.48362998543021
+  },
+  '82f09ffffffffff': {
+    place: 'Antarctica',
+    lon: 78.65985720022536,
+    lat: -69.27160848125837
+  },
+  '82f0a7fffffffff': {
+    place: 'Antarctica',
+    lon: 87.57203164001871,
+    lat: -74.66290158608362
+  },
+  '82f0affffffffff': {
+    place: 'Antarctica',
+    lon: 76.49926442958584,
+    lat: -74.36671452760193
+  },
+  '82f0b7fffffffff': {
+    place: 'Antarctica',
+    lon: 92.28079509119637,
+    lat: -72.03930546142755
+  },
+  '82f0c7fffffffff': {
+    place: 'Antarctica',
+    lon: 57.554494601066025,
+    lat: -72.36089262509621
+  },
+  '82f0cffffffffff': {
+    place: 'Antarctica',
+    lon: 50.18254811189066,
+    lat: -70.86556240226473
+  },
+  '82f0d7fffffffff': {
+    place: 'Antarctica',
+    lon: 64.57262913027053,
+    lat: -70.65636215462789
+  },
+  '82f0dffffffffff': {
+    place: 'Antarctica',
+    lon: 57.08498587668121,
+    lat: -69.44301593765078
+  },
+  '82f0e7fffffffff': {
+    place: 'Antarctica',
+    lon: 58.19920379353938,
+    lat: -75.2621492779995
+  },
+  '82f0effffffffff': {
+    place: 'Antarctica',
+    lon: 49.256477576218025,
+    lat: -73.61301616285313
+  },
+  '82f0f7fffffffff': {
+    place: 'Antarctica',
+    lon: 66.35283950719065,
+    lat: -73.56539130477911
+  },
+  '82f107fffffffff': {
+    place: 'Antarctica',
+    lon: 117.76938254618246,
+    lat: -83.64732216284148
+  },
+  '82f10ffffffffff': {
+    place: 'Antarctica',
+    lon: 91.21001031265699,
+    lat: -84.49813244405999
+  },
+  '82f117fffffffff': {
+    place: 'Antarctica',
+    lon: 117.59738081295231,
+    lat: -80.91878857415297
+  },
+  '82f11ffffffffff': {
+    place: 'Antarctica',
+    lon: 99.15942209452173,
+    lat: -81.88978879378644
+  },
+  '82f127fffffffff': {
+    place: 'Antarctica',
+    lon: 145.2010254900214,
+    lat: -84.36253654042623
+  },
+  '82f12ffffffffff': {
+    place: 'Unknown',
+    lon: 120.47661631419396,
+    lat: -86.43907427658755
+  },
+  '82f137fffffffff': {
+    place: 'Antarctica',
+    lon: 134.97181531894535,
+    lat: -81.901373362846
+  },
+  '82f147fffffffff': {
+    place: 'Unknown',
+    lon: 34.08592245213711,
+    lat: -85.10128295882876
+  },
+  '82f14ffffffffff': {
+    place: 'Antarctica',
+    lon: 19.982493565272154,
+    lat: -82.47648932059906
+  },
+  '82f157fffffffff': {
+    place: 'Antarctica',
+    lon: 62.486449969667426,
+    lat: -83.9474891154098
+  },
+  '82f15ffffffffff': {
+    place: 'Antarctica',
+    lon: 42.18245685909154,
+    lat: -82.22175944343445
+  },
+  '82f167fffffffff': {
+    place: 'Unknown',
+    lon: 6.08626003654431,
+    lat: -87.65342401576864
+  },
+  '82f16ffffffffff': {
+    place: 'Antarctica',
+    lon: 0.5603136241199149,
+    lat: -84.6571776089791
+  },
+  '82f177fffffffff': {
+    place: 'Unknown',
+    lon: 69.41516641295391,
+    lat: -86.88988501761173
+  },
+  '82f187fffffffff': {
+    place: 'Antarctica',
+    lon: 107.30944985108779,
+    lat: -76.46405454214351
+  },
+  '82f18ffffffffff': {
+    place: 'Antarctica',
+    lon: 94.51148955667855,
+    lat: -77.1044762683238
+  },
+  '82f197fffffffff': {
+    place: 'Antarctica',
+    lon: 109.42881108682113,
+    lat: -73.57860336943324
+  },
+  '82f19ffffffffff': {
+    place: 'Antarctica',
+    lon: 98.82208898325183,
+    lat: -74.39657636530443
+  },
+  '82f1a7fffffffff': {
+    place: 'Antarctica',
+    lon: 118.18393532810158,
+    lat: -78.12002536052441
+  },
+  '82f1affffffffff': {
+    place: 'Antarctica',
+    lon: 104.18463973761921,
+    lat: -79.24544463441127
+  },
+  '82f1b7fffffffff': {
+    place: 'Antarctica',
+    lon: 118.55808561948916,
+    lat: -75.23681204618977
+  },
+  '82f207fffffffff': {
+    place: 'Antarctica',
+    lon: -141.97659299203013,
+    lat: -79.24239850975904
+  },
+  '82f20ffffffffff': {
+    place: 'Antarctica',
+    lon: -128.29546173051344,
+    lat: -78.12815469994875
+  },
+  '82f217fffffffff': {
+    place: 'Antarctica',
+    lon: -148.24277228009257,
+    lat: -81.95749230923278
+  },
+  '82f21ffffffffff': {
+    place: 'Antarctica',
+    lon: -129.49536523045813,
+    lat: -81.02927615685503
+  },
+  '82f227fffffffff': {
+    place: 'Unknown',
+    lon: -150.40130267227346,
+    lat: -77.18429028214919
+  },
+  '82f22ffffffffff': {
+    place: 'Antarctica',
+    lon: -138.2927691304176,
+    lat: -76.50272674900336
+  },
+  '82f237fffffffff': {
+    place: 'Unknown',
+    lon: -157.40007340776933,
+    lat: -79.64968157777277
+  },
+  '82f257fffffffff': {
+    place: 'Antarctica',
+    lon: -117.2836778226191,
+    lat: -76.45633432807469
+  },
+  '82f277fffffffff': {
+    place: 'Antarctica',
+    lon: -127.57428593798609,
+    lat: -75.28454433859415
+  },
+  '82f287fffffffff': {
+    place: 'Unknown',
+    lon: -138.8872015186882,
+    lat: -86.91162807735891
+  },
+  '82f28ffffffffff': {
+    place: 'Unknown',
+    lon: -103.36156863459163,
+    lat: -85.12217813245825
+  },
+  '82f297fffffffff': {
+    place: 'Unknown',
+    lon: 144.46768215019625,
+    lat: -89.24152402631138
+  },
+  '82f29ffffffffff': {
+    place: 'Unknown',
+    lon: -75.04004293693619,
+    lat: -87.66800580539115
+  },
+  '82f2a7fffffffff': {
+    place: 'Unknown',
+    lon: -160.7177395047083,
+    lat: -84.5162817685401
+  },
+  '82f2affffffffff': {
+    place: 'Antarctica',
+    lon: -131.8837357173752,
+    lat: -83.96973654558697
+  },
+  '82f2b7fffffffff': {
+    place: 'Unknown',
+    lon: 169.8247321008489,
+    lat: -86.44843513882556
+  },
+  '82f2c7fffffffff': {
+    place: 'Antarctica',
+    lon: -99.32339375214438,
+    lat: -79.89017588170798
+  },
+  '82f2cffffffffff': {
+    place: 'Antarctica',
+    lon: -91.84721695929908,
+    lat: -77.237577560396
+  },
+  '82f2d7fffffffff': {
+    place: 'Antarctica',
+    lon: -89.25485005068997,
+    lat: -82.49477159008154
+  },
+  '82f2dffffffffff': {
+    place: 'Antarctica',
+    lon: -82.57398714152689,
+    lat: -79.62031510278725
+  },
+  '82f2e7fffffffff': {
+    place: 'Antarctica',
+    lon: -115.20095727382507,
+    lat: -79.33460040070023
+  },
+  '82f2effffffffff': {
+    place: 'Antarctica',
+    lon: -105.11972805466918,
+    lat: -77.1530287165691
+  },
+  '82f2f7fffffffff': {
+    place: 'Antarctica',
+    lon: -111.51584059303167,
+    lat: -82.24359489028201
+  },
+  '82f387fffffffff': {
+    place: 'Unknown',
+    lon: 173.76856744570543,
+    lat: -80.95359378981291
+  },
+  '82f38ffffffffff': {
+    place: 'Unknown',
+    lon: -168.6394270204626,
+    lat: -81.9059462462142
+  },
+  '82f397fffffffff': {
+    place: 'Antarctica',
+    lon: 155.50229963535756,
+    lat: -81.90536935625103
+  },
+  '82f39ffffffffff': {
+    place: 'Unknown',
+    lon: 172.68095885060302,
+    lat: -83.6576608516349
+  },
+  '82f3a7fffffffff': {
+    place: 'Unknown',
+    lon: 174.34149108425044,
+    lat: -78.34754604113641
+  },
+  '82f3affffffffff': {
+    place: 'Unknown',
+    lon: -172.5678767895122,
+    lat: -79.31333152779241
+  },
+  '82f3b7fffffffff': {
+    place: 'Antarctica',
+    lon: 160.7930131905756,
+    lat: -79.40196958232153
   }
 }
