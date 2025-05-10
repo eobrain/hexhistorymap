@@ -30,7 +30,7 @@ async function main () {
       [lat, lon] = h3.cellToLatLng(cell)
     }
     if (isLand(cell)) {
-      if (!place) {
+      if (!place || place === 'Error') {
         place = await geocode(lat, lon)
         await sleep(1000)
       }

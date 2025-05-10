@@ -8060,7 +8060,7 @@ export default {
     lat: -54.93202136623231
   },
   '82df6ffffffffff': {
-    place: 'Error',
+    place: 'Timaukel, Provincia de Tierra del Fuego, Chile',
     lon: -70.25857616177534,
     lat: -53.654662143160905
   },
