@@ -1,13 +1,11 @@
 // import * as h3 from 'h3-js'
 import hexList from './hex-list.js'
+import { cellTreeIndices } from './utils.js'
 
 const data = {}
 
 for (const cell in hexList) {
-  const fourHexDigits = cell.replace(/82(....)fffffffff/, '$1')
-  const int = parseInt(fourHexDigits, 16)
-  const base = (int >> 9) & 0x7f
-  const index1 = (int >> 6) & 0x7
+  const { base, index1 } = cellTreeIndices(cell)
   if (!data[base]) {
     data[base] = {}
   }
