@@ -7,6 +7,8 @@ import { stateOf } from './utils.js'
 
 /* global h3 */
 
+const year = 2025
+
 const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
 
 const hexFeatures = Object.entries(hexList).map(([cell, { lat, lon, place }]) => {
@@ -62,7 +64,7 @@ canvas.addEventListener('click', (event) => {
   const [lon, lat] = point
   const cell = h3.latLngToCell(lat, lon, 2)
   // const { place } = hexList[cell] || {}
-  const { place, state } = stateOf(cell, 1800)
+  const { place, state } = stateOf(cell, year)
   if (place) {
     $popup.style.display = 'block'
     $popup.style.left = `${event.clientX}px`
