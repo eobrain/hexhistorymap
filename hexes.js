@@ -702,7 +702,7 @@ export default {
   },
   6: {
     0: {
-      states: ['USA'],
+      states: ['USA/Alaska', 'Russian Empire/Alaska'],
       hexes: {
         '820c07fffffffff': {
           states: [],
@@ -731,7 +731,7 @@ export default {
       }
     },
     1: {
-      states: ['USA'],
+      states: ['USA/Alaska', 'Russian Empire/Alaska'],
       hexes: {
         '820c57fffffffff': {
           states: [],
@@ -752,7 +752,7 @@ export default {
       }
     },
     3: {
-      states: ['USA'],
+      states: ['USA/Alaska', 'Russian Empire/Alaska'],
       hexes: {
         '820ce7fffffffff': {
           states: [],
@@ -765,7 +765,7 @@ export default {
       }
     },
     4: {
-      states: ['USA'],
+      states: ['USA/Alaska', 'Russian Empire/Alaska'],
       hexes: {
         '820d0ffffffffff': {
           states: [],
@@ -781,7 +781,7 @@ export default {
       states: [],
       hexes: {
         '820d47fffffffff': {
-          states: ['USA'],
+          states: ['USA/Alaska', 'Russian Empire/Alaska'],
           place: 'Unorganized Borough, Alaska, United States of America'
         },
         '820d4ffffffffff': {
@@ -789,11 +789,11 @@ export default {
           place: 'Yukon, Canada'
         },
         '820d57fffffffff': {
-          states: ['USA'],
+          states: ['USA/Alaska', 'Russian Empire/Alaska'],
           place: 'Unorganized Borough, Alaska, United States of America'
         },
         '820d5ffffffffff': {
-          states: ['USA'],
+          states: ['USA/Alaska', 'Russian Empire/Alaska'],
           place: 'Fairbanks North Star Borough, Alaska, United States of America'
         },
         '820d67fffffffff': {
@@ -805,7 +805,7 @@ export default {
           place: 'Yukon, Canada'
         },
         '820d77fffffffff': {
-          states: ['USA'],
+          states: ['USA/Alaska', 'Russian Empire/Alaska'],
           place: 'North Slope Borough, Alaska, United States of America'
         }
       }

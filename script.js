@@ -62,7 +62,7 @@ canvas.addEventListener('click', (event) => {
   const [lon, lat] = point
   const cell = h3.latLngToCell(lat, lon, 2)
   // const { place } = hexList[cell] || {}
-  const { place, state } = stateOf(cell, 2025)
+  const { place, state } = stateOf(cell, 1800)
   if (place) {
     $popup.style.display = 'block'
     $popup.style.left = `${event.clientX}px`

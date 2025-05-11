@@ -109,11 +109,23 @@ export default {
   },
   'Russian Empire': {
     begin: 1721,
-    end: 1917
+    end: 1917,
+    parts: {
+      Alaska: {
+        begin: 1784,
+        end: 1867
+      }
+    }
   },
   USA: {
     begin: 1776,
-    end: 2025
+    end: 2025,
+    parts: {
+      Alaska: {
+        begin: 1867,
+        end: 2025
+      }
+    }
   },
   'Empire of Brazil': {
     begin: 1822,
