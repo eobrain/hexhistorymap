@@ -7,3 +7,9 @@ hex-list-new.js:
   deps:
     - make-hex-list.js
   exec: . ./secrets.env && node $<  >$@
+
+hexes.js:
+  deps:
+  - make-data.js
+  - hex-list.js
+  exec: node  $<  >$@
