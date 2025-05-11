@@ -111,7 +111,7 @@ export default {
     begin: 1721,
     end: 1917
   },
-  'United States of America': {
+  USA: {
     begin: 1776,
     end: 2025
   },

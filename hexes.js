@@ -1,7 +1,7 @@
 export default {
   0: {
     1: {
-      states: [],
+      states: ['Denmark'],
       hexes: {
         '82006ffffffffff': {
           states: [],
@@ -10,7 +10,7 @@ export default {
       }
     },
     5: {
-      states: [],
+      states: ['Norway'],
       hexes: {
         '820157fffffffff': {
           states: [],
@@ -19,7 +19,7 @@ export default {
       }
     },
     6: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820187fffffffff': {
           states: [],
@@ -30,7 +30,7 @@ export default {
   },
   1: {
     0: {
-      states: [],
+      states: ['Canada'],
       hexes: {
         '82020ffffffffff': {
           states: [],
@@ -47,7 +47,7 @@ export default {
       }
     },
     1: {
-      states: [],
+      states: ['Canada'],
       hexes: {
         '820247fffffffff': {
           states: [],
@@ -68,7 +68,7 @@ export default {
       }
     },
     2: {
-      states: [],
+      states: ['Canada'],
       hexes: {
         '82028ffffffffff': {
           states: [],
@@ -77,7 +77,7 @@ export default {
       }
     },
     3: {
-      states: [],
+      states: ['Canada'],
       hexes: {
         '8202c7fffffffff': {
           states: [],
@@ -105,27 +105,27 @@ export default {
       states: [],
       hexes: {
         '820347fffffffff': {
-          states: [],
+          states: ['Denmark'],
           place: 'Avannaata, Greenland'
         },
         '82034ffffffffff': {
-          states: [],
+          states: ['Denmark'],
           place: 'Avannaata, Greenland'
         },
         '820357fffffffff': {
-          states: [],
+          states: ['Canada'],
           place: 'Qikiqtaaluk Region, Nunavut, Canada'
         },
         '82035ffffffffff': {
-          states: [],
+          states: ['Canada'],
           place: 'Qikiqtaaluk Region, Nunavut, Canada'
         },
         '820367fffffffff': {
-          states: [],
+          states: ['Denmark'],
           place: 'Greenland'
         },
         '82036ffffffffff': {
-          states: [],
+          states: ['Denmark'],
           place: 'Greenland'
         }
       }
@@ -136,13 +136,13 @@ export default {
       states: [],
       hexes: {
         '820417fffffffff': {
-          states: [],
+          states: ['Russia'],
           place: 'Sakha Republic, Russia'
         }
       }
     },
     2: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820487fffffffff': {
           states: [],
@@ -175,7 +175,7 @@ export default {
       }
     },
     3: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '8204c7fffffffff': {
           states: [],
@@ -200,7 +200,7 @@ export default {
       }
     },
     4: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820517fffffffff': {
           states: [],
@@ -217,7 +217,7 @@ export default {
       }
     },
     6: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820587fffffffff': {
           states: [],
@@ -252,7 +252,7 @@ export default {
   },
   3: {
     0: {
-      states: [],
+      states: ['Denmark'],
       hexes: {
         '820607fffffffff': {
           states: [],
@@ -281,7 +281,7 @@ export default {
       }
     },
     2: {
-      states: [],
+      states: ['Denmark'],
       hexes: {
         '820687fffffffff': {
           states: [],
@@ -306,7 +306,7 @@ export default {
       }
     },
     3: {
-      states: [],
+      states: ['Denmark'],
       hexes: {
         '8206c7fffffffff': {
           states: [],
@@ -335,7 +335,7 @@ export default {
       }
     },
     5: {
-      states: [],
+      states: ['Iceland'],
       hexes: {
         '820747fffffffff': {
           states: [],
@@ -344,7 +344,7 @@ export default {
       }
     },
     6: {
-      states: [],
+      states: ['Denmark'],
       hexes: {
         '820787fffffffff': {
           states: [],
@@ -378,11 +378,11 @@ export default {
       states: [],
       hexes: {
         '820817fffffffff': {
-          states: [],
+          states: ['Norway'],
           place: 'Røros, Trøndelag, Norway'
         },
         '82081ffffffffff': {
-          states: [],
+          states: ['Sweden'],
           place: 'Dorotea kommun, Västerbotten County, Sweden'
         }
       }
@@ -391,27 +391,27 @@ export default {
       states: [],
       hexes: {
         '820887fffffffff': {
-          states: [],
+          states: ['Sweden'],
           place: 'Östra Tränsjövägen, Östhammars kommun, Sweden'
         },
         '82088ffffffffff': {
-          states: [],
+          states: ['Finland'],
           place: 'Siikainen, Satakunta, Finland'
         },
         '82089ffffffffff': {
-          states: [],
+          states: ['Estonia'],
           place: 'Lääne County, Estonia'
         },
         '8208a7fffffffff': {
-          states: [],
+          states: ['Sweden'],
           place: 'unnamed road, Malung-Sälens kommun, Sweden'
         },
         '8208affffffffff': {
-          states: [],
+          states: ['Sweden'],
           place: 'Gamla Klingstavägen, 853 58 Tuna District, Sweden'
         },
         '8208b7fffffffff': {
-          states: [],
+          states: ['Sweden'],
           place: 'O 3033, Karlsborgs kommun, Sweden'
         }
       }
@@ -420,37 +420,37 @@ export default {
       states: [],
       hexes: {
         '8208c7fffffffff': {
-          states: [],
+          states: ['Finland'],
           place: 'Huhtavaarantie, Ylitornio, Finland'
         },
         '8208cffffffffff': {
-          states: [],
+          states: ['Finland'],
           place: 'Inari, Lapland, Finland'
         },
         '8208d7fffffffff': {
-          states: [],
+          states: ['Finland'],
           place: 'unnamed road, 85660 Haapavesi, Finland'
         },
         '8208dffffffffff': {
-          states: [],
+          states: ['Finland'],
           place: 'Mikonkorventie, Kuusamo, Finland'
         },
         '8208e7fffffffff': {
-          states: [],
+          states: ['Sweden'],
           place: 'Jokkmokks kommun, Norrbotten County, Sweden'
         },
         '8208effffffffff': {
-          states: [],
+          states: ['Sweden'],
           place: 'Kiruna kommun, Norrbotten County, Sweden'
         },
         '8208f7fffffffff': {
-          states: [],
+          states: ['Sweden'],
           place: 'unnamed road, Grans sameby, Sweden'
         }
       }
     },
     6: {
-      states: [],
+      states: ['Norway'],
       hexes: {
         '820987fffffffff': {
           states: [],
@@ -469,7 +469,7 @@ export default {
   },
   5: {
     0: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820a07fffffffff': {
           states: [],
@@ -502,7 +502,7 @@ export default {
       }
     },
     1: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820a47fffffffff': {
           states: [],
@@ -535,7 +535,7 @@ export default {
       }
     },
     2: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820a87fffffffff': {
           states: [],
@@ -568,7 +568,7 @@ export default {
       }
     },
     3: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820ac7fffffffff': {
           states: [],
@@ -601,7 +601,7 @@ export default {
       }
     },
     4: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820b07fffffffff': {
           states: [],
@@ -634,7 +634,7 @@ export default {
       }
     },
     5: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820b47fffffffff': {
           states: [],
@@ -667,7 +667,7 @@ export default {
       }
     },
     6: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820b87fffffffff': {
           states: [],
@@ -702,7 +702,7 @@ export default {
   },
   6: {
     0: {
-      states: [],
+      states: ['USA'],
       hexes: {
         '820c07fffffffff': {
           states: [],
@@ -731,7 +731,7 @@ export default {
       }
     },
     1: {
-      states: [],
+      states: ['USA'],
       hexes: {
         '820c57fffffffff': {
           states: [],
@@ -752,7 +752,7 @@ export default {
       }
     },
     3: {
-      states: [],
+      states: ['USA'],
       hexes: {
         '820ce7fffffffff': {
           states: [],
@@ -765,7 +765,7 @@ export default {
       }
     },
     4: {
-      states: [],
+      states: ['USA'],
       hexes: {
         '820d0ffffffffff': {
           states: [],
@@ -781,37 +781,37 @@ export default {
       states: [],
       hexes: {
         '820d47fffffffff': {
-          states: [],
+          states: ['USA'],
           place: 'Unorganized Borough, Alaska, United States of America'
         },
         '820d4ffffffffff': {
-          states: [],
+          states: ['Canada'],
           place: 'Yukon, Canada'
         },
         '820d57fffffffff': {
-          states: [],
+          states: ['USA'],
           place: 'Unorganized Borough, Alaska, United States of America'
         },
         '820d5ffffffffff': {
-          states: [],
+          states: ['USA'],
           place: 'Fairbanks North Star Borough, Alaska, United States of America'
         },
         '820d67fffffffff': {
-          states: [],
+          states: ['Canada'],
           place: 'Inuvik Region, Northwest Territories, Canada'
         },
         '820d6ffffffffff': {
-          states: [],
+          states: ['Canada'],
           place: 'Yukon, Canada'
         },
         '820d77fffffffff': {
-          states: [],
+          states: ['USA'],
           place: 'North Slope Borough, Alaska, United States of America'
         }
       }
     },
     6: {
-      states: [],
+      states: ['Russia'],
       hexes: {
         '820d87fffffffff': {
           states: [],
@@ -830,7 +830,7 @@ export default {
   },
   7: {
     0: {
-      states: [],
+      states: ['Canada'],
       hexes: {
         '820e07fffffffff': {
           states: [],
@@ -847,7 +847,7 @@ export default {
       }
     },
     1: {
-      states: [],
+      states: ['Canada'],
       hexes: {
         '820e47fffffffff': {
           states: [],
@@ -880,7 +880,7 @@ export default {
       }
     },
     2: {
-      states: [],
+      states: ['Canada'],
       hexes: {
         '820e87fffffffff': {
           states: [],

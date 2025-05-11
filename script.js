@@ -3,7 +3,7 @@ import hexList from './hex-list.js'
 import { select } from 'https://esm.sh/d3-selection'
 import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
-import { treePlace } from './utils.js'
+import { stateOf } from './utils.js'
 
 /* global h3 */
 
@@ -62,11 +62,11 @@ canvas.addEventListener('click', (event) => {
   const [lon, lat] = point
   const cell = h3.latLngToCell(lat, lon, 2)
   // const { place } = hexList[cell] || {}
-  const place = treePlace(cell)
+  const { place, state } = stateOf(cell, 2025)
   if (place) {
     $popup.style.display = 'block'
     $popup.style.left = `${event.clientX}px`
     $popup.style.top = `${event.clientY}px`
-    $popup.innerHTML = `${place}`
+    $popup.innerHTML = `<div>${place}</div><div>${state}</div>`
   }
 })

@@ -9,10 +9,14 @@ export const cellTreeIndices = cell => {
   }
 }
 
-export const treePlace = cell => {
+export const stateOf = (cell, year) => {
   const { base, index1 } = cellTreeIndices(cell)
   if (!hexes[base] || !hexes[base][index1]) {
-    return null
+    return { place: null, state: null }
   }
-  return hexes[base][index1].hexes[cell].place
+  const parent = hexes[base][index1]
+  const place = parent.hexes[cell].place
+  const states = [...parent.states, ...parent.hexes[cell].states]
+  const state = states.length === 0 ? null : states[0]
+  return { place, state }
 }
