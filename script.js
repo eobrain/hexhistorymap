@@ -5,7 +5,7 @@ import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-
 import { json } from 'https://esm.sh/d3-fetch'
 import { treePlace } from './utils.js'
 
-/* global h3, alert */
+/* global h3 */
 
 const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
 
@@ -52,6 +52,8 @@ context.beginPath()
 geoGenerator({ type: 'FeatureCollection', features: hexFeatures })
 context.stroke()
 
+const $popup = document.getElementById('popup')
+
 canvas.addEventListener('click', (event) => {
   const rect = canvas.getBoundingClientRect()
   const x = event.clientX - rect.left
@@ -62,6 +64,9 @@ canvas.addEventListener('click', (event) => {
   // const { place } = hexList[cell] || {}
   const place = treePlace(cell)
   if (place) {
-    alert(`${place}`)
+    $popup.style.display = 'block'
+    $popup.style.left = `${event.clientX}px`
+    $popup.style.top = `${event.clientY}px`
+    $popup.innerHTML = `${place}`
   }
 })
