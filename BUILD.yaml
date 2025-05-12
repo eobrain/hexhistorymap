@@ -19,5 +19,11 @@ yaml:
     - to-yaml.js
     - hexes.js
     - states.js
-  exec: node $< && touch yaml
-  
+  exec: node $<  && touch $@
+
+js:
+  deps:
+    - from-yaml.js
+    - hexes.yaml
+    - states.yaml
+  exec: node $< && touch $@
