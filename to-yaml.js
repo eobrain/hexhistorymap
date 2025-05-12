@@ -3,5 +3,7 @@ import states from './states.js'
 import { dump } from 'js-yaml'
 import fs from 'fs'
 
-fs.writeFileSync('hexes.yaml', dump(hexes))
-fs.writeFileSync('states.yaml', dump(states))
+const sortKeys = true
+
+fs.writeFileSync('hexes.yaml', dump(hexes), {sortKeys})
+fs.writeFileSync('states.yaml', dump(states), {sortKeys})
