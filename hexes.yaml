@@ -725,7 +725,8 @@
         states: []
         place: Kivalliq Region, Nunavut, Canada
   '3':
-    states: []
+    states:
+      - Canada
     hexes:
       820ec7fffffffff:
         states: []
@@ -749,7 +750,8 @@
         states: []
         place: Qikiqtaaluk Region, Nunavut, Canada
   '4':
-    states: []
+    states:
+      - Canada
     hexes:
       820f07fffffffff:
         states: []
@@ -767,13 +769,15 @@
         states: []
         place: Qikiqtaaluk Region, Nunavut, Canada
   '5':
-    states: []
+    states:
+      - Canada
     hexes:
       820f5ffffffffff:
         states: []
         place: Rivière-Koksoak, Quebec, Canada
   '6':
-    states: []
+    states:
+      - Canada
     hexes:
       820f87fffffffff:
         states: []
@@ -795,7 +799,8 @@
         place: Kitikmeot Region, Nunavut, Canada
 '8':
   '0':
-    states: []
+    states:
+      - Russia
     hexes:
       821007fffffffff:
         states: []
@@ -819,7 +824,8 @@
         states: []
         place: Грязовецкий муниципальный округ, Russia
   '1':
-    states: []
+    states:
+      - Russia
     hexes:
       821047fffffffff:
         states: []
@@ -843,7 +849,8 @@
         states: []
         place: сельское поселение Замежная, Ust-Tsilemsky District, Russia
   '2':
-    states: []
+    states:
+      - Russia
     hexes:
       821087fffffffff:
         states: []
@@ -867,7 +874,8 @@
         states: []
         place: Симоновское сельское поселение, Kalininsky District, Russia
   '3':
-    states: []
+    states:
+      - Russia
     hexes:
       8210c7fffffffff:
         states: []
@@ -894,28 +902,36 @@
     states: []
     hexes:
       821107fffffffff:
-        states: []
+        states:
+          - Russia
         place: Рахьинское городское поселение, Vsevolozhsky District, Russia
       82110ffffffffff:
-        states: []
+        states:
+          - Russia
         place: Чёлмужское сельское поселение, Medvezhyegorsky District, Russia
       821117fffffffff:
-        states: []
+        states:
+          - Russia
         place: Полавское сельское поселение, Parfinsky District, Russia
       82111ffffffffff:
-        states: []
+        states:
+          - Russia
         place: Игумново, Бабаевский муниципальный округ, Russia
       821127fffffffff:
-        states: []
+        states:
+          - Finland
         place: Mikkelintie, 52730 Mäntyharju, Finland
       82112ffffffffff:
-        states: []
+        states:
+          - Finland
         place: Karhunpolku, Lieksa, Finland
       821137fffffffff:
-        states: []
+        states:
+          - Russia
         place: Gdovsky District, Russia
   '5':
-    states: []
+    states:
+      - Russia
     hexes:
       821147fffffffff:
         states: []
@@ -933,7 +949,8 @@
         states: []
         place: Republic of Karelia, Russia, 186620
   '6':
-    states: []
+    states:
+      - Russia
     hexes:
       821187fffffffff:
         states: []
@@ -958,7 +975,8 @@
         place: Чаусовское сельское поселение, Pogarsky District, Russia
 '9':
   '0':
-    states: []
+    states:
+      - Canada
     hexes:
       821207fffffffff:
         states: []
@@ -982,7 +1000,8 @@
         states: []
         place: Dehcho Region, Northwest Territories, Canada
   '1':
-    states: []
+    states:
+      - Canada
     hexes:
       821247fffffffff:
         states: []
@@ -1009,49 +1028,63 @@
     states: []
     hexes:
       821287fffffffff:
-        states: []
+        states:
+          - Canada
         place: Area C (Butedale/Kitlope/Kitsumkalum), British Columbia, Canada
       82128ffffffffff:
-        states: []
+        states:
+          - Canada
         place: Area J (West Chilcotin), British Columbia, Canada
       82129ffffffffff:
-        states: []
+        states:
+          - Canada
         place: Area A (Ocean Falls/Outer Coast), British Columbia, Canada
       8212a7fffffffff:
-        states: []
+        states:
+          - Canada
         place: Area A (Nass Valley/Bell Irving), British Columbia, Canada
       8212affffffffff:
-        states: []
+        states:
+          - Canada
         place: Area C (Stuart Lake/Omineca Valley), British Columbia, Canada
       8212b7fffffffff:
-        states: []
+        states:
+          - USA/Alaska
         place: Ketchikan Gateway Borough, Alaska, United States of America
   '3':
     states: []
     hexes:
       8212c7fffffffff:
-        states: []
+        states:
+          - Canada
         place: Area A (Kicking Horse/Kinbasket Lake), British Columbia, Canada
       8212cffffffffff:
-        states: []
+        states:
+          - Canada
         place: Municipal District of Willow Creek No. 26, AB T0L 0Z0, Canada
       8212d7fffffffff:
-        states: []
+        states:
+          - Canada
         place: Area J (Copper Desert Country), British Columbia, Canada
       8212dffffffffff:
-        states: []
+        states:
+          - USA
         place: Pend Oreille County, Washington, United States of America
       8212e7fffffffff:
-        states: []
+        states:
+          - Canada
         place: Woodlands County, Alberta, Canada
       8212effffffffff:
-        states: []
+        states:
+          - Canada
         place: County of Stettler, AB, Canada
       8212f7fffffffff:
-        states: []
+        states:
+          - Canada
         place: Area H (Robson Valley/Canoe), BC V0J, Canada
   '4':
-    states: []
+    states:
+      - Canada
     hexes:
       821307fffffffff:
         states: []
@@ -1075,7 +1108,8 @@
         states: []
         place: Sahtu Region, Northwest Territories, Canada
   '5':
-    states: []
+    states:
+      - Canada
     hexes:
       821347fffffffff:
         states: []
@@ -1099,7 +1133,8 @@
         states: []
         place: Kitikmeot Region, Nunavut, Canada
   '6':
-    states: []
+    states:
+      - Canada
     hexes:
       821387fffffffff:
         states: []
@@ -1124,7 +1159,8 @@
         place: Yukon, Canada
 '10':
   '0':
-    states: []
+    states:
+      - Russia
     hexes:
       821407fffffffff:
         states: []
@@ -1148,7 +1184,8 @@
         states: []
         place: Тындинский муниципальный округ, Russia
   '1':
-    states: []
+    states:
+      - Russia
     hexes:
       821447fffffffff:
         states: []
@@ -1172,25 +1209,32 @@
     states: []
     hexes:
       821487fffffffff:
-        states: []
+        states:
+          - China
         place: 沾河林业局, Wudalianchi City, China
       82148ffffffffff:
-        states: []
+        states:
+          - Russia
         place: Jewish Autonomous Oblast, Russia, 679120
       821497fffffffff:
-        states: []
+        states:
+          - China
         place: Bayan County, Heilongjiang, China
       82149ffffffffff:
-        states: []
+        states:
+          - China
         place: Heilongjiang, Sifangtai District, Zhenxingzhonglu Subdistrict
       8214a7fffffffff:
-        states: []
+        states:
+          - China
         place: Hulunbuir, Oroqen Autonomous Banner, China
       8214affffffffff:
-        states: []
+        states:
+          - Russia
         place: Romnensky District, Russia
       8214b7fffffffff:
-        states: []
+        states:
+          - China
         place: Heilongjiang, Fuyu County, Youyi
   '3':
     states: []

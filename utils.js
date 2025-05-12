@@ -35,6 +35,9 @@ export const stateOf = (cell, year) => {
   const stateNames = [...parent.states, ...parent.hexes[cell].states]
   for (const state of stateNames) {
     const stateInfo = getStateInfo(state)
+    if (!stateInfo) {
+      throw new Error(`State not found: "${state}"`)
+    }
     if (stateInfo.begin <= year && stateInfo.end >= year) {
       return { place, state }
     }

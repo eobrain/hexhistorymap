@@ -5,5 +5,5 @@ import fs from 'fs'
 
 const sortKeys = true
 
-fs.writeFileSync('hexes.yaml', dump(hexes), {sortKeys})
-fs.writeFileSync('states.yaml', dump(states), {sortKeys})
+fs.writeFileSync('hexes.yaml', dump(hexes), { sortKeys })
+fs.writeFileSync('states.yaml', dump(states), { sortKeys })
