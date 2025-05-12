@@ -13,3 +13,11 @@ hexes.js:
   - make-data.js
   - hex-list.js
   exec: node  $<  >$@
+
+yaml:
+  deps:
+    - to-yaml.js
+    - hexes.js
+    - states.js
+  exec: node $< && touch yaml
+  
