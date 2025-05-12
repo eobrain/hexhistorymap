@@ -699,7 +699,7 @@ export default {
     begin: 1878,
     end: 2025
   },
-  'Russian Federation': {
+  Russia: {
     begin: 1991,
     end: 2025
   },

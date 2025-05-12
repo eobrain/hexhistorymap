@@ -4,6 +4,7 @@ import { select } from 'https://esm.sh/d3-selection'
 import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
 import { stateOf } from './utils.js'
+import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
 /* global h3 */
 
@@ -13,9 +14,10 @@ const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3
 
 const hexFeatures = Object.entries(hexList).map(([cell, { lat, lon, place }]) => {
   const coordinates = h3.cellsToMultiPolygon([cell], true)[0]
+  const { state } = stateOf(cell, year)
   return {
     type: 'Feature',
-    properties: { name: place },
+    properties: { cell, place, state },
     geometry: {
       type: 'Polygon',
       coordinates
@@ -53,6 +55,20 @@ context.stroke()
 context.beginPath()
 geoGenerator({ type: 'FeatureCollection', features: hexFeatures })
 context.stroke()
+
+const saturation = 50
+const lightness = 50
+hexFeatures.forEach(feature => {
+  context.beginPath()
+  geoGenerator(feature)
+  if (feature.properties.state) {
+    const hue = Math.floor(MurmurHash3(feature.properties.state).result() % 360)
+    context.strokeStyle = `hsl(${hue} ${saturation}% ${lightness}%)`
+  } else {
+    context.strokeStyle = 'white'
+  }
+  context.stroke()
+})
 
 const $popup = document.getElementById('popup')
 
