@@ -3,7 +3,7 @@ import hexList from './hex-list.js'
 import { select } from 'https://esm.sh/d3-selection'
 import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
-import { stateOf } from './utils.js'
+import { Milieu } from './utils.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
 /* global h3 */
@@ -14,7 +14,7 @@ const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3
 
 const hexFeatures = Object.entries(hexList).map(([cell, { lat, lon, place }]) => {
   const coordinates = h3.cellsToMultiPolygon([cell], true)[0]
-  const { state } = stateOf(cell, year)
+  const state = Milieu(cell, year).state()
   return {
     type: 'Feature',
     properties: { cell, place, state },
@@ -79,12 +79,11 @@ canvas.addEventListener('click', (event) => {
   const point = projection.invert([x, y])
   const [lon, lat] = point
   const cell = h3.latLngToCell(lat, lon, 2)
-  // const { place } = hexList[cell] || {}
-  const { place, state } = stateOf(cell, year)
-  if (place) {
+  const milieu = Milieu(cell, year)
+  if (milieu.place()) {
     $popup.style.display = 'block'
     $popup.style.left = `${event.clientX}px`
     $popup.style.top = `${event.clientY}px`
-    $popup.innerHTML = `<div>${place}</div><div>${state}</div>`
+    $popup.innerHTML = `<div>${milieu.place()}</div><div>${milieu.state()}</div>`
   }
 })
