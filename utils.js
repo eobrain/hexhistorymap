@@ -1,5 +1,8 @@
 import hexData from './hexes.js'
 import stateData from './states.js'
+import hexList from './hex-list.js'
+
+/* global h3 */
 
 const Hex = cellCode => {
   const fourHexDigits = cellCode.replace(/82(....)fffffffff/, '$1')
@@ -10,8 +13,14 @@ const Hex = cellCode => {
   const isValid = () => parent && parent.hexes[cellCode]
   const place = () => isValid() ? parent.hexes[cellCode].place : null
   const stateNames = () => isValid() ? [...parent.states, ...parent.hexes[cellCode].states] : []
-  return { isValid, place, stateNames }
+  const coordinates = () => h3.cellsToMultiPolygon([cellCode], true)[0]
+
+  return { isValid, place, stateNames, coordinates }
 }
+
+export const locateHex = (lat, lon) => Hex(h3.latLngToCell(lat, lon, 2))
+
+export const hexes = () => Object.keys(hexList).map(cell => Hex(cell))
 
 const State = stateName => {
   const stateSplit = stateName.split('/')
@@ -35,9 +44,7 @@ const State = stateName => {
   return { stateInfo, extantIn, name }
 }
 
-export const Milieu = (cellCode, year) => {
-  const hex = Hex(cellCode)
-  // const { base, index1 } = hex.indices()
+export const Milieu = (hex, year) => {
   let place = null
   let state = null
   if (hex.isValid()) {

@@ -1,23 +1,19 @@
-import hexList from './hex-list.js'
-// import states from './states.js'
 import { select } from 'https://esm.sh/d3-selection'
 import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
-import { Milieu } from './utils.js'
+import { Milieu, hexes, locateHex } from './utils.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
-
-/* global h3 */
 
 const year = 2025
 
 const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
 
-const hexFeatures = Object.entries(hexList).map(([cell, { lat, lon, place }]) => {
-  const coordinates = h3.cellsToMultiPolygon([cell], true)[0]
-  const state = Milieu(cell, year).state()
+const hexFeatures = hexes().map(hex => {
+  const coordinates = hex.coordinates()
+  const state = Milieu(hex, year).state()
   return {
     type: 'Feature',
-    properties: { cell, place, state },
+    properties: { state },
     geometry: {
       type: 'Polygon',
       coordinates
@@ -62,7 +58,7 @@ hexFeatures.forEach(feature => {
   context.beginPath()
   geoGenerator(feature)
   if (feature.properties.state) {
-    const hue = Math.floor(MurmurHash3(feature.properties.state).result() % 360)
+    const hue = Math.floor(MurmurHash3(feature.properties.state.name()).result() % 360)
     context.strokeStyle = `hsl(${hue} ${saturation}% ${lightness}%)`
   } else {
     context.strokeStyle = 'white'
@@ -76,10 +72,9 @@ canvas.addEventListener('click', (event) => {
   const rect = canvas.getBoundingClientRect()
   const x = event.clientX - rect.left
   const y = event.clientY - rect.top
-  const point = projection.invert([x, y])
-  const [lon, lat] = point
-  const cell = h3.latLngToCell(lat, lon, 2)
-  const milieu = Milieu(cell, year)
+  const [lon, lat] = projection.invert([x, y])
+  const hex = locateHex(lat, lon)
+  const milieu = Milieu(hex, year)
   if (milieu.place()) {
     $popup.style.display = 'block'
     $popup.style.left = `${event.clientX}px`
