@@ -4,16 +4,18 @@ import { json } from 'https://esm.sh/d3-fetch'
 import { Milieu, hexes, locateHex, yearRange } from './model.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
-const year = 2025
+/* global $yearControl, $yearDisplay */
+
+const { minYear, maxYear } = yearRange()
+let year = maxYear
 
 const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
 
 const hexFeatures = hexes().map(hex => {
   const coordinates = hex.coordinates()
-  const state = Milieu(hex, year).state()
   return {
     type: 'Feature',
-    properties: { state },
+    properties: { hex },
     geometry: {
       type: 'Polygon',
       coordinates
@@ -54,17 +56,29 @@ context.stroke()
 
 const saturation = 50
 const lightness = 50
-hexFeatures.forEach(feature => {
-  context.beginPath()
-  geoGenerator(feature)
-  if (feature.properties.state) {
-    const hue = Math.floor(MurmurHash3(feature.properties.state.name()).result() % 360)
-    context.strokeStyle = `hsl(${hue} ${saturation}% ${lightness}%)`
-  } else {
-    context.strokeStyle = 'white'
-  }
-  context.stroke()
-})
+
+const update = () => {
+  $yearDisplay.innerHTML = yearFormat($yearControl.value)
+  year = parseInt($yearControl.value, 10)
+  hexFeatures.forEach(feature => {
+    context.beginPath()
+    geoGenerator(feature)
+    const state = Milieu(feature.properties.hex, year).state()
+    if (state) {
+      const hue = Math.floor(MurmurHash3(state.name()).result() % 360)
+      context.strokeStyle = `hsl(${hue} ${saturation}% ${lightness}%)`
+    } else {
+      context.strokeStyle = 'white'
+    }
+    context.stroke()
+  })
+}
+
+const yearFormat = year => year > 0 ? `${year} CE` : `${-year} BCE`
+$yearControl.min = minYear
+$yearControl.max = maxYear
+$yearControl.value = year
+$yearControl.addEventListener('input', update)
 
 const $popup = document.getElementById('popup')
 
@@ -83,4 +97,4 @@ canvas.addEventListener('click', (event) => {
   }
 })
 
-console.log(JSON.stringify(yearRange()))
+update()

@@ -7,20 +7,14 @@
     <title>Hex History Map</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/h3-js"></script>
-    <!--script type="importmap">
-        {
-          "imports": {
-            "h3-js": "https://unpkg.com/h3-js"
-          }
-        }
-      </script-->
     <script src="script.js" type="module"></script>
 </head>
 
 <body>
     <header>
-        <h1>Hex History Map</h1>
-        <!-- ...existing code for navigation or header content... -->
+        <h1 id="$yearDisplay"></h1>
+        <input type="range" id="$yearControl" name="year" min="0" max="1" />
+        <label for="year">Year</label>
     </header>
     <main>
         <div id="content">
