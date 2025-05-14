@@ -15,34 +15,39 @@ const Hex = cellCode => {
 
 const State = stateName => {
   const stateSplit = stateName.split('/')
-  return {
-    stateInfo: () => {
-      if (stateSplit.length === 1) {
-        return stateData[stateName]
-      }
-      if (stateSplit.length === 2) {
-        return stateData[stateSplit[0]].parts[stateSplit[1]]
-      }
-      throw new Error(`Invalid state format: ${stateName}`)
+  const stateInfo = () => {
+    if (stateSplit.length === 1) {
+      return stateData[stateName]
     }
+    if (stateSplit.length === 2) {
+      return stateData[stateSplit[0]].parts[stateSplit[1]]
+    }
+    throw new Error(`Invalid state format: ${stateName}`)
   }
+  const extantIn = year => {
+    const info = stateInfo()
+    if (!info) {
+      throw new Error(`State not found: "${stateName}"`)
+    }
+    return info.begin <= year && year <= info.end
+  }
+  const name = () => stateName
+  return { stateInfo, extantIn, name }
 }
 
 export const Milieu = (cellCode, year) => {
   const hex = Hex(cellCode)
   // const { base, index1 } = hex.indices()
   let place = null
-  let state = ''
+  let state = null
   if (hex.isValid()) {
     place = hex.place()
     for (const stateName of hex.stateNames()) {
-      const stateInfo = State(stateName).stateInfo()
-      if (!stateInfo) {
-        throw new Error(`State not found: "${stateName}"`)
+      state = State(stateName)
+      if (state.extantIn(year)) {
+        break
       }
-      if (stateInfo.begin <= year && stateInfo.end >= year) {
-        state = stateName
-      }
+      state = null
     }
   }
   return {

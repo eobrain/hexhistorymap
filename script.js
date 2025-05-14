@@ -84,6 +84,6 @@ canvas.addEventListener('click', (event) => {
     $popup.style.display = 'block'
     $popup.style.left = `${event.clientX}px`
     $popup.style.top = `${event.clientY}px`
-    $popup.innerHTML = `<div>${milieu.place()}</div><div>${milieu.state()}</div>`
+    $popup.innerHTML = `<div>${milieu.place()}</div><div>${milieu.state().name()}</div>`
   }
 })
