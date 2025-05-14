@@ -6,11 +6,11 @@ const Hex = cellCode => {
   const int = parseInt(fourHexDigits, 16)
   const base = (int >> 9) & 0x7f
   const index1 = (int >> 6) & 0x7
-  return {
-    indices: () => {
-      return { base, index1 }
-    }
-  }
+  const parent = hexData[base] ? hexData[base][index1] : null
+  const isValid = () => parent && parent.hexes[cellCode]
+  const place = () => isValid() ? parent.hexes[cellCode].place : null
+  const stateNames = () => isValid() ? [...parent.states, ...parent.hexes[cellCode].states] : []
+  return { isValid, place, stateNames }
 }
 
 const State = stateName => {
@@ -29,22 +29,19 @@ const State = stateName => {
 }
 
 export const Milieu = (cellCode, year) => {
-  const { base, index1 } = Hex(cellCode).indices()
+  const hex = Hex(cellCode)
+  // const { base, index1 } = hex.indices()
   let place = null
   let state = ''
-  if (hexData[base] && hexData[base][index1]) {
-    const parent = hexData[base][index1]
-    if (parent.hexes[cellCode]) {
-      place = parent.hexes[cellCode].place
-      const stateNames = [...parent.states, ...parent.hexes[cellCode].states]
-      for (const stateName of stateNames) {
-        const stateInfo = State(stateName).stateInfo()
-        if (!stateInfo) {
-          throw new Error(`State not found: "${stateName}"`)
-        }
-        if (stateInfo.begin <= year && stateInfo.end >= year) {
-          state = stateName
-        }
+  if (hex.isValid()) {
+    place = hex.place()
+    for (const stateName of hex.stateNames()) {
+      const stateInfo = State(stateName).stateInfo()
+      if (!stateInfo) {
+        throw new Error(`State not found: "${stateName}"`)
+      }
+      if (stateInfo.begin <= year && stateInfo.end >= year) {
+        state = stateName
       }
     }
   }
