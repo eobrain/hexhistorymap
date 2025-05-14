@@ -44,6 +44,22 @@ const State = stateName => {
   return { stateInfo, extantIn, name }
 }
 
+export const yearRange = () => {
+  let minYear = Infinity
+  let maxYear = -Infinity
+  for (const { begin, end, parts } of Object.values(stateData)) {
+    minYear = Math.min(minYear, begin)
+    maxYear = Math.max(maxYear, end)
+    if (parts) {
+      for (const { begin, end } of Object.values(parts)) {
+        minYear = Math.min(minYear, begin)
+        maxYear = Math.max(maxYear, end)
+      }
+    }
+  }
+  return { minYear, maxYear }
+}
+
 export const Milieu = (hex, year) => {
   let place = null
   let state = null
