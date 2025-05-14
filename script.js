@@ -1,7 +1,7 @@
 import { select } from 'https://esm.sh/d3-selection'
 import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
-import { Milieu, hexes, locateHex } from './utils.js'
+import { Milieu, hexes, locateHex } from './model.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
 const year = 2025
