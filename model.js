@@ -40,7 +40,7 @@ const State = stateName => {
     }
     return info.begin <= year && year <= info.end
   }
-  const name = () => stateName
+  const name = () => stateName || '???'
   return { stateInfo, extantIn, name }
 }
 

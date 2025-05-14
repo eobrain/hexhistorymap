@@ -1237,7 +1237,8 @@
           - China
         place: Heilongjiang, Fuyu County, Youyi
   '3':
-    states: []
+    states:
+      - Russia
     hexes:
       8214c7fffffffff:
         states: []
@@ -1258,7 +1259,8 @@
         states: []
         place: Verkhnebureinsky District, Russia
   '4':
-    states: []
+    states:
+      - Russia
     hexes:
       821507fffffffff:
         states: []
@@ -1282,7 +1284,8 @@
         states: []
         place: Межселенные территории, Severo-Baykalsky Rayon, Russia
   '5':
-    states: []
+    states:
+      - Russia
     hexes:
       821547fffffffff:
         states: []
@@ -1309,29 +1312,37 @@
     states: []
     hexes:
       821587fffffffff:
-        states: []
+        states:
+          - Russia
         place: Alexandrovo-Zavodsky District, Russia
       82158ffffffffff:
-        states: []
+        states:
+          - China
         place: Hulunbuir, Genhe City, China
       821597fffffffff:
-        states: []
+        states:
+          - China
         place: New Barag Right Banner, Inner Mongolia, China
       82159ffffffffff:
-        states: []
+        states:
+          - China
         place: Hulunbuir, Yakeshi City, China
       8215a7fffffffff:
-        states: []
+        states:
+          - Russia
         place: Шишкинское сельское поселение, Chitinsky District, Russia
       8215affffffffff:
-        states: []
+        states:
+          - Russia
         place: Zabaykalsky Krai, Russia, 673478
       8215b7fffffffff:
-        states: []
+        states:
+          - Mongolia
         place: Dashbalbar, Mongolia
 '11':
   '0':
-    states: []
+    states:
+      - Russia
     hexes:
       821627fffffffff:
         states: []
@@ -1340,7 +1351,8 @@
         states: []
         place: Kamchatka Krai, Russia, 684350
   '4':
-    states: []
+    states:
+      - Russia
     hexes:
       821707fffffffff:
         states: []
@@ -1355,7 +1367,8 @@
         states: []
         place: Magadan Oblast, Russia, 686050
   '5':
-    states: []
+    states:
+      - Russia
     hexes:
       821747fffffffff:
         states: []
@@ -1370,14 +1383,16 @@
         states: []
         place: Penzhinsky District, Russia
   '6':
-    states: []
+    states:
+      - Russia
     hexes:
       82178ffffffffff:
         states: []
         place: Sea of Okhotsk
 '12':
   '0':
-    states: []
+    states:
+      - Ireland
     hexes:
       821827fffffffff:
         states: []
@@ -1386,7 +1401,8 @@
         states: []
         place: County Wexford, X91, Ireland
   '1':
-    states: []
+    states:
+      - France
     hexes:
       82184ffffffffff:
         states: []
@@ -1398,7 +1414,8 @@
         states: []
         place: D 29, 86160 Champagné-Saint-Hilaire, France
   '4':
-    states: []
+    states:
+      - UK
     hexes:
       82190ffffffffff:
         states: []
