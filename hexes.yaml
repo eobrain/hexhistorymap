@@ -3,14 +3,12 @@
     hexes:
       82006ffffffffff:
         place: Greenland
-        states: []
     states:
     - Denmark
   '5':
     hexes:
       820157fffffffff:
         place: 9170 Longyearbyen, Norway
-        states: []
     states:
     - Norway
   '6':
