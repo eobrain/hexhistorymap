@@ -1,119 +1,12 @@
-Old Kingdom of Egypt:
-  begin: -2686
-  end: -2181
-Akkadian Empire:
-  begin: -2334
-  end: -2154
-Shang Dynasty:
-  begin: -1600
-  end: -1046
-New Kingdom of Egypt:
-  begin: -1550
-  end: -1077
-Hittite New Kingdom (Empire):
-  begin: -1400
-  end: -1178
-Neo-Assyrian Empire:
-  begin: -911
-  end: -609
 Achaemenid Empire (First Persian Empire):
   begin: -550
   end: -330
-Maurya Empire:
-  begin: -322
-  end: -185
-Parthian Empire:
-  begin: -247
-  end: 224
-Han Dynasty:
-  begin: -206
-  end: 220
-Roman Empire (Western):
-  begin: -27
-  end: 476
-Sasanian Empire (Neo-Persian Empire):
-  begin: 224
-  end: 651
-Gupta Empire:
-  begin: 320
-  end: 550
-Byzantine Empire (Eastern Roman Empire):
-  begin: 395
-  end: 1453
-Tang Dynasty:
-  begin: 618
-  end: 907
-Umayyad Caliphate:
-  begin: 661
-  end: 750
-Carolingian Empire:
-  begin: 751
-  end: 888
-Khmer Empire:
-  begin: 802
-  end: 1431
-Mongol Empire:
-  begin: 1206
-  end: 1368
-Mali Empire:
-  begin: 1235
-  end: 1670
-Ottoman Empire:
-  begin: 1299
-  end: 1922
-Inca Empire:
-  begin: 1438
-  end: 1533
-Songhai Empire:
-  begin: 1464
-  end: 1591
-Spanish Empire:
-  begin: 1492
-  end: 1898
-Mughal Empire:
-  begin: 1526
-  end: 1857
-Qing Dynasty:
-  begin: 1636
-  end: 1912
-British Empire:
-  begin: 1707
-  end: 1997
-Russian Empire:
-  begin: 1721
-  end: 1917
-  parts:
-    Alaska:
-      begin: 1784
-      end: 1867
-USA:
-  begin: 1776
-  end: 2025
-  parts:
-    Alaska:
-      begin: 1867
-      end: 2025
-Empire of Brazil:
-  begin: 1822
-  end: 1889
-Canada:
-  begin: 1867
-  end: 2025
-Austro-Hungarian Empire:
-  begin: 1867
-  end: 1918
-Federative Republic of Brazil:
-  begin: 1889
-  end: 2025
-Republic of India:
-  begin: 1947
-  end: 2025
-China:
-  begin: 1949
-  end: 2025
 Afghanistan:
   begin: 1919
   end: 2025
+Akkadian Empire:
+  begin: -2334
+  end: -2154
 Albania:
   begin: 1912
   end: 2025
@@ -138,6 +31,9 @@ Australia:
 Austria:
   begin: 1918
   end: 2025
+Austro-Hungarian Empire:
+  begin: 1867
+  end: 1918
 Azerbaijan:
   begin: 1991
   end: 2025
@@ -177,6 +73,9 @@ Bosnia and Herzegovina:
 Botswana:
   begin: 1966
   end: 2025
+British Empire:
+  begin: 1707
+  end: 1997
 Brunei Darussalam:
   begin: 1984
   end: 2025
@@ -189,6 +88,9 @@ Burkina Faso:
 Burundi:
   begin: 1962
   end: 2025
+Byzantine Empire (Eastern Roman Empire):
+  begin: 395
+  end: 1453
 Cabo Verde:
   begin: 1975
   end: 2025
@@ -198,6 +100,12 @@ Cambodia:
 Cameroon:
   begin: 1960
   end: 2025
+Canada:
+  begin: 1867
+  end: 2025
+Carolingian Empire:
+  begin: 751
+  end: 888
 Central African Republic:
   begin: 1960
   end: 2025
@@ -206,6 +114,9 @@ Chad:
   end: 2025
 Chile:
   begin: 1818
+  end: 2025
+China:
+  begin: 1949
   end: 2025
 Colombia:
   begin: 1810
@@ -255,6 +166,9 @@ Egypt:
 El Salvador:
   begin: 1821
   end: 2025
+Empire of Brazil:
+  begin: 1822
+  end: 1889
 Equatorial Guinea:
   begin: 1968
   end: 2025
@@ -269,6 +183,9 @@ Eswatini:
   end: 2025
 Ethiopia:
   begin: -980
+  end: 2025
+Federative Republic of Brazil:
+  begin: 1889
   end: 2025
 Fiji:
   begin: 1970
@@ -309,12 +226,21 @@ Guinea:
 Guinea-Bissau:
   begin: 1974
   end: 2025
+Gupta Empire:
+  begin: 320
+  end: 550
 Guyana:
   begin: 1966
   end: 2025
 Haiti:
   begin: 1804
   end: 2025
+Han Dynasty:
+  begin: -206
+  end: 220
+Hittite New Kingdom (Empire):
+  begin: -1400
+  end: -1178
 Honduras:
   begin: 1821
   end: 2025
@@ -324,6 +250,9 @@ Hungary:
 Iceland:
   begin: 1944
   end: 2025
+Inca Empire:
+  begin: 1438
+  end: 1533
 Indonesia:
   begin: 1945
   end: 2025
@@ -357,6 +286,9 @@ Kazakhstan:
 Kenya:
   begin: 1963
   end: 2025
+Khmer Empire:
+  begin: 802
+  end: 1431
 Kiribati:
   begin: 1979
   end: 2025
@@ -414,6 +346,9 @@ Maldives:
 Mali (Modern):
   begin: 1960
   end: 2025
+Mali Empire:
+  begin: 1235
+  end: 1670
 Malta:
   begin: 1964
   end: 2025
@@ -426,6 +361,9 @@ Mauritania:
 Mauritius:
   begin: 1968
   end: 2025
+Maurya Empire:
+  begin: -322
+  end: -185
 Mexico:
   begin: 1821
   end: 2025
@@ -438,6 +376,9 @@ Moldova:
 Monaco:
   begin: 1297
   end: 2025
+Mongol Empire:
+  begin: 1206
+  end: 1368
 Mongolia:
   begin: 1911
   end: 2025
@@ -450,6 +391,9 @@ Morocco:
 Mozambique:
   begin: 1975
   end: 2025
+Mughal Empire:
+  begin: 1526
+  end: 1857
 Myanmar:
   begin: 1948
   end: 2025
@@ -459,12 +403,18 @@ Namibia:
 Nauru:
   begin: 1968
   end: 2025
+Neo-Assyrian Empire:
+  begin: -911
+  end: -609
 Nepal:
   begin: 1768
   end: 2025
 Netherlands:
   begin: 1581
   end: 2025
+New Kingdom of Egypt:
+  begin: -1550
+  end: -1077
 New Zealand:
   begin: 1907
   end: 2025
@@ -483,9 +433,15 @@ North Macedonia:
 Norway:
   begin: 872
   end: 2025
+Old Kingdom of Egypt:
+  begin: -2686
+  end: -2181
 Oman:
   begin: 751
   end: 2025
+Ottoman Empire:
+  begin: 1299
+  end: 1922
 Pakistan:
   begin: 1947
   end: 2025
@@ -504,6 +460,9 @@ Papua New Guinea:
 Paraguay:
   begin: 1811
   end: 2025
+Parthian Empire:
+  begin: -247
+  end: 224
 Peru:
   begin: 1821
   end: 2025
@@ -519,12 +478,28 @@ Portugal:
 Qatar:
   begin: 1971
   end: 2025
+Qing Dynasty:
+  begin: 1636
+  end: 1912
+Republic of India:
+  begin: 1947
+  end: 2025
+Roman Empire (Western):
+  begin: -27
+  end: 476
 Romania:
   begin: 1878
   end: 2025
 Russia:
   begin: 1991
   end: 2025
+Russian Empire:
+  begin: 1721
+  end: 1917
+  parts:
+    Alaska:
+      begin: 1784
+      end: 1867
 Rwanda:
   begin: 1962
   end: 2025
@@ -546,6 +521,9 @@ San Marino:
 Sao Tome and Principe:
   begin: 1975
   end: 2025
+Sasanian Empire (Neo-Persian Empire):
+  begin: 224
+  end: 651
 Saudi Arabia:
   begin: 1932
   end: 2025
@@ -558,6 +536,9 @@ Serbia:
 Seychelles:
   begin: 1976
   end: 2025
+Shang Dynasty:
+  begin: -1600
+  end: -1046
 Sierra Leone:
   begin: 1961
   end: 2025
@@ -576,6 +557,9 @@ Solomon Islands:
 Somalia:
   begin: 1960
   end: 2025
+Songhai Empire:
+  begin: 1464
+  end: 1591
 South Africa:
   begin: 1910
   end: 2025
@@ -585,6 +569,9 @@ South Sudan:
 Spain:
   begin: 1479
   end: 2025
+Spanish Empire:
+  begin: 1492
+  end: 1898
 Sri Lanka:
   begin: 1948
   end: 2025
@@ -609,6 +596,9 @@ Taiwan (Republic of China):
 Tajikistan:
   begin: 1991
   end: 2025
+Tang Dynasty:
+  begin: 618
+  end: 907
 Tanzania:
   begin: 1964
   end: 2025
@@ -639,17 +629,27 @@ Turkmenistan:
 Tuvalu:
   begin: 1978
   end: 2025
+UK:
+  begin: 1801
+  end: 2025
+USA:
+  begin: 1776
+  end: 2025
+  parts:
+    Alaska:
+      begin: 1867
+      end: 2025
 Uganda:
   begin: 1962
   end: 2025
 Ukraine:
   begin: 1991
   end: 2025
+Umayyad Caliphate:
+  begin: 661
+  end: 750
 United Arab Emirates:
   begin: 1971
-  end: 2025
-UK:
-  begin: 1801
   end: 2025
 Uruguay:
   begin: 1828
