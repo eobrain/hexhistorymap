@@ -145,7 +145,7 @@ Cuba:
 Cyprus:
   begin: 1960
   end: 2025
-Czechia (Czech Republic):
+Czechia:
   begin: 1993
   end: 2025
 Denmark:
@@ -295,10 +295,10 @@ Khmer Empire:
 Kiribati:
   begin: 1979
   end: 2025
-Korea, Democratic People's Republic of (North Korea):
+North Korea:
   begin: 1948
   end: 2025
-Korea, Republic of (South Korea):
+South Korea:
   begin: 1948
   end: 2025
 Kuwait:
@@ -346,7 +346,7 @@ Malaysia:
 Maldives:
   begin: 1965
   end: 2025
-Mali (Modern):
+Mali:
   begin: 1960
   end: 2025
 Mali Empire:
@@ -484,7 +484,7 @@ Qatar:
 Qing Dynasty:
   begin: 1636
   end: 1912
-Republic of India:
+India:
   begin: 1947
   end: 2025
 Roman Empire (Western):

@@ -409,2258 +409,2200 @@
     hexes:
       82e707fffffffff:
         place: Antarctica
-        states: []
       82e70ffffffffff:
         place: Unknown
-        states: []
       82e727fffffffff:
         place: Antarctica
-        states: []
       82e72ffffffffff:
         place: Antarctica
-        states: []
       82e737fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '5':
     hexes:
       82e747fffffffff:
         place: Antarctica
-        states: []
       82e74ffffffffff:
         place: Antarctica
-        states: []
       82e767fffffffff:
         place: Antarctica
-        states: []
       82e76ffffffffff:
         place: Antarctica
-        states: []
       82e777fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
 '116':
   '2':
     hexes:
       82e897fffffffff:
         place: Antarctica
-        states: []
       82e89ffffffffff:
         place: Unknown
-        states: []
       82e8b7fffffffff:
         place: Unknown
-        states: []
-    states: []
+    states:
+    - Antarctica
   '6':
     hexes:
       82e987fffffffff:
         place: Unknown
-        states: []
       82e997fffffffff:
         place: Antarctica
-        states: []
       82e9b7fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
 '118':
   '0':
     hexes:
       82ec07fffffffff:
         place: Antarctica
-        states: []
       82ec0ffffffffff:
         place: Antarctica
-        states: []
       82ec1ffffffffff:
         place: Antarctica
-        states: []
       82ec27fffffffff:
         place: Antarctica
-        states: []
       82ec2ffffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '1':
     hexes:
       82ec47fffffffff:
         place: Antarctica
-        states: []
       82ec4ffffffffff:
         place: Antarctica
-        states: []
       82ec57fffffffff:
         place: Antarctica
-        states: []
       82ec5ffffffffff:
         place: Antarctica
-        states: []
       82ec67fffffffff:
         place: Antarctica
-        states: []
       82ec6ffffffffff:
         place: Antarctica
-        states: []
       82ec77fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '2':
     hexes:
       82ecaffffffffff:
         place: Unknown
-        states: []
-    states: []
+    states:
+    - Antarctica
   '3':
     hexes:
       82ecc7fffffffff:
         place: Antarctica
-        states: []
       82eccffffffffff:
         place: Antarctica
-        states: []
       82ecd7fffffffff:
         place: Antarctica
-        states: []
       82ecdffffffffff:
         place: Antarctica
-        states: []
       82ece7fffffffff:
         place: Antarctica
-        states: []
       82eceffffffffff:
         place: Antarctica
-        states: []
       82ecf7fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '5':
     hexes:
       82ed47fffffffff:
         place: Antarctica
-        states: []
       82ed57fffffffff:
         place: Antarctica
-        states: []
       82ed5ffffffffff:
         place: Antarctica
-        states: []
       82ed77fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
 '119':
   '0':
     hexes:
       82ee17fffffffff:
         place: Antarctica
-        states: []
       82ee37fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '1':
     hexes:
       82ee6ffffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '2':
     hexes:
       82eea7fffffffff:
         place: Antarctica
-        states: []
       82eeb7fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '4':
     hexes:
       82ef07fffffffff:
         place: Antarctica
-        states: []
       82ef0ffffffffff:
         place: Unknown
-        states: []
       82ef17fffffffff:
         place: Antarctica
-        states: []
       82ef1ffffffffff:
         place: Unknown
-        states: []
       82ef27fffffffff:
         place: Antarctica
-        states: []
       82ef2ffffffffff:
         place: Antarctica
-        states: []
       82ef37fffffffff:
         place: Unknown
-        states: []
-    states: []
+    states:
+    - Antarctica
   '5':
     hexes:
       82ef47fffffffff:
         place: Antarctica
-        states: []
       82ef4ffffffffff:
         place: Antarctica
-        states: []
       82ef57fffffffff:
         place: Antarctica
-        states: []
       82ef67fffffffff:
         place: Antarctica
-        states: []
       82ef6ffffffffff:
         place: Unknown
-        states: []
       82ef77fffffffff:
         place: Unknown
-        states: []
-    states: []
+    states:
+    - Antarctica
   '6':
     hexes:
       82ef87fffffffff:
         place: Antarctica
-        states: []
       82ef8ffffffffff:
         place: Antarctica
-        states: []
       82ef97fffffffff:
         place: Antarctica
-        states: []
       82ef9ffffffffff:
         place: Antarctica
-        states: []
       82efa7fffffffff:
         place: Antarctica
-        states: []
       82efaffffffffff:
         place: Antarctica
-        states: []
       82efb7fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
 '12':
   '0':
     hexes:
       821827fffffffff:
         place: Ireland
-        states: []
       82182ffffffffff:
-        place: County Wexford, X91, Ireland
-        states: []
+        place: County Wexford
     states:
     - Ireland
   '1':
     hexes:
       82184ffffffffff:
         place: Bay of Biscay
-        states: []
       821867fffffffff:
-        place: 9 Route de Giéville, 50890 Condé-sur-Vire, France
-        states: []
+        place: 9 Route de Giéville, 50890 Condé-sur-Vire
       82186ffffffffff:
-        place: D 29, 86160 Champagné-Saint-Hilaire, France
-        states: []
+        place: D 29, 86160 Champagné-Saint-Hilaire
     states:
     - France
   '4':
     hexes:
       82190ffffffffff:
-        place: Galmisdale, PH42 4RL, United Kingdom
-        states: []
+        place: Galmisdale
     states:
     - UK
   '5':
     hexes:
       821947fffffffff:
-        place: England, United Kingdom
-        states: []
+        place: England
+        states:
+        - UK
       82194ffffffffff:
-        place: Metropolitan France, France
-        states: []
+        place: Metropolitan France
+        states:
+        - France
       821957fffffffff:
         place: Isle of Man
-        states: []
+        states:
+        - UK
       82195ffffffffff:
-        place: Aylburton, GL15 6DN, United Kingdom
-        states: []
+        place: Aylburton
+        states:
+        - UK
       821977fffffffff:
         place: North Sea
-        states: []
-    states: []
+        states:
+        - UK
 '120':
   '0':
     hexes:
       82f007fffffffff:
         place: Antarctica
-        states: []
       82f00ffffffffff:
         place: Antarctica
-        states: []
       82f017fffffffff:
         place: Antarctica
-        states: []
       82f01ffffffffff:
         place: Antarctica
-        states: []
       82f027fffffffff:
         place: Antarctica
-        states: []
       82f02ffffffffff:
         place: Antarctica
-        states: []
       82f037fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '1':
     hexes:
       82f047fffffffff:
         place: Antarctica
-        states: []
       82f04ffffffffff:
         place: Antarctica
-        states: []
       82f057fffffffff:
         place: Antarctica
-        states: []
       82f05ffffffffff:
         place: Antarctica
-        states: []
       82f067fffffffff:
         place: Antarctica
-        states: []
       82f06ffffffffff:
         place: Antarctica
-        states: []
       82f077fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '2':
     hexes:
       82f087fffffffff:
         place: Antarctica
-        states: []
       82f08ffffffffff:
         place: Antarctica
-        states: []
       82f097fffffffff:
         place: Antarctica
-        states: []
       82f09ffffffffff:
         place: Antarctica
-        states: []
       82f0a7fffffffff:
         place: Antarctica
-        states: []
       82f0affffffffff:
         place: Antarctica
-        states: []
       82f0b7fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '3':
     hexes:
       82f0c7fffffffff:
         place: Antarctica
-        states: []
       82f0cffffffffff:
         place: Antarctica
-        states: []
       82f0d7fffffffff:
         place: Antarctica
-        states: []
       82f0dffffffffff:
         place: Antarctica
-        states: []
       82f0e7fffffffff:
         place: Antarctica
-        states: []
       82f0effffffffff:
         place: Antarctica
-        states: []
       82f0f7fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '4':
     hexes:
       82f107fffffffff:
         place: Antarctica
-        states: []
       82f10ffffffffff:
         place: Antarctica
-        states: []
       82f117fffffffff:
         place: Antarctica
-        states: []
       82f11ffffffffff:
         place: Antarctica
-        states: []
       82f127fffffffff:
         place: Antarctica
-        states: []
       82f12ffffffffff:
         place: Unknown
-        states: []
       82f137fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '5':
     hexes:
       82f147fffffffff:
         place: Unknown
-        states: []
       82f14ffffffffff:
         place: Antarctica
-        states: []
       82f157fffffffff:
         place: Antarctica
-        states: []
       82f15ffffffffff:
         place: Antarctica
-        states: []
       82f167fffffffff:
         place: Unknown
-        states: []
       82f16ffffffffff:
         place: Antarctica
-        states: []
       82f177fffffffff:
         place: Unknown
-        states: []
-    states: []
+    states:
+    - Antarctica
   '6':
     hexes:
       82f187fffffffff:
         place: Antarctica
-        states: []
       82f18ffffffffff:
         place: Antarctica
-        states: []
       82f197fffffffff:
         place: Antarctica
-        states: []
       82f19ffffffffff:
         place: Antarctica
-        states: []
       82f1a7fffffffff:
         place: Antarctica
-        states: []
       82f1affffffffff:
         place: Antarctica
-        states: []
       82f1b7fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
 '121':
   '0':
     hexes:
       82f207fffffffff:
         place: Antarctica
-        states: []
       82f20ffffffffff:
         place: Antarctica
-        states: []
       82f217fffffffff:
         place: Antarctica
-        states: []
       82f21ffffffffff:
         place: Antarctica
-        states: []
       82f227fffffffff:
         place: Unknown
-        states: []
       82f22ffffffffff:
         place: Antarctica
-        states: []
       82f237fffffffff:
         place: Unknown
-        states: []
-    states: []
+    states:
+    - Antarctica
   '1':
     hexes:
       82f257fffffffff:
         place: Antarctica
-        states: []
       82f25ffffffffff:
         place: Antarctica
-        states: []
       82f277fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '2':
     hexes:
       82f287fffffffff:
         place: Unknown
-        states: []
       82f28ffffffffff:
         place: Unknown
-        states: []
       82f297fffffffff:
         place: Unknown
-        states: []
       82f29ffffffffff:
         place: Unknown
-        states: []
       82f2a7fffffffff:
         place: Unknown
-        states: []
       82f2affffffffff:
         place: Antarctica
-        states: []
       82f2b7fffffffff:
         place: Unknown
-        states: []
-    states: []
+    states:
+    - Antarctica
   '3':
     hexes:
       82f2c7fffffffff:
         place: Antarctica
-        states: []
       82f2cffffffffff:
         place: Antarctica
-        states: []
       82f2d7fffffffff:
         place: Antarctica
-        states: []
       82f2dffffffffff:
         place: Antarctica
-        states: []
       82f2e7fffffffff:
         place: Antarctica
-        states: []
       82f2effffffffff:
         place: Antarctica
-        states: []
       82f2f7fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
   '6':
     hexes:
       82f387fffffffff:
         place: Unknown
-        states: []
       82f38ffffffffff:
         place: Unknown
-        states: []
       82f397fffffffff:
         place: Antarctica
-        states: []
       82f39ffffffffff:
         place: Unknown
-        states: []
       82f3a7fffffffff:
         place: Unknown
-        states: []
       82f3affffffffff:
         place: Unknown
-        states: []
       82f3b7fffffffff:
         place: Antarctica
-        states: []
-    states: []
+    states:
+    - Antarctica
 '13':
   '4':
     hexes:
       821b27fffffffff:
         place: Kujalleq, Greenland
-        states: []
-    states: []
+    states:
+    - Denmark
   '6':
     hexes:
       821b87fffffffff:
-        place: Labrador, Newfoundland and Labrador, Canada
-        states: []
+        place: Labrador, Newfoundland and Labrador
       821b97fffffffff:
-        place: Petit-Mécatina, Quebec, Canada
-        states: []
+        place: Petit-Mécatina, Quebec
       821b9ffffffffff:
-        place: Newfoundland, NL, Canada
-        states: []
+        place: Newfoundland
       821bb7fffffffff:
-        place: Labrador, Newfoundland and Labrador, Canada
-        states: []
-    states: []
+        place: Labrador, Newfoundland and Labrador
+    states:
+    - Canada
 '15':
   '0':
     hexes:
       821e07fffffffff:
-        place: 956 41 Horné Naštice, Slovakia
-        states: []
+        place: Horné Naštice
+        states:
+        - Slovakia
       821e0ffffffffff:
-        place: 4355 Nagyecsed, ., Hungary
-        states: []
+        place: Nagyecsed
+        states:
+        - Hungary
       821e17fffffffff:
-        place: Deutschlandsberg, Bezirk Deutschlandsberg, Austria
-        states: []
+        place: Deutschlandsberg, Bezirk Deutschlandsberg
+        states:
+        - Austria
       821e1ffffffffff:
-        place: Ridjica, West Backa Administrative District, Serbia
-        states: []
+        place: Ridjica, West Backa Administrative District
+        states:
+        - Serbia
       821e27fffffffff:
-        place: unnamed road, 56-416 Olszówka, Poland
-        states: []
+        place: Olszówka
+        states:
+        - Poland
       821e2ffffffffff:
-        place: Jana Pawła II, 39-400 Stale, Poland
-        states: []
+        place: Jana Pawła II,  Stale
+        states:
+        - Poland
       821e37fffffffff:
-        place: 83, 398 04 Králova Lhota, Czechia
-        states: []
-    states: []
+        place: 83, 398 04 Králova Lhota
+        states:
+        - Czechia
   '1':
     hexes:
       821e47fffffffff:
-        place: Haivoron Urban Hromada, Holovanivsk Raion, Ukraine
-        states: []
+        place: Haivoron Urban Hromada, Holovanivsk Raion
+        states:
+        - Ukraine
       821e4ffffffffff:
-        place: Velyka Lepetykha settlement hromada, Kakhovka Raion, Ukraine
-        states: []
+        place: Velyka Lepetykha settlement hromada, Kakhovka Raion
+        states:
+        - Ukraine
       821e57fffffffff:
-        place: unnamed road, 617086 Mastacăn, Romania
-        states: []
+        place: Mastacăn
+        states:
+        - Romania
       821e67fffffffff:
-        place: Kyiv Oblast, 07055, Ukraine
-        states: []
+        place: Kyiv Oblast
+        states:
+        - Ukraine
       821e6ffffffffff:
-        place: Великобагачанська селищна громада, Myrhorod Raion, Ukraine
-        states: []
+        place: Великобагачанська селищна громада, Myrhorod Raion
+        states:
+        - Ukraine
       821e77fffffffff:
-        place: Ternopil Oblast, 47841, Ukraine
-        states: []
-    states: []
+        place: Ternopil Oblast
+        states:
+        - Ukraine
   '2':
     hexes:
       821e87fffffffff:
-        place: Cascate di Rioscuro, 00027 Cineto Romano RM, Italy
-        states: []
+        place: Cascate di Rioscuro, Cineto Romano RM
+        states:
+        - Italy
       821e8ffffffffff:
         place: Italy
-        states: []
+        states:
+        - Italy
       821ea7fffffffff:
-        place: Via del Mare, 44025 Massa Fiscaglia FE, Italy
-        states: []
+        place: Via del Mare, Massa Fiscaglia FE
+        states:
+        - Italy
       821eaffffffffff:
-        place: unnamed road, Općina Ervenik, Croatia
-        states: []
-    states: []
+        place: Općina Ervenik
+        states:
+        - Croatia
   '3':
     hexes:
       821ec7fffffffff:
-        place: Kostenets 2042, Bulgaria
-        states: []
+        place: Kostenets
+        states:
+        - Bulgaria
       821ecffffffffff:
-        place: Tarla Yolu, Süleymanpaşa, Turkey
-        states: []
+        place: Tarla Yolu, Süleymanpaşa
+        states:
+        - Turkey
       821ed7fffffffff:
-        place: unnamed road, 7405-Bashkia Kolonjë, Albania
-        states: []
+        place: Bashkia Kolonjë
+        states:
+        - Albania
       821edffffffffff:
         place: Greece
-        states: []
+        states:
+        - Greece
       821ee7fffffffff:
-        place: 217027 Sănătești, Romania
-        states: []
+        place: Sănătești
+        states:
+        - Romania
       821eeffffffffff:
-        place: Dobrotitsa, Sitovo, Bulgaria
-        states: []
+        place: Dobrotitsa, Sitovo
+        states:
+        - Bulgaria
       821ef7fffffffff:
-        place: Махалска 91, Sjenica Municipality, Serbia
-        states: []
-    states: []
+        place: Махалска, Sjenica Municipality
+        states:
+        - Serbia
   '4':
     hexes:
       821f07fffffffff:
         place: Baltic Sea
-        states: []
+        states:
+        - Germany
       821f0ffffffffff:
-        place: unnamed road, 78-450 Czechy, Poland
-        states: []
+        place: Czechy
+        states:
+        - Poland
       821f17fffffffff:
-        place: Rickerstraße 24, 49419 Ströhen, Germany
-        states: []
+        place: Rickerstraße 24, 49419 Ströhen
+        states:
+        - Germany
       821f1ffffffffff:
-        place: Grüna, Brandenburg, Germany
-        states: []
+        place: Grüna, Brandenburg
+        states:
+        - Germany
       821f27fffffffff:
         place: Kattegat
-        states: []
+        states:
+        - Denmark
       821f2ffffffffff:
-        place: unnamed road, 370 33 Karlskrona kommun, Sweden
-        states: []
-    states: []
+        place: Karlskrona kommun
+        states:
+        - Sweden
   '5':
     hexes:
       821f47fffffffff:
-        place: Elektrėnų g., 21332 Musteniai, Lithuania
-        states: []
+        place: Elektrėnų g., 21332 Musteniai
+        states:
+        - Lithuania
       821f4ffffffffff:
-        place: Капланецкі сельскі Савет, Byerazino District, Belarus
-        states: []
+        place: Капланецкі сельскі Савет, Byerazino District
+        states:
+        - Belarus
       821f57fffffffff:
-        place: unnamed road, Jednorożec, Poland
-        states: []
+        place: unnamed road, Jednorożec
+        states:
+        - Poland
       821f5ffffffffff:
-        place: Brest Region, Драгічынскі сельскі Савет, unnamed road
-        states: []
+        place: Brest Region, Драгічынскі сельскі Савет
+        states:
+        - Belarus
       821f67fffffffff:
         place: Latvia
-        states: []
+        states:
+        - Latvia
       821f6ffffffffff:
-        place: Себежское сельское поселение, Sebezhsky District, Russia
-        states: []
+        place: Себежское сельское поселение, Sebezhsky District
+        states:
+        - Russia
       821f77fffffffff:
         place: Baltic Sea
-        states: []
-    states: []
+        states:
+        - Lithuania
   '6':
     hexes:
       821f87fffffffff:
-        place: Chemin de Brabant, 88310 Cornimont, France
-        states: []
+        place: Chemin de Brabant, Cornimont
+        states:
+        - France
       821f8ffffffffff:
-        place: B 23, 82467 Garmisch-Partenkirchen, Germany
-        states: []
+        place:  Garmisch-Partenkirchen
+        states:
+        - Germany
       821f97fffffffff:
-        place: Les Chambons, 42510 Balbigny, France
-        states: []
+        place: Les Chambons
+        states:
+        - France
       821f9ffffffffff:
-        place: SP41, 13883 Alice Castello VC, Italy
-        states: []
+        place: Alice Castello VC
+        states:
+        - Italy
       821fa7fffffffff:
-        place: Trixhe aux Minières, 4920 Aywaille, Belgium
-        states: []
+        place: Trixhe aux Minières, Aywaille
+        states:
+        - Belgium
       821faffffffffff:
-        place: Alte B27, 97762 Hammelburg, Germany
-        states: []
+        place: Alte, Hammelburg
+        states:
+        - Germany
       821fb7fffffffff:
-        place: 29 Rue de la Maladrerie, 77130 Dormelles, France
-        states: []
-    states: []
+        place: Dormelles
+        states:
+        - France
 '16':
   '0':
     hexes:
       822007fffffffff:
-        place: Shet District, Kazakhstan
-        states: []
+        place: Shet District
       82200ffffffffff:
-        place: Balqaş District, Kazakhstan
-        states: []
+        place: Balqaş District
       822017fffffffff:
-        place: Kazakhstan, Turkistan Region, unnamed road
-        states: []
+        place: Turkistan Region
       82201ffffffffff:
-        place: Shu District, Kazakhstan
-        states: []
+        place: Shu District
       822027fffffffff:
-        place: Jezqazğan, Ulytau Region, Kazakhstan
-        states: []
+        place: Jezqazğan, Ulytau Region
       82202ffffffffff:
-        place: Shet District, Kazakhstan
-        states: []
+        place: Shet District
       822037fffffffff:
-        place: Kazakhstan, Kyzylorda Region, 120711
-        states: []
-    states: []
+        place: Kyzylorda Region
+    states:
+    - Kazakhstan
   '1':
     hexes:
       822047fffffffff:
-        place: Ulan District, Kazakhstan
-        states: []
+        place: Ulan District
+        states:
+        - Kazakhstan
       82204ffffffffff:
-        place: Джазаторское сельское поселение, Kosh-Agachsky Rayon, Russia
-        states: []
+        place: Джазаторское сельское поселение, Kosh-Agachsky Rayon
+        states:
+        - Russia
       822057fffffffff:
-        place: Alaköl District, Kazakhstan
-        states: []
+        place: Alaköl District
+        states:
+        - Kazakhstan
       82205ffffffffff:
-        place: Tebkinusan Township, Hoboksar Mongol Autonomous County, China
-        states: []
+        place: Tebkinusan Township, Hoboksar Mongol Autonomous County
+        states:
+        - China
       822067fffffffff:
-        place: Altai Krai, Russia, 658945
-        states: []
+        place: Altai Krai
+        states:
+        - Russia
       82206ffffffffff:
-        place: Алтайское — Булатово, Altai Krai, Russia
-        states: []
+        place: Алтайское — Булатово, Altai Krai
+        states:
+        - Russia
       822077fffffffff:
-        place: Ақбұлақ ауылдық округі, Zhanasemey District, Kazakhstan
-        states: []
-    states: []
+        place: Ақбұлақ ауылдық округі, Zhanasemey District
+        states:
+        - Kazakhstan
   '2':
     hexes:
       822087fffffffff:
-        place: Darwaz-e Bala, Afghanistan
-        states: []
+        place: Darwaz-e Bala
+        states:
+        - Afghanistan
       82208ffffffffff:
-        place: Tagharma Township, Taxkorgan Tajik Autonomous County, China
-        states: []
+        place: Tagharma Township, Taxkorgan Tajik Autonomous County
+        states:
+        - China
       822097fffffffff:
-        place: 7.6Km From Jorghal to Shaka Khel, Kapisa Province, Afghanistan
-        states: []
+        place: Kapisa Province
+        states:
+        - Afghanistan
       82209ffffffffff:
-        place: Dassu Tehsil, Upper Kohistan District, Pakistan
-        states: []
+        place: Dassu Tehsil, Upper Kohistan District
+        states:
+        - Pakistan
       8220a7fffffffff:
-        place: 4P33, Jizzakh Region, Uzbekistan
-        states: []
+        place: Jizzakh Region
+        states:
+        - Uzbekistan
       8220affffffffff:
-        place: Andijan Region, Uzbekistan, 711159
-        states: []
+        place: Andijan Region
+        states:
+        - Uzbekistan
       8220b7fffffffff:
-        place: Uchqizil, Termiz District, Uzbekistan
-        states: []
-    states: []
+        place: Uchqizil, Termiz District
+        states:
+        - Uzbekistan
   '3':
     hexes:
       8220c7fffffffff:
-        place: Onsu County, China
-        states: []
+        place: Onsu County
+        states:
+        - China
       8220cffffffffff:
-        place: Caohu, Luntai County, China
-        states: []
+        place: Caohu, Luntai County
+        states:
+        - China
       8220d7fffffffff:
-        place: Pishan County, China
-        states: []
+        place: Pishan County
+        states:
+        - China
       8220dffffffffff:
-        place: Minfeng County, China
-        states: []
+        place: Minfeng County
+        states:
+        - China
       8220e7fffffffff:
-        place: Enbekshikazakh District, Kazakhstan
-        states: []
+        place: Enbekshikazakh District
+        states:
+        - Kazakhstan
       8220effffffffff:
-        place: 努斯肯布拉克, Nilka County, China
-        states: []
+        place: 努斯肯布拉克, Nilka County
+        states:
+        - China
       8220f7fffffffff:
-        place: Kyrgyzstan, Naryn Region, unnamed road
-        states: []
-    states: []
+        place: Naryn Region
+        states:
+        - Kyrgyzstan
   '4':
     hexes:
       822107fffffffff:
         place: Kazakhstan, Aqtöbe region, unnamed road
-        states: []
+        states:
+        - Kazakhstan
       82210ffffffffff:
-        place: Amangeldi District, Kazakhstan
-        states: []
+        place: Amangeldi District
+        states:
+        - Kazakhstan
       822117fffffffff:
-        place: Kazakhstan, Aqtöbe region, 031200
-        states: []
+        place: Aqtöbe region
+        states:
+        - Kazakhstan
       82211ffffffffff:
-        place: Kazakhstan, Aqtöbe region, 030400
-        states: []
+        place: Aqtöbe region
+        states:
+        - Kazakhstan
       822127fffffffff:
-        place: Бердяшский сельсовет, Zilairsky District, Russia
-        states: []
+        place: Бердяшский сельсовет, Zilairsky District
+        states:
+        - Russia
       82212ffffffffff:
-        place: Николаевское сельское поселение, Varnensky District, Russia
-        states: []
+        place: Николаевское сельское поселение, Varnensky District
+        states:
+        - Russia
       822137fffffffff:
-        place: Kazakhstan, Aqtöbe region, 030810
-        states: []
-    states: []
+        place: Aqtöbe region
+        states:
+        - Kazakhstan
   '5':
     hexes:
       822147fffffffff:
-        place: Kazakhstan, North Kazakhstan Region, 150200
-        states: []
+        place: North Kazakhstan Region
+        states:
+        - Kazakhstan
       82214ffffffffff:
         place: Чаинский сельсовет, Kupinsky District, Russia
-        states: []
+        states:
+        - Russia
       822157fffffffff:
         place: Astrakhan District, Kazakhstan
-        states: []
+        states:
+        - Kazakhstan
       82215ffffffffff:
-        place: Pavlodar Region, 141200 Ekibastuz, unnamed road
-        states: []
+        place: Pavlodar Region, Ekibastuz
+        states:
+        - Kazakhstan
       822167fffffffff:
-        place: Tyumen Oblast, Russia, 627321
-        states: []
+        place: Tyumen Oblast
+        states:
+        - Russia
       82216ffffffffff:
-        place: Самсоновское сельское поселение, Tarsky District, Russia
-        states: []
+        place: Самсоновское сельское поселение, Tarsky District
+        states:
+        - Russia
       822177fffffffff:
-        place: Kazakhstan, North Kazakhstan Region, 151300
-        states: []
+        place: North Kazakhstan Region
+        states:
+        - Kazakhstan
     states: []
   '6':
     hexes:
       822187fffffffff:
-        place: Republic of Karakalpakstan, Uzbekistan, 231200
-        states: []
+        place: Republic of Karakalpakstan
+        states:
+        - Uzbekistan
       82218ffffffffff:
-        place: Navoiy Region, Uzbekistan, 210805
-        states: []
+        place: Navoiy Region
+        states:
+        - Uzbekistan
       822197fffffffff:
-        place: Sakarchage District, Mary Region, Turkmenistan
-        states: []
+        place: Sakarchage District, Mary Region
+        states:
+        - Turkmenistan
       82219ffffffffff:
-        place: Bukhara Region, Uzbekistan, 200709
-        states: []
+        place: Bukhara Region
+        states:
+        - Uzbekistan
       8221a7fffffffff:
-        place: Aral Sea, Aral District, Kazakhstan
-        states: []
+        place: Aral Sea, Aral District
+        states:
+        - Kazakhstan
       8221affffffffff:
-        place: Kazakhstan, Kyzylorda Region, 120400
-        states: []
+        place: Kyzylorda Region
+        states:
+        - Kazakhstan
       8221b7fffffffff:
-        place: Ruhubelent District, Turkmenistan
-        states: []
-    states: []
+        place: Ruhubelent District
+        states:
+        - Turkmenistan
 '18':
   '0':
     hexes:
       822407fffffffff:
-        place: Baruunbayan-Ulaan, Mongolia
-        states: []
+        place: Baruunbayan-Ulaan
       82240ffffffffff:
-        place: Tsogt-Ovoo, Ömnögovi, Mongolia
-        states: []
+        place: Tsogt-Ovoo, Ömnögovi
       822417fffffffff:
-        place: Shinejinst, Mongolia
-        states: []
+        place: Shinejinst
       82241ffffffffff:
-        place: Noyon, Mongolia
-        states: []
+        place: Noyon
       822427fffffffff:
-        place: Chuluut, Mongolia
-        states: []
+        place: Chuluut
       82242ffffffffff:
-        place: Erdenesant, Mongolia
-        states: []
+        place: Erdenesant
       822437fffffffff:
-        place: Chandmani, Mongolia
-        states: []
-    states: []
+        place: Chandmani
+    states:
+    - Mongolia
   '1':
     hexes:
       822447fffffffff:
-        place: Orgon, Mongolia
-        states: []
+        place: Orgon
+        states:
+        - Mongolia
       82244ffffffffff:
-        place: Bayan Tug Sum, Abag Banner, China
-        states: []
+        place: Bayan Tug Sum, Abag Banner
+        states:
+        - China
       822457fffffffff:
-        place: Khtanbulag, Mongolia
-        states: []
+        place: Khtanbulag
+        states:
+        - Mongolia
       82245ffffffffff:
         place: Inner Mongolia, Ulanqab City, 四子王旗脑木更苏木
-        states: []
+        states:
+        - China
       822467fffffffff:
-        place: Binder, Mongolia
-        states: []
+        place: Binder
+        states:
+        - Mongolia
       82246ffffffffff:
-        place: Sukhbaatar, Mongolia
-        states: []
+        place: Sukhbaatar
+        states:
+        - Mongolia
       822477fffffffff:
-        place: Tsagaandelger, Mongolia
-        states: []
-    states: []
+        place: Tsagaandelger
+        states:
+        - Mongolia
   '2':
     hexes:
       822487fffffffff:
-        place: Delingha City, Qinghai, China
-        states: []
+        place: Delingha City, Qinghai
       82248ffffffffff:
         place: 810100 China, Qinghai, Datong
-        states: []
       822497fffffffff:
-        place: Qumarlêb County, China
-        states: []
+        place: Qumarlêb County
       82249ffffffffff:
-        place: Madoi County, Qinghai, China
-        states: []
+        place: Madoi County, Qinghai
       8224a7fffffffff:
-        place: Guazhou County, Gansu, China
-        states: []
+        place: Guazhou County, Gansu
       8224affffffffff:
-        place: Altan Qog, Alxa Right Banner, China
-        states: []
+        place: Altan Qog, Alxa Right Banner
       8224b7fffffffff:
-        place: Mangnai City, Qinghai, China
-        states: []
-    states: []
+        place: Mangnai City, Qinghai
+    states:
+    - China
   '3':
     hexes:
       8224c7fffffffff:
         place: Pingluo County, Shizuishan, G109
-        states: []
       8224cffffffffff:
-        place: Shaanxi, Yuyang District, unnamed road
-        states: []
+        place: Shaanxi, Yuyang District
       8224d7fffffffff:
         place: Gansu, Jingtai County, 武威-定西
-        states: []
       8224dffffffffff:
-        place: Hedao, Huan County, China
-        states: []
+        place: Hedao, Huan County
       8224e7fffffffff:
-        place: Qog Ondor Town, Urad Rear Banner, China
-        states: []
+        place: Qog Ondor Town, Urad Rear Banner
       8224effffffffff:
         place: Inner Mongolia, Urad Front Banner, Erden Bulag Sum
-        states: []
       8224f7fffffffff:
-        place: Yabrai, Alxa Right Banner, China
-        states: []
-    states: []
+        place: Yabrai, Alxa Right Banner
+    states:
+    - China
   '4':
     hexes:
       822507fffffffff:
-        place: сумон Дурген, Tandinsky Kozhuun, Russia
-        states: []
+        place: сумон Дурген, Tandinsky Kozhuun
+        states:
+        - Russia
       82250ffffffffff:
-        place: Ulaan-Uul-Bayanzurkh, Ulaan-Uul, Mongolia
-        states: []
+        place: Ulaan-Uul-Bayanzurkh, Ulaan-Uul
+        states:
+        - Mongolia
       822517fffffffff:
-        place: Myangad, Mongolia
-        states: []
+        place: Myangad
+        states:
+        - Mongolia
       82251ffffffffff:
-        place: Erdenekhairkhan, Mongolia
-        states: []
+        place: Erdenekhairkhan
+        states:
+        - Mongolia
       822527fffffffff:
-        place: unnamed road, Krasnoyarsk Krai, Russia
-        states: []
+        place: unnamed road, Krasnoyarsk Krai
+        states:
+        - Russia
       82252ffffffffff:
-        place: Тофаларское сельское поселение, Nizhneudinsky Rayon, Russia
-        states: []
+        place: Тофаларское сельское поселение, Nizhneudinsky Rayon
+        states:
+        - Russia
       822537fffffffff:
-        place: 93К-01, Tuva Republic, Russia
-        states: []
-    states: []
+        place: Tuva Republic
+        states:
+        - Russia
   '5':
     hexes:
       822547fffffffff:
-        place: Каменское городское поселение, Kabansky District, Russia
-        states: []
+        place: Каменское городское поселение, Kabansky District
+        states:
+        - Russia
       82254ffffffffff:
-        place: Хилогосонское сельское поселение, Khiloksky District, Russia
-        states: []
+        place: Хилогосонское сельское поселение, Khiloksky District
+        states:
+        - Russia
       822557fffffffff:
-        place: Teshig, Mongolia
-        states: []
+        place: Teshig
+        states:
+        - Mongolia
       82255ffffffffff:
-        place: Yeröö, Mongolia
-        states: []
+        place: Yeröö
+        states:
+        - Mongolia
       822567fffffffff:
-        place: Чиканское сельское поселение, Жигаловский район, Russia
-        states: []
+        place: Чиканское сельское поселение, Жигаловский район
+        states:
+        - Russia
       82256ffffffffff:
-        place: Buryatia, Russia, 671610
-        states: []
+        place: Buryatia
+        states:
+        - Russia
       822577fffffffff:
-        place: Тальниковское сельское поселение, Черемховский район, Russia
-        states: []
-    states: []
+        place: Тальниковское сельское поселение, Черемховский район
+        states:
+        - Russia
   '6':
     hexes:
       822587fffffffff:
-        place: Mori Kazakh Autonomous County, China
-        states: []
+        place: Mori Kazakh Autonomous County
+        states:
+        - China
       82258ffffffffff:
-        place: Hami, Yiwu County, China
-        states: []
+        place: Hami, Yiwu County
+        states:
+        - China
       822597fffffffff:
-        place: Yuli County, China
-        states: []
+        place: Yuli County
+        states:
+        - China
       82259ffffffffff:
-        place: Lopnur, Ruoqiang County, China
-        states: []
+        place: Lopnur, Ruoqiang County
+        states:
+        - China
       8225a7fffffffff:
-        place: Fuyun County, Turgun Township, unnamed road
-        states: []
+        place: Fuyun County, Turgun Township
+        states:
+        - China
       8225affffffffff:
-        place: Tonkhil, Mongolia
-        states: []
+        place: Tonkhil
+        states:
+        - Mongolia
       8225b7fffffffff:
-        place: 831100 China, Xinjiang
-        states: []
-    states: []
+        place: Xinjiang
+        states:
+        - China
 '19':
   '0':
     hexes:
       822607fffffffff:
-        place: Grandview Township, SD, United States of America
-        states: []
+        place: Grandview Township, SD
       82260ffffffffff:
-        place: Montgomery County, IA 51566, United States of America
-        states: []
+        place: Montgomery County, IA
       822617fffffffff:
-        place: Bennett County, South Dakota, United States of America
-        states: []
+        place: Bennett County, South Dakota
       82261ffffffffff:
-        place: Buffalo County, NE, United States of America
-        states: []
+        place: Buffalo County, NE
       822627fffffffff:
-        place: Douglas County, MN 56308, United States of America
-        states: []
+        place: Douglas County, MN
       82262ffffffffff:
-        place: Worth County, IA 50446, United States of America
-        states: []
+        place: Worth County, IA
       822637fffffffff:
-        place: McPherson County, SD, United States of America
-        states: []
-    states: []
+        place: McPherson County, SD
+    states:
+    - USA
   '1':
     hexes:
       822647fffffffff:
-        place: Saint Clair County, IL, United States of America
-        states: []
+        place: Saint Clair County, IL
       82264ffffffffff:
-        place: Decatur County, TN 38380, United States of America
-        states: []
+        place: Decatur County, TN
       822657fffffffff:
-        place: Benton County, Missouri, United States of America
-        states: []
+        place: Benton County, Missouri
       82265ffffffffff:
-        place: Independence County, AR 72521, United States of America
-        states: []
+        place: Independence County, AR
       822667fffffffff:
-        place: Iroquois County, IL, United States of America
-        states: []
+        place: Iroquois County, IL
       82266ffffffffff:
-        place: Harrison County, IN 47142, United States of America
-        states: []
+        place: Harrison County, IN
       822677fffffffff:
-        place: Henry County, IA 52649, United States of America
-        states: []
-    states: []
+        place: Henry County, IA
+    states:
+    - USA
   '2':
     hexes:
       822687fffffffff:
-        place: Routt County, CO, United States of America
-        states: []
+        place: Routt County, CO
       82268ffffffffff:
-        place: Pueblo County, Colorado, United States of America
-        states: []
+        place: Pueblo County, Colorado
       822697fffffffff:
-        place: Wasatch County, Utah, United States of America
-        states: []
+        place: Wasatch County, Utah
       82269ffffffffff:
-        place: Dolores County, CO, United States of America
-        states: []
+        place: Dolores County, CO
       8226a7fffffffff:
-        place: Converse County, Wyoming, United States of America
-        states: []
+        place: Converse County, Wyoming
       8226affffffffff:
-        place: Logan County, CO 80736, United States of America
-        states: []
+        place: Logan County, CO
       8226b7fffffffff:
-        place: Sublette County, WY, United States of America
-        states: []
-    states: []
+        place: Sublette County, WY
+    states:
+    - USA
   '3':
     hexes:
       8226c7fffffffff:
-        place: Dewey County, OK, United States of America
-        states: []
+        place: Dewey County, OK
       8226cffffffffff:
-        place: Celina, TX 75009, United States of America
-        states: []
+        place: Celina, TX
       8226d7fffffffff:
-        place: Hartley County, TX, United States of America
-        states: []
+        place: Hartley County, TX
       8226dffffffffff:
-        place: Stonewall County, Texas, United States of America
-        states: []
+        place: Stonewall County, Texas
       8226e7fffffffff:
-        place: Marion County, KS, United States of America
-        states: []
+        place: Marion County, KS
       8226effffffffff:
-        place: Cherokee County, OK 74441, United States of America
-        states: []
+        place: Cherokee County, OK
       8226f7fffffffff:
-        place: Scott County, KS 67871, United States of America
-        states: []
-    states: []
+        place: Scott County, KS
+    states:
+    - USA
   '4':
     hexes:
       822707fffffffff:
-        place: Unorganized Division No. 19, Manitoba, Canada
-        states: []
+        place: Unorganized Division, Manitoba
+        states:
+        - Canada
       82270ffffffffff:
-        place: Koochiching County, Minnesota, United States of America
-        states: []
+        place: Koochiching County, Minnesota
+        states:
+        - USA
       822717fffffffff:
-        place: Unorganized Division No. 17, MB, Canada
-        states: []
+        place: Unorganized Division
+        states:
+        - Canada
       82271ffffffffff:
-        place: Walsh County, ND, United States of America
-        states: []
+        place: Walsh County, ND
+        states:
+        - USA
       822727fffffffff:
-        place: Unorganized Kenora District, Ontario, Canada
-        states: []
+        place: Unorganized Kenora District, Ontario
+        states:
+        - Canada
       82272ffffffffff:
-        place: Unorganized Thunder Bay District, Ontario, Canada
-        states: []
+        place: Unorganized Thunder Bay District, Ontario
+        states:
+        - Canada
       822737fffffffff:
-        place: Unorganized Division No. 21, Manitoba, Canada
-        states: []
-    states: []
+        place: Unorganized Division, Manitoba
+        states:
+        - Canada
   '5':
     hexes:
       822747fffffffff:
-        place: Wisconsin, United States of America
-        states: []
+        place: Wisconsin
+        states:
+        - USA
       82274ffffffffff:
-        place: Irving Township, MI, United States of America
-        states: []
+        place: Irving Township, MI
+        states:
+        - USA
       822757fffffffff:
-        place: Sawyer County, WI 54835, United States of America
-        states: []
+        place: Sawyer County, WI
+        states:
+        - USA
       82275ffffffffff:
-        place: Madison, WI 54704, United States of America
-        states: []
+        place: Madison, WI
+        states:
+        - USA
       822767fffffffff:
-        place: Unorganized North Algoma, Ontario, Canada
-        states: []
+        place: Unorganized North Algoma, Ontario
+        states:
+        - Canada
       82276ffffffffff:
-        place: Michigan, United States of America
-        states: []
+        place: Michigan
+        states:
+        - USA
       822777fffffffff:
-        place: Michigan, United States of America
-        states: []
-    states: []
+        place: Michigan
+        states:
+        - USA
   '6':
     hexes:
       822787fffffffff:
-        place: Garfield County, Montana, United States of America
-        states: []
+        place: Garfield County, Montana
+        states:
+        - USA
       82278ffffffffff:
-        place: Harding County, South Dakota, United States of America
-        states: []
+        place: Harding County, South Dakota
+        states:
+        - USA
       822797fffffffff:
-        place: Chouteau County, Montana, United States of America
-        states: []
+        place: Chouteau County, Montana
+        states:
+        - USA
       82279ffffffffff:
-        place: Big Horn County, Montana, United States of America
-        states: []
+        place: Big Horn County, Montana
+        states:
+        - USA
       8227a7fffffffff:
-        place: Pense No. 160, Saskatchewan, Canada
-        states: []
+        place: Pense No. 160, Saskatchewan
+        states:
+        - Canada
       8227affffffffff:
-        place: Mountrail County, North Dakota, United States of America
-        states: []
+        place: Mountrail County, North Dakota
+        states:
+        - USA
       8227b7fffffffff:
-        place: Big Stick No. 141, SK, Canada
-        states: []
-    states: []
+        place: Big Stick, SK
+        states:
+        - Canada
 '2':
   '0':
     hexes:
       820417fffffffff:
-        place: Sakha Republic, Russia
+        place: Sakha Republic
         states:
         - Russia
-    states: []
   '2':
     hexes:
       820487fffffffff:
-        place: Sakha Republic, Russia, 678871
-        states: []
+        place: Sakha Republic
       82048ffffffffff:
-        place: Sakha Republic, Russia, 678772
-        states: []
+        place: Sakha Republic
       820497fffffffff:
-        place: Sakha Republic, Russia, 678723
-        states: []
+        place: Sakha Republic
       82049ffffffffff:
-        place: Sakha Republic, Russia, 678735
-        states: []
+        place: Sakha Republic
       8204a7fffffffff:
-        place: Sakha Republic, Russia, 678521
-        states: []
+        place: Sakha Republic
       8204affffffffff:
-        place: Быягнырский наслег, Allaikhovsky Ulus, Russia
-        states: []
+        place: Быягнырский наслег, Allaikhovsky Ulus
       8204b7fffffffff:
-        place: Борулахский наслег, Verkhoyansky Ulus, Russia
-        states: []
+        place: Борулахский наслег, Verkhoyansky Ulus
     states:
     - Russia
   '3':
     hexes:
       8204c7fffffffff:
-        place: 98К-006, Sakha Republic, Russia
-        states: []
+        place: 98К-006, Sakha Republic
       8204cffffffffff:
-        place: Pevek urban district, Russia
-        states: []
+        place: Pevek urban district
       8204d7fffffffff:
-        place: Sakha Republic, Russia, 678789
-        states: []
+        place: Sakha Republic
       8204dffffffffff:
-        place: Bilibinsky District, Russia
-        states: []
+        place: Bilibinsky District
       8204f7fffffffff:
-        place: Sakha Republic, Russia, 678837
-        states: []
+        place: Sakha Republic
     states:
     - Russia
   '4':
     hexes:
       820517fffffffff:
-        place: Krasnoyarsk Krai, Russia, 647460
-        states: []
+        place: Krasnoyarsk Krai
       820527fffffffff:
         place: >-
           городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
           Russia
-        states: []
       820537fffffffff:
         place: >-
           городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
           Russia
-        states: []
     states:
     - Russia
   '6':
     hexes:
       820587fffffffff:
-        place: Sakha Republic, Russia, 678492
-        states: []
+        place: Sakha Republic
       82058ffffffffff:
-        place: Sakha Republic, Russia
-        states: []
+        place: Sakha Republic
       820597fffffffff:
-        place: Эвенкийское сельское поселение «Кыстатыам», Zhigansky Ulus, Russia
-        states: []
+        place: Эвенкийское сельское поселение «Кыстатыам», Zhigansky Ulus
       82059ffffffffff:
-        place: Sakha Republic, Russia, 678586
-        states: []
+        place: Sakha Republic
       8205a7fffffffff:
-        place: >-
-          Юрюнг-Хаинский национальный (долганский) наслег, Anabarsky Ulus,
-          Russia
-        states: []
+        place: Юрюнг-Хаинский национальный (долганский) наслег, Anabarsky Ulus
       8205affffffffff:
-        place: Sakha Republic, Russia
-        states: []
+        place: Sakha Republic
       8205b7fffffffff:
-        place: Кирбейский национальный наслег, Olenyoksky Ulus, Russia
-        states: []
+        place: Кирбейский национальный наслег, Olenyoksky Ulus
     states:
     - Russia
 '20':
   '0':
     hexes:
       822817fffffffff:
-        place: Lassen County, California, United States of America
-        states: []
+        place: Lassen County, California
       82281ffffffffff:
-        place: Douglas County, OR, United States of America
-        states: []
+        place: Douglas County, OR
       822837fffffffff:
-        place: Solano County, CA, United States of America
-        states: []
-    states: []
+        place: Solano County, CA
+    states:
+    - USA
   '2':
     hexes:
       822887fffffffff:
-        place: Valley County, Idaho, United States of America
-        states: []
+        place: Valley County, Idaho
       82288ffffffffff:
-        place: Walla Walla County, Washington, United States of America
-        states: []
+        place: Walla Walla County, Washington
       822897fffffffff:
-        place: Madison County, Montana, United States of America
-        states: []
+        place: Madison County, Montana
       82289ffffffffff:
-        place: Mineral County, MT 59820, United States of America
-        states: []
+        place: Mineral County, MT
       8228a7fffffffff:
-        place: Humboldt County, Nevada, United States of America
-        states: []
+        place: Humboldt County, Nevada
       8228affffffffff:
-        place: Crook County, Oregon, United States of America
-        states: []
+        place: Crook County, Oregon
       8228b7fffffffff:
-        place: Cassia County, Idaho, United States of America
-        states: []
-    states: []
+        place: Cassia County, Idaho
+    states:
+    - USA
   '3':
     hexes:
       8228d7fffffffff:
-        place: Snohomish County, Washington, United States of America
-        states: []
+        place: Snohomish County, Washington
+        states:
+        - USA
       8228dffffffffff:
-        place: Area C (Lois Lake/Saltery Bay), BC, Canada
-        states: []
+        place: Lois Lake/Saltery Bay, BC
+        states:
+        - Canada
       8228f7fffffffff:
-        place: Portland, OR 97227, United States of America
-        states: []
-    states: []
+        place: Portland, OR 97227
+        states:
+        - USA
   '6':
     hexes:
       822987fffffffff:
-        place: Nye County, Nevada, United States of America
-        states: []
+        place: Nye County, Nevada
       82298ffffffffff:
-        place: Mineral County, Nevada, United States of America
-        states: []
+        place: Mineral County, Nevada
       822997fffffffff:
-        place: Kane County, UT, United States of America
-        states: []
+        place: Kane County, UT
       82299ffffffffff:
-        place: White Pine County, NV, United States of America
-        states: []
+        place: White Pine County, NV
       8229a7fffffffff:
-        place: Moreno Valley, CA 92557, United States of America
-        states: []
+        place: Moreno Valley, CA
       8229affffffffff:
-        place: Kings County, CA, United States of America
-        states: []
+        place: Kings County, CA
       8229b7fffffffff:
-        place: Mohave County, Arizona, United States of America
-        states: []
-    states: []
+        place: Mohave County, Arizona
+    states:
+    - USA
 '21':
   '0':
     hexes:
       822a17fffffffff:
-        place: New York, NY 10464, United States of America
-        states: []
+        place: New York, NY
       822a37fffffffff:
-        place: Ipswich, MA 01938, United States of America
-        states: []
-    states: []
+        place: Ipswich, MA
+    states:
+    - USA
   '2':
     hexes:
       822a87fffffffff:
-        place: Marion County, WV 26570, United States of America
-        states: []
+        place: Marion County, WV
+        states:
+        - USA
       822a8ffffffffff:
-        place: Pittsylvania County, VA 24569, United States of America
-        states: []
+        place: Pittsylvania County, VA
+        states:
+        - USA
       822a97fffffffff:
-        place: Champaign County, OH 43072, United States of America
-        states: []
+        place: Champaign County, OH
+        states:
+        - USA
       822a9ffffffffff:
-        place: Floyd County, KY 41663, United States of America
-        states: []
+        place: Floyd County, KY
+        states:
+        - USA
       822aa7fffffffff:
-        place: Elk Township, PA 16921, United States of America
-        states: []
+        place: Elk Township, PA
+        states:
+        - USA
       822aaffffffffff:
-        place: Edgewater, MD 21041, United States of America
-        states: []
+        place: Edgewater, MD
+        states:
+        - USA
       822ab7fffffffff:
-        place: Southwestern Ontario, Ontario, Canada
-        states: []
-    states: []
+        place: Southwestern Ontario, Ontario
+        states:
+        - Canada
   '3':
     hexes:
       822ad7fffffffff:
-        place: Pender County, NC 28478, United States of America
-        states: []
-    states: []
+        place: Pender County, NC 28478
+    states:
+    - USA
+
   '4':
     hexes:
       822b17fffffffff:
-        place: Rivière-Verte Parish, New Brunswick, Canada
-        states: []
+        place: Rivière-Verte Parish, New Brunswick
+        states:
+        - Canada
       822b1ffffffffff:
-        place: Jonesport, ME 04649, United States of America
-        states: []
-    states: []
+        place: Jonesport, ME
+        states:
+        - USA
   '6':
     hexes:
       822b87fffffffff:
-        place: Saint-Aimé-du-Lac-des-Îles, Quebec, Canada
-        states: []
+        place: Saint-Aimé-du-Lac-des-Îles, Quebec
+        states:
+        - Canada
       822b8ffffffffff:
-        place: Hamilton County, NY, United States of America
-        states: []
+        place: Hamilton County, NY
+        states:
+        - USA
       822b97fffffffff:
-        place: Temagami, Ontario, Canada
-        states: []
+        place: Temagami, Ontario
+        states:
+        - Canada
       822b9ffffffffff:
-        place: Kawartha Lakes, ON K9V, Canada
-        states: []
+        place: Kawartha Lakes, ON
+        states:
+        - Canada
       822ba7fffffffff:
-        place: Sainte-Hedwidge, QC G0W 2R0, Canada
-        states: []
+        place: Sainte-Hedwidge, QC
+        states:
+        - Canada
       822baffffffffff:
-        place: Bury, QC, Canada
-        states: []
+        place: Bury, QC
+        states:
+        - Canada
       822bb7fffffffff:
-        place: Jamésie, Quebec, Canada
-        states: []
-    states: []
+        place: Jamésie, Quebec
+        states:
+        - Canada
 '22':
   '0':
     hexes:
       822c07fffffffff:
-        place: 04400 Doğubayazıt, Turkey
-        states: []
+        place: 04400 Doğubayazıt
+        states:
+        - Turkey
       822c0ffffffffff:
-        place: Sheki District, Azerbaijan
-        states: []
+        place: Sheki District
+        states:
+        - Azerbaijan
       822c17fffffffff:
-        place: میرگێ, Akre District, Iraq
-        states: []
+        place: میرگێ, Akre District
+        states:
+        - Iraq
       822c1ffffffffff:
-        place: دهستان ابرغان, Sarab County, Iran
-        states: []
+        place: دهستان ابرغان, Sarab County
+        states:
+        - Iran
       822c27fffffffff:
-        place: Rize, Turkey
-        states: []
+        place: Rize
+        states:
+        - Turkey
       822c2ffffffffff:
         place: Dzau District, South Ossetia
-        states: []
+        states:
+        - Georgia
       822c37fffffffff:
-        place: 21-06, Kulp, Turkey
-        states: []
-    states: []
+        place: Kulp
+        states:
+        - Turkey
   '1':
     hexes:
       822c47fffffffff:
-        place: Buzachi Peninsula, Mangystau District, Kazakhstan
-        states: []
+        place: Buzachi Peninsula, Mangystau Sub-district
+        states:
+        - Kazakhstan
       822c4ffffffffff:
-        place: Kazakhstan, Mangystau Region, 130100
-        states: []
+        place: Kazakhstan, Mangystau Region
+        states:
+        - Kazakhstan
       822c5ffffffffff:
-        place: Qaraqïya District, Kazakhstan
-        states: []
+        place: Qaraqïya Sub-district
+        states:
+        - Kazakhstan
       822c67fffffffff:
-        place: ООО «Газпром добыча Астрахань», Krasnoyarsky District, Russia
-        states: []
+        place: ООО «Газпром добыча Астрахань», Krasnoyarsky District
+        states:
+        - Russia
       822c6ffffffffff:
-        place: Есбол ауылдық округі, Makhambet District, Kazakhstan
-        states: []
-    states: []
+        place: Есбол ауылдық округі, Makhambet Sub-district
+        states:
+        - Kazakhstan
   '2':
     hexes:
       822c87fffffffff:
         place: Western Ali Central Subdistrict, Western Ali District, Iraq
-        states: []
+        states:
+        - Iraq
       822c8ffffffffff:
         place: unnamed road, Lorestan Province, Iran
-        states: []
+        states:
+        - Iran
       822c97fffffffff:
         place: Al-Basra Governorate, 61005, Iraq
-        states: []
+        states:
+        - Iraq
       822c9ffffffffff:
         place: دهستان چاه سالم, Omidieh County, Iran
-        states: []
+        states:
+        - Iran
       822ca7fffffffff:
         place: Ubayd Yusif, Dujail District, Iraq
-        states: []
+        states:
+        - Iraq
       822caffffffffff:
         place: unnamed road, Kurdistan Province, Iran
-        states: []
+        states:
+        - Iran
       822cb7fffffffff:
         place: Al-Shabaka Subdistrict, Al-Najaf District, Iraq
-        states: []
-    states: []
+        states:
+        - Iraq
   '3':
     hexes:
       822cc7fffffffff:
         place: Caspian Sea
-        states: []
+        states:
+        - Iran
       822ccffffffffff:
-        place: unnamed road, North Khorasan Province, Iran
-        states: []
+        place: unnamed road, North Khorasan Province
+        states:
+        - Iran
       822cd7fffffffff:
-        place: دهستان لاسگرد, Sorkheh County, Iran
-        states: []
+        place: دهستان لاسگرد, Sorkheh County
+        states:
+        - Iran
       822cdffffffffff:
-        place: دهستان بیارجمند, Shahrud County, Iran
-        states: []
+        place: دهستان بیارجمند, Shahrud County
+        states:
+        - Iran
       822ceffffffffff:
-        place: Turkmenbashy District, Turkmenistan
-        states: []
+        place: Turkmenbashy District
+        states:
+        - Turkmenistan
       822cf7fffffffff:
-        place: West Basharyat RD, Abyek County, Iran
-        states: []
-    states: []
+        place: West Basharyat RD, Abyek County
+        states:
+        - Iran
   '4':
     hexes:
       822d07fffffffff:
-        place: Taşköprü, Kastamonu, Turkey
-        states: []
+        place: Taşköprü, Kastamonu
       822d17fffffffff:
-        place: unnamed road, Doğala Köyü, Turkey
-        states: []
+        place: Doğala Köyü
       822d1ffffffffff:
-        place: Zara, Sivas, Turkey
-        states: []
+        place: Zara, Sivas
       822d37fffffffff:
-        place: unnamed road, Alpu, Turkey
-        states: []
-    states: []
+        place: Alpu
+    states:
+    - Turkey
   '5':
     hexes:
       822d47fffffffff:
         place: Краснооктябрьское сельское поселение, Vesyolovsky District, Russia
-        states: []
+        states:
+        - Russia
       822d4ffffffffff:
-        place: Bol'shie Chapurniki, Volgograd Oblast, Russia
-        states: []
+        place: Bol'shie Chapurniki, Volgograd Oblast
+        states:
+        - Russia
       822d57fffffffff:
-        place: Предгорненское сельское поселение, Urupsky District, Russia
-        states: []
+        place: Предгорненское сельское поселение, Urupsky District
+        states:
+        - Russia
       822d5ffffffffff:
-        place: Stavropol Krai, Russia, 356570
-        states: []
+        place: Stavropol Krai
+        states:
+        - Russia
       822d67fffffffff:
-        place: Shakhove rural hromada, Pokrovskii Raion, Ukraine
-        states: []
+        place: Shakhove rural hromada, Pokrovskii Raion
+        states:
+        - Ukraine
       822d6ffffffffff:
-        place: Новолиманское сельское поселение, Petropavlovsky District, Russia
-        states: []
+        place: Новолиманское сельское поселение, Petropavlovsky District
+        states:
+        - Russia
       822d77fffffffff:
-        place: Krasnodar Krai, Russia
-        states: []
-    states: []
+        place: Krasnodar Krai
+        states:
+        - Russia
   '6':
     hexes:
       822d87fffffffff:
-        place: Tadmur Subdistrict, Tadmur District, Syria
-        states: []
+        place: Tadmur Subdistrict, Tadmur District
+        states:
+        - Syria
       822d8ffffffffff:
-        place: As-Suwar Subdistrict, Syria
-        states: []
+        place: As-Suwar Subdistrict
+        states:
+        - Syria
       822d97fffffffff:
-        place: Al Jawf Region, Saudi Arabia
-        states: []
+        place: Al Jawf Region
+        states:
+        - Saudi Arabia
       822d9ffffffffff:
-        place: Al-Nukhayb Subdistrict, Al-Rutba District, Iraq
-        states: []
+        place: Al-Nukhayb Subdistrict, Al-Rutba District
+        states:
+        - Iraq
       822daffffffffff:
-        place: unnamed road, 27880 Karkamış, Turkey
-        states: []
+        place: unnamed road, Karkamış
+        states:
+        - Turkey
       822db7fffffffff:
-        place: Nof Harim, 4284200 Olesh, Israel
-        states: []
-    states: []
+        place: Nof Harim, Olesh
+        states:
+        - Israel
 '23':
   '0':
     hexes:
       822e0ffffffffff:
-        place: Akita, Akita Prefecture 010-0822, Japan
-        states: []
+        place: Akita, Akita Prefecture
       822e1ffffffffff:
         place: Unknown
-        states: []
-    states: []
+    states:
+    - Japan
   '1':
     hexes:
       822e67fffffffff:
-        place: Kawagoe, Mie County, Japan
-        states: []
+        place: Kawagoe, Mie County
       822e6ffffffffff:
-        place: Maniwa, Okayama Prefecture 717-0013, Japan
-        states: []
+        place: Maniwa, Okayama Prefecture 717-0013
       822e77fffffffff:
-        place: Kashiwazaki, Niigata Prefecture, Japan
-        states: []
-    states: []
+        place: Kashiwazaki, Niigata Prefecture
+    states:
+    - Japan
   '3':
     hexes:
       822ec7fffffffff:
         place: Sea of Japan
-        states: []
       822ecffffffffff:
-        place: Yakovlevsky District, Russia
-        states: []
+        place: Yakovlevsky District
       822ed7fffffffff:
-        place: Primorsky Krai, Russia
-        states: []
+        place: Primorsky Krai
       822edffffffffff:
-        place: Pozharsky District, Russia
-        states: []
-    states: []
+        place: Pozharsky District
+    states:
+    - Russia
 '24':
   '0':
     hexes:
       823017fffffffff:
-        place: Shandong, Longkou City, unnamed road
-        states: []
+        place: Shandong, Longkou City
+        states:
+        - China
       823027fffffffff:
-        place: Liaoning, Haicheng City, unnamed road
-        states: []
+        place: Liaoning, Haicheng City
+        states:
+        - China
       82302ffffffffff:
-        place: North Pyongan, North Korea
-        states: []
+        place: North Pyongan
+        states:
+        - North Korea
       823037fffffffff:
-        place: Huludao City, Liaoning, China
-        states: []
-    states: []
+        place: Huludao City, Liaoning
+        states:
+        - China
   '2':
     hexes:
       823087fffffffff:
-        place: Jiangsu, Funing County, unnamed road
-        states: []
+        place: Jiangsu, Funing County
       823097fffffffff:
-        place: Anhui, Quanjiao County, X059
-        states: []
+        place: Anhui, Quanjiao County
       82309ffffffffff:
         place: Suzhou Industrial Park, 金鸡湖街道, Gangtian Road
-        states: []
       8230a7fffffffff:
-        place: Yishui County, Shandong, China
-        states: []
+        place: Yishui County, Shandong
       8230b7fffffffff:
-        place: Jiangsu, Feng County, unnamed road
-        states: []
-    states: []
+        place: Jiangsu, Feng County
+    states:
+    - China
   '3':
     hexes:
       8230c7fffffffff:
-        place: South Korea, South Gyeongsang Hwagae-myeon 비법정탐방로, 52309
-        states: []
+        place: South Gyeongsang Hwagae-myeon 비법정탐방로
       8230e7fffffffff:
-        place: South Korea, Incheon, 23123
-        states: []
+        place: Incheon
       8230effffffffff:
-        place: South Korea, Gangwon State Samcheok-si, 25934
-        states: []
-    states: []
+        place: Gangwon State Samcheok-si
+    states:
+    - South Korea
   '4':
     hexes:
       823107fffffffff:
-        place: Tongliao City, Ger Qulu Sum, unnamed road
-        states: []
+        place: Tongliao City, Ger Qulu Sum
       82310ffffffffff:
-        place: Tongliao City, Inner Mongolia, China
-        states: []
+        place: Tongliao City, Inner Mongolia
       823117fffffffff:
-        place: Hexigten Banner, Inner Mongolia, China
-        states: []
+        place: Hexigten Banner, Inner Mongolia
       82311ffffffffff:
-        place: Inner Mongolia, Manihan, unnamed road
-        states: []
+        place: Inner Mongolia, Manihan
       823127fffffffff:
-        place: Inner Mongolia, Mingshuihe, unnamed road
-        states: []
+        place: Inner Mongolia, Mingshuihe
       82312ffffffffff:
-        place: 同安, Da'an City, China
-        states: []
+        place: 同安, Da'an City
       823137fffffffff:
-        place: Samai Sum, East Ujimqin Banner, China
-        states: []
-    states: []
+        place: Samai Sum, East Ujimqin Banner
+    states:
+    - China
   '5':
     hexes:
       823147fffffffff:
-        place: unnamed road, 서두리, North Korea
-        states: []
+        place: 서두리
+        states:
+        - North Korea
       823157fffffffff:
-        place: Dongchang, Binjiang Subdistrict, unnamed road
-        states: []
+        place: Dongchang, Binjiang Subdistrict
+        states:
+        - China
       82315ffffffffff:
-        place: Kumya County, North Korea
-        states: []
+        place: Kumya County
+        states:
+        - North Korea
       823167fffffffff:
-        place: Muling City, China
-        states: []
+        place: Muling City
+        states:
+        - China
       823177fffffffff:
-        place: Jilin, Fengman District, unnamed road
-        states: []
+        place: Jilin, Fengman District
+        states:
+        - China
     states: []
   '6':
     hexes:
       823187fffffffff:
-        place: Hebei, Baoding City, unnamed road
-        states: []
+        place: Hebei, Baoding City
       82318ffffffffff:
-        place: Huanghua City, Erfenqudongdaduicun, S384
-        states: []
+        place: Huanghua City, Erfenqudongdaduicun
       823197fffffffff:
-        place: Taiyuan, Shanxi, China
-        states: []
+        place: Taiyuan, Shanxi
       82319ffffffffff:
-        place: Xingtai, Linxi County, unnamed road
-        states: []
+        place: Xingtai, Linxi County
       8231a7fffffffff:
-        place: Zhangjiakou, Hebei, China
-        states: []
+        place: Zhangjiakou, Hebei
       8231affffffffff:
-        place: Hebei, Luanping County, unnamed road
-        states: []
+        place: Hebei, Luanping County
       8231b7fffffffff:
         place: Inner Mongolia, Horinger County, Hohhot City
-        states: []
-    states: []
+    states:
+    - China
 '28':
   '0':
     hexes:
       823807fffffffff:
-        place: El Biod, Mecheria District, Algeria
-        states: []
+        place: El Biod, Mecheria District
+        states:
+        - Algeria
       82380ffffffffff:
-        place: Kheneg, Aïn Madhi District, Algeria
-        states: []
+        place: Kheneg, Aïn Madhi District
+        states:
+        - Algeria
       823817fffffffff:
-        place: 08011 Kenadsa, Algeria
-        states: []
+        place: Kenadsa
+        states:
+        - Algeria
       82381ffffffffff:
-        place: Lebnoud, El Abiodh Sidi Cheikh District, Algeria
-        states: []
+        place: Lebnoud, El Abiodh Sidi Cheikh District
+        states:
+        - Algeria
       82382ffffffffff:
-        place: Beni Bouattab, El Karimia District, Algeria
-        states: []
+        place: Beni Bouattab, El Karimia District
+        states:
+        - Algeria
       823837fffffffff:
-        place: Galdamane, Cercle de Taza دائرة تازة, Morocco
-        states: []
-    states: []
+        place: Galdamane, Cercle de Taza دائرة تازة
+        states:
+        - Morocco
   '1':
     hexes:
       823847fffffffff:
-        place: الطريق الوطنية قابس - بوشبكة, Kasserine, Tunisia
-        states: []
+        place: الطريق الوطنية قابس - بوشبكة, Kasserine
+        states:
+        - Tunisia
       823857fffffffff:
-        place: 30053 El Hadjira, Algeria
-        states: []
+        place: El Hadjira
+        states:
+        - Algeria
       82385ffffffffff:
-        place: رمادة الغربية, Tunisia
-        states: []
+        place: رمادة الغربية
+        states:
+        - Tunisia
       823877fffffffff:
-        place: unnamed road, Guernini, Algeria
-        states: []
-    states: []
+        place: Guernini
+        states:
+        - Algeria
   '2':
     hexes:
       823887fffffffff:
-        place: 01200 Reggane, Algeria
-        states: []
+        place: Reggane
+        states:
+        - Algeria
       82388ffffffffff:
-        place: 01200 Reggane, Algeria
-        states: []
+        place: Reggane
+        states:
+        - Algeria
       823897fffffffff:
         place: Tombouctou Cercle, Mali
-        states: []
+        states:
+        - Mali
       82389ffffffffff:
-        place: 01010 Bordj Badji Mokhtar, Algeria
-        states: []
+        place: Bordj Badji Mokhtar
+        states:
+        - Algeria
       8238a7fffffffff:
-        place: 37010 Oum el Assel, Algeria
-        states: []
+        place: Oum el Assel
+        states:
+        - Algeria
       8238affffffffff:
-        place: 01015 Tsabit, Algeria
-        states: []
+        place: Tsabit
+        states:
+        - Algeria
       8238b7fffffffff:
-        place: Tinduf, Tinduf Disctrict, Algeria
-        states: []
-    states: []
+        place: Tinduf, Tinduf Disctrict
+        states:
+        - Algeria
   '3':
     hexes:
       8238c7fffffffff:
-        place: Foggaret Ezzaouia, d'In Salah District, Algeria
-        states: []
+        place: Foggaret Ezzaouia, d'In Salah District
       8238cffffffffff:
-        place: 33000 Illizi, Algeria
-        states: []
+        place: 33000 Illizi
       8238d7fffffffff:
-        place: In Amguel, de Tamanrasset District, Algeria
-        states: []
+        place: In Amguel, de Tamanrasset District
       8238dffffffffff:
-        place: Idles, Tazrouk District, Algeria
-        states: []
+        place: Idles, Tazrouk District
       8238e7fffffffff:
-        place: Hassi Gara, El Menia District, Algeria
-        states: []
+        place: Hassi Gara, El Menia District
       8238effffffffff:
-        place: 33003 Burj Umar Idris, Algeria
-        states: []
+        place: Burj Umar Idris
       8238f7fffffffff:
-        place: Timokten, Adrar, Algeria
-        states: []
-    states: []
+        place: Timokten, Adrar
+    states:
+    - Algeria
   '4':
     hexes:
       823907fffffffff:
-        place: Camino del Vaqueril, Brozas, Spain
-        states: []
+        place: Camino del Vaqueril, Brozas
+        states:
+        - Spain
       82390ffffffffff:
-        place: Autovía de los Viñedos, 13700 Tomelloso, Spain
-        states: []
+        place: Autovía de los Viñedos, Tomelloso
+        states:
+        - Spain
       823917fffffffff:
         place: Lagos, Faro, Portugal
-        states: []
+        states:
+        - Portugal
       82391ffffffffff:
-        place: 16692 Setenil de las Bodegas, Spain
-        states: []
+        place: 16692 Setenil de las Bodegas
+        states:
+        - Spain
       823927fffffffff:
-        place: Pena Redonda, Galicia, Spain
-        states: []
+        place: Pena Redonda, Galicia
+        states:
+        - Spain
       82392ffffffffff:
-        place: Camino de Soto a las Derrumbadas, 34209 Soto de Cerrato, Spain
-        states: []
-    states: []
+        place: Camino de Soto a las Derrumbadas,  Soto de Cerrato
+        states:
+        - Spain
   '5':
     hexes:
       823967fffffffff:
-        place: Allée de Panayrac, 31280 Drémil-Lafage, France
-        states: []
+        place: Allée de Panayrac, Drémil-Lafage
+        states:
+        - France
       823977fffffffff:
-        place: >-
-          Camino a la Ermita de la Virgen de la Magdalena, Mediana de Aragón,
-          Spain
-        states: []
-    states: []
+        place: Camino a la Ermita de la Virgen de la Magdalena, Mediana de Aragón
+        states:
+        - Spain
   '6':
     hexes:
       823987fffffffff:
-        place: unnamed road, Atouabet اتوابت, Morocco
-        states: []
+        place: unnamed road, Atouabet اتوابت
       82398ffffffffff:
-        place: unnamed road, Akedim n' Yazza, Morocco
-        states: []
+        place: unnamed road, Akedim n' Yazza
       823997fffffffff:
         place: North Atlantic Ocean
-        states: []
       82399ffffffffff:
-        place: Oum El Guerdane أم الڭردان, Cercle de Tata دائرة طاطا, Morocco
-        states: []
+        place: Oum El Guerdane أم الڭردان, Cercle de Tata دائرة طاطا
       8239affffffffff:
         place: North Atlantic Ocean
-        states: []
-    states: []
+    states:
+    - Morocco
 '3':
   '0':
     hexes:
       820607fffffffff:
         place: Sermersooq, Greenland
-        states: []
       82060ffffffffff:
         place: Sermersooq, Greenland
-        states: []
       820617fffffffff:
         place: Greenland
-        states: []
       82061ffffffffff:
         place: Sermersooq, Greenland
-        states: []
       820627fffffffff:
         place: Sermersooq, Greenland
-        states: []
       820637fffffffff:
         place: Greenland
-        states: []
     states:
     - Denmark
   '2':
     hexes:
       820687fffffffff:
         place: Avannaata, Greenland
-        states: []
       82068ffffffffff:
         place: Avannaata, Greenland
-        states: []
       8206a7fffffffff:
         place: Greenland
-        states: []
       8206affffffffff:
         place: Avannaata, Greenland
-        states: []
       8206b7fffffffff:
         place: Avannaata, Greenland
-        states: []
     states:
     - Denmark
   '3':
     hexes:
       8206c7fffffffff:
         place: Qeqqata, Greenland
-        states: []
       8206cffffffffff:
         place: Sermersooq, Greenland
-        states: []
       8206d7fffffffff:
         place: Qeqertalik, Greenland
-        states: []
       8206e7fffffffff:
         place: Sermersooq, Greenland
-        states: []
       8206effffffffff:
         place: Sermersooq, Greenland
-        states: []
       8206f7fffffffff:
         place: Qeqertalik, Greenland
-        states: []
     states:
     - Denmark
   '5':
     hexes:
       820747fffffffff:
-        place: Ásahreppur, Iceland
-        states: []
+        place: Ásahreppur
     states:
     - Iceland
   '6':
     hexes:
       820787fffffffff:
         place: Greenland
-        states: []
       82078ffffffffff:
         place: Greenland
-        states: []
       820797fffffffff:
         place: Greenland
-        states: []
       82079ffffffffff:
         place: Greenland
-        states: []
       8207affffffffff:
         place: Greenland
-        states: []
       8207b7fffffffff:
         place: Greenland
-        states: []
     states:
     - Denmark
 '30':
   '0':
     hexes:
       823c07fffffffff:
-        place: Menpu, Nyalam County, China
-        states: []
+        place: Menpu, Nyalam County
+        states:
+        - China
       823c0ffffffffff:
-        place: Kangmar County, Tibet, China
-        states: []
+        place: Kangmar County, Tibet
+        states:
+        - China
       823c17fffffffff:
-        place: Raghunathpur, India
-        states: []
+        place: Raghunathpur
+        states:
+        - India
       823c1ffffffffff:
-        place: '- 855108, Bihar, India'
-        states: []
+        place: Bihar
+        states:
+        - India
       823c27fffffffff:
-        place: Drongpa County, Tibet, China
-        states: []
+        place: Drongpa County, Tibet
+        states:
+        - China
       823c2ffffffffff:
-        place: Drowa, Nyima County, China
-        states: []
+        place: Drowa, Nyima County
+        states:
+        - China
       823c37fffffffff:
-        place: Galkot Dhuri, Rolpa, Nepal
-        states: []
-    states: []
+        place: Galkot Dhuri, Rolpa
+        states:
+        - Nepal
   '1':
     hexes:
       823c47fffffffff:
-        place: Banbar County, Tibet, China
-        states: []
+        place: Banbar County, Tibet
+        states:
+        - China
       823c4ffffffffff:
-        place: Zhag'yab County, Tibet, China
-        states: []
+        place: Zhag'yab County, Tibet
+        states:
+        - China
       823c57fffffffff:
-        place: Nyeme Township, Lhuntse Conty, China
-        states: []
+        place: Nyeme Township, Lhuntse Conty
+        states:
+        - China
       823c5ffffffffff:
-        place: Hunli SDO, India
-        states: []
+        place: Hunli SDO
+        states:
+        - India
       823c67fffffffff:
-        place: Nyainrong County, Tibet, China
-        states: []
+        place: Nyainrong County, Tibet
+        states:
+        - China
       823c6ffffffffff:
-        place: Ratö, Yushu City, China
-        states: []
+        place: Ratö, Yushu City
+        states:
+        - China
       823c77fffffffff:
-        place: Lhasa, Damxung County, China
-        states: []
-    states: []
+        place: Lhasa, Damxung County
+        states:
+        - China
   '2':
     hexes:
       823c87fffffffff:
-        place: '- 767018, Odisha, India'
-        states: []
+        place: Odisha
       823c8ffffffffff:
         place: India
-        states: []
       823c97fffffffff:
-        place: Mudulipada, India
-        states: []
+        place: Mudulipada
       823ca7fffffffff:
-        place: '- 497231, Chhattisgarh, India'
-        states: []
+        place: Chhattisgarh
       823caffffffffff:
-        place: Kustegara - 829110, Jharkhand, India
-        states: []
+        place: Kustegara, Jharkhand
       823cb7fffffffff:
-        place: '- 491661, Chhattisgarh, India'
-        states: []
-    states: []
+        place: Chhattisgarh
+    states:
+    - India
   '3':
     hexes:
       823cc7fffffffff:
-        place: Rangamati Hill District, - 4590, Bangladesh
-        states: []
+        place: Rangamati Hill District
+        states:
+        - Bangladesh
       823ccffffffffff:
-        place: In Gyin Myaing, Kanbalu District, Myanmar
-        states: []
+        place: In Gyin Myaing, Kanbalu District
+        states:
+        - Myanmar
       823cdffffffffff:
-        place: Rakhine, 07091, Myanmar
-        states: []
+        place: Rakhine
+        states:
+        - Myanmar
       823ce7fffffffff:
-        place: Dudhnai - 783124, Assam, India
-        states: []
+        place: Dudhnai, Assam
+        states:
+        - India
       823ceffffffffff:
-        place: Tsiemekhuma, Botsa, India
-        states: []
+        place: Tsiemekhuma, Botsa
+        states:
+        - India
       823cf7fffffffff:
-        place: Jhenaidah District, -, Bangladesh
-        states: []
-    states: []
+        place: Jhenaidah District
+        states:
+        - Bangladesh
   '4':
     hexes:
       823d07fffffffff:
-        place: Rutog Township, Rutog County, China
-        states: []
+        place: Rutog Township, Rutog County
+        states:
+        - China
       823d0ffffffffff:
-        place: Shenchen, Gêrzê County, China
-        states: []
+        place: Shenchen, Gêrzê County
+        states:
+        - China
       823d17fffffffff:
-        place: Mach, Himachal Pradesh, India
-        states: []
+        place: Mach, Himachal Pradesh
+        states:
+        - India
       823d1ffffffffff:
-        place: Darchen, Purang County, China
-        states: []
+        place: Darchen, Purang County
+        states:
+        - China
       823d27fffffffff:
-        place: 844900 China, Xinjiang, Kargilik County
-        states: []
+        place: Xinjiang, Kargilik County
+        states:
+        - China
       823d2ffffffffff:
-        place: Chira County, China
-        states: []
+        place: Chira County
+        states:
+        - China
       823d37fffffffff:
-        place: taddi, Doda, India
-        states: []
-    states: []
+        place: taddi, Doda
+        states:
+        - India
   '5':
     hexes:
       823d47fffffffff:
-        place: Garco, Shuanghu County, China
-        states: []
+        place: Garco, Shuanghu County
       823d4ffffffffff:
-        place: Zokya, Zhidoi County, China
-        states: []
+        place: Zokya, Zhidoi County
       823d57fffffffff:
-        place: Gumu, Gêrzê County, China
-        states: []
+        place: Gumu, Gêrzê County
       823d5ffffffffff:
-        place: Yachu, Shuanghu County, China
-        states: []
+        place: Yachu, Shuanghu County
       823d67fffffffff:
-        place: Aktikan Dong, Qarqan County, China
-        states: []
+        place: Aktikan Dong, Qarqan County
       823d6ffffffffff:
-        place: Mangnai City, Qinghai, China
-        states: []
+        place: Mangnai City, Qinghai
       823d77fffffffff:
-        place: Minfeng County, China
-        states: []
-    states: []
+        place: Minfeng County
+    states:
+    - China
   '6':
     hexes:
       823d87fffffffff:
-        place: '- 475220, Madhya Pradesh, India'
-        states: []
+        place: Madhya Pradesh
       823d8ffffffffff:
-        place: Khaga, India
-        states: []
+        place: Khaga
       823d97fffffffff:
-        place: Semli Chacha, Polayakala Tahsil, India
-        states: []
+        place: Semli Chacha, Polayakala Tahsil
       823d9ffffffffff:
-        place: Harduapanji, Tendukheda Tahsil, India
-        states: []
+        place: Harduapanji, Tendukheda Tahsil
       823da7fffffffff:
-        place: Narnaul - 123001, Haryana, India
-        states: []
+        place: Narnaul - 123001, Haryana
       823daffffffffff:
-        place: Aonla, India
-        states: []
+        place: Aonla
       823db7fffffffff:
-        place: Nanodiya, Rajasthan, India
-        states: []
-    states: []
+        place: Nanodiya, Rajasthan
+    states:
+    - India
 '31':
   '0':
     hexes:
       823e07fffffffff:
-        place: Al Wahat, Libya
-        states: []
+        place: Al Wahat
+        states:
+        - Libya
       823e0ffffffffff:
-        place: New Valley, Egypt
-        states: []
+        place: New Valley
+        states:
+        - Egypt
       823e17fffffffff:
-        place: Kufra, Libya
-        states: []
+        place: Kufra
+        states:
+        - Libya
       823e1ffffffffff:
-        place: Kufra, Libya
-        states: []
+        place: Kufra
+        states:
+        - Libya
       823e27fffffffff:
-        place: Derna, Libya
-        states: []
+        place: Derna
+        states:
+        - Libya
       823e2ffffffffff:
-        place: Matruh, Egypt
-        states: []
+        place: Matruh
+        states:
+        - Egypt
       823e37fffffffff:
-        place: Al Wahat, Libya
-        states: []
-    states: []
+        place: Al Wahat
+        states:
+        - Libya
   '1':
     hexes:
       823e47fffffffff:
-        place: Asyut, Egypt
-        states: []
+        place: Asyut
+        states:
+        - Egypt
       823e4ffffffffff:
         place: Red Sea
-        states: []
+        states:
+        - Egypt
       823e57fffffffff:
-        place: New Valley, Egypt
-        states: []
+        place: New Valley
+        states:
+        - Egypt
       823e5ffffffffff:
-        place: Aswan, Egypt
-        states: []
+        place: Aswan
+        states:
+        - Egypt
       823e67fffffffff:
-        place: unnamed road, Egypt
-        states: []
+        place: Egypt
+        states:
+        - Egypt
       823e6ffffffffff:
-        place: Tabuk Province, Saudi Arabia
-        states: []
+        place: Tabuk Province
+        states:
+        - Saudi Arabia
       823e77fffffffff:
-        place: Giza, Egypt
-        states: []
-    states: []
+        place: Giza
+        states:
+        - Egypt
   '2':
     hexes:
       823e87fffffffff:
         place: Tibesti, Chad
-        states: []
+        states:
+        - Chad
       823e8ffffffffff:
-        place: Ennedi-Ouest, Chad
-        states: []
+        place: Ennedi-Ouest
+        states:
+        - Chad
       823e97fffffffff:
-        place: Tibesti, Chad
-        states: []
+        place: Tibesti
+        states:
+        - Chad
       823e9ffffffffff:
-        place: Borkou, Chad
-        states: []
+        place: Borkou
+        states:
+        - Chad
       823ea7fffffffff:
-        place: Murzuq, Libya
-        states: []
+        place: Murzuq
+        states:
+        - Libya
       823eaffffffffff:
-        place: Kufra, Libya
-        states: []
+        place: Kufra
+        states:
+        - Libya
       823eb7fffffffff:
-        place: Tibesti, Chad
-        states: []
-    states: []
+        place: Tibesti
+        states:
+        - Chad
   '3':
     hexes:
       823ec7fffffffff:
