@@ -132,6 +132,9 @@ Congo, Democratic Republic of the:
   end: 2025
 Congo, Republic of the:
   begin: 1960
+  end: 
+Côte d'Ivoire:
+  begin: 1960
   end: 2025
 Costa Rica:
   begin: 1821
@@ -391,6 +394,10 @@ Montenegro:
 Morocco:
   begin: 789
   end: 2025
+  parts:
+    Western Sahara:
+      begin: 1975
+      end: 2025
 Mozambique:
   begin: 1975
   end: 2025
@@ -559,6 +566,13 @@ Solomon Islands:
   end: 2025
 Somalia:
   begin: 1960
+  end: 2025
+  parts:
+    Somaliland:
+      begin: 1960
+      end: 2021
+Somaliland:
+  begin: 2001
   end: 2025
 Songhai Empire:
   begin: 1464
