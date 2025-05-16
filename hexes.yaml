@@ -3711,24 +3711,29 @@
   '4':
     hexes:
       825f07fffffffff:
-        place: Boven Suriname, Sipaliwini, Suriname
-        states: []
+        place: Boven Suriname, Sipaliwini
+        states:
+        - Suriname
       825f0ffffffffff:
-        place: West Bank Berbice, Guyana
-        states: []
+        place: West Bank Berbice
+        states:
+        - Guyana
       825f17fffffffff:
-        place: 97312 Saint-Élie, France
-        states: []
+        place: Saint-Élie
+        states:
+        - France
       825f27fffffffff:
-        place: Oriximiná, Região Geográfica Intermediária de Santarém, Brazil
-        states: []
+        place: Oriximiná, Região Geográfica Intermediária de Santarém
+        states:
+        - Brazil
       825f2ffffffffff:
-        place: Rest of Region 9, Guyana
-        states: []
+        place: Guyana
+        states:
+        - Guyana
       825f37fffffffff:
-        place: Laranjal do Jari, Região Geográfica Intermediária de Macapá, Brazil
-        states: []
-    states: []
+        place: Laranjal do Jari, Região Geográfica Intermediária de Macapá
+        states:
+        - Brazil
   '5':
     hexes:
       825f47fffffffff:
