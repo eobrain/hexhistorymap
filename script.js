@@ -24,6 +24,8 @@ const geoGenerator = geoPath()
 const saturation = 50
 const lightness = 50
 
+let selectedState
+
 const update = () => {
   context.clearRect(0, 0, canvas.width, canvas.height)
   context.lineWidth = 0.5
@@ -47,6 +49,7 @@ const update = () => {
   for (const stateName in coordinatesOfStates) {
     const coordinates = coordinatesOfStates[stateName]
     context.beginPath()
+    context.lineWidth = stateName === selectedState?.name() ? 2 : 0.5
     context.strokeStyle = `hsl(${Math.floor(MurmurHash3(stateName).result() % 360)} ${saturation}% ${lightness}%)`
     geoGenerator(
       {
@@ -78,10 +81,13 @@ canvas.addEventListener('click', (event) => {
     $popup.style.left = `${event.clientX}px`
     $popup.style.top = `${event.clientY}px`
     if (milieu.state()) {
-      $popup.innerHTML = `<div>${milieu.place()}</div><div>${milieu.state().name()}</div>`
+      $popup.innerHTML = `<div>${milieu.state().name()}</div>`
+      selectedState = milieu.state()
     } else {
       $popup.innerHTML = `<div>${milieu.place()}</div>`
+      selectedState = undefined
     }
+    update()
   }
 })
 
