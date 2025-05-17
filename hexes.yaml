@@ -2,31 +2,32 @@
   '1':
     hexes:
       82006ffffffffff:
-        place: Greenland
+        place: North-East corner of Greenland
     states:
-    - Denmark
+    - Denmark/Greenland
   '5':
     hexes:
       820157fffffffff:
-        place: Longyearbyen
+        place: Longyearbyen, Southern Svalbard
     states:
-    - Norway
+    - Norway/Svalbard
   '6':
     hexes:
       820187fffffffff:
-        place: Arkhangelsk Oblast
+        place: Yuzhny Island, Novaya Zemlya, Arkhangelsk Oblast
     states:
     - Russia
     - USSR
+    - Russian Empire/Novaya Zemlya
 '1':
   '0':
     hexes:
       82020ffffffffff:
-        place: Qikiqtaaluk Region, Nunavut
+        place: Qikiqtaaluk Region, Queen Elizabeth Islands, Nunavut
       82021ffffffffff:
-        place: Inuvik Region, Northwest Territories
+        place: Inuvik Region, Queen Elizabeth Islands , Northwest Territories
       82022ffffffffff:
-        place: Qikiqtaaluk Region, Nunavut
+        place: Qikiqtaaluk Region, Axel Heiberg Island, Queen Elizabeth Islands, Nunavut
     states:
     - Canada
   '1':
@@ -66,11 +67,11 @@
       820347fffffffff:
         place: Avannaata, Greenland
         states:
-        - Denmark
+        - Denmark/Greenland
       82034ffffffffff:
         place: Avannaata, Greenland
         states:
-        - Denmark
+        - Denmark/Greenland
       820357fffffffff:
         place: Qikiqtaaluk Region, Nunavut
         states:
@@ -82,11 +83,11 @@
       820367fffffffff:
         place: Greenland
         states:
-        - Denmark
+        - Denmark/Greenland
       82036ffffffffff:
         place: Greenland
         states:
-        - Denmark
+        - Denmark/Greenland
 '2':
   '0':
     hexes:
@@ -179,7 +180,7 @@
       820637fffffffff:
         place: Greenland
     states:
-    - Denmark
+    - Denmark/Greenland
   '2':
     hexes:
       820687fffffffff:
@@ -193,7 +194,7 @@
       8206b7fffffffff:
         place: Avannaata, Greenland
     states:
-    - Denmark
+    - Denmark/Greenland
   '3':
     hexes:
       8206c7fffffffff:
@@ -209,7 +210,7 @@
       8206f7fffffffff:
         place: Qeqertalik, Greenland
     states:
-    - Denmark
+    - Denmark/Greenland
   '5':
     hexes:
       820747fffffffff:
@@ -231,7 +232,7 @@
       8207b7fffffffff:
         place: Greenland
     states:
-    - Denmark
+    - Denmark/Greenland
 '4':
   '0':
     hexes:
@@ -1183,7 +1184,7 @@
       821b27fffffffff:
         place: Kujalleq, Greenland
     states:
-    - Denmark
+    - Denmark/Greenland
   '6':
     hexes:
       821b87fffffffff:

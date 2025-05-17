@@ -160,6 +160,10 @@ Democratic Republic of the Congo:
 Denmark:
   begin: 950
   end: 2025
+  parts:
+    Greenland:
+      begin: 1721
+      end: 2025
 Djibouti:
   begin: 1977
   end: 2025
@@ -181,6 +185,9 @@ El Salvador:
 Empire of Brazil:
   begin: 1822
   end: 1889
+England:
+  begin: 927
+  end: 1707
 Equatorial Guinea:
   begin: 1968
   end: 2025
@@ -450,6 +457,10 @@ North Macedonia:
 Norway:
   begin: 872
   end: 2025
+  parts:
+    Svalbard:
+      begin: 1920
+      end: 2025
 Old Kingdom of Egypt:
   begin: -2686
   end: -2181
@@ -511,6 +522,9 @@ Russian Empire:
   begin: 1721
   end: 1917
   parts:
+    Novaya Zemlya:
+      begin: 1870
+      end: 1917
     Alaska:
       begin: 1784
       end: 1867
