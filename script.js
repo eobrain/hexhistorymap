@@ -4,7 +4,7 @@ import { json } from 'https://esm.sh/d3-fetch'
 import { Milieu, hexes, locateHex, yearRange } from './model.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
-/* global $yearControl, $yearDisplay */
+/* global $yearControl, $yearDisplay, h3 */
 
 const { minYear, maxYear } = yearRange()
 let year = maxYear
@@ -33,46 +33,58 @@ const geoGenerator = geoPath()
   .pointRadius(6.7)
   .context(context)
 
-context.clearRect(0, 0, 800, 600)
-
-context.lineWidth = 0.5
-context.strokeStyle = '#333'
-
-context.beginPath()
-geoGenerator({ type: 'FeatureCollection', features: geojson.features })
-context.stroke()
-
-// Graticule
-const graticule = geoGraticule()
-context.beginPath()
-context.strokeStyle = '#ccc'
-geoGenerator(graticule())
-context.stroke()
-
 // hexList
-context.beginPath()
+/* context.beginPath()
 geoGenerator({ type: 'FeatureCollection', features: hexFeatures })
-context.stroke()
+context.stroke() */
 
 const saturation = 50
 const lightness = 50
 
 const update = () => {
+  context.clearRect(0, 0, 800, 600)
+  context.lineWidth = 0.5
+  context.strokeStyle = '#333'
+  context.beginPath()
+  geoGenerator({ type: 'FeatureCollection', features: geojson.features })
+  context.stroke()
+
+  // Graticule
+  const graticule = geoGraticule()
+  context.beginPath()
+  context.strokeStyle = '#ccc'
+  geoGenerator(graticule())
+  context.stroke()
+
   $yearDisplay.innerHTML = yearFormat($yearControl.value)
   year = parseInt($yearControl.value, 10)
   context.lineWidth = 1
+
+  const stateCells = {}
   hexFeatures.forEach(feature => {
-    context.beginPath()
-    geoGenerator(feature)
     const state = Milieu(feature.properties.hex, year).state()
     if (state) {
-      const hue = Math.floor(MurmurHash3(state.name()).result() % 360)
-      context.strokeStyle = `hsl(${hue} ${saturation}% ${lightness}%)`
-    } else {
-      context.strokeStyle = 'white'
+      const stateName = state.name()
+      if (!stateCells[stateName]) {
+        stateCells[stateName] = []
+      }
+      stateCells[stateName].push(feature.properties.hex.cellCode)
     }
-    context.stroke()
   })
+
+  for (const stateName in stateCells) {
+    const cells = stateCells[stateName]
+    const coordinates = h3.cellsToMultiPolygon(cells, true)
+    context.beginPath()
+    context.strokeStyle = `hsl(${Math.floor(MurmurHash3(stateName).result() % 360)} ${saturation}% ${lightness}%)`
+    geoGenerator(
+      {
+        type: 'FeatureCollection',
+        features: [
+          { type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } }]
+      })
+    context.stroke()
+  }
 }
 
 const yearFormat = year => year > 0 ? `${year} CE` : `${-year} BCE`
