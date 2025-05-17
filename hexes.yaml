@@ -351,7 +351,7 @@
       82df37fffffffff:
         place: Weddell Sea
     states:
-    #- Antarctica
+    - Antarctica
   '5':
     hexes:
       82df47fffffffff:
@@ -370,7 +370,7 @@
       82e12ffffffffff:
         place: Unknown
     states:
-    #- Antarctica
+    - Antarctica
   '5':
     hexes:
       82e167fffffffff:
@@ -378,7 +378,7 @@
       82e177fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
 '114':
   '1':
     hexes:
@@ -387,7 +387,7 @@
       82e46ffffffffff:
         place: Unknown
     states:
-    #- Antarctica
+    - Antarctica
   '5':
     hexes:
       82e547fffffffff:
@@ -403,7 +403,7 @@
       82e577fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
 '115':
   '4':
     hexes:
@@ -418,7 +418,7 @@
       82e737fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '5':
     hexes:
       82e747fffffffff:
@@ -432,7 +432,7 @@
       82e777fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
 '116':
   '2':
     hexes:
@@ -443,7 +443,7 @@
       82e8b7fffffffff:
         place: Unknown
     states:
-    #- Antarctica
+    - Antarctica
   '6':
     hexes:
       82e987fffffffff:
@@ -453,7 +453,7 @@
       82e9b7fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
 '118':
   '0':
     hexes:
@@ -468,7 +468,7 @@
       82ec2ffffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '1':
     hexes:
       82ec47fffffffff:
@@ -486,13 +486,13 @@
       82ec77fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '2':
     hexes:
       82ecaffffffffff:
         place: Unknown
     states:
-    #- Antarctica
+    - Antarctica
   '3':
     hexes:
       82ecc7fffffffff:
@@ -510,7 +510,7 @@
       82ecf7fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '5':
     hexes:
       82ed47fffffffff:
@@ -522,7 +522,7 @@
       82ed77fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
 '119':
   '0':
     hexes:
@@ -531,13 +531,13 @@
       82ee37fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '1':
     hexes:
       82ee6ffffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '2':
     hexes:
       82eea7fffffffff:
@@ -545,7 +545,7 @@
       82eeb7fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '4':
     hexes:
       82ef07fffffffff:
@@ -563,7 +563,7 @@
       82ef37fffffffff:
         place: Unknown
     states:
-    #- Antarctica
+    - Antarctica
   '5':
     hexes:
       82ef47fffffffff:
@@ -579,7 +579,7 @@
       82ef77fffffffff:
         place: Unknown
     states:
-    #- Antarctica
+    - Antarctica
   '6':
     hexes:
       82ef87fffffffff:
@@ -597,7 +597,7 @@
       82efb7fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
 '12':
   '0':
     hexes:
@@ -663,7 +663,7 @@
       82f037fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '1':
     hexes:
       82f047fffffffff:
@@ -681,7 +681,7 @@
       82f077fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '2':
     hexes:
       82f087fffffffff:
@@ -699,7 +699,7 @@
       82f0b7fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '3':
     hexes:
       82f0c7fffffffff:
@@ -717,7 +717,7 @@
       82f0f7fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '4':
     hexes:
       82f107fffffffff:
@@ -735,7 +735,7 @@
       82f137fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '5':
     hexes:
       82f147fffffffff:
@@ -753,7 +753,7 @@
       82f177fffffffff:
         place: Unknown
     states:
-    #- Antarctica
+    - Antarctica
   '6':
     hexes:
       82f187fffffffff:
@@ -771,7 +771,7 @@
       82f1b7fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
 '121':
   '0':
     hexes:
@@ -790,7 +790,7 @@
       82f237fffffffff:
         place: Unknown
     states:
-    #- Antarctica
+    - Antarctica
   '1':
     hexes:
       82f257fffffffff:
@@ -800,7 +800,7 @@
       82f277fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '2':
     hexes:
       82f287fffffffff:
@@ -818,7 +818,7 @@
       82f2b7fffffffff:
         place: Unknown
     states:
-    #- Antarctica
+    - Antarctica
   '3':
     hexes:
       82f2c7fffffffff:
@@ -836,7 +836,7 @@
       82f2f7fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
   '6':
     hexes:
       82f387fffffffff:
@@ -854,7 +854,7 @@
       82f3b7fffffffff:
         place: Antarctica
     states:
-    #- Antarctica
+    - Antarctica
 '13':
   '4':
     hexes:
@@ -4910,567 +4910,529 @@
   '4':
     hexes:
       828b07fffffffff:
-        place: Municipio Urubichá, Provincia Guarayos, Bolivia
-        states: []
+        place: Municipio Urubichá, Provincia Guarayos
+        states:
+        - Bolivia
       828b0ffffffffff:
-        place: Municipio San Joaquin, Provincia de Mamoré, Bolivia
-        states: []
+        place: Municipio San Joaquin, Provincia de Mamoré
+        states:
+        - Bolivia
       828b17fffffffff:
-        place: San Ignacio de Velasco, Velasco, Bolivia
-        states: []
+        place: San Ignacio de Velasco, Velasco
+        states:
+        - Bolivia
       828b1ffffffffff:
-        place: Rolim de Moura do Guaporé, Alta Floresta d'Oeste - RO, Brazil
-        states: []
+        place: Rolim de Moura do Guaporé, Alta Floresta d'Oeste - RO
+        states:
+        - Brazil
       828b27fffffffff:
-        place: Municipio Pampa Grande, Provincia Florida, Bolivia
-        states: []
+        place: Municipio Pampa Grande, Provincia Florida
+        states:
+        - Bolivia
       828b2ffffffffff:
-        place: San Ignacio de Moxos, Moxos, Bolivia
-        states: []
+        place: San Ignacio de Moxos, Moxos
+        states:
+        - Bolivia
       828b37fffffffff:
-        place: Municipio Pailón, Chiquitos, Bolivia
-        states: []
-    states: []
+        place: Municipio Pailón, Chiquitos
+        states:
+        - Bolivia
   '5':
     hexes:
       828b47fffffffff:
-        place: Iñapari, Madre de Dios, Peru
-        states: []
+        place: Iñapari, Madre de Dios
+        states:
+        - Peru
       828b4ffffffffff:
-        place: Tarauacá - AC, 69970-000, Brazil
-        states: []
+        place: Tarauacá - AC
+        states:
+        - Brazil
       828b57fffffffff:
-        place: Municipio Ingavi, Provincia de Abuná, Bolivia
-        states: []
+        place: Municipio Ingavi, Provincia de Abuná
+        states:
+        - Bolivia
       828b5ffffffffff:
-        place: Boca do Acre, Região Geográfica Intermediária de Lábrea, Brazil
-        states: []
+        place: Boca do Acre, Região Geográfica Intermediária de Lábrea
+        states:
+        - Brazil
       828b67fffffffff:
-        place: Corani, Puno, Peru
-        states: []
+        place: Corani, Puno
+        states:
+        - Peru
       828b6ffffffffff:
-        place: Megantoni, Cusco, Peru
-        states: []
+        place: Megantoni, Cusco
+        states:
+        - Peru
       828b77fffffffff:
-        place: Municipio Ixiamas, Provincia Abel Iturralde, Bolivia
-        states: []
-    states: []
+        place: Municipio Ixiamas, Provincia Abel Iturralde
+        states:
+        - Bolivia
   '6':
     hexes:
       828b87fffffffff:
-        place: Região Geográfica Intermediária de Sinop - MT, 78560-000, Brazil
-        states: []
+        place: Região Geográfica Intermediária de Sinop - MT
       828b8ffffffffff:
-        place: Região Geográfica Intermediária de Sinop - MT, 78330-000, Brazil
-        states: []
+        place: Região Geográfica Intermediária de Sinop - MT
       828b97fffffffff:
         place: >-
-          Região Geográfica Intermediária de Barra do Garças - MT, 78643-000,
-          Brazil
-        states: []
+          Região Geográfica Intermediária de Barra do Garças - MT
       828b9ffffffffff:
-        place: Novo Progresso, Região Geográfica Intermediária de Santarém, Brazil
-        states: []
+        place: Novo Progresso, Região Geográfica Intermediária de Santarém
       828ba7fffffffff:
-        place: Região Geográfica Intermediária de Cuiabá - MT, 78370-000, Brazil
-        states: []
+        place: Região Geográfica Intermediária de Cuiabá - MT
       828baffffffffff:
-        place: Comodoro, Região Geográfica Intermediária de Cáceres, Brazil
-        states: []
+        place: Comodoro, Região Geográfica Intermediária de Cáceres
       828bb7fffffffff:
-        place: Planalto Da Serra - MT, 78855-000, Brazil
-        states: []
-    states: []
+        place: Planalto Da Serra - MT
+    states:
+    - Brazil
 '7':
   '0':
     hexes:
       820e07fffffffff:
-        place: Baie-d'Hudson, Quebec, Canada
-        states: []
+        place: Baie-d'Hudson, Quebec
       820e0ffffffffff:
-        place: Baie-d'Hudson, Quebec, Canada
-        states: []
+        place: Baie-d'Hudson, Quebec
       820e2ffffffffff:
-        place: Rivière-Koksoak, Quebec, Canada
-        states: []
+        place: Rivière-Koksoak, Quebec
     states:
     - Canada
   '1':
     hexes:
       820e47fffffffff:
-        place: Caniapiscau, Quebec, Canada
-        states: []
+        place: Caniapiscau, Quebec
       820e4ffffffffff:
-        place: Rivière-aux-Outardes, Quebec, Canada
-        states: []
+        place: Rivière-aux-Outardes, Quebec
       820e57fffffffff:
-        place: Jamésie, Quebec, Canada
-        states: []
+        place: Jamésie, Quebec
       820e5ffffffffff:
-        place: Jamésie, Quebec, Canada
-        states: []
+        place: Jamésie, Quebec
       820e67fffffffff:
-        place: Rivière-Koksoak, Quebec, Canada
-        states: []
+        place: Rivière-Koksoak, Quebec
       820e6ffffffffff:
-        place: Labrador, Newfoundland and Labrador, Canada
-        states: []
+        place: Labrador, Newfoundland and Labrador
       820e77fffffffff:
-        place: Rivière-Koksoak, Quebec, Canada
-        states: []
+        place: Rivière-Koksoak, Quebec
     states:
     - Canada
   '2':
     hexes:
       820e87fffffffff:
-        place: Kivalliq Region, Nunavut, Canada
-        states: []
+        place: Kivalliq Region, Nunavut
       820e8ffffffffff:
-        place: Unorganized Division No. 23, Manitoba, Canada
-        states: []
+        place: Unorganized Division No. 23, Manitoba
       820e97fffffffff:
-        place: Unorganized Division No. 23, Manitoba, Canada
-        states: []
+        place: Unorganized Division No. 23, Manitoba
       820e9ffffffffff:
-        place: Unorganized Division No. 22, Manitoba, Canada
-        states: []
+        place: Unorganized Division No. 22, Manitoba
       820eb7fffffffff:
-        place: Kivalliq Region, Nunavut, Canada
-        states: []
+        place: Kivalliq Region, Nunavut
     states:
     - Canada
   '3':
     hexes:
       820ec7fffffffff:
-        place: Unorganized Kenora District, ON, Canada
-        states: []
+        place: Unorganized Kenora District, ON
       820ecffffffffff:
-        place: Unorganized North Cochrane, Ontario, Canada
-        states: []
+        place: Unorganized North Cochrane, Ontario
       820ed7fffffffff:
-        place: Unorganized Kenora District, Ontario, Canada
-        states: []
+        place: Unorganized Kenora District, Ontario
       820edffffffffff:
-        place: Unorganized North Cochrane, Ontario, Canada
-        states: []
+        place: Unorganized North Cochrane, Ontario
       820ee7fffffffff:
-        place: Qikiqtaaluk Region, Nunavut, Canada
-        states: []
+        place: Qikiqtaaluk Region, Nunavut
       820eeffffffffff:
-        place: Eastmain (Land), Quebec, Canada
-        states: []
+        place: Eastmain (Land), Quebec
       820ef7fffffffff:
-        place: Qikiqtaaluk Region, Nunavut, Canada
-        states: []
+        place: Qikiqtaaluk Region, Nunavut
     states:
     - Canada
   '4':
     hexes:
       820f07fffffffff:
-        place: Qikiqtaaluk Region, Nunavut, Canada
-        states: []
+        place: Qikiqtaaluk Region, Nunavut
       820f0ffffffffff:
-        place: Qikiqtaaluk Region, Nunavut, Canada
-        states: []
+        place: Qikiqtaaluk Region, Nunavut
       820f17fffffffff:
-        place: Qikiqtaaluk Region, Nunavut, Canada
-        states: []
+        place: Qikiqtaaluk Region, Nunavut
       820f1ffffffffff:
-        place: Qikiqtaaluk Region, Nunavut, Canada
-        states: []
+        place: Qikiqtaaluk Region, Nunavut
       820f37fffffffff:
-        place: Qikiqtaaluk Region, Nunavut, Canada
-        states: []
+        place: Qikiqtaaluk Region, Nunavut
     states:
     - Canada
   '5':
     hexes:
       820f5ffffffffff:
-        place: Rivière-Koksoak, Quebec, Canada
-        states: []
+        place: Rivière-Koksoak, Quebec
     states:
     - Canada
   '6':
     hexes:
       820f87fffffffff:
-        place: Kivalliq Region, Nunavut, Canada
-        states: []
+        place: Kivalliq Region, Nunavut
       820f8ffffffffff:
-        place: Kivalliq Region, Nunavut, Canada
-        states: []
+        place: Kivalliq Region, Nunavut
       820f97fffffffff:
-        place: Kivalliq Region, Nunavut, Canada
-        states: []
+        place: Kivalliq Region, Nunavut
       820f9ffffffffff:
-        place: Kivalliq Region, Nunavut, Canada
-        states: []
+        place: Kivalliq Region, Nunavut
       820fa7fffffffff:
-        place: Qikiqtaaluk Region, Nunavut, Canada
-        states: []
+        place: Qikiqtaaluk Region, Nunavut
       820fb7fffffffff:
-        place: Kitikmeot Region, Nunavut, Canada
-        states: []
+        place: Kitikmeot Region, Nunavut
     states:
     - Canada
 '70':
   '0':
     hexes:
       828c17fffffffff:
-        place: 16770, West Java, Indonesia
-        states: []
-    states: []
+        place: 16770, West Java
+    states:
+    - Indonesia
   '2':
     hexes:
       828c97fffffffff:
-        place: Samalantan, West Kalimantan, Indonesia
-        states: []
+        place: Samalantan, West Kalimantan
+        states:
       828caffffffffff:
-        place: Sungai Menang, Ogan Komering Ilir, Indonesia
-        states: []
+        place: Sungai Menang, Ogan Komering Ilir
       828cb7fffffffff:
-        place: 78874, West Kalimantan, Indonesia
-        states: []
-    states: []
+        place: 78874, West Kalimantan
+    states:
+    - Indonesia
   '3':
     hexes:
       828cd7fffffffff:
-        place: Dharmasraya, Indonesia
-        states: []
+        place: Dharmasraya
       828cf7fffffffff:
-        place: Seluma, Indonesia
-        states: []
-    states: []
+        place: Seluma
+    states:
+    - Indonesia
   '6':
     hexes:
       828d87fffffffff:
-        place: Banyuurip 61154, East Java, Indonesia
-        states: []
+        place: Banyuurip 61154, East Java
       828d8ffffffffff:
-        place: Central Java, Indonesia
-        states: []
-    states: []
+        place: Central Java
+    states:
+    - Indonesia
 '71':
   '1':
     hexes:
       828e67fffffffff:
-        place: Canchayllo, Junín, Peru
-        states: []
+        place: Canchayllo, Junín
       828e6ffffffffff:
-        place: AY-658, Chipao, Peru
-        states: []
-    states: []
+        place: AY-658, Chipao
+    states:
+    - Peru
   '4':
     hexes:
       828f0ffffffffff:
-        place: El Alto, Piura, Peru
-        states: []
+        place: El Alto, Piura
+        states:
+        - Peru
       828f2ffffffffff:
-        place: Vinces, Ecuador
-        states: []
-    states: []
+        place: Vinces
+        states:
+        - Ecuador
   '5':
     hexes:
       828f47fffffffff:
-        place: Shapaja, Peru
-        states: []
+        place: Shapaja
       828f4ffffffffff:
-        place: Nuevo Ahuaypa, Peru
-        states: []
+        place: Nuevo Ahuaypa
       828f57fffffffff:
-        place: Oyotún, Lambayeque, Peru
-        states: []
+        place: Oyotún, Lambayeque
       828f5ffffffffff:
-        place: San Miguel de Aco 02120, Peru
-        states: []
+        place: San Miguel de Aco
       828f67fffffffff:
-        place: Trompeteros, Loreto, Peru
-        states: []
+        place: Trompeteros, Loreto
       828f6ffffffffff:
-        place: Yaquerana, Loreto, Peru
-        states: []
+        place: Yaquerana, Loreto
       828f77fffffffff:
-        place: Río Santiago, Amazonas, Peru
-        states: []
-    states: []
+        place: Río Santiago, Amazonas
+    states:
+    - Peru
 '74':
   '1':
     hexes:
       829457fffffffff:
-        place: Dundee Beach NT 0840, Australia
-        states: []
+        place: Dundee Beach NT
       82945ffffffffff:
-        place: Gulung Mardrulk NT 0852, Australia
-        states: []
-    states: []
+        place: Gulung Mardrulk NT
+    states:
+    - Australia
   '2':
     hexes:
       829487fffffffff:
         place: Australia
-        states: []
       82948ffffffffff:
-        place: St George Ranges WA 6728, Australia
-        states: []
+        place: St George Ranges WA
       829497fffffffff:
         place: Australia
-        states: []
       82949ffffffffff:
-        place: Telfer WA 6762, Australia
-        states: []
+        place: Telfer WA
       8294affffffffff:
-        place: Koolan Island Village, Western Australia, Australia
-        states: []
-    states: []
+        place: Koolan Island Village, Western Australia
+    states:
+    - Australia
   '3':
     hexes:
       8294c7fffffffff:
-        place: Buchanan NT 0852, Australia
-        states: []
+        place: Buchanan NT
       8294cffffffffff:
-        place: Tanami East NT 0852, Australia
-        states: []
+        place: Tanami East NT
       8294d7fffffffff:
-        place: Sturt Creek WA 6770, Australia
-        states: []
+        place: Sturt Creek WA
       8294dffffffffff:
-        place: Tanami NT 0872, Australia
-        states: []
+        place: Tanami NT
       8294e7fffffffff:
-        place: Shire Of Wyndham-East Kimberley, Western Australia, Australia
-        states: []
+        place: Shire Of Wyndham-East Kimberley, Western Australia
       8294effffffffff:
-        place: Delamere NT 0852, Australia
-        states: []
+        place: Delamere NT
       8294f7fffffffff:
-        place: Gibb WA 6743, Australia
-        states: []
-    states: []
+        place: Gibb WA
+    states:
+    - Australia
   '4':
     hexes:
       82952ffffffffff:
-        place: 93582, Southeast Sulawesi, Indonesia
-        states: []
-    states: []
+        place: 93582, Southeast Sulawesi
+    states:
+    - Indonesia
   '5':
     hexes:
       82956ffffffffff:
-        place: North Maluku, Indonesia
-        states: []
-    states: []
+        place: North Maluku
+    states:
+    - Indonesia
 '75':
   '0':
     hexes:
       829607fffffffff:
-        place: Mioba, Democratic Republic of the Congo
-        states: []
+        place: Manitoba
+        states:
+        - Democratic Republic of the Congo
       82960ffffffffff:
-        place: Kalumbila District, Zambia
-        states: []
+        place: Kalumbila District
+        states:
+        - Zambia
       829617fffffffff:
-        place: Shiwa Ng'andu District, Zambia
-        states: []
+        place: Shiwa Ng'andu District
+        states:
+        - Zambia
       82961ffffffffff:
-        place: Haut-Katanga, Democratic Republic of the Congo
-        states: []
+        place: Haut-KatangaManitoba
+        states:
+        - Democratic Republic of the Congo
       829627fffffffff:
-        place: Hurungwe, Zimbabwe
-        states: []
+        place: Hurungwe
+        states:
+        - Zimbabwe
       82962ffffffffff:
-        place: Mumbwa District, Zambia
-        states: []
+        place: Mumbwa District
+        states:
+        - Zambia
       829637fffffffff:
-        place: Sinda District, Zambia
-        states: []
-    states: []
+        place: Sinda District
+        states:
+        - Zambia
   '1':
     hexes:
       829647fffffffff:
-        place: Moxico Province, Angola
-        states: []
+        place: Moxico Province
+        states:
+        - Angola
       82964ffffffffff:
-        place: Malanje Province, Angola
-        states: []
+        place: Malanje Province
+        states:
+        - Angola
       829657fffffffff:
-        place: RS612, Lualaba, Democratic Republic of the Congo
-        states: []
+        place: RS612, LualabaManitoba
+        states:
+        - Democratic Republic of the Congo
       82965ffffffffff:
-        place: Saurimo, Lunda Sul Province, Angola
-        states: []
+        place: Saurimo, Lunda Sul Province
+        states:
+        - Angola
       829667fffffffff:
-        place: Cuando Cubango Province, Angola
-        states: []
+        place: Cuando Cubango Province
+        states:
+        - Angola
       82966ffffffffff:
-        place: Cuando Cubango Province, Angola
-        states: []
+        place: Cuando Cubango Province
+        states:
+        - Angola
       829677fffffffff:
         place: Zambezi District, Zambia
-        states: []
-    states: []
+        states:
+        - Zambia
   '2':
     hexes:
       829687fffffffff:
-        place: 45301 Sikonge, Tabora Region, Tanzania
-        states: []
+        place: 45301 Sikonge, Tabora Region
       82968ffffffffff:
-        place: Uvinza, Kigoma Region, Tanzania
-        states: []
+        place: Uvinza, Kigoma Region
       829697fffffffff:
-        place: Mitati, Dodoma Region, Tanzania
-        states: []
+        place: Mitati, Dodoma Region
       82969ffffffffff:
-        place: Gulumwa, Mwanza Region, Tanzania
-        states: []
+        place: Gulumwa, Mwanza Region
       8296a7fffffffff:
-        place: Madihan, Njombe Region, Tanzania
-        states: []
+        place: Madihan, Njombe Region
       8296affffffffff:
-        place: Mlambo, Rukwa Region, Tanzania
-        states: []
+        place: Mlambo, Rukwa Region
       8296b7fffffffff:
-        place: Kilolo, Iringa Region, Tanzania
-        states: []
-    states: []
+        place: Kilolo, Iringa Region
+    states:
+    - Tanzania
   '3':
     hexes:
       8296c7fffffffff:
-        place: Kabinda, Democratic Republic of the Congo
-        states: []
+        place: Kabinda
       8296cffffffffff:
-        place: Lulua, Democratic Republic of the Congo
-        states: []
+        place: Lulua
       8296d7fffffffff:
-        place: Malembo, Kabambare, Democratic Republic of the Congo
-        states: []
+        place: Malembo, Kabambare
       8296dffffffffff:
-        place: Sankuru, Democratic Republic of the Congo
-        states: []
+        place: Sankuru
       8296e7fffffffff:
-        place: Kabondo-Dianda, Bukama, Democratic Republic of the Congo
-        states: []
+        place: Kabondo-Dianda, Bukama
       8296effffffffff:
-        place: Lulua, Democratic Republic of the Congo
-        states: []
+        place: Lulua
       8296f7fffffffff:
-        place: Tanganyika, Democratic Republic of the Congo
-        states: []
-    states: []
+        place: Tanganyika
+    states:
+    - Democratic Republic of the Congo
   '4':
     hexes:
       829707fffffffff:
-        place: Manica Province, Mozambique
-        states: []
+        place: Manica Province
+        states:
+        - Mozambique
       82970ffffffffff:
-        place: Gweru, Zimbabwe
-        states: []
+        place: Gweru
+        states:
+        - Zimbabwe
       829717fffffffff:
-        place: Sofala Province, Mozambique
-        states: []
+        place: Sofala Province
+        states:
+        - Mozambique
       82971ffffffffff:
-        place: Mutoko, Zimbabwe
-        states: []
+        place: Mutoko
+        states:
+        - Zimbabwe
       829727fffffffff:
-        place: Gaza Province, Mozambique
-        states: []
+        place: Gaza Province
+        states:
+        - Mozambique
       82972ffffffffff:
-        place: Musina Local Municipality, Vhembe District Municipality, South Africa
-        states: []
-    states: []
+        place: Musina Local Municipality, Vhembe District Municipality
+        states:
+        - South Africa
   '5':
     hexes:
       829747fffffffff:
-        place: North-West District, Botswana
-        states: []
+        place: North-West District
+        states:
+        - Botswana
       82974ffffffffff:
-        place: North-West District, Botswana
-        states: []
+        place: North-West District
+        states:
+        - Botswana
       829757fffffffff:
-        place: Hwange, Zimbabwe
-        states: []
+        place: Hwange
+        states:
+        - Zimbabwe
       82975ffffffffff:
-        place: Sesheke District, Zambia
-        states: []
+        place: Sesheke District
+        states:
+        - Zambia
       829767fffffffff:
-        place: Ghanzi District, Botswana
-        states: []
+        place: Ghanzi District
+        states:
+        - Botswana
       82976ffffffffff:
         place: Botswana
-        states: []
+        states:
+        - Botswana
       829777fffffffff:
-        place: Central District, Botswana
-        states: []
-    states: []
+        place: Central District
+        states:
+        - Botswana
   '6':
     hexes:
       829787fffffffff:
-        place: Maúa, Niassa Province, Mozambique
-        states: []
+        place: Maúa, Niassa Province
+        states:
+        - Mozambique
       82978ffffffffff:
-        place: Niassa Province, Mozambique
-        states: []
+        place: Niassa Province
+        states:
+        - Mozambique
       829797fffffffff:
-        place: Nanili, Cabo Delgado Province, Mozambique
-        states: []
+        place: Nanili, Cabo Delgado Province
+        states:
+        - Mozambique
       82979ffffffffff:
-        place: Tunduru, Ruvuma Region, Tanzania
-        states: []
+        place: Tunduru, Ruvuma Region
+        states:
+        - Tanzania
       8297a7fffffffff:
-        place: Pebane, Zambezia Province, Mozambique
-        states: []
+        place: Pebane, Zambezia Province
+        states:
+        - Mozambique
       8297affffffffff:
-        place: Blantyre, Malawi
-        states: []
+        place: Blantyre
+        states:
+        - Malawi
       8297b7fffffffff:
-        place: Nampula Province, Mozambique
-        states: []
-    states: []
+        place: Nampula Province
+        states:
+        - Mozambique
 '78':
   '0':
     hexes:
       829c0ffffffffff:
-        place: Edward River QLD 4892, Australia
-        states: []
+        place: Edward River QLD
       829c27fffffffff:
         place: Australia
-        states: []
       829c2ffffffffff:
-        place: Red River QLD 4892, Australia
-        states: []
-    states: []
+        place: Red River QLD
+    states:
+    - Australia
   '1':
     hexes:
       829c47fffffffff:
-        place: Calvert NT 0862, Australia
-        states: []
+        place: Calvert NT
       829c4ffffffffff:
-        place: Arnold NT 0852, Australia
-        states: []
+        place: Arnold NT
       829c67fffffffff:
-        place: Lawn Hill QLD 4825, Australia
-        states: []
+        place: Lawn Hill QLD
       829c6ffffffffff:
-        place: Tablelands NT 0872, Australia
-        states: []
+        place: Tablelands NT
       829c77fffffffff:
         place: Gulf of Carpentaria
-        states: []
-    states: []
+    states:
+    - Australia
   '2':
     hexes:
       829c8ffffffffff:
-        place: Kerema District, Papua New Guinea
-        states: []
+        place: Kerema District
       829c97fffffffff:
-        place: Kimbe, West New Britain, Papua New Guinea
-        states: []
-    states: []
+        place: Kimbe, West New Britain
+    states:
+    - Papua New Guinea
   '3':
     hexes:
       829cd7fffffffff:
-        place: Nomad District, Papua New Guinea
-        states: []
+        place: Nomad District
+        states:
+        - Papua New Guinea
       829cdffffffffff:
-        place: Mappi, Indonesia
-        states: []
-    states: []
+        place: Mappi
+        states:
+        - Indonesia
   '4':
     hexes:
       829d0ffffffffff:
@@ -5479,130 +5441,97 @@
       829d2ffffffffff:
         place: Mackenzie River QLD 4705, Australia
         states: []
-    states: []
+    states:
+    - Australia
   '5':
     hexes:
       829d47fffffffff:
-        place: Middleton QLD 4735, Australia
-        states: []
+        place: Middleton QLD 4735
       829d4ffffffffff:
-        place: Waverley QLD 4825, Australia
-        states: []
+        place: Waverley QLD 4825
       829d57fffffffff:
-        place: Porcupine QLD 4821, Australia
-        states: []
+        place: Porcupine QLD 4821
       829d5ffffffffff:
-        place: Taldora QLD 4823, Australia
-        states: []
+        place: Taldora QLD 4823
       829d67fffffffff:
-        place: Jundah QLD 4736, Australia
-        states: []
+        place: Jundah QLD 4736
       829d6ffffffffff:
-        place: Bedourie QLD 4829, Australia
-        states: []
+        place: Bedourie QLD 4829
       829d77fffffffff:
-        place: Aramac QLD 4726, Australia
-        states: []
-    states: []
+        place: Aramac QLD 4726
+    states:
+    - Australia
 '8':
   '0':
     hexes:
       821007fffffffff:
         place: Кичменгско-Городецкий муниципальный округ, Russia
-        states: []
       82100ffffffffff:
         place: Komi Republic, Russia
-        states: []
       821017fffffffff:
         place: Varnavinsky District, Russia
-        states: []
       82101ffffffffff:
         place: Ленинское сельское поселение, Slobodskoy District, Russia
-        states: []
       821027fffffffff:
         place: Няндомский муниципальный округ, Russia
-        states: []
       82102ffffffffff:
         place: Верхнетоемский муниципальный округ, Russia
-        states: []
       821037fffffffff:
         place: Грязовецкий муниципальный округ, Russia
-        states: []
     states:
     - Russia
   '1':
     hexes:
       821047fffffffff:
         place: городское поселение Путеец, Pechora Municipal District, Russia
-        states: []
       82104ffffffffff:
         place: Yamalo-Nenets Autonomous Okrug, Russia, 629640
-        states: []
       821057fffffffff:
         place: сельское поселение Мылва, Troitsko-Pechorsky District, Russia
-        states: []
       82105ffffffffff:
         place: Beryozovsky District, Russia
-        states: []
       821067fffffffff:
         place: Zapolyarny District, Russia
-        states: []
       82106ffffffffff:
         place: Zapolyarny District, Russia
-        states: []
       821077fffffffff:
         place: сельское поселение Замежная, Ust-Tsilemsky District, Russia
-        states: []
     states:
     - Russia
   '2':
     hexes:
       821087fffffffff:
         place: сельское поселение Владимировка, Khvorostyansky District, Russia
-        states: []
       82108ffffffffff:
         place: Orenburg Oblast, Russia
-        states: []
       821097fffffffff:
         place: Тереңкөл ауылдық округі, Kaztal District, Kazakhstan
-        states: []
       82109ffffffffff:
         place: Қаракұдық ауылдық округі, Börli district, Kazakhstan
-        states: []
       8210a7fffffffff:
         place: Republic of Mordovia, Russia, 431556
-        states: []
       8210affffffffff:
         place: Tatarstan, Russia, 422774
-        states: []
       8210b7fffffffff:
         place: Симоновское сельское поселение, Kalininsky District, Russia
-        states: []
     states:
     - Russia
   '3':
     hexes:
       8210c7fffffffff:
         place: Кушвинский муниципальный округ, Russia
-        states: []
       8210cffffffffff:
         place: Sverdlovsk Oblast, Russia, 623994
-        states: []
       8210d7fffffffff:
         place: Vergaza, Chelyabinsk Oblast, Russia
-        states: []
       8210dffffffffff:
         place: Shadrinsky District, Russia
-        states: []
       8210e7fffffffff:
         place: Kosinsky District, Russia
-        states: []
       8210effffffffff:
         place: Ивдельский муниципальный округ, Russia
-        states: []
       8210f7fffffffff:
         place: Чайковский городской округ, Russia
-        states: []
     states:
     - Russia
   '4':
@@ -5635,906 +5564,817 @@
         place: Gdovsky District, Russia
         states:
         - Russia
-    states: []
   '5':
     hexes:
       821147fffffffff:
         place: сельское поселение Ловозеро, Lovozersky District, Russia
-        states: []
       821157fffffffff:
         place: Primorsky District, Russia
-        states: []
       82115ffffffffff:
         place: Мезенский муниципальный округ, Russia
-        states: []
       821167fffffffff:
         place: Kirovsk Urban Okrug, Russia
-        states: []
       821177fffffffff:
         place: Republic of Karelia, Russia, 186620
-        states: []
     states:
     - Russia
   '6':
     hexes:
       821187fffffffff:
         place: Протасовское сельское поселение, Dubensky District, Russia
-        states: []
       82118ffffffffff:
         place: сельское поселение Анопино, Gus-Khrustalny District, Russia
-        states: []
       821197fffffffff:
         place: Gubkinsky Urban Okrug, Russia
-        states: []
       82119ffffffffff:
         place: Nikiforovsky District, Russia
-        states: []
       8211a7fffffffff:
         place: Yartsevsky District, Russia
-        states: []
       8211affffffffff:
         place: Kalininsky District, Russia
-        states: []
       8211b7fffffffff:
         place: Чаусовское сельское поселение, Pogarsky District, Russia
-        states: []
     states:
     - Russia
 '81':
   '0':
     hexes:
       82a217fffffffff:
-        place: Ikalafotsy, District d'Ikongo, Madagascar
-        states: []
+        place: Ikalafotsy, District d'Ikongo
       82a227fffffffff:
         place: Madagascar
-        states: []
       82a237fffffffff:
         place: Madagascar
-        states: []
-    states: []
+    states:
+    - Madagascar
   '2':
     hexes:
       82a2a7fffffffff:
-        place: Antsakoamaro, District de Bekily, Madagascar
-        states: []
-    states: []
+        place: Antsakoamaro, District de Bekily
+    states:
+    - Madagascar
   '4':
     hexes:
       82a30ffffffffff:
-        place: 405, Madagascar
-        states: []
+        place: Madagascar
       82a31ffffffffff:
-        place: Boeny, Madagascar
-        states: []
-    states: []
+        place: Boeny
+    states:
+    - Madagascar
   '6':
     hexes:
       82a38ffffffffff:
-        place: Menabe, Madagascar
-        states: []
+        place: Menabe
       82a3affffffffff:
         place: Madagascar
-        states: []
-    states: []
+    states:
+    - Madagascar
 '83':
   '0':
     hexes:
       82a617fffffffff:
-        place: WA 6707, Australia
-        states: []
+        place: WA
       82a637fffffffff:
-        place: Kennedy Range WA 6701, Australia
-        states: []
-    states: []
+        place: Kennedy Range WA
+    states:
+    - Australia
   '4':
     hexes:
       82a717fffffffff:
-        place: Yalgoo WA 6635, Australia
-        states: []
+        place: Yalgoo WA
       82a71ffffffffff:
-        place: Toolonga WA 6532, Australia
-        states: []
+        place: Toolonga WA
       82a737fffffffff:
-        place: Cadoux WA 6466, Australia
-        states: []
-    states: []
+        place: Cadoux WA
+    states:
+    - Australia
   '6':
     hexes:
       82a787fffffffff:
-        place: Angelo River WA 6642, Australia
-        states: []
+        place: Angelo River WA
       82a78ffffffffff:
-        place: Nanutarra WA 6751, Australia
-        states: []
+        place: Nanutarra WA
       82a797fffffffff:
-        place: Nullagine WA 6758, Australia
-        states: []
+        place: Nullagine WA
       82a79ffffffffff:
-        place: Marble Bar WA 6760, Australia
-        states: []
+        place: Marble Bar WA
       82a7a7fffffffff:
-        place: Meekatharra WA 6642, Australia
-        states: []
+        place: Meekatharra WA
       82a7affffffffff:
-        place: Gascoyne River WA 6705, Australia
-        states: []
+        place: Gascoyne River WA
       82a7b7fffffffff:
-        place: Little Sandy Desert WA 6646, Australia
-        states: []
-    states: []
+        place: Little Sandy Desert WA
+    states:
+    - Australia
 '84':
   '0':
     hexes:
       82a807fffffffff:
-        place: Arapoti - PR, 84990-000, Brazil
-        states: []
+        place: Arapoti - PR
       82a80ffffffffff:
-        place: Presidente Venceslau - SP, 19409-899, Brazil
-        states: []
+        place: Presidente Venceslau - SP
       82a817fffffffff:
-        place: São Paulo - SP, 04475-000, Brazil
-        states: []
+        place: São Paulo - SP
       82a81ffffffffff:
-        place: Guariroba, Taquaritinga - SP, Brazil
-        states: []
+        place: Guariroba, Taquaritinga - SP
       82a827fffffffff:
-        place: SC, 84601-015, Brazil
-        states: []
+        place: SC
       82a82ffffffffff:
-        place: Primavera, Região Geográfica Intermediária de Maringá - PR, Brazil
-        states: []
-    states: []
+        place: Primavera, Região Geográfica Intermediária de Maringá - PR
+    states:
+    - Brazil
   '1':
     hexes:
       82a847fffffffff:
-        place: Aquidauana, Região Geográfica Intermediária de Corumbá, Brazil
-        states: []
+        place: Aquidauana, Região Geográfica Intermediária de Corumbá
+        states:
+        - Brazil
       82a84ffffffffff:
-        place: Municipio San Matías, Provincia Ángel Sandóval, Bolivia
-        states: []
+        place: Municipio San Matías, Provincia Ángel Sandóval
+        states:
+        - Bolivia
       82a857fffffffff:
-        place: Camapuã, Região Geográfica Intermediária de Campo Grande, Brazil
-        states: []
+        place: Camapuã, Região Geográfica Intermediária de Campo Grande
+        states:
+        - Brazil
       82a85ffffffffff:
-        place: Barão de Melgaço, Região Geográfica Intermediária de Cuiabá, Brazil
-        states: []
+        place: Barão de Melgaço, Região Geográfica Intermediária de Cuiabá
+        states:
+        - Brazil
       82a867fffffffff:
-        place: Concepción, Paraguay
-        states: []
+        place: Concepción
+        states:
+        - Paraguay
       82a86ffffffffff:
-        place: Bahía Negra, Alto Paraguay, Paraguay
-        states: []
+        place: Bahía Negra, Alto Paraguay
+        states:
+        - Paraguay
       82a877fffffffff:
-        place: Jardim Btumélia, Itapora - MS, Brazil
-        states: []
-    states: []
+        place: Jardim Btumélia, Itapora - MS
+        states:
+        - Brazil
   '2':
     hexes:
       82a887fffffffff:
-        place: Fervedouro - MG, 36815-000, Brazil
-        states: []
+        place: Fervedouro - MG
       82a88ffffffffff:
-        place: Tomás Gonzaga, Curvelo - MG, Brazil
-        states: []
+        place: Tomás Gonzaga, Curvelo - MG
       82a89ffffffffff:
         place: >-
-          Teófilo Otoni, Região Geográfica Intermediária de Teófilo Otoni,
-          Brazil
-        states: []
+          Teófilo Otoni, Região Geográfica Intermediária de Teófilo Otoni
       82a8a7fffffffff:
-        place: Rio de Janeiro, Brazil
-        states: []
+        place: Rio de Janeiro
       82a8affffffffff:
-        place: Boa Esperança - MG, Brazil
-        states: []
-    states: []
+        place: Boa Esperança - MG
+    states:
+    - Brazil
   '3':
     hexes:
       82a8c7fffffffff:
-        place: Caturaí, Região Geográfica Intermediária de Goiânia, Brazil
-        states: []
+        place: Caturaí, Região Geográfica Intermediária de Goiânia
       82a8cffffffffff:
-        place: Cocalinho, Região Geográfica Intermediária de Barra do Garças, Brazil
-        states: []
+        place: Cocalinho, Região Geográfica Intermediária de Barra do Garças
       82a8d7fffffffff:
-        place: Unaí - MG, 38610-001, Brazil
-        states: []
+        place: Unaí - MG
       82a8dffffffffff:
         place: >-
-          Região Geográfica Intermediária de Porangatu-Uruaçu - GO, 76450-000,
-          Brazil
-        states: []
+          Região Geográfica Intermediária de Porangatu-Uruaçu - GO
       82a8e7fffffffff:
-        place: Chaveslândia, Santa Vitória - MG, Brazil
-        states: []
+        place: Chaveslândia, Santa Vitória - MG
       82a8effffffffff:
-        place: Doverlândia, Região Geográfica Intermediária de Rio Verde, Brazil
-        states: []
+        place: Doverlândia, Região Geográfica Intermediária de Rio Verde
       82a8f7fffffffff:
-        place: Araras, Monte Carmelo - MG, Brazil
-        states: []
-    states: []
+        place: Araras, Monte Carmelo - MG
+    states:
+    - Brazil
   '4':
     hexes:
       82a90ffffffffff:
-        place: Anta Gorda - RS, 95980-000, Brazil
-        states: []
+        place: Anta Gorda - RS
       82a91ffffffffff:
-        place: Santa Catarina, Brazil
-        states: []
+        place: Santa Catarina
       82a92ffffffffff:
-        place: Piratini, Região Geográfica Intermediária de Pelotas, Brazil
-        states: []
-    states: []
+        place: Piratini, Região Geográfica Intermediária de Pelotas
+    states:
+    - Brazil
   '5':
     hexes:
       82a947fffffffff:
-        place: San Ignacio Guazú, Paraguay
-        states: []
+        place: San Ignacio Guazú
+        states:
+        - Paraguay
       82a94ffffffffff:
-        place: General Jose Maria Bruguez, Presidente Hayes, Paraguay
-        states: []
+        place: General Jose Maria Bruguez, Presidente Hayes
+        states:
+        - Paraguay
       82a957fffffffff:
-        place: Municipio de San Pedro, Departamento San Pedro, Argentina
-        states: []
+        place: Municipio de San Pedro, Departamento San Pedro
+        states:
+        - Argentina
       82a95ffffffffff:
-        place: Yasy Cañy, Paraguay
-        states: []
+        place: Yasy Cañy
+        states:
+        - Paraguay
       82a967fffffffff:
-        place: Municipio de Mercedes, Departamento Mercedes, Argentina
-        states: []
+        place: Municipio de Mercedes, Departamento Mercedes
+        states:
+        - Argentina
       82a96ffffffffff:
-        place: Municipio de Machagai, Departamento Veinticinco de Mayo, Argentina
-        states: []
+        place: Municipio de Machagai, Departamento Veinticinco de Mayo
+        states:
+        - Argentina
       82a977fffffffff:
-        place: Região Geográfica Intermediária de Santa Maria - RS, 97755-000, Brazil
-        states: []
-    states: []
+        place: Região Geográfica Intermediária de Santa Maria - RS
+        states:
+        - Brazil
 '86':
   '2':
     hexes:
       82ac87fffffffff:
-        place: Oshana, Namibia
-        states: []
+        place: Oshana
+        states:
+        - Namibia
       82ac8ffffffffff:
-        place: Kunene Region, Namibia
-        states: []
+        place: Kunene Region
+        states:
+        - Namibia
       82ac97fffffffff:
-        place: Kavango West, Namibia
-        states: []
+        place: Kavango West
+        states:
+        - Namibia
       82ac9ffffffffff:
-        place: Cunene Province, Angola
-        states: []
+        place: Cunene Province
+        states:
+        - Angola
       82aca7fffffffff:
-        place: Erongo Region, Namibia
-        states: []
+        place: Erongo Region
+        states:
+        - Namibia
       82acb7fffffffff:
-        place: Otjozondjupa, Namibia
-        states: []
-    states: []
+        place: Otjozondjupa
+        states:
+        - Namibia
   '6':
     hexes:
       82ad87fffffffff:
-        place: Karas, Namibia
-        states: []
+        place: Karas
+        states:
+        - Namibia
       82ad8ffffffffff:
-        place: Hardap, Namibia
-        states: []
+        place: Hardap
+        states:
+        - Namibia
       82ad97fffffffff:
         place: Botswana
-        states: []
+        states:
+        - Botswana
       82ad9ffffffffff:
-        place: Omaheke, Namibia
-        states: []
+        place: Omaheke
+        states:
+        - Namibia
       82ada7fffffffff:
-        place: Khâi-Ma Local Municipality, 8890, South Africa
-        states: []
+        place: Khâi-Ma Local Municipality
+        states:
+        - South Africa
       82adaffffffffff:
-        place: Karas, Namibia
-        states: []
+        place: Karas
+        states:
+        - Namibia
       82adb7fffffffff:
         place: >-
-          Tsantsabane Local Municipality, ZF Mgcawu District Municipality, South
-          Africa
-        states: []
-    states: []
+          Tsantsabane Local Municipality, ZF Mgcawu District Municipality
+        states:
+        - South Africa
 '89':
   '0':
     hexes:
       82b207fffffffff:
         place: Chile
-        states: []
+        states:
+        - Chile
       82b20ffffffffff:
-        place: Iglesia, Argentina
-        states: []
+        place: Iglesia
+        states:
+        - Argentina
       82b227fffffffff:
-        place: Antofagasta, Provincia de Antofagasta, Chile
-        states: []
+        place: Antofagasta, Provincia de Antofagasta
+        states:
+        - Chile
       82b22ffffffffff:
-        place: Departamento Antofagasta de la Sierra, Argentina
-        states: []
-    states: []
+        place: Departamento Antofagasta de la Sierra
+        states:
+        - Argentina
   '1':
     hexes:
       82b247fffffffff:
-        place: Departamento Tulumba, Córdoba, Argentina
-        states: []
+        place: Departamento Tulumba, Córdoba
       82b24ffffffffff:
-        place: Municipio de Landeta, Departamento San Martín, Argentina
-        states: []
+        place: Municipio de Landeta, Departamento San Martín
       82b257fffffffff:
-        place: Departamento General Juan Facundo Quiroga, Argentina
-        states: []
+        place: Departamento General Juan Facundo Quiroga
       82b25ffffffffff:
-        place: Chacabuco, Argentina
-        states: []
+        place: Chacabuco
       82b267fffffffff:
-        place: Departamento Moreno, Argentina
-        states: []
+        place: Departamento Moreno
       82b26ffffffffff:
-        place: Municipio de La Gallareta, Departamento Vera, Argentina
-        states: []
+        place: Municipio de La Gallareta, Departamento Vera
       82b277fffffffff:
         place: >-
           Departamento Capital, Municipio de San Fernando del Valle de
-          Catamarca, Argentina
-        states: []
-    states: []
+          Catamarca
+    states:
+    - Argentina
   '3':
     hexes:
       82b2c7fffffffff:
-        place: San Pedro, Chile
-        states: []
+        place: San Pedro
+        states:
+        - Chile
       82b2cffffffffff:
-        place: Distrito Río Grande, Argentina
-        states: []
+        place: Distrito Río Grande
+        states:
+        - Argentina
       82b2dffffffffff:
-        place: Cobquecura, Provincia de Itata, Chile
-        states: []
+        place: Cobquecura, Provincia de Itata
+        states:
+        - Chile
       82b2e7fffffffff:
-        place: Calingasta, Argentina
-        states: []
+        place: Calingasta
+        states:
+        - Argentina
       82b2effffffffff:
-        place: Departamento Santa Rosa, Distrito Ciudad de Santa Rosa, Argentina
-        states: []
-    states: []
+        place: Departamento Santa Rosa, Distrito Ciudad de Santa Rosa
+        states:
+        - Argentina
   '4':
     hexes:
       82b307fffffffff:
-        place: Camarones, Provincia de Arica, Chile
-        states: []
+        place: Camarones, Provincia de Arica
+        states:
+        - Chile
       82b30ffffffffff:
-        place: Ruta 21 CH, Ollagüe, Chile
-        states: []
+        place: CH, Ollagüe
+        states:
+        - Chile
       82b327fffffffff:
         place: Peru
-        states: []
+        states:
+        - Peru
       82b32ffffffffff:
-        place: Provincia Sur Carangas, Bolivia
-        states: []
+        place: Provincia Sur Carangas
+        states:
+        - Bolivia
       82b337fffffffff:
-        place: Islay, Arequipa, Peru
-        states: []
-    states: []
+        place: Islay, Arequipa
+        states:
+        - Peru
   '5':
     hexes:
       82b347fffffffff:
-        place: Municipio de Embarcación, General San Martín, Argentina
-        states: []
+        place: Municipio de Embarcación, General San Martín
+        states:
+        - Argentina
       82b34ffffffffff:
-        place: Municipio de Fuerte Esperanza, Departamento General Güemes, Argentina
-        states: []
+        place: Municipio de Fuerte Esperanza, Departamento General Güemes
+        states:
+        - Argentina
       82b357fffffffff:
-        place: Departamento Susques, 4641 Municipio de Susques, Argentina
-        states: []
+        place: Departamento Susques, 4641 Municipio de Susques
+        states:
+        - Argentina
       82b35ffffffffff:
-        place: Comisión Municipal de El Potrero, Rosario de la Frontera, Argentina
-        states: []
+        place: Comisión Municipal de El Potrero, Rosario de la Frontera
+        states:
+        - Argentina
       82b367fffffffff:
-        place: Municipio Charagua, Provincia Cordillera, Bolivia
-        states: []
+        place: Municipio Charagua, Provincia Cordillera
+        states:
+        - Bolivia
       82b36ffffffffff:
-        place: Mariscal Estigarribia, Boquerón, Paraguay
-        states: []
+        place: Mariscal Estigarribia, Boquerón
+        states:
+        - Paraguay
       82b377fffffffff:
-        place: Municipio Villa Abecia, Provincia Sur Cinti, Bolivia
-        states: []
-    states: []
+        place: Municipio Villa Abecia, Provincia Sur Cinti
+        states:
+        - Bolivia
 '9':
   '0':
     hexes:
       821207fffffffff:
-        place: Mackenzie County, Alberta, Canada
-        states: []
+        place: Mackenzie County, Alberta
       82120ffffffffff:
-        place: Northern Sunrise County, Alberta, Canada
-        states: []
+        place: Northern Sunrise County, Alberta
       821217fffffffff:
-        place: Area B (Finlay Valley/Beatton Valley), British Columbia, Canada
-        states: []
+        place: Area B (Finlay Valley/Beatton Valley), British Columbia
       82121ffffffffff:
-        place: Clear Hills County, AB, Canada
-        states: []
+        place: Clear Hills County, AB
       821227fffffffff:
-        place: South Slave Region, Northwest Territories, Canada
-        states: []
+        place: South Slave Region, Northwest Territories
       82122ffffffffff:
-        place: Improvement District No. 24, Alberta, Canada
-        states: []
+        place: Improvement District No. 24, Alberta
       821237fffffffff:
-        place: Dehcho Region, Northwest Territories, Canada
-        states: []
+        place: Dehcho Region, Northwest Territories
     states:
     - Canada
   '1':
     hexes:
       821247fffffffff:
-        place: Unorganized Division No. 18, Saskatchewan, Canada
-        states: []
+        place: Unorganized Division No. 18, Saskatchewan
       82124ffffffffff:
-        place: Moose Range No. 486, SK, Canada
-        states: []
+        place: Moose Range No. 486, SK
       821257fffffffff:
-        place: Lac La Biche County, Alberta, Canada
-        states: []
+        place: Lac La Biche County, Alberta
       82125ffffffffff:
-        place: North Battleford No. 437, SK, Canada
-        states: []
+        place: North Battleford No. 437, SK
       821267fffffffff:
-        place: Unorganized Division No. 18, Saskatchewan, Canada
-        states: []
+        place: Unorganized Division No. 18, Saskatchewan
       82126ffffffffff:
-        place: Unorganized Division No. 23, Manitoba, Canada
-        states: []
+        place: Unorganized Division No. 23, Manitoba
       821277fffffffff:
-        place: Wood Buffalo, Alberta, Canada
-        states: []
+        place: Wood Buffalo, Alberta
     states:
     - Canada
   '2':
     hexes:
       821287fffffffff:
-        place: Area C (Butedale/Kitlope/Kitsumkalum), British Columbia, Canada
+        place: Area C (Butedale/Kitlope/Kitsumkalum), British Columbia
         states:
         - Canada
       82128ffffffffff:
-        place: Area J (West Chilcotin), British Columbia, Canada
+        place: Area J (West Chilcotin), British Columbia
         states:
         - Canada
       82129ffffffffff:
-        place: Area A (Ocean Falls/Outer Coast), British Columbia, Canada
+        place: Area A (Ocean Falls/Outer Coast), British Columbia
         states:
         - Canada
       8212a7fffffffff:
-        place: Area A (Nass Valley/Bell Irving), British Columbia, Canada
+        place: Area A (Nass Valley/Bell Irving), British Columbia
         states:
         - Canada
       8212affffffffff:
-        place: Area C (Stuart Lake/Omineca Valley), British Columbia, Canada
+        place: Area C (Stuart Lake/Omineca Valley), British Columbia
         states:
         - Canada
       8212b7fffffffff:
-        place: Ketchikan Gateway Borough, Alaska, United States of America
+        place: Ketchikan Gateway Borough, Alaska
         states:
         - USA/Alaska
-    states: []
   '3':
     hexes:
       8212c7fffffffff:
-        place: Area A (Kicking Horse/Kinbasket Lake), British Columbia, Canada
+        place: Area A (Kicking Horse/Kinbasket Lake), British Columbia
         states:
         - Canada
       8212cffffffffff:
-        place: Municipal District of Willow Creek No. 26, AB T0L 0Z0, Canada
+        place: Municipal District of Willow Creek No. 26, AB T0L 0Z0
         states:
         - Canada
       8212d7fffffffff:
-        place: Area J (Copper Desert Country), British Columbia, Canada
+        place: Area J (Copper Desert Country), British Columbia
         states:
         - Canada
       8212dffffffffff:
-        place: Pend Oreille County, Washington, United States of America
+        place: Pend Oreille County, Washington
         states:
         - USA
       8212e7fffffffff:
-        place: Woodlands County, Alberta, Canada
+        place: Woodlands County, Alberta
         states:
         - Canada
       8212effffffffff:
-        place: County of Stettler, AB, Canada
+        place: County of Stettler, AB
         states:
         - Canada
       8212f7fffffffff:
-        place: Area H (Robson Valley/Canoe), BC V0J, Canada
+        place: Area H (Robson Valley/Canoe), BC 
         states:
         - Canada
     states: []
   '4':
     hexes:
       821307fffffffff:
-        place: Déline District, NT X0E 0G0, Canada
-        states: []
+        place: Déline District, NT X0E 0G0
       82130ffffffffff:
-        place: North Slave Region, Northwest Territories, Canada
-        states: []
+        place: North Slave Region, Northwest Territories
       821317fffffffff:
-        place: Sahtu Region, Northwest Territories, Canada
-        states: []
+        place: Sahtu Region, Northwest Territories
       82131ffffffffff:
-        place: Dehcho Region, Northwest Territories, Canada
-        states: []
+        place: Dehcho Region, Northwest Territories
       821327fffffffff:
-        place: Inuvik Region, Northwest Territories, Canada
-        states: []
+        place: Inuvik Region, Northwest Territories
       82132ffffffffff:
-        place: Kitikmeot Region, Nunavut, Canada
-        states: []
+        place: Kitikmeot Region, Nunavut
       821337fffffffff:
-        place: Sahtu Region, Northwest Territories, Canada
-        states: []
+        place: Sahtu Region, Northwest Territories
     states:
     - Canada
   '5':
     hexes:
       821347fffffffff:
-        place: North Slave Region, Northwest Territories, Canada
-        states: []
+        place: North Slave Region, Northwest Territories
       82134ffffffffff:
-        place: South Slave Region, Northwest Territories, Canada
-        states: []
+        place: South Slave Region, Northwest Territories
       821357fffffffff:
-        place: North Slave Region, Northwest Territories, Canada
-        states: []
+        place: North Slave Region, Northwest Territories
       82135ffffffffff:
-        place: South Slave Region, Northwest Territories, Canada
-        states: []
+        place: South Slave Region, Northwest Territories
       821367fffffffff:
-        place: Kivalliq Region, Nunavut, Canada
-        states: []
+        place: Kivalliq Region, Nunavut
       82136ffffffffff:
-        place: Kivalliq Region, Nunavut, Canada
-        states: []
+        place: Kivalliq Region, Nunavut
       821377fffffffff:
-        place: Kitikmeot Region, Nunavut, Canada
-        states: []
+        place: Kitikmeot Region, Nunavut
     states:
     - Canada
   '6':
     hexes:
       821387fffffffff:
-        place: Yukon, Canada
-        states: []
+        place: Yukon
       82138ffffffffff:
-        place: Stikine Region, British Columbia, Canada
-        states: []
+        place: Stikine Region, British Columbia
       821397fffffffff:
-        place: Stikine Region, British Columbia, Canada
-        states: []
+        place: Stikine Region, British Columbia
       82139ffffffffff:
-        place: Stikine Region, British Columbia, Canada
-        states: []
+        place: Stikine Region, British Columbia
       8213a7fffffffff:
-        place: Yukon, Canada
-        states: []
+        place: Yukon
       8213affffffffff:
-        place: Sahtu Region, Northwest Territories, Canada
-        states: []
+        place: Sahtu Region, Northwest Territories
       8213b7fffffffff:
-        place: Yukon, Canada
-        states: []
+        place: Yukon
     states:
     - Canada
 '92':
   '0':
     hexes:
       82b807fffffffff:
-        place: Maralinga Tjarutja, Australia
-        states: []
+        place: Maralinga Tjarutja
       82b80ffffffffff:
-        place: Plumridge Lakes WA 6431, Australia
-        states: []
+        place: Plumridge Lakes WA
       82b817fffffffff:
-        place: Anangu Pitjantjatjara Yankunytjatjara SA 0872, Australia
-        states: []
+        place: Anangu Pitjantjatjara Yankunytjatjara SA
       82b81ffffffffff:
-        place: Anangu Pitjantjatjara Yankunytjatjara SA 0872, Australia
-        states: []
+        place: Anangu Pitjantjatjara Yankunytjatjara SA
       82b82ffffffffff:
-        place: Madura WA 6443, Australia
-        states: []
+        place: Madura WA
       82b837fffffffff:
-        place: Yellabinna SA 5690, Australia
-        states: []
-    states: []
+        place: Yellabinna SA
+    states:
+    - Australia
   '1':
     hexes:
       82b847fffffffff:
-        place: Kookynie WA 6431, Australia
-        states: []
+        place: Kookynie WA
       82b84ffffffffff:
-        place: Sandstone WA 6639, Australia
-        states: []
+        place: Sandstone WA
       82b857fffffffff:
-        place: Cosmo Newbery WA 6440, Australia
-        states: []
+        place: Cosmo Newbery WA
       82b85ffffffffff:
-        place: Lake Wells WA 6440, Australia
-        states: []
+        place: Lake Wells WA
       82b867fffffffff:
-        place: Buraminya WA 6452, Australia
-        states: []
+        place: Buraminya WA
       82b86ffffffffff:
-        place: Parker Range WA 6426, Australia
-        states: []
+        place: Parker Range WA
       82b877fffffffff:
-        place: Rawlinna WA 6434, Australia
-        states: []
-    states: []
+        place: Rawlinna WA
+    states:
+    - Australia
   '2':
     hexes:
       82b887fffffffff:
-        place: Burt Plain NT 0872, Australia
-        states: []
+        place: Burt Plain NT
       82b88ffffffffff:
-        place: Chilla Well NT 0872, Australia
-        states: []
+        place: Chilla Well NT
       82b897fffffffff:
-        place: Costello NT 0872, Australia
-        states: []
+        place: Costello NT
       82b89ffffffffff:
-        place: Warumungu NT 0852, Australia
-        states: []
+        place: Warumungu NT
       82b8a7fffffffff:
-        place: Ghan NT 0872, Australia
-        states: []
+        place: Ghan NT
       82b8affffffffff:
-        place: Petermann NT 0872, Australia
-        states: []
+        place: Petermann NT
       82b8b7fffffffff:
-        place: Anatye NT 0872, Australia
-        states: []
-    states: []
+        place: Anatye NT
+    states:
+    - Australia
   '3':
     hexes:
       82b8c7fffffffff:
-        place: Gibson Desert South WA 0872, Australia
-        states: []
+        place: Gibson Desert South WA
       82b8cffffffffff:
-        place: Gibson Desert North WA 0872, Australia
-        states: []
+        place: Gibson Desert North WA
       82b8d7fffffffff:
-        place: Gibson Desert North WA 0872, Australia
-        states: []
+        place: Gibson Desert North WA
       82b8dffffffffff:
-        place: Telfer WA 6762, Australia
-        states: []
+        place: Telfer WA
       82b8e7fffffffff:
-        place: Warburton WA 6431, Australia
-        states: []
+        place: Warburton WA
       82b8effffffffff:
-        place: Little Sandy Desert WA 6646, Australia
-        states: []
+        place: Little Sandy Desert WA
       82b8f7fffffffff:
-        place: Ngaanyatjarra-giles WA 0872, Australia
-        states: []
-    states: []
+        place: Ngaanyatjarra-giles WA
+    states:
+    - Australia
   '4':
     hexes:
       82b917fffffffff:
-        place: South Australia, Australia
-        states: []
-    states: []
+        place: South Australia
+    states:
+    - Australia
   '6':
     hexes:
       82b987fffffffff:
-        place: Clayton Station SA 5733, Australia
-        states: []
+        place: Clayton Station SA
       82b98ffffffffff:
-        place: Anna Creek SA 5723, Australia
-        states: []
+        place: Anna Creek Sabah
       82b997fffffffff:
-        place: Innamincka SA 5731, Australia
-        states: []
+        place: Innamincka SA
       82b99ffffffffff:
-        place: Simpson Desert SA 5734, Australia
-        states: []
+        place: Simpson Desert SA
       82b9a7fffffffff:
-        place: Winnininnie SA 5440, Australia
-        states: []
+        place: Winnininnie SA
       82b9affffffffff:
-        place: Mahanewo SA 5717, Australia
-        states: []
+        place: Mahanewo SA
       82b9b7fffffffff:
-        place: Packsaddle NSW 2880, Australia
-        states: []
-    states: []
+        place: Packsaddle NSW
+    states:
+    - Australia
 '93':
   '4':
     hexes:
       82bb0ffffffffff:
-        place: Hastings District, New Zealand
-        states: []
-    states: []
+        place: Hastings District
+    states:
+    - New Zealand
 '94':
   '1':
     hexes:
       82bc47fffffffff:
-        place: George, 6460, South Africa
-        states: []
+        place: George
       82bc4ffffffffff:
-        place: Hantam Local Municipality, 8193, South Africa
-        states: []
+        place: Hantam Local Municipality
       82bc57fffffffff:
         place: >-
-          Tsolwana Local Municipality, Chris Hani District Municipality, South
-          Africa
-        states: []
+          Tsolwana Local Municipality, Chris Hani District Municipality
       82bc5ffffffffff:
         place: >-
-          Kareeberg Local Municipality, Pixley ka Seme District Municipality,
-          South Africa
-        states: []
-    states: []
+          Kareeberg Local Municipality, Pixley ka Seme District Municipality
+    states:
+    - South Africa
   '3':
     hexes:
       82bcc7fffffffff:
-        place: Ngwathe Nu, South Africa
-        states: []
+        place: Ngwathe Nu
+        states:
+        - South Africa
       82bccffffffffff:
         place: >-
-          Ratlou Local Municipality, Ngaka Modiri Molema District Municipality,
-          South Africa
-        states: []
+          Ratlou Local Municipality, Ngaka Modiri Molema District Municipality
+        states:
+        - South Africa
       82bcd7fffffffff:
-        place: Mbombela Ward 14, Mbombela, South Africa
-        states: []
+        place: Mbombela Ward 14, Mbombela
+        states:
+        - South Africa
       82bcdffffffffff:
-        place: Lephalale Ward 3, Lephalale Local Municipality, South Africa
-        states: []
+        place: Lephalale Ward 3, Lephalale Local Municipality
+        states:
+        - South Africa
       82bce7fffffffff:
-        place: Qacha's Nek 600, Lesotho
-        states: []
+        place: Qacha's Nek
+        states:
+        - Lesotho
       82bceffffffffff:
         place: >-
-          Letsemeng Local Municipality, Xhariep District Municipality, South
-          Africa
-        states: []
+          Letsemeng Local Municipality, Xhariep District Municipality
+        states:
+        - South Africa
       82bcf7fffffffff:
-        place: Ulundi Local Municipality, 3838, South Africa
-        states: []
-    states: []
+        place: Ulundi Local Municipality
+        states:
+        - South Africa
 '95':
   '0':
     hexes:
       82be0ffffffffff:
-        place: Nattai NSW 2570, Australia
-        states: []
+        place: Nattai NSW
       82be1ffffffffff:
-        place: Dividing Ridge Road, Herons Creek NSW 2439, Australia
-        states: []
-    states: []
+        place: Dividing Ridge Road, Herons Creek NSW
+    states:
+    - Australia
   '1':
     hexes:
       82be47fffffffff:
-        place: Leitchville South Road, Gunbower VIC 3566, Australia
-        states: []
+        place: Leitchville South Road, Gunbower VIC
       82be4ffffffffff:
-        place: Parilla SA 5303, Australia
-        states: []
+        place: Parilla SA
       82be57fffffffff:
-        place: 790 Tuggerabach Road, Ungarie NSW 2669, Australia
-        states: []
+        place: 790 Tuggerabach Road, Ungarie NSW
       82be5ffffffffff:
-        place: Pan Ban NSW 2648, Australia
-        states: []
+        place: Pan Ban NSW
       82be6ffffffffff:
-        place: Tyrendarra, Victoria, Australia
-        states: []
+        place: Tyrendarra, Victoria
       82be77fffffffff:
-        place: Tom Groggin VIC 3707, Australia
-        states: []
-    states: []
+        place: Tom Groggin VIC
+    states:
+    - Australia
   '2':
     hexes:
       82be8ffffffffff:
         place: Australia
-        states: []
-    states: []
+    states:
+    - Australia
   '3':
     hexes:
       82bec7fffffffff:
-        place: Dirranbandi QLD 4486, Australia
-        states: []
+        place: Dirranbandi QLD
       82becffffffffff:
-        place: Yowah QLD 4490, Australia
-        states: []
+        place: Yowah QLD
       82bed7fffffffff:
-        place: 368 Murrays Road, Grosmont QLD 4419, Australia
-        states: []
+        place: 368 Murrays Road, Grosmont QLD
       82bedffffffffff:
-        place: Old Tambo Road, Nive QLD 4477, Australia
-        states: []
+        place: Old Tambo Road, Nive QLD
       82bee7fffffffff:
-        place: Goorianawa NSW 2396, Australia
-        states: []
+        place: Goorianawa NSW
       82beeffffffffff:
-        place: Gunderbooka NSW 2840, Australia
-        states: []
+        place: Gunderbooka NSW
       82bef7fffffffff:
-        place: Fairleigh Road, Limevale QLD 4384, Australia
-        states: []
-    states: []
+        place: Fairleigh Road, Limevale QLD
+    states:
+    - Australia
   '5':
     hexes:
       82bf4ffffffffff:
-        place: Saudridge Road, Cressy TAS 7302, Australia
-        states: []
-    states: []
+        place: Saudridge Road, Cressy TAS
+    states:
+    - Australia
 '97':
   '0':
     hexes:
       82c22ffffffffff:
-        place: Partido de Benito Juárez, Argentina
-        states: []
-    states: []
+        place: Partido de Benito Juárez
+    states:
+    - Argentina
   '3':
     hexes:
       82c2c7fffffffff:
-        place: Soriano, Uruguay
-        states: []
+        place: Soriano
+        states:
+        - Uruguay
       82c2cffffffffff:
-        place: Departamento Villaguay, Municipio Sauce de Luna, Argentina
-        states: []
+        place: Departamento Villaguay, Municipio Sauce de Luna
+        states:
+        - Argentina
       82c2d7fffffffff:
-        place: Treinta y Tres, Uruguay
-        states: []
+        place: Treinta y Tres
+        states:
+        - Uruguay
       82c2dffffffffff:
-        place: Salto, Uruguay
-        states: []
+        place: Salto
+        states:
+        - Uruguay
       82c2e7fffffffff:
-        place: Partido de General Paz, Argentina
-        states: []
+        place: Partido de General Paz
+        states:
+        - Argentina
       82c2effffffffff:
-        place: Partido de Pergamino, Buenos Aires, Argentina
-        states: []
+        place: Partido de Pergamino, Buenos Aires
+        states:
+        - Argentina
       82c2f7fffffffff:
         place: Uruguay
-        states: []
-    states: []
+        states:
+        - Uruguay
   '4':
     hexes:
       82c30ffffffffff:
-        place: Cuartel V, Argentina
+        place: Cuartel V
         states: []
       82c327fffffffff:
-        place: Departamento Florentino Ameghino, Chubut Province, Argentina
+        place: Departamento Florentino Ameghino, Chubut Province
         states: []
       82c32ffffffffff:
-        place: Sierra Grande, Departamento San Antonio, Argentina
+        place: Sierra Grande, Departamento San Antonio
         states: []
-    states: []
+    states:
+    - Argentina
   '5':
     hexes:
       82c347fffffffff:
-        place: Municipio de Ataliva Roca, Departamento Utracán, Argentina
-        states: []
+        place: Municipio de Ataliva Roca, Departamento Utracán
       82c34ffffffffff:
-        place: Partido de General Villegas, Buenos Aires, Argentina
-        states: []
+        place: Partido de General Villegas, Buenos Aires
       82c357fffffffff:
-        place: Partido de Tornquist, 8136 Buenos Aires, Argentina
-        states: []
+        place: Partido de Tornquist, 8136 Buenos Aires
       82c35ffffffffff:
-        place: Partido de Hipólito Yrigoyen, Argentina
-        states: []
+        place: Partido de Hipólito Yrigoyen
       82c367fffffffff:
-        place: Municipio de 25 de Mayo, Departamento Puelén, Argentina
-        states: []
+        place: Municipio de 25 de Mayo, Departamento Puelén
       82c36ffffffffff:
-        place: Gobernador Dupuy, Unión, Argentina
-        states: []
+        place: Gobernador Dupuy, Unión
       82c377fffffffff:
-        place: Departamento Pichi Mahuida, Argentina
-        states: []
-    states: []
+        place: Departamento Pichi Mahuida
+    states:
+    - Argentina
