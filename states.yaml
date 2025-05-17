@@ -76,6 +76,9 @@ Bosnia and Herzegovina:
 Botswana:
   begin: 1966
   end: 2025
+Brazil:
+  begin: 1889
+  end: 2025
 British Empire:
   begin: 1707
   end: 1997
@@ -127,13 +130,7 @@ Colombia:
 Comoros:
   begin: 1975
   end: 2025
-Democratic Republic of the Congo:
-  begin: 1960
-  end: 2025
 Congo-Brazzaville:
-  begin: 1960
-  end: 2025
-Côte d'Ivoire:
   begin: 1960
   end: 2025
 Costa Rica:
@@ -150,6 +147,15 @@ Cyprus:
   end: 2025
 Czechia:
   begin: 1993
+  end: 2025
+Czechoslovakia:
+  begin: 1918
+  end: 1992
+Côte d'Ivoire:
+  begin: 1960
+  end: 2025
+Democratic Republic of the Congo:
+  begin: 1960
   end: 2025
 Denmark:
   begin: 950
@@ -189,9 +195,6 @@ Eswatini:
   end: 2025
 Ethiopia:
   begin: -980
-  end: 2025
-Brazil:
-  begin: 1889
   end: 2025
 Fiji:
   begin: 1970
@@ -263,6 +266,9 @@ Iceland:
 Inca Empire:
   begin: 1438
   end: 1533
+India:
+  begin: 1947
+  end: 2025
 Indonesia:
   begin: 1945
   end: 2025
@@ -301,12 +307,6 @@ Khmer Empire:
   end: 1431
 Kiribati:
   begin: 1979
-  end: 2025
-North Korea:
-  begin: 1948
-  end: 2025
-South Korea:
-  begin: 1948
   end: 2025
 Kuwait:
   begin: 1961
@@ -441,6 +441,9 @@ Niger:
 Nigeria:
   begin: 1960
   end: 2025
+North Korea:
+  begin: 1948
+  end: 2025
 North Macedonia:
   begin: 1991
   end: 2025
@@ -495,9 +498,6 @@ Qatar:
 Qing Dynasty:
   begin: 1636
   end: 1912
-India:
-  begin: 1947
-  end: 2025
 Roman Empire (Western):
   begin: -27
   end: 476
@@ -584,6 +584,9 @@ Songhai Empire:
 South Africa:
   begin: 1910
   end: 2025
+South Korea:
+  begin: 1948
+  end: 2025
 South Sudan:
   begin: 2011
   end: 2025
@@ -664,6 +667,9 @@ USA:
     Alaska:
       begin: 1867
       end: 2025
+USSR:
+  begin: 1922
+  end: 1991
 Uganda:
   begin: 1962
   end: 2025
@@ -697,18 +703,12 @@ Vietnam:
 Yemen:
   begin: 1990
   end: 2025
+Yugoslavia:
+  begin: 1918
+  end: 1992
 Zambia:
   begin: 1964
   end: 2025
 Zimbabwe:
   begin: 1980
   end: 2025
-USSR:
-  begin: 1922
-  end: 1991
-Czechoslovakia:
-  begin: 1918
-  end: 1992
-Yugoslavia:
-  begin: 1918
-  end: 1992

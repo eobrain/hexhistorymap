@@ -1074,7 +1074,7 @@
         states:
         - France
       821f8ffffffffff:
-        place:  Garmisch-Partenkirchen
+        place: Garmisch-Partenkirchen
         states:
         - Germany
       821f97fffffffff:
@@ -1849,7 +1849,6 @@
         place: Pender County, NC 28478
     states:
     - USA
-
   '4':
     hexes:
       822b17fffffffff:
@@ -4781,8 +4780,7 @@
       828047fffffffff:
         place: Chaves, Região Geográfica Intermediária de Breves
       82804ffffffffff:
-        place: >-
-          Amapá, Região Geográfica Intermediária de Oiapoque-Porto Grande
+        place: Amapá, Região Geográfica Intermediária de Oiapoque-Porto Grande
       828067fffffffff:
         place: Portel - PA
       82806ffffffffff:
@@ -4808,15 +4806,13 @@
       82812ffffffffff:
         place: Correntina, Região Geográfica Intermediária de Barreiras
       828137fffffffff:
-        place: >-
-          Itambé, Região Geográfica Intermediária de Vitória da Conquista
+        place: Itambé, Região Geográfica Intermediária de Vitória da Conquista
     states:
     - Brazil
   '5':
     hexes:
       828147fffffffff:
-        place: >-
-          Couto Magalhães, Região Geográfica Intermediária de Araguaína - TO
+        place: Couto Magalhães, Região Geográfica Intermediária de Araguaína - TO
       82814ffffffffff:
         place: Marabá, Região Geográfica Intermediária de Marabá
       828157fffffffff:
@@ -4892,7 +4888,7 @@
         - Nigeria
       8282f7fffffffff:
         place: Equatorial Guinea
-        states:
+        states: null
   '4':
     hexes:
       828317fffffffff:
@@ -4945,9 +4941,7 @@
       828a1ffffffffff:
         place: Beruri, Região Geográfica Intermediária de Manaus
       828a27fffffffff:
-        place: >-
-          Campo Novo de Rondônia, Região Geográfica Intermediária de Porto
-          Velho
+        place: Campo Novo de Rondônia, Região Geográfica Intermediária de Porto Velho
       828a2ffffffffff:
         place: Lábrea - AM
       828a37fffffffff:
@@ -5027,8 +5021,7 @@
         states:
         - Brazil
       828aeffffffffff:
-        place: >-
-          Santa Isabel do Rio Negro, Região Geográfica Intermediária de Manaus
+        place: Santa Isabel do Rio Negro, Região Geográfica Intermediária de Manaus
         states:
         - Brazil
       828af7fffffffff:
@@ -5102,8 +5095,7 @@
       828b8ffffffffff:
         place: Região Geográfica Intermediária de Sinop - MT
       828b97fffffffff:
-        place: >-
-          Região Geográfica Intermediária de Barra do Garças - MT
+        place: Região Geográfica Intermediária de Barra do Garças - MT
       828b9ffffffffff:
         place: Novo Progresso, Região Geográfica Intermediária de Santarém
       828ba7fffffffff:
@@ -5222,7 +5214,7 @@
     hexes:
       828c97fffffffff:
         place: Samalantan, West Kalimantan
-        states:
+        states: null
       828caffffffffff:
         place: Sungai Menang, Ogan Komering Ilir
       828cb7fffffffff:
@@ -5859,8 +5851,7 @@
       82a88ffffffffff:
         place: Tomás Gonzaga, Curvelo - MG
       82a89ffffffffff:
-        place: >-
-          Teófilo Otoni, Região Geográfica Intermediária de Teófilo Otoni
+        place: Teófilo Otoni, Região Geográfica Intermediária de Teófilo Otoni
       82a8a7fffffffff:
         place: Rio de Janeiro
       82a8affffffffff:
@@ -5876,8 +5867,7 @@
       82a8d7fffffffff:
         place: Unaí - MG
       82a8dffffffffff:
-        place: >-
-          Região Geográfica Intermediária de Porangatu-Uruaçu - GO
+        place: Região Geográfica Intermediária de Porangatu-Uruaçu - GO
       82a8e7fffffffff:
         place: Chaveslândia, Santa Vitória - MG
       82a8effffffffff:
@@ -5980,8 +5970,7 @@
         states:
         - Namibia
       82adb7fffffffff:
-        place: >-
-          Tsantsabane Local Municipality, ZF Mgcawu District Municipality
+        place: Tsantsabane Local Municipality, ZF Mgcawu District Municipality
         states:
         - South Africa
 '89':
@@ -6018,9 +6007,7 @@
       82b26ffffffffff:
         place: Municipio de La Gallareta, Departamento Vera
       82b277fffffffff:
-        place: >-
-          Departamento Capital, Municipio de San Fernando del Valle de
-          Catamarca
+        place: Departamento Capital, Municipio de San Fernando del Valle de Catamarca
     states:
     - Argentina
   '3':
@@ -6187,7 +6174,7 @@
         states:
         - Canada
       8212f7fffffffff:
-        place: Area H (Robson Valley/Canoe), BC 
+        place: Area H (Robson Valley/Canoe), BC
         states:
         - Canada
     states: []
@@ -6355,11 +6342,9 @@
       82bc4ffffffffff:
         place: Hantam Local Municipality
       82bc57fffffffff:
-        place: >-
-          Tsolwana Local Municipality, Chris Hani District Municipality
+        place: Tsolwana Local Municipality, Chris Hani District Municipality
       82bc5ffffffffff:
-        place: >-
-          Kareeberg Local Municipality, Pixley ka Seme District Municipality
+        place: Kareeberg Local Municipality, Pixley ka Seme District Municipality
     states:
     - South Africa
   '3':
@@ -6369,8 +6354,7 @@
         states:
         - South Africa
       82bccffffffffff:
-        place: >-
-          Ratlou Local Municipality, Ngaka Modiri Molema District Municipality
+        place: Ratlou Local Municipality, Ngaka Modiri Molema District Municipality
         states:
         - South Africa
       82bcd7fffffffff:
@@ -6386,8 +6370,7 @@
         states:
         - Lesotho
       82bceffffffffff:
-        place: >-
-          Letsemeng Local Municipality, Xhariep District Municipality
+        place: Letsemeng Local Municipality, Xhariep District Municipality
         states:
         - South Africa
       82bcf7fffffffff:
