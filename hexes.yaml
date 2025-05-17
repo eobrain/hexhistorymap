@@ -17,6 +17,7 @@
         place: Arkhangelsk Oblast
     states:
     - Russia
+    - USSR
 '1':
   '0':
     hexes:
@@ -105,6 +106,7 @@
         place: Тындинский муниципальный округ
     states:
     - Russia
+    - USSR
   '1':
     hexes:
       821447fffffffff:
@@ -121,6 +123,7 @@
         place: Ayano-Maysky Rayon
     states:
     - Russia
+    - USSR
   '2':
     hexes:
       821487fffffffff:
@@ -131,6 +134,7 @@
         place: Jewish Autonomous Oblast, 679120
         states:
         - Russia
+        - USSR
       821497fffffffff:
         place: Bayan County, Heilongjiang
         states:
@@ -147,6 +151,7 @@
         place: Romnensky District
         states:
         - Russia
+        - USSR
       8214b7fffffffff:
         place: Heilongjiang, Fuyu County, Youyi
         states:
@@ -167,6 +172,7 @@
         place: Verkhnebureinsky District
     states:
     - Russia
+    - USSR
   '4':
     hexes:
       821507fffffffff:
@@ -185,6 +191,7 @@
         place: Межселенные территории, Severo-Baykalsky Rayon
     states:
     - Russia
+    - USSR
   '5':
     hexes:
       821547fffffffff:
@@ -203,12 +210,14 @@
         place: Туойдахский наслег, Suntarsky Ulus
     states:
     - Russia
+    - USSR
   '6':
     hexes:
       821587fffffffff:
         place: Alexandrovo-Zavodsky District
         states:
         - Russia
+        - USSR
       82158ffffffffff:
         place: Hulunbuir, Genhe City
         states:
@@ -225,10 +234,12 @@
         place: Шишкинское сельское поселение, Chitinsky District
         states:
         - Russia
+        - USSR
       8215affffffffff:
         place: Zabaykalsky Krai, 673478
         states:
         - Russia
+        - USSR
       8215b7fffffffff:
         place: Dashbalbar
         states:
@@ -315,6 +326,7 @@
         place: Kamchatka Krai
     states:
     - Russia
+    - USSR
   '4':
     hexes:
       821707fffffffff:
@@ -327,6 +339,7 @@
         place: Magadan Oblast
     states:
     - Russia
+    - USSR
   '5':
     hexes:
       821747fffffffff:
@@ -339,12 +352,14 @@
         place: Penzhinsky District, Russia
     states:
     - Russia
+    - USSR
   '6':
     hexes:
       82178ffffffffff:
         place: Sea of Okhotsk
     states:
     - Russia
+    - USSR
 '111':
   '4':
     hexes:
@@ -607,14 +622,15 @@
         place: County Wexford
     states:
     - Ireland
+    - UK
   '1':
     hexes:
       82184ffffffffff:
         place: Bay of Biscay
       821867fffffffff:
-        place: 9 Route de Giéville, 50890 Condé-sur-Vire
+        place: Condé-sur-Vire
       82186ffffffffff:
-        place: D 29, 86160 Champagné-Saint-Hilaire
+        place: Champagné-Saint-Hilaire
     states:
     - France
   '4':
@@ -881,6 +897,7 @@
         place: Horné Naštice
         states:
         - Slovakia
+        - Czechoslovakia
       821e0ffffffffff:
         place: Nagyecsed
         states:
@@ -893,6 +910,7 @@
         place: Ridjica, West Backa Administrative District
         states:
         - Serbia
+        - Yugoslavia
       821e27fffffffff:
         place: Olszówka
         states:
@@ -905,16 +923,19 @@
         place: 83, 398 04 Králova Lhota
         states:
         - Czechia
+        - Czechoslovakia
   '1':
     hexes:
       821e47fffffffff:
         place: Haivoron Urban Hromada, Holovanivsk Raion
         states:
         - Ukraine
+        - USSR
       821e4ffffffffff:
         place: Velyka Lepetykha settlement hromada, Kakhovka Raion
         states:
         - Ukraine
+        - USSR
       821e57fffffffff:
         place: Mastacăn
         states:
@@ -923,14 +944,17 @@
         place: Kyiv Oblast
         states:
         - Ukraine
+        - USSR
       821e6ffffffffff:
         place: Великобагачанська селищна громада, Myrhorod Raion
         states:
         - Ukraine
+        - USSR
       821e77fffffffff:
         place: Ternopil Oblast
         states:
         - Ukraine
+        - USSR
   '2':
     hexes:
       821e87fffffffff:
@@ -949,6 +973,7 @@
         place: Općina Ervenik
         states:
         - Croatia
+        - Yugoslavia
   '3':
     hexes:
       821ec7fffffffff:
@@ -979,6 +1004,7 @@
         place: Махалска, Sjenica Municipality
         states:
         - Serbia
+        - Yugoslavia
   '4':
     hexes:
       821f07fffffffff:
@@ -1011,10 +1037,12 @@
         place: Elektrėnų g., 21332 Musteniai
         states:
         - Lithuania
+        - USSR
       821f4ffffffffff:
         place: Капланецкі сельскі Савет, Byerazino District
         states:
         - Belarus
+        - USSR
       821f57fffffffff:
         place: Jednorożec
         states:
@@ -1023,18 +1051,22 @@
         place: Brest Region, Драгічынскі сельскі Савет
         states:
         - Belarus
+        - USSR
       821f67fffffffff:
         place: Latvia
         states:
         - Latvia
+        - USSR
       821f6ffffffffff:
         place: Себежское сельское поселение, Sebezhsky District
         states:
         - Russia
+        - USSR
       821f77fffffffff:
         place: Baltic Sea
         states:
         - Lithuania
+        - USSR
   '6':
     hexes:
       821f87fffffffff:
@@ -1084,20 +1116,24 @@
         place: Kyzylorda Region
     states:
     - Kazakhstan
+    - USSR
   '1':
     hexes:
       822047fffffffff:
         place: Ulan District
         states:
         - Kazakhstan
+        - USSR
       82204ffffffffff:
         place: Джазаторское сельское поселение, Kosh-Agachsky Rayon
         states:
         - Russia
+        - USSR
       822057fffffffff:
         place: Alaköl District
         states:
         - Kazakhstan
+        - USSR
       82205ffffffffff:
         place: Tebkinusan Township, Hoboksar Mongol Autonomous County
         states:
@@ -1106,14 +1142,17 @@
         place: Altai Krai
         states:
         - Russia
+        - USSR
       82206ffffffffff:
         place: Алтайское — Булатово, Altai Krai
         states:
         - Russia
+        - USSR
       822077fffffffff:
         place: Ақбұлақ ауылдық округі, Zhanasemey District
         states:
         - Kazakhstan
+        - USSR
   '2':
     hexes:
       822087fffffffff:
@@ -1166,6 +1205,7 @@
         place: Enbekshikazakh District
         states:
         - Kazakhstan
+        - USSR
       8220effffffffff:
         place: 努斯肯布拉克, Nilka County
         states:
@@ -1180,60 +1220,74 @@
         place: Kazakhstan, Aqtöbe region
         states:
         - Kazakhstan
+        - USSR
       82210ffffffffff:
         place: Amangeldi District
         states:
         - Kazakhstan
+        - USSR
       822117fffffffff:
         place: Aqtöbe region
         states:
         - Kazakhstan
+        - USSR
       82211ffffffffff:
         place: Aqtöbe region
         states:
         - Kazakhstan
+        - USSR
       822127fffffffff:
         place: Бердяшский сельсовет, Zilairsky District
         states:
         - Russia
+        - USSR
       82212ffffffffff:
         place: Николаевское сельское поселение, Varnensky District
         states:
         - Russia
+        - USSR
       822137fffffffff:
         place: Aqtöbe region
         states:
         - Kazakhstan
+        - USSR
   '5':
     hexes:
       822147fffffffff:
         place: North Kazakhstan Region
         states:
         - Kazakhstan
+        - USSR
       82214ffffffffff:
         place: Чаинский сельсовет, Kupinsky District, Russia
         states:
         - Russia
+        - USSR
       822157fffffffff:
         place: Astrakhan District, Kazakhstan
         states:
         - Kazakhstan
+        - USSR
       82215ffffffffff:
         place: Pavlodar Region, Ekibastuz
         states:
         - Kazakhstan
+        - USSR
       822167fffffffff:
         place: Tyumen Oblast
         states:
         - Russia
+        - USSR
       82216ffffffffff:
         place: Самсоновское сельское поселение, Tarsky District
         states:
         - Russia
+        - USSR
       822177fffffffff:
         place: North Kazakhstan Region
         states:
         - Kazakhstan
+        - USSR
   '6':
     hexes:
       822187fffffffff:
@@ -1264,6 +1318,8 @@
         place: Ruhubelent District
         states:
         - Turkmenistan
+    states:
+    - USSR
 '18':
   '0':
     hexes:
@@ -1355,6 +1411,7 @@
         place: сумон Дурген, Tandinsky Kozhuun
         states:
         - Russia
+        - USSR
       82250ffffffffff:
         place: Ulaan-Uul-Bayanzurkh, Ulaan-Uul
         states:
@@ -1371,24 +1428,29 @@
         place: Krasnoyarsk Krai
         states:
         - Russia
+        - USSR
       82252ffffffffff:
         place: Тофаларское сельское поселение, Nizhneudinsky Rayon
         states:
         - Russia
+        - USSR
       822537fffffffff:
         place: Tuva Republic
         states:
         - Russia
+        - USSR
   '5':
     hexes:
       822547fffffffff:
         place: Каменское городское поселение, Kabansky District
         states:
         - Russia
+        - USSR
       82254ffffffffff:
         place: Хилогосонское сельское поселение, Khiloksky District
         states:
         - Russia
+        - USSR
       822557fffffffff:
         place: Teshig
         states:
@@ -1401,14 +1463,17 @@
         place: Чиканское сельское поселение, Жигаловский район
         states:
         - Russia
+        - USSR
       82256ffffffffff:
         place: Buryatia
         states:
         - Russia
+        - USSR
       822577fffffffff:
         place: Тальниковское сельское поселение, Черемховский район
         states:
         - Russia
+        - USSR
   '6':
     hexes:
       822587fffffffff:
@@ -1609,6 +1674,7 @@
         place: Sakha Republic
         states:
         - Russia
+        - USSR
   '2':
     hexes:
       820487fffffffff:
@@ -1627,6 +1693,7 @@
         place: Борулахский наслег, Verkhoyansky Ulus
     states:
     - Russia
+    - USSR
   '3':
     hexes:
       8204c7fffffffff:
@@ -1641,6 +1708,7 @@
         place: Sakha Republic
     states:
     - Russia
+    - USSR
   '4':
     hexes:
       820517fffffffff:
@@ -1655,6 +1723,7 @@
           Russia
     states:
     - Russia
+    - USSR
   '6':
     hexes:
       820587fffffffff:
@@ -1673,6 +1742,7 @@
         place: Кирбейский национальный наслег, Olenyoksky Ulus
     states:
     - Russia
+    - USSR
 '20':
   '0':
     hexes:
@@ -1857,22 +1927,27 @@
         place: Buzachi Peninsula, Mangystau Sub-district
         states:
         - Kazakhstan
+        - USSR
       822c4ffffffffff:
         place: Kazakhstan, Mangystau Region
         states:
         - Kazakhstan
+        - USSR
       822c5ffffffffff:
         place: Qaraqïya Sub-district
         states:
         - Kazakhstan
+        - USSR
       822c67fffffffff:
         place: ООО «Газпром добыча Астрахань», Krasnoyarsky District
         states:
         - Russia
+        - USSR
       822c6ffffffffff:
         place: Есбол ауылдық округі, Makhambet Sub-district
         states:
         - Kazakhstan
+        - USSR
   '2':
     hexes:
       822c87fffffffff:
@@ -1947,30 +2022,37 @@
         place: Краснооктябрьское сельское поселение, Vesyolovsky District, Russia
         states:
         - Russia
+        - USSR
       822d4ffffffffff:
         place: Bol'shie Chapurniki, Volgograd Oblast
         states:
         - Russia
+        - USSR
       822d57fffffffff:
         place: Предгорненское сельское поселение, Urupsky District
         states:
         - Russia
+        - USSR
       822d5ffffffffff:
         place: Stavropol Krai
         states:
         - Russia
+        - USSR
       822d67fffffffff:
         place: Shakhove rural hromada, Pokrovskii Raion
         states:
         - Ukraine
+        - USSR
       822d6ffffffffff:
         place: Новолиманское сельское поселение, Petropavlovsky District
         states:
         - Russia
+        - USSR
       822d77fffffffff:
         place: Krasnodar Krai
         states:
         - Russia
+        - USSR
   '6':
     hexes:
       822d87fffffffff:
@@ -2028,6 +2110,7 @@
         place: Pozharsky District
     states:
     - Russia
+    - USSR
 '24':
   '0':
     hexes:
@@ -2136,22 +2219,27 @@
         place: El Biod, Mecheria District
         states:
         - Algeria
+        - France/Algeria
       82380ffffffffff:
         place: Kheneg, Aïn Madhi District
         states:
         - Algeria
+        - France/Algeria
       823817fffffffff:
         place: Kenadsa
         states:
         - Algeria
+        - France/Algeria
       82381ffffffffff:
         place: Lebnoud, El Abiodh Sidi Cheikh District
         states:
         - Algeria
+        - France/Algeria
       82382ffffffffff:
         place: Beni Bouattab, El Karimia District
         states:
         - Algeria
+        - France/Algeria
       823837fffffffff:
         place: Galdamane, Cercle de Taza دائرة تازة
         states:
@@ -2166,6 +2254,7 @@
         place: El Hadjira
         states:
         - Algeria
+        - France/Algeria
       82385ffffffffff:
         place: رمادة الغربية
         states:
@@ -2174,16 +2263,19 @@
         place: Guernini
         states:
         - Algeria
+        - France/Algeria
   '2':
     hexes:
       823887fffffffff:
         place: Reggane
         states:
         - Algeria
+        - France/Algeria
       82388ffffffffff:
         place: Reggane
         states:
         - Algeria
+        - France/Algeria
       823897fffffffff:
         place: Tombouctou Cercle, Mali
         states:
@@ -2192,18 +2284,22 @@
         place: Bordj Badji Mokhtar
         states:
         - Algeria
+        - France/Algeria
       8238a7fffffffff:
         place: Oum el Assel
         states:
         - Algeria
+        - France/Algeria
       8238affffffffff:
         place: Tsabit
         states:
         - Algeria
+        - France/Algeria
       8238b7fffffffff:
         place: Tinduf, Tinduf Disctrict
         states:
         - Algeria
+        - France/Algeria
   '3':
     hexes:
       8238c7fffffffff:
@@ -2356,10 +2452,12 @@
         place: Raghunathpur
         states:
         - India
+        - UK/India
       823c1ffffffffff:
         place: Bihar
         states:
         - India
+        - UK/India
       823c27fffffffff:
         place: Drongpa County, Tibet
         states:
@@ -2390,6 +2488,7 @@
         place: Hunli SDO
         states:
         - India
+        - UK/India
       823c67fffffffff:
         place: Nyainrong County, Tibet
         states:
@@ -2418,6 +2517,7 @@
         place: Chhattisgarh
     states:
     - India
+    - UK/India
   '3':
     hexes:
       823cc7fffffffff:
@@ -2436,10 +2536,12 @@
         place: Dudhnai, Assam
         states:
         - India
+        - UK/India
       823ceffffffffff:
         place: Tsiemekhuma, Botsa
         states:
         - India
+        - UK/India
       823cf7fffffffff:
         place: Jhenaidah District
         states:
@@ -2458,6 +2560,7 @@
         place: Mach, Himachal Pradesh
         states:
         - India
+        - UK/India
       823d1ffffffffff:
         place: Darchen, Purang County
         states:
@@ -2474,6 +2577,7 @@
         place: taddi, Doda
         states:
         - India
+        - UK/India
   '5':
     hexes:
       823d47fffffffff:
@@ -2510,6 +2614,7 @@
         place: Nanodiya, Rajasthan
     states:
     - India
+    - UK/India
 '31':
   '0':
     hexes:
@@ -2821,6 +2926,7 @@
         place: Jandwala Kharta, Punjab
         states:
         - India
+        - UK/India
       824257fffffffff:
         place: Saleh Pat Taluka, Sukkur District
         states:
@@ -2829,6 +2935,7 @@
         place: Raoneri - 334302, Rajasthan
         states:
         - India
+        - UK/India
       824267fffffffff:
         place: Waza Khwa
         states:
@@ -2847,14 +2954,17 @@
         place: Jodiya - 361250, Gujarat
         states:
         - India
+        - UK/India
       8242cffffffffff:
         place: Balasinor - 388255, Gujarat
         states:
         - India
+        - UK/India
       8242dffffffffff:
         place: India
         states:
         - India
+        - UK/India
       8242e7fffffffff:
         place: Mirpur Bathoro 73030
         states:
@@ -2863,6 +2973,7 @@
         place: Rajasthan
         states:
         - India
+        - UK/India
   '4':
     hexes:
       824307fffffffff:
@@ -3623,10 +3734,12 @@
         place: Timiaouine, Bordj Badji Mokhtar District
         states:
         - Algeria
+        - France/Algeria
       82590ffffffffff:
         place: 11130 In Guezzam
         states:
         - Algeria
+        - France/Algeria
       825917fffffffff:
         place: Bourem Cercle
         states:
@@ -3639,10 +3752,12 @@
         place: 01010 Bordj Badji Mokhtar
         states:
         - Algeria
+        - France/Algeria
       82592ffffffffff:
         place: Abalessa, Abalessa District
         states:
         - Algeria
+        - France/Algeria
       825937fffffffff:
         place: Tombouctou Cercle
         states:
@@ -3669,6 +3784,7 @@
         place: 33100 Djanet
         states:
         - Algeria
+        - France/Algeria
       82596ffffffffff:
         place: Bilma
         states:
@@ -3677,6 +3793,7 @@
         place: Tazrouk, Tazrouk District
         states:
         - Algeria
+        - France/Algeria
   '6':
     hexes:
       825987fffffffff:
@@ -3769,6 +3886,7 @@
         place: Tamil Nadu
     states:
     - India
+    - UK/India
   '2':
     hexes:
       826087fffffffff:
@@ -3787,6 +3905,7 @@
         place: Telangana
     states:
     - India
+    - UK/India
   '4':
     hexes:
       82611ffffffffff:
@@ -3801,6 +3920,7 @@
         place: Paturu, Andhra Pradesh
     states:
     - India
+    - UK/India
 '49':
   '4':
     hexes:
@@ -3833,6 +3953,7 @@
         place: Turukhansky District
     states:
     - Russia
+    - USSR
   '1':
     hexes:
       820a47fffffffff:
@@ -3851,6 +3972,7 @@
         place: городское поселение Дудинка, Taymyrsky Dolgano-Nenetsky District
     states:
     - Russia
+    - USSR
   '2':
     hexes:
       820a87fffffffff:
@@ -3869,6 +3991,7 @@
         place: городское поселение Иланский, Ilansky Rayon
     states:
     - Russia
+    - USSR
   '3':
     hexes:
       820ac7fffffffff:
@@ -3887,6 +4010,7 @@
         place: Evenkiysky Rayon
     states:
     - Russia
+    - USSR
   '4':
     hexes:
       820b07fffffffff:
@@ -3905,6 +4029,7 @@
         place: Uvatsky District
     states:
     - Russia
+    - USSR
   '5':
     hexes:
       820b47fffffffff:
@@ -3923,6 +4048,7 @@
         place: Yamalsky Rayon
     states:
     - Russia
+    - USSR
   '6':
     hexes:
       820b87fffffffff:
@@ -3941,6 +4067,7 @@
         place: Novosibirsk Oblast
     states:
     - Russia
+    - USSR
 '50':
   '2':
     hexes:
@@ -4544,6 +4671,7 @@
         place: муниципальный округ Эгвекинот
     states:
     - Russia
+    - USSR
 '61':
   '0':
     hexes:
@@ -5480,6 +5608,7 @@
         place: Грязовецкий муниципальный округ, Russia
     states:
     - Russia
+    - USSR
   '1':
     hexes:
       821047fffffffff:
@@ -5498,6 +5627,7 @@
         place: сельское поселение Замежная, Ust-Tsilemsky District, Russia
     states:
     - Russia
+    - USSR
   '2':
     hexes:
       821087fffffffff:
@@ -5516,6 +5646,7 @@
         place: Симоновское сельское поселение, Kalininsky District, Russia
     states:
     - Russia
+    - USSR
   '3':
     hexes:
       8210c7fffffffff:
@@ -5534,24 +5665,29 @@
         place: Чайковский городской округ, Russia
     states:
     - Russia
+    - USSR
   '4':
     hexes:
       821107fffffffff:
         place: Рахьинское городское поселение, Vsevolozhsky District, Russia
         states:
         - Russia
+        - USSR
       82110ffffffffff:
         place: Чёлмужское сельское поселение, Medvezhyegorsky District, Russia
         states:
         - Russia
+        - USSR
       821117fffffffff:
         place: Полавское сельское поселение, Parfinsky District, Russia
         states:
         - Russia
+        - USSR
       82111ffffffffff:
         place: Игумново, Бабаевский муниципальный округ, Russia
         states:
         - Russia
+        - USSR
       821127fffffffff:
         place: Mikkelintie, 52730 Mäntyharju, Finland
         states:
@@ -5564,6 +5700,7 @@
         place: Gdovsky District, Russia
         states:
         - Russia
+        - USSR
   '5':
     hexes:
       821147fffffffff:
@@ -5578,6 +5715,7 @@
         place: Republic of Karelia, Russia, 186620
     states:
     - Russia
+    - USSR
   '6':
     hexes:
       821187fffffffff:
@@ -5596,6 +5734,7 @@
         place: Чаусовское сельское поселение, Pogarsky District, Russia
     states:
     - Russia
+    - USSR
 '81':
   '0':
     hexes:

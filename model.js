@@ -20,7 +20,7 @@ const Hex = cellCode => {
 
 export const locateHex = (lat, lon) => Hex(h3.latLngToCell(lat, lon, 2))
 
-const hexes = () => Object.keys(hexList).map(cell => Hex(cell))
+export const hexes = () => Object.keys(hexList).map(cell => Hex(cell))
 
 export const stateCoordinates = (year) => {
   const stateCells = {}
@@ -39,13 +39,22 @@ export const stateCoordinates = (year) => {
   )
 }
 
-const State = stateName => {
+export const State = stateName => {
   const stateSplit = stateName.split('/')
   const stateInfo = () => {
     if (stateSplit.length === 1) {
+      if (!stateData[stateName]) {
+        throw new Error(`State not found: "${stateName}"`)
+      }
       return stateData[stateName]
     }
     if (stateSplit.length === 2) {
+      if (!stateData[stateSplit[0]]) {
+        throw new Error(`State not found: "${stateSplit[0]}"`)
+      }
+      if (!stateData[stateSplit[0]].parts) {
+        throw new Error(`State not found: "${stateSplit[0]}"`)
+      }
       return stateData[stateSplit[0]].parts[stateSplit[1]]
     }
     throw new Error(`Invalid state format: ${stateName}`)

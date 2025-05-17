@@ -202,6 +202,10 @@ Finland:
 France:
   begin: 843
   end: 2025
+  parts:
+    Algeria:
+      begin: 1830
+      end: 1962
 Gabon:
   begin: 1960
   end: 2025
@@ -649,6 +653,10 @@ Tuvalu:
 UK:
   begin: 1801
   end: 2025
+  parts:
+    India:
+      begin: 1858
+      end: 1947
 USA:
   begin: 1776
   end: 2025
@@ -695,3 +703,12 @@ Zambia:
 Zimbabwe:
   begin: 1980
   end: 2025
+USSR:
+  begin: 1922
+  end: 1991
+Czechoslovakia:
+  begin: 1918
+  end: 1992
+Yugoslavia:
+  begin: 1918
+  end: 1992

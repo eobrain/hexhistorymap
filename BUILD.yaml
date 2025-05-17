@@ -3,6 +3,9 @@ start:
     - hex-list.js
   exec: live-server
 
+test:
+  exec: node --test
+
 hex-list-new.js:
   deps:
     - make-hex-list.js
