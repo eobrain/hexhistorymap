@@ -14,7 +14,7 @@ const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3
 const canvas = select('#content canvas').node()
 const context = canvas.getContext('2d')
 
-const projection = geoAzimuthalEqualArea().fitSize([800, 800], geojson)
+const projection = geoAzimuthalEqualArea().fitSize([canvas.width, canvas.height], geojson)
 
 const geoGenerator = geoPath()
   .projection(projection)
