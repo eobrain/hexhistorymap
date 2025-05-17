@@ -20,7 +20,24 @@ const Hex = cellCode => {
 
 export const locateHex = (lat, lon) => Hex(h3.latLngToCell(lat, lon, 2))
 
-export const hexes = () => Object.keys(hexList).map(cell => Hex(cell))
+const hexes = () => Object.keys(hexList).map(cell => Hex(cell))
+
+export const stateCoordinates = (year) => {
+  const stateCells = {}
+  hexes().forEach(hex => {
+    const state = Milieu(hex, year).state()
+    if (state) {
+      const stateName = state.name()
+      if (!stateCells[stateName]) {
+        stateCells[stateName] = []
+      }
+      stateCells[stateName].push(hex.cellCode)
+    }
+  })
+  return Object.fromEntries(
+    Object.entries(stateCells).map(([stateName, cells]) => [stateName, h3.cellsToMultiPolygon(cells, true)])
+  )
+}
 
 const State = stateName => {
   const stateSplit = stateName.split('/')
