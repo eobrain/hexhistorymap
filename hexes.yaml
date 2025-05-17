@@ -87,6 +87,848 @@
         place: Greenland
         states:
         - Denmark
+'2':
+  '0':
+    hexes:
+      820417fffffffff:
+        place: Sakha Republic
+        states:
+        - Russia
+        - USSR
+  '2':
+    hexes:
+      820487fffffffff:
+        place: Sakha Republic
+      82048ffffffffff:
+        place: Sakha Republic
+      820497fffffffff:
+        place: Sakha Republic
+      82049ffffffffff:
+        place: Sakha Republic
+      8204a7fffffffff:
+        place: Sakha Republic
+      8204affffffffff:
+        place: Быягнырский наслег, Allaikhovsky Ulus
+      8204b7fffffffff:
+        place: Борулахский наслег, Verkhoyansky Ulus
+    states:
+    - Russia
+    - USSR
+  '3':
+    hexes:
+      8204c7fffffffff:
+        place: 98К-006, Sakha Republic
+      8204cffffffffff:
+        place: Pevek urban district
+      8204d7fffffffff:
+        place: Sakha Republic
+      8204dffffffffff:
+        place: Bilibinsky District
+      8204f7fffffffff:
+        place: Sakha Republic
+    states:
+    - Russia
+    - USSR
+  '4':
+    hexes:
+      820517fffffffff:
+        place: Krasnoyarsk Krai
+      820527fffffffff:
+        place: >-
+          городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
+          Russia
+      820537fffffffff:
+        place: >-
+          городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
+          Russia
+    states:
+    - Russia
+    - USSR
+  '6':
+    hexes:
+      820587fffffffff:
+        place: Sakha Republic
+      82058ffffffffff:
+        place: Sakha Republic
+      820597fffffffff:
+        place: Эвенкийское сельское поселение «Кыстатыам», Zhigansky Ulus
+      82059ffffffffff:
+        place: Sakha Republic
+      8205a7fffffffff:
+        place: Юрюнг-Хаинский национальный (долганский) наслег, Anabarsky Ulus
+      8205affffffffff:
+        place: Sakha Republic
+      8205b7fffffffff:
+        place: Кирбейский национальный наслег, Olenyoksky Ulus
+    states:
+    - Russia
+    - USSR
+'3':
+  '0':
+    hexes:
+      820607fffffffff:
+        place: Sermersooq, Greenland
+      82060ffffffffff:
+        place: Sermersooq, Greenland
+      820617fffffffff:
+        place: Greenland
+      82061ffffffffff:
+        place: Sermersooq, Greenland
+      820627fffffffff:
+        place: Sermersooq, Greenland
+      820637fffffffff:
+        place: Greenland
+    states:
+    - Denmark
+  '2':
+    hexes:
+      820687fffffffff:
+        place: Avannaata, Greenland
+      82068ffffffffff:
+        place: Avannaata, Greenland
+      8206a7fffffffff:
+        place: Greenland
+      8206affffffffff:
+        place: Avannaata, Greenland
+      8206b7fffffffff:
+        place: Avannaata, Greenland
+    states:
+    - Denmark
+  '3':
+    hexes:
+      8206c7fffffffff:
+        place: Qeqqata, Greenland
+      8206cffffffffff:
+        place: Sermersooq, Greenland
+      8206d7fffffffff:
+        place: Qeqertalik, Greenland
+      8206e7fffffffff:
+        place: Sermersooq, Greenland
+      8206effffffffff:
+        place: Sermersooq, Greenland
+      8206f7fffffffff:
+        place: Qeqertalik, Greenland
+    states:
+    - Denmark
+  '5':
+    hexes:
+      820747fffffffff:
+        place: Ásahreppur
+    states:
+    - Iceland
+  '6':
+    hexes:
+      820787fffffffff:
+        place: Greenland
+      82078ffffffffff:
+        place: Greenland
+      820797fffffffff:
+        place: Greenland
+      82079ffffffffff:
+        place: Greenland
+      8207affffffffff:
+        place: Greenland
+      8207b7fffffffff:
+        place: Greenland
+    states:
+    - Denmark
+'4':
+  '0':
+    hexes:
+      820817fffffffff:
+        place: Røros, Trøndelag
+        states:
+        - Norway
+      82081ffffffffff:
+        place: Dorotea kommun, Västerbotten County
+        states:
+        - Sweden
+  '2':
+    hexes:
+      820887fffffffff:
+        place: Östra Tränsjövägen, Östhammars kommun
+        states:
+        - Sweden
+      82088ffffffffff:
+        place: Siikainen, Satakunta
+        states:
+        - Finland
+      82089ffffffffff:
+        place: Lääne County
+        states:
+        - Estonia
+      8208a7fffffffff:
+        place: Malung-Sälens kommun
+        states:
+        - Sweden
+      8208affffffffff:
+        place: Gamla Klingstavägen, 853 58 Tuna District
+        states:
+        - Sweden
+      8208b7fffffffff:
+        place: O 3033, Karlsborgs kommun
+        states:
+        - Sweden
+  '3':
+    hexes:
+      8208c7fffffffff:
+        place: Huhtavaarantie, Ylitornio
+        states:
+        - Finland
+      8208cffffffffff:
+        place: Inari, Lapland
+        states:
+        - Finland
+      8208d7fffffffff:
+        place: 85660 Haapavesi
+        states:
+        - Finland
+      8208dffffffffff:
+        place: Mikonkorventie, Kuusamo
+        states:
+        - Finland
+      8208e7fffffffff:
+        place: Jokkmokks kommun, Norrbotten County
+        states:
+        - Sweden
+      8208effffffffff:
+        place: Kiruna kommun, Norrbotten County
+        states:
+        - Sweden
+      8208f7fffffffff:
+        place: Grans sameby
+        states:
+        - Sweden
+    states: []
+  '6':
+    hexes:
+      820987fffffffff:
+        place: Bømlo, Vestland
+      82098ffffffffff:
+        place: Solhaugen, Vestland
+      82099ffffffffff:
+        place: Bamble
+    states:
+    - Norway
+'5':
+  '0':
+    hexes:
+      820a07fffffffff:
+        place: Turukhansky District
+      820a0ffffffffff:
+        place: Evenkiysky Rayon
+      820a17fffffffff:
+        place: Evenkiysky Rayon
+      820a1ffffffffff:
+        place: Evenkiysky Rayon
+      820a27fffffffff:
+        place: Krasnoselkupsky Rayon
+      820a2ffffffffff:
+        place: Turukhansky District
+      820a37fffffffff:
+        place: Turukhansky District
+    states:
+    - Russia
+    - USSR
+  '1':
+    hexes:
+      820a47fffffffff:
+        place: Krasnoyarsk Krai
+      820a4ffffffffff:
+        place: Krasnoyarsk Krai
+      820a57fffffffff:
+        place: Evenkiysky Rayon
+      820a5ffffffffff:
+        place: Krasnoyarsk Krai
+      820a67fffffffff:
+        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District
+      820a6ffffffffff:
+        place: городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District
+      820a77fffffffff:
+        place: городское поселение Дудинка, Taymyrsky Dolgano-Nenetsky District
+    states:
+    - Russia
+    - USSR
+  '2':
+    hexes:
+      820a87fffffffff:
+        place: Kezhemsky Rayon
+      820a8ffffffffff:
+        place: Evenkiysky Rayon
+      820a97fffffffff:
+        place: Покоснинское сельское поселение, Братский район
+      820a9ffffffffff:
+        place: Irkutsk Oblast
+      820aa7fffffffff:
+        place: Krasnoyarsk Krai
+      820aaffffffffff:
+        place: Evenkiysky Rayon
+      820ab7fffffffff:
+        place: городское поселение Иланский, Ilansky Rayon
+    states:
+    - Russia
+    - USSR
+  '3':
+    hexes:
+      820ac7fffffffff:
+        place: Mirninsky Ulus
+      820acffffffffff:
+        place: Sakha Republic
+      820ad7fffffffff:
+        place: Irkutsk Oblast
+      820adffffffffff:
+        place: Sakha Republic
+      820ae7fffffffff:
+        place: Evenkiysky Rayon
+      820aeffffffffff:
+        place: Evenkiysky Rayon
+      820af7fffffffff:
+        place: Evenkiysky Rayon
+    states:
+    - Russia
+    - USSR
+  '4':
+    hexes:
+      820b07fffffffff:
+        place: Surgutsky District
+      820b0ffffffffff:
+        place: Purovsky Rayon
+      820b17fffffffff:
+        place: Александровское сельское поселение, Alexandrovsky District
+      820b1ffffffffff:
+        place: Nizhnevartovsky District
+      820b27fffffffff:
+        place: сельское поселение Каменное, Oktyabrsky District
+      820b2ffffffffff:
+        place: Beloyarsky District
+      820b37fffffffff:
+        place: Uvatsky District
+    states:
+    - Russia
+    - USSR
+  '5':
+    hexes:
+      820b47fffffffff:
+        place: Tazovsky Rayon
+      820b4ffffffffff:
+        place: Tazovsky Rayon
+      820b57fffffffff:
+        place: Tazovsky Rayon
+      820b5ffffffffff:
+        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District
+      820b67fffffffff:
+        place: Yamalo-Nenets Autonomous Okrug
+      820b6ffffffffff:
+        place: Yamalsky Rayon
+      820b77fffffffff:
+        place: Yamalsky Rayon
+    states:
+    - Russia
+    - USSR
+  '6':
+    hexes:
+      820b87fffffffff:
+        place: Tomsk Oblast
+      820b8ffffffffff:
+        place: Krasnoyarsk Krai
+      820b97fffffffff:
+        place: Novokuznetsky Municipal Okrug
+      820b9ffffffffff:
+        place: Кытатский сельсовет, Bolsheuluysky Rayon
+      820ba7fffffffff:
+        place: Tomsk Oblast
+      820baffffffffff:
+        place: Kargasok region
+      820bb7fffffffff:
+        place: Novosibirsk Oblast
+    states:
+    - Russia
+    - USSR
+'6':
+  '0':
+    hexes:
+      820c07fffffffff:
+        place: Unorganized Borough, Alaska
+      820c0ffffffffff:
+        place: Unorganized Borough, Alaska
+      820c1ffffffffff:
+        place: Unorganized Borough, AK
+      820c27fffffffff:
+        place: Northwest Arctic Borough, Alaska
+      820c2ffffffffff:
+        place: Unorganized Borough, Alaska
+      820c37fffffffff:
+        place: Northwest Arctic Borough, Alaska
+    states:
+    - USA/Alaska
+    - Russian Empire/Alaska
+  '1':
+    hexes:
+      820c57fffffffff:
+        place: Kenai Peninsula Borough, Alaska
+      820c67fffffffff:
+        place: Unorganized Borough, Alaska
+      820c6ffffffffff:
+        place: Yakutat, Alaska
+      820c77fffffffff:
+        place: Matanuska-Susitna Borough, Alaska
+    states:
+    - USA/Alaska
+    - Russian Empire/Alaska
+  '3':
+    hexes:
+      820ce7fffffffff:
+        place: Unorganized Borough, Alaska
+      820ceffffffffff:
+        place: Kodiak Island Borough, Alaska
+    states:
+    - USA/Alaska
+    - Russian Empire/Alaska
+  '4':
+    hexes:
+      820d0ffffffffff:
+        place: North Slope Borough, Alaska
+      820d1ffffffffff:
+        place: North Slope Borough, Alaska
+    states:
+    - USA/Alaska
+    - Russian Empire/Alaska
+  '5':
+    hexes:
+      820d47fffffffff:
+        place: Unorganized Borough, Alaska
+        states:
+        - USA/Alaska
+        - Russian Empire/Alaska
+      820d4ffffffffff:
+        place: Yukon, Canada
+        states:
+        - Canada
+      820d57fffffffff:
+        place: Unorganized Borough, Alaska
+        states:
+        - USA/Alaska
+        - Russian Empire/Alaska
+      820d5ffffffffff:
+        place: Fairbanks North Star Borough, Alaska
+        states:
+        - USA/Alaska
+        - Russian Empire/Alaska
+      820d67fffffffff:
+        place: Inuvik Region, Northwest Territories
+        states:
+        - Canada
+      820d6ffffffffff:
+        place: Yukon
+        states:
+        - Canada
+      820d77fffffffff:
+        place: North Slope Borough, Alaska
+        states:
+        - USA/Alaska
+        - Russian Empire/Alaska
+  '6':
+    hexes:
+      820d87fffffffff:
+        place: муниципальный округ Эгвекинот
+      820d97fffffffff:
+        place: Anadyrsky District
+      820db7fffffffff:
+        place: муниципальный округ Эгвекинот
+    states:
+    - Russia
+    - USSR
+'7':
+  '0':
+    hexes:
+      820e07fffffffff:
+        place: Baie-d'Hudson, Quebec
+      820e0ffffffffff:
+        place: Baie-d'Hudson, Quebec
+      820e2ffffffffff:
+        place: Rivière-Koksoak, Quebec
+    states:
+    - Canada
+  '1':
+    hexes:
+      820e47fffffffff:
+        place: Caniapiscau, Quebec
+      820e4ffffffffff:
+        place: Rivière-aux-Outardes, Quebec
+      820e57fffffffff:
+        place: Jamésie, Quebec
+      820e5ffffffffff:
+        place: Jamésie, Quebec
+      820e67fffffffff:
+        place: Rivière-Koksoak, Quebec
+      820e6ffffffffff:
+        place: Labrador, Newfoundland and Labrador
+      820e77fffffffff:
+        place: Rivière-Koksoak, Quebec
+    states:
+    - Canada
+  '2':
+    hexes:
+      820e87fffffffff:
+        place: Kivalliq Region, Nunavut
+      820e8ffffffffff:
+        place: Unorganized Division No. 23, Manitoba
+      820e97fffffffff:
+        place: Unorganized Division No. 23, Manitoba
+      820e9ffffffffff:
+        place: Unorganized Division No. 22, Manitoba
+      820eb7fffffffff:
+        place: Kivalliq Region, Nunavut
+    states:
+    - Canada
+  '3':
+    hexes:
+      820ec7fffffffff:
+        place: Unorganized Kenora District, ON
+      820ecffffffffff:
+        place: Unorganized North Cochrane, Ontario
+      820ed7fffffffff:
+        place: Unorganized Kenora District, Ontario
+      820edffffffffff:
+        place: Unorganized North Cochrane, Ontario
+      820ee7fffffffff:
+        place: Qikiqtaaluk Region, Nunavut
+      820eeffffffffff:
+        place: Eastmain (Land), Quebec
+      820ef7fffffffff:
+        place: Qikiqtaaluk Region, Nunavut
+    states:
+    - Canada
+  '4':
+    hexes:
+      820f07fffffffff:
+        place: Qikiqtaaluk Region, Nunavut
+      820f0ffffffffff:
+        place: Qikiqtaaluk Region, Nunavut
+      820f17fffffffff:
+        place: Qikiqtaaluk Region, Nunavut
+      820f1ffffffffff:
+        place: Qikiqtaaluk Region, Nunavut
+      820f37fffffffff:
+        place: Qikiqtaaluk Region, Nunavut
+    states:
+    - Canada
+  '5':
+    hexes:
+      820f5ffffffffff:
+        place: Rivière-Koksoak, Quebec
+    states:
+    - Canada
+  '6':
+    hexes:
+      820f87fffffffff:
+        place: Kivalliq Region, Nunavut
+      820f8ffffffffff:
+        place: Kivalliq Region, Nunavut
+      820f97fffffffff:
+        place: Kivalliq Region, Nunavut
+      820f9ffffffffff:
+        place: Kivalliq Region, Nunavut
+      820fa7fffffffff:
+        place: Qikiqtaaluk Region, Nunavut
+      820fb7fffffffff:
+        place: Kitikmeot Region, Nunavut
+    states:
+    - Canada
+'8':
+  '0':
+    hexes:
+      821007fffffffff:
+        place: Кичменгско-Городецкий муниципальный округ, Russia
+      82100ffffffffff:
+        place: Komi Republic, Russia
+      821017fffffffff:
+        place: Varnavinsky District, Russia
+      82101ffffffffff:
+        place: Ленинское сельское поселение, Slobodskoy District, Russia
+      821027fffffffff:
+        place: Няндомский муниципальный округ, Russia
+      82102ffffffffff:
+        place: Верхнетоемский муниципальный округ, Russia
+      821037fffffffff:
+        place: Грязовецкий муниципальный округ, Russia
+    states:
+    - Russia
+    - USSR
+  '1':
+    hexes:
+      821047fffffffff:
+        place: городское поселение Путеец, Pechora Municipal District, Russia
+      82104ffffffffff:
+        place: Yamalo-Nenets Autonomous Okrug, Russia, 629640
+      821057fffffffff:
+        place: сельское поселение Мылва, Troitsko-Pechorsky District, Russia
+      82105ffffffffff:
+        place: Beryozovsky District, Russia
+      821067fffffffff:
+        place: Zapolyarny District, Russia
+      82106ffffffffff:
+        place: Zapolyarny District, Russia
+      821077fffffffff:
+        place: сельское поселение Замежная, Ust-Tsilemsky District, Russia
+    states:
+    - Russia
+    - USSR
+  '2':
+    hexes:
+      821087fffffffff:
+        place: сельское поселение Владимировка, Khvorostyansky District, Russia
+      82108ffffffffff:
+        place: Orenburg Oblast, Russia
+      821097fffffffff:
+        place: Тереңкөл ауылдық округі, Kaztal District, Kazakhstan
+      82109ffffffffff:
+        place: Қаракұдық ауылдық округі, Börli district, Kazakhstan
+      8210a7fffffffff:
+        place: Republic of Mordovia, Russia, 431556
+      8210affffffffff:
+        place: Tatarstan, Russia, 422774
+      8210b7fffffffff:
+        place: Симоновское сельское поселение, Kalininsky District, Russia
+    states:
+    - Russia
+    - USSR
+  '3':
+    hexes:
+      8210c7fffffffff:
+        place: Кушвинский муниципальный округ, Russia
+      8210cffffffffff:
+        place: Sverdlovsk Oblast, Russia, 623994
+      8210d7fffffffff:
+        place: Vergaza, Chelyabinsk Oblast, Russia
+      8210dffffffffff:
+        place: Shadrinsky District, Russia
+      8210e7fffffffff:
+        place: Kosinsky District, Russia
+      8210effffffffff:
+        place: Ивдельский муниципальный округ, Russia
+      8210f7fffffffff:
+        place: Чайковский городской округ, Russia
+    states:
+    - Russia
+    - USSR
+  '4':
+    hexes:
+      821107fffffffff:
+        place: Рахьинское городское поселение, Vsevolozhsky District, Russia
+        states:
+        - Russia
+        - USSR
+      82110ffffffffff:
+        place: Чёлмужское сельское поселение, Medvezhyegorsky District, Russia
+        states:
+        - Russia
+        - USSR
+      821117fffffffff:
+        place: Полавское сельское поселение, Parfinsky District, Russia
+        states:
+        - Russia
+        - USSR
+      82111ffffffffff:
+        place: Игумново, Бабаевский муниципальный округ, Russia
+        states:
+        - Russia
+        - USSR
+      821127fffffffff:
+        place: Mikkelintie, 52730 Mäntyharju, Finland
+        states:
+        - Finland
+      82112ffffffffff:
+        place: Karhunpolku, Lieksa, Finland
+        states:
+        - Finland
+      821137fffffffff:
+        place: Gdovsky District, Russia
+        states:
+        - Russia
+        - USSR
+  '5':
+    hexes:
+      821147fffffffff:
+        place: сельское поселение Ловозеро, Lovozersky District, Russia
+      821157fffffffff:
+        place: Primorsky District, Russia
+      82115ffffffffff:
+        place: Мезенский муниципальный округ, Russia
+      821167fffffffff:
+        place: Kirovsk Urban Okrug, Russia
+      821177fffffffff:
+        place: Republic of Karelia, Russia, 186620
+    states:
+    - Russia
+    - USSR
+  '6':
+    hexes:
+      821187fffffffff:
+        place: Протасовское сельское поселение, Dubensky District, Russia
+      82118ffffffffff:
+        place: сельское поселение Анопино, Gus-Khrustalny District, Russia
+      821197fffffffff:
+        place: Gubkinsky Urban Okrug, Russia
+      82119ffffffffff:
+        place: Nikiforovsky District, Russia
+      8211a7fffffffff:
+        place: Yartsevsky District, Russia
+      8211affffffffff:
+        place: Kalininsky District, Russia
+      8211b7fffffffff:
+        place: Чаусовское сельское поселение, Pogarsky District, Russia
+    states:
+    - Russia
+    - USSR
+'9':
+  '0':
+    hexes:
+      821207fffffffff:
+        place: Mackenzie County, Alberta
+      82120ffffffffff:
+        place: Northern Sunrise County, Alberta
+      821217fffffffff:
+        place: Area B (Finlay Valley/Beatton Valley), British Columbia
+      82121ffffffffff:
+        place: Clear Hills County, AB
+      821227fffffffff:
+        place: South Slave Region, Northwest Territories
+      82122ffffffffff:
+        place: Improvement District No. 24, Alberta
+      821237fffffffff:
+        place: Dehcho Region, Northwest Territories
+    states:
+    - Canada
+  '1':
+    hexes:
+      821247fffffffff:
+        place: Unorganized Division No. 18, Saskatchewan
+      82124ffffffffff:
+        place: Moose Range No. 486, SK
+      821257fffffffff:
+        place: Lac La Biche County, Alberta
+      82125ffffffffff:
+        place: North Battleford No. 437, SK
+      821267fffffffff:
+        place: Unorganized Division No. 18, Saskatchewan
+      82126ffffffffff:
+        place: Unorganized Division No. 23, Manitoba
+      821277fffffffff:
+        place: Wood Buffalo, Alberta
+    states:
+    - Canada
+  '2':
+    hexes:
+      821287fffffffff:
+        place: Area C (Butedale/Kitlope/Kitsumkalum), British Columbia
+        states:
+        - Canada
+      82128ffffffffff:
+        place: Area J (West Chilcotin), British Columbia
+        states:
+        - Canada
+      82129ffffffffff:
+        place: Area A (Ocean Falls/Outer Coast), British Columbia
+        states:
+        - Canada
+      8212a7fffffffff:
+        place: Area A (Nass Valley/Bell Irving), British Columbia
+        states:
+        - Canada
+      8212affffffffff:
+        place: Area C (Stuart Lake/Omineca Valley), British Columbia
+        states:
+        - Canada
+      8212b7fffffffff:
+        place: Ketchikan Gateway Borough, Alaska
+        states:
+        - USA/Alaska
+  '3':
+    hexes:
+      8212c7fffffffff:
+        place: Area A (Kicking Horse/Kinbasket Lake), British Columbia
+        states:
+        - Canada
+      8212cffffffffff:
+        place: Municipal District of Willow Creek No. 26, AB T0L 0Z0
+        states:
+        - Canada
+      8212d7fffffffff:
+        place: Area J (Copper Desert Country), British Columbia
+        states:
+        - Canada
+      8212dffffffffff:
+        place: Pend Oreille County, Washington
+        states:
+        - USA
+      8212e7fffffffff:
+        place: Woodlands County, Alberta
+        states:
+        - Canada
+      8212effffffffff:
+        place: County of Stettler, AB
+        states:
+        - Canada
+      8212f7fffffffff:
+        place: Area H (Robson Valley/Canoe), BC
+        states:
+        - Canada
+    states: []
+  '4':
+    hexes:
+      821307fffffffff:
+        place: Déline District, NT X0E 0G0
+      82130ffffffffff:
+        place: North Slave Region, Northwest Territories
+      821317fffffffff:
+        place: Sahtu Region, Northwest Territories
+      82131ffffffffff:
+        place: Dehcho Region, Northwest Territories
+      821327fffffffff:
+        place: Inuvik Region, Northwest Territories
+      82132ffffffffff:
+        place: Kitikmeot Region, Nunavut
+      821337fffffffff:
+        place: Sahtu Region, Northwest Territories
+    states:
+    - Canada
+  '5':
+    hexes:
+      821347fffffffff:
+        place: North Slave Region, Northwest Territories
+      82134ffffffffff:
+        place: South Slave Region, Northwest Territories
+      821357fffffffff:
+        place: North Slave Region, Northwest Territories
+      82135ffffffffff:
+        place: South Slave Region, Northwest Territories
+      821367fffffffff:
+        place: Kivalliq Region, Nunavut
+      82136ffffffffff:
+        place: Kivalliq Region, Nunavut
+      821377fffffffff:
+        place: Kitikmeot Region, Nunavut
+    states:
+    - Canada
+  '6':
+    hexes:
+      821387fffffffff:
+        place: Yukon
+      82138ffffffffff:
+        place: Stikine Region, British Columbia
+      821397fffffffff:
+        place: Stikine Region, British Columbia
+      82139ffffffffff:
+        place: Stikine Region, British Columbia
+      8213a7fffffffff:
+        place: Yukon
+      8213affffffffff:
+        place: Sahtu Region, Northwest Territories
+      8213b7fffffffff:
+        place: Yukon
+    states:
+    - Canada
 '10':
   '0':
     hexes:
@@ -244,79 +1086,6 @@
         place: Dashbalbar
         states:
         - Mongolia
-'100':
-  '6':
-    hexes:
-      82c997fffffffff:
-        place: Minigin WA
-      82c9b7fffffffff:
-        place: Australia
-    states:
-    - Australia
-'103':
-  '2':
-    hexes:
-      82ce87fffffffff:
-        place: Municipio de Pilcaniyeu, Departamento Pilcaniyeu
-        states:
-        - Argentina
-      82ce8ffffffffff:
-        place: Chile
-        states:
-        - Chile
-      82ce97fffffffff:
-        place: Departamento Nueve de Julio
-        states:
-        - Argentina
-      82ce9ffffffffff:
-        place: Departamento Loncopué
-        states:
-        - Argentina
-      82cea7fffffffff:
-        place: Departamento Futaleufú, Chubut Province
-        states:
-        - Argentina
-      82ceb7fffffffff:
-        place: Departamento Telsen
-        states:
-        - Argentina
-  '4':
-    hexes:
-      82cf17fffffffff:
-        place: Puerto Natales, Provincia de Última Esperanza, Chile
-    states:
-    - Chile
-  '6':
-    hexes:
-      82cf87fffffffff:
-        place: Deseado
-        states:
-        - Argentina
-      82cf8ffffffffff:
-        place: Camino Lago Las Ardillas, Río Ibáñez
-        states:
-        - Chile
-      82cf9ffffffffff:
-        place: Departamento Sarmiento
-        states:
-        - Argentina
-      82cfa7fffffffff:
-        place: Güer Aike
-        states:
-        - Argentina
-      82cfaffffffffff:
-        place: Lago Argentino
-        states:
-        - Argentina
-'109':
-  '2':
-    hexes:
-      82da87fffffffff:
-        place: White Sow Valley Road
-      82da97fffffffff:
-        place: Napoleon Hill
-    states:
-    - New Zealand
 '11':
   '0':
     hexes:
@@ -360,259 +1129,6 @@
     states:
     - Russia
     - USSR
-'111':
-  '4':
-    hexes:
-      82df37fffffffff:
-        place: Weddell Sea
-    states:
-    - Antarctica
-  '5':
-    hexes:
-      82df47fffffffff:
-        place: Departamento Ushuaia, Argentina
-        states:
-        - Argentina
-      82df6ffffffffff:
-        place: Timaukel, Provincia de Tierra del Fuego, Chile
-        states:
-        - Chile
-'112':
-  '4':
-    hexes:
-      82e127fffffffff:
-        place: Unknown
-      82e12ffffffffff:
-        place: Unknown
-    states:
-    - Antarctica
-  '5':
-    hexes:
-      82e167fffffffff:
-        place: Antarctica
-      82e177fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-'114':
-  '1':
-    hexes:
-      82e467fffffffff:
-        place: Unknown
-      82e46ffffffffff:
-        place: Unknown
-    states:
-    - Antarctica
-  '5':
-    hexes:
-      82e547fffffffff:
-        place: Antarctica
-      82e54ffffffffff:
-        place: Antarctica
-      82e55ffffffffff:
-        place: Unknown
-      82e567fffffffff:
-        place: Antarctica
-      82e56ffffffffff:
-        place: Antarctica
-      82e577fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-'115':
-  '4':
-    hexes:
-      82e707fffffffff:
-        place: Antarctica
-      82e70ffffffffff:
-        place: Unknown
-      82e727fffffffff:
-        place: Antarctica
-      82e72ffffffffff:
-        place: Antarctica
-      82e737fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '5':
-    hexes:
-      82e747fffffffff:
-        place: Antarctica
-      82e74ffffffffff:
-        place: Antarctica
-      82e767fffffffff:
-        place: Antarctica
-      82e76ffffffffff:
-        place: Antarctica
-      82e777fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-'116':
-  '2':
-    hexes:
-      82e897fffffffff:
-        place: Antarctica
-      82e89ffffffffff:
-        place: Unknown
-      82e8b7fffffffff:
-        place: Unknown
-    states:
-    - Antarctica
-  '6':
-    hexes:
-      82e987fffffffff:
-        place: Unknown
-      82e997fffffffff:
-        place: Antarctica
-      82e9b7fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-'118':
-  '0':
-    hexes:
-      82ec07fffffffff:
-        place: Antarctica
-      82ec0ffffffffff:
-        place: Antarctica
-      82ec1ffffffffff:
-        place: Antarctica
-      82ec27fffffffff:
-        place: Antarctica
-      82ec2ffffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '1':
-    hexes:
-      82ec47fffffffff:
-        place: Antarctica
-      82ec4ffffffffff:
-        place: Antarctica
-      82ec57fffffffff:
-        place: Antarctica
-      82ec5ffffffffff:
-        place: Antarctica
-      82ec67fffffffff:
-        place: Antarctica
-      82ec6ffffffffff:
-        place: Antarctica
-      82ec77fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '2':
-    hexes:
-      82ecaffffffffff:
-        place: Unknown
-    states:
-    - Antarctica
-  '3':
-    hexes:
-      82ecc7fffffffff:
-        place: Antarctica
-      82eccffffffffff:
-        place: Antarctica
-      82ecd7fffffffff:
-        place: Antarctica
-      82ecdffffffffff:
-        place: Antarctica
-      82ece7fffffffff:
-        place: Antarctica
-      82eceffffffffff:
-        place: Antarctica
-      82ecf7fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '5':
-    hexes:
-      82ed47fffffffff:
-        place: Antarctica
-      82ed57fffffffff:
-        place: Antarctica
-      82ed5ffffffffff:
-        place: Antarctica
-      82ed77fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-'119':
-  '0':
-    hexes:
-      82ee17fffffffff:
-        place: Antarctica
-      82ee37fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '1':
-    hexes:
-      82ee6ffffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '2':
-    hexes:
-      82eea7fffffffff:
-        place: Antarctica
-      82eeb7fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '4':
-    hexes:
-      82ef07fffffffff:
-        place: Antarctica
-      82ef0ffffffffff:
-        place: Unknown
-      82ef17fffffffff:
-        place: Antarctica
-      82ef1ffffffffff:
-        place: Unknown
-      82ef27fffffffff:
-        place: Antarctica
-      82ef2ffffffffff:
-        place: Antarctica
-      82ef37fffffffff:
-        place: Unknown
-    states:
-    - Antarctica
-  '5':
-    hexes:
-      82ef47fffffffff:
-        place: Antarctica
-      82ef4ffffffffff:
-        place: Antarctica
-      82ef57fffffffff:
-        place: Antarctica
-      82ef67fffffffff:
-        place: Antarctica
-      82ef6ffffffffff:
-        place: Unknown
-      82ef77fffffffff:
-        place: Unknown
-    states:
-    - Antarctica
-  '6':
-    hexes:
-      82ef87fffffffff:
-        place: Antarctica
-      82ef8ffffffffff:
-        place: Antarctica
-      82ef97fffffffff:
-        place: Antarctica
-      82ef9ffffffffff:
-        place: Antarctica
-      82efa7fffffffff:
-        place: Antarctica
-      82efaffffffffff:
-        place: Antarctica
-      82efb7fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
 '12':
   '0':
     hexes:
@@ -661,216 +1177,6 @@
         place: North Sea
         states:
         - UK
-'120':
-  '0':
-    hexes:
-      82f007fffffffff:
-        place: Antarctica
-      82f00ffffffffff:
-        place: Antarctica
-      82f017fffffffff:
-        place: Antarctica
-      82f01ffffffffff:
-        place: Antarctica
-      82f027fffffffff:
-        place: Antarctica
-      82f02ffffffffff:
-        place: Antarctica
-      82f037fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '1':
-    hexes:
-      82f047fffffffff:
-        place: Antarctica
-      82f04ffffffffff:
-        place: Antarctica
-      82f057fffffffff:
-        place: Antarctica
-      82f05ffffffffff:
-        place: Antarctica
-      82f067fffffffff:
-        place: Antarctica
-      82f06ffffffffff:
-        place: Antarctica
-      82f077fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '2':
-    hexes:
-      82f087fffffffff:
-        place: Antarctica
-      82f08ffffffffff:
-        place: Antarctica
-      82f097fffffffff:
-        place: Antarctica
-      82f09ffffffffff:
-        place: Antarctica
-      82f0a7fffffffff:
-        place: Antarctica
-      82f0affffffffff:
-        place: Antarctica
-      82f0b7fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '3':
-    hexes:
-      82f0c7fffffffff:
-        place: Antarctica
-      82f0cffffffffff:
-        place: Antarctica
-      82f0d7fffffffff:
-        place: Antarctica
-      82f0dffffffffff:
-        place: Antarctica
-      82f0e7fffffffff:
-        place: Antarctica
-      82f0effffffffff:
-        place: Antarctica
-      82f0f7fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '4':
-    hexes:
-      82f107fffffffff:
-        place: Antarctica
-      82f10ffffffffff:
-        place: Antarctica
-      82f117fffffffff:
-        place: Antarctica
-      82f11ffffffffff:
-        place: Antarctica
-      82f127fffffffff:
-        place: Antarctica
-      82f12ffffffffff:
-        place: Unknown
-      82f137fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '5':
-    hexes:
-      82f147fffffffff:
-        place: Unknown
-      82f14ffffffffff:
-        place: Antarctica
-      82f157fffffffff:
-        place: Antarctica
-      82f15ffffffffff:
-        place: Antarctica
-      82f167fffffffff:
-        place: Unknown
-      82f16ffffffffff:
-        place: Antarctica
-      82f177fffffffff:
-        place: Unknown
-    states:
-    - Antarctica
-  '6':
-    hexes:
-      82f187fffffffff:
-        place: Antarctica
-      82f18ffffffffff:
-        place: Antarctica
-      82f197fffffffff:
-        place: Antarctica
-      82f19ffffffffff:
-        place: Antarctica
-      82f1a7fffffffff:
-        place: Antarctica
-      82f1affffffffff:
-        place: Antarctica
-      82f1b7fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-'121':
-  '0':
-    hexes:
-      82f207fffffffff:
-        place: Antarctica
-      82f20ffffffffff:
-        place: Antarctica
-      82f217fffffffff:
-        place: Antarctica
-      82f21ffffffffff:
-        place: Antarctica
-      82f227fffffffff:
-        place: Unknown
-      82f22ffffffffff:
-        place: Antarctica
-      82f237fffffffff:
-        place: Unknown
-    states:
-    - Antarctica
-  '1':
-    hexes:
-      82f257fffffffff:
-        place: Antarctica
-      82f25ffffffffff:
-        place: Antarctica
-      82f277fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '2':
-    hexes:
-      82f287fffffffff:
-        place: Unknown
-      82f28ffffffffff:
-        place: Unknown
-      82f297fffffffff:
-        place: Unknown
-      82f29ffffffffff:
-        place: Unknown
-      82f2a7fffffffff:
-        place: Unknown
-      82f2affffffffff:
-        place: Antarctica
-      82f2b7fffffffff:
-        place: Unknown
-    states:
-    - Antarctica
-  '3':
-    hexes:
-      82f2c7fffffffff:
-        place: Antarctica
-      82f2cffffffffff:
-        place: Antarctica
-      82f2d7fffffffff:
-        place: Antarctica
-      82f2dffffffffff:
-        place: Antarctica
-      82f2e7fffffffff:
-        place: Antarctica
-      82f2effffffffff:
-        place: Antarctica
-      82f2f7fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
-  '6':
-    hexes:
-      82f387fffffffff:
-        place: Unknown
-      82f38ffffffffff:
-        place: Unknown
-      82f397fffffffff:
-        place: Antarctica
-      82f39ffffffffff:
-        place: Unknown
-      82f3a7fffffffff:
-        place: Unknown
-      82f3affffffffff:
-        place: Unknown
-      82f3b7fffffffff:
-        place: Antarctica
-    states:
-    - Antarctica
 '13':
   '4':
     hexes:
@@ -1667,82 +1973,6 @@
         place: Big Stick, SK
         states:
         - Canada
-'2':
-  '0':
-    hexes:
-      820417fffffffff:
-        place: Sakha Republic
-        states:
-        - Russia
-        - USSR
-  '2':
-    hexes:
-      820487fffffffff:
-        place: Sakha Republic
-      82048ffffffffff:
-        place: Sakha Republic
-      820497fffffffff:
-        place: Sakha Republic
-      82049ffffffffff:
-        place: Sakha Republic
-      8204a7fffffffff:
-        place: Sakha Republic
-      8204affffffffff:
-        place: Быягнырский наслег, Allaikhovsky Ulus
-      8204b7fffffffff:
-        place: Борулахский наслег, Verkhoyansky Ulus
-    states:
-    - Russia
-    - USSR
-  '3':
-    hexes:
-      8204c7fffffffff:
-        place: 98К-006, Sakha Republic
-      8204cffffffffff:
-        place: Pevek urban district
-      8204d7fffffffff:
-        place: Sakha Republic
-      8204dffffffffff:
-        place: Bilibinsky District
-      8204f7fffffffff:
-        place: Sakha Republic
-    states:
-    - Russia
-    - USSR
-  '4':
-    hexes:
-      820517fffffffff:
-        place: Krasnoyarsk Krai
-      820527fffffffff:
-        place: >-
-          городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
-          Russia
-      820537fffffffff:
-        place: >-
-          городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
-          Russia
-    states:
-    - Russia
-    - USSR
-  '6':
-    hexes:
-      820587fffffffff:
-        place: Sakha Republic
-      82058ffffffffff:
-        place: Sakha Republic
-      820597fffffffff:
-        place: Эвенкийское сельское поселение «Кыстатыам», Zhigansky Ulus
-      82059ffffffffff:
-        place: Sakha Republic
-      8205a7fffffffff:
-        place: Юрюнг-Хаинский национальный (долганский) наслег, Anabarsky Ulus
-      8205affffffffff:
-        place: Sakha Republic
-      8205b7fffffffff:
-        place: Кирбейский национальный наслег, Olenyoksky Ulus
-    states:
-    - Russia
-    - USSR
 '20':
   '0':
     hexes:
@@ -2367,75 +2597,6 @@
         place: North Atlantic Ocean
     states:
     - Morocco
-'3':
-  '0':
-    hexes:
-      820607fffffffff:
-        place: Sermersooq, Greenland
-      82060ffffffffff:
-        place: Sermersooq, Greenland
-      820617fffffffff:
-        place: Greenland
-      82061ffffffffff:
-        place: Sermersooq, Greenland
-      820627fffffffff:
-        place: Sermersooq, Greenland
-      820637fffffffff:
-        place: Greenland
-    states:
-    - Denmark
-  '2':
-    hexes:
-      820687fffffffff:
-        place: Avannaata, Greenland
-      82068ffffffffff:
-        place: Avannaata, Greenland
-      8206a7fffffffff:
-        place: Greenland
-      8206affffffffff:
-        place: Avannaata, Greenland
-      8206b7fffffffff:
-        place: Avannaata, Greenland
-    states:
-    - Denmark
-  '3':
-    hexes:
-      8206c7fffffffff:
-        place: Qeqqata, Greenland
-      8206cffffffffff:
-        place: Sermersooq, Greenland
-      8206d7fffffffff:
-        place: Qeqertalik, Greenland
-      8206e7fffffffff:
-        place: Sermersooq, Greenland
-      8206effffffffff:
-        place: Sermersooq, Greenland
-      8206f7fffffffff:
-        place: Qeqertalik, Greenland
-    states:
-    - Denmark
-  '5':
-    hexes:
-      820747fffffffff:
-        place: Ásahreppur
-    states:
-    - Iceland
-  '6':
-    hexes:
-      820787fffffffff:
-        place: Greenland
-      82078ffffffffff:
-        place: Greenland
-      820797fffffffff:
-        place: Greenland
-      82079ffffffffff:
-        place: Greenland
-      8207affffffffff:
-        place: Greenland
-      8207b7fffffffff:
-        place: Greenland
-    states:
-    - Denmark
 '30':
   '0':
     hexes:
@@ -3226,84 +3387,6 @@
         place: Dominican Republic
     states:
     - Dominican Republic
-'4':
-  '0':
-    hexes:
-      820817fffffffff:
-        place: Røros, Trøndelag
-        states:
-        - Norway
-      82081ffffffffff:
-        place: Dorotea kommun, Västerbotten County
-        states:
-        - Sweden
-  '2':
-    hexes:
-      820887fffffffff:
-        place: Östra Tränsjövägen, Östhammars kommun
-        states:
-        - Sweden
-      82088ffffffffff:
-        place: Siikainen, Satakunta
-        states:
-        - Finland
-      82089ffffffffff:
-        place: Lääne County
-        states:
-        - Estonia
-      8208a7fffffffff:
-        place: Malung-Sälens kommun
-        states:
-        - Sweden
-      8208affffffffff:
-        place: Gamla Klingstavägen, 853 58 Tuna District
-        states:
-        - Sweden
-      8208b7fffffffff:
-        place: O 3033, Karlsborgs kommun
-        states:
-        - Sweden
-  '3':
-    hexes:
-      8208c7fffffffff:
-        place: Huhtavaarantie, Ylitornio
-        states:
-        - Finland
-      8208cffffffffff:
-        place: Inari, Lapland
-        states:
-        - Finland
-      8208d7fffffffff:
-        place: 85660 Haapavesi
-        states:
-        - Finland
-      8208dffffffffff:
-        place: Mikonkorventie, Kuusamo
-        states:
-        - Finland
-      8208e7fffffffff:
-        place: Jokkmokks kommun, Norrbotten County
-        states:
-        - Sweden
-      8208effffffffff:
-        place: Kiruna kommun, Norrbotten County
-        states:
-        - Sweden
-      8208f7fffffffff:
-        place: Grans sameby
-        states:
-        - Sweden
-    states: []
-  '6':
-    hexes:
-      820987fffffffff:
-        place: Bømlo, Vestland
-      82098ffffffffff:
-        place: Solhaugen, Vestland
-      82099ffffffffff:
-        place: Bamble
-    states:
-    - Norway
 '41':
   '0':
     hexes:
@@ -3933,140 +4016,6 @@
         place: Iskushuban
     states:
     - Somalia
-'5':
-  '0':
-    hexes:
-      820a07fffffffff:
-        place: Turukhansky District
-      820a0ffffffffff:
-        place: Evenkiysky Rayon
-      820a17fffffffff:
-        place: Evenkiysky Rayon
-      820a1ffffffffff:
-        place: Evenkiysky Rayon
-      820a27fffffffff:
-        place: Krasnoselkupsky Rayon
-      820a2ffffffffff:
-        place: Turukhansky District
-      820a37fffffffff:
-        place: Turukhansky District
-    states:
-    - Russia
-    - USSR
-  '1':
-    hexes:
-      820a47fffffffff:
-        place: Krasnoyarsk Krai
-      820a4ffffffffff:
-        place: Krasnoyarsk Krai
-      820a57fffffffff:
-        place: Evenkiysky Rayon
-      820a5ffffffffff:
-        place: Krasnoyarsk Krai
-      820a67fffffffff:
-        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District
-      820a6ffffffffff:
-        place: городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District
-      820a77fffffffff:
-        place: городское поселение Дудинка, Taymyrsky Dolgano-Nenetsky District
-    states:
-    - Russia
-    - USSR
-  '2':
-    hexes:
-      820a87fffffffff:
-        place: Kezhemsky Rayon
-      820a8ffffffffff:
-        place: Evenkiysky Rayon
-      820a97fffffffff:
-        place: Покоснинское сельское поселение, Братский район
-      820a9ffffffffff:
-        place: Irkutsk Oblast
-      820aa7fffffffff:
-        place: Krasnoyarsk Krai
-      820aaffffffffff:
-        place: Evenkiysky Rayon
-      820ab7fffffffff:
-        place: городское поселение Иланский, Ilansky Rayon
-    states:
-    - Russia
-    - USSR
-  '3':
-    hexes:
-      820ac7fffffffff:
-        place: Mirninsky Ulus
-      820acffffffffff:
-        place: Sakha Republic
-      820ad7fffffffff:
-        place: Irkutsk Oblast
-      820adffffffffff:
-        place: Sakha Republic
-      820ae7fffffffff:
-        place: Evenkiysky Rayon
-      820aeffffffffff:
-        place: Evenkiysky Rayon
-      820af7fffffffff:
-        place: Evenkiysky Rayon
-    states:
-    - Russia
-    - USSR
-  '4':
-    hexes:
-      820b07fffffffff:
-        place: Surgutsky District
-      820b0ffffffffff:
-        place: Purovsky Rayon
-      820b17fffffffff:
-        place: Александровское сельское поселение, Alexandrovsky District
-      820b1ffffffffff:
-        place: Nizhnevartovsky District
-      820b27fffffffff:
-        place: сельское поселение Каменное, Oktyabrsky District
-      820b2ffffffffff:
-        place: Beloyarsky District
-      820b37fffffffff:
-        place: Uvatsky District
-    states:
-    - Russia
-    - USSR
-  '5':
-    hexes:
-      820b47fffffffff:
-        place: Tazovsky Rayon
-      820b4ffffffffff:
-        place: Tazovsky Rayon
-      820b57fffffffff:
-        place: Tazovsky Rayon
-      820b5ffffffffff:
-        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District
-      820b67fffffffff:
-        place: Yamalo-Nenets Autonomous Okrug
-      820b6ffffffffff:
-        place: Yamalsky Rayon
-      820b77fffffffff:
-        place: Yamalsky Rayon
-    states:
-    - Russia
-    - USSR
-  '6':
-    hexes:
-      820b87fffffffff:
-        place: Tomsk Oblast
-      820b8ffffffffff:
-        place: Krasnoyarsk Krai
-      820b97fffffffff:
-        place: Novokuznetsky Municipal Okrug
-      820b9ffffffffff:
-        place: Кытатский сельсовет, Bolsheuluysky Rayon
-      820ba7fffffffff:
-        place: Tomsk Oblast
-      820baffffffffff:
-        place: Kargasok region
-      820bb7fffffffff:
-        place: Novosibirsk Oblast
-    states:
-    - Russia
-    - USSR
 '50':
   '2':
     hexes:
@@ -4577,100 +4526,6 @@
         place: Pinatgin, New Ireland
     states:
     - Papua New Guinea
-'6':
-  '0':
-    hexes:
-      820c07fffffffff:
-        place: Unorganized Borough, Alaska
-      820c0ffffffffff:
-        place: Unorganized Borough, Alaska
-      820c1ffffffffff:
-        place: Unorganized Borough, AK
-      820c27fffffffff:
-        place: Northwest Arctic Borough, Alaska
-      820c2ffffffffff:
-        place: Unorganized Borough, Alaska
-      820c37fffffffff:
-        place: Northwest Arctic Borough, Alaska
-    states:
-    - USA/Alaska
-    - Russian Empire/Alaska
-  '1':
-    hexes:
-      820c57fffffffff:
-        place: Kenai Peninsula Borough, Alaska
-      820c67fffffffff:
-        place: Unorganized Borough, Alaska
-      820c6ffffffffff:
-        place: Yakutat, Alaska
-      820c77fffffffff:
-        place: Matanuska-Susitna Borough, Alaska
-    states:
-    - USA/Alaska
-    - Russian Empire/Alaska
-  '3':
-    hexes:
-      820ce7fffffffff:
-        place: Unorganized Borough, Alaska
-      820ceffffffffff:
-        place: Kodiak Island Borough, Alaska
-    states:
-    - USA/Alaska
-    - Russian Empire/Alaska
-  '4':
-    hexes:
-      820d0ffffffffff:
-        place: North Slope Borough, Alaska
-      820d1ffffffffff:
-        place: North Slope Borough, Alaska
-    states:
-    - USA/Alaska
-    - Russian Empire/Alaska
-  '5':
-    hexes:
-      820d47fffffffff:
-        place: Unorganized Borough, Alaska
-        states:
-        - USA/Alaska
-        - Russian Empire/Alaska
-      820d4ffffffffff:
-        place: Yukon, Canada
-        states:
-        - Canada
-      820d57fffffffff:
-        place: Unorganized Borough, Alaska
-        states:
-        - USA/Alaska
-        - Russian Empire/Alaska
-      820d5ffffffffff:
-        place: Fairbanks North Star Borough, Alaska
-        states:
-        - USA/Alaska
-        - Russian Empire/Alaska
-      820d67fffffffff:
-        place: Inuvik Region, Northwest Territories
-        states:
-        - Canada
-      820d6ffffffffff:
-        place: Yukon
-        states:
-        - Canada
-      820d77fffffffff:
-        place: North Slope Borough, Alaska
-        states:
-        - USA/Alaska
-        - Russian Empire/Alaska
-  '6':
-    hexes:
-      820d87fffffffff:
-        place: муниципальный округ Эгвекинот
-      820d97fffffffff:
-        place: Anadyrsky District
-      820db7fffffffff:
-        place: муниципальный округ Эгвекинот
-    states:
-    - Russia
-    - USSR
 '61':
   '0':
     hexes:
@@ -5106,103 +4961,6 @@
         place: Planalto Da Serra - MT
     states:
     - Brazil
-'7':
-  '0':
-    hexes:
-      820e07fffffffff:
-        place: Baie-d'Hudson, Quebec
-      820e0ffffffffff:
-        place: Baie-d'Hudson, Quebec
-      820e2ffffffffff:
-        place: Rivière-Koksoak, Quebec
-    states:
-    - Canada
-  '1':
-    hexes:
-      820e47fffffffff:
-        place: Caniapiscau, Quebec
-      820e4ffffffffff:
-        place: Rivière-aux-Outardes, Quebec
-      820e57fffffffff:
-        place: Jamésie, Quebec
-      820e5ffffffffff:
-        place: Jamésie, Quebec
-      820e67fffffffff:
-        place: Rivière-Koksoak, Quebec
-      820e6ffffffffff:
-        place: Labrador, Newfoundland and Labrador
-      820e77fffffffff:
-        place: Rivière-Koksoak, Quebec
-    states:
-    - Canada
-  '2':
-    hexes:
-      820e87fffffffff:
-        place: Kivalliq Region, Nunavut
-      820e8ffffffffff:
-        place: Unorganized Division No. 23, Manitoba
-      820e97fffffffff:
-        place: Unorganized Division No. 23, Manitoba
-      820e9ffffffffff:
-        place: Unorganized Division No. 22, Manitoba
-      820eb7fffffffff:
-        place: Kivalliq Region, Nunavut
-    states:
-    - Canada
-  '3':
-    hexes:
-      820ec7fffffffff:
-        place: Unorganized Kenora District, ON
-      820ecffffffffff:
-        place: Unorganized North Cochrane, Ontario
-      820ed7fffffffff:
-        place: Unorganized Kenora District, Ontario
-      820edffffffffff:
-        place: Unorganized North Cochrane, Ontario
-      820ee7fffffffff:
-        place: Qikiqtaaluk Region, Nunavut
-      820eeffffffffff:
-        place: Eastmain (Land), Quebec
-      820ef7fffffffff:
-        place: Qikiqtaaluk Region, Nunavut
-    states:
-    - Canada
-  '4':
-    hexes:
-      820f07fffffffff:
-        place: Qikiqtaaluk Region, Nunavut
-      820f0ffffffffff:
-        place: Qikiqtaaluk Region, Nunavut
-      820f17fffffffff:
-        place: Qikiqtaaluk Region, Nunavut
-      820f1ffffffffff:
-        place: Qikiqtaaluk Region, Nunavut
-      820f37fffffffff:
-        place: Qikiqtaaluk Region, Nunavut
-    states:
-    - Canada
-  '5':
-    hexes:
-      820f5ffffffffff:
-        place: Rivière-Koksoak, Quebec
-    states:
-    - Canada
-  '6':
-    hexes:
-      820f87fffffffff:
-        place: Kivalliq Region, Nunavut
-      820f8ffffffffff:
-        place: Kivalliq Region, Nunavut
-      820f97fffffffff:
-        place: Kivalliq Region, Nunavut
-      820f9ffffffffff:
-        place: Kivalliq Region, Nunavut
-      820fa7fffffffff:
-        place: Qikiqtaaluk Region, Nunavut
-      820fb7fffffffff:
-        place: Kitikmeot Region, Nunavut
-    states:
-    - Canada
 '70':
   '0':
     hexes:
@@ -5581,152 +5339,6 @@
         place: Aramac QLD 4726
     states:
     - Australia
-'8':
-  '0':
-    hexes:
-      821007fffffffff:
-        place: Кичменгско-Городецкий муниципальный округ, Russia
-      82100ffffffffff:
-        place: Komi Republic, Russia
-      821017fffffffff:
-        place: Varnavinsky District, Russia
-      82101ffffffffff:
-        place: Ленинское сельское поселение, Slobodskoy District, Russia
-      821027fffffffff:
-        place: Няндомский муниципальный округ, Russia
-      82102ffffffffff:
-        place: Верхнетоемский муниципальный округ, Russia
-      821037fffffffff:
-        place: Грязовецкий муниципальный округ, Russia
-    states:
-    - Russia
-    - USSR
-  '1':
-    hexes:
-      821047fffffffff:
-        place: городское поселение Путеец, Pechora Municipal District, Russia
-      82104ffffffffff:
-        place: Yamalo-Nenets Autonomous Okrug, Russia, 629640
-      821057fffffffff:
-        place: сельское поселение Мылва, Troitsko-Pechorsky District, Russia
-      82105ffffffffff:
-        place: Beryozovsky District, Russia
-      821067fffffffff:
-        place: Zapolyarny District, Russia
-      82106ffffffffff:
-        place: Zapolyarny District, Russia
-      821077fffffffff:
-        place: сельское поселение Замежная, Ust-Tsilemsky District, Russia
-    states:
-    - Russia
-    - USSR
-  '2':
-    hexes:
-      821087fffffffff:
-        place: сельское поселение Владимировка, Khvorostyansky District, Russia
-      82108ffffffffff:
-        place: Orenburg Oblast, Russia
-      821097fffffffff:
-        place: Тереңкөл ауылдық округі, Kaztal District, Kazakhstan
-      82109ffffffffff:
-        place: Қаракұдық ауылдық округі, Börli district, Kazakhstan
-      8210a7fffffffff:
-        place: Republic of Mordovia, Russia, 431556
-      8210affffffffff:
-        place: Tatarstan, Russia, 422774
-      8210b7fffffffff:
-        place: Симоновское сельское поселение, Kalininsky District, Russia
-    states:
-    - Russia
-    - USSR
-  '3':
-    hexes:
-      8210c7fffffffff:
-        place: Кушвинский муниципальный округ, Russia
-      8210cffffffffff:
-        place: Sverdlovsk Oblast, Russia, 623994
-      8210d7fffffffff:
-        place: Vergaza, Chelyabinsk Oblast, Russia
-      8210dffffffffff:
-        place: Shadrinsky District, Russia
-      8210e7fffffffff:
-        place: Kosinsky District, Russia
-      8210effffffffff:
-        place: Ивдельский муниципальный округ, Russia
-      8210f7fffffffff:
-        place: Чайковский городской округ, Russia
-    states:
-    - Russia
-    - USSR
-  '4':
-    hexes:
-      821107fffffffff:
-        place: Рахьинское городское поселение, Vsevolozhsky District, Russia
-        states:
-        - Russia
-        - USSR
-      82110ffffffffff:
-        place: Чёлмужское сельское поселение, Medvezhyegorsky District, Russia
-        states:
-        - Russia
-        - USSR
-      821117fffffffff:
-        place: Полавское сельское поселение, Parfinsky District, Russia
-        states:
-        - Russia
-        - USSR
-      82111ffffffffff:
-        place: Игумново, Бабаевский муниципальный округ, Russia
-        states:
-        - Russia
-        - USSR
-      821127fffffffff:
-        place: Mikkelintie, 52730 Mäntyharju, Finland
-        states:
-        - Finland
-      82112ffffffffff:
-        place: Karhunpolku, Lieksa, Finland
-        states:
-        - Finland
-      821137fffffffff:
-        place: Gdovsky District, Russia
-        states:
-        - Russia
-        - USSR
-  '5':
-    hexes:
-      821147fffffffff:
-        place: сельское поселение Ловозеро, Lovozersky District, Russia
-      821157fffffffff:
-        place: Primorsky District, Russia
-      82115ffffffffff:
-        place: Мезенский муниципальный округ, Russia
-      821167fffffffff:
-        place: Kirovsk Urban Okrug, Russia
-      821177fffffffff:
-        place: Republic of Karelia, Russia, 186620
-    states:
-    - Russia
-    - USSR
-  '6':
-    hexes:
-      821187fffffffff:
-        place: Протасовское сельское поселение, Dubensky District, Russia
-      82118ffffffffff:
-        place: сельское поселение Анопино, Gus-Khrustalny District, Russia
-      821197fffffffff:
-        place: Gubkinsky Urban Okrug, Russia
-      82119ffffffffff:
-        place: Nikiforovsky District, Russia
-      8211a7fffffffff:
-        place: Yartsevsky District, Russia
-      8211affffffffff:
-        place: Kalininsky District, Russia
-      8211b7fffffffff:
-        place: Чаусовское сельское поселение, Pogarsky District, Russia
-    states:
-    - Russia
-    - USSR
 '81':
   '0':
     hexes:
@@ -6084,154 +5696,6 @@
         place: Municipio Villa Abecia, Provincia Sur Cinti
         states:
         - Bolivia
-'9':
-  '0':
-    hexes:
-      821207fffffffff:
-        place: Mackenzie County, Alberta
-      82120ffffffffff:
-        place: Northern Sunrise County, Alberta
-      821217fffffffff:
-        place: Area B (Finlay Valley/Beatton Valley), British Columbia
-      82121ffffffffff:
-        place: Clear Hills County, AB
-      821227fffffffff:
-        place: South Slave Region, Northwest Territories
-      82122ffffffffff:
-        place: Improvement District No. 24, Alberta
-      821237fffffffff:
-        place: Dehcho Region, Northwest Territories
-    states:
-    - Canada
-  '1':
-    hexes:
-      821247fffffffff:
-        place: Unorganized Division No. 18, Saskatchewan
-      82124ffffffffff:
-        place: Moose Range No. 486, SK
-      821257fffffffff:
-        place: Lac La Biche County, Alberta
-      82125ffffffffff:
-        place: North Battleford No. 437, SK
-      821267fffffffff:
-        place: Unorganized Division No. 18, Saskatchewan
-      82126ffffffffff:
-        place: Unorganized Division No. 23, Manitoba
-      821277fffffffff:
-        place: Wood Buffalo, Alberta
-    states:
-    - Canada
-  '2':
-    hexes:
-      821287fffffffff:
-        place: Area C (Butedale/Kitlope/Kitsumkalum), British Columbia
-        states:
-        - Canada
-      82128ffffffffff:
-        place: Area J (West Chilcotin), British Columbia
-        states:
-        - Canada
-      82129ffffffffff:
-        place: Area A (Ocean Falls/Outer Coast), British Columbia
-        states:
-        - Canada
-      8212a7fffffffff:
-        place: Area A (Nass Valley/Bell Irving), British Columbia
-        states:
-        - Canada
-      8212affffffffff:
-        place: Area C (Stuart Lake/Omineca Valley), British Columbia
-        states:
-        - Canada
-      8212b7fffffffff:
-        place: Ketchikan Gateway Borough, Alaska
-        states:
-        - USA/Alaska
-  '3':
-    hexes:
-      8212c7fffffffff:
-        place: Area A (Kicking Horse/Kinbasket Lake), British Columbia
-        states:
-        - Canada
-      8212cffffffffff:
-        place: Municipal District of Willow Creek No. 26, AB T0L 0Z0
-        states:
-        - Canada
-      8212d7fffffffff:
-        place: Area J (Copper Desert Country), British Columbia
-        states:
-        - Canada
-      8212dffffffffff:
-        place: Pend Oreille County, Washington
-        states:
-        - USA
-      8212e7fffffffff:
-        place: Woodlands County, Alberta
-        states:
-        - Canada
-      8212effffffffff:
-        place: County of Stettler, AB
-        states:
-        - Canada
-      8212f7fffffffff:
-        place: Area H (Robson Valley/Canoe), BC
-        states:
-        - Canada
-    states: []
-  '4':
-    hexes:
-      821307fffffffff:
-        place: Déline District, NT X0E 0G0
-      82130ffffffffff:
-        place: North Slave Region, Northwest Territories
-      821317fffffffff:
-        place: Sahtu Region, Northwest Territories
-      82131ffffffffff:
-        place: Dehcho Region, Northwest Territories
-      821327fffffffff:
-        place: Inuvik Region, Northwest Territories
-      82132ffffffffff:
-        place: Kitikmeot Region, Nunavut
-      821337fffffffff:
-        place: Sahtu Region, Northwest Territories
-    states:
-    - Canada
-  '5':
-    hexes:
-      821347fffffffff:
-        place: North Slave Region, Northwest Territories
-      82134ffffffffff:
-        place: South Slave Region, Northwest Territories
-      821357fffffffff:
-        place: North Slave Region, Northwest Territories
-      82135ffffffffff:
-        place: South Slave Region, Northwest Territories
-      821367fffffffff:
-        place: Kivalliq Region, Nunavut
-      82136ffffffffff:
-        place: Kivalliq Region, Nunavut
-      821377fffffffff:
-        place: Kitikmeot Region, Nunavut
-    states:
-    - Canada
-  '6':
-    hexes:
-      821387fffffffff:
-        place: Yukon
-      82138ffffffffff:
-        place: Stikine Region, British Columbia
-      821397fffffffff:
-        place: Stikine Region, British Columbia
-      82139ffffffffff:
-        place: Stikine Region, British Columbia
-      8213a7fffffffff:
-        place: Yukon
-      8213affffffffff:
-        place: Sahtu Region, Northwest Territories
-      8213b7fffffffff:
-        place: Yukon
-    states:
-    - Canada
 '92':
   '0':
     hexes:
@@ -6500,3 +5964,539 @@
         place: Departamento Pichi Mahuida
     states:
     - Argentina
+'100':
+  '6':
+    hexes:
+      82c997fffffffff:
+        place: Minigin WA
+      82c9b7fffffffff:
+        place: Australia
+    states:
+    - Australia
+'103':
+  '2':
+    hexes:
+      82ce87fffffffff:
+        place: Municipio de Pilcaniyeu, Departamento Pilcaniyeu
+        states:
+        - Argentina
+      82ce8ffffffffff:
+        place: Chile
+        states:
+        - Chile
+      82ce97fffffffff:
+        place: Departamento Nueve de Julio
+        states:
+        - Argentina
+      82ce9ffffffffff:
+        place: Departamento Loncopué
+        states:
+        - Argentina
+      82cea7fffffffff:
+        place: Departamento Futaleufú, Chubut Province
+        states:
+        - Argentina
+      82ceb7fffffffff:
+        place: Departamento Telsen
+        states:
+        - Argentina
+  '4':
+    hexes:
+      82cf17fffffffff:
+        place: Puerto Natales, Provincia de Última Esperanza, Chile
+    states:
+    - Chile
+  '6':
+    hexes:
+      82cf87fffffffff:
+        place: Deseado
+        states:
+        - Argentina
+      82cf8ffffffffff:
+        place: Camino Lago Las Ardillas, Río Ibáñez
+        states:
+        - Chile
+      82cf9ffffffffff:
+        place: Departamento Sarmiento
+        states:
+        - Argentina
+      82cfa7fffffffff:
+        place: Güer Aike
+        states:
+        - Argentina
+      82cfaffffffffff:
+        place: Lago Argentino
+        states:
+        - Argentina
+'109':
+  '2':
+    hexes:
+      82da87fffffffff:
+        place: White Sow Valley Road
+      82da97fffffffff:
+        place: Napoleon Hill
+    states:
+    - New Zealand
+'111':
+  '4':
+    hexes:
+      82df37fffffffff:
+        place: Weddell Sea
+    states:
+    - Antarctica
+  '5':
+    hexes:
+      82df47fffffffff:
+        place: Departamento Ushuaia, Argentina
+        states:
+        - Argentina
+      82df6ffffffffff:
+        place: Timaukel, Provincia de Tierra del Fuego, Chile
+        states:
+        - Chile
+'112':
+  '4':
+    hexes:
+      82e127fffffffff:
+        place: Unknown
+      82e12ffffffffff:
+        place: Unknown
+    states:
+    - Antarctica
+  '5':
+    hexes:
+      82e167fffffffff:
+        place: Antarctica
+      82e177fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+'114':
+  '1':
+    hexes:
+      82e467fffffffff:
+        place: Unknown
+      82e46ffffffffff:
+        place: Unknown
+    states:
+    - Antarctica
+  '5':
+    hexes:
+      82e547fffffffff:
+        place: Antarctica
+      82e54ffffffffff:
+        place: Antarctica
+      82e55ffffffffff:
+        place: Unknown
+      82e567fffffffff:
+        place: Antarctica
+      82e56ffffffffff:
+        place: Antarctica
+      82e577fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+'115':
+  '4':
+    hexes:
+      82e707fffffffff:
+        place: Antarctica
+      82e70ffffffffff:
+        place: Unknown
+      82e727fffffffff:
+        place: Antarctica
+      82e72ffffffffff:
+        place: Antarctica
+      82e737fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '5':
+    hexes:
+      82e747fffffffff:
+        place: Antarctica
+      82e74ffffffffff:
+        place: Antarctica
+      82e767fffffffff:
+        place: Antarctica
+      82e76ffffffffff:
+        place: Antarctica
+      82e777fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+'116':
+  '2':
+    hexes:
+      82e897fffffffff:
+        place: Antarctica
+      82e89ffffffffff:
+        place: Unknown
+      82e8b7fffffffff:
+        place: Unknown
+    states:
+    - Antarctica
+  '6':
+    hexes:
+      82e987fffffffff:
+        place: Unknown
+      82e997fffffffff:
+        place: Antarctica
+      82e9b7fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+'118':
+  '0':
+    hexes:
+      82ec07fffffffff:
+        place: Antarctica
+      82ec0ffffffffff:
+        place: Antarctica
+      82ec1ffffffffff:
+        place: Antarctica
+      82ec27fffffffff:
+        place: Antarctica
+      82ec2ffffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '1':
+    hexes:
+      82ec47fffffffff:
+        place: Antarctica
+      82ec4ffffffffff:
+        place: Antarctica
+      82ec57fffffffff:
+        place: Antarctica
+      82ec5ffffffffff:
+        place: Antarctica
+      82ec67fffffffff:
+        place: Antarctica
+      82ec6ffffffffff:
+        place: Antarctica
+      82ec77fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '2':
+    hexes:
+      82ecaffffffffff:
+        place: Unknown
+    states:
+    - Antarctica
+  '3':
+    hexes:
+      82ecc7fffffffff:
+        place: Antarctica
+      82eccffffffffff:
+        place: Antarctica
+      82ecd7fffffffff:
+        place: Antarctica
+      82ecdffffffffff:
+        place: Antarctica
+      82ece7fffffffff:
+        place: Antarctica
+      82eceffffffffff:
+        place: Antarctica
+      82ecf7fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '5':
+    hexes:
+      82ed47fffffffff:
+        place: Antarctica
+      82ed57fffffffff:
+        place: Antarctica
+      82ed5ffffffffff:
+        place: Antarctica
+      82ed77fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+'119':
+  '0':
+    hexes:
+      82ee17fffffffff:
+        place: Antarctica
+      82ee37fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '1':
+    hexes:
+      82ee6ffffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '2':
+    hexes:
+      82eea7fffffffff:
+        place: Antarctica
+      82eeb7fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '4':
+    hexes:
+      82ef07fffffffff:
+        place: Antarctica
+      82ef0ffffffffff:
+        place: Unknown
+      82ef17fffffffff:
+        place: Antarctica
+      82ef1ffffffffff:
+        place: Unknown
+      82ef27fffffffff:
+        place: Antarctica
+      82ef2ffffffffff:
+        place: Antarctica
+      82ef37fffffffff:
+        place: Unknown
+    states:
+    - Antarctica
+  '5':
+    hexes:
+      82ef47fffffffff:
+        place: Antarctica
+      82ef4ffffffffff:
+        place: Antarctica
+      82ef57fffffffff:
+        place: Antarctica
+      82ef67fffffffff:
+        place: Antarctica
+      82ef6ffffffffff:
+        place: Unknown
+      82ef77fffffffff:
+        place: Unknown
+    states:
+    - Antarctica
+  '6':
+    hexes:
+      82ef87fffffffff:
+        place: Antarctica
+      82ef8ffffffffff:
+        place: Antarctica
+      82ef97fffffffff:
+        place: Antarctica
+      82ef9ffffffffff:
+        place: Antarctica
+      82efa7fffffffff:
+        place: Antarctica
+      82efaffffffffff:
+        place: Antarctica
+      82efb7fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+'120':
+  '0':
+    hexes:
+      82f007fffffffff:
+        place: Antarctica
+      82f00ffffffffff:
+        place: Antarctica
+      82f017fffffffff:
+        place: Antarctica
+      82f01ffffffffff:
+        place: Antarctica
+      82f027fffffffff:
+        place: Antarctica
+      82f02ffffffffff:
+        place: Antarctica
+      82f037fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '1':
+    hexes:
+      82f047fffffffff:
+        place: Antarctica
+      82f04ffffffffff:
+        place: Antarctica
+      82f057fffffffff:
+        place: Antarctica
+      82f05ffffffffff:
+        place: Antarctica
+      82f067fffffffff:
+        place: Antarctica
+      82f06ffffffffff:
+        place: Antarctica
+      82f077fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '2':
+    hexes:
+      82f087fffffffff:
+        place: Antarctica
+      82f08ffffffffff:
+        place: Antarctica
+      82f097fffffffff:
+        place: Antarctica
+      82f09ffffffffff:
+        place: Antarctica
+      82f0a7fffffffff:
+        place: Antarctica
+      82f0affffffffff:
+        place: Antarctica
+      82f0b7fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '3':
+    hexes:
+      82f0c7fffffffff:
+        place: Antarctica
+      82f0cffffffffff:
+        place: Antarctica
+      82f0d7fffffffff:
+        place: Antarctica
+      82f0dffffffffff:
+        place: Antarctica
+      82f0e7fffffffff:
+        place: Antarctica
+      82f0effffffffff:
+        place: Antarctica
+      82f0f7fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '4':
+    hexes:
+      82f107fffffffff:
+        place: Antarctica
+      82f10ffffffffff:
+        place: Antarctica
+      82f117fffffffff:
+        place: Antarctica
+      82f11ffffffffff:
+        place: Antarctica
+      82f127fffffffff:
+        place: Antarctica
+      82f12ffffffffff:
+        place: Unknown
+      82f137fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '5':
+    hexes:
+      82f147fffffffff:
+        place: Unknown
+      82f14ffffffffff:
+        place: Antarctica
+      82f157fffffffff:
+        place: Antarctica
+      82f15ffffffffff:
+        place: Antarctica
+      82f167fffffffff:
+        place: Unknown
+      82f16ffffffffff:
+        place: Antarctica
+      82f177fffffffff:
+        place: Unknown
+    states:
+    - Antarctica
+  '6':
+    hexes:
+      82f187fffffffff:
+        place: Antarctica
+      82f18ffffffffff:
+        place: Antarctica
+      82f197fffffffff:
+        place: Antarctica
+      82f19ffffffffff:
+        place: Antarctica
+      82f1a7fffffffff:
+        place: Antarctica
+      82f1affffffffff:
+        place: Antarctica
+      82f1b7fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+'121':
+  '0':
+    hexes:
+      82f207fffffffff:
+        place: Antarctica
+      82f20ffffffffff:
+        place: Antarctica
+      82f217fffffffff:
+        place: Antarctica
+      82f21ffffffffff:
+        place: Antarctica
+      82f227fffffffff:
+        place: Unknown
+      82f22ffffffffff:
+        place: Antarctica
+      82f237fffffffff:
+        place: Unknown
+    states:
+    - Antarctica
+  '1':
+    hexes:
+      82f257fffffffff:
+        place: Antarctica
+      82f25ffffffffff:
+        place: Antarctica
+      82f277fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '2':
+    hexes:
+      82f287fffffffff:
+        place: Unknown
+      82f28ffffffffff:
+        place: Unknown
+      82f297fffffffff:
+        place: Unknown
+      82f29ffffffffff:
+        place: Unknown
+      82f2a7fffffffff:
+        place: Unknown
+      82f2affffffffff:
+        place: Antarctica
+      82f2b7fffffffff:
+        place: Unknown
+    states:
+    - Antarctica
+  '3':
+    hexes:
+      82f2c7fffffffff:
+        place: Antarctica
+      82f2cffffffffff:
+        place: Antarctica
+      82f2d7fffffffff:
+        place: Antarctica
+      82f2dffffffffff:
+        place: Antarctica
+      82f2e7fffffffff:
+        place: Antarctica
+      82f2effffffffff:
+        place: Antarctica
+      82f2f7fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
+  '6':
+    hexes:
+      82f387fffffffff:
+        place: Unknown
+      82f38ffffffffff:
+        place: Unknown
+      82f397fffffffff:
+        place: Antarctica
+      82f39ffffffffff:
+        place: Unknown
+      82f3a7fffffffff:
+        place: Unknown
+      82f3affffffffff:
+        place: Unknown
+      82f3b7fffffffff:
+        place: Antarctica
+    states:
+    - Antarctica
