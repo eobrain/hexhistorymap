@@ -14,6 +14,11 @@ const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3
 const canvas = select('#content canvas').node()
 const context = canvas.getContext('2d')
 
+context.fillStyle = 'black'
+context.font = '12px sans-serif'
+context.textAlign = 'center'
+context.textBaseline = 'middle'
+
 const projection = geoAzimuthalEqualArea().fitSize([canvas.width, canvas.height], geojson)
 
 const geoGenerator = geoPath()
@@ -67,27 +72,26 @@ $yearControl.max = maxYear
 $yearControl.value = year
 $yearControl.addEventListener('input', update)
 
-const $popup = document.getElementById('popup')
-
 canvas.addEventListener('click', (event) => {
   const rect = canvas.getBoundingClientRect()
   const x = event.clientX - rect.left
   const y = event.clientY - rect.top
   const [lon, lat] = projection.invert([x, y])
   const hex = locateHex(lat, lon)
+  projection.rotate([-lon, -lat])
   const milieu = Milieu(hex, year)
   if (milieu.place()) {
-    $popup.style.display = 'block'
-    $popup.style.left = `${event.clientX}px`
-    $popup.style.top = `${event.clientY}px`
     if (milieu.state()) {
-      $popup.innerHTML = `<div>${milieu.state().name()}</div>`
       selectedState = milieu.state()
     } else {
-      $popup.innerHTML = `<div>${milieu.place()}</div>`
       selectedState = undefined
     }
+    const [xx, yy] = projection([lon, lat])
     update()
+    if (selectedState) {
+      context.fillStyle = 'black'
+      context.fillText(selectedState.name(), xx, yy)
+    }
   }
 })
 

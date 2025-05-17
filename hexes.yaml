@@ -4719,184 +4719,194 @@
   '0':
     hexes:
       828217fffffffff:
-        place: Moussondi, Niari Department, Congo-Brazzaville
-        states: []
+        place: Moussondi, Niari Department
+        states:
+        - Congo-Brazzaville
       82821ffffffffff:
-        place: L'Ile Iloupi 2, Ogooué-Maritime Province, Gabon
-        states: []
-    states: []
+        place: L'Ile Iloupi 2, Ogooué-Maritime Province
+        states:
+        - Gabon
   '2':
     hexes:
       828287fffffffff:
-        place: Souanké, Congo-Brazzaville
-        states: []
+        place: Souanké
+        states:
+        - Congo-Brazzaville
       82828ffffffffff:
-        place: Ebolowa II, Mvila, Cameroon
-        states: []
+        place: Ebolowa II, Mvila
+        states:
+        - Cameroon
       828297fffffffff:
-        place: Sangha-Mbaéré, Central African Republic
-        states: []
+        place: Sangha-Mbaéré
+        states:
+        - Central African Republic
       82829ffffffffff:
-        place: Nguélébok, Kadey, Cameroon
-        states: []
+        place: Nguélébok, Kadey
+        states:
+        - Cameroon
       8282a7fffffffff:
-        place: Haut-Ogooué Province, Gabon
-        states: []
+        place: Haut-Ogooué Province
+        states:
+        - Gabon
       8282affffffffff:
-        place: Ogooué-Ivindo, Gabon
-        states: []
+        place: Ogooué-Ivindo
+        states:
+        - Gabon
       8282b7fffffffff:
-        place: District de Pikounda, Congo-Brazzaville
-        states: []
-    states: []
+        place: District de Pikounda
+        states:
+        - Congo-Brazzaville
   '3':
     hexes:
       8282dffffffffff:
-        place: Kebokokiri, Degema, Nigeria
-        states: []
+        place: Kebokokiri, Degema
+        states:
+        - Nigeria
       8282f7fffffffff:
         place: Equatorial Guinea
-        states: []
-    states: []
+        states:
   '4':
     hexes:
       828317fffffffff:
-        place: Ubalanga, Angola
-        states: []
+        place: Ubalanga
       828327fffffffff:
-        place: Carvalho Oliveira, Namibe Province, Angola
-        states: []
+        place: Carvalho Oliveira, Namibe Province
       828337fffffffff:
-        place: Somalia, Angola
-        states: []
-    states: []
+        place: Somalia
+    states:
+    - Angola
   '6':
     hexes:
       828387fffffffff:
-        place: Kwango, Democratic Republic of the Congo
-        states: []
+        place: Kwango
+        states:
+        - Democratic Republic of the Congo
       82838ffffffffff:
-        place: Kingouala, Congo-Brazzaville
-        states: []
+        place: Kingouala
+        states:
+        - Congo-Brazzaville
       828397fffffffff:
-        place: Mai-Ndombe, Democratic Republic of the Congo
-        states: []
+        place: Mai-Ndombe
+        states:
+        - Democratic Republic of the Congo
       82839ffffffffff:
-        place: Plateaux, Democratic Republic of the Congo
-        states: []
+        place: Plateaux
+        states:
+        - Democratic Republic of the Congo
       8283a7fffffffff:
-        place: Cáfu, Angola
-        states: []
+        place: Cáfu
+        states:
+        - Angola
       8283affffffffff:
-        place: Uíge Province, Angola
-        states: []
+        place: Uíge Province
+        states:
+        - Angola
       8283b7fffffffff:
-        place: Muambundu, Kasai, Democratic Republic of the Congo
-        states: []
-    states: []
+        place: Muambundu, Kasai
+        states:
+        - Democratic Republic of the Congo
 '69':
   '0':
     hexes:
       828a07fffffffff:
-        place: Humaitá - AM, 69800-000, Brazil
-        states: []
+        place: Humaitá - AM
       828a0ffffffffff:
-        place: Coari - AM, 69460-000, Brazil
-        states: []
+        place: Coari - AM
       828a17fffffffff:
-        place: Apui - AM, 69265-000, Brazil
-        states: []
+        place: Apui - AM
       828a1ffffffffff:
-        place: Beruri, Região Geográfica Intermediária de Manaus, Brazil
-        states: []
+        place: Beruri, Região Geográfica Intermediária de Manaus
       828a27fffffffff:
         place: >-
           Campo Novo de Rondônia, Região Geográfica Intermediária de Porto
-          Velho, Brazil
-        states: []
+          Velho
       828a2ffffffffff:
-        place: Lábrea - AM, 69830-000, Brazil
-        states: []
+        place: Lábrea - AM
       828a37fffffffff:
-        place: Rondolândia, Região Geográfica Intermediária de Sinop, Brazil
-        states: []
-    states: []
+        place: Rondolândia, Região Geográfica Intermediária de Sinop
+    states:
+    - Brazil
   '1':
     hexes:
       828a47fffffffff:
-        place: Santo Antônio do Içá - AM, 69680-000, Brazil
-        states: []
+        place: Santo Antônio do Içá - AM
+        states:
+        - Brazil
       828a4ffffffffff:
-        place: Mirití-Paraná, Amazonas, Colombia
-        states: []
+        place: Mirití-Paraná, Amazonas
+        states:
+        - Colombia
       828a57fffffffff:
-        place: Fonte Boa - AM, 69670-000, Brazil
-        states: []
+        place: Fonte Boa - AM
+        states:
+        - Brazil
       828a5ffffffffff:
-        place: São Gabriel da Cachoeira - AM, 69750-000, Brazil
-        states: []
+        place: São Gabriel da Cachoeira - AM
+        states:
+        - Brazil
       828a67fffffffff:
-        place: São Paulo de Olivença - AM, 69600-000, Brazil
-        states: []
+        place: São Paulo de Olivença - AM
+        states:
+        - Brazil
       828a6ffffffffff:
-        place: Pebas, Loreto, Peru
-        states: []
+        place: Pebas, Loreto
+        states:
+        - Peru
       828a77fffffffff:
-        place: Carauari - AM, 69500-000, Brazil
-        states: []
-    states: []
+        place: Carauari - AM
+        states:
+        - Brazil
   '2':
     hexes:
       828a87fffffffff:
-        place: Itaituba, Região Geográfica Intermediária de Santarém, Brazil
-        states: []
+        place: Itaituba, Região Geográfica Intermediária de Santarém
       828a8ffffffffff:
-        place: Nhamundá, Região Geográfica Intermediária de Parintins, Brazil
-        states: []
+        place: Nhamundá, Região Geográfica Intermediária de Parintins
       828a97fffffffff:
-        place: Medicilândia, Região Geográfica Intermediária de Altamira, Brazil
-        states: []
+        place: Medicilândia, Região Geográfica Intermediária de Altamira
       828a9ffffffffff:
-        place: Alenquer - PA, 68200-000, Brazil
-        states: []
+        place: Alenquer
       828aa7fffffffff:
-        place: Jacareacanga, Região Geográfica Intermediária de Santarém, Brazil
-        states: []
+        place: Jacareacanga, Região Geográfica Intermediária de Santarém
       828aaffffffffff:
-        place: Borba - AM, 69200-000, Brazil
-        states: []
+        place: Borba
       828ab7fffffffff:
-        place: Altamira, Região Geográfica Intermediária de Altamira, Brazil
-        states: []
-    states: []
+        place: Altamira, Região Geográfica Intermediária de Altamira
+    states:
+    - Brazil
   '3':
     hexes:
       828ac7fffffffff:
-        place: Barcelos, Região Geográfica Intermediária de Manaus, Brazil
-        states: []
+        place: Barcelos, Região Geográfica Intermediária de Manaus
+        states:
+        - Brazil
       828acffffffffff:
-        place: Parroquia Mavaca, Municipio Autónomo Alto Orinoco, Venezuela
-        states: []
+        place: Parroquia Mavaca, Municipio Autónomo Alto Orinoco
+        states:
+        - Venezuela
       828ad7fffffffff:
         place: >-
           São João da Baliza, Região Geográfica Intermediária de
-          Rorainópolis-Caracaraí, Brazil
-        states: []
+          Rorainópolis-Caracaraí
+        states:
+        - Brazil
       828adffffffffff:
-        place: Mucajaí - RR, 69340-000, Brazil
-        states: []
+        place: Mucajaí - RR
+        states:
+        - Brazil
       828ae7fffffffff:
-        place: Codajás, Região Geográfica Intermediária de Manaus, Brazil
-        states: []
+        place: Codajás, Região Geográfica Intermediária de Manaus
+        states:
+        - Brazil
       828aeffffffffff:
         place: >-
-          Santa Isabel do Rio Negro, Região Geográfica Intermediária de Manaus,
-          Brazil
-        states: []
+          Santa Isabel do Rio Negro, Região Geográfica Intermediária de Manaus
+        states:
+        - Brazil
       828af7fffffffff:
-        place: Novo Airão - AM, 69730-000, Brazil
-        states: []
-    states: []
+        place: Novo Airão - AM
+        states:
+        - Brazil
   '4':
     hexes:
       828b07fffffffff:
