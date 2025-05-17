@@ -38,23 +38,21 @@ context.clearRect(0, 0, 800, 600)
 context.lineWidth = 0.5
 context.strokeStyle = '#333'
 
-/*context.beginPath()
+context.beginPath()
 geoGenerator({ type: 'FeatureCollection', features: geojson.features })
-context.stroke()*/
+context.stroke()
 
 // Graticule
-/*const graticule = geoGraticule()
+const graticule = geoGraticule()
 context.beginPath()
 context.strokeStyle = '#ccc'
 geoGenerator(graticule())
-context.stroke()*/
+context.stroke()
 
 // hexList
-/*
 context.beginPath()
 geoGenerator({ type: 'FeatureCollection', features: hexFeatures })
 context.stroke()
-*/
 
 const saturation = 50
 const lightness = 50
