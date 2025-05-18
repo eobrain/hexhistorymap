@@ -12,7 +12,12 @@ const Hex = cellCode => {
   const parent = hexData[base] ? hexData[base][index1] : null
   const isValid = () => parent && parent.hexes[cellCode]
   const place = () => isValid() ? parent.hexes[cellCode].place : null
-  const stateNames = () => isValid() ? [...parent.states || [], ...parent.hexes[cellCode].states || []] : []
+  const stateNames = () => isValid()
+    ? [
+        ...Object.keys(parent.states || {}),
+        ...Object.keys(parent.hexes[cellCode].states || {})
+      ]
+    : []
   const coordinates = () => h3.cellsToMultiPolygon([cellCode], true)[0]
   const latLon = () => h3.cellToLatLng(cellCode)
 

@@ -4,24 +4,24 @@
       82006ffffffffff:
         place: North-East corner of Greenland
     states:
-    - state: Denmark
-      begin: 1721
+      Denmark:
+        begin: 1721
   '5':
     hexes:
       820157fffffffff:
         place: Longyearbyen, Southern Svalbard
     states:
-    - state: Norway
-      begin: 1920
+      Norway:
+        begin: 1920
   '6':
     hexes:
       820187fffffffff:
         place: Yuzhny Island, Novaya Zemlya, Arkhangelsk Oblast
     states:
-    - Russia
-    - USSR
-    - state: Russian Empire
-      begin: 1870
+      Russia: {}
+      USSR: {}
+      Russian Empire:
+        begin: 1870
 '1':
   '0':
     hexes:
@@ -34,7 +34,7 @@
           Qikiqtaaluk Region, Axel Heiberg Island, Queen Elizabeth Islands,
           Nunavut
     states:
-    - Canada
+      Canada: {}
   '1':
     hexes:
       820247fffffffff:
@@ -46,13 +46,13 @@
       82025ffffffffff:
         place: Qikiqtaaluk Region, Nunavut
     states:
-    - Canada
+      Canada: {}
   '2':
     hexes:
       82028ffffffffff:
         place: Inuvik Region, Northwest Territories
     states:
-    - Canada
+      Canada: {}
   '3':
     hexes:
       8202c7fffffffff:
@@ -66,45 +66,45 @@
       8202f7fffffffff:
         place: Inuvik Region, Northwest Territories
     states:
-    - Canada
+      Canada: {}
   '5':
     hexes:
       820347fffffffff:
         place: Avannaata, Greenland
         states:
-        - state: Denmark
-          begin: 1721
+          Denmark:
+            begin: 1721
       82034ffffffffff:
         place: Avannaata, Greenland
         states:
-        - state: Denmark
-          begin: 1721
+          Denmark:
+            begin: 1721
       820357fffffffff:
         place: Qikiqtaaluk Region, Nunavut
         states:
-        - Canada
+          Canada: {}
       82035ffffffffff:
         place: Qikiqtaaluk Region, Nunavut
         states:
-        - Canada
+          Canada: {}
       820367fffffffff:
         place: Greenland
         states:
-        - state: Denmark
-          begin: 1721
+          Denmark:
+            begin: 1721
       82036ffffffffff:
         place: Greenland
         states:
-        - state: Denmark
-          begin: 1721
+          Denmark:
+            begin: 1721
 '2':
   '0':
     hexes:
       820417fffffffff:
         place: Sakha Republic
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
   '2':
     hexes:
       820487fffffffff:
@@ -122,8 +122,8 @@
       8204b7fffffffff:
         place: Борулахский наслег, Verkhoyansky Ulus
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '3':
     hexes:
       8204c7fffffffff:
@@ -137,8 +137,8 @@
       8204f7fffffffff:
         place: Sakha Republic
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '4':
     hexes:
       820517fffffffff:
@@ -152,8 +152,8 @@
           городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
           Russia
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '6':
     hexes:
       820587fffffffff:
@@ -171,8 +171,8 @@
       8205b7fffffffff:
         place: Кирбейский национальный наслег, Olenyoksky Ulus
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
 '3':
   '0':
     hexes:
@@ -189,8 +189,8 @@
       820637fffffffff:
         place: Greenland
     states:
-    - state: Denmark
-      begin: 1721
+      Denmark:
+        begin: 1721
   '2':
     hexes:
       820687fffffffff:
@@ -204,8 +204,8 @@
       8206b7fffffffff:
         place: Avannaata, Greenland
     states:
-    - state: Denmark
-      begin: 1721
+      Denmark:
+        begin: 1721
   '3':
     hexes:
       8206c7fffffffff:
@@ -221,14 +221,14 @@
       8206f7fffffffff:
         place: Qeqertalik, Greenland
     states:
-    - state: Denmark
-      begin: 1721
+      Denmark:
+        begin: 1721
   '5':
     hexes:
       820747fffffffff:
         place: Ásahreppur
     states:
-    - Iceland
+      Iceland: {}
   '6':
     hexes:
       820787fffffffff:
@@ -244,76 +244,76 @@
       8207b7fffffffff:
         place: Greenland
     states:
-    - state: Denmark
-      begin: 1721
+      Denmark:
+        begin: 1721
 '4':
   '0':
     hexes:
       820817fffffffff:
         place: Røros, Trøndelag
         states:
-        - Norway
+          Norway: {}
       82081ffffffffff:
         place: Dorotea kommun, Västerbotten County
         states:
-        - Sweden
+          Sweden: {}
   '2':
     hexes:
       820887fffffffff:
         place: Östra Tränsjövägen, Östhammars kommun
         states:
-        - Sweden
+          Sweden: {}
       82088ffffffffff:
         place: Siikainen, Satakunta
         states:
-        - Finland
+          Finland: {}
       82089ffffffffff:
         place: Lääne County
         states:
-        - Estonia
+          Estonia: {}
       8208a7fffffffff:
         place: Malung-Sälens kommun
         states:
-        - Sweden
+          Sweden: {}
       8208affffffffff:
         place: Gamla Klingstavägen, 853 58 Tuna District
         states:
-        - Sweden
+          Sweden: {}
       8208b7fffffffff:
         place: O 3033, Karlsborgs kommun
         states:
-        - Sweden
+          Sweden: {}
   '3':
     hexes:
       8208c7fffffffff:
         place: Huhtavaarantie, Ylitornio
         states:
-        - Finland
+          Finland: {}
       8208cffffffffff:
         place: Inari, Lapland
         states:
-        - Finland
+          Finland: {}
       8208d7fffffffff:
         place: 85660 Haapavesi
         states:
-        - Finland
+          Finland: {}
       8208dffffffffff:
         place: Mikonkorventie, Kuusamo
         states:
-        - Finland
+          Finland: {}
       8208e7fffffffff:
         place: Jokkmokks kommun, Norrbotten County
         states:
-        - Sweden
+          Sweden: {}
       8208effffffffff:
         place: Kiruna kommun, Norrbotten County
         states:
-        - Sweden
+          Sweden: {}
       8208f7fffffffff:
         place: Grans sameby
         states:
-        - Sweden
-    states: []
+          Sweden: {}
+    states: {}
   '6':
     hexes:
       820987fffffffff:
@@ -323,7 +323,7 @@
       82099ffffffffff:
         place: Bamble
     states:
-    - Norway
+      Norway: {}
 '5':
   '0':
     hexes:
@@ -342,8 +342,8 @@
       820a37fffffffff:
         place: Turukhansky District
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '1':
     hexes:
       820a47fffffffff:
@@ -361,8 +361,8 @@
       820a77fffffffff:
         place: городское поселение Дудинка, Taymyrsky Dolgano-Nenetsky District
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '2':
     hexes:
       820a87fffffffff:
@@ -380,8 +380,8 @@
       820ab7fffffffff:
         place: городское поселение Иланский, Ilansky Rayon
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '3':
     hexes:
       820ac7fffffffff:
@@ -399,8 +399,8 @@
       820af7fffffffff:
         place: Evenkiysky Rayon
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '4':
     hexes:
       820b07fffffffff:
@@ -418,8 +418,8 @@
       820b37fffffffff:
         place: Uvatsky District
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '5':
     hexes:
       820b47fffffffff:
@@ -437,8 +437,8 @@
       820b77fffffffff:
         place: Yamalsky Rayon
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '6':
     hexes:
       820b87fffffffff:
@@ -456,8 +456,8 @@
       820bb7fffffffff:
         place: Novosibirsk Oblast
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
 '6':
   '0':
     hexes:
@@ -474,11 +474,11 @@
       820c37fffffffff:
         place: Northwest Arctic Borough, Alaska
     states:
-    - state: USA
-      begin: 1867
-    - state: Russian Empire
-      begin: 1784
-      end: 1867
+      USA:
+        begin: 1867
+      Russian Empire:
+        begin: 1784
+        end: 1867
   '1':
     hexes:
       820c57fffffffff:
@@ -490,11 +490,11 @@
       820c77fffffffff:
         place: Matanuska-Susitna Borough, Alaska
     states:
-    - state: USA
-      begin: 1867
-    - state: Russian Empire
-      begin: 1784
-      end: 1867
+      USA:
+        begin: 1867
+      Russian Empire:
+        begin: 1784
+        end: 1867
   '3':
     hexes:
       820ce7fffffffff:
@@ -502,11 +502,11 @@
       820ceffffffffff:
         place: Kodiak Island Borough, Alaska
     states:
-    - state: USA
-      begin: 1867
-    - state: Russian Empire
-      begin: 1784
-      end: 1867
+      USA:
+        begin: 1867
+      Russian Empire:
+        begin: 1784
+        end: 1867
   '4':
     hexes:
       820d0ffffffffff:
@@ -514,57 +514,57 @@
       820d1ffffffffff:
         place: North Slope Borough, Alaska
     states:
-    - state: USA
-      begin: 1867
-    - state: Russian Empire
-      begin: 1784
-      end: 1867
+      USA:
+        begin: 1867
+      Russian Empire:
+        begin: 1784
+        end: 1867
   '5':
     hexes:
       820d47fffffffff:
         place: Unorganized Borough, Alaska
         states:
-        - state: USA
-          begin: 1867
-        - state: Russian Empire
-          begin: 1784
-          end: 1867
+          USA:
+            begin: 1867
+          Russian Empire:
+            begin: 1784
+            end: 1867
       820d4ffffffffff:
         place: Yukon, Canada
         states:
-        - Canada
+          Canada: {}
       820d57fffffffff:
         place: Unorganized Borough, Alaska
         states:
-        - state: USA
-          begin: 1867
-        - state: Russian Empire
-          begin: 1784
-          end: 1867
+          USA:
+            begin: 1867
+          Russian Empire:
+            begin: 1784
+            end: 1867
       820d5ffffffffff:
         place: Fairbanks North Star Borough, Alaska
         states:
-        - state: USA
-          begin: 1867
-        - state: Russian Empire
-          begin: 1784
-          end: 1867
+          USA:
+            begin: 1867
+          Russian Empire:
+            begin: 1784
+            end: 1867
       820d67fffffffff:
         place: Inuvik Region, Northwest Territories
         states:
-        - Canada
+          Canada: {}
       820d6ffffffffff:
         place: Yukon
         states:
-        - Canada
+          Canada: {}
       820d77fffffffff:
         place: North Slope Borough, Alaska
         states:
-        - state: USA
-          begin: 1867
-        - state: Russian Empire
-          begin: 1784
-          end: 1867
+          USA:
+            begin: 1867
+          Russian Empire:
+            begin: 1784
+            end: 1867
   '6':
     hexes:
       820d87fffffffff:
@@ -574,8 +574,8 @@
       820db7fffffffff:
         place: муниципальный округ Эгвекинот
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
 '7':
   '0':
     hexes:
@@ -586,7 +586,7 @@
       820e2ffffffffff:
         place: Rivière-Koksoak, Quebec
     states:
-    - Canada
+      Canada: {}
   '1':
     hexes:
       820e47fffffffff:
@@ -604,7 +604,7 @@
       820e77fffffffff:
         place: Rivière-Koksoak, Quebec
     states:
-    - Canada
+      Canada: {}
   '2':
     hexes:
       820e87fffffffff:
@@ -618,7 +618,7 @@
       820eb7fffffffff:
         place: Kivalliq Region, Nunavut
     states:
-    - Canada
+      Canada: {}
   '3':
     hexes:
       820ec7fffffffff:
@@ -636,7 +636,7 @@
       820ef7fffffffff:
         place: Qikiqtaaluk Region, Nunavut
     states:
-    - Canada
+      Canada: {}
   '4':
     hexes:
       820f07fffffffff:
@@ -650,13 +650,13 @@
       820f37fffffffff:
         place: Qikiqtaaluk Region, Nunavut
     states:
-    - Canada
+      Canada: {}
   '5':
     hexes:
       820f5ffffffffff:
         place: Rivière-Koksoak, Quebec
     states:
-    - Canada
+      Canada: {}
   '6':
     hexes:
       820f87fffffffff:
@@ -672,7 +672,7 @@
       820fb7fffffffff:
         place: Kitikmeot Region, Nunavut
     states:
-    - Canada
+      Canada: {}
 '8':
   '0':
     hexes:
@@ -691,8 +691,8 @@
       821037fffffffff:
         place: Грязовецкий муниципальный округ, Russia
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '1':
     hexes:
       821047fffffffff:
@@ -710,8 +710,8 @@
       821077fffffffff:
         place: сельское поселение Замежная, Ust-Tsilemsky District, Russia
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '2':
     hexes:
       821087fffffffff:
@@ -729,8 +729,8 @@
       8210b7fffffffff:
         place: Симоновское сельское поселение, Kalininsky District, Russia
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '3':
     hexes:
       8210c7fffffffff:
@@ -748,43 +748,43 @@
       8210f7fffffffff:
         place: Чайковский городской округ, Russia
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '4':
     hexes:
       821107fffffffff:
         place: Рахьинское городское поселение, Vsevolozhsky District, Russia
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       82110ffffffffff:
         place: Чёлмужское сельское поселение, Medvezhyegorsky District, Russia
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       821117fffffffff:
         place: Полавское сельское поселение, Parfinsky District, Russia
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       82111ffffffffff:
         place: Игумново, Бабаевский муниципальный округ, Russia
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       821127fffffffff:
         place: Mikkelintie, 52730 Mäntyharju, Finland
         states:
-        - Finland
+          Finland: {}
       82112ffffffffff:
         place: Karhunpolku, Lieksa, Finland
         states:
-        - Finland
+          Finland: {}
       821137fffffffff:
         place: Gdovsky District, Russia
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
   '5':
     hexes:
       821147fffffffff:
@@ -798,8 +798,8 @@
       821177fffffffff:
         place: Republic of Karelia, Russia, 186620
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '6':
     hexes:
       821187fffffffff:
@@ -817,8 +817,8 @@
       8211b7fffffffff:
         place: Чаусовское сельское поселение, Pogarsky District, Russia
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
 '9':
   '0':
     hexes:
@@ -837,7 +837,7 @@
       821237fffffffff:
         place: Dehcho Region, Northwest Territories
     states:
-    - Canada
+      Canada: {}
   '1':
     hexes:
       821247fffffffff:
@@ -855,65 +855,65 @@
       821277fffffffff:
         place: Wood Buffalo, Alberta
     states:
-    - Canada
+      Canada: {}
   '2':
     hexes:
       821287fffffffff:
         place: Area C (Butedale/Kitlope/Kitsumkalum), British Columbia
         states:
-        - Canada
+          Canada: {}
       82128ffffffffff:
         place: Area J (West Chilcotin), British Columbia
         states:
-        - Canada
+          Canada: {}
       82129ffffffffff:
         place: Area A (Ocean Falls/Outer Coast), British Columbia
         states:
-        - Canada
+          Canada: {}
       8212a7fffffffff:
         place: Area A (Nass Valley/Bell Irving), British Columbia
         states:
-        - Canada
+          Canada: {}
       8212affffffffff:
         place: Area C (Stuart Lake/Omineca Valley), British Columbia
         states:
-        - Canada
+          Canada: {}
       8212b7fffffffff:
         place: Ketchikan Gateway Borough, Alaska
         states:
-        - state: USA
-          begin: 1867
+          USA:
+            begin: 1867
   '3':
     hexes:
       8212c7fffffffff:
         place: Area A (Kicking Horse/Kinbasket Lake), British Columbia
         states:
-        - Canada
+          Canada: {}
       8212cffffffffff:
         place: Municipal District of Willow Creek No. 26, AB T0L 0Z0
         states:
-        - Canada
+          Canada: {}
       8212d7fffffffff:
         place: Area J (Copper Desert Country), British Columbia
         states:
-        - Canada
+          Canada: {}
       8212dffffffffff:
         place: Pend Oreille County, Washington
         states:
-        - USA
+          USA: {}
       8212e7fffffffff:
         place: Woodlands County, Alberta
         states:
-        - Canada
+          Canada: {}
       8212effffffffff:
         place: County of Stettler, AB
         states:
-        - Canada
+          Canada: {}
       8212f7fffffffff:
         place: Area H (Robson Valley/Canoe), BC
         states:
-        - Canada
-    states: []
+          Canada: {}
+    states: {}
   '4':
     hexes:
       821307fffffffff:
@@ -931,7 +931,7 @@
       821337fffffffff:
         place: Sahtu Region, Northwest Territories
     states:
-    - Canada
+      Canada: {}
   '5':
     hexes:
       821347fffffffff:
@@ -949,7 +949,7 @@
       821377fffffffff:
         place: Kitikmeot Region, Nunavut
     states:
-    - Canada
+      Canada: {}
   '6':
     hexes:
       821387fffffffff:
@@ -967,7 +967,7 @@
       8213b7fffffffff:
         place: Yukon
     states:
-    - Canada
+      Canada: {}
 '10':
   '0':
     hexes:
@@ -986,8 +986,8 @@
       821437fffffffff:
         place: Тындинский муниципальный округ
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '1':
     hexes:
       821447fffffffff:
@@ -1003,40 +1003,40 @@
       821477fffffffff:
         place: Ayano-Maysky Rayon
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '2':
     hexes:
       821487fffffffff:
         place: 沾河林业局, Wudalianchi City
         states:
-        - China
+          China: {}
       82148ffffffffff:
         place: Jewish Autonomous Oblast, 679120
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       821497fffffffff:
         place: Bayan County, Heilongjiang
         states:
-        - China
+          China: {}
       82149ffffffffff:
         place: Heilongjiang, Sifangtai District, Zhenxingzhonglu Subdistrict
         states:
-        - China
+          China: {}
       8214a7fffffffff:
         place: Hulunbuir, Oroqen Autonomous Banner
         states:
-        - China
+          China: {}
       8214affffffffff:
         place: Romnensky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       8214b7fffffffff:
         place: Heilongjiang, Fuyu County, Youyi
         states:
-        - China
+          China: {}
   '3':
     hexes:
       8214c7fffffffff:
@@ -1052,8 +1052,8 @@
       8214f7fffffffff:
         place: Verkhnebureinsky District
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '4':
     hexes:
       821507fffffffff:
@@ -1071,8 +1071,8 @@
       821537fffffffff:
         place: Межселенные территории, Severo-Baykalsky Rayon
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '5':
     hexes:
       821547fffffffff:
@@ -1090,41 +1090,41 @@
       821577fffffffff:
         place: Туойдахский наслег, Suntarsky Ulus
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '6':
     hexes:
       821587fffffffff:
         place: Alexandrovo-Zavodsky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       82158ffffffffff:
         place: Hulunbuir, Genhe City
         states:
-        - China
+          China: {}
       821597fffffffff:
         place: New Barag Right Banner, Inner Mongolia
         states:
-        - China
+          China: {}
       82159ffffffffff:
         place: Hulunbuir, Yakeshi City
         states:
-        - China
+          China: {}
       8215a7fffffffff:
         place: Шишкинское сельское поселение, Chitinsky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       8215affffffffff:
         place: Zabaykalsky Krai, 673478
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       8215b7fffffffff:
         place: Dashbalbar
         states:
-        - Mongolia
+          Mongolia: {}
 '11':
   '0':
     hexes:
@@ -1133,8 +1133,8 @@
       821637fffffffff:
         place: Kamchatka Krai
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '4':
     hexes:
       821707fffffffff:
@@ -1146,8 +1146,8 @@
       821737fffffffff:
         place: Magadan Oblast
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '5':
     hexes:
       821747fffffffff:
@@ -1159,15 +1159,15 @@
       821777fffffffff:
         place: Penzhinsky District, Russia
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
   '6':
     hexes:
       82178ffffffffff:
         place: Sea of Okhotsk
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
 '12':
   '0':
     hexes:
@@ -1176,8 +1176,8 @@
       82182ffffffffff:
         place: County Wexford
     states:
-    - Ireland
-    - UK
+      Ireland: {}
+      UK: {}
   '1':
     hexes:
       82184ffffffffff:
@@ -1187,43 +1187,43 @@
       82186ffffffffff:
         place: Champagné-Saint-Hilaire
     states:
-    - France
+      France: {}
   '4':
     hexes:
       82190ffffffffff:
         place: Galmisdale
     states:
-    - UK
+      UK: {}
   '5':
     hexes:
       821947fffffffff:
         place: England
         states:
-        - UK
+          UK: {}
       82194ffffffffff:
         place: Metropolitan France
         states:
-        - France
+          France: {}
       821957fffffffff:
         place: Isle of Man
         states:
-        - UK
+          UK: {}
       82195ffffffffff:
         place: Aylburton
         states:
-        - UK
+          UK: {}
       821977fffffffff:
         place: North Sea
         states:
-        - UK
+          UK: {}
 '13':
   '4':
     hexes:
       821b27fffffffff:
         place: Kujalleq, Greenland
     states:
-    - state: Denmark
-      begin: 1721
+      Denmark:
+        begin: 1721
   '6':
     hexes:
       821b87fffffffff:
@@ -1235,214 +1235,214 @@
       821bb7fffffffff:
         place: Labrador, Newfoundland and Labrador
     states:
-    - Canada
+      Canada: {}
 '15':
   '0':
     hexes:
       821e07fffffffff:
         place: Horné Naštice
         states:
-        - Slovakia
-        - Czechoslovakia
+          Slovakia: {}
+          Czechoslovakia: {}
       821e0ffffffffff:
         place: Nagyecsed
         states:
-        - Hungary
+          Hungary: {}
       821e17fffffffff:
         place: Deutschlandsberg, Bezirk Deutschlandsberg
         states:
-        - Austria
+          Austria: {}
       821e1ffffffffff:
         place: Ridjica, West Backa Administrative District
         states:
-        - Serbia
-        - Yugoslavia
+          Serbia: {}
+          Yugoslavia: {}
       821e27fffffffff:
         place: Olszówka
         states:
-        - Poland
+          Poland: {}
       821e2ffffffffff:
         place: Jana Pawła II,  Stale
         states:
-        - Poland
+          Poland: {}
       821e37fffffffff:
         place: 83, 398 04 Králova Lhota
         states:
-        - Czechia
-        - Czechoslovakia
+          Czechia: {}
+          Czechoslovakia: {}
   '1':
     hexes:
       821e47fffffffff:
         place: Haivoron Urban Hromada, Holovanivsk Raion
         states:
-        - Ukraine
-        - USSR
+          Ukraine: {}
+          USSR: {}
       821e4ffffffffff:
         place: Velyka Lepetykha settlement hromada, Kakhovka Raion
         states:
-        - Ukraine
-        - USSR
+          Ukraine: {}
+          USSR: {}
       821e57fffffffff:
         place: Mastacăn
         states:
-        - Romania
+          Romania: {}
       821e67fffffffff:
         place: Kyiv Oblast
         states:
-        - Ukraine
-        - USSR
+          Ukraine: {}
+          USSR: {}
       821e6ffffffffff:
         place: Великобагачанська селищна громада, Myrhorod Raion
         states:
-        - Ukraine
-        - USSR
+          Ukraine: {}
+          USSR: {}
       821e77fffffffff:
         place: Ternopil Oblast
         states:
-        - Ukraine
-        - USSR
+          Ukraine: {}
+          USSR: {}
   '2':
     hexes:
       821e87fffffffff:
         place: Cascate di Rioscuro, Cineto Romano RM
         states:
-        - Italy
+          Italy: {}
       821e8ffffffffff:
         place: Italy
         states:
-        - Italy
+          Italy: {}
       821ea7fffffffff:
         place: Via del Mare, Massa Fiscaglia FE
         states:
-        - Italy
+          Italy: {}
       821eaffffffffff:
         place: Općina Ervenik
         states:
-        - Croatia
-        - Yugoslavia
+          Croatia: {}
+          Yugoslavia: {}
   '3':
     hexes:
       821ec7fffffffff:
         place: Kostenets
         states:
-        - Bulgaria
+          Bulgaria: {}
       821ecffffffffff:
         place: Tarla Yolu, Süleymanpaşa
         states:
-        - Turkey
+          Turkey: {}
       821ed7fffffffff:
         place: Bashkia Kolonjë
         states:
-        - Albania
+          Albania: {}
       821edffffffffff:
         place: Greece
         states:
-        - Greece
+          Greece: {}
       821ee7fffffffff:
         place: Sănătești
         states:
-        - Romania
+          Romania: {}
       821eeffffffffff:
         place: Dobrotitsa, Sitovo
         states:
-        - Bulgaria
+          Bulgaria: {}
       821ef7fffffffff:
         place: Махалска, Sjenica Municipality
         states:
-        - Serbia
-        - Yugoslavia
+          Serbia: {}
+          Yugoslavia: {}
   '4':
     hexes:
       821f07fffffffff:
         place: Baltic Sea
         states:
-        - Germany
+          Germany: {}
       821f0ffffffffff:
         place: Czechy
         states:
-        - Poland
+          Poland: {}
       821f17fffffffff:
         place: Rickerstraße 24, 49419 Ströhen
         states:
-        - Germany
+          Germany: {}
       821f1ffffffffff:
         place: Grüna, Brandenburg
         states:
-        - Germany
+          Germany: {}
       821f27fffffffff:
         place: Kattegat
         states:
-        - Denmark
+          Denmark: {}
       821f2ffffffffff:
         place: Karlskrona kommun
         states:
-        - Sweden
+          Sweden: {}
   '5':
     hexes:
       821f47fffffffff:
         place: Elektrėnų g., 21332 Musteniai
         states:
-        - Lithuania
-        - USSR
+          Lithuania: {}
+          USSR: {}
       821f4ffffffffff:
         place: Капланецкі сельскі Савет, Byerazino District
         states:
-        - Belarus
-        - USSR
+          Belarus: {}
+          USSR: {}
       821f57fffffffff:
         place: Jednorożec
         states:
-        - Poland
+          Poland: {}
       821f5ffffffffff:
         place: Brest Region, Драгічынскі сельскі Савет
         states:
-        - Belarus
-        - USSR
+          Belarus: {}
+          USSR: {}
       821f67fffffffff:
         place: Latvia
         states:
-        - Latvia
-        - USSR
+          Latvia: {}
+          USSR: {}
       821f6ffffffffff:
         place: Себежское сельское поселение, Sebezhsky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       821f77fffffffff:
         place: Baltic Sea
         states:
-        - Lithuania
-        - USSR
+          Lithuania: {}
+          USSR: {}
   '6':
     hexes:
       821f87fffffffff:
         place: Chemin de Brabant, Cornimont
         states:
-        - France
+          France: {}
       821f8ffffffffff:
         place: Garmisch-Partenkirchen
         states:
-        - Germany
+          Germany: {}
       821f97fffffffff:
         place: Les Chambons
         states:
-        - France
+          France: {}
       821f9ffffffffff:
         place: Alice Castello VC
         states:
-        - Italy
+          Italy: {}
       821fa7fffffffff:
         place: Trixhe aux Minières, Aywaille
         states:
-        - Belgium
+          Belgium: {}
       821faffffffffff:
         place: Alte, Hammelburg
         states:
-        - Germany
+          Germany: {}
       821fb7fffffffff:
         place: Dormelles
         states:
-        - France
+          France: {}
 '16':
   '0':
     hexes:
@@ -1461,211 +1461,211 @@
       822037fffffffff:
         place: Kyzylorda Region
     states:
-    - Kazakhstan
-    - USSR
+      Kazakhstan: {}
+      USSR: {}
   '1':
     hexes:
       822047fffffffff:
         place: Ulan District
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       82204ffffffffff:
         place: Джазаторское сельское поселение, Kosh-Agachsky Rayon
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822057fffffffff:
         place: Alaköl District
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       82205ffffffffff:
         place: Tebkinusan Township, Hoboksar Mongol Autonomous County
         states:
-        - China
+          China: {}
       822067fffffffff:
         place: Altai Krai
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       82206ffffffffff:
         place: Алтайское — Булатово, Altai Krai
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822077fffffffff:
         place: Ақбұлақ ауылдық округі, Zhanasemey District
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
   '2':
     hexes:
       822087fffffffff:
         place: Darwaz-e Bala
         states:
-        - Afghanistan
+          Afghanistan: {}
       82208ffffffffff:
         place: Tagharma Township, Taxkorgan Tajik Autonomous County
         states:
-        - China
+          China: {}
       822097fffffffff:
         place: Kapisa Province
         states:
-        - Afghanistan
+          Afghanistan: {}
       82209ffffffffff:
         place: Dassu Tehsil, Upper Kohistan District
         states:
-        - Pakistan
+          Pakistan: {}
       8220a7fffffffff:
         place: Jizzakh Region
         states:
-        - Uzbekistan
+          Uzbekistan: {}
       8220affffffffff:
         place: Andijan Region
         states:
-        - Uzbekistan
+          Uzbekistan: {}
       8220b7fffffffff:
         place: Uchqizil, Termiz District
         states:
-        - Uzbekistan
+          Uzbekistan: {}
   '3':
     hexes:
       8220c7fffffffff:
         place: Onsu County
         states:
-        - China
+          China: {}
       8220cffffffffff:
         place: Caohu, Luntai County
         states:
-        - China
+          China: {}
       8220d7fffffffff:
         place: Pishan County
         states:
-        - China
+          China: {}
       8220dffffffffff:
         place: Minfeng County
         states:
-        - China
+          China: {}
       8220e7fffffffff:
         place: Enbekshikazakh District
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       8220effffffffff:
         place: 努斯肯布拉克, Nilka County
         states:
-        - China
+          China: {}
       8220f7fffffffff:
         place: Naryn Region
         states:
-        - Kyrgyzstan
+          Kyrgyzstan: {}
   '4':
     hexes:
       822107fffffffff:
         place: Kazakhstan, Aqtöbe region
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       82210ffffffffff:
         place: Amangeldi District
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       822117fffffffff:
         place: Aqtöbe region
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       82211ffffffffff:
         place: Aqtöbe region
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       822127fffffffff:
         place: Бердяшский сельсовет, Zilairsky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       82212ffffffffff:
         place: Николаевское сельское поселение, Varnensky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822137fffffffff:
         place: Aqtöbe region
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
   '5':
     hexes:
       822147fffffffff:
         place: North Kazakhstan Region
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       82214ffffffffff:
         place: Чаинский сельсовет, Kupinsky District, Russia
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822157fffffffff:
         place: Astrakhan District, Kazakhstan
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       82215ffffffffff:
         place: Pavlodar Region, Ekibastuz
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       822167fffffffff:
         place: Tyumen Oblast
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       82216ffffffffff:
         place: Самсоновское сельское поселение, Tarsky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822177fffffffff:
         place: North Kazakhstan Region
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
   '6':
     hexes:
       822187fffffffff:
         place: Republic of Karakalpakstan
         states:
-        - Uzbekistan
+          Uzbekistan: {}
       82218ffffffffff:
         place: Navoiy Region
         states:
-        - Uzbekistan
+          Uzbekistan: {}
       822197fffffffff:
         place: Sakarchage District, Mary Region
         states:
-        - Turkmenistan
+          Turkmenistan: {}
       82219ffffffffff:
         place: Bukhara Region
         states:
-        - Uzbekistan
+          Uzbekistan: {}
       8221a7fffffffff:
         place: Aral Sea, Aral District
         states:
-        - Kazakhstan
+          Kazakhstan: {}
       8221affffffffff:
         place: Kyzylorda Region
         states:
-        - Kazakhstan
+          Kazakhstan: {}
       8221b7fffffffff:
         place: Ruhubelent District
         states:
-        - Turkmenistan
+          Turkmenistan: {}
     states:
-    - USSR
+      USSR: {}
 '18':
   '0':
     hexes:
@@ -1684,37 +1684,37 @@
       822437fffffffff:
         place: Chandmani
     states:
-    - Mongolia
+      Mongolia: {}
   '1':
     hexes:
       822447fffffffff:
         place: Orgon
         states:
-        - Mongolia
+          Mongolia: {}
       82244ffffffffff:
         place: Bayan Tug Sum, Abag Banner
         states:
-        - China
+          China: {}
       822457fffffffff:
         place: Khtanbulag
         states:
-        - Mongolia
+          Mongolia: {}
       82245ffffffffff:
         place: Inner Mongolia, Ulanqab City, 四子王旗脑木更苏木
         states:
-        - China
+          China: {}
       822467fffffffff:
         place: Binder
         states:
-        - Mongolia
+          Mongolia: {}
       82246ffffffffff:
         place: Sukhbaatar
         states:
-        - Mongolia
+          Mongolia: {}
       822477fffffffff:
         place: Tsagaandelger
         states:
-        - Mongolia
+          Mongolia: {}
   '2':
     hexes:
       822487fffffffff:
@@ -1732,7 +1732,7 @@
       8224b7fffffffff:
         place: Mangnai City, Qinghai
     states:
-    - China
+      China: {}
   '3':
     hexes:
       8224c7fffffffff:
@@ -1750,106 +1750,106 @@
       8224f7fffffffff:
         place: Yabrai, Alxa Right Banner
     states:
-    - China
+      China: {}
   '4':
     hexes:
       822507fffffffff:
         place: сумон Дурген, Tandinsky Kozhuun
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       82250ffffffffff:
         place: Ulaan-Uul-Bayanzurkh, Ulaan-Uul
         states:
-        - Mongolia
+          Mongolia: {}
       822517fffffffff:
         place: Myangad
         states:
-        - Mongolia
+          Mongolia: {}
       82251ffffffffff:
         place: Erdenekhairkhan
         states:
-        - Mongolia
+          Mongolia: {}
       822527fffffffff:
         place: Krasnoyarsk Krai
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       82252ffffffffff:
         place: Тофаларское сельское поселение, Nizhneudinsky Rayon
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822537fffffffff:
         place: Tuva Republic
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
   '5':
     hexes:
       822547fffffffff:
         place: Каменское городское поселение, Kabansky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       82254ffffffffff:
         place: Хилогосонское сельское поселение, Khiloksky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822557fffffffff:
         place: Teshig
         states:
-        - Mongolia
+          Mongolia: {}
       82255ffffffffff:
         place: Yeröö
         states:
-        - Mongolia
+          Mongolia: {}
       822567fffffffff:
         place: Чиканское сельское поселение, Жигаловский район
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       82256ffffffffff:
         place: Buryatia
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822577fffffffff:
         place: Тальниковское сельское поселение, Черемховский район
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
   '6':
     hexes:
       822587fffffffff:
         place: Mori Kazakh Autonomous County
         states:
-        - China
+          China: {}
       82258ffffffffff:
         place: Hami, Yiwu County
         states:
-        - China
+          China: {}
       822597fffffffff:
         place: Yuli County
         states:
-        - China
+          China: {}
       82259ffffffffff:
         place: Lopnur, Ruoqiang County
         states:
-        - China
+          China: {}
       8225a7fffffffff:
         place: Fuyun County, Turgun Township
         states:
-        - China
+          China: {}
       8225affffffffff:
         place: Tonkhil
         states:
-        - Mongolia
+          Mongolia: {}
       8225b7fffffffff:
         place: Xinjiang
         states:
-        - China
+          China: {}
 '19':
   '0':
     hexes:
@@ -1868,7 +1868,7 @@
       822637fffffffff:
         place: McPherson County, SD
     states:
-    - USA
+      USA: {}
   '1':
     hexes:
       822647fffffffff:
@@ -1886,7 +1886,7 @@
       822677fffffffff:
         place: Henry County, IA
     states:
-    - USA
+      USA: {}
   '2':
     hexes:
       822687fffffffff:
@@ -1904,7 +1904,7 @@
       8226b7fffffffff:
         place: Sublette County, WY
     states:
-    - USA
+      USA: {}
   '3':
     hexes:
       8226c7fffffffff:
@@ -1922,97 +1922,97 @@
       8226f7fffffffff:
         place: Scott County, KS
     states:
-    - USA
+      USA: {}
   '4':
     hexes:
       822707fffffffff:
         place: Unorganized Division, Manitoba
         states:
-        - Canada
+          Canada: {}
       82270ffffffffff:
         place: Koochiching County, Minnesota
         states:
-        - USA
+          USA: {}
       822717fffffffff:
         place: Unorganized Division
         states:
-        - Canada
+          Canada: {}
       82271ffffffffff:
         place: Walsh County, ND
         states:
-        - USA
+          USA: {}
       822727fffffffff:
         place: Unorganized Kenora District, Ontario
         states:
-        - Canada
+          Canada: {}
       82272ffffffffff:
         place: Unorganized Thunder Bay District, Ontario
         states:
-        - Canada
+          Canada: {}
       822737fffffffff:
         place: Unorganized Division, Manitoba
         states:
-        - Canada
+          Canada: {}
   '5':
     hexes:
       822747fffffffff:
         place: Wisconsin
         states:
-        - USA
+          USA: {}
       82274ffffffffff:
         place: Irving Township, MI
         states:
-        - USA
+          USA: {}
       822757fffffffff:
         place: Sawyer County, WI
         states:
-        - USA
+          USA: {}
       82275ffffffffff:
         place: Madison, WI
         states:
-        - USA
+          USA: {}
       822767fffffffff:
         place: Unorganized North Algoma, Ontario
         states:
-        - Canada
+          Canada: {}
       82276ffffffffff:
         place: Michigan
         states:
-        - USA
+          USA: {}
       822777fffffffff:
         place: Michigan
         states:
-        - USA
+          USA: {}
   '6':
     hexes:
       822787fffffffff:
         place: Garfield County, Montana
         states:
-        - USA
+          USA: {}
       82278ffffffffff:
         place: Harding County, South Dakota
         states:
-        - USA
+          USA: {}
       822797fffffffff:
         place: Chouteau County, Montana
         states:
-        - USA
+          USA: {}
       82279ffffffffff:
         place: Big Horn County, Montana
         states:
-        - USA
+          USA: {}
       8227a7fffffffff:
         place: Pense No. 160, Saskatchewan
         states:
-        - Canada
+          Canada: {}
       8227affffffffff:
         place: Mountrail County, North Dakota
         states:
-        - USA
+          USA: {}
       8227b7fffffffff:
         place: Big Stick, SK
         states:
-        - Canada
+          Canada: {}
 '20':
   '0':
     hexes:
@@ -2023,7 +2023,7 @@
       822837fffffffff:
         place: Solano County, CA
     states:
-    - USA
+      USA: {}
   '2':
     hexes:
       822887fffffffff:
@@ -2041,21 +2041,21 @@
       8228b7fffffffff:
         place: Cassia County, Idaho
     states:
-    - USA
+      USA: {}
   '3':
     hexes:
       8228d7fffffffff:
         place: Snohomish County, Washington
         states:
-        - USA
+          USA: {}
       8228dffffffffff:
         place: Lois Lake/Saltery Bay, BC
         states:
-        - Canada
+          Canada: {}
       8228f7fffffffff:
         place: Portland, OR 97227
         states:
-        - USA
+          USA: {}
   '6':
     hexes:
       822987fffffffff:
@@ -2073,7 +2073,7 @@
       8229b7fffffffff:
         place: Mohave County, Arizona
     states:
-    - USA
+      USA: {}
 '21':
   '0':
     hexes:
@@ -2082,197 +2082,197 @@
       822a37fffffffff:
         place: Ipswich, MA
     states:
-    - USA
+      USA: {}
   '2':
     hexes:
       822a87fffffffff:
         place: Marion County, WV
         states:
-        - USA
+          USA: {}
       822a8ffffffffff:
         place: Pittsylvania County, VA
         states:
-        - USA
+          USA: {}
       822a97fffffffff:
         place: Champaign County, OH
         states:
-        - USA
+          USA: {}
       822a9ffffffffff:
         place: Floyd County, KY
         states:
-        - USA
+          USA: {}
       822aa7fffffffff:
         place: Elk Township, PA
         states:
-        - USA
+          USA: {}
       822aaffffffffff:
         place: Edgewater, MD
         states:
-        - USA
+          USA: {}
       822ab7fffffffff:
         place: Southwestern Ontario, Ontario
         states:
-        - Canada
+          Canada: {}
   '3':
     hexes:
       822ad7fffffffff:
         place: Pender County, NC 28478
     states:
-    - USA
+      USA: {}
   '4':
     hexes:
       822b17fffffffff:
         place: Rivière-Verte Parish, New Brunswick
         states:
-        - Canada
+          Canada: {}
       822b1ffffffffff:
         place: Jonesport, ME
         states:
-        - USA
+          USA: {}
   '6':
     hexes:
       822b87fffffffff:
         place: Saint-Aimé-du-Lac-des-Îles, Quebec
         states:
-        - Canada
+          Canada: {}
       822b8ffffffffff:
         place: Hamilton County, NY
         states:
-        - USA
+          USA: {}
       822b97fffffffff:
         place: Temagami, Ontario
         states:
-        - Canada
+          Canada: {}
       822b9ffffffffff:
         place: Kawartha Lakes, ON
         states:
-        - Canada
+          Canada: {}
       822ba7fffffffff:
         place: Sainte-Hedwidge, QC
         states:
-        - Canada
+          Canada: {}
       822baffffffffff:
         place: Bury, QC
         states:
-        - Canada
+          Canada: {}
       822bb7fffffffff:
         place: Jamésie, Quebec
         states:
-        - Canada
+          Canada: {}
 '22':
   '0':
     hexes:
       822c07fffffffff:
         place: 04400 Doğubayazıt
         states:
-        - Turkey
+          Turkey: {}
       822c0ffffffffff:
         place: Sheki District
         states:
-        - Azerbaijan
+          Azerbaijan: {}
       822c17fffffffff:
         place: میرگێ, Akre District
         states:
-        - Iraq
+          Iraq: {}
       822c1ffffffffff:
         place: دهستان ابرغان, Sarab County
         states:
-        - Iran
+          Iran: {}
       822c27fffffffff:
         place: Rize
         states:
-        - Turkey
+          Turkey: {}
       822c2ffffffffff:
         place: Dzau District, South Ossetia
         states:
-        - Georgia
+          Georgia: {}
       822c37fffffffff:
         place: Kulp
         states:
-        - Turkey
+          Turkey: {}
   '1':
     hexes:
       822c47fffffffff:
         place: Buzachi Peninsula, Mangystau Sub-district
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       822c4ffffffffff:
         place: Kazakhstan, Mangystau Region
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       822c5ffffffffff:
         place: Qaraqïya Sub-district
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
       822c67fffffffff:
         place: ООО «Газпром добыча Астрахань», Krasnoyarsky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822c6ffffffffff:
         place: Есбол ауылдық округі, Makhambet Sub-district
         states:
-        - Kazakhstan
-        - USSR
+          Kazakhstan: {}
+          USSR: {}
   '2':
     hexes:
       822c87fffffffff:
         place: Western Ali Central Subdistrict, Western Ali District, Iraq
         states:
-        - Iraq
+          Iraq: {}
       822c8ffffffffff:
         place: Lorestan Province, Iran
         states:
-        - Iran
+          Iran: {}
       822c97fffffffff:
         place: Al-Basra Governorate, 61005, Iraq
         states:
-        - Iraq
+          Iraq: {}
       822c9ffffffffff:
         place: دهستان چاه سالم, Omidieh County, Iran
         states:
-        - Iran
+          Iran: {}
       822ca7fffffffff:
         place: Ubayd Yusif, Dujail District, Iraq
         states:
-        - Iraq
+          Iraq: {}
       822caffffffffff:
         place: Kurdistan Province, Iran
         states:
-        - Iran
+          Iran: {}
       822cb7fffffffff:
         place: Al-Shabaka Subdistrict, Al-Najaf District, Iraq
         states:
-        - Iraq
+          Iraq: {}
   '3':
     hexes:
       822cc7fffffffff:
         place: Caspian Sea
         states:
-        - Iran
+          Iran: {}
       822ccffffffffff:
         place: North Khorasan Province
         states:
-        - Iran
+          Iran: {}
       822cd7fffffffff:
         place: دهستان لاسگرد, Sorkheh County
         states:
-        - Iran
+          Iran: {}
       822cdffffffffff:
         place: دهستان بیارجمند, Shahrud County
         states:
-        - Iran
+          Iran: {}
       822ceffffffffff:
         place: Turkmenbashy District
         states:
-        - Turkmenistan
+          Turkmenistan: {}
       822cf7fffffffff:
         place: West Basharyat RD, Abyek County
         states:
-        - Iran
+          Iran: {}
   '4':
     hexes:
       822d07fffffffff:
@@ -2284,70 +2284,70 @@
       822d37fffffffff:
         place: Alpu
     states:
-    - Turkey
+      Turkey: {}
   '5':
     hexes:
       822d47fffffffff:
         place: Краснооктябрьское сельское поселение, Vesyolovsky District, Russia
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822d4ffffffffff:
         place: Bol'shie Chapurniki, Volgograd Oblast
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822d57fffffffff:
         place: Предгорненское сельское поселение, Urupsky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822d5ffffffffff:
         place: Stavropol Krai
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822d67fffffffff:
         place: Shakhove rural hromada, Pokrovskii Raion
         states:
-        - Ukraine
-        - USSR
+          Ukraine: {}
+          USSR: {}
       822d6ffffffffff:
         place: Новолиманское сельское поселение, Petropavlovsky District
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
       822d77fffffffff:
         place: Krasnodar Krai
         states:
-        - Russia
-        - USSR
+          Russia: {}
+          USSR: {}
   '6':
     hexes:
       822d87fffffffff:
         place: Tadmur Subdistrict, Tadmur District
         states:
-        - Syria
+          Syria: {}
       822d8ffffffffff:
         place: As-Suwar Subdistrict
         states:
-        - Syria
+          Syria: {}
       822d97fffffffff:
         place: Al Jawf Region
         states:
-        - Saudi Arabia
+          Saudi Arabia: {}
       822d9ffffffffff:
         place: Al-Nukhayb Subdistrict, Al-Rutba District
         states:
-        - Iraq
+          Iraq: {}
       822daffffffffff:
         place: Karkamış
         states:
-        - Turkey
+          Turkey: {}
       822db7fffffffff:
         place: Nof Harim, Olesh
         states:
-        - Israel
+          Israel: {}
 '23':
   '0':
     hexes:
@@ -2356,7 +2356,7 @@
       822e1ffffffffff:
         place: Unknown
     states:
-    - Japan
+      Japan: {}
   '1':
     hexes:
       822e67fffffffff:
@@ -2366,7 +2366,7 @@
       822e77fffffffff:
         place: Kashiwazaki, Niigata Prefecture
     states:
-    - Japan
+      Japan: {}
   '3':
     hexes:
       822ec7fffffffff:
@@ -2378,27 +2378,27 @@
       822edffffffffff:
         place: Pozharsky District
     states:
-    - Russia
-    - USSR
+      Russia: {}
+      USSR: {}
 '24':
   '0':
     hexes:
       823017fffffffff:
         place: Shandong, Longkou City
         states:
-        - China
+          China: {}
       823027fffffffff:
         place: Liaoning, Haicheng City
         states:
-        - China
+          China: {}
       82302ffffffffff:
         place: North Pyongan
         states:
-        - North Korea
+          North Korea: {}
       823037fffffffff:
         place: Huludao City, Liaoning
         states:
-        - China
+          China: {}
   '2':
     hexes:
       823087fffffffff:
@@ -2412,7 +2412,7 @@
       8230b7fffffffff:
         place: Jiangsu, Feng County
     states:
-    - China
+      China: {}
   '3':
     hexes:
       8230c7fffffffff:
@@ -2422,7 +2422,7 @@
       8230effffffffff:
         place: Gangwon State Samcheok-si
     states:
-    - South Korea
+      South Korea: {}
   '4':
     hexes:
       823107fffffffff:
@@ -2440,29 +2440,29 @@
       823137fffffffff:
         place: Samai Sum, East Ujimqin Banner
     states:
-    - China
+      China: {}
   '5':
     hexes:
       823147fffffffff:
         place: 서두리
         states:
-        - North Korea
+          North Korea: {}
       823157fffffffff:
         place: Dongchang, Binjiang Subdistrict
         states:
-        - China
+          China: {}
       82315ffffffffff:
         place: Kumya County
         states:
-        - North Korea
+          North Korea: {}
       823167fffffffff:
         place: Muling City
         states:
-        - China
+          China: {}
       823177fffffffff:
         place: Jilin, Fengman District
         states:
-        - China
+          China: {}
   '6':
     hexes:
       823187fffffffff:
@@ -2480,121 +2480,121 @@
       8231b7fffffffff:
         place: Inner Mongolia, Horinger County, Hohhot City
     states:
-    - China
+      China: {}
 '28':
   '0':
     hexes:
       823807fffffffff:
         place: El Biod, Mecheria District
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       82380ffffffffff:
         place: Kheneg, Aïn Madhi District
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       823817fffffffff:
         place: Kenadsa
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       82381ffffffffff:
         place: Lebnoud, El Abiodh Sidi Cheikh District
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       82382ffffffffff:
         place: Beni Bouattab, El Karimia District
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       823837fffffffff:
         place: Galdamane, Cercle de Taza دائرة تازة
         states:
-        - Morocco
+          Morocco: {}
   '1':
     hexes:
       823847fffffffff:
         place: الطريق الوطنية قابس - بوشبكة, Kasserine
         states:
-        - Tunisia
+          Tunisia: {}
       823857fffffffff:
         place: El Hadjira
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       82385ffffffffff:
         place: رمادة الغربية
         states:
-        - Tunisia
+          Tunisia: {}
       823877fffffffff:
         place: Guernini
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
   '2':
     hexes:
       823887fffffffff:
         place: Reggane
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       82388ffffffffff:
         place: Reggane
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       823897fffffffff:
         place: Tombouctou Cercle, Mali
         states:
-        - Mali
+          Mali: {}
       82389ffffffffff:
         place: Bordj Badji Mokhtar
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       8238a7fffffffff:
         place: Oum el Assel
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       8238affffffffff:
         place: Tsabit
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       8238b7fffffffff:
         place: Tinduf, Tinduf Disctrict
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
   '3':
     hexes:
       8238c7fffffffff:
@@ -2612,43 +2612,43 @@
       8238f7fffffffff:
         place: Timokten, Adrar
     states:
-    - Algeria
+      Algeria: {}
   '4':
     hexes:
       823907fffffffff:
         place: Camino del Vaqueril, Brozas
         states:
-        - Spain
+          Spain: {}
       82390ffffffffff:
         place: Autovía de los Viñedos, Tomelloso
         states:
-        - Spain
+          Spain: {}
       823917fffffffff:
         place: Lagos, Faro, Portugal
         states:
-        - Portugal
+          Portugal: {}
       82391ffffffffff:
         place: 16692 Setenil de las Bodegas
         states:
-        - Spain
+          Spain: {}
       823927fffffffff:
         place: Pena Redonda, Galicia
         states:
-        - Spain
+          Spain: {}
       82392ffffffffff:
         place: Camino de Soto a las Derrumbadas,  Soto de Cerrato
         states:
-        - Spain
+          Spain: {}
   '5':
     hexes:
       823967fffffffff:
         place: Allée de Panayrac, Drémil-Lafage
         states:
-        - France
+          France: {}
       823977fffffffff:
         place: Camino a la Ermita de la Virgen de la Magdalena, Mediana de Aragón
         states:
-        - Spain
+          Spain: {}
   '6':
     hexes:
       823987fffffffff:
@@ -2662,77 +2662,77 @@
       8239affffffffff:
         place: North Atlantic Ocean
     states:
-    - Morocco
+      Morocco: {}
 '30':
   '0':
     hexes:
       823c07fffffffff:
         place: Menpu, Nyalam County
         states:
-        - China
+          China: {}
       823c0ffffffffff:
         place: Kangmar County, Tibet
         states:
-        - China
+          China: {}
       823c17fffffffff:
         place: Raghunathpur
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       823c1ffffffffff:
         place: Bihar
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       823c27fffffffff:
         place: Drongpa County, Tibet
         states:
-        - China
+          China: {}
       823c2ffffffffff:
         place: Drowa, Nyima County
         states:
-        - China
+          China: {}
       823c37fffffffff:
         place: Galkot Dhuri, Rolpa
         states:
-        - Nepal
+          Nepal: {}
   '1':
     hexes:
       823c47fffffffff:
         place: Banbar County, Tibet
         states:
-        - China
+          China: {}
       823c4ffffffffff:
         place: Zhag'yab County, Tibet
         states:
-        - China
+          China: {}
       823c57fffffffff:
         place: Nyeme Township, Lhuntse Conty
         states:
-        - China
+          China: {}
       823c5ffffffffff:
         place: Hunli SDO
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       823c67fffffffff:
         place: Nyainrong County, Tibet
         states:
-        - China
+          China: {}
       823c6ffffffffff:
         place: Ratö, Yushu City
         states:
-        - China
+          China: {}
       823c77fffffffff:
         place: Lhasa, Damxung County
         states:
-        - China
+          China: {}
   '2':
     hexes:
       823c87fffffffff:
@@ -2748,78 +2748,78 @@
       823cb7fffffffff:
         place: Chhattisgarh
     states:
-    - India
-    - state: UK
-      begin: 1858
-      end: 1947
+      India: {}
+      UK:
+        begin: 1858
+        end: 1947
   '3':
     hexes:
       823cc7fffffffff:
         place: Rangamati Hill District
         states:
-        - Bangladesh
+          Bangladesh: {}
       823ccffffffffff:
         place: In Gyin Myaing, Kanbalu District
         states:
-        - Myanmar
+          Myanmar: {}
       823cdffffffffff:
         place: Rakhine
         states:
-        - Myanmar
+          Myanmar: {}
       823ce7fffffffff:
         place: Dudhnai, Assam
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       823ceffffffffff:
         place: Tsiemekhuma, Botsa
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       823cf7fffffffff:
         place: Jhenaidah District
         states:
-        - Bangladesh
+          Bangladesh: {}
   '4':
     hexes:
       823d07fffffffff:
         place: Rutog Township, Rutog County
         states:
-        - China
+          China: {}
       823d0ffffffffff:
         place: Shenchen, Gêrzê County
         states:
-        - China
+          China: {}
       823d17fffffffff:
         place: Mach, Himachal Pradesh
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       823d1ffffffffff:
         place: Darchen, Purang County
         states:
-        - China
+          China: {}
       823d27fffffffff:
         place: Xinjiang, Kargilik County
         states:
-        - China
+          China: {}
       823d2ffffffffff:
         place: Chira County
         states:
-        - China
+          China: {}
       823d37fffffffff:
         place: taddi, Doda
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
   '5':
     hexes:
       823d47fffffffff:
@@ -2837,7 +2837,7 @@
       823d77fffffffff:
         place: Minfeng County
     states:
-    - China
+      China: {}
   '6':
     hexes:
       823d87fffffffff:
@@ -2855,131 +2855,131 @@
       823db7fffffffff:
         place: Nanodiya, Rajasthan
     states:
-    - India
-    - state: UK
-      begin: 1858
-      end: 1947
+      India: {}
+      UK:
+        begin: 1858
+        end: 1947
 '31':
   '0':
     hexes:
       823e07fffffffff:
         place: Al Wahat
         states:
-        - Libya
+          Libya: {}
       823e0ffffffffff:
         place: New Valley
         states:
-        - Egypt
+          Egypt: {}
       823e17fffffffff:
         place: Kufra
         states:
-        - Libya
+          Libya: {}
       823e1ffffffffff:
         place: Kufra
         states:
-        - Libya
+          Libya: {}
       823e27fffffffff:
         place: Derna
         states:
-        - Libya
+          Libya: {}
       823e2ffffffffff:
         place: Matruh
         states:
-        - Egypt
+          Egypt: {}
       823e37fffffffff:
         place: Al Wahat
         states:
-        - Libya
+          Libya: {}
   '1':
     hexes:
       823e47fffffffff:
         place: Asyut
         states:
-        - Egypt
+          Egypt: {}
       823e4ffffffffff:
         place: Red Sea
         states:
-        - Egypt
+          Egypt: {}
       823e57fffffffff:
         place: New Valley
         states:
-        - Egypt
+          Egypt: {}
       823e5ffffffffff:
         place: Aswan
         states:
-        - Egypt
+          Egypt: {}
       823e67fffffffff:
         place: Egypt
         states:
-        - Egypt
+          Egypt: {}
       823e6ffffffffff:
         place: Tabuk Province
         states:
-        - Saudi Arabia
+          Saudi Arabia: {}
       823e77fffffffff:
         place: Giza
         states:
-        - Egypt
+          Egypt: {}
   '2':
     hexes:
       823e87fffffffff:
         place: Tibesti, Chad
         states:
-        - Chad
+          Chad: {}
       823e8ffffffffff:
         place: Ennedi-Ouest
         states:
-        - Chad
+          Chad: {}
       823e97fffffffff:
         place: Tibesti
         states:
-        - Chad
+          Chad: {}
       823e9ffffffffff:
         place: Borkou
         states:
-        - Chad
+          Chad: {}
       823ea7fffffffff:
         place: Murzuq
         states:
-        - Libya
+          Libya: {}
       823eaffffffffff:
         place: Kufra
         states:
-        - Libya
+          Libya: {}
       823eb7fffffffff:
         place: Tibesti
         states:
-        - Chad
+          Chad: {}
   '3':
     hexes:
       823ec7fffffffff:
         place: Northern State, Sudan
         states:
-        - Sudan
+          Sudan: {}
       823ecffffffffff:
         place: Northern State
         states:
-        - Sudan
+          Sudan: {}
       823ed7fffffffff:
         place: Mellit
         states:
-        - Sudan
+          Sudan: {}
       823edffffffffff:
         place: Mellit
         states:
-        - Sudan
+          Sudan: {}
       823ee7fffffffff:
         place: New Valley
         states:
-        - Egypt
+          Egypt: {}
       823eeffffffffff:
         place: New Valley
         states:
-        - Egypt
+          Egypt: {}
       823ef7fffffffff:
         place: Kufra
         states:
-        - Libya
+          Libya: {}
   '5':
     hexes:
       823f67fffffffff:
@@ -2987,7 +2987,7 @@
       823f6ffffffffff:
         place: Manavgat
     states:
-    - Turkey
+      Turkey: {}
   '6':
     hexes:
       823f87fffffffff:
@@ -3005,7 +3005,7 @@
       823fb7fffffffff:
         place: Nalut
     states:
-    - Libya
+      Libya: {}
 '32':
   '0':
     hexes:
@@ -3024,37 +3024,37 @@
       824037fffffffff:
         place: Hunan, Changning
     states:
-    - China
+      China: {}
   '1':
     hexes:
       824047fffffffff:
         place: Yunnan, Xiangyun County
         states:
-        - China
+          China: {}
       82404ffffffffff:
         place: Myitkyina Township, Myitkyina District
         states:
-        - Myanmar
+          Myanmar: {}
       824057fffffffff:
         place: Puge County, Xianfeng
         states:
-        - China
+          China: {}
       82405ffffffffff:
         place: Dêqên County, Yunnan
         states:
-        - China
+          China: {}
       824067fffffffff:
         place: Banpo, Lüchun County
         states:
-        - China
+          China: {}
       82406ffffffffff:
         place: Meungmau
         states:
-        - Myanmar
+          Myanmar: {}
       824077fffffffff:
         place: Luoping County, Yunnan
         states:
-        - China
+          China: {}
   '2':
     hexes:
       824087fffffffff:
@@ -3072,7 +3072,7 @@
       8240b7fffffffff:
         place: Xincai County, Yueliangwan Subdistrict
     states:
-    - China
+      China: {}
   '3':
     hexes:
       8240c7fffffffff:
@@ -3090,7 +3090,7 @@
       8240f7fffffffff:
         place: Zhengzhi, Nanjiang County
     states:
-    - China
+      China: {}
   '4':
     hexes:
       82410ffffffffff:
@@ -3100,25 +3100,25 @@
       82411ffffffffff:
         place: Guangdong Province, Conghua District
     states:
-    - China
+      China: {}
   '5':
     hexes:
       82414ffffffffff:
         place: Nakout, Hiam District
         states:
-        - Laos
+          Laos: {}
       824157fffffffff:
         place: Qinzhou, Jianshan Sub-district
         states:
-        - China
+          China: {}
       82415ffffffffff:
         place: Na Hang, Tuyên Quang Province
         states:
-        - Vietnam
+          Vietnam: {}
       82416ffffffffff:
         place: Pakpeng, Thakhek District
         states:
-        - Laos
+          Laos: {}
   '6':
     hexes:
       824187fffffffff:
@@ -3136,100 +3136,100 @@
       8241b7fffffffff:
         place: Shuimen, Xiapu County
     states:
-    - China
+      China: {}
 '33':
   '0':
     hexes:
       824207fffffffff:
         place: Buleda Tehsil, Kech District
         states:
-        - Pakistan
+          Pakistan: {}
       82420ffffffffff:
         place: Naal Tehsil, Khuzdar District
         states:
-        - Pakistan
+          Pakistan: {}
       824227fffffffff:
         place: دهستان شیر آباد, Taftan County
         states:
-        - Iran
+          Iran: {}
       82422ffffffffff:
         place: Dalbandin Tehsil, Chagai District
         states:
-        - Pakistan
+          Pakistan: {}
       824237fffffffff:
         place: دهستان تنگ, Konarak County
         states:
-        - Iran
+          Iran: {}
   '1':
     hexes:
       824247fffffffff:
         place: Dera Ghazi Khan Tehsil, Dera Ghazi Khan
         states:
-        - Pakistan
+          Pakistan: {}
       82424ffffffffff:
         place: Jandwala Kharta, Punjab
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       824257fffffffff:
         place: Saleh Pat Taluka, Sukkur District
         states:
-        - Pakistan
+          Pakistan: {}
       82425ffffffffff:
         place: Raoneri - 334302, Rajasthan
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       824267fffffffff:
         place: Waza Khwa
         states:
-        - Afghanistan
+          Afghanistan: {}
       82426ffffffffff:
         place: Dhok Babral
         states:
-        - Pakistan
+          Pakistan: {}
       824277fffffffff:
         place: Balochistan
         states:
-        - Pakistan
+          Pakistan: {}
   '3':
     hexes:
       8242c7fffffffff:
         place: Jodiya - 361250, Gujarat
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       8242cffffffffff:
         place: Balasinor - 388255, Gujarat
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       8242dffffffffff:
         place: India
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
       8242e7fffffffff:
         place: Mirpur Bathoro 73030
         states:
-        - Pakistan
+          Pakistan: {}
       8242effffffffff:
         place: Rajasthan
         states:
-        - India
-        - state: UK
-          begin: 1858
-          end: 1947
+          India: {}
+          UK:
+            begin: 1858
+            end: 1947
   '4':
     hexes:
       824307fffffffff:
@@ -3247,67 +3247,67 @@
       824337fffffffff:
         place: دهستان آویز, Farashband County
     states:
-    - Iran
+      Iran: {}
   '5':
     hexes:
       824347fffffffff:
         place: Adraskan
         states:
-        - Afghanistan
+          Afghanistan: {}
       82434ffffffffff:
         place: Ghor Province
         states:
-        - Afghanistan
+          Afghanistan: {}
       824357fffffffff:
         place: Sistan and Baluchestan Province
         states:
-        - Iran
+          Iran: {}
       82435ffffffffff:
         place: Maywand
         states:
-        - Afghanistan
+          Afghanistan: {}
       824367fffffffff:
         place: Razavi Khorasan
         states:
-        - Iran
+          Iran: {}
       82436ffffffffff:
         place: Turkmengala District
         states:
-        - Turkmenistan
+          Turkmenistan: {}
       824377fffffffff:
         place: دهستان فشارود, Birjand County
         states:
-        - Iran
+          Iran: {}
   '6':
     hexes:
       824387fffffffff:
         place: Ad Dhahirah Governorate
         states:
-        - Oman
+          Oman: {}
       82438ffffffffff:
         place: Muscat Governorate
         states:
-        - Oman
+          Oman: {}
       824397fffffffff:
         place: Al Wusta Governorate
         states:
-        - Oman
+          Oman: {}
       82439ffffffffff:
         place: Al Wusta Governorate
         states:
-        - Oman
+          Oman: {}
       8243a7fffffffff:
         place: Abu Dhabi
         states:
-        - United Arab Emirates
+          United Arab Emirates: {}
       8243affffffffff:
         place: Gulf of Oman
         states:
-        - United Arab Emirates
+          United Arab Emirates: {}
       8243b7fffffffff:
         place: Saudi Arabia
         states:
-        - Saudi Arabia
+          Saudi Arabia: {}
 '34':
   '1':
     hexes:
@@ -3322,13 +3322,13 @@
       82446ffffffffff:
         place: Polk County, TX
     states:
-    - USA
+      USA: {}
   '2':
     hexes:
       8244affffffffff:
         place: Indian River County, Florida
     states:
-    - USA
+      USA: {}
   '3':
     hexes:
       8244c7fffffffff:
@@ -3346,32 +3346,32 @@
       8244f7fffffffff:
         place: Jacksonville, FL
     states:
-    - USA
+      USA: {}
   '4':
     hexes:
       82450ffffffffff:
         place: Tziui, Tixcacalcupul
         states:
-        - Mexico
+          Mexico: {}
       824527fffffffff:
         place: Quimistán
         states:
-        - Honduras
+          Honduras: {}
       82452ffffffffff:
         place: Calakmul
         states:
-        - Mexico
+          Mexico: {}
       824537fffffffff:
         place: San Esteban
         states:
-        - Honduras
-    states: []
+          Honduras: {}
+    states: {}
   '6':
     hexes:
       824597fffffffff:
         place: Manzanillo, Granma
     states:
-    - Cuba
+      Cuba: {}
 '36':
   '0':
     hexes:
@@ -3384,7 +3384,7 @@
       824837fffffffff:
         place: Unknown
     states:
-    - Mexico
+      Mexico: {}
   '1':
     hexes:
       824857fffffffff:
@@ -3392,67 +3392,67 @@
       82485ffffffffff:
         place: Municipio de Mexicali
     states:
-    - Mexico
+      Mexico: {}
   '2':
     hexes:
       824887fffffffff:
         place: Webb County, TX
         states:
-        - USA
+          USA: {}
       82488ffffffffff:
         place: Terrell County, Texas
         states:
-        - USA
+          USA: {}
       824897fffffffff:
         place: United States
         states:
-        - USA
+          USA: {}
       82489ffffffffff:
         place: Burnet County, Texas
         states:
-        - USA
+          USA: {}
       8248a7fffffffff:
         place: Saltillo
         states:
-        - Mexico
+          Mexico: {}
       8248affffffffff:
         place: Ejido Zenzontle, Ocampo
         states:
-        - Mexico
+          Mexico: {}
       8248b7fffffffff:
         place: TAM
         states:
-        - Mexico
+          Mexico: {}
   '3':
     hexes:
       8248c7fffffffff:
         place: Sierra County, New Mexico
         states:
-        - USA
+          USA: {}
       8248cffffffffff:
         place: Navajo County, Arizona
         states:
-        - USA
+          USA: {}
       8248d7fffffffff:
         place: Chaves County, New Mexico
         states:
-        - USA
+          USA: {}
       8248dffffffffff:
         place: Santa Fe County, New Mexico
         states:
-        - USA
+          USA: {}
       8248e7fffffffff:
         place: SON
         states:
-        - Mexico
+          Mexico: {}
       8248effffffffff:
         place: Pima County, AZ
         states:
-        - USA
+          USA: {}
       8248f7fffffffff:
         place: Coyame del Sotol
         states:
-        - Mexico
+          Mexico: {}
   '6':
     hexes:
       824987fffffffff:
@@ -3468,140 +3468,140 @@
       8249b7fffffffff:
         place: Huiziltepec, GRO
     states:
-    - Mexico
+      Mexico: {}
 '37':
   '4':
     hexes:
       824b37fffffffff:
         place: Ningbo, Zhejiang
     states:
-    - China
+      China: {}
 '38':
   '2':
     hexes:
       824c8ffffffffff:
         place: Dominican Republic
     states:
-    - Dominican Republic
+      Dominican Republic: {}
 '41':
   '0':
     hexes:
       825207fffffffff:
         place: Asir Province
         states:
-        - Saudi Arabia
+          Saudi Arabia: {}
       82520ffffffffff:
         place: Najran Region
         states:
-        - Saudi Arabia
+          Saudi Arabia: {}
       82521ffffffffff:
         place: Al Hanu, Al Qaflah District
         states:
-        - Yemen
+          Yemen: {}
       825227fffffffff:
         place: Riyadh Region
         states:
-        - Saudi Arabia
+          Saudi Arabia: {}
       82522ffffffffff:
         place: Riyadh Region
         states:
-        - Saudi Arabia
+          Saudi Arabia: {}
       825237fffffffff:
         place: القريع
         states:
-        - Saudi Arabia
+          Saudi Arabia: {}
   '1':
     hexes:
       825247fffffffff:
         place: Rmah District
         states:
-        - Yemen
+          Yemen: {}
       82524ffffffffff:
         place: Al Mahrah Governorate
         states:
-        - Yemen
+          Yemen: {}
       825257fffffffff:
         place: Al Qaf District
         states:
-        - Yemen
+          Yemen: {}
       82525ffffffffff:
         place: غيضة غوبير, Ar Ribah Wa Qusaiyir District
         states:
-        - Yemen
+          Yemen: {}
       825267fffffffff:
         place: Eastern Province
         states:
-        - Saudi Arabia
+          Saudi Arabia: {}
       82526ffffffffff:
         place: Dhofar Governorate
         states:
-        - Oman
+          Oman: {}
       825277fffffffff:
         place: Najran Region
         states:
-        - Saudi Arabia
+          Saudi Arabia: {}
   '2':
     hexes:
       825287fffffffff:
         place: Wag Hemra Zone, Ethiopia
         states:
-        - Ethiopia
+          Ethiopia: {}
       82528ffffffffff:
         place: 7240 Afar Region
         states:
-        - Ethiopia
+          Ethiopia: {}
       825297fffffffff:
         place: Metekel
         states:
-        - Ethiopia
+          Ethiopia: {}
       82529ffffffffff:
         place: North Shewa (Oromia Region)
         states:
-        - Ethiopia
+          Ethiopia: {}
       8252a7fffffffff:
         place: Keren, Anseba
         states:
-        - Eritrea
+          Eritrea: {}
       8252affffffffff:
         place: Southern Red Sea Region
         states:
-        - Eritrea
+          Eritrea: {}
       8252b7fffffffff:
         place: Kassala State
         states:
-        - Sudan
+          Sudan: {}
   '3':
     hexes:
       8252cffffffffff:
         place: Sanaag
         states:
-        - Somalia
-        - state: Somaliland
-          begin: 2001
+          Somalia: {}
+          Somaliland:
+            begin: 2001
       8252d7fffffffff:
         place: Lughaya District
         states:
-        - Somalia
-        - state: Somaliland
-          begin: 2001
+          Somalia: {}
+          Somaliland:
+            begin: 2001
       8252dffffffffff:
         place: Afweyne, Burao District
         states:
-        - Somalia
-        - state: Somaliland
-          begin: 2001
+          Somalia: {}
+          Somaliland:
+            begin: 2001
       8252e7fffffffff:
         place: Usaylan District
         states:
-        - Yemen
+          Yemen: {}
       8252effffffffff:
         place: Unknown
         states:
-        - Yemen
+          Yemen: {}
       8252f7fffffffff:
         place: Suq al Hamili, Mawza District
         states:
-        - Yemen
+          Yemen: {}
   '4':
     hexes:
       825307fffffffff:
@@ -3619,7 +3619,7 @@
       825337fffffffff:
         place: Saudi Arabia
     states:
-    - Saudi Arabia
+      Saudi Arabia: {}
   '5':
     hexes:
       825347fffffffff:
@@ -3635,450 +3635,450 @@
       825377fffffffff:
         place: Saudi Arabia
     states:
-    - Saudi Arabia
+      Saudi Arabia: {}
   '6':
     hexes:
       825387fffffffff:
         place: Port Sudan, Red Sea State
         states:
-        - Sudan
+          Sudan: {}
       825397fffffffff:
         place: Abu Hamad, River Nile State
         states:
-        - Sudan
+          Sudan: {}
       82539ffffffffff:
         place: Sinkat District, Red Sea State
         states:
-        - Sudan
+          Sudan: {}
       8253a7fffffffff:
         place: Ash Shalatin, Red Sea
         states:
-        - Egypt
+          Egypt: {}
       8253b7fffffffff:
         place: Abu Hamad, River Nile State
         states:
-        - Sudan
+          Sudan: {}
 '42':
   '0':
     hexes:
       825407fffffffff:
         place: Brakna
         states:
-        - Mauritania
+          Mauritania: {}
       82540ffffffffff:
         place: Kayes Cercle
         states:
-        - Mali
+          Mali: {}
       825417fffffffff:
         place: Trarza
         states:
-        - Mauritania
+          Mauritania: {}
       82541ffffffffff:
         place: Ngainthe Pathè
         states:
-        - Senegal
+          Senegal: {}
       825427fffffffff:
         place: Tagant
         states:
-        - Mauritania
+          Mauritania: {}
       82542ffffffffff:
         place: Hodh El Gharbi
         states:
-        - Mauritania
+          Mauritania: {}
       825437fffffffff:
         place: Inchiri
         states:
-        - Mauritania
+          Mauritania: {}
   '1':
     hexes:
       825447fffffffff:
         place: Bananzole, Kati Cercle
         states:
-        - Mali
+          Mali: {}
       82544ffffffffff:
         place: Bagoué
         states:
-        - Côte d'Ivoire
+          Côte d'Ivoire: {}
       825457fffffffff:
         place: Linguékoto
         states:
-        - Mali
+          Mali: {}
       82545ffffffffff:
         place: Kankan Region
         states:
-        - Guinea
+          Guinea: {}
       825467fffffffff:
         place: Niono Cercle
         states:
-        - Mali
+          Mali: {}
       82546ffffffffff:
         place: Karangasso
         states:
-        - Mali
+          Mali: {}
       825477fffffffff:
         place: Tinkare
         states:
-        - Mali
+          Mali: {}
   '3':
     hexes:
       8254e7fffffffff:
         place: Boké Region
         states:
-        - Guinea
+          Guinea: {}
       8254effffffffff:
         place: Tambakha Chiefdom
         states:
-        - Sierra Leone
+          Sierra Leone: {}
   '4':
     hexes:
       825507fffffffff:
         place: Tiris Zemmour
         states:
-        - Mauritania
+          Mauritania: {}
       82550ffffffffff:
         place: Adrar
         states:
-        - Mauritania
+          Mauritania: {}
       825517fffffffff:
         place: Bir Anzarane, Dakhla-Oued Ed-Dahab
         states:
-        - Morocco
+          Morocco: {}
       82551ffffffffff:
         place: >-
           Zuk, Cercle d'Aousserd دائرة أوسرد, Sahrawi Arab Democratic Republic
           (Western Sahara, controlled by Moroccos. Disuputed)
         states:
-        - state: Morocco
-          begin: 1975
+          Morocco:
+            begin: 1975
       825527fffffffff:
         place: >-
           Tifariti, Laâyoune-Sakia El Hamra, Sahrawi Arab Democratic Republic 
           (Western Sahara, controlled by Moroccos. Disuputed)
         states:
-        - state: Morocco
-          begin: 1975
+          Morocco:
+            begin: 1975
       82552ffffffffff:
         place: Tiris Zemmour
         states:
-        - Mauritania
+          Mauritania: {}
       825537fffffffff:
         place: Boucraa, Cercle de Laâyoune دائرة العيون
         states:
-        - Morocco
+          Morocco: {}
   '5':
     hexes:
       825547fffffffff:
         place: Goundam Cercle
         states:
-        - Mali
+          Mali: {}
       82554ffffffffff:
         place: Goundam Cercle
         states:
-        - Mali
+          Mali: {}
       825557fffffffff:
         place: Tagant
         states:
-        - Mauritania
+          Mauritania: {}
       82555ffffffffff:
         place: Hodh Ech Chargui
         states:
-        - Mauritania
+          Mauritania: {}
       825567fffffffff:
         place: Tombouctou Cercle
         states:
-        - Mali
+          Mali: {}
       82556ffffffffff:
         place: Tombouctou Cercle
         states:
-        - Mali
+          Mali: {}
       825577fffffffff:
         place: Hodh Ech Chargui
         states:
-        - Mauritania
+          Mauritania: {}
   '6':
     hexes:
       8255affffffffff:
         place: Bir Gandus
     states:
-    - Morocco
+      Morocco: {}
 '44':
   '0':
     hexes:
       825807fffffffff:
         place: Guidan Soulé
         states:
-        - Niger
+          Niger: {}
       82580ffffffffff:
         place: Toukourous, Magaria
         states:
-        - Niger
+          Niger: {}
       825817fffffffff:
         place: Jega Kokani, Jega
         states:
-        - Nigeria
+          Nigeria: {}
       82581ffffffffff:
         place: Dansoda, Dandume
         states:
-        - Nigeria
+          Nigeria: {}
       825827fffffffff:
         place: Tassara
         states:
-        - Niger
+          Niger: {}
       82582ffffffffff:
         place: Tagdofat, Tchirozérine
         states:
-        - Niger
+          Niger: {}
       825837fffffffff:
         place: Alela
         states:
-        - Niger
+          Niger: {}
   '1':
     hexes:
       825847fffffffff:
         place: Nalé, Kanem
         states:
-        - Chad
+          Chad: {}
       82584ffffffffff:
         place: Bahr el Gazel
         states:
-        - Chad
+          Chad: {}
       825857fffffffff:
         place: Mafa, Yobe
         states:
-        - Nigeria
+          Nigeria: {}
       82585ffffffffff:
         place: Waza, Logone-et-Chari
         states:
-        - Cameroon
+          Cameroon: {}
       825867fffffffff:
         place: N'Gourti
         states:
-        - Niger
+          Niger: {}
       82586ffffffffff:
         place: Kanem
         states:
-        - Chad
+          Chad: {}
       825877fffffffff:
         place: Arkinechili, Tesker
         states:
-        - Niger
+          Niger: {}
   '2':
     hexes:
       825887fffffffff:
         place: Iseyin, Oyo State
         states:
-        - Nigeria
+          Nigeria: {}
       82588ffffffffff:
         place: Afuze, Edo State
         states:
-        - Nigeria
+          Nigeria: {}
       825897fffffffff:
         place: Benin
         states:
-        - Benin
+          Benin: {}
       8258a7fffffffff:
         place: Bédari
         states:
-        - Benin
+          Benin: {}
       8258affffffffff:
         place: Mashegu
         states:
-        - Nigeria
+          Nigeria: {}
       8258b7fffffffff:
         place: Sotouboua
         states:
-        - Togo
+          Togo: {}
   '3':
     hexes:
       8258c7fffffffff:
         place: Bagoni, Bali
         states:
-        - Nigeria
+          Nigeria: {}
       8258cffffffffff:
         place: Nyambaka
         states:
-        - Cameroon
+          Cameroon: {}
       8258d7fffffffff:
         place: Ikom, Cross River State
         states:
-        - Nigeria
+          Nigeria: {}
       8258dffffffffff:
         place: Yoko, Mbam-et-Kim
         states:
-        - Cameroon
+          Cameroon: {}
       8258e7fffffffff:
         place: Nassarawa A, Ganjuwa
         states:
-        - Nigeria
+          Nigeria: {}
       8258effffffffff:
         place: Malabu, Adamawa State
         states:
-        - Nigeria
+          Nigeria: {}
       8258f7fffffffff:
         place: Nasarawa State
         states:
-        - Nigeria
+          Nigeria: {}
   '4':
     hexes:
       825907fffffffff:
         place: Timiaouine, Bordj Badji Mokhtar District
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       82590ffffffffff:
         place: 11130 In Guezzam
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       825917fffffffff:
         place: Bourem Cercle
         states:
-        - Mali
+          Mali: {}
       82591ffffffffff:
         place: Achibogo, Ménaka
         states:
-        - Mali
+          Mali: {}
       825927fffffffff:
         place: 01010 Bordj Badji Mokhtar
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       82592ffffffffff:
         place: Abalessa, Abalessa District
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       825937fffffffff:
         place: Tombouctou Cercle
         states:
-        - Mali
+          Mali: {}
   '5':
     hexes:
       825947fffffffff:
         place: Arlit
         states:
-        - Niger
+          Niger: {}
       82594ffffffffff:
         place: Bilma
         states:
-        - Niger
+          Niger: {}
       825957fffffffff:
         place: Arlit
         states:
-        - Niger
+          Niger: {}
       82595ffffffffff:
         place: Arlit
         states:
-        - Niger
+          Niger: {}
       825967fffffffff:
         place: 33100 Djanet
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
       82596ffffffffff:
         place: Bilma
         states:
-        - Niger
+          Niger: {}
       825977fffffffff:
         place: Tazrouk, Tazrouk District
         states:
-        - Algeria
-        - state: France
-          begin: 1830
-          end: 1962
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
   '6':
     hexes:
       825987fffffffff:
         place: Sanmatenga
         states:
-        - Burkina Faso
+          Burkina Faso: {}
       82598ffffffffff:
         place: Tille, Say
         states:
-        - Niger
+          Niger: {}
       825997fffffffff:
         place: Élinga, Pouni
         states:
-        - Burkina Faso
+          Burkina Faso: {}
       82599ffffffffff:
         place: Yargatenga, Koulpélogo
         states:
-        - Burkina Faso
+          Burkina Faso: {}
       8259a7fffffffff:
         place: Gourma-Rharous Cercle
         states:
-        - Mali
+          Mali: {}
       8259affffffffff:
         place: Ansongo Cercle
         states:
-        - Mali
+          Mali: {}
       8259b7fffffffff:
         place: Benndiéli, Bandiagara Cercle
         states:
-        - Mali
+          Mali: {}
 '47':
   '4':
     hexes:
       825f07fffffffff:
         place: Boven Suriname, Sipaliwini
         states:
-        - Suriname
+          Suriname: {}
       825f0ffffffffff:
         place: West Bank Berbice
         states:
-        - Guyana
+          Guyana: {}
       825f17fffffffff:
         place: Saint-Élie
         states:
-        - France
+          France: {}
       825f27fffffffff:
         place: Oriximiná, Região Geográfica Intermediária de Santarém
         states:
-        - Brazil
+          Brazil: {}
       825f2ffffffffff:
         place: Guyana
         states:
-        - Guyana
+          Guyana: {}
       825f37fffffffff:
         place: Laranjal do Jari, Região Geográfica Intermediária de Macapá
         states:
-        - Brazil
+          Brazil: {}
   '5':
     hexes:
       825f47fffffffff:
         place: Bolivar State
         states:
-        - Venezuela
+          Venezuela: {}
       825f4ffffffffff:
         place: Monagas State
         states:
-        - Venezuela
+          Venezuela: {}
       825f5ffffffffff:
         place: Fecal Dump Road
         states:
-        - Trinidad and Tobago
+          Trinidad and Tobago: {}
       825f67fffffffff:
         place: Parroquia Barceloneta, Municipio Angostura
         states:
-        - Venezuela
+          Venezuela: {}
       825f6ffffffffff:
         place: Parroquia Aripao, Municipio Sucre
         states:
-        - Venezuela
+          Venezuela: {}
       825f77fffffffff:
         place: Karambaru - Kukui River - Pipillipai
         states:
-        - Guyana
+          Guyana: {}
 '48':
   '0':
     hexes:
@@ -4087,10 +4087,10 @@
       826037fffffffff:
         place: Tamil Nadu
     states:
-    - India
-    - state: UK
-      begin: 1858
-      end: 1947
+      India: {}
+      UK:
+        begin: 1858
+        end: 1947
   '2':
     hexes:
       826087fffffffff:
@@ -4108,16 +4108,16 @@
       8260b7fffffffff:
         place: Telangana
     states:
-    - India
-    - state: UK
-      begin: 1858
-      end: 1947
+      India: {}
+      UK:
+        begin: 1858
+        end: 1947
   '4':
     hexes:
       82611ffffffffff:
         place: Laccadive Sea
     states:
-    - Sri Lanka
+      Sri Lanka: {}
   '6':
     hexes:
       82618ffffffffff:
@@ -4125,171 +4125,171 @@
       82619ffffffffff:
         place: Paturu, Andhra Pradesh
     states:
-    - India
-    - state: UK
-      begin: 1858
-      end: 1947
+      India: {}
+      UK:
+        begin: 1858
+        end: 1947
 '49':
   '4':
     hexes:
       826337fffffffff:
         place: Dhofar Governorate
     states:
-    - Oman
+      Oman: {}
   '6':
     hexes:
       826397fffffffff:
         place: Iskushuban
     states:
-    - Somalia
+      Somalia: {}
 '50':
   '2':
     hexes:
       826487fffffffff:
         place: Omkoi, Chiang Mai Province 50310
         states:
-        - Thailand
+          Thailand: {}
       82648ffffffffff:
         place: Thet Nge Kone
         states:
-        - Myanmar
+          Myanmar: {}
       826497fffffffff:
         place: Chiang Saen district, Chiang Saen
         states:
-        - Thailand
+          Thailand: {}
       82649ffffffffff:
         place: Shan State, 06081
         states:
-        - Myanmar
+          Myanmar: {}
       8264a7fffffffff:
         place: Chai Nat Province
         states:
-        - Thailand
+          Thailand: {}
       8264b7fffffffff:
         place: Ban San, Mueang Loei
         states:
-        - Thailand
+          Thailand: {}
   '4':
     hexes:
       826507fffffffff:
         place: 27300, Pahang
         states:
-        - Malaysia
+          Malaysia: {}
       82651ffffffffff:
         place: Ban Khu Nai Sang, Chana
         states:
-        - Thailand
+          Thailand: {}
       826527fffffffff:
         place: Riau Islands
         states:
-        - Indonesia
+          Indonesia: {}
       82652ffffffffff:
         place: Markaung, Northern Padang Lawas
         states:
-        - Indonesia
+          Indonesia: {}
   '6':
     hexes:
       826587fffffffff:
         place: Cambodia
         states:
-        - Cambodia
+          Cambodia: {}
       826597fffffffff:
         place: Siem Pang District
         states:
-        - Cambodia
+          Cambodia: {}
       82659ffffffffff:
         place: Prakhon Chai, Buri Ram Province
         states:
-        - Thailand
+          Thailand: {}
       8265b7fffffffff:
         place: Xã Đức Phổ, Lâm Đồng Province
         states:
-        - Vietnam
+          Vietnam: {}
 '51':
   '0':
     hexes:
       826607fffffffff:
         place: La Esperanza, San Benito Abad
         states:
-        - Colombia
+          Colombia: {}
       82660ffffffffff:
         place: San Gil, SAN
         states:
-        - Colombia
+          Colombia: {}
       82661ffffffffff:
         place: Anocozca, ANT
         states:
-        - Colombia
+          Colombia: {}
       82662ffffffffff:
         place: Parroquia San Carlos, Municipio Colón
         states:
-        - Venezuela
+          Venezuela: {}
   '1':
     hexes:
       826647fffffffff:
         place: Cumaribo, Vichada
         states:
-        - Colombia
+          Colombia: {}
       82664ffffffffff:
         place: Parroquia La Comunidad, Municipio Autónomo Maroa
         states:
-        - Venezuela
+          Venezuela: {}
       826657fffffffff:
         place: 502001 Puerto Gaitán, MET
         states:
-        - Colombia
+          Colombia: {}
       82665ffffffffff:
         place: Pana Pana
         states:
-        - Colombia
+          Colombia: {}
       826667fffffffff:
         place: Parroquia Cunaviche, Municipio Pedro Camejo
         states:
-        - Venezuela
+          Venezuela: {}
       82666ffffffffff:
         place: Parroquia Bajo Ventuari, Municipio Autónomo Manapiare
         states:
-        - Venezuela
+          Venezuela: {}
       826677fffffffff:
         place: Arauca
         states:
-        - Venezuela
+          Venezuela: {}
   '2':
     hexes:
       8266a7fffffffff:
         place: Coclé del Norte, Distrito de Donoso
     states:
-    - Panama
+      Panama: {}
   '3':
     hexes:
       8266c7fffffffff:
         place: Florencia
         states:
-        - Colombia
+          Colombia: {}
       8266cffffffffff:
         place: Puerto Alegría, Amazonas
         states:
-        - Colombia
+          Colombia: {}
       8266d7fffffffff:
         place: Ecuador
         states:
-        - Ecuador
+          Ecuador: {}
       8266dffffffffff:
         place: Curaray, Arajuno
         states:
-        - Ecuador
+          Ecuador: {}
       8266e7fffffffff:
         place: Bogota, RAP (Especial) Central
         states:
-        - Colombia
+          Colombia: {}
       8266effffffffff:
         place: Calamar
         states:
-        - Colombia
+          Colombia: {}
       8266f7fffffffff:
         place: Buenaventura, Pacífico
         states:
-        - Colombia
+          Colombia: {}
   '5':
     hexes:
       82674ffffffffff:
@@ -4299,13 +4299,13 @@
       82675ffffffffff:
         place: Corralito 3305, Portuguesa State
     states:
-    - Venezuela
+      Venezuela: {}
   '6':
     hexes:
       826797fffffffff:
         place: Quiroz, La Cruz de Río Grande
     states:
-    - Nicaragua
+      Nicaragua: {}
 '52':
   '0':
     hexes:
@@ -4314,7 +4314,7 @@
       82681ffffffffff:
         place: Sabah
     states:
-    - Malaysia
+      Malaysia: {}
   '1':
     hexes:
       826847fffffffff:
@@ -4322,43 +4322,43 @@
       82685ffffffffff:
         place: Philippines
     states:
-    - Philippines
+      Philippines: {}
   '2':
     hexes:
       826887fffffffff:
         place: Murung Raya
         states:
-        - Indonesia
+          Indonesia: {}
       82688ffffffffff:
         place: East Kalimantan
         states:
-        - Indonesia
+          Indonesia: {}
       826897fffffffff:
         place: East Kotawaringin
         states:
-        - Indonesia
+          Indonesia: {}
       82689ffffffffff:
         place: Paser
         states:
-        - Indonesia
+          Indonesia: {}
       8268a7fffffffff:
         place: Sarawak
         states:
-        - Malaysia
+          Malaysia: {}
       8268affffffffff:
         place: Bulungan
         states:
-        - Indonesia
+          Indonesia: {}
       8268b7fffffffff:
         place: Menapar, Kapuas Hulu
         states:
-        - Indonesia
+          Indonesia: {}
   '4':
     hexes:
       826937fffffffff:
         place: Cát Hưng, Phù Cát District
     states:
-    - Vietnam
+      Vietnam: {}
   '5':
     hexes:
       82694ffffffffff:
@@ -4366,68 +4366,68 @@
       82696ffffffffff:
         place: Tabuk, Cordillera Administrative Region
     states:
-    - Philippines
+      Philippines: {}
 '53':
   '0':
     hexes:
       826a07fffffffff:
         place: Raga
         states:
-        - South Sudan
+          South Sudan: {}
       826a0ffffffffff:
         place: Tonj South
         states:
-        - South Sudan
+          South Sudan: {}
       826a17fffffffff:
         place: Mbomou
         states:
-        - Central African Republic
+          Central African Republic: {}
       826a1ffffffffff:
         place: Lower Uele
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
       826a27fffffffff:
         place: Raga
         states:
-        - South Sudan
+          South Sudan: {}
       826a2ffffffffff:
         place: Twic
         states:
-        - South Sudan
+          South Sudan: {}
       826a37fffffffff:
         place: Haute-Kotto
         states:
-        - Central African Republic
+          Central African Republic: {}
   '1':
     hexes:
       826a47fffffffff:
         place: Pochalla
         states:
-        - South Sudan
+          South Sudan: {}
       826a4ffffffffff:
         place: South Ethiopia Regional State
         states:
-        - Ethiopia
+          Ethiopia: {}
       826a57fffffffff:
         place: Terekeka
         states:
-        - South Sudan
+          South Sudan: {}
       826a5ffffffffff:
         place: Turkana County
         states:
-        - Kenya
+          Kenya: {}
       826a67fffffffff:
         place: Maban
         states:
-        - South Sudan
+          South Sudan: {}
       826a6ffffffffff:
         place: Illubabor
         states:
-        - Ethiopia
+          Ethiopia: {}
       826a77fffffffff:
         place: Gorwai
         states:
-        - South Sudan
+          South Sudan: {}
   '2':
     hexes:
       826a87fffffffff:
@@ -4445,67 +4445,67 @@
       826ab7fffffffff:
         place: Sud-Ubangi
     states:
-    - Democratic Republic of the Congo
+      Democratic Republic of the Congo: {}
   '3':
     hexes:
       826ac7fffffffff:
         place: Opira II, Beni
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
       826acffffffffff:
         place: Kanole, Kyamuswa
         states:
-        - Uganda
+          Uganda: {}
       826ad7fffffffff:
         place: Botokolo, Walikale
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
       826adffffffffff:
         place: Rilima
         states:
-        - Rwanda
+          Rwanda: {}
       826ae7fffffffff:
         place: Falasumba, Upper Uele
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
       826aeffffffffff:
         place: Agonga A, Nwoya
         states:
-        - Uganda
+          Uganda: {}
       826af7fffffffff:
         place: Tshopo
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
   '4':
     hexes:
       826b07fffffffff:
         place: Camp de réfugiés de Birak
         states:
-        - Chad
+          Chad: {}
       826b0ffffffffff:
         place: Al Fasher
         states:
-        - Sudan
+          Sudan: {}
       826b17fffffffff:
         place: Sila
         states:
-        - Chad
+          Chad: {}
       826b1ffffffffff:
         place: Mukjar
         states:
-        - Sudan
+          Sudan: {}
       826b27fffffffff:
         place: Ennedi-Ouest
         states:
-        - Chad
+          Chad: {}
       826b2ffffffffff:
         place: Mellit
         states:
-        - Sudan
+          Sudan: {}
       826b37fffffffff:
         place: Batha
         states:
-        - Chad
+          Chad: {}
   '5':
     hexes:
       826b47fffffffff:
@@ -4523,62 +4523,62 @@
       826b77fffffffff:
         place: Sowdari
     states:
-    - Sudan
+      Sudan: {}
   '6':
     hexes:
       826b87fffffffff:
         place: Ouham
         states:
-        - Central African Republic
+          Central African Republic: {}
       826b8ffffffffff:
         place: Ouaka
         states:
-        - Central African Republic
+          Central African Republic: {}
       826b97fffffffff:
         place: Bogali
         states:
-        - Central African Republic
+          Central African Republic: {}
       826b9ffffffffff:
         place: Ombella-M'Poko
         states:
-        - Central African Republic
+          Central African Republic: {}
       826ba7fffffffff:
         place: Moyen-Chari
         states:
-        - Chad
+          Chad: {}
       826baffffffffff:
         place: Salamat
         states:
-        - Chad
+          Chad: {}
       826bb7fffffffff:
         place: Ferrick Allaj Abdoulaye, Logone Occidental
         states:
-        - Chad
+          Chad: {}
 '54':
   '4':
     hexes:
       826d27fffffffff:
         place: TAB
         states:
-        - Mexico
+          Mexico: {}
       826d2ffffffffff:
         place: Totonicapán
         states:
-        - Guatemala
+          Guatemala: {}
       826d37fffffffff:
         place: Santiago Jocotepec, OAX
         states:
-        - Mexico
+          Mexico: {}
   '5':
     hexes:
       826d67fffffffff:
         place: Somotillo
         states:
-        - Nicaragua
+          Nicaragua: {}
       826d6ffffffffff:
         place: Guanacaste, Cañas Dulces
         states:
-        - Costa Rica
+          Costa Rica: {}
 '57':
   '2':
     hexes:
@@ -4587,7 +4587,7 @@
       82728ffffffffff:
         place: Puncak Jaya, Central Papua
     states:
-    - Indonesia
+      Indonesia: {}
   '3':
     hexes:
       8272d7fffffffff:
@@ -4595,63 +4595,63 @@
       8272dffffffffff:
         place: Angoram District
     states:
-    - Papua New Guinea
+      Papua New Guinea: {}
 '58':
   '4':
     hexes:
       827507fffffffff:
         place: Pala, Gontougo
         states:
-        - Côte d'Ivoire
+          Côte d'Ivoire: {}
       82750ffffffffff:
         place: Ellembelle District
         states:
-        - Ghana
+          Ghana: {}
       827517fffffffff:
         place: Totoukro, Béré
         states:
-        - Côte d'Ivoire
+          Côte d'Ivoire: {}
       82751ffffffffff:
         place: Agnéby-Tiassa
         states:
-        - Côte d'Ivoire
+          Côte d'Ivoire: {}
       827527fffffffff:
         place: North Gonja District
         states:
-        - Ghana
+          Ghana: {}
       82752ffffffffff:
         place: Sekyere Afram Plains District
         states:
-        - Ghana
+          Ghana: {}
       827537fffffffff:
         place: Ouo, Comoé
         states:
-        - Burkina Faso
+          Burkina Faso: {}
   '6':
     hexes:
       827587fffffffff:
         place: Kptah Ploa
         states:
-        - Liberia
+          Liberia: {}
       8275a7fffffffff:
         place: Nzérékoré Region
         states:
-        - Guinea
+          Guinea: {}
       8275affffffffff:
         place: Cavally
         states:
-        - Côte d'Ivoire
+          Côte d'Ivoire: {}
       8275b7fffffffff:
         place: Senehun, Kailahun District
         states:
-        - Sierra Leone
+          Sierra Leone: {}
 '59':
   '6':
     hexes:
       82779ffffffffff:
         place: Pinatgin, New Ireland
     states:
-    - Papua New Guinea
+      Papua New Guinea: {}
 '61':
   '0':
     hexes:
@@ -4660,7 +4660,7 @@
       827a1ffffffffff:
         place: Wanlaweyn District
     states:
-    - Somalia
+      Somalia: {}
   '1':
     hexes:
       827a47fffffffff:
@@ -4678,57 +4678,57 @@
       827a77fffffffff:
         place: Fafi
     states:
-    - Kenya
+      Kenya: {}
   '2':
     hexes:
       827a87fffffffff:
         place: Hobyo District
         states:
-        - Somalia
+          Somalia: {}
       827a8ffffffffff:
         place: Dollo
         states:
-        - Ethiopia
+          Ethiopia: {}
       827a9ffffffffff:
         place: Las Anod District, Somaliland
         states:
-        - Somalia
-        - state: Somaliland
-          begin: 2001
+          Somalia: {}
+          Somaliland:
+            begin: 2001
       827aaffffffffff:
         place: El Buur District
         states:
-        - Somalia
+          Somalia: {}
   '3':
     hexes:
       827ac7fffffffff:
         place: Bale
         states:
-        - Ethiopia
+          Ethiopia: {}
       827acffffffffff:
         place: Arsi
         states:
-        - Ethiopia
+          Ethiopia: {}
       827ad7fffffffff:
         place: JH 09010 Somali Region
         states:
-        - Ethiopia
+          Ethiopia: {}
       827adffffffffff:
         place: Hirna, West Harerghe
         states:
-        - Ethiopia
+          Ethiopia: {}
       827ae7fffffffff:
         place: Yareey Bisiq, Dolow District
         states:
-        - Somalia
+          Somalia: {}
       827aeffffffffff:
         place: Guji
         states:
-        - Ethiopia
+          Ethiopia: {}
       827af7fffffffff:
         place: Afder
         states:
-        - Ethiopia
+          Ethiopia: {}
   '5':
     hexes:
       827b4ffffffffff:
@@ -4736,7 +4736,7 @@
       827b6ffffffffff:
         place: Njia Nne, Lindi Region
     states:
-    - Tanzania
+      Tanzania: {}
 '64':
   '0':
     hexes:
@@ -4755,7 +4755,7 @@
       828037fffffffff:
         place: Assaré, Região Geográfica Intermediária de Juazeiro do Norte
     states:
-    - Brazil
+      Brazil: {}
   '1':
     hexes:
       828047fffffffff:
@@ -4769,7 +4769,7 @@
       828077fffffffff:
         place: Paragominas, Região Geográfica Intermediária de Castanhal
     states:
-    - Brazil
+      Brazil: {}
   '4':
     hexes:
       828107fffffffff:
@@ -4789,7 +4789,7 @@
       828137fffffffff:
         place: Itambé, Região Geográfica Intermediária de Vitória da Conquista
     states:
-    - Brazil
+      Brazil: {}
   '5':
     hexes:
       828147fffffffff:
@@ -4809,7 +4809,7 @@
           Ponte Alta do Tocantins, Região Geográfica Intermediária de Palmas -
           TO
     states:
-    - Brazil
+      Brazil: {}
   '6':
     hexes:
       828187fffffffff:
@@ -4819,54 +4819,54 @@
       8281affffffffff:
         place: Pariconha - AL, 57475-000
     states:
-    - Brazil
+      Brazil: {}
 '65':
   '0':
     hexes:
       828217fffffffff:
         place: Moussondi, Niari Department
         states:
-        - Congo-Brazzaville
+          Congo-Brazzaville: {}
       82821ffffffffff:
         place: L'Ile Iloupi 2, Ogooué-Maritime Province
         states:
-        - Gabon
+          Gabon: {}
   '2':
     hexes:
       828287fffffffff:
         place: Souanké
         states:
-        - Congo-Brazzaville
+          Congo-Brazzaville: {}
       82828ffffffffff:
         place: Ebolowa II, Mvila
         states:
-        - Cameroon
+          Cameroon: {}
       828297fffffffff:
         place: Sangha-Mbaéré
         states:
-        - Central African Republic
+          Central African Republic: {}
       82829ffffffffff:
         place: Nguélébok, Kadey
         states:
-        - Cameroon
+          Cameroon: {}
       8282a7fffffffff:
         place: Haut-Ogooué Province
         states:
-        - Gabon
+          Gabon: {}
       8282affffffffff:
         place: Ogooué-Ivindo
         states:
-        - Gabon
+          Gabon: {}
       8282b7fffffffff:
         place: District de Pikounda
         states:
-        - Congo-Brazzaville
+          Congo-Brazzaville: {}
   '3':
     hexes:
       8282dffffffffff:
         place: Kebokokiri, Degema
         states:
-        - Nigeria
+          Nigeria: {}
       8282f7fffffffff:
         place: Equatorial Guinea
         states: null
@@ -4879,37 +4879,37 @@
       828337fffffffff:
         place: Somalia
     states:
-    - Angola
+      Angola: {}
   '6':
     hexes:
       828387fffffffff:
         place: Kwango
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
       82838ffffffffff:
         place: Kingouala
         states:
-        - Congo-Brazzaville
+          Congo-Brazzaville: {}
       828397fffffffff:
         place: Mai-Ndombe
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
       82839ffffffffff:
         place: Plateaux
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
       8283a7fffffffff:
         place: Cáfu
         states:
-        - Angola
+          Angola: {}
       8283affffffffff:
         place: Uíge Province
         states:
-        - Angola
+          Angola: {}
       8283b7fffffffff:
         place: Muambundu, Kasai
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
 '69':
   '0':
     hexes:
@@ -4928,37 +4928,37 @@
       828a37fffffffff:
         place: Rondolândia, Região Geográfica Intermediária de Sinop
     states:
-    - Brazil
+      Brazil: {}
   '1':
     hexes:
       828a47fffffffff:
         place: Santo Antônio do Içá - AM
         states:
-        - Brazil
+          Brazil: {}
       828a4ffffffffff:
         place: Mirití-Paraná, Amazonas
         states:
-        - Colombia
+          Colombia: {}
       828a57fffffffff:
         place: Fonte Boa - AM
         states:
-        - Brazil
+          Brazil: {}
       828a5ffffffffff:
         place: São Gabriel da Cachoeira - AM
         states:
-        - Brazil
+          Brazil: {}
       828a67fffffffff:
         place: São Paulo de Olivença - AM
         states:
-        - Brazil
+          Brazil: {}
       828a6ffffffffff:
         place: Pebas, Loreto
         states:
-        - Peru
+          Peru: {}
       828a77fffffffff:
         place: Carauari - AM
         states:
-        - Brazil
+          Brazil: {}
   '2':
     hexes:
       828a87fffffffff:
@@ -4976,99 +4976,99 @@
       828ab7fffffffff:
         place: Altamira, Região Geográfica Intermediária de Altamira
     states:
-    - Brazil
+      Brazil: {}
   '3':
     hexes:
       828ac7fffffffff:
         place: Barcelos, Região Geográfica Intermediária de Manaus
         states:
-        - Brazil
+          Brazil: {}
       828acffffffffff:
         place: Parroquia Mavaca, Municipio Autónomo Alto Orinoco
         states:
-        - Venezuela
+          Venezuela: {}
       828ad7fffffffff:
         place: >-
           São João da Baliza, Região Geográfica Intermediária de
           Rorainópolis-Caracaraí
         states:
-        - Brazil
+          Brazil: {}
       828adffffffffff:
         place: Mucajaí - RR
         states:
-        - Brazil
+          Brazil: {}
       828ae7fffffffff:
         place: Codajás, Região Geográfica Intermediária de Manaus
         states:
-        - Brazil
+          Brazil: {}
       828aeffffffffff:
         place: Santa Isabel do Rio Negro, Região Geográfica Intermediária de Manaus
         states:
-        - Brazil
+          Brazil: {}
       828af7fffffffff:
         place: Novo Airão - AM
         states:
-        - Brazil
+          Brazil: {}
   '4':
     hexes:
       828b07fffffffff:
         place: Municipio Urubichá, Provincia Guarayos
         states:
-        - Bolivia
+          Bolivia: {}
       828b0ffffffffff:
         place: Municipio San Joaquin, Provincia de Mamoré
         states:
-        - Bolivia
+          Bolivia: {}
       828b17fffffffff:
         place: San Ignacio de Velasco, Velasco
         states:
-        - Bolivia
+          Bolivia: {}
       828b1ffffffffff:
         place: Rolim de Moura do Guaporé, Alta Floresta d'Oeste - RO
         states:
-        - Brazil
+          Brazil: {}
       828b27fffffffff:
         place: Municipio Pampa Grande, Provincia Florida
         states:
-        - Bolivia
+          Bolivia: {}
       828b2ffffffffff:
         place: San Ignacio de Moxos, Moxos
         states:
-        - Bolivia
+          Bolivia: {}
       828b37fffffffff:
         place: Municipio Pailón, Chiquitos
         states:
-        - Bolivia
+          Bolivia: {}
   '5':
     hexes:
       828b47fffffffff:
         place: Iñapari, Madre de Dios
         states:
-        - Peru
+          Peru: {}
       828b4ffffffffff:
         place: Tarauacá - AC
         states:
-        - Brazil
+          Brazil: {}
       828b57fffffffff:
         place: Municipio Ingavi, Provincia de Abuná
         states:
-        - Bolivia
+          Bolivia: {}
       828b5ffffffffff:
         place: Boca do Acre, Região Geográfica Intermediária de Lábrea
         states:
-        - Brazil
+          Brazil: {}
       828b67fffffffff:
         place: Corani, Puno
         states:
-        - Peru
+          Peru: {}
       828b6ffffffffff:
         place: Megantoni, Cusco
         states:
-        - Peru
+          Peru: {}
       828b77fffffffff:
         place: Municipio Ixiamas, Provincia Abel Iturralde
         states:
-        - Bolivia
+          Bolivia: {}
   '6':
     hexes:
       828b87fffffffff:
@@ -5086,14 +5086,14 @@
       828bb7fffffffff:
         place: Planalto Da Serra - MT
     states:
-    - Brazil
+      Brazil: {}
 '70':
   '0':
     hexes:
       828c17fffffffff:
         place: 16770, West Java
     states:
-    - Indonesia
+      Indonesia: {}
   '2':
     hexes:
       828c97fffffffff:
@@ -5104,7 +5104,7 @@
       828cb7fffffffff:
         place: 78874, West Kalimantan
     states:
-    - Indonesia
+      Indonesia: {}
   '3':
     hexes:
       828cd7fffffffff:
@@ -5112,7 +5112,7 @@
       828cf7fffffffff:
         place: Seluma
     states:
-    - Indonesia
+      Indonesia: {}
   '6':
     hexes:
       828d87fffffffff:
@@ -5120,7 +5120,7 @@
       828d8ffffffffff:
         place: Central Java
     states:
-    - Indonesia
+      Indonesia: {}
 '71':
   '1':
     hexes:
@@ -5129,17 +5129,17 @@
       828e6ffffffffff:
         place: AY-658, Chipao
     states:
-    - Peru
+      Peru: {}
   '4':
     hexes:
       828f0ffffffffff:
         place: El Alto, Piura
         states:
-        - Peru
+          Peru: {}
       828f2ffffffffff:
         place: Vinces
         states:
-        - Ecuador
+          Ecuador: {}
   '5':
     hexes:
       828f47fffffffff:
@@ -5157,7 +5157,7 @@
       828f77fffffffff:
         place: Río Santiago, Amazonas
     states:
-    - Peru
+      Peru: {}
 '74':
   '1':
     hexes:
@@ -5166,7 +5166,7 @@
       82945ffffffffff:
         place: Gulung Mardrulk NT
     states:
-    - Australia
+      Australia: {}
   '2':
     hexes:
       829487fffffffff:
@@ -5180,7 +5180,7 @@
       8294affffffffff:
         place: Koolan Island Village, Western Australia
     states:
-    - Australia
+      Australia: {}
   '3':
     hexes:
       8294c7fffffffff:
@@ -5198,80 +5198,80 @@
       8294f7fffffffff:
         place: Gibb WA
     states:
-    - Australia
+      Australia: {}
   '4':
     hexes:
       82952ffffffffff:
         place: 93582, Southeast Sulawesi
     states:
-    - Indonesia
+      Indonesia: {}
   '5':
     hexes:
       82956ffffffffff:
         place: North Maluku
     states:
-    - Indonesia
+      Indonesia: {}
 '75':
   '0':
     hexes:
       829607fffffffff:
         place: Manitoba
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
       82960ffffffffff:
         place: Kalumbila District
         states:
-        - Zambia
+          Zambia: {}
       829617fffffffff:
         place: Shiwa Ng'andu District
         states:
-        - Zambia
+          Zambia: {}
       82961ffffffffff:
         place: Haut-KatangaManitoba
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
       829627fffffffff:
         place: Hurungwe
         states:
-        - Zimbabwe
+          Zimbabwe: {}
       82962ffffffffff:
         place: Mumbwa District
         states:
-        - Zambia
+          Zambia: {}
       829637fffffffff:
         place: Sinda District
         states:
-        - Zambia
+          Zambia: {}
   '1':
     hexes:
       829647fffffffff:
         place: Moxico Province
         states:
-        - Angola
+          Angola: {}
       82964ffffffffff:
         place: Malanje Province
         states:
-        - Angola
+          Angola: {}
       829657fffffffff:
         place: RS612, LualabaManitoba
         states:
-        - Democratic Republic of the Congo
+          Democratic Republic of the Congo: {}
       82965ffffffffff:
         place: Saurimo, Lunda Sul Province
         states:
-        - Angola
+          Angola: {}
       829667fffffffff:
         place: Cuando Cubango Province
         states:
-        - Angola
+          Angola: {}
       82966ffffffffff:
         place: Cuando Cubango Province
         states:
-        - Angola
+          Angola: {}
       829677fffffffff:
         place: Zambezi District, Zambia
         states:
-        - Zambia
+          Zambia: {}
   '2':
     hexes:
       829687fffffffff:
@@ -5289,7 +5289,7 @@
       8296b7fffffffff:
         place: Kilolo, Iringa Region
     states:
-    - Tanzania
+      Tanzania: {}
   '3':
     hexes:
       8296c7fffffffff:
@@ -5307,93 +5307,93 @@
       8296f7fffffffff:
         place: Tanganyika
     states:
-    - Democratic Republic of the Congo
+      Democratic Republic of the Congo: {}
   '4':
     hexes:
       829707fffffffff:
         place: Manica Province
         states:
-        - Mozambique
+          Mozambique: {}
       82970ffffffffff:
         place: Gweru
         states:
-        - Zimbabwe
+          Zimbabwe: {}
       829717fffffffff:
         place: Sofala Province
         states:
-        - Mozambique
+          Mozambique: {}
       82971ffffffffff:
         place: Mutoko
         states:
-        - Zimbabwe
+          Zimbabwe: {}
       829727fffffffff:
         place: Gaza Province
         states:
-        - Mozambique
+          Mozambique: {}
       82972ffffffffff:
         place: Musina Local Municipality, Vhembe District Municipality
         states:
-        - South Africa
+          South Africa: {}
   '5':
     hexes:
       829747fffffffff:
         place: North-West District
         states:
-        - Botswana
+          Botswana: {}
       82974ffffffffff:
         place: North-West District
         states:
-        - Botswana
+          Botswana: {}
       829757fffffffff:
         place: Hwange
         states:
-        - Zimbabwe
+          Zimbabwe: {}
       82975ffffffffff:
         place: Sesheke District
         states:
-        - Zambia
+          Zambia: {}
       829767fffffffff:
         place: Ghanzi District
         states:
-        - Botswana
+          Botswana: {}
       82976ffffffffff:
         place: Botswana
         states:
-        - Botswana
+          Botswana: {}
       829777fffffffff:
         place: Central District
         states:
-        - Botswana
+          Botswana: {}
   '6':
     hexes:
       829787fffffffff:
         place: Maúa, Niassa Province
         states:
-        - Mozambique
+          Mozambique: {}
       82978ffffffffff:
         place: Niassa Province
         states:
-        - Mozambique
+          Mozambique: {}
       829797fffffffff:
         place: Nanili, Cabo Delgado Province
         states:
-        - Mozambique
+          Mozambique: {}
       82979ffffffffff:
         place: Tunduru, Ruvuma Region
         states:
-        - Tanzania
+          Tanzania: {}
       8297a7fffffffff:
         place: Pebane, Zambezia Province
         states:
-        - Mozambique
+          Mozambique: {}
       8297affffffffff:
         place: Blantyre
         states:
-        - Malawi
+          Malawi: {}
       8297b7fffffffff:
         place: Nampula Province
         states:
-        - Mozambique
+          Mozambique: {}
 '78':
   '0':
     hexes:
@@ -5404,7 +5404,7 @@
       829c2ffffffffff:
         place: Red River QLD
     states:
-    - Australia
+      Australia: {}
   '1':
     hexes:
       829c47fffffffff:
@@ -5418,7 +5418,7 @@
       829c77fffffffff:
         place: Gulf of Carpentaria
     states:
-    - Australia
+      Australia: {}
   '2':
     hexes:
       829c8ffffffffff:
@@ -5426,27 +5426,27 @@
       829c97fffffffff:
         place: Kimbe, West New Britain
     states:
-    - Papua New Guinea
+      Papua New Guinea: {}
   '3':
     hexes:
       829cd7fffffffff:
         place: Nomad District
         states:
-        - Papua New Guinea
+          Papua New Guinea: {}
       829cdffffffffff:
         place: Mappi
         states:
-        - Indonesia
+          Indonesia: {}
   '4':
     hexes:
       829d0ffffffffff:
         place: Bogie QLD 4805, Australia
-        states: []
+        states: {}
       829d2ffffffffff:
         place: Mackenzie River QLD 4705, Australia
-        states: []
+        states: {}
     states:
-    - Australia
+      Australia: {}
   '5':
     hexes:
       829d47fffffffff:
@@ -5464,7 +5464,7 @@
       829d77fffffffff:
         place: Aramac QLD 4726
     states:
-    - Australia
+      Australia: {}
 '81':
   '0':
     hexes:
@@ -5475,13 +5475,13 @@
       82a237fffffffff:
         place: Madagascar
     states:
-    - Madagascar
+      Madagascar: {}
   '2':
     hexes:
       82a2a7fffffffff:
         place: Antsakoamaro, District de Bekily
     states:
-    - Madagascar
+      Madagascar: {}
   '4':
     hexes:
       82a30ffffffffff:
@@ -5489,7 +5489,7 @@
       82a31ffffffffff:
         place: Boeny
     states:
-    - Madagascar
+      Madagascar: {}
   '6':
     hexes:
       82a38ffffffffff:
@@ -5497,7 +5497,7 @@
       82a3affffffffff:
         place: Madagascar
     states:
-    - Madagascar
+      Madagascar: {}
 '83':
   '0':
     hexes:
@@ -5506,7 +5506,7 @@
       82a637fffffffff:
         place: Kennedy Range WA
     states:
-    - Australia
+      Australia: {}
   '4':
     hexes:
       82a717fffffffff:
@@ -5516,7 +5516,7 @@
       82a737fffffffff:
         place: Cadoux WA
     states:
-    - Australia
+      Australia: {}
   '6':
     hexes:
       82a787fffffffff:
@@ -5534,7 +5534,7 @@
       82a7b7fffffffff:
         place: Little Sandy Desert WA
     states:
-    - Australia
+      Australia: {}
 '84':
   '0':
     hexes:
@@ -5551,37 +5551,37 @@
       82a82ffffffffff:
         place: Primavera, Região Geográfica Intermediária de Maringá - PR
     states:
-    - Brazil
+      Brazil: {}
   '1':
     hexes:
       82a847fffffffff:
         place: Aquidauana, Região Geográfica Intermediária de Corumbá
         states:
-        - Brazil
+          Brazil: {}
       82a84ffffffffff:
         place: Municipio San Matías, Provincia Ángel Sandóval
         states:
-        - Bolivia
+          Bolivia: {}
       82a857fffffffff:
         place: Camapuã, Região Geográfica Intermediária de Campo Grande
         states:
-        - Brazil
+          Brazil: {}
       82a85ffffffffff:
         place: Barão de Melgaço, Região Geográfica Intermediária de Cuiabá
         states:
-        - Brazil
+          Brazil: {}
       82a867fffffffff:
         place: Concepción
         states:
-        - Paraguay
+          Paraguay: {}
       82a86ffffffffff:
         place: Bahía Negra, Alto Paraguay
         states:
-        - Paraguay
+          Paraguay: {}
       82a877fffffffff:
         place: Jardim Btumélia, Itapora - MS
         states:
-        - Brazil
+          Brazil: {}
   '2':
     hexes:
       82a887fffffffff:
@@ -5595,7 +5595,7 @@
       82a8affffffffff:
         place: Boa Esperança - MG
     states:
-    - Brazil
+      Brazil: {}
   '3':
     hexes:
       82a8c7fffffffff:
@@ -5613,7 +5613,7 @@
       82a8f7fffffffff:
         place: Araras, Monte Carmelo - MG
     states:
-    - Brazil
+      Brazil: {}
   '4':
     hexes:
       82a90ffffffffff:
@@ -5623,113 +5623,113 @@
       82a92ffffffffff:
         place: Piratini, Região Geográfica Intermediária de Pelotas
     states:
-    - Brazil
+      Brazil: {}
   '5':
     hexes:
       82a947fffffffff:
         place: San Ignacio Guazú
         states:
-        - Paraguay
+          Paraguay: {}
       82a94ffffffffff:
         place: General Jose Maria Bruguez, Presidente Hayes
         states:
-        - Paraguay
+          Paraguay: {}
       82a957fffffffff:
         place: Municipio de San Pedro, Departamento San Pedro
         states:
-        - Argentina
+          Argentina: {}
       82a95ffffffffff:
         place: Yasy Cañy
         states:
-        - Paraguay
+          Paraguay: {}
       82a967fffffffff:
         place: Municipio de Mercedes, Departamento Mercedes
         states:
-        - Argentina
+          Argentina: {}
       82a96ffffffffff:
         place: Municipio de Machagai, Departamento Veinticinco de Mayo
         states:
-        - Argentina
+          Argentina: {}
       82a977fffffffff:
         place: Região Geográfica Intermediária de Santa Maria - RS
         states:
-        - Brazil
+          Brazil: {}
 '86':
   '2':
     hexes:
       82ac87fffffffff:
         place: Oshana
         states:
-        - Namibia
+          Namibia: {}
       82ac8ffffffffff:
         place: Kunene Region
         states:
-        - Namibia
+          Namibia: {}
       82ac97fffffffff:
         place: Kavango West
         states:
-        - Namibia
+          Namibia: {}
       82ac9ffffffffff:
         place: Cunene Province
         states:
-        - Angola
+          Angola: {}
       82aca7fffffffff:
         place: Erongo Region
         states:
-        - Namibia
+          Namibia: {}
       82acb7fffffffff:
         place: Otjozondjupa
         states:
-        - Namibia
+          Namibia: {}
   '6':
     hexes:
       82ad87fffffffff:
         place: Karas
         states:
-        - Namibia
+          Namibia: {}
       82ad8ffffffffff:
         place: Hardap
         states:
-        - Namibia
+          Namibia: {}
       82ad97fffffffff:
         place: Botswana
         states:
-        - Botswana
+          Botswana: {}
       82ad9ffffffffff:
         place: Omaheke
         states:
-        - Namibia
+          Namibia: {}
       82ada7fffffffff:
         place: Khâi-Ma Local Municipality
         states:
-        - South Africa
+          South Africa: {}
       82adaffffffffff:
         place: Karas
         states:
-        - Namibia
+          Namibia: {}
       82adb7fffffffff:
         place: Tsantsabane Local Municipality, ZF Mgcawu District Municipality
         states:
-        - South Africa
+          South Africa: {}
 '89':
   '0':
     hexes:
       82b207fffffffff:
         place: Chile
         states:
-        - Chile
+          Chile: {}
       82b20ffffffffff:
         place: Iglesia
         states:
-        - Argentina
+          Argentina: {}
       82b227fffffffff:
         place: Antofagasta, Provincia de Antofagasta
         states:
-        - Chile
+          Chile: {}
       82b22ffffffffff:
         place: Departamento Antofagasta de la Sierra
         states:
-        - Argentina
+          Argentina: {}
   '1':
     hexes:
       82b247fffffffff:
@@ -5747,81 +5747,81 @@
       82b277fffffffff:
         place: Departamento Capital, Municipio de San Fernando del Valle de Catamarca
     states:
-    - Argentina
+      Argentina: {}
   '3':
     hexes:
       82b2c7fffffffff:
         place: San Pedro
         states:
-        - Chile
+          Chile: {}
       82b2cffffffffff:
         place: Distrito Río Grande
         states:
-        - Argentina
+          Argentina: {}
       82b2dffffffffff:
         place: Cobquecura, Provincia de Itata
         states:
-        - Chile
+          Chile: {}
       82b2e7fffffffff:
         place: Calingasta
         states:
-        - Argentina
+          Argentina: {}
       82b2effffffffff:
         place: Departamento Santa Rosa, Distrito Ciudad de Santa Rosa
         states:
-        - Argentina
+          Argentina: {}
   '4':
     hexes:
       82b307fffffffff:
         place: Camarones, Provincia de Arica
         states:
-        - Chile
+          Chile: {}
       82b30ffffffffff:
         place: CH, Ollagüe
         states:
-        - Chile
+          Chile: {}
       82b327fffffffff:
         place: Peru
         states:
-        - Peru
+          Peru: {}
       82b32ffffffffff:
         place: Provincia Sur Carangas
         states:
-        - Bolivia
+          Bolivia: {}
       82b337fffffffff:
         place: Islay, Arequipa
         states:
-        - Peru
+          Peru: {}
   '5':
     hexes:
       82b347fffffffff:
         place: Municipio de Embarcación, General San Martín
         states:
-        - Argentina
+          Argentina: {}
       82b34ffffffffff:
         place: Municipio de Fuerte Esperanza, Departamento General Güemes
         states:
-        - Argentina
+          Argentina: {}
       82b357fffffffff:
         place: Departamento Susques, 4641 Municipio de Susques
         states:
-        - Argentina
+          Argentina: {}
       82b35ffffffffff:
         place: Comisión Municipal de El Potrero, Rosario de la Frontera
         states:
-        - Argentina
+          Argentina: {}
       82b367fffffffff:
         place: Municipio Charagua, Provincia Cordillera
         states:
-        - Bolivia
+          Bolivia: {}
       82b36ffffffffff:
         place: Mariscal Estigarribia, Boquerón
         states:
-        - Paraguay
+          Paraguay: {}
       82b377fffffffff:
         place: Municipio Villa Abecia, Provincia Sur Cinti
         states:
-        - Bolivia
+          Bolivia: {}
 '92':
   '0':
     hexes:
@@ -5838,7 +5838,7 @@
       82b837fffffffff:
         place: Yellabinna SA
     states:
-    - Australia
+      Australia: {}
   '1':
     hexes:
       82b847fffffffff:
@@ -5856,7 +5856,7 @@
       82b877fffffffff:
         place: Rawlinna WA
     states:
-    - Australia
+      Australia: {}
   '2':
     hexes:
       82b887fffffffff:
@@ -5874,7 +5874,7 @@
       82b8b7fffffffff:
         place: Anatye NT
     states:
-    - Australia
+      Australia: {}
   '3':
     hexes:
       82b8c7fffffffff:
@@ -5892,13 +5892,13 @@
       82b8f7fffffffff:
         place: Ngaanyatjarra-giles WA
     states:
-    - Australia
+      Australia: {}
   '4':
     hexes:
       82b917fffffffff:
         place: South Australia
     states:
-    - Australia
+      Australia: {}
   '6':
     hexes:
       82b987fffffffff:
@@ -5916,14 +5916,14 @@
       82b9b7fffffffff:
         place: Packsaddle NSW
     states:
-    - Australia
+      Australia: {}
 '93':
   '4':
     hexes:
       82bb0ffffffffff:
         place: Hastings District
     states:
-    - New Zealand
+      New Zealand: {}
 '94':
   '1':
     hexes:
@@ -5936,37 +5936,37 @@
       82bc5ffffffffff:
         place: Kareeberg Local Municipality, Pixley ka Seme District Municipality
     states:
-    - South Africa
+      South Africa: {}
   '3':
     hexes:
       82bcc7fffffffff:
         place: Ngwathe Nu
         states:
-        - South Africa
+          South Africa: {}
       82bccffffffffff:
         place: Ratlou Local Municipality, Ngaka Modiri Molema District Municipality
         states:
-        - South Africa
+          South Africa: {}
       82bcd7fffffffff:
         place: Mbombela Ward 14, Mbombela
         states:
-        - South Africa
+          South Africa: {}
       82bcdffffffffff:
         place: Lephalale Ward 3, Lephalale Local Municipality
         states:
-        - South Africa
+          South Africa: {}
       82bce7fffffffff:
         place: Qacha's Nek
         states:
-        - Lesotho
+          Lesotho: {}
       82bceffffffffff:
         place: Letsemeng Local Municipality, Xhariep District Municipality
         states:
-        - South Africa
+          South Africa: {}
       82bcf7fffffffff:
         place: Ulundi Local Municipality
         states:
-        - South Africa
+          South Africa: {}
 '95':
   '0':
     hexes:
@@ -5975,7 +5975,7 @@
       82be1ffffffffff:
         place: Dividing Ridge Road, Herons Creek NSW
     states:
-    - Australia
+      Australia: {}
   '1':
     hexes:
       82be47fffffffff:
@@ -5991,13 +5991,13 @@
       82be77fffffffff:
         place: Tom Groggin VIC
     states:
-    - Australia
+      Australia: {}
   '2':
     hexes:
       82be8ffffffffff:
         place: Australia
     states:
-    - Australia
+      Australia: {}
   '3':
     hexes:
       82bec7fffffffff:
@@ -6015,63 +6015,63 @@
       82bef7fffffffff:
         place: Fairleigh Road, Limevale QLD
     states:
-    - Australia
+      Australia: {}
   '5':
     hexes:
       82bf4ffffffffff:
         place: Saudridge Road, Cressy TAS
     states:
-    - Australia
+      Australia: {}
 '97':
   '0':
     hexes:
       82c22ffffffffff:
         place: Partido de Benito Juárez
     states:
-    - Argentina
+      Argentina: {}
   '3':
     hexes:
       82c2c7fffffffff:
         place: Soriano
         states:
-        - Uruguay
+          Uruguay: {}
       82c2cffffffffff:
         place: Departamento Villaguay, Municipio Sauce de Luna
         states:
-        - Argentina
+          Argentina: {}
       82c2d7fffffffff:
         place: Treinta y Tres
         states:
-        - Uruguay
+          Uruguay: {}
       82c2dffffffffff:
         place: Salto
         states:
-        - Uruguay
+          Uruguay: {}
       82c2e7fffffffff:
         place: Partido de General Paz
         states:
-        - Argentina
+          Argentina: {}
       82c2effffffffff:
         place: Partido de Pergamino, Buenos Aires
         states:
-        - Argentina
+          Argentina: {}
       82c2f7fffffffff:
         place: Uruguay
         states:
-        - Uruguay
+          Uruguay: {}
   '4':
     hexes:
       82c30ffffffffff:
         place: Cuartel V
-        states: []
+        states: {}
       82c327fffffffff:
         place: Departamento Florentino Ameghino, Chubut Province
-        states: []
+        states: {}
       82c32ffffffffff:
         place: Sierra Grande, Departamento San Antonio
-        states: []
+        states: {}
     states:
-    - Argentina
+      Argentina: {}
   '5':
     hexes:
       82c347fffffffff:
@@ -6089,7 +6089,7 @@
       82c377fffffffff:
         place: Departamento Pichi Mahuida
     states:
-    - Argentina
+      Argentina: {}
 '100':
   '6':
     hexes:
@@ -6098,62 +6098,62 @@
       82c9b7fffffffff:
         place: Australia
     states:
-    - Australia
+      Australia: {}
 '103':
   '2':
     hexes:
       82ce87fffffffff:
         place: Municipio de Pilcaniyeu, Departamento Pilcaniyeu
         states:
-        - Argentina
+          Argentina: {}
       82ce8ffffffffff:
         place: Chile
         states:
-        - Chile
+          Chile: {}
       82ce97fffffffff:
         place: Departamento Nueve de Julio
         states:
-        - Argentina
+          Argentina: {}
       82ce9ffffffffff:
         place: Departamento Loncopué
         states:
-        - Argentina
+          Argentina: {}
       82cea7fffffffff:
         place: Departamento Futaleufú, Chubut Province
         states:
-        - Argentina
+          Argentina: {}
       82ceb7fffffffff:
         place: Departamento Telsen
         states:
-        - Argentina
+          Argentina: {}
   '4':
     hexes:
       82cf17fffffffff:
         place: Puerto Natales, Provincia de Última Esperanza, Chile
     states:
-    - Chile
+      Chile: {}
   '6':
     hexes:
       82cf87fffffffff:
         place: Deseado
         states:
-        - Argentina
+          Argentina: {}
       82cf8ffffffffff:
         place: Camino Lago Las Ardillas, Río Ibáñez
         states:
-        - Chile
+          Chile: {}
       82cf9ffffffffff:
         place: Departamento Sarmiento
         states:
-        - Argentina
+          Argentina: {}
       82cfa7fffffffff:
         place: Güer Aike
         states:
-        - Argentina
+          Argentina: {}
       82cfaffffffffff:
         place: Lago Argentino
         states:
-        - Argentina
+          Argentina: {}
 '109':
   '2':
     hexes:
@@ -6162,24 +6162,24 @@
       82da97fffffffff:
         place: Napoleon Hill
     states:
-    - New Zealand
+      New Zealand: {}
 '111':
   '4':
     hexes:
       82df37fffffffff:
         place: Weddell Sea
     states:
-    - Antarctica
+      Antarctica: {}
   '5':
     hexes:
       82df47fffffffff:
         place: Departamento Ushuaia, Argentina
         states:
-        - Argentina
+          Argentina: {}
       82df6ffffffffff:
         place: Timaukel, Provincia de Tierra del Fuego, Chile
         states:
-        - Chile
+          Chile: {}
 '112':
   '4':
     hexes:
@@ -6188,7 +6188,7 @@
       82e12ffffffffff:
         place: Unknown
     states:
-    - Antarctica
+      Antarctica: {}
   '5':
     hexes:
       82e167fffffffff:
@@ -6196,7 +6196,7 @@
       82e177fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
 '114':
   '1':
     hexes:
@@ -6205,7 +6205,7 @@
       82e46ffffffffff:
         place: Unknown
     states:
-    - Antarctica
+      Antarctica: {}
   '5':
     hexes:
       82e547fffffffff:
@@ -6221,7 +6221,7 @@
       82e577fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
 '115':
   '4':
     hexes:
@@ -6236,7 +6236,7 @@
       82e737fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '5':
     hexes:
       82e747fffffffff:
@@ -6250,7 +6250,7 @@
       82e777fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
 '116':
   '2':
     hexes:
@@ -6261,7 +6261,7 @@
       82e8b7fffffffff:
         place: Unknown
     states:
-    - Antarctica
+      Antarctica: {}
   '6':
     hexes:
       82e987fffffffff:
@@ -6271,7 +6271,7 @@
       82e9b7fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
 '118':
   '0':
     hexes:
@@ -6286,7 +6286,7 @@
       82ec2ffffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '1':
     hexes:
       82ec47fffffffff:
@@ -6304,13 +6304,13 @@
       82ec77fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '2':
     hexes:
       82ecaffffffffff:
         place: Unknown
     states:
-    - Antarctica
+      Antarctica: {}
   '3':
     hexes:
       82ecc7fffffffff:
@@ -6328,7 +6328,7 @@
       82ecf7fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '5':
     hexes:
       82ed47fffffffff:
@@ -6340,7 +6340,7 @@
       82ed77fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
 '119':
   '0':
     hexes:
@@ -6349,13 +6349,13 @@
       82ee37fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '1':
     hexes:
       82ee6ffffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '2':
     hexes:
       82eea7fffffffff:
@@ -6363,7 +6363,7 @@
       82eeb7fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '4':
     hexes:
       82ef07fffffffff:
@@ -6381,7 +6381,7 @@
       82ef37fffffffff:
         place: Unknown
     states:
-    - Antarctica
+      Antarctica: {}
   '5':
     hexes:
       82ef47fffffffff:
@@ -6397,7 +6397,7 @@
       82ef77fffffffff:
         place: Unknown
     states:
-    - Antarctica
+      Antarctica: {}
   '6':
     hexes:
       82ef87fffffffff:
@@ -6415,7 +6415,7 @@
       82efb7fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
 '120':
   '0':
     hexes:
@@ -6434,7 +6434,7 @@
       82f037fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '1':
     hexes:
       82f047fffffffff:
@@ -6452,7 +6452,7 @@
       82f077fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '2':
     hexes:
       82f087fffffffff:
@@ -6470,7 +6470,7 @@
       82f0b7fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '3':
     hexes:
       82f0c7fffffffff:
@@ -6488,7 +6488,7 @@
       82f0f7fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '4':
     hexes:
       82f107fffffffff:
@@ -6506,7 +6506,7 @@
       82f137fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '5':
     hexes:
       82f147fffffffff:
@@ -6524,7 +6524,7 @@
       82f177fffffffff:
         place: Unknown
     states:
-    - Antarctica
+      Antarctica: {}
   '6':
     hexes:
       82f187fffffffff:
@@ -6542,7 +6542,7 @@
       82f1b7fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
 '121':
   '0':
     hexes:
@@ -6561,7 +6561,7 @@
       82f237fffffffff:
         place: Unknown
     states:
-    - Antarctica
+      Antarctica: {}
   '1':
     hexes:
       82f257fffffffff:
@@ -6571,7 +6571,7 @@
       82f277fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '2':
     hexes:
       82f287fffffffff:
@@ -6589,7 +6589,7 @@
       82f2b7fffffffff:
         place: Unknown
     states:
-    - Antarctica
+      Antarctica: {}
   '3':
     hexes:
       82f2c7fffffffff:
@@ -6607,7 +6607,7 @@
       82f2f7fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
   '6':
     hexes:
       82f387fffffffff:
@@ -6625,4 +6625,4 @@
       82f3b7fffffffff:
         place: Antarctica
     states:
-    - Antarctica
+      Antarctica: {}
