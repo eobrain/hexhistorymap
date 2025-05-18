@@ -85,8 +85,9 @@ $yearControl.addEventListener('input', update)
 d3Canvas.on('wheel', function (event) {
   scale *= 1.01 ** event.deltaY
   scale = Math.max(150, Math.min(scale, 500))
-  console.log(scale)
   projection.scale(scale)
+  $canvas.width = $canvas.clientWidth
+  $canvas.height = $canvas.width
   update()
   event.preventDefault()
 }, { passive: false })
