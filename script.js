@@ -26,7 +26,8 @@ context.font = '12px sans-serif'
 context.textAlign = 'center'
 context.textBaseline = 'middle'
 
-const projection = geoAzimuthalEqualArea().fitSize([canvas.width, canvas.height], geojson)
+const projection = geoAzimuthalEqualArea()
+  .fitSize([canvas.width, canvas.height], geojson)
 
 const geoGenerator = geoPath()
   .projection(projection)
@@ -37,6 +38,7 @@ const saturation = 50
 const lightness = 50
 
 let selectedState
+let scale = projection.scale()
 
 const update = () => {
   context.fillStyle = 'white'
@@ -79,6 +81,15 @@ $yearControl.min = minYear
 $yearControl.max = maxYear
 $yearControl.value = year
 $yearControl.addEventListener('input', update)
+
+d3Canvas.on('wheel', function (event) {
+  scale *= 1.01 ** event.deltaY
+  scale = Math.max(150, Math.min(scale, 500))
+  console.log(scale)
+  projection.scale(scale)
+  update()
+  event.preventDefault()
+}, { passive: false })
 
 d3Canvas.on('click', function (event) {
   const pos = pointer(event, canvas)
