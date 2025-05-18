@@ -160,10 +160,6 @@ Democratic Republic of the Congo:
 Denmark:
   begin: 950
   end: 2025
-  parts:
-    Greenland:
-      begin: 1721
-      end: 2025
 Djibouti:
   begin: 1977
   end: 2025
@@ -212,10 +208,6 @@ Finland:
 France:
   begin: 843
   end: 2025
-  parts:
-    Algeria:
-      begin: 1830
-      end: 1962
 Gabon:
   begin: 1960
   end: 2025
@@ -405,10 +397,6 @@ Montenegro:
 Morocco:
   begin: 789
   end: 2025
-  parts:
-    Western Sahara:
-      begin: 1975
-      end: 2025
 Mozambique:
   begin: 1975
   end: 2025
@@ -457,10 +445,6 @@ North Macedonia:
 Norway:
   begin: 872
   end: 2025
-  parts:
-    Svalbard:
-      begin: 1920
-      end: 2025
 Old Kingdom of Egypt:
   begin: -2686
   end: -2181
@@ -521,13 +505,6 @@ Russia:
 Russian Empire:
   begin: 1721
   end: 1917
-  parts:
-    Novaya Zemlya:
-      begin: 1870
-      end: 1917
-    Alaska:
-      begin: 1784
-      end: 1867
 Rwanda:
   begin: 1962
   end: 2025
@@ -585,10 +562,6 @@ Solomon Islands:
 Somalia:
   begin: 1960
   end: 2025
-  parts:
-    Somaliland:
-      begin: 1960
-      end: 2021
 Somaliland:
   begin: 2001
   end: 2025
@@ -670,17 +643,9 @@ Tuvalu:
 UK:
   begin: 1801
   end: 2025
-  parts:
-    India:
-      begin: 1858
-      end: 1947
 USA:
   begin: 1776
   end: 2025
-  parts:
-    Alaska:
-      begin: 1867
-      end: 2025
 USSR:
   begin: 1922
   end: 1991

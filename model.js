@@ -41,24 +41,11 @@ export const stateCoordinates = (year) => {
 }
 
 export const State = stateName => {
-  const stateSplit = stateName.split('/')
   const stateInfo = () => {
-    if (stateSplit.length === 1) {
-      if (!stateData[stateName]) {
-        throw new Error(`State not found: "${stateName}"`)
-      }
-      return stateData[stateName]
+    if (!stateData[stateName]) {
+      throw new Error(`State not found: "${stateName}"`)
     }
-    if (stateSplit.length === 2) {
-      if (!stateData[stateSplit[0]]) {
-        throw new Error(`State not found: "${stateSplit[0]}"`)
-      }
-      if (!stateData[stateSplit[0]].parts) {
-        throw new Error(`State not found: "${stateSplit[0]}"`)
-      }
-      return stateData[stateSplit[0]].parts[stateSplit[1]]
-    }
-    throw new Error(`Invalid state format: ${stateName}`)
+    return stateData[stateName]
   }
   const extantIn = year => {
     const info = stateInfo()

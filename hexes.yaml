@@ -4,13 +4,15 @@
       82006ffffffffff:
         place: North-East corner of Greenland
     states:
-    - Denmark/Greenland
+    - state: Denmark
+      begin: 1721
   '5':
     hexes:
       820157fffffffff:
         place: Longyearbyen, Southern Svalbard
     states:
-    - Norway/Svalbard
+    - state: Norway
+      begin: 1920
   '6':
     hexes:
       820187fffffffff:
@@ -18,7 +20,8 @@
     states:
     - Russia
     - USSR
-    - Russian Empire/Novaya Zemlya
+    - state: Russian Empire
+      begin: 1870
 '1':
   '0':
     hexes:
@@ -67,11 +70,13 @@
       820347fffffffff:
         place: Avannaata, Greenland
         states:
-        - Denmark/Greenland
+        - state: Denmark
+          begin: 1721
       82034ffffffffff:
         place: Avannaata, Greenland
         states:
-        - Denmark/Greenland
+        - state: Denmark
+          begin: 1721
       820357fffffffff:
         place: Qikiqtaaluk Region, Nunavut
         states:
@@ -83,11 +88,13 @@
       820367fffffffff:
         place: Greenland
         states:
-        - Denmark/Greenland
+        - state: Denmark
+          begin: 1721
       82036ffffffffff:
         place: Greenland
         states:
-        - Denmark/Greenland
+        - state: Denmark
+          begin: 1721
 '2':
   '0':
     hexes:
@@ -180,7 +187,8 @@
       820637fffffffff:
         place: Greenland
     states:
-    - Denmark/Greenland
+    - state: Denmark
+      begin: 1721
   '2':
     hexes:
       820687fffffffff:
@@ -194,7 +202,8 @@
       8206b7fffffffff:
         place: Avannaata, Greenland
     states:
-    - Denmark/Greenland
+    - state: Denmark
+      begin: 1721
   '3':
     hexes:
       8206c7fffffffff:
@@ -210,7 +219,8 @@
       8206f7fffffffff:
         place: Qeqertalik, Greenland
     states:
-    - Denmark/Greenland
+    - state: Denmark
+      begin: 1721
   '5':
     hexes:
       820747fffffffff:
@@ -232,7 +242,8 @@
       8207b7fffffffff:
         place: Greenland
     states:
-    - Denmark/Greenland
+    - state: Denmark
+      begin: 1721
 '4':
   '0':
     hexes:
@@ -461,8 +472,11 @@
       820c37fffffffff:
         place: Northwest Arctic Borough, Alaska
     states:
-    - USA/Alaska
-    - Russian Empire/Alaska
+    - state: USA
+      begin: 1867
+    - state: Russian Empire
+      begin: 1784
+      end: 1867
   '1':
     hexes:
       820c57fffffffff:
@@ -474,8 +488,11 @@
       820c77fffffffff:
         place: Matanuska-Susitna Borough, Alaska
     states:
-    - USA/Alaska
-    - Russian Empire/Alaska
+    - state: USA
+      begin: 1867
+    - state: Russian Empire
+      begin: 1784
+      end: 1867
   '3':
     hexes:
       820ce7fffffffff:
@@ -483,8 +500,11 @@
       820ceffffffffff:
         place: Kodiak Island Borough, Alaska
     states:
-    - USA/Alaska
-    - Russian Empire/Alaska
+    - state: USA
+      begin: 1867
+    - state: Russian Empire
+      begin: 1784
+      end: 1867
   '4':
     hexes:
       820d0ffffffffff:
@@ -492,15 +512,21 @@
       820d1ffffffffff:
         place: North Slope Borough, Alaska
     states:
-    - USA/Alaska
-    - Russian Empire/Alaska
+    - state: USA
+      begin: 1867
+    - state: Russian Empire
+      begin: 1784
+      end: 1867
   '5':
     hexes:
       820d47fffffffff:
         place: Unorganized Borough, Alaska
         states:
-        - USA/Alaska
-        - Russian Empire/Alaska
+        - state: USA
+          begin: 1867
+        - state: Russian Empire
+          begin: 1784
+          end: 1867
       820d4ffffffffff:
         place: Yukon, Canada
         states:
@@ -508,13 +534,19 @@
       820d57fffffffff:
         place: Unorganized Borough, Alaska
         states:
-        - USA/Alaska
-        - Russian Empire/Alaska
+        - state: USA
+          begin: 1867
+        - state: Russian Empire
+          begin: 1784
+          end: 1867
       820d5ffffffffff:
         place: Fairbanks North Star Borough, Alaska
         states:
-        - USA/Alaska
-        - Russian Empire/Alaska
+        - state: USA
+          begin: 1867
+        - state: Russian Empire
+          begin: 1784
+          end: 1867
       820d67fffffffff:
         place: Inuvik Region, Northwest Territories
         states:
@@ -526,8 +558,11 @@
       820d77fffffffff:
         place: North Slope Borough, Alaska
         states:
-        - USA/Alaska
-        - Russian Empire/Alaska
+        - state: USA
+          begin: 1867
+        - state: Russian Empire
+          begin: 1784
+          end: 1867
   '6':
     hexes:
       820d87fffffffff:
@@ -844,7 +879,8 @@
       8212b7fffffffff:
         place: Ketchikan Gateway Borough, Alaska
         states:
-        - USA/Alaska
+        - state: USA
+          begin: 1867
   '3':
     hexes:
       8212c7fffffffff:
@@ -1184,7 +1220,8 @@
       821b27fffffffff:
         place: Kujalleq, Greenland
     states:
-    - Denmark/Greenland
+    - state: Denmark
+      begin: 1721
   '6':
     hexes:
       821b87fffffffff:
@@ -2449,27 +2486,37 @@
         place: El Biod, Mecheria District
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       82380ffffffffff:
         place: Kheneg, Aïn Madhi District
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       823817fffffffff:
         place: Kenadsa
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       82381ffffffffff:
         place: Lebnoud, El Abiodh Sidi Cheikh District
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       82382ffffffffff:
         place: Beni Bouattab, El Karimia District
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       823837fffffffff:
         place: Galdamane, Cercle de Taza دائرة تازة
         states:
@@ -2484,7 +2531,9 @@
         place: El Hadjira
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       82385ffffffffff:
         place: رمادة الغربية
         states:
@@ -2493,19 +2542,25 @@
         place: Guernini
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
   '2':
     hexes:
       823887fffffffff:
         place: Reggane
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       82388ffffffffff:
         place: Reggane
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       823897fffffffff:
         place: Tombouctou Cercle, Mali
         states:
@@ -2514,22 +2569,30 @@
         place: Bordj Badji Mokhtar
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       8238a7fffffffff:
         place: Oum el Assel
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       8238affffffffff:
         place: Tsabit
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       8238b7fffffffff:
         place: Tinduf, Tinduf Disctrict
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
   '3':
     hexes:
       8238c7fffffffff:
@@ -2613,12 +2676,16 @@
         place: Raghunathpur
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       823c1ffffffffff:
         place: Bihar
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       823c27fffffffff:
         place: Drongpa County, Tibet
         states:
@@ -2649,7 +2716,9 @@
         place: Hunli SDO
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       823c67fffffffff:
         place: Nyainrong County, Tibet
         states:
@@ -2678,7 +2747,9 @@
         place: Chhattisgarh
     states:
     - India
-    - UK/India
+    - state: UK
+      begin: 1858
+      end: 1947
   '3':
     hexes:
       823cc7fffffffff:
@@ -2697,12 +2768,16 @@
         place: Dudhnai, Assam
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       823ceffffffffff:
         place: Tsiemekhuma, Botsa
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       823cf7fffffffff:
         place: Jhenaidah District
         states:
@@ -2721,7 +2796,9 @@
         place: Mach, Himachal Pradesh
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       823d1ffffffffff:
         place: Darchen, Purang County
         states:
@@ -2738,7 +2815,9 @@
         place: taddi, Doda
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
   '5':
     hexes:
       823d47fffffffff:
@@ -2775,7 +2854,9 @@
         place: Nanodiya, Rajasthan
     states:
     - India
-    - UK/India
+    - state: UK
+      begin: 1858
+      end: 1947
 '31':
   '0':
     hexes:
@@ -3087,7 +3168,9 @@
         place: Jandwala Kharta, Punjab
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       824257fffffffff:
         place: Saleh Pat Taluka, Sukkur District
         states:
@@ -3096,7 +3179,9 @@
         place: Raoneri - 334302, Rajasthan
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       824267fffffffff:
         place: Waza Khwa
         states:
@@ -3115,17 +3200,23 @@
         place: Jodiya - 361250, Gujarat
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       8242cffffffffff:
         place: Balasinor - 388255, Gujarat
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       8242dffffffffff:
         place: India
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
       8242e7fffffffff:
         place: Mirpur Bathoro 73030
         states:
@@ -3134,7 +3225,9 @@
         place: Rajasthan
         states:
         - India
-        - UK/India
+        - state: UK
+          begin: 1858
+          end: 1947
   '4':
     hexes:
       824307fffffffff:
@@ -3480,15 +3573,21 @@
       8252cffffffffff:
         place: Sanaag
         states:
-        - Somaliland
+        - Somalia
+        - state: Somaliland
+          begin: 2001
       8252d7fffffffff:
         place: Lughaya District
         states:
-        - Somaliland
+        - Somalia
+        - state: Somaliland
+          begin: 2001
       8252dffffffffff:
         place: Afweyne, Burao District
         states:
-        - Somaliland
+        - Somalia
+        - state: Somaliland
+          begin: 2001
       8252e7fffffffff:
         place: Usaylan District
         states:
@@ -3643,13 +3742,15 @@
         states:
         - Morocco
       82551ffffffffff:
-        place: Zuk, Cercle d'Aousserd دائرة أوسرد, Sahrawi Arab Democratic Republic
+        place: Zuk, Cercle d'Aousserd دائرة أوسرد, Sahrawi Arab Democratic Republic (Western Sahara, controlled by Moroccos. Disuputed)
         states:
-        - Morocco/Western Sahara
+        - state: Morocco
+          begin: 1975
       825527fffffffff:
-        place: Tifariti, Laâyoune-Sakia El Hamra, Sahrawi Arab Democratic Republic
+        place: Tifariti, Laâyoune-Sakia El Hamra, Sahrawi Arab Democratic Republic  (Western Sahara, controlled by Moroccos. Disuputed)
         states:
-        - Morocco/Western Sahara
+        - state: Morocco
+          begin: 1975
       82552ffffffffff:
         place: Tiris Zemmour
         states:
@@ -3817,12 +3918,16 @@
         place: Timiaouine, Bordj Badji Mokhtar District
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       82590ffffffffff:
         place: 11130 In Guezzam
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       825917fffffffff:
         place: Bourem Cercle
         states:
@@ -3835,12 +3940,16 @@
         place: 01010 Bordj Badji Mokhtar
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       82592ffffffffff:
         place: Abalessa, Abalessa District
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       825937fffffffff:
         place: Tombouctou Cercle
         states:
@@ -3867,7 +3976,9 @@
         place: 33100 Djanet
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
       82596ffffffffff:
         place: Bilma
         states:
@@ -3876,7 +3987,9 @@
         place: Tazrouk, Tazrouk District
         states:
         - Algeria
-        - France/Algeria
+        - state: France
+          begin: 1830
+          end: 1962
   '6':
     hexes:
       825987fffffffff:
@@ -3969,7 +4082,9 @@
         place: Tamil Nadu
     states:
     - India
-    - UK/India
+    - state: UK
+      begin: 1858
+      end: 1947
   '2':
     hexes:
       826087fffffffff:
@@ -3988,7 +4103,9 @@
         place: Telangana
     states:
     - India
-    - UK/India
+    - state: UK
+      begin: 1858
+      end: 1947
   '4':
     hexes:
       82611ffffffffff:
@@ -4003,7 +4120,9 @@
         place: Paturu, Andhra Pradesh
     states:
     - India
-    - UK/India
+    - state: UK
+      begin: 1858
+      end: 1947
 '49':
   '4':
     hexes:
@@ -4568,12 +4687,12 @@
         place: Las Anod District, Somaliland
         states:
         - Somalia
+        - state: Somaliland
+          begin: 2001
       827aaffffffffff:
         place: El Buur District
         states:
         - Somalia
-    states:
-    - Somalia
   '3':
     hexes:
       827ac7fffffffff:
