@@ -38,62 +38,62 @@
   '1':
     hexes:
       820247fffffffff:
-        place: Qikiqtaaluk Region, Nunavut
+        place: Qikiqtaaluk Region, eastern end of Devon Island, Nunavut
       82024ffffffffff:
-        place: Qikiqtaaluk Region, Nunavut
+        place: Qikiqtaaluk Region, northern Baffin Island, Nunavut
       820257fffffffff:
-        place: Qikiqtaaluk Region, Nunavut
+        place: Qikiqtaaluk Region, central Devon Island. Nunavut
       82025ffffffffff:
-        place: Qikiqtaaluk Region, Nunavut
+        place: Qikiqtaaluk Region, western end of Baffin Island, Nunavut
     states:
       Canada: {}
   '2':
     hexes:
       82028ffffffffff:
-        place: Inuvik Region, Northwest Territories
+        place: Inuvik Region, Banks Island, Northwest Territories
     states:
       Canada: {}
   '3':
     hexes:
       8202c7fffffffff:
-        place: Kitikmeot Region, Nunavut
+        place: Kitikmeot Region, north-eastern Victoria Island, Nunavut
       8202d7fffffffff:
-        place: Inuvik Region, Northwest Territories
+        place: Inuvik Region, western Victoria Island, Northwest Territories
       8202dffffffffff:
-        place: Kitikmeot Region, Nunavut
+        place: Kitikmeot Region, southern Victoria Island, Nunavut
       8202effffffffff:
-        place: Kitikmeot Region, Nunavut
+        place: Kitikmeot Region, Prince of Wales Island, Nunavut
       8202f7fffffffff:
-        place: Inuvik Region, Northwest Territories
+        place: Inuvik Region, M'Clure Strait, Northwest Territories
     states:
       Canada: {}
   '5':
     hexes:
       820347fffffffff:
-        place: Avannaata, Greenland
+        place: Avannaata, north west Greenland
         states:
           Denmark:
             begin: 1721
       82034ffffffffff:
-        place: Avannaata, Greenland
+        place: Avannaata, includes village of Qeqertat, Greenland
         states:
           Denmark:
             begin: 1721
       820357fffffffff:
-        place: Qikiqtaaluk Region, Nunavut
+        place: Qikiqtaaluk Region, north-western Ellesmere Island, Nunavut
         states:
           Canada: {}
       82035ffffffffff:
-        place: Qikiqtaaluk Region, Nunavut
+        place: Qikiqtaaluk Region, eastern Ellesmere Island, Nunavut
         states:
           Canada: {}
       820367fffffffff:
-        place: Greenland
+        place: northern Greenland
         states:
           Denmark:
             begin: 1721
       82036ffffffffff:
-        place: Greenland
+        place: ice sheet, northern Greenland
         states:
           Denmark:
             begin: 1721
@@ -101,29 +101,33 @@
   '0':
     hexes:
       820417fffffffff:
-        place: Sakha Republic
+        place: includes Yukagir, Sakha Republic
         states:
           Russia: {}
           USSR: {}
+          Tsardom of Russia:
+            begin: 1638
   '2':
     hexes:
       820487fffffffff:
-        place: Sakha Republic
+        place: includes Khonuu, Sakha Republic
       82048ffffffffff:
-        place: Sakha Republic
+        place: includes Usun-Kyuyol, Sakha Republic
       820497fffffffff:
-        place: Sakha Republic
+        place: wilderness to the north-east of Yakutsk, Sakha Republic
       82049ffffffffff:
-        place: Sakha Republic
+        place: includes Ust-Nera, Sakha Republic
       8204a7fffffffff:
-        place: Sakha Republic
+        place: includes Ust-Kuyga, Sakha Republic
       8204affffffffff:
-        place: Быягнырский наслег, Allaikhovsky Ulus
+        place: Быягнырский наслег, Allaikhovsky Ulus, includes Olenegorsk, Sakha Republic
       8204b7fffffffff:
-        place: Борулахский наслег, Verkhoyansky Ulus
+        place: Борулахский наслег, Verkhoyansky Ulus, includes Yunkyur, Sakha Republic
     states:
       Russia: {}
       USSR: {}
+      Tsardom of Russia:
+        begin: 1638
   '3':
     hexes:
       8204c7fffffffff:
