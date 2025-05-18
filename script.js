@@ -1,17 +1,24 @@
-import { select } from 'https://esm.sh/d3-selection'
+import { select, pointer } from 'https://esm.sh/d3-selection'
 import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
 import { Milieu, stateCoordinates, locateHex, yearRange } from './model.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
-/* global $yearControl, $yearDisplay */
+/* global $yearControl, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state */
+
+const thisYear = 2025
 
 const { minYear, maxYear } = yearRange()
 let year = maxYear
 
 const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
 
-const canvas = select('#content canvas').node()
+const $canvas = document.getElementById('map')
+$canvas.width = $canvas.clientWidth
+$canvas.height = $canvas.width
+
+const d3Canvas = select('#map')
+const canvas = d3Canvas.node()
 const context = canvas.getContext('2d')
 
 context.fillStyle = 'black'
@@ -32,7 +39,8 @@ const lightness = 50
 let selectedState
 
 const update = () => {
-  context.clearRect(0, 0, canvas.width, canvas.height)
+  context.fillStyle = 'white'
+  context.fillRect(0, 0, canvas.width, canvas.height)
   context.lineWidth = 0.5
   context.strokeStyle = '#333'
   context.beginPath()
@@ -72,11 +80,9 @@ $yearControl.max = maxYear
 $yearControl.value = year
 $yearControl.addEventListener('input', update)
 
-canvas.addEventListener('click', (event) => {
-  const rect = canvas.getBoundingClientRect()
-  const x = event.clientX - rect.left
-  const y = event.clientY - rect.top
-  const [lon, lat] = projection.invert([x, y])
+d3Canvas.on('click', function (event) {
+  const pos = pointer(event, canvas)
+  const [lon, lat] = projection.invert(pos)
   const hex = locateHex(lat, lon)
   projection.rotate([-lon, -lat])
   const milieu = Milieu(hex, year)
@@ -86,12 +92,32 @@ canvas.addEventListener('click', (event) => {
     } else {
       selectedState = undefined
     }
-    const [xx, yy] = projection([lon, lat])
-    update()
-    if (selectedState) {
-      context.fillStyle = 'black'
-      context.fillText(selectedState.name(), xx, yy)
+  }
+  const [xx, yy] = projection([lon, lat])
+  update()
+  if (selectedState) {
+    $note.style.display = 'block'
+    context.fillStyle = 'black'
+    context.fillText(selectedState.name(), xx, yy)
+    const [hexLat, hexLon] = hex.latLon()
+    $note.style.display = 'block'
+    // $googleMap.href = `https://www.google.com/maps/place/${selectedState.name()}`
+    $state.innerHTML = selectedState.name()
+    let currentStateName = ''
+    if (year !== thisYear) {
+      const currentState = Milieu(hex, thisYear)
+      if (currentState.state() && currentState.state().name() !== selectedState.name()) {
+        currentStateName = `Present day ${currentState.state().name()} `
+      }
     }
+    $place.innerHTML = `${currentStateName}(${milieu.place()})`
+    const googleQuery = `${selectedState.name()} in ${year}`
+    $google.innerHTML = googleQuery
+    $google.href = `https://google.com/search?q=${googleQuery}`
+    $googleMap.href = `https://maps.google.com/?ll=${hexLat},${hexLon}&z=8`
+    $hex.href = `https://h3geo.org/#hex=${hex.cellCode}`
+  } else {
+    $note.style.display = 'none'
   }
 })
 
