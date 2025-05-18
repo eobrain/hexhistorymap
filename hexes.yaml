@@ -30,7 +30,9 @@
       82021ffffffffff:
         place: Inuvik Region, Queen Elizabeth Islands , Northwest Territories
       82022ffffffffff:
-        place: Qikiqtaaluk Region, Axel Heiberg Island, Queen Elizabeth Islands, Nunavut
+        place: >-
+          Qikiqtaaluk Region, Axel Heiberg Island, Queen Elizabeth Islands,
+          Nunavut
     states:
     - Canada
   '1':
@@ -3742,12 +3744,16 @@
         states:
         - Morocco
       82551ffffffffff:
-        place: Zuk, Cercle d'Aousserd دائرة أوسرد, Sahrawi Arab Democratic Republic (Western Sahara, controlled by Moroccos. Disuputed)
+        place: >-
+          Zuk, Cercle d'Aousserd دائرة أوسرد, Sahrawi Arab Democratic Republic
+          (Western Sahara, controlled by Moroccos. Disuputed)
         states:
         - state: Morocco
           begin: 1975
       825527fffffffff:
-        place: Tifariti, Laâyoune-Sakia El Hamra, Sahrawi Arab Democratic Republic  (Western Sahara, controlled by Moroccos. Disuputed)
+        place: >-
+          Tifariti, Laâyoune-Sakia El Hamra, Sahrawi Arab Democratic Republic 
+          (Western Sahara, controlled by Moroccos. Disuputed)
         states:
         - state: Morocco
           begin: 1975
