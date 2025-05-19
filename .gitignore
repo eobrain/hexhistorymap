@@ -3,4 +3,6 @@ node_modules
 /yaml
 /js
 /site-js
-/site/*
+/site/*.js
+/site/*.html
+/site/*.css
