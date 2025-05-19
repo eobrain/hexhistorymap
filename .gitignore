@@ -2,3 +2,5 @@ secrets.env
 node_modules
 /yaml
 /js
+/site-js
+/site/*
