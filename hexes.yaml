@@ -131,30 +131,41 @@
   '3':
     hexes:
       8204c7fffffffff:
-        place: 98К-006, Sakha Republic
+        place: contains Chersky, Sakha Republic
       8204cffffffffff:
-        place: Pevek urban district
+        place: Pevek pot & Lake Elgygytgyn crater lake, Chukotka Autonomous Okrug 
       8204d7fffffffff:
-        place: Sakha Republic
+        place: wilderness area, Sakha Republic
       8204dffffffffff:
-        place: Bilibinsky District
+        place: wilderness area, Bilibinsky District
       8204f7fffffffff:
-        place: Sakha Republic
+        place: wilderness area, Sakha Republic
     states:
       Russia: {}
       USSR: {}
+      Russian Empire:
+        begin: 1778
   '4':
     hexes:
       820517fffffffff:
-        place: Krasnoyarsk Krai
+        place: eastern end of the Taymyr Peninsula, Krasnoyarsk Krai
+        states:
+          Russian Empire:
+            begin: 1778
       820527fffffffff:
         place: >-
-          городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
+          городское поселение Диксон, Severnaya Zemlya islands, Taymyrsky Dolgano-Nenetsky District,
           Russia
+        states:
+          Russian Empire:
+            begin: 1914
       820537fffffffff:
         place: >-
-          городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
+          городское поселение Диксон, northern tip of the Taymyr Peninsula, Taymyrsky Dolgano-Nenetsky District,
           Russia
+        states:
+          Russian Empire:
+            begin: 1778
     states:
       Russia: {}
       USSR: {}
