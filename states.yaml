@@ -1,4 +1,160 @@
-Achaemenid Empire (First Persian Empire):
+Hittite Old Kingdom:
+  begin: -1600
+  end: -1400
+Minoan Civilization:
+  begin: -2700
+  end: -1450
+Mycenaean Civilization:
+  begin: -1600
+  end: -1100
+Kingdom of Kush:
+  begin: -2500
+  end: 350
+Axumite Empire:
+  begin: 100
+  end: 940
+Carthaginian Empire:
+  begin: -814
+  end: -146
+Seleucid Empire:
+  begin: -312
+  end: -63
+Ptolemaic Kingdom:
+  begin: -305
+  end: -30
+Scythians:
+  note: Broad cultural/political entity
+  begin: -800
+  end: 200
+Xiongnu Empire:
+  begin: -209
+  end: 155
+Satavahana Dynasty:
+  begin: -230
+  end: 220
+Kushan Empire:
+  begin: 30
+  end: 375
+
+Merovingian Kingdoms:
+  begin: 481
+  end: 751
+Visigothic Kingdom:
+  begin: 418
+  end: 721
+Ostrogothic Kingdom:
+  begin: 493
+  end: 553
+Vandal Kingdom:
+  begin: 439
+  end: 534
+Srivijayan Empire:
+  begin: 650
+  end: 1377
+Chola Dynasty:
+  note: Imperial Cholas
+  begin: 848
+  end: 1279
+Fatimid Caliphate:
+  begin: 909
+  end: 1171
+Ghana Empire:
+  begin: 700
+  end: 1240
+Almoravid Dynasty:
+  begin: 1040
+  end: 1147
+Almohad Caliphate:
+  begin: 1121
+  end: 1269
+Kievan Rus':
+  begin: 882
+  end: 1240
+Kingdom of England:
+  note: Pre-Great Britain/UK
+  begin: 927
+  end: 1707
+Kingdom of Scotland:
+  note: Pre-Great Britain/UK
+  begin: 843
+  end: 1707
+Kingdom of France:
+  note: Capetian and Valois periods, distinct from modern France entry if desired
+  begin: 987
+  end: 1792
+Holy Roman Empire:
+  begin: 962
+  end: 1806
+Seljuk Empire:
+  begin: 1037
+  end: 1194
+Ayyubid Sultanate:
+  begin: 1171
+  end: 1260
+Mamluk Sultanate:
+  note: Cairo
+  begin: 1250
+  end: 1517
+Delhi Sultanate:
+  begin: 1206
+  end: 1526
+Vijayanagara Empire:
+  begin: 1336
+  end: 1646
+Kingdom of Poland:
+  note: Pre-Commonwealth
+  begin: 1025
+  end: 1569
+Grand Duchy of Lithuania:
+  note: Pre-Commonwealth
+  begin: 1236
+  end: 1569
+Kalmar Union:
+  begin: 1397
+  end: 1523
+
+Safavid Empire:
+  begin: 1501
+  end: 1736
+Polish-Lithuanian Commonwealth:
+  begin: 1569
+  end: 1795
+Kingdom of Prussia:
+  begin: 1701
+  end: 1871
+Maratha Empire:
+  begin: 1674
+  end: 1818
+Durrani Empire:
+  note: Wnd could be 1842, based on definition
+  begin: 1747
+  end: 1826
+Sikh Empire:
+  begin: 1799
+  end: 1849
+Gran Colombia:
+  begin: 1819
+  end: 1831
+Qajar Dynasty:
+  note: Persia/Iran
+  begin: 1789
+  end: 1925
+First French Colonial Empire:
+  begin: 1600
+  end: 1815
+Second French Colonial Empire:
+  note: Similar to above
+  begin: 1830
+  end: 1962
+Dutch Empire:
+  begin: 1602
+  end: 1975
+Kingdom of Sardinia:
+  note: Piedmont-Sardinia
+  begin: 1720
+  end: 1861
+Achaemenid Empire:
+  note: First Persian Empire
   begin: -550
   end: -330
 Afghanistan:
@@ -94,7 +250,8 @@ Burkina Faso:
 Burundi:
   begin: 1962
   end: 2025
-Byzantine Empire (Eastern Roman Empire):
+Byzantine Empire:
+  note: Eastern Roman Empire
   begin: 395
   end: 1453
 Cabo Verde:
@@ -250,7 +407,8 @@ Haiti:
 Han Dynasty:
   begin: -206
   end: 220
-Hittite New Kingdom (Empire):
+Hittite New Kingdom:
+  note: Empire
   begin: -1400
   end: -1178
 Honduras:
@@ -493,7 +651,8 @@ Qatar:
 Qing Dynasty:
   begin: 1636
   end: 1912
-Roman Empire (Western):
+Roman Empire:
+  note: Western
   begin: -27
   end: 476
 Romania:
@@ -526,7 +685,8 @@ San Marino:
 Sao Tome and Principe:
   begin: 1975
   end: 2025
-Sasanian Empire (Neo-Persian Empire):
+Sasanian Empire:
+  note: Neo-Persian Empire
   begin: 224
   end: 651
 Saudi Arabia:
@@ -601,7 +761,8 @@ Switzerland:
 Syria:
   begin: 1946
   end: 2025
-Taiwan (Republic of China):
+Taiwan:
+  note: Republic of China
   begin: 1912
   end: 2025
 Tajikistan:
@@ -616,7 +777,8 @@ Tanzania:
 Thailand:
   begin: 1238
   end: 2025
-Timor-Leste (East Timor):
+Timor-Leste:
+  note: East Timor
   begin: 2002
   end: 2025
 Togo:
