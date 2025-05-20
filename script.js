@@ -96,7 +96,8 @@ d3Canvas.on('click', function (event) {
   const pos = pointer(event, canvas)
   const [lon, lat] = projection.invert(pos)
   const hex = locateHex(lat, lon)
-  projection.rotate([-lon, -lat])
+  const [hexLat, hexLon] = hex.latLon()
+  projection.rotate([-hexLon, -hexLat])
   const milieu = Milieu(hex, year)
   if (milieu.place()) {
     if (milieu.state()) {
@@ -105,13 +106,12 @@ d3Canvas.on('click', function (event) {
       selectedState = undefined
     }
   }
-  const [xx, yy] = projection([lon, lat])
+  const [xx, yy] = projection([hexLon, hexLat])
   update()
   if (selectedState) {
     $note.style.display = 'block'
     context.fillStyle = 'black'
     context.fillText(selectedState.name(), xx, yy)
-    const [hexLat, hexLon] = hex.latLon()
     $note.style.display = 'block'
     // $googleMap.href = `https://www.google.com/maps/place/${selectedState.name()}`
     $state.innerHTML = selectedState.name()
