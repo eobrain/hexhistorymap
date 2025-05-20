@@ -11,6 +11,7 @@
   "author": "Eamonn O'Brien-Strain",
   "license": "ISC",
   "dependencies": {
+    "@maphubs/tokml": "^0.6.1",
     "bajel": "^1.1.0",
     "h3-js": "^4.2.1",
     "is-sea": "^0.3.1",
