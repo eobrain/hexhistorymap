@@ -120,9 +120,13 @@
       8204a7fffffffff:
         place: includes Ust-Kuyga, Sakha Republic
       8204affffffffff:
-        place: Быягнырский наслег, Allaikhovsky Ulus, includes Olenegorsk, Sakha Republic
+        place: >-
+          Быягнырский наслег, Allaikhovsky Ulus, includes Olenegorsk, Sakha
+          Republic
       8204b7fffffffff:
-        place: Борулахский наслег, Verkhoyansky Ulus, includes Yunkyur, Sakha Republic
+        place: >-
+          Борулахский наслег, Verkhoyansky Ulus, includes Yunkyur, Sakha
+          Republic
     states:
       Russia: {}
       USSR: {}
@@ -133,7 +137,7 @@
       8204c7fffffffff:
         place: contains Chersky, Sakha Republic
       8204cffffffffff:
-        place: Pevek pot & Lake Elgygytgyn crater lake, Chukotka Autonomous Okrug 
+        place: Pevek pot & Lake Elgygytgyn crater lake, Chukotka Autonomous Okrug
       8204d7fffffffff:
         place: wilderness area, Sakha Republic
       8204dffffffffff:
@@ -154,15 +158,15 @@
             begin: 1778
       820527fffffffff:
         place: >-
-          городское поселение Диксон, Severnaya Zemlya islands, Taymyrsky Dolgano-Nenetsky District,
-          Russia
+          городское поселение Диксон, Severnaya Zemlya islands, Taymyrsky
+          Dolgano-Nenetsky District, Russia
         states:
           Russian Empire:
             begin: 1914
       820537fffffffff:
         place: >-
-          городское поселение Диксон, northern tip of the Taymyr Peninsula, Taymyrsky Dolgano-Nenetsky District,
-          Russia
+          городское поселение Диксон, northern tip of the Taymyr Peninsula,
+          Taymyrsky Dolgano-Nenetsky District, Russia
         states:
           Russian Empire:
             begin: 1778

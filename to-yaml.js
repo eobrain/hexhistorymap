@@ -10,5 +10,11 @@ const hexesSorted = Object.fromEntries(
   Object.entries(hexes).sort((a, b) => a[0].localeCompare(b[0]))
 )
 
+const middle = ({ begin, end }) => (end - begin) / 2 + begin
+
+const statesSorted = Object.fromEntries(
+  Object.entries(states).sort((a, b) => middle(a[1]) - middle(b[1]))
+)
+
 fs.writeFileSync('hexes.yaml', dump(hexesSorted, options))
-fs.writeFileSync('states.yaml', dump(states, options))
+fs.writeFileSync('states.yaml', dump(statesSorted, options))
