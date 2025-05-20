@@ -201,17 +201,17 @@
   '0':
     hexes:
       820607fffffffff:
-        place: Sermersooq, Greenland
+        place: Sermersooq, ice-sheet, south-east, Greenland
       82060ffffffffff:
-        place: Sermersooq, Greenland
+        place: Sermersooq, south-east coast, Greenland
       820617fffffffff:
-        place: Greenland
+        place: interior ice sheet, includes Summit Camp, Greenland
       82061ffffffffff:
-        place: Sermersooq, Greenland
+        place: Sermersooq, interior ice sheet, Greenland
       820627fffffffff:
-        place: Sermersooq, Greenland
+        place: Sermersooq, Scoresby Sound, contains Ittoqqortoormiit, Greenland
       820637fffffffff:
-        place: Greenland
+        place: east coast, contains Mestersvig military outpost, Greenland
     states:
       Denmark:
         begin: 1721
