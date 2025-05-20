@@ -105,6 +105,7 @@
         states:
           Russia: {}
           USSR: {}
+          Russian Empire: {}
           Tsardom of Russia:
             begin: 1638
   '2':
@@ -130,6 +131,7 @@
     states:
       Russia: {}
       USSR: {}
+      Russian Empire: {}
       Tsardom of Russia:
         begin: 1638
   '3':
@@ -176,22 +178,25 @@
   '6':
     hexes:
       820587fffffffff:
-        place: Sakha Republic
+        place: wilderness area, Sakha Republic
       82058ffffffffff:
-        place: Sakha Republic
+        place: wilderness area to the west of the Lena River, Sakha Republic
       820597fffffffff:
-        place: Эвенкийское сельское поселение «Кыстатыам», Zhigansky Ulus
+        place: Эвенкийское сельское поселение «Кыстатыам», includes Zhigansk, Zhigansky Ulus
       82059ffffffffff:
-        place: Sakha Republic
+        place: wilderness area on the east bank of the Lena River, Sakha Republic
       8205a7fffffffff:
-        place: Юрюнг-Хаинский национальный (долганский) наслег, Anabarsky Ulus
+        place: Юрюнг-Хаинский национальный (долганский) наслег, contains Popigai impact crater, Anabarsky Ulus
       8205affffffffff:
-        place: Sakha Republic
+        place: Lena River delta, Ust-Lenskiy State Nature Reserve, Sakha Republic
       8205b7fffffffff:
-        place: Кирбейский национальный наслег, Olenyoksky Ulus
+        place: Кирбейский национальный наслег, includes Olenyok, Olenyoksky Ulus
     states:
       Russia: {}
       USSR: {}
+      Russian Empire: {}
+      Tsardom of Russia:
+        begin: 1638
 '3':
   '0':
     hexes:
