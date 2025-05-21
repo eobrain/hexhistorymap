@@ -218,32 +218,44 @@
   '2':
     hexes:
       820687fffffffff:
-        place: Avannaata, Greenland
+        place: Avannaata, includes several settlements on the wes coast, Greenland
       82068ffffffffff:
-        place: Avannaata, Greenland
+        place: Avannaata, Nuussuaq Peninsula and Disko Island and several coastal settlements, western Greenland
       8206a7fffffffff:
         place: Greenland
       8206affffffffff:
-        place: Avannaata, Greenland
+        place: Avannaata, interior icesheet, Greenland
       8206b7fffffffff:
-        place: Avannaata, Greenland
+        place: Avannaata, interior icesheet. Greenland
     states:
       Denmark:
         begin: 1721
   '3':
     hexes:
       8206c7fffffffff:
-        place: Qeqqata, Greenland
+        place: Qeqqata, western edge of icesheet, includes Kapisillit, Greenland
+        states:
+          Norway:
+            begin: 1263
+            end: 1500
       8206cffffffffff:
-        place: Sermersooq, Greenland
+        place: Sermersooq, south western coast with several settlements, Greenland
+        states:
+          Norway:
+            begin: 1263
+            end: 1500
       8206d7fffffffff:
-        place: Qeqertalik, Greenland
+        place: Qeqertalik, western coast, includes Sisimiut, Greenland
+        states:
+          Norway:
+            begin: 1263
+            end: 1500
       8206e7fffffffff:
-        place: Sermersooq, Greenland
+        place: Sermersooq, south eastern edge of icesheet, some settlements, Greenland
       8206effffffffff:
-        place: Sermersooq, Greenland
+        place: Sermersooq, south eastern coast, Greenland
       8206f7fffffffff:
-        place: Qeqertalik, Greenland
+        place: Qeqertalik, western edge of icesheet, includes Qasigiannguit, Greenland
     states:
       Denmark:
         begin: 1721

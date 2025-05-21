@@ -4,12 +4,12 @@ import toKml from '@maphubs/tokml'
 import fs from 'fs'
 
 const coordinates = h3.cellsToMultiPolygon(
-  Object.keys(hexList).slice(0, 100),
+  Object.keys(hexList),
   /* formatAsGeoJson= */true)
 
 const geoJson = { type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } }
 
-//console.log(JSON.stringify(geoJson, null, 2))
+// console.log(JSON.stringify(geoJson, null, 2))
 
 const kml = toKml(geoJson)
 

@@ -18,10 +18,36 @@ const Hex = cellCode => {
         ...Object.keys(parent.hexes[cellCode].states || {})
       ]
     : []
+  const statesRanges = () => stateNames().map(stateName => {
+    let { begin, end } = State(stateName).stateInfo()
+    if (parent.states && parent.states[stateName]) {
+      const stateInfo = parent.states[stateName]
+      if (stateInfo.begin) {
+        begin = stateInfo.begin
+      }
+      if (stateInfo.end) {
+        end = stateInfo.end
+      }
+    }
+    if (parent.hexes[cellCode].states && parent.hexes[cellCode].states[stateName]) {
+      const stateInfo = parent.hexes[cellCode].states[stateName]
+      if (stateInfo.begin) {
+        begin = stateInfo.begin
+      }
+      if (stateInfo.end) {
+        end = stateInfo.end
+      }
+    }
+    return {
+      stateName,
+      begin,
+      end
+    }
+  })
   const coordinates = () => h3.cellsToMultiPolygon([cellCode], true)[0]
   const latLon = () => h3.cellToLatLng(cellCode)
 
-  return { isValid, place, stateNames, coordinates, cellCode, latLon }
+  return { isValid, place, stateNames, coordinates, cellCode, latLon, statesRanges }
 }
 
 export const locateHex = (lat, lon) => Hex(h3.latLngToCell(lat, lon, 2))
@@ -84,12 +110,11 @@ export const Milieu = (hex, year) => {
   let state = null
   if (hex.isValid()) {
     place = hex.place()
-    for (const stateName of hex.stateNames()) {
-      state = State(stateName)
-      if (state.extantIn(year)) {
+    for (const { stateName, begin, end } of hex.statesRanges()) {
+      if (begin <= year && year <= end) {
+        state = State(stateName)
         break
       }
-      state = null
     }
   }
   return {
