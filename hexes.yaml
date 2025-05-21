@@ -262,9 +262,16 @@
   '5':
     hexes:
       820747fffffffff:
-        place: Ásahreppur
+        place: Iceland
     states:
       Iceland: {}
+      Denmark:
+        begin: 1523
+        end: 1918
+      Norway:
+        begin: 1262
+        end: 1523
+      Icelandic Commonwealth: {}
   '6':
     hexes:
       820787fffffffff:
