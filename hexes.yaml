@@ -285,17 +285,17 @@
   '6':
     hexes:
       820787fffffffff:
-        place: Greenland
+        place: Northeast Greenland National Park, eastern edge of icesheet, Greenland
       82078ffffffffff:
-        place: Greenland
+        place: interioe icesheet, Greenland
       820797fffffffff:
-        place: Greenland
+        place: north-eastern corner of icesheet, Greenland
       82079ffffffffff:
-        place: Greenland
+        place: middle of the icesheet. Greenland
       8207affffffffff:
-        place: Greenland
+        place: western coast, includes Daneborg park ranger station, Greenland
       8207b7fffffffff:
-        place: Greenland
+        place: eastern coast, far north, Greenland
     states:
       Denmark:
         begin: 1721
@@ -303,23 +303,29 @@
   '0':
     hexes:
       820817fffffffff:
-        place: Røros, Trøndelag
+        place: Røros, Trøndelag, includes Trondheim
         states:
           Norway: {}
       82081ffffffffff:
-        place: Dorotea kommun, Västerbotten County
+        place: Dorotea kommun, Västerbotten County, interior north-central
         states:
           Sweden: {}
   '2':
     hexes:
       820887fffffffff:
-        place: Östra Tränsjövägen, Östhammars kommun
+        place: Östra Tränsjövägen, Östhammars kommun, Stockholm and Uppsala
         states:
           Sweden: {}
       82088ffffffffff:
-        place: Siikainen, Satakunta
+        place: Siikainen, Satakunta, western coastal region
         states:
           Finland: {}
+          Sweden:
+            begin: 1280
+            end: 1809
+          Russian Empire:
+            begin: 1809
+            end: 1917
       82089ffffffffff:
         place: Lääne County
         states:
@@ -342,18 +348,42 @@
         place: Huhtavaarantie, Ylitornio
         states:
           Finland: {}
+          Sweden:
+            begin: 1280
+            end: 1809
+          Russian Empire:
+            begin: 1809
+            end: 1917
       8208cffffffffff:
         place: Inari, Lapland
         states:
           Finland: {}
+          Sweden:
+            begin: 1280
+            end: 1809
+          Russian Empire:
+            begin: 1809
+            end: 1917
       8208d7fffffffff:
         place: 85660 Haapavesi
         states:
           Finland: {}
+          Sweden:
+            begin: 1280
+            end: 1809
+          Russian Empire:
+            begin: 1809
+            end: 1917
       8208dffffffffff:
         place: Mikonkorventie, Kuusamo
         states:
           Finland: {}
+          Sweden:
+            begin: 1280
+            end: 1809
+          Russian Empire:
+            begin: 1809
+            end: 1917
       8208e7fffffffff:
         place: Jokkmokks kommun, Norrbotten County
         states:
@@ -829,10 +859,22 @@
         place: Mikkelintie, 52730 Mäntyharju, Finland
         states:
           Finland: {}
+          Sweden:
+            begin: 1280
+            end: 1809
+          Russian Empire:
+            begin: 1809
+            end: 1917
       82112ffffffffff:
         place: Karhunpolku, Lieksa, Finland
         states:
           Finland: {}
+          Sweden:
+            begin: 1280
+            end: 1809
+          Russian Empire:
+            begin: 1809
+            end: 1917
       821137fffffffff:
         place: Gdovsky District, Russia
         states:
