@@ -131,6 +131,9 @@ Chola Dynasty:
 Almoravid Dynasty:
   begin: 1040
   end: 1147
+Icelandic Commonwealth:
+  begin: 930
+  end: 1262
 Seljuk Empire:
   begin: 1037
   end: 1194
@@ -460,6 +463,9 @@ Lithuania:
 Poland:
   begin: 1918
   end: 2025
+Iceland:
+  begin: 1918
+  end: 2025
 Afghanistan:
   begin: 1919
   end: 2025
@@ -484,12 +490,6 @@ Saudi Arabia:
 Lebanon:
   begin: 1943
   end: 2025
-Iceland:
-  begin: 1918
-  end: 2025
-Icelandic Commonwealth:
-  begin: 930
-  end: 1262
 Indonesia:
   begin: 1945
   end: 2025
