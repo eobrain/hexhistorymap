@@ -167,6 +167,9 @@ Kingdom of England:
 England:
   begin: 927
   end: 1707
+Teutonic Order:
+  begin: 1230
+  end: 1466
 Delhi Sultanate:
   begin: 1206
   end: 1526
@@ -445,9 +448,6 @@ Taiwan:
   note: Republic of China
   begin: 1912
   end: 2025
-Teutonic Order:
-  begin: 1230
-  end: 1466
 Finland:
   begin: 1917
   end: 2025
