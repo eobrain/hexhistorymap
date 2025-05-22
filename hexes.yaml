@@ -327,25 +327,42 @@
             begin: 1809
             end: 1917
       82089ffffffffff:
-        place: Lääne County
+        place: Estonia
         states:
           Estonia: {}
+          USSR:
+            begin: 1940
+          Russian Empire:
+            end: 1917
+            begin: 1710
+          Sweden:
+            end: 1710
+            begin: 1559
+          Holy Roman Empire:
+            end: 1559
+            begin: 1418
+          Teutonic Order:
+            end: 1418
+            begin: 1346
+          Denmark:
+            end: 1345
+            begin: 1227
       8208a7fffffffff:
-        place: Malung-Sälens kommun
+        place: Malung-Sälens kommun, interior southern region
         states:
           Sweden: {}
       8208affffffffff:
-        place: Gamla Klingstavägen, 853 58 Tuna District
+        place: Gamla Klingstavägen, Tuna District, central coastal
         states:
           Sweden: {}
       8208b7fffffffff:
-        place: O 3033, Karlsborgs kommun
+        place: Karlsborgs kommun, interior far south region
         states:
           Sweden: {}
   '3':
     hexes:
       8208c7fffffffff:
-        place: Huhtavaarantie, Ylitornio
+        place: Huhtavaarantie, Ylitornio, southern Lapland, includes Rovaniemi
         states:
           Finland: {}
           Sweden:
@@ -365,7 +382,7 @@
             begin: 1809
             end: 1917
       8208d7fffffffff:
-        place: 85660 Haapavesi
+        place: Haapavesi, central region, includes Oulu
         states:
           Finland: {}
           Sweden:
@@ -375,7 +392,7 @@
             begin: 1809
             end: 1917
       8208dffffffffff:
-        place: Mikonkorventie, Kuusamo
+        place: Mikonkorventie, Kuusamo, interior northern region
         states:
           Finland: {}
           Sweden:
@@ -385,27 +402,32 @@
             begin: 1809
             end: 1917
       8208e7fffffffff:
-        place: Jokkmokks kommun, Norrbotten County
+        place: Jokkmokks kommun, Norrbotten County, Lapland
         states:
           Sweden: {}
       8208effffffffff:
-        place: Kiruna kommun, Norrbotten County
+        place: Kiruna kommun, Norrbotten County, northern Lapland, includes Kiruna
         states:
           Sweden: {}
       8208f7fffffffff:
-        place: Grans sameby
+        place: Grans sameby, north eastern coast, includes Umeå
         states:
           Sweden: {}
-    states: {}
   '6':
     hexes:
       820987fffffffff:
-        place: Bømlo, Vestland
+        place: Bømlo, Vestland, western coastal region, includes Bergen and Stavanger
       82098ffffffffff:
-        place: Solhaugen, Vestland
+        place: Solhaugen, Vestland, interior region
       82099ffffffffff:
-        place: Bamble
+        place: Bamble, southern region, including Oslo
     states:
+      Denmark:
+        begin: 1537
+        end: 1814
+      Germany:
+        begin: 1940
+        end: 1945
       Norway: {}
 '5':
   '0':

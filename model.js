@@ -14,8 +14,8 @@ const Hex = cellCode => {
   const place = () => isValid() ? parent.hexes[cellCode].place : null
   const stateNames = () => isValid()
     ? [
-        ...Object.keys(parent.states || {}),
-        ...Object.keys(parent.hexes[cellCode].states || {})
+        ...Object.keys(parent.hexes[cellCode].states || {}),
+        ...Object.keys(parent.states || {})
       ]
     : []
   const statesRanges = () => stateNames().map(stateName => {
