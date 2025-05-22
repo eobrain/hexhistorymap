@@ -329,7 +329,6 @@
       82089ffffffffff:
         place: Estonia
         states:
-          Estonia: {}
           USSR:
             begin: 1940
           Russian Empire:
@@ -347,6 +346,7 @@
           Denmark:
             end: 1345
             begin: 1227
+          Estonia: {}
       8208a7fffffffff:
         place: Malung-Sälens kommun, interior southern region
         states:
