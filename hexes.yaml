@@ -433,60 +433,68 @@
   '0':
     hexes:
       820a07fffffffff:
-        place: Turukhansky District
+        place: Turukhansky District, east bank of the Yenisei River
       820a0ffffffffff:
-        place: Evenkiysky Rayon
+        place: Evenkiysky Rayon, wilderness area
       820a17fffffffff:
-        place: Evenkiysky Rayon
+        place: Evenkiysky Rayon, east bank of the Yenisei River, includes Vorogovo
       820a1ffffffffff:
-        place: Evenkiysky Rayon
+        place: Evenkiysky Rayon, wilderness area with some abandoned settlements
       820a27fffffffff:
-        place: Krasnoselkupsky Rayon
+        place: Krasnoselkupsky Rayon, includes Krasnosel'kup
       820a2ffffffffff:
-        place: Turukhansky District
+        place: Turukhansky District, Yenisei River, includes Igarka
       820a37fffffffff:
-        place: Turukhansky District
+        place: Turukhansky District, west bank of Yenisei River, includes Verkhneimbatsk
     states:
       Russia: {}
       USSR: {}
+      Russian Empire:
+        begin: 1822
   '1':
     hexes:
       820a47fffffffff:
-        place: Krasnoyarsk Krai
+        place: Krasnoyarsk Krai, interior Taymyr Peninsula, includes Volochanka
       820a4ffffffffff:
-        place: Krasnoyarsk Krai
+        place: Krasnoyarsk Krai, Khatanga Gulf, eastern Taymyr Peninsula, includes Novorybnaya
       820a57fffffffff:
-        place: Evenkiysky Rayon
+        place: Evenkiysky Rayon, includes Yessey
       820a5ffffffffff:
-        place: Krasnoyarsk Krai
+        place: Krasnoyarsk Krai, wilderness area
       820a67fffffffff:
-        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District
+        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District, east bank of the Yenisei River where it enters the Arctic Ocean
       820a6ffffffffff:
-        place: городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District
+        place: городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District, northern coast of the Taymyr Peninsula
       820a77fffffffff:
-        place: городское поселение Дудинка, Taymyrsky Dolgano-Nenetsky District
+        place: городское поселение Дудинка, Taymyrsky Dolgano-Nenetsky District, Norilsk closed city
     states:
       Russia: {}
       USSR: {}
+      Russian Empire:
+        begin: 1822
   '2':
     hexes:
       820a87fffffffff:
-        place: Kezhemsky Rayon
+        place: Kezhemsky Rayon, contains Kodinsk
       820a8ffffffffff:
-        place: Evenkiysky Rayon
+        place: Evenkiysky Rayon, site of the Tunguska blast event
       820a97fffffffff:
-        place: Покоснинское сельское поселение, Братский район
+        place: Покоснинское сельское поселение, Братский район, city of Bratsk, Irkutsk Oblast
       820a9ffffffffff:
-        place: Irkutsk Oblast
+        place: Irkutsk Oblast, includes Ust-Ilimsk
       820aa7fffffffff:
-        place: Krasnoyarsk Krai
+        place: Krasnoyarsk Krai, includes Lesosibirsk
       820aaffffffffff:
-        place: Evenkiysky Rayon
+        place: Evenkiysky Rayon, Kuyumbinskoye Oil Field
       820ab7fffffffff:
-        place: городское поселение Иланский, Ilansky Rayon
+        place: городское поселение Иланский, Ilansky Rayon, contains Kansk
     states:
       Russia: {}
       USSR: {}
+      Russian Empire: {}
+      Tsardom of Russia:
+        begin: 1640
+      Xiongnu Empire: {}
   '3':
     hexes:
       820ac7fffffffff:
@@ -534,7 +542,7 @@
       820b57fffffffff:
         place: Tazovsky Rayon
       820b5ffffffffff:
-        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District
+        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District, west bank of the Yenisei River, contains Dudinka
       820b67fffffffff:
         place: Yamalo-Nenets Autonomous Okrug
       820b6ffffffffff:
