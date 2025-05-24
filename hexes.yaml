@@ -605,22 +605,32 @@
   '3':
     hexes:
       820ac7fffffffff:
+        name: Mirninsky District
         place: Mirninsky Ulus
       820acffffffffff:
-        place: Sakha Republic
+        name: Udachnaya diamond mine
+        place: Sakha Republic, site of nuclear explosion to help with diamond mining
       820ad7fffffffff:
+        name: Katangsky District
         place: Irkutsk Oblast
       820adffffffffff:
+        name: Mir diamond mine
         place: Sakha Republic
       820ae7fffffffff:
+        name: Evenkiysky District
         place: Evenkiysky Rayon
       820aeffffffffff:
+        name: Yeromo Lake
         place: Evenkiysky Rayon
       820af7fffffffff:
+        name: Kislokan
         place: Evenkiysky Rayon
     states:
       Russia: {}
       USSR: {}
+      Russian Empire: {}
+      Tsardom of Russia:
+        begin: 1640
   '4':
     hexes:
       820b07fffffffff:
