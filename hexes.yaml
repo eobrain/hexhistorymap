@@ -289,24 +289,18 @@
       8206c7fffffffff:
         name: Kapisillit
         place: Qeqqata, western edge of icesheet, Greenland
-        states:
+        states: &western_greenland
           Norway:
             begin: 1263
             end: 1500
       8206cffffffffff:
         name: Greenland SW
         place: Sermersooq, coast with several settlements, Greenland
-        states:
-          Norway:
-            begin: 1263
-            end: 1500
+        states: *western_greenland
       8206d7fffffffff:
         name: Sisimiut
         place: Qeqertalik, western coast, Greenland
-        states:
-          Norway:
-            begin: 1263
-            end: 1500
+        states: *western_greenland
       8206e7fffffffff:
         name: icesheet E
         place: Sermersooq, some settlements, Greenland
@@ -429,7 +423,7 @@
       8208c7fffffffff:
         name: Rovaniemi
         place: Huhtavaarantie, Ylitornio, Finnish Lapland S
-        states:
+        states: &finland
           Finland: {}
           Sweden:
             begin: 1280
@@ -440,36 +434,15 @@
       8208cffffffffff:
         name: Finnish Lapland
         place: Inari, Lapland
-        states:
-          Finland: {}
-          Sweden:
-            begin: 1280
-            end: 1809
-          Russian Empire:
-            begin: 1809
-            end: 1917
+        states: *finland
       8208d7fffffffff:
         name: Oulu
         place: Haapavesi, central region
-        states:
-          Finland: {}
-          Sweden:
-            begin: 1280
-            end: 1809
-          Russian Empire:
-            begin: 1809
-            end: 1917
+        states: *finland
       8208dffffffffff:
         name: Finland N
         place: Mikonkorventie, Kuusamo, interior northern region
-        states:
-          Finland: {}
-          Sweden:
-            begin: 1280
-            end: 1809
-          Russian Empire:
-            begin: 1809
-            end: 1917
+        states: *finland
       8208e7fffffffff:
         name: Swedish Laplan
         place: Jokkmokks kommun, Norrbotten County, Lapland
@@ -528,7 +501,7 @@
       820a37fffffffff:
         name: Verkhneimbatsk
         place: Turukhansky District, west bank of Yenisei
-    states:
+    states: &northern_siberia
       Russia: {}
       USSR: {}
       Russian Empire:
@@ -558,11 +531,7 @@
       820a77fffffffff:
         name: Norilsk closed city
         place: городское поселение Дудинка, Taymyrsky Dolgano-Nenetsky District
-    states:
-      Russia: {}
-      USSR: {}
-      Russian Empire:
-        begin: 1822
+    states: *northern_siberia
   '2':
     hexes:
       820a87fffffffff:
@@ -696,7 +665,7 @@
         place: Unorganized Borough, Alaska
       820c37fffffffff:
         place: Northwest Arctic Borough, Alaska
-    states:
+    states: &alaska
       USA:
         begin: 1867
       Russian Empire:
@@ -712,66 +681,36 @@
         place: Yakutat, Alaska
       820c77fffffffff:
         place: Matanuska-Susitna Borough, Alaska
-    states:
-      USA:
-        begin: 1867
-      Russian Empire:
-        begin: 1784
-        end: 1867
+    states: *alaska
   '3':
     hexes:
       820ce7fffffffff:
         place: Unorganized Borough, Alaska
       820ceffffffffff:
         place: Kodiak Island Borough, Alaska
-    states:
-      USA:
-        begin: 1867
-      Russian Empire:
-        begin: 1784
-        end: 1867
+    states: *alaska
   '4':
     hexes:
       820d0ffffffffff:
         place: North Slope Borough, Alaska
       820d1ffffffffff:
         place: North Slope Borough, Alaska
-    states:
-      USA:
-        begin: 1867
-      Russian Empire:
-        begin: 1784
-        end: 1867
+    states: *alaska
   '5':
     hexes:
       820d47fffffffff:
         place: Unorganized Borough, Alaska
-        states:
-          USA:
-            begin: 1867
-          Russian Empire:
-            begin: 1784
-            end: 1867
+        states: *alaska
       820d4ffffffffff:
         place: Yukon, Canada
         states:
           Canada: {}
       820d57fffffffff:
         place: Unorganized Borough, Alaska
-        states:
-          USA:
-            begin: 1867
-          Russian Empire:
-            begin: 1784
-            end: 1867
+        states: *alaska
       820d5ffffffffff:
         place: Fairbanks North Star Borough, Alaska
-        states:
-          USA:
-            begin: 1867
-          Russian Empire:
-            begin: 1784
-            end: 1867
+        states: *alaska
       820d67fffffffff:
         place: Inuvik Region, Northwest Territories
         states:
@@ -782,12 +721,7 @@
           Canada: {}
       820d77fffffffff:
         place: North Slope Borough, Alaska
-        states:
-          USA:
-            begin: 1867
-          Russian Empire:
-            begin: 1784
-            end: 1867
+        states: *alaska
   '6':
     hexes:
       820d87fffffffff:
