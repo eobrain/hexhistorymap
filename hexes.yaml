@@ -2,21 +2,24 @@
   '1':
     hexes:
       82006ffffffffff:
-        place: North-East corner of Greenland
+        name: Greenland NE
+        place: North-East corner
     states:
       Denmark:
         begin: 1721
   '5':
     hexes:
       820157fffffffff:
-        place: Longyearbyen, Southern Svalbard
+        name: Svalbard S
+        place: Longyearbyen, southern
     states:
       Norway:
         begin: 1920
   '6':
     hexes:
       820187fffffffff:
-        place: Yuzhny Island, Novaya Zemlya, Arkhangelsk Oblast
+        name: Novaya Zemlya
+        place: Yuzhny Island, Arkhangelsk Oblast
     states:
       Russia: {}
       USSR: {}
@@ -26,73 +29,92 @@
   '0':
     hexes:
       82020ffffffffff:
+        name: Qausuittuq National Park
         place: Qikiqtaaluk Region, Queen Elizabeth Islands, Nunavut
       82021ffffffffff:
-        place: Inuvik Region, Queen Elizabeth Islands , Northwest Territories
+        name: Melville Island
+        place: Inuvik Region, Queen Elizabeth Islands, Northwest Territories
       82022ffffffffff:
+        name: Sverdrup Islands
         place: >-
-          Qikiqtaaluk Region, Axel Heiberg Island, Queen Elizabeth Islands,
+          Qikiqtaaluk Region, Queen Elizabeth Islands, Axel Heiberg Island,
           Nunavut
     states:
       Canada: {}
   '1':
     hexes:
       820247fffffffff:
-        place: Qikiqtaaluk Region, eastern end of Devon Island, Nunavut
+        name: Devon Island E
+        place: Qikiqtaaluk Region, Nunavut
       82024ffffffffff:
-        place: Qikiqtaaluk Region, northern Baffin Island, Nunavut
+        name: Baffin Island N
+        place: Qikiqtaaluk Region, Nunavut
       820257fffffffff:
-        place: Qikiqtaaluk Region, central Devon Island. Nunavut
+        name: Devon Island
+        place: Qikiqtaaluk Region,  Nunavut
       82025ffffffffff:
-        place: Qikiqtaaluk Region, western end of Baffin Island, Nunavut
+        name: Baffin Island W
+        place: Qikiqtaaluk Region, Nunavut
     states:
       Canada: {}
   '2':
     hexes:
       82028ffffffffff:
-        place: Inuvik Region, Banks Island, Northwest Territories
+        name: Banks Island
+        place: Inuvik Region, Northwest Territories
     states:
       Canada: {}
   '3':
     hexes:
       8202c7fffffffff:
-        place: Kitikmeot Region, north-eastern Victoria Island, Nunavut
+        name: Victoria Island NE
+        place: Kitikmeot Region, Nunavut
       8202d7fffffffff:
-        place: Inuvik Region, western Victoria Island, Northwest Territories
+        name: Victoria Island W
+        place: Inuvik Region, Northwest Territories
       8202dffffffffff:
-        place: Kitikmeot Region, southern Victoria Island, Nunavut
+        name: Victoria Island S
+        place: Kitikmeot Region, Nunavut
       8202effffffffff:
-        place: Kitikmeot Region, Prince of Wales Island, Nunavut
+        name: Prince of Wales Island
+        place: Kitikmeot Region,  Nunavut
       8202f7fffffffff:
-        place: Inuvik Region, M'Clure Strait, Northwest Territories
+        name: M'Clure Strait
+        place: Inuvik Region, Northwest Territories
     states:
       Canada: {}
   '5':
     hexes:
       820347fffffffff:
+        name: Greenland NW
         place: Avannaata, north west Greenland
         states:
           Denmark:
             begin: 1721
       82034ffffffffff:
-        place: Avannaata, includes village of Qeqertat, Greenland
+        name: Qeqertat
+        place: Avannaata, Greenland
         states:
           Denmark:
             begin: 1721
       820357fffffffff:
-        place: Qikiqtaaluk Region, north-western Ellesmere Island, Nunavut
+        name: Ellesmere Island NW
+        place: Qikiqtaaluk Region, Nunavut
         states:
           Canada: {}
       82035ffffffffff:
-        place: Qikiqtaaluk Region, eastern Ellesmere Island, Nunavut
+        name: Ellesmere Island E
+        place: Qikiqtaaluk Region, Nunavut
         states:
           Canada: {}
       820367fffffffff:
+        name: Greenland N
         place: northern Greenland
         states:
           Denmark:
             begin: 1721
       82036ffffffffff:
+        name: Icesheet N
         place: ice sheet, northern Greenland
         states:
           Denmark:
@@ -101,7 +123,8 @@
   '0':
     hexes:
       820417fffffffff:
-        place: includes Yukagir, Sakha Republic
+        name: Yukagir
+        place: Sakha Republic
         states:
           Russia: {}
           USSR: {}
@@ -111,22 +134,29 @@
   '2':
     hexes:
       820487fffffffff:
-        place: includes Khonuu, Sakha Republic
+        name: Khonuu
+        place: Sakha Republic
       82048ffffffffff:
-        place: includes Usun-Kyuyol, Sakha Republic
+        name: Usun-Kyuyol
+        place: Sakha Republic
       820497fffffffff:
-        place: wilderness to the north-east of Yakutsk, Sakha Republic
+        name: NE of Yakutsk
+        place: wilderness, Sakha Republic
       82049ffffffffff:
-        place: includes Ust-Nera, Sakha Republic
+        name: Ust-Nera
+        place: Sakha Republic
       8204a7fffffffff:
-        place: includes Ust-Kuyga, Sakha Republic
+        name: Ust-Kuyga
+        place: Sakha Republic
       8204affffffffff:
+        name: Olenegorsk
         place: >-
-          Быягнырский наслег, Allaikhovsky Ulus, includes Olenegorsk, Sakha
+          Быягнырский наслег, Allaikhovsky Ulus, Sakha
           Republic
       8204b7fffffffff:
+        name: Yunkyur
         place: >-
-          Борулахский наслег, Verkhoyansky Ulus, includes Yunkyur, Sakha
+          Борулахский наслег, Verkhoyansky Ulus, Sakha
           Republic
     states:
       Russia: {}
@@ -137,15 +167,20 @@
   '3':
     hexes:
       8204c7fffffffff:
-        place: contains Chersky, Sakha Republic
+        name: Chersky
+        place: Sakha Republic
       8204cffffffffff:
-        place: Pevek pot & Lake Elgygytgyn crater lake, Chukotka Autonomous Okrug
+        name: Elgygytgyn crater lake
+        place: Pevek pot, Chukotka Autonomous Okrug
       8204d7fffffffff:
-        place: wilderness area, Sakha Republic
+        name: wilderness
+        place: Sakha Republic
       8204dffffffffff:
-        place: wilderness area, Bilibinsky District
+        name: wilderness
+        place: Bilibinsky District
       8204f7fffffffff:
-        place: wilderness area, Sakha Republic
+        name: wilderness
+        place: Sakha Republic
     states:
       Russia: {}
       USSR: {}
@@ -154,20 +189,23 @@
   '4':
     hexes:
       820517fffffffff:
-        place: eastern end of the Taymyr Peninsula, Krasnoyarsk Krai
+        name: Taymyr Peninsula E
+        place: Krasnoyarsk Krai
         states:
           Russian Empire:
             begin: 1778
       820527fffffffff:
+        name: Severnaya Zemlya islands
         place: >-
-          городское поселение Диксон, Severnaya Zemlya islands, Taymyrsky
+          городское поселение Диксон, Taymyrsky
           Dolgano-Nenetsky District, Russia
         states:
           Russian Empire:
             begin: 1914
       820537fffffffff:
+        name: Taymyr Peninsula N
         place: >-
-          городское поселение Диксон, northern tip of the Taymyr Peninsula,
+          городское поселение Диксон,
           Taymyrsky Dolgano-Nenetsky District, Russia
         states:
           Russian Empire:
@@ -178,23 +216,29 @@
   '6':
     hexes:
       820587fffffffff:
-        place: wilderness area, Sakha Republic
+        name: wilderness
+        place: Sakha Republic
       82058ffffffffff:
-        place: wilderness area to the west of the Lena River, Sakha Republic
+        name: W of Lena River
+        place: wilderness area to the , Sakha Republic
       820597fffffffff:
+        name: Zhigansk
         place: >-
-          Эвенкийское сельское поселение «Кыстатыам», includes Zhigansk,
+          Эвенкийское сельское поселение «Кыстатыам»,
           Zhigansky Ulus
       82059ffffffffff:
-        place: wilderness area on the east bank of the Lena River, Sakha Republic
+        name: E banke of Lena River
+        place: wilderness area, Sakha Republic
       8205a7fffffffff:
+        name: Popigai impact crater
         place: >-
-          Юрюнг-Хаинский национальный (долганский) наслег, contains Popigai
-          impact crater, Anabarsky Ulus
+          Юрюнг-Хаинский национальный (долганский) наслег, Anabarsky Ulus
       8205affffffffff:
-        place: Lena River delta, Ust-Lenskiy State Nature Reserve, Sakha Republic
+        name: Lena River delta
+        place: Ust-Lenskiy State Nature Reserve, Sakha Republic
       8205b7fffffffff:
-        place: Кирбейский национальный наслег, includes Olenyok, Olenyoksky Ulus
+        name: Olenyok
+        place: Кирбейский национальный наслег, Olenyoksky Ulus
     states:
       Russia: {}
       USSR: {}
@@ -205,66 +249,83 @@
   '0':
     hexes:
       820607fffffffff:
-        place: Sermersooq, ice-sheet, south-east, Greenland
+        name: icesheet SE
+        place: Sermersooq, Greenland
       82060ffffffffff:
-        place: Sermersooq, south-east coast, Greenland
+        name: Greenland SE
+        place: Sermersooq, coast
       820617fffffffff:
-        place: interior ice sheet, includes Summit Camp, Greenland
+        name: Summit Camp
+        place: interior ice sheet , Greenland
       82061ffffffffff:
-        place: Sermersooq, interior ice sheet, Greenland
+        name: ice sheet
+        place: Sermersooq, Greenland
       820627fffffffff:
-        place: Sermersooq, Scoresby Sound, contains Ittoqqortoormiit, Greenland
+        name: Ittoqqortoormiit
+        place: Sermersooq, Scoresby Sound, Greenland
       820637fffffffff:
-        place: east coast, contains Mestersvig military outpost, Greenland
+        name: Mestersvig military outpost
+        place: east coast, Greenland
     states:
       Denmark:
         begin: 1721
   '2':
     hexes:
       820687fffffffff:
-        place: Avannaata, includes several settlements on the wes coast, Greenland
+        name: W coast settlements
+        place: Avannaata, Greenland
       82068ffffffffff:
+        name: Nuussuaq Peninsula
         place: >-
-          Avannaata, Nuussuaq Peninsula and Disko Island and several coastal
+          Avannaata, Disko Island and several coastal
           settlements, western Greenland
       8206a7fffffffff:
+        name: ice sheet
         place: Greenland
       8206affffffffff:
-        place: Avannaata, interior icesheet, Greenland
+        name: ice sheet
+        place: Avannaata, Greenland
       8206b7fffffffff:
-        place: Avannaata, interior icesheet. Greenland
+        name: ice sheet
+        place: Avannaata, Greenland
     states:
       Denmark:
         begin: 1721
   '3':
     hexes:
       8206c7fffffffff:
-        place: Qeqqata, western edge of icesheet, includes Kapisillit, Greenland
+        name: Kapisillit
+        place: Qeqqata, western edge of icesheet, Greenland
         states:
           Norway:
             begin: 1263
             end: 1500
       8206cffffffffff:
-        place: Sermersooq, south western coast with several settlements, Greenland
+        name: Greenland SW
+        place: Sermersooq, coast with several settlements, Greenland
         states:
           Norway:
             begin: 1263
             end: 1500
       8206d7fffffffff:
-        place: Qeqertalik, western coast, includes Sisimiut, Greenland
+        name: Sisimiut
+        place: Qeqertalik, western coast, Greenland
         states:
           Norway:
             begin: 1263
             end: 1500
       8206e7fffffffff:
+        name: icesheet E
         place: >-
-          Sermersooq, south eastern edge of icesheet, some settlements,
+          Sermersooq, some settlements,
           Greenland
       8206effffffffff:
-        place: Sermersooq, south eastern coast, Greenland
+        name: Greenland SE
+        place: Sermersooq, coast
       8206f7fffffffff:
+        name: Qasigiannguit
         place: >-
-          Qeqertalik, western edge of icesheet, includes Qasigiannguit,
+          Qeqertalik, western edge of icesheet,
           Greenland
     states:
       Denmark:
@@ -272,6 +333,7 @@
   '5':
     hexes:
       820747fffffffff:
+        name: Iceland
         place: Iceland
     states:
       Iceland: {}
@@ -285,17 +347,23 @@
   '6':
     hexes:
       820787fffffffff:
-        place: Northeast Greenland National Park, eastern edge of icesheet, Greenland
+        name: NE Greenland National Park
+        place: eastern edge of icesheet, Greenland
       82078ffffffffff:
-        place: interioe icesheet, Greenland
+        name: icesheet
+        place:  Greenland
       820797fffffffff:
-        place: north-eastern corner of icesheet, Greenland
+        name: icesheet NE
+        place:  Greenland
       82079ffffffffff:
-        place: middle of the icesheet. Greenland
+        name: icesheet
+        place: Greenland
       8207affffffffff:
-        place: western coast, includes Daneborg park ranger station, Greenland
+        name: Daneborg park ranger station
+        place: eastern coast, Greenland
       8207b7fffffffff:
-        place: eastern coast, far north, Greenland
+        name: Greenland NE
+        place: coast, Greenland
     states:
       Denmark:
         begin: 1721
@@ -303,21 +371,25 @@
   '0':
     hexes:
       820817fffffffff:
-        place: Røros, Trøndelag, includes Trondheim
+        name: Trondheim
+        place: Røros, Trøndelag 
         states:
           Norway: {}
       82081ffffffffff:
+        name: Sweden N
         place: Dorotea kommun, Västerbotten County, interior north-central
         states:
           Sweden: {}
   '2':
     hexes:
       820887fffffffff:
-        place: Östra Tränsjövägen, Östhammars kommun, Stockholm and Uppsala
+        name: Stockholm
+        place: Östra Tränsjövägen, Östhammars kommun,  Uppsala
         states:
           Sweden: {}
       82088ffffffffff:
-        place: Siikainen, Satakunta, western coastal region
+        name: Finland W
+        place: Siikainen, Satakunta
         states:
           Finland: {}
           Sweden:
@@ -327,6 +399,7 @@
             begin: 1809
             end: 1917
       82089ffffffffff:
+        name: Estonia
         place: Estonia
         states:
           USSR:
@@ -348,21 +421,25 @@
             begin: 1227
           Estonia: {}
       8208a7fffffffff:
+        name: Sweden S
         place: Malung-Sälens kommun, interior southern region
         states:
           Sweden: {}
       8208affffffffff:
+        name: Sweden coast
         place: Gamla Klingstavägen, Tuna District, central coastal
         states:
           Sweden: {}
       8208b7fffffffff:
+        name: Sweden S
         place: Karlsborgs kommun, interior far south region
         states:
           Sweden: {}
   '3':
     hexes:
       8208c7fffffffff:
-        place: Huhtavaarantie, Ylitornio, southern Lapland, includes Rovaniemi
+        name: Rovaniemi
+        place: Huhtavaarantie, Ylitornio, Finnish Lapland S 
         states:
           Finland: {}
           Sweden:
@@ -372,6 +449,7 @@
             begin: 1809
             end: 1917
       8208cffffffffff:
+        name: Finnish Lapland
         place: Inari, Lapland
         states:
           Finland: {}
@@ -382,7 +460,8 @@
             begin: 1809
             end: 1917
       8208d7fffffffff:
-        place: Haapavesi, central region, includes Oulu
+        name: Oulu
+        place: Haapavesi, central region
         states:
           Finland: {}
           Sweden:
@@ -392,6 +471,7 @@
             begin: 1809
             end: 1917
       8208dffffffffff:
+        name: Finland N
         place: Mikonkorventie, Kuusamo, interior northern region
         states:
           Finland: {}
@@ -402,25 +482,31 @@
             begin: 1809
             end: 1917
       8208e7fffffffff:
+        name: Swedish Laplan
         place: Jokkmokks kommun, Norrbotten County, Lapland
         states:
           Sweden: {}
       8208effffffffff:
-        place: Kiruna kommun, Norrbotten County, northern Lapland, includes Kiruna
+        name: Kiruna
+        place: Kiruna kommun, Norrbotten County, northern Lapland
         states:
           Sweden: {}
       8208f7fffffffff:
-        place: Grans sameby, north eastern coast, includes Umeå
+        name: Umeå
+        place: Grans sameby, north eastern coast
         states:
           Sweden: {}
   '6':
     hexes:
       820987fffffffff:
-        place: Bømlo, Vestland, western coastal region, includes Bergen and Stavanger
+        name: Bergen
+        place: Bømlo, Vestland, western coastal region, includes Stavanger
       82098ffffffffff:
-        place: Solhaugen, Vestland, interior region
+        name: interior Norway
+        place: Solhaugen, Vestland
       82099ffffffffff:
-        place: Bamble, southern region, including Oslo
+        name: Oslo
+        place: Bamble, southern region
     states:
       Denmark:
         begin: 1537
@@ -433,19 +519,26 @@
   '0':
     hexes:
       820a07fffffffff:
-        place: Turukhansky District, east bank of the Yenisei River
+        name: E bank of Yenisei
+        place: Turukhansky District
       820a0ffffffffff:
-        place: Evenkiysky Rayon, wilderness area
+        name: wilderness
+        place: Evenkiysky Rayon
       820a17fffffffff:
-        place: Evenkiysky Rayon, east bank of the Yenisei River, includes Vorogovo
+        name: Vorogovo
+        place: Evenkiysky Rayon, east bank of the Yenisei River
       820a1ffffffffff:
-        place: Evenkiysky Rayon, wilderness area with some abandoned settlements
+        name: wilderness
+        place: Evenkiysky Rayon, some abandoned settlements
       820a27fffffffff:
-        place: Krasnoselkupsky Rayon, includes Krasnosel'kup
+        name: Krasnosel'kup
+        place: Krasnoselkupsky Rayon
       820a2ffffffffff:
-        place: Turukhansky District, Yenisei River, includes Igarka
+        name: Igarka
+        place: Turukhansky District, Yenisei River
       820a37fffffffff:
-        place: Turukhansky District, west bank of Yenisei River, includes Verkhneimbatsk
+        name: Verkhneimbatsk
+        place: Turukhansky District, west bank of Yenisei
     states:
       Russia: {}
       USSR: {}
@@ -454,19 +547,26 @@
   '1':
     hexes:
       820a47fffffffff:
-        place: Krasnoyarsk Krai, interior Taymyr Peninsula, includes Volochanka
+        name: Volochanka
+        place: Krasnoyarsk Krai, interior Taymyr Peninsula
       820a4ffffffffff:
-        place: Krasnoyarsk Krai, Khatanga Gulf, eastern Taymyr Peninsula, includes Novorybnaya
+        name: Novorybnaya
+        place: Krasnoyarsk Krai, Khatanga Gulf, eastern Taymyr Peninsula
       820a57fffffffff:
-        place: Evenkiysky Rayon, includes Yessey
+        name: Yessey
+        place: Evenkiysky Rayon
       820a5ffffffffff:
-        place: Krasnoyarsk Krai, wilderness area
+        name: wilderness
+        place: Krasnoyarsk Krai
       820a67fffffffff:
-        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District, east bank of the Yenisei River where it enters the Arctic Ocean
+        name: E bank of Yenisei
+        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District, where it enters the Arctic Ocean
       820a6ffffffffff:
-        place: городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District, northern coast of the Taymyr Peninsula
+        name: Taymyr Peninsula N
+        place: городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District
       820a77fffffffff:
-        place: городское поселение Дудинка, Taymyrsky Dolgano-Nenetsky District, Norilsk closed city
+        name: Norilsk closed city
+        place: городское поселение Дудинка, Taymyrsky Dolgano-Nenetsky District
     states:
       Russia: {}
       USSR: {}
@@ -475,19 +575,26 @@
   '2':
     hexes:
       820a87fffffffff:
-        place: Kezhemsky Rayon, contains Kodinsk
+        name: Kodinsk
+        place: Kezhemsky Rayon
       820a8ffffffffff:
-        place: Evenkiysky Rayon, site of the Tunguska blast event
+        name: Tunguska blast event
+        place: Evenkiysky Rayon
       820a97fffffffff:
-        place: Покоснинское сельское поселение, Братский район, city of Bratsk, Irkutsk Oblast
+        name: Bratsk city
+        place: Покоснинское сельское поселение, Братский район, Irkutsk Oblast
       820a9ffffffffff:
-        place: Irkutsk Oblast, includes Ust-Ilimsk
+        name: Ust-Ilimsk
+        place: Irkutsk Oblast
       820aa7fffffffff:
-        place: Krasnoyarsk Krai, includes Lesosibirsk
+        name: Lesosibirsk
+        place: Krasnoyarsk Krai
       820aaffffffffff:
-        place: Evenkiysky Rayon, Kuyumbinskoye Oil Field
+        name: Kuyumbinskoye Oil Field
+        place: Evenkiysky Rayon
       820ab7fffffffff:
-        place: городское поселение Иланский, Ilansky Rayon, contains Kansk
+        name: Kansk
+        place: городское поселение Иланский, Ilansky Rayon
     states:
       Russia: {}
       USSR: {}

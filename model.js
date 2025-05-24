@@ -12,6 +12,7 @@ const Hex = cellCode => {
   const parent = hexData[base] ? hexData[base][index1] : null
   const isValid = () => parent && parent.hexes[cellCode]
   const place = () => isValid() ? parent.hexes[cellCode].place : null
+  const name = () => isValid() ? parent.hexes[cellCode].name || place() : null
   const stateNames = () => isValid()
     ? [
         ...Object.keys(parent.hexes[cellCode].states || {}),
@@ -47,7 +48,7 @@ const Hex = cellCode => {
   const coordinates = () => h3.cellsToMultiPolygon([cellCode], true)[0]
   const latLon = () => h3.cellToLatLng(cellCode)
 
-  return { isValid, place, stateNames, coordinates, cellCode, latLon, statesRanges }
+  return { isValid, place, name, stateNames, coordinates, cellCode, latLon, statesRanges }
 }
 
 export const locateHex = (lat, lon) => Hex(h3.latLngToCell(lat, lon, 2))

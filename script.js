@@ -4,7 +4,7 @@ import { json } from 'https://esm.sh/d3-fetch'
 import { Milieu, stateCoordinates, locateHex, yearRange } from './model.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
-/* global $yearControl, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state */
+/* global $yearControl, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state, $hexName, $presentDay */
 
 const thisYear = 2025
 
@@ -119,10 +119,12 @@ d3Canvas.on('click', function (event) {
     if (year !== thisYear) {
       const currentState = Milieu(hex, thisYear)
       if (currentState.state() && currentState.state().name() !== selectedState.name()) {
-        currentStateName = `Present day ${currentState.state().name()} `
+        currentStateName = `(present day ${currentState.state().name()})`
       }
     }
-    $place.innerHTML = `${currentStateName}(${milieu.place()})`
+    $presentDay.innerHTML = currentStateName
+    $place.innerHTML = milieu.place()
+    $hexName.innerHTML = hex.name()
     const googleQuery = `${selectedState.name()} in ${year}`
     $google.innerHTML = googleQuery
     $google.href = `https://google.com/search?q=${googleQuery}`
