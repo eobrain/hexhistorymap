@@ -594,20 +594,43 @@
   '4':
     hexes:
       820b07fffffffff:
-        place: Surgutsky District
+        name: Surgut city
+        place: Surgutsky District, oilfields
+        states:
+          Golden Horde:
+            end: 1465
+          Tsardom of Russia:
+            begin: 1594
+          Russian Empire: {}
       820b0ffffffffff:
-        place: Purovsky Rayon
+        name: Nadym State Nature Reserve
+        place: Purovsky Rayon, oilfields
       820b17fffffffff:
-        place: Александровское сельское поселение, Alexandrovsky District
+        name: Nizhnevartovsk city
+        place: Александровское сельское поселение, Alexandrovsky District, oilfields
+        states:
+          Western Turkic Khanate: {}
+          Golden Horde:
+            end: 1465
       820b1ffffffffff:
-        place: Nizhnevartovsky District
+        name: Raduzhny town
+        place: Nizhnevartovsky District, oilfields
       820b27fffffffff:
-        place: сельское поселение Каменное, Oktyabrsky District
+        name: Khanty-Mansiysk city
+        place: сельское поселение Каменное, Oktyabrsky District, oilfields
       820b2ffffffffff:
+        name: Beloyarsky town
         place: Beloyarsky District
       820b37fffffffff:
+        name: Gornopravdinsk
         place: Uvatsky District
+        states:
+          Western Turkic Khanate: {}
+          Golden Horde:
+            end: 1465
     states:
+      Tsardom of Russia:
+        begin: 1600
       Russia: {}
       USSR: {}
   '5':
