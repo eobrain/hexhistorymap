@@ -150,14 +150,10 @@
         place: Sakha Republic
       8204affffffffff:
         name: Olenegorsk
-        place: >-
-          Быягнырский наслег, Allaikhovsky Ulus, Sakha
-          Republic
+        place: Быягнырский наслег, Allaikhovsky Ulus, Sakha Republic
       8204b7fffffffff:
         name: Yunkyur
-        place: >-
-          Борулахский наслег, Verkhoyansky Ulus, Sakha
-          Republic
+        place: Борулахский наслег, Verkhoyansky Ulus, Sakha Republic
     states:
       Russia: {}
       USSR: {}
@@ -197,16 +193,16 @@
       820527fffffffff:
         name: Severnaya Zemlya islands
         place: >-
-          городское поселение Диксон, Taymyrsky
-          Dolgano-Nenetsky District, Russia
+          городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
+          Russia
         states:
           Russian Empire:
             begin: 1914
       820537fffffffff:
         name: Taymyr Peninsula N
         place: >-
-          городское поселение Диксон,
-          Taymyrsky Dolgano-Nenetsky District, Russia
+          городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
+          Russia
         states:
           Russian Empire:
             begin: 1778
@@ -223,16 +219,13 @@
         place: wilderness area to the , Sakha Republic
       820597fffffffff:
         name: Zhigansk
-        place: >-
-          Эвенкийское сельское поселение «Кыстатыам»,
-          Zhigansky Ulus
+        place: Эвенкийское сельское поселение «Кыстатыам», Zhigansky Ulus
       82059ffffffffff:
         name: E banke of Lena River
         place: wilderness area, Sakha Republic
       8205a7fffffffff:
         name: Popigai impact crater
-        place: >-
-          Юрюнг-Хаинский национальный (долганский) наслег, Anabarsky Ulus
+        place: Юрюнг-Хаинский национальный (долганский) наслег, Anabarsky Ulus
       8205affffffffff:
         name: Lena River delta
         place: Ust-Lenskiy State Nature Reserve, Sakha Republic
@@ -277,8 +270,8 @@
       82068ffffffffff:
         name: Nuussuaq Peninsula
         place: >-
-          Avannaata, Disko Island and several coastal
-          settlements, western Greenland
+          Avannaata, Disko Island and several coastal settlements, western
+          Greenland
       8206a7fffffffff:
         name: ice sheet
         place: Greenland
@@ -316,17 +309,13 @@
             end: 1500
       8206e7fffffffff:
         name: icesheet E
-        place: >-
-          Sermersooq, some settlements,
-          Greenland
+        place: Sermersooq, some settlements, Greenland
       8206effffffffff:
         name: Greenland SE
         place: Sermersooq, coast
       8206f7fffffffff:
         name: Qasigiannguit
-        place: >-
-          Qeqertalik, western edge of icesheet,
-          Greenland
+        place: Qeqertalik, western edge of icesheet, Greenland
     states:
       Denmark:
         begin: 1721
@@ -351,10 +340,10 @@
         place: eastern edge of icesheet, Greenland
       82078ffffffffff:
         name: icesheet
-        place:  Greenland
+        place: Greenland
       820797fffffffff:
         name: icesheet NE
-        place:  Greenland
+        place: Greenland
       82079ffffffffff:
         name: icesheet
         place: Greenland
@@ -372,7 +361,7 @@
     hexes:
       820817fffffffff:
         name: Trondheim
-        place: Røros, Trøndelag 
+        place: Røros, Trøndelag
         states:
           Norway: {}
       82081ffffffffff:
@@ -439,7 +428,7 @@
     hexes:
       8208c7fffffffff:
         name: Rovaniemi
-        place: Huhtavaarantie, Ylitornio, Finnish Lapland S 
+        place: Huhtavaarantie, Ylitornio, Finnish Lapland S
         states:
           Finland: {}
           Sweden:
@@ -560,7 +549,9 @@
         place: Krasnoyarsk Krai
       820a67fffffffff:
         name: E bank of Yenisei
-        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District, where it enters the Arctic Ocean
+        place: >-
+          сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District, where
+          it enters the Arctic Ocean
       820a6ffffffffff:
         name: Taymyr Peninsula N
         place: городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District
@@ -659,7 +650,9 @@
       820b57fffffffff:
         place: Tazovsky Rayon
       820b5ffffffffff:
-        place: сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District, west bank of the Yenisei River, contains Dudinka
+        place: >-
+          сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District, west
+          bank of the Yenisei River, contains Dudinka
       820b67fffffffff:
         place: Yamalo-Nenets Autonomous Okrug
       820b6ffffffffff:
