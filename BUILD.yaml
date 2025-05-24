@@ -58,6 +58,8 @@ site:
   exec: mkdir -p $@
 
 test:
+  deps:
+    - standard
   exec: node --test
 
 hex-list-new.js:
@@ -71,6 +73,13 @@ yaml:
     - hexes.js
     - states.js
   exec: node $<  && touch $@
+
+standard:
+  deps:
+    - js
+    - script.js
+    - model.js
+  exec: standard --fix
 
 js:
   deps:

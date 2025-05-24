@@ -631,27 +631,47 @@
     states:
       Tsardom of Russia:
         begin: 1600
+      Russian Empire: {}
       Russia: {}
       USSR: {}
   '5':
     hexes:
       820b47fffffffff:
+        name: Gas Emission Crater SeYkhGEC
         place: Tazovsky Rayon
       820b4ffffffffff:
+        name: Gyda Peninsula
         place: Tazovsky Rayon
       820b57fffffffff:
-        place: Tazovsky Rayon
+        name: Gaz-Sale
+        place: Tazovsky Rayon, natural gas field
       820b5ffffffffff:
+        name: Dudinka
         place: >-
           сельское поселение Караул, Taymyrsky Dolgano-Nenetsky District, west
-          bank of the Yenisei River, contains Dudinka
+          bank of the Yenisei River
       820b67fffffffff:
+        name: Kara meteorite crater
         place: Yamalo-Nenets Autonomous Okrug
+        states:
+          Tsardom of Russia:
+            begin: 1600
       820b6ffffffffff:
+        name: Yamal Peninsula
         place: Yamalsky Rayon
+        states:
+          Tsardom of Russia:
+            begin: 1600
       820b77fffffffff:
+        name: Ob River mouth
         place: Yamalsky Rayon
+        states:
+          Tsardom of Russia:
+            begin: 1600
     states:
+      Tsardom of Russia:
+        begin: 1619
+      Russian Empire: {}
       Russia: {}
       USSR: {}
   '6':
