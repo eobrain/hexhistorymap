@@ -4,12 +4,11 @@ import { json } from 'https://esm.sh/d3-fetch'
 import { Milieu, stateCoordinates, locateHex, yearRange } from './model.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
-/* global $yearControl, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state, $hexName, $presentDay */
+/* global $start, $yearControl, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state, $hexName, $presentDay */
+
+let milieu
 
 const thisYear = 2025
-
-const { minYear, maxYear } = yearRange()
-let year = maxYear
 
 const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
 
@@ -34,11 +33,46 @@ const geoGenerator = geoPath()
   .pointRadius(6.7)
   .context(context)
 
+const year = () => parseInt($yearControl.value, 10)
+
+const yearFormat = year => year > 0 ? `${year} CE` : `${-year} BCE`
+
+const updateLocation = (lat, lon) => {
+  const hex = locateHex(lat, lon)
+  const [hexLat, hexLon] = hex.latLon()
+  projection.rotate([-hexLon, -hexLat])
+  milieu = Milieu(hex, year())
+  const [xx, yy] = projection([hexLon, hexLat])
+  update()
+  if (milieu.state()) {
+    $note.style.display = 'block'
+    context.fillStyle = 'black'
+    context.fillText(milieu.state().name(), xx, yy)
+    $note.style.display = 'block'
+    // $googleMap.href = `https://www.google.com/maps/place/${milieu.state().name()}`
+    $state.innerHTML = milieu.state().name()
+    let currentStateName = ''
+    if (year() !== thisYear) {
+      const currentState = Milieu(hex, thisYear)
+      if (currentState.state() && currentState.state().name() !== milieu.state().name()) {
+        currentStateName = `(present day ${currentState.state().name()})`
+      }
+    }
+    $presentDay.innerHTML = currentStateName
+    $place.innerHTML = milieu.place()
+    $hexName.innerHTML = hex.name()
+    const googleQuery = `${milieu.state().name()} in ${year()}`
+    $google.innerHTML = googleQuery
+    $google.href = `https://google.com/search?q=${googleQuery}`
+    $googleMap.href = `https://maps.google.com/?ll=${hexLat},${hexLon}&z=8`
+    $hex.href = `https://h3geo.org/#hex=${hex.cellCode}`
+  } else {
+    $note.style.display = 'none'
+  }
+}
+
 const saturation = 50
 const lightness = 50
-
-let selectedState
-let scale = projection.scale()
 
 const update = () => {
   context.fillStyle = 'white'
@@ -56,15 +90,14 @@ const update = () => {
   geoGenerator(graticule())
   context.stroke()
 
-  $yearDisplay.innerHTML = yearFormat($yearControl.value)
-  year = parseInt($yearControl.value, 10)
+  $yearDisplay.innerHTML = yearFormat(year())
   context.lineWidth = 1
 
-  const coordinatesOfStates = stateCoordinates(year)
+  const coordinatesOfStates = stateCoordinates(year())
   for (const stateName in coordinatesOfStates) {
     const coordinates = coordinatesOfStates[stateName]
     context.beginPath()
-    context.lineWidth = stateName === selectedState?.name() ? 2 : 0.5
+    context.lineWidth = stateName === milieu.state()?.name() ? 2 : 0.5
     context.strokeStyle = `hsl(${Math.floor(MurmurHash3(stateName).result() % 360)} ${saturation}% ${lightness}%)`
     geoGenerator(
       {
@@ -76,63 +109,37 @@ const update = () => {
   }
 }
 
-const yearFormat = year => year > 0 ? `${year} CE` : `${-year} BCE`
+const { minYear, maxYear } = yearRange()
 $yearControl.min = minYear
 $yearControl.max = maxYear
-$yearControl.value = year
+$yearControl.value = maxYear
 $yearControl.addEventListener('input', update)
 
-d3Canvas.on('wheel', function (event) {
-  scale *= 1.01 ** event.deltaY
-  scale = Math.max(150, Math.min(scale, 500))
-  projection.scale(scale)
-  $canvas.width = $canvas.clientWidth
-  $canvas.height = $canvas.width
-  update()
-  event.preventDefault()
-}, { passive: false })
+$start.addEventListener('click', () => {
+  navigator.geolocation.getCurrentPosition(async (position) => {
+    $start.style.display = 'none'
+    const { latitude, longitude } = position.coords
 
-d3Canvas.on('click', function (event) {
-  const pos = pointer(event, canvas)
-  const [lon, lat] = projection.invert(pos)
-  const hex = locateHex(lat, lon)
-  const [hexLat, hexLon] = hex.latLon()
-  projection.rotate([-hexLon, -hexLat])
-  const milieu = Milieu(hex, year)
-  if (milieu.place()) {
-    if (milieu.state()) {
-      selectedState = milieu.state()
-    } else {
-      selectedState = undefined
-    }
-  }
-  const [xx, yy] = projection([hexLon, hexLat])
-  update()
-  if (selectedState) {
-    $note.style.display = 'block'
-    context.fillStyle = 'black'
-    context.fillText(selectedState.name(), xx, yy)
-    $note.style.display = 'block'
-    // $googleMap.href = `https://www.google.com/maps/place/${selectedState.name()}`
-    $state.innerHTML = selectedState.name()
-    let currentStateName = ''
-    if (year !== thisYear) {
-      const currentState = Milieu(hex, thisYear)
-      if (currentState.state() && currentState.state().name() !== selectedState.name()) {
-        currentStateName = `(present day ${currentState.state().name()})`
-      }
-    }
-    $presentDay.innerHTML = currentStateName
-    $place.innerHTML = milieu.place()
-    $hexName.innerHTML = hex.name()
-    const googleQuery = `${selectedState.name()} in ${year}`
-    $google.innerHTML = googleQuery
-    $google.href = `https://google.com/search?q=${googleQuery}`
-    $googleMap.href = `https://maps.google.com/?ll=${hexLat},${hexLon}&z=8`
-    $hex.href = `https://h3geo.org/#hex=${hex.cellCode}`
-  } else {
-    $note.style.display = 'none'
-  }
+    updateLocation(latitude, longitude)
+
+    let scale = projection.scale()
+
+    d3Canvas.on('wheel', function (event) {
+      scale *= 1.01 ** event.deltaY
+      scale = Math.max(150, Math.min(scale, 500))
+      projection.scale(scale)
+      $canvas.width = $canvas.clientWidth
+      $canvas.height = $canvas.width
+      update(milieu)
+      event.preventDefault()
+    }, { passive: false })
+
+    d3Canvas.on('click', function (event) {
+      const pos = pointer(event, canvas)
+      const [lon, lat] = projection.invert(pos)
+      updateLocation(lat, lon)
+    })
+
+    update(milieu)
+  })
 })
-
-update()

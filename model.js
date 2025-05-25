@@ -8,17 +8,17 @@ const Hex = cellCode => {
   const fourHexDigits = cellCode.replace(/82(....)fffffffff/, '$1')
   const int = parseInt(fourHexDigits, 16)
   const base = (int >> 9) & 0x7f
+  console.assert(hexData[base])
   const index1 = (int >> 6) & 0x7
-  const parent = hexData[base] ? hexData[base][index1] : null
-  const isValid = () => parent && parent.hexes[cellCode]
-  const place = () => isValid() ? parent.hexes[cellCode].place : null
-  const name = () => isValid() ? parent.hexes[cellCode].name || place() : null
-  const stateNames = () => isValid()
-    ? [
-        ...Object.keys(parent.hexes[cellCode].states || {}),
-        ...Object.keys(parent.states || {})
-      ]
-    : []
+  const parent = hexData[base][index1]
+  console.assert(parent)
+  console.assert(parent.hexes[cellCode])
+  const place = () => parent.hexes[cellCode].place
+  const name = () => parent.hexes[cellCode].name || place()
+  const stateNames = () => [
+    ...Object.keys(parent.hexes[cellCode].states || {}),
+    ...Object.keys(parent.states || {})
+  ]
   const statesRanges = () => stateNames().map(stateName => {
     let { begin, end } = State(stateName).stateInfo()
     if (parent.states && parent.states[stateName]) {
@@ -48,7 +48,7 @@ const Hex = cellCode => {
   const coordinates = () => h3.cellsToMultiPolygon([cellCode], true)[0]
   const latLon = () => h3.cellToLatLng(cellCode)
 
-  return { isValid, place, name, stateNames, coordinates, cellCode, latLon, statesRanges }
+  return { place, name, stateNames, coordinates, cellCode, latLon, statesRanges }
 }
 
 export const locateHex = (lat, lon) => Hex(h3.latLngToCell(lat, lon, 2))
@@ -109,13 +109,11 @@ export const yearRange = () => {
 export const Milieu = (hex, year) => {
   let place = null
   let state = null
-  if (hex.isValid()) {
-    place = hex.place()
-    for (const { stateName, begin, end } of hex.statesRanges()) {
-      if (begin <= year && year <= end) {
-        state = State(stateName)
-        break
-      }
+  place = hex.place()
+  for (const { stateName, begin, end } of hex.statesRanges()) {
+    if (begin <= year && year <= end) {
+      state = State(stateName)
+      break
     }
   }
   return {

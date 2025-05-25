@@ -53,3 +53,17 @@ test('Norway history', () => {
   const now = Milieu(hex, 2025).state()
   assert.strictEqual(now.name(), 'Norway')
 })
+
+test('Bay Area history', () => {
+  const hex = hexes().find(hex => hex.cellCode === '822837fffffffff')
+  assert.deepEqual(hex.stateNames(), ['USA', 'Mexico', 'Spain'])
+
+  const now = Milieu(hex, 2025).state()
+  assert.strictEqual(now.name(), 'USA')
+
+  const mexican = Milieu(hex, 1830).state()
+  assert.strictEqual(mexican.name(), 'Mexico')
+
+  const spanish = Milieu(hex, 1800).state()
+  assert.strictEqual(spanish.name(), 'Spain')
+})

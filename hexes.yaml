@@ -2229,13 +2229,26 @@
   '0':
     hexes:
       822817fffffffff:
+        name: Empty Quarter
         place: Lassen County, California
+        states: &northern_california
+          USA:
+            begin: 1849
+          Mexico:
+            begin: 1821
+          Spain:
+            begin: 1768
+            end: 1821
       82281ffffffffff:
+        name: SW Oregon
         place: Douglas County, OR
+        states:
+          USA:
+            begin: 1818
       822837fffffffff:
+        name: San Francisco Bay Area
         place: Solano County, CA
-    states:
-      USA: {}
+        states: *northern_california
   '2':
     hexes:
       822887fffffffff:
