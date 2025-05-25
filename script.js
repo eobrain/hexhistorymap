@@ -33,7 +33,7 @@ const geoGenerator = geoPath()
   .pointRadius(6.7)
   .context(context)
 
-const year = () => parseInt($yearControl.value, 10)
+const controlYear = () => parseInt($yearControl.value, 10)
 
 const yearFormat = year => year > 0 ? `${year} CE` : `${-year} BCE`
 
@@ -41,7 +41,13 @@ const updateLocation = (lat, lon) => {
   const hex = locateHex(lat, lon)
   const [hexLat, hexLon] = hex.latLon()
   projection.rotate([-hexLon, -hexLat])
-  milieu = Milieu(hex, year())
+
+  milieu = new Milieu(hex, controlYear())
+  update()
+}
+
+const updateYear = (newYear) => {
+  milieu = milieu.inDifferentYear(newYear)
   update()
 }
 
@@ -64,10 +70,10 @@ const update = () => {
   geoGenerator(graticule())
   context.stroke()
 
-  $yearDisplay.innerHTML = yearFormat(year())
+  $yearDisplay.innerHTML = yearFormat(milieu.year())
   context.lineWidth = 1
 
-  const coordinatesOfStates = stateCoordinates(year())
+  const coordinatesOfStates = stateCoordinates(milieu.year())
   for (const stateName in coordinatesOfStates) {
     const coordinates = coordinatesOfStates[stateName]
     context.beginPath()
@@ -92,7 +98,7 @@ const update = () => {
     // $googleMap.href = `https://www.google.com/maps/place/${milieu.state().name()}`
     $state.innerHTML = milieu.state().name()
     let presentDayMilieuName = ''
-    if (year() !== thisYear) {
+    if (milieu.year() !== thisYear) {
       const presentDayMilieu = milieu.inDifferentYear(thisYear)
       if (presentDayMilieu.state() && presentDayMilieu.state().name() !== milieu.state().name()) {
         presentDayMilieuName = `(present day ${presentDayMilieu.state().name()})`
@@ -101,11 +107,11 @@ const update = () => {
     $presentDay.innerHTML = presentDayMilieuName
     $place.innerHTML = milieu.place()
     $hexName.innerHTML = milieu.hexName()
-    const googleQuery = `${milieu.state().name()} in ${year()}`
+    const googleQuery = `${milieu.state().name()} in ${milieu.year()}`
     $google.innerHTML = googleQuery
     $google.href = `https://google.com/search?q=${googleQuery}`
     $googleMap.href = `https://maps.google.com/?ll=${hexLat},${hexLon}&z=8`
-    $hex.href = `https://h3geo.org/#hex=${milieu.cellCode()}`
+    $hex.href = milieu.hexUrl()
   } else {
     $note.style.display = 'none'
   }
@@ -115,7 +121,7 @@ const { minYear, maxYear } = yearRange()
 $yearControl.min = minYear
 $yearControl.max = maxYear
 $yearControl.value = maxYear
-$yearControl.addEventListener('input', update)
+$yearControl.addEventListener('input', () => updateYear(controlYear()))
 
 $start.addEventListener('click', () => {
   navigator.geolocation.getCurrentPosition(async (position) => {
@@ -132,7 +138,7 @@ $start.addEventListener('click', () => {
       projection.scale(scale)
       $canvas.width = $canvas.clientWidth
       $canvas.height = $canvas.width
-      update(milieu)
+      update()
       event.preventDefault()
     }, { passive: false })
 

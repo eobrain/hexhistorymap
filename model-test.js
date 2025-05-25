@@ -23,47 +23,52 @@ test('All states in hexes exist', () => {
   assert.strictEqual(missingStates.size, 0, `Missing states: ${Array.from(missingStates).join(', ')}`)
 })
 
+test('hexes', () => {
+  assert(hexes().length > 700)
+})
+
 test('Greenland history', () => {
-  const hex = hexes().find(hex => hex.cellCode === '8206d7fffffffff')
+  const hex = hexes().find(hex => hex.hasCellCode('8206d7fffffffff'))
+  assert(hex)
   assert.deepEqual(hex.stateNames(), ['Norway', 'Denmark'])
 
-  const danishPeriod = Milieu(hex, 1800).state()
+  const danishPeriod = new Milieu(hex, 1800).state()
   assert.strictEqual(danishPeriod.name(), 'Denmark')
 
-  const norweigenPeriod = Milieu(hex, 1400).state()
+  const norweigenPeriod = new Milieu(hex, 1400).state()
   assert.strictEqual(norweigenPeriod.name(), 'Norway')
 })
 
 test('Norway history', () => {
-  const hex = hexes().find(hex => hex.cellCode === '82099ffffffffff')
+  const hex = hexes().find(hex => hex.hasCellCode('82099ffffffffff'))
   assert.deepEqual(hex.stateNames(), ['Denmark', 'Germany', 'Norway'])
 
-  const earlyPeriod = Milieu(hex, 1200).state()
+  const earlyPeriod = new Milieu(hex, 1200).state()
   assert.strictEqual(earlyPeriod.name(), 'Norway')
 
-  const danishPeriod = Milieu(hex, 1700).state()
+  const danishPeriod = new Milieu(hex, 1700).state()
   assert.strictEqual(danishPeriod.name(), 'Denmark')
 
-  const early20C = Milieu(hex, 1900).state()
+  const early20C = new Milieu(hex, 1900).state()
   assert.strictEqual(early20C.name(), 'Norway')
 
-  const naziOccupation = Milieu(hex, 1942).state()
+  const naziOccupation = new Milieu(hex, 1942).state()
   assert.strictEqual(naziOccupation.name(), 'Germany')
 
-  const now = Milieu(hex, 2025).state()
+  const now = new Milieu(hex, 2025).state()
   assert.strictEqual(now.name(), 'Norway')
 })
 
 test('Bay Area history', () => {
-  const hex = hexes().find(hex => hex.cellCode === '822837fffffffff')
+  const hex = hexes().find(hex => hex.hasCellCode('822837fffffffff'))
   assert.deepEqual(hex.stateNames(), ['USA', 'Mexico', 'Spain'])
 
-  const now = Milieu(hex, 2025).state()
+  const now = new Milieu(hex, 2025).state()
   assert.strictEqual(now.name(), 'USA')
 
-  const mexican = Milieu(hex, 1830).state()
+  const mexican = new Milieu(hex, 1830).state()
   assert.strictEqual(mexican.name(), 'Mexico')
 
-  const spanish = Milieu(hex, 1800).state()
+  const spanish = new Milieu(hex, 1800).state()
   assert.strictEqual(spanish.name(), 'Spain')
 })

@@ -1,29 +1,44 @@
 import hexData from './hexes.js'
 import stateData from './states.js'
-import hexList from './hex-list.js'
+// import hexList from './hex-list.js'
 
 /* global h3 */
 
-const Hex = cellCode => {
-  const fourHexDigits = cellCode.replace(/82(....)fffffffff/, '$1')
-  const int = parseInt(fourHexDigits, 16)
-  const base = (int >> 9) & 0x7f
-  console.assert(hexData[base])
-  const index1 = (int >> 6) & 0x7
-  const parent = hexData[base][index1]
-  console.assert(parent)
-  console.assert(parent.hexes[cellCode])
+class Hex {
+  #parent
+  #cellCode
 
-  const place = () => parent.hexes[cellCode].place
-  const name = () => parent.hexes[cellCode].name || place()
-  const stateNames = () => [
-    ...Object.keys(parent.hexes[cellCode].states || {}),
-    ...Object.keys(parent.states || {})
-  ]
-  const statesRanges = () => stateNames().map(stateName => {
+  constructor (cellCode) {
+    this.#cellCode = cellCode
+    const fourHexDigits = cellCode.replace(/82(....)fffffffff/, '$1')
+    const int = parseInt(fourHexDigits, 16)
+    const base = (int >> 9) & 0x7f
+    console.assert(hexData[base])
+    const index1 = (int >> 6) & 0x7
+    this.#parent = hexData[base][index1]
+    console.assert(this.#parent)
+    console.assert(this.#parent.hexes[cellCode])
+  }
+
+  place () {
+    return this.#parent.hexes[this.#cellCode].place
+  }
+
+  name () {
+    return this.#parent.hexes[this.#cellCode].name || this.place()
+  }
+
+  stateNames () {
+    return [
+      ...Object.keys(this.#parent.hexes[this.#cellCode].states || {}),
+      ...Object.keys(this.#parent.states || {})
+    ]
+  }
+
+  #stateRange (stateName) {
     let { begin, end } = State(stateName).stateInfo()
-    if (parent.states && parent.states[stateName]) {
-      const stateInfo = parent.states[stateName]
+    if (this.#parent.states && this.#parent.states[stateName]) {
+      const stateInfo = this.#parent.states[stateName]
       if (stateInfo.begin) {
         begin = stateInfo.begin
       }
@@ -31,8 +46,8 @@ const Hex = cellCode => {
         end = stateInfo.end
       }
     }
-    if (parent.hexes[cellCode].states && parent.hexes[cellCode].states[stateName]) {
-      const stateInfo = parent.hexes[cellCode].states[stateName]
+    if (this.#parent.hexes[this.#cellCode].states && this.#parent.hexes[this.#cellCode].states[stateName]) {
+      const stateInfo = this.#parent.hexes[this.#cellCode].states[stateName]
       if (stateInfo.begin) {
         begin = stateInfo.begin
       }
@@ -45,27 +60,56 @@ const Hex = cellCode => {
       begin,
       end
     }
-  })
-  const coordinates = () => h3.cellsToMultiPolygon([cellCode], true)[0]
-  const latLon = () => h3.cellToLatLng(cellCode)
+  }
 
-  return { place, name, stateNames, coordinates, cellCode, latLon, statesRanges }
+  statesRanges () {
+    return this.stateNames().map(stateName => this.#stateRange(stateName))
+  }
+
+  coordinates () {
+    return h3.cellsToMultiPolygon([this.#cellCode], true)[0]
+  }
+
+  latLon () {
+    return h3.cellToLatLng(this.#cellCode)
+  }
+
+  hasCellCode (cellCode) {
+    return this.#cellCode === cellCode
+  }
+
+  addCellCodeTo (array) {
+    array.push(this.#cellCode)
+  }
+
+  url () {
+    return `https://h3geo.org/#hex=${this.#cellCode}`
+  }
 }
 
-export const locateHex = (lat, lon) => Hex(h3.latLngToCell(lat, lon, 2))
+const hexesArray = []
+for (const base of Object.keys(hexData)) {
+  for (const index1 of Object.keys(hexData[base])) {
+    const hexes = hexData[base][index1].hexes
+    for (const cellCode of Object.keys(hexes)) {
+      hexesArray.push(new Hex(cellCode))
+    }
+  }
+}
+export const hexes = () => hexesArray
 
-export const hexes = () => Object.keys(hexList).map(cell => Hex(cell))
+export const locateHex = (lat, lon) => new Hex(h3.latLngToCell(lat, lon, 2))
 
 export const stateCoordinates = (year) => {
   const stateCells = {}
   hexes().forEach(hex => {
-    const state = Milieu(hex, year).state()
+    const state = new Milieu(hex, year).state()
     if (state) {
       const stateName = state.name()
       if (!stateCells[stateName]) {
         stateCells[stateName] = []
       }
-      stateCells[stateName].push(hex.cellCode)
+      hex.addCellCodeTo(stateCells[stateName])
     }
   })
   return Object.fromEntries(
@@ -107,24 +151,52 @@ export const yearRange = () => {
   return { minYear, maxYear }
 }
 
-export const Milieu = (hex, year) => {
-  const theHex = hex
-  const theYear = year
-  let place = null
-  let state = null
-  place = theHex.place()
-  for (const { stateName, begin, end } of theHex.statesRanges()) {
-    if (begin <= theYear && theYear <= end) {
-      state = State(stateName)
-      break
+export class Milieu {
+  #hex
+  #year
+  #place
+  #state
+  constructor (hex, year) {
+    this.#hex = hex
+    this.#year = year
+    this.#place = this.#hex.place()
+    for (const { stateName, begin, end } of this.#hex.statesRanges()) {
+      if (begin <= this.#year && this.#year <= end) {
+        this.#state = State(stateName)
+        break
+      }
     }
   }
-  return {
-    place: () => place,
-    state: () => state,
-    hexName: () => theHex.name(),
-    cellCode: () => theHex.cellCode,
-    latLon: () => theHex.latLon(),
-    inDifferentYear: (year) => Milieu(theHex, year)
+
+  place () {
+    return this.#place
+  }
+
+  state () {
+    return this.#state
+  }
+
+  hexName () {
+    return this.#hex.name()
+  }
+
+  hexUrl () {
+    return this.#hex.url()
+  }
+
+  year () {
+    return this.#year
+  }
+
+  /* cellCode () {
+    return this.#hex.cellCode
+  } */
+
+  latLon () {
+    return this.#hex.latLon()
+  }
+
+  inDifferentYear (year) {
+    return new Milieu(this.#hex, year)
   }
 }
