@@ -2110,7 +2110,17 @@
       82269ffffffffff:
         place: Dolores County, CO
       8226a7fffffffff:
+        name: Wyoming E
         place: Converse County, Wyoming
+        states:
+          USA:
+            begin: 1803
+          Spain:
+            end: 1799
+            begin: 1762
+          France:
+            end: 1802
+            begin: 1682
       8226affffffffff:
         place: Logan County, CO
       8226b7fffffffff:
