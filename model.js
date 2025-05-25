@@ -13,6 +13,7 @@ const Hex = cellCode => {
   const parent = hexData[base][index1]
   console.assert(parent)
   console.assert(parent.hexes[cellCode])
+
   const place = () => parent.hexes[cellCode].place
   const name = () => parent.hexes[cellCode].name || place()
   const stateNames = () => [
@@ -107,17 +108,23 @@ export const yearRange = () => {
 }
 
 export const Milieu = (hex, year) => {
+  const theHex = hex
+  const theYear = year
   let place = null
   let state = null
-  place = hex.place()
-  for (const { stateName, begin, end } of hex.statesRanges()) {
-    if (begin <= year && year <= end) {
+  place = theHex.place()
+  for (const { stateName, begin, end } of theHex.statesRanges()) {
+    if (begin <= theYear && theYear <= end) {
       state = State(stateName)
       break
     }
   }
   return {
     place: () => place,
-    state: () => state
+    state: () => state,
+    hexName: () => theHex.name(),
+    cellCode: () => theHex.cellCode,
+    latLon: () => theHex.latLon(),
+    inDifferentYear: (year) => Milieu(theHex, year)
   }
 }

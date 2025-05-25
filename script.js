@@ -42,33 +42,7 @@ const updateLocation = (lat, lon) => {
   const [hexLat, hexLon] = hex.latLon()
   projection.rotate([-hexLon, -hexLat])
   milieu = Milieu(hex, year())
-  const [xx, yy] = projection([hexLon, hexLat])
   update()
-  if (milieu.state()) {
-    $note.style.display = 'block'
-    context.fillStyle = 'black'
-    context.fillText(milieu.state().name(), xx, yy)
-    $note.style.display = 'block'
-    // $googleMap.href = `https://www.google.com/maps/place/${milieu.state().name()}`
-    $state.innerHTML = milieu.state().name()
-    let currentStateName = ''
-    if (year() !== thisYear) {
-      const currentState = Milieu(hex, thisYear)
-      if (currentState.state() && currentState.state().name() !== milieu.state().name()) {
-        currentStateName = `(present day ${currentState.state().name()})`
-      }
-    }
-    $presentDay.innerHTML = currentStateName
-    $place.innerHTML = milieu.place()
-    $hexName.innerHTML = hex.name()
-    const googleQuery = `${milieu.state().name()} in ${year()}`
-    $google.innerHTML = googleQuery
-    $google.href = `https://google.com/search?q=${googleQuery}`
-    $googleMap.href = `https://maps.google.com/?ll=${hexLat},${hexLon}&z=8`
-    $hex.href = `https://h3geo.org/#hex=${hex.cellCode}`
-  } else {
-    $note.style.display = 'none'
-  }
 }
 
 const saturation = 50
@@ -106,6 +80,34 @@ const update = () => {
           { type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } }]
       })
     context.stroke()
+  }
+
+  if (milieu.state()) {
+    $note.style.display = 'block'
+    context.fillStyle = 'black'
+    const [hexLat, hexLon] = milieu.latLon()
+    const [xx, yy] = projection([hexLon, hexLat])
+    context.fillText(milieu.state().name(), xx, yy)
+    $note.style.display = 'block'
+    // $googleMap.href = `https://www.google.com/maps/place/${milieu.state().name()}`
+    $state.innerHTML = milieu.state().name()
+    let presentDayMilieuName = ''
+    if (year() !== thisYear) {
+      const presentDayMilieu = milieu.inDifferentYear(thisYear)
+      if (presentDayMilieu.state() && presentDayMilieu.state().name() !== milieu.state().name()) {
+        presentDayMilieuName = `(present day ${presentDayMilieu.state().name()})`
+      }
+    }
+    $presentDay.innerHTML = presentDayMilieuName
+    $place.innerHTML = milieu.place()
+    $hexName.innerHTML = milieu.hexName()
+    const googleQuery = `${milieu.state().name()} in ${year()}`
+    $google.innerHTML = googleQuery
+    $google.href = `https://google.com/search?q=${googleQuery}`
+    $googleMap.href = `https://maps.google.com/?ll=${hexLat},${hexLon}&z=8`
+    $hex.href = `https://h3geo.org/#hex=${milieu.cellCode()}`
+  } else {
+    $note.style.display = 'none'
   }
 }
 
