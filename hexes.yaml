@@ -2102,17 +2102,18 @@
   '2':
     hexes:
       822687fffffffff:
+        name: Colorado NW
         place: Routt County, CO
+        states: &spanish_rockies
+          USA:
+            begin: 1848
+          Spain:
+            end: 1847
+            begin: 1769
       82268ffffffffff:
+        name: Colorado SE
         place: Pueblo County, Colorado
-      822697fffffffff:
-        place: Wasatch County, Utah
-      82269ffffffffff:
-        place: Dolores County, CO
-      8226a7fffffffff:
-        name: Wyoming E
-        place: Converse County, Wyoming
-        states:
+        states: &louisiana_purchase
           USA:
             begin: 1803
           Spain:
@@ -2121,12 +2122,26 @@
           France:
             end: 1802
             begin: 1682
+      822697fffffffff:
+        name: Utah N
+        place: Wasatch County, Utah
+        states: *spanish_rockies
+      82269ffffffffff:
+        name: Colorado SW
+        place: Dolores County, CO
+        states: *spanish_rockies
+      8226a7fffffffff:
+        name: Wyoming E
+        place: Converse County, Wyoming
+        states: *louisiana_purchase
       8226affffffffff:
+        name: Colorado NE
         place: Logan County, CO
+        states: *louisiana_purchase
       8226b7fffffffff:
+        name: Wyoming W
         place: Sublette County, WY
-    states:
-      USA: {}
+        states: *louisiana_purchase
   '3':
     hexes:
       8226c7fffffffff:
