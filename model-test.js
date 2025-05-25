@@ -12,7 +12,7 @@ test('All states in hexes exist', () => {
   }
   const missingStates = new Set()
   for (const stateName of allStateNames) {
-    const state = State(stateName)
+    const state = new State(stateName)
     try {
       state.stateInfo()
     } catch (error) {

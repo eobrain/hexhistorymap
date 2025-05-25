@@ -36,7 +36,7 @@ class Hex {
   }
 
   #stateRange (stateName) {
-    let { begin, end } = State(stateName).stateInfo()
+    let { begin, end } = new State(stateName).stateInfo()
     if (this.#parent.states && this.#parent.states[stateName]) {
       const stateInfo = this.#parent.states[stateName]
       if (stateInfo.begin) {
@@ -117,22 +117,47 @@ export const stateCoordinates = (year) => {
   )
 }
 
-export const State = stateName => {
-  const stateInfo = () => {
-    if (!stateData[stateName]) {
-      throw new Error(`State not found: "${stateName}"`)
-    }
-    return stateData[stateName]
+export class State {
+  #stateName
+  constructor (stateName) {
+    this.#stateName = stateName
   }
-  const extantIn = year => {
-    const info = stateInfo()
+
+  stateInfo () {
+    if (!stateData[this.#stateName]) {
+      throw new Error(`State not found: "${this.#stateName}"`)
+    }
+    return stateData[this.#stateName]
+  }
+
+  extantIn (year) {
+    const info = this.stateInfo()
     if (!info) {
-      throw new Error(`State not found: "${stateName}"`)
+      throw new Error(`State not found: "${this.#stateName}"`)
     }
     return info.begin <= year && year <= info.end
   }
-  const name = () => stateName || '???'
-  return { stateInfo, extantIn, name }
+
+  name () {
+    return this.#stateName || '???'
+  }
+
+  centroidLatLon (year) {
+    let totLat = 0
+    let totLon = 0
+    let count = 0
+    for (const hex of hexes()) {
+      const state = new Milieu(hex, year).state()
+      if (state && state.name() === this.#stateName) {
+        const [lat, lon] = hex.latLon()
+        totLat += lat
+        totLon += lon
+        count++
+        console.log({ count, place: hex.place() })
+      }
+    }
+    return count > 0 ? [totLat / count, totLon / count] : [0, 0]
+  }
 }
 
 export const yearRange = () => {
@@ -162,7 +187,7 @@ export class Milieu {
     this.#place = this.#hex.place()
     for (const { stateName, begin, end } of this.#hex.statesRanges()) {
       if (begin <= this.#year && this.#year <= end) {
-        this.#state = State(stateName)
+        this.#state = new State(stateName)
         break
       }
     }

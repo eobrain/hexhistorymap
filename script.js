@@ -1,7 +1,8 @@
 import { select, pointer } from 'https://esm.sh/d3-selection'
 import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
-import { Milieu, stateCoordinates, locateHex, yearRange } from './model.js'
+import { Milieu, State, stateCoordinates, locateHex, yearRange } from './model.js'
+import regioncode2state from './regioncode2state.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
 /* global $start, $yearControl, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state, $hexName, $presentDay */
@@ -11,6 +12,10 @@ let milieu
 const thisYear = 2025
 
 const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
+
+const regionCode = new Intl.Locale(navigator.language).region
+const currentStateName = regioncode2state[regionCode] || 'Ireland'
+const [localeLat, localeLon] = new State(currentStateName).centroidLatLon(thisYear)
 
 const $canvas = document.getElementById('map')
 $canvas.width = $canvas.clientWidth
@@ -123,31 +128,31 @@ $yearControl.max = maxYear
 $yearControl.value = maxYear
 $yearControl.addEventListener('input', () => updateYear(controlYear()))
 
-$start.addEventListener('click', () => {
-  navigator.geolocation.getCurrentPosition(async (position) => {
-    $start.style.display = 'none'
-    const { latitude, longitude } = position.coords
+// $start.addEventListener('click', () => {
+//  navigator.geolocation.getCurrentPosition(async (position) => {
+$start.style.display = 'none'
+// const { latitude, longitude } = position.coords
 
-    updateLocation(latitude, longitude)
+updateLocation(localeLat, localeLon)
 
-    let scale = projection.scale()
+let scale = projection.scale()
 
-    d3Canvas.on('wheel', function (event) {
-      scale *= 1.01 ** event.deltaY
-      scale = Math.max(150, Math.min(scale, 500))
-      projection.scale(scale)
-      $canvas.width = $canvas.clientWidth
-      $canvas.height = $canvas.width
-      update()
-      event.preventDefault()
-    }, { passive: false })
+d3Canvas.on('wheel', function (event) {
+  scale *= 1.01 ** event.deltaY
+  scale = Math.max(150, Math.min(scale, 500))
+  projection.scale(scale)
+  $canvas.width = $canvas.clientWidth
+  $canvas.height = $canvas.width
+  update()
+  event.preventDefault()
+}, { passive: false })
 
-    d3Canvas.on('click', function (event) {
-      const pos = pointer(event, canvas)
-      const [lon, lat] = projection.invert(pos)
-      updateLocation(lat, lon)
-    })
-
-    update(milieu)
-  })
+d3Canvas.on('click', function (event) {
+  const pos = pointer(event, canvas)
+  const [lon, lat] = projection.invert(pos)
+  updateLocation(lat, lon)
 })
+
+update(milieu)
+//  })
+// })
