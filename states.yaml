@@ -93,6 +93,9 @@ Visigothic Kingdom:
 Merovingian Kingdoms:
   begin: 481
   end: 751
+Western Turkic Khanate:
+  begin: 603
+  end: 704
 Japan:
   begin: -660
   end: 2025
@@ -167,6 +170,9 @@ England:
 Teutonic Order:
   begin: 1230
   end: 1466
+Golden Horde:
+  begin: 1240
+  end: 1481
 Delhi Sultanate:
   begin: 1206
   end: 1526
@@ -447,12 +453,6 @@ Egypt:
 Ireland:
   begin: 1922
   end: 2025
-Western Turkic Khanate:
-  begin:  603
-  end: 704
-Golden Horde:
-  begin: 1240
-  end: 1481
 Turkey:
   begin: 1923
   end: 2025
