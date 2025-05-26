@@ -289,18 +289,24 @@
       8206c7fffffffff:
         name: Kapisillit
         place: Qeqqata, western edge of icesheet, Greenland
-        states: &western_greenland
+        states:
           Norway:
             begin: 1263
             end: 1500
       8206cffffffffff:
         name: Greenland SW
         place: Sermersooq, coast with several settlements, Greenland
-        states: *western_greenland
+        states:
+          Norway:
+            begin: 1263
+            end: 1500
       8206d7fffffffff:
         name: Sisimiut
         place: Qeqertalik, western coast, Greenland
-        states: *western_greenland
+        states:
+          Norway:
+            begin: 1263
+            end: 1500
       8206e7fffffffff:
         name: icesheet E
         place: Sermersooq, some settlements, Greenland
@@ -423,7 +429,7 @@
       8208c7fffffffff:
         name: Rovaniemi
         place: Huhtavaarantie, Ylitornio, Finnish Lapland S
-        states: &finland
+        states:
           Finland: {}
           Sweden:
             begin: 1280
@@ -434,15 +440,36 @@
       8208cffffffffff:
         name: Finnish Lapland
         place: Inari, Lapland
-        states: *finland
+        states:
+          Finland: {}
+          Sweden:
+            begin: 1280
+            end: 1809
+          Russian Empire:
+            begin: 1809
+            end: 1917
       8208d7fffffffff:
         name: Oulu
         place: Haapavesi, central region
-        states: *finland
+        states:
+          Finland: {}
+          Sweden:
+            begin: 1280
+            end: 1809
+          Russian Empire:
+            begin: 1809
+            end: 1917
       8208dffffffffff:
         name: Finland N
         place: Mikonkorventie, Kuusamo, interior northern region
-        states: *finland
+        states:
+          Finland: {}
+          Sweden:
+            begin: 1280
+            end: 1809
+          Russian Empire:
+            begin: 1809
+            end: 1917
       8208e7fffffffff:
         name: Swedish Laplan
         place: Jokkmokks kommun, Norrbotten County, Lapland
@@ -501,7 +528,7 @@
       820a37fffffffff:
         name: Verkhneimbatsk
         place: Turukhansky District, west bank of Yenisei
-    states: &northern_siberia
+    states:
       Russia: {}
       USSR: {}
       Russian Empire:
@@ -531,7 +558,11 @@
       820a77fffffffff:
         name: Norilsk closed city
         place: городское поселение Дудинка, Taymyrsky Dolgano-Nenetsky District
-    states: *northern_siberia
+    states:
+      Russia: {}
+      USSR: {}
+      Russian Empire:
+        begin: 1822
   '2':
     hexes:
       820a87fffffffff:
@@ -708,7 +739,7 @@
         place: Unorganized Borough, Alaska
       820c37fffffffff:
         place: Northwest Arctic Borough, Alaska
-    states: &alaska
+    states:
       USA:
         begin: 1867
       Russian Empire:
@@ -724,36 +755,66 @@
         place: Yakutat, Alaska
       820c77fffffffff:
         place: Matanuska-Susitna Borough, Alaska
-    states: *alaska
+    states:
+      USA:
+        begin: 1867
+      Russian Empire:
+        begin: 1784
+        end: 1867
   '3':
     hexes:
       820ce7fffffffff:
         place: Unorganized Borough, Alaska
       820ceffffffffff:
         place: Kodiak Island Borough, Alaska
-    states: *alaska
+    states:
+      USA:
+        begin: 1867
+      Russian Empire:
+        begin: 1784
+        end: 1867
   '4':
     hexes:
       820d0ffffffffff:
         place: North Slope Borough, Alaska
       820d1ffffffffff:
         place: North Slope Borough, Alaska
-    states: *alaska
+    states:
+      USA:
+        begin: 1867
+      Russian Empire:
+        begin: 1784
+        end: 1867
   '5':
     hexes:
       820d47fffffffff:
         place: Unorganized Borough, Alaska
-        states: *alaska
+        states:
+          USA:
+            begin: 1867
+          Russian Empire:
+            begin: 1784
+            end: 1867
       820d4ffffffffff:
         place: Yukon, Canada
         states:
           Canada: {}
       820d57fffffffff:
         place: Unorganized Borough, Alaska
-        states: *alaska
+        states:
+          USA:
+            begin: 1867
+          Russian Empire:
+            begin: 1784
+            end: 1867
       820d5ffffffffff:
         place: Fairbanks North Star Borough, Alaska
-        states: *alaska
+        states:
+          USA:
+            begin: 1867
+          Russian Empire:
+            begin: 1784
+            end: 1867
       820d67fffffffff:
         place: Inuvik Region, Northwest Territories
         states:
@@ -764,7 +825,12 @@
           Canada: {}
       820d77fffffffff:
         place: North Slope Borough, Alaska
-        states: *alaska
+        states:
+          USA:
+            begin: 1867
+          Russian Empire:
+            begin: 1784
+            end: 1867
   '6':
     hexes:
       820d87fffffffff:
@@ -2114,7 +2180,7 @@
       822687fffffffff:
         name: Colorado NW
         place: Routt County, CO
-        states: &spanish_rockies
+        states:
           USA:
             begin: 1848
           Spain:
@@ -2123,7 +2189,7 @@
       82268ffffffffff:
         name: Colorado SE
         place: Pueblo County, Colorado
-        states: &louisiana_purchase
+        states:
           USA:
             begin: 1803
           Spain:
@@ -2135,23 +2201,57 @@
       822697fffffffff:
         name: Utah N
         place: Wasatch County, Utah
-        states: *spanish_rockies
+        states:
+          USA:
+            begin: 1848
+          Spain:
+            end: 1847
+            begin: 1769
       82269ffffffffff:
         name: Colorado SW
         place: Dolores County, CO
-        states: *spanish_rockies
+        states:
+          USA:
+            begin: 1848
+          Spain:
+            end: 1847
+            begin: 1769
       8226a7fffffffff:
         name: Wyoming E
         place: Converse County, Wyoming
-        states: *louisiana_purchase
+        states:
+          USA:
+            begin: 1803
+          Spain:
+            end: 1799
+            begin: 1762
+          France:
+            end: 1802
+            begin: 1682
       8226affffffffff:
         name: Colorado NE
         place: Logan County, CO
-        states: *louisiana_purchase
+        states:
+          USA:
+            begin: 1803
+          Spain:
+            end: 1799
+            begin: 1762
+          France:
+            end: 1802
+            begin: 1682
       8226b7fffffffff:
         name: Wyoming W
         place: Sublette County, WY
-        states: *louisiana_purchase
+        states:
+          USA:
+            begin: 1803
+          Spain:
+            end: 1799
+            begin: 1762
+          France:
+            end: 1802
+            begin: 1682
   '3':
     hexes:
       8226c7fffffffff:
@@ -2266,7 +2366,7 @@
       822817fffffffff:
         name: Empty Quarter
         place: Lassen County, California
-        states: &northern_california
+        states:
           USA:
             begin: 1849
           Mexico:
@@ -2283,7 +2383,14 @@
       822837fffffffff:
         name: San Francisco Bay Area
         place: Solano County, CA
-        states: *northern_california
+        states:
+          USA:
+            begin: 1849
+          Mexico:
+            begin: 1821
+          Spain:
+            begin: 1768
+            end: 1821
   '2':
     hexes:
       822887fffffffff:
@@ -3836,7 +3943,7 @@
     hexes:
       8252cffffffffff:
         place: Sanaag
-        states: &somaliland
+        states:
           Somaliland:
             begin: 2001
           Somalia: {}
@@ -3846,7 +3953,10 @@
           Djibouti: {}
       8252dffffffffff:
         place: Afweyne, Burao District
-        states: *somaliland
+        states:
+          Somaliland:
+            begin: 2001
+          Somalia: {}
       8252e7fffffffff:
         place: Usaylan District
         states:
