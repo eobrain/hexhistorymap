@@ -1,6 +1,10 @@
 import { test } from 'node:test'
 import assert from 'node:assert'
 import { hexes, Milieu, State } from './model.js'
+import regioncode2state from './regioncode2state.js'
+import * as h3 from 'h3-js'
+
+global.h3 = h3
 
 test('All states in hexes exist', () => {
   const allStateNames = new Set()
@@ -71,4 +75,17 @@ test('Bay Area history', () => {
 
   const spanish = new Milieu(hex, 1800).state()
   assert.strictEqual(spanish.name(), 'Spain')
+})
+
+test('region codes', () => {
+  for (const regionCode of Object.keys(regioncode2state)) {
+    const stateName = regioncode2state[regionCode]
+    assert(stateName, `Looking for state for ${regionCode}`)
+
+    const state = new State(stateName)
+    assert(state, `Looking for state for ${stateName}`)
+
+    const [localeLat, localeLon] = state.centroidLatLon(2025)
+    assert(localeLat !== 0 && localeLon !== 0, `Looking for centroid of ${stateName}`)
+  }
 })

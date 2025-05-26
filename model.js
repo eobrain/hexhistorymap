@@ -153,7 +153,6 @@ export class State {
         totLat += lat
         totLon += lon
         count++
-        console.log({ count, place: hex.place() })
       }
     }
     return count > 0 ? [totLat / count, totLon / count] : [0, 0]

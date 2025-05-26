@@ -1646,7 +1646,7 @@
       821fa7fffffffff:
         place: Trixhe aux Minières, Aywaille
         states:
-          Belgium: {}
+          Netherlands: {}
       821faffffffffff:
         place: Alte, Hammelburg
         states:
@@ -1716,7 +1716,8 @@
       822087fffffffff:
         place: Darwaz-e Bala
         states:
-          Afghanistan: {}
+          Tajikistan: {}
+          USSR: {}
       82208ffffffffff:
         place: Tagharma Township, Taxkorgan Tajik Autonomous County
         states:
@@ -1733,14 +1734,17 @@
         place: Jizzakh Region
         states:
           Uzbekistan: {}
+          USSR: {}
       8220affffffffff:
         place: Andijan Region
         states:
           Uzbekistan: {}
+          USSR: {}
       8220b7fffffffff:
         place: Uchqizil, Termiz District
         states:
           Uzbekistan: {}
+          USSR: {}
   '3':
     hexes:
       8220c7fffffffff:
@@ -1772,6 +1776,7 @@
         place: Naryn Region
         states:
           Kyrgyzstan: {}
+          USSR: {}
   '4':
     hexes:
       822107fffffffff:
@@ -1852,18 +1857,22 @@
         place: Republic of Karakalpakstan
         states:
           Uzbekistan: {}
+          USSR: {}
       82218ffffffffff:
         place: Navoiy Region
         states:
           Uzbekistan: {}
+          USSR: {}
       822197fffffffff:
         place: Sakarchage District, Mary Region
         states:
           Turkmenistan: {}
+          USSR: {}
       82219ffffffffff:
         place: Bukhara Region
         states:
           Uzbekistan: {}
+          USSR: {}
       8221a7fffffffff:
         place: Aral Sea, Aral District
         states:
@@ -1876,6 +1885,7 @@
         place: Ruhubelent District
         states:
           Turkmenistan: {}
+          USSR: {}
     states:
       USSR: {}
 '18':
@@ -2415,7 +2425,7 @@
       822c07fffffffff:
         place: 04400 Doğubayazıt
         states:
-          Turkey: {}
+          Armenia: {}
       822c0ffffffffff:
         place: Sheki District
         states:
@@ -2480,7 +2490,7 @@
       822c97fffffffff:
         place: Al-Basra Governorate, 61005, Iraq
         states:
-          Iraq: {}
+          Kuwait: {}
       822c9ffffffffff:
         place: دهستان چاه سالم, Omidieh County, Iran
         states:
@@ -2519,6 +2529,7 @@
         place: Turkmenbashy District
         states:
           Turkmenistan: {}
+          USSR: {}
       822cf7fffffffff:
         place: West Basharyat RD, Abyek County
         states:
@@ -2585,7 +2596,7 @@
       822d97fffffffff:
         place: Al Jawf Region
         states:
-          Saudi Arabia: {}
+          Jordan: {}
       822d9ffffffffff:
         place: Al-Nukhayb Subdistrict, Al-Rutba District
         states:
@@ -2919,11 +2930,11 @@
       823c07fffffffff:
         place: Menpu, Nyalam County
         states:
-          China: {}
+          Nepal: {}
       823c0ffffffffff:
         place: Kangmar County, Tibet
         states:
-          China: {}
+          Bhutan: {}
       823c17fffffffff:
         place: Raghunathpur
         states:
@@ -3524,6 +3535,7 @@
         place: Turkmengala District
         states:
           Turkmenistan: {}
+          USSR: {}
       824377fffffffff:
         place: دهستان فشارود, Birjand County
         states:
@@ -3824,22 +3836,17 @@
     hexes:
       8252cffffffffff:
         place: Sanaag
-        states:
-          Somalia: {}
+        states: &somaliland
           Somaliland:
             begin: 2001
+          Somalia: {}
       8252d7fffffffff:
         place: Lughaya District
         states:
-          Somalia: {}
-          Somaliland:
-            begin: 2001
+          Djibouti: {}
       8252dffffffffff:
         place: Afweyne, Burao District
-        states:
-          Somalia: {}
-          Somaliland:
-            begin: 2001
+        states: *somaliland
       8252e7fffffffff:
         place: Usaylan District
         states:
@@ -3974,11 +3981,11 @@
       8254e7fffffffff:
         place: Boké Region
         states:
-          Guinea: {}
+          Guinea-Bissau: {}
       8254effffffffff:
         place: Tambakha Chiefdom
         states:
-          Sierra Leone: {}
+          Guinea: {}
   '4':
     hexes:
       825507fffffffff:
@@ -4943,8 +4950,6 @@
         place: Las Anod District, Somaliland
         states:
           Somalia: {}
-          Somaliland:
-            begin: 2001
       827aaffffffffff:
         place: El Buur District
         states:
@@ -5090,7 +5095,7 @@
       82828ffffffffff:
         place: Ebolowa II, Mvila
         states:
-          Cameroon: {}
+          Equatorial Guinea: {}
       828297fffffffff:
         place: Sangha-Mbaéré
         states:
@@ -5102,7 +5107,7 @@
       8282a7fffffffff:
         place: Haut-Ogooué Province
         states:
-          Gabon: {}
+          Congo-Brazzaville: {}
       8282affffffffff:
         place: Ogooué-Ivindo
         states:
@@ -6200,7 +6205,7 @@
       82bcd7fffffffff:
         place: Mbombela Ward 14, Mbombela
         states:
-          South Africa: {}
+          Eswatini: {}
       82bcdffffffffff:
         place: Lephalale Ward 3, Lephalale Local Municipality
         states:

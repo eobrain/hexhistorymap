@@ -140,9 +140,6 @@ Seljuk Empire:
 Khmer Empire:
   begin: 802
   end: 1431
-San Marino:
-  begin: 301
-  end: 2025
 Almohad Caliphate:
   begin: 1121
   end: 1269
@@ -239,15 +236,6 @@ Thailand:
 Tsardom of Russia:
   begin: 1547
   end: 1721
-Andorra:
-  begin: 1278
-  end: 2025
-Switzerland:
-  begin: 1291
-  end: 2025
-Monaco:
-  begin: 1297
-  end: 2025
 Polish-Lithuanian Commonwealth:
   begin: 1569
   end: 1795
@@ -321,12 +309,6 @@ USA:
 UK:
   begin: 1801
   end: 2025
-Haiti:
-  begin: 1804
-  end: 2025
-Liechtenstein:
-  begin: 1806
-  end: 2025
 Ecuador:
   begin: 1809
   end: 2025
@@ -346,9 +328,6 @@ Chile:
   begin: 1818
   end: 2025
 Costa Rica:
-  begin: 1821
-  end: 2025
-El Salvador:
   begin: 1821
   end: 2025
 Guatemala:
@@ -372,14 +351,8 @@ Bolivia:
 Uruguay:
   begin: 1828
   end: 2025
-Belgium:
-  begin: 1830
-  end: 2025
 Greece:
   begin: 1830
-  end: 2025
-Luxembourg:
-  begin: 1839
   end: 2025
 Dominican Republic:
   begin: 1844
@@ -444,10 +417,6 @@ Mongolia:
 Albania:
   begin: 1912
   end: 2025
-Taiwan:
-  note: Republic of China
-  begin: 1912
-  end: 2025
 Finland:
   begin: 1917
   end: 2025
@@ -487,17 +456,11 @@ Golden Horde:
 Turkey:
   begin: 1923
   end: 2025
-Vatican City:
-  begin: 1929
-  end: 2025
 Iraq:
   begin: 1932
   end: 2025
 Saudi Arabia:
   begin: 1932
-  end: 2025
-Lebanon:
-  begin: 1943
   end: 2025
 Indonesia:
   begin: 1945
@@ -580,9 +543,6 @@ Chad:
 Congo-Brazzaville:
   begin: 1960
   end: 2025
-Cyprus:
-  begin: 1960
-  end: 2025
 Côte d'Ivoire:
   begin: 1960
   end: 2025
@@ -625,16 +585,7 @@ Sierra Leone:
 Algeria:
   begin: 1962
   end: 2025
-Burundi:
-  begin: 1962
-  end: 2025
-Jamaica:
-  begin: 1962
-  end: 2025
 Rwanda:
-  begin: 1962
-  end: 2025
-Samoa:
   begin: 1962
   end: 2025
 Trinidad and Tobago:
@@ -649,26 +600,11 @@ Kenya:
 Malawi:
   begin: 1964
   end: 2025
-Malta:
-  begin: 1964
-  end: 2025
 Tanzania:
   begin: 1964
   end: 2025
 Zambia:
   begin: 1964
-  end: 2025
-Gambia:
-  begin: 1965
-  end: 2025
-Maldives:
-  begin: 1965
-  end: 2025
-Singapore:
-  begin: 1965
-  end: 2025
-Barbados:
-  begin: 1966
   end: 2025
 Botswana:
   begin: 1966
@@ -685,46 +621,16 @@ Equatorial Guinea:
 Eswatini:
   begin: 1968
   end: 2025
-Mauritius:
-  begin: 1968
-  end: 2025
-Nauru:
-  begin: 1968
-  end: 2025
-Fiji:
-  begin: 1970
-  end: 2025
-Tonga:
-  begin: 1970
-  end: 2025
-Bahrain:
-  begin: 1971
-  end: 2025
 Bangladesh:
-  begin: 1971
-  end: 2025
-Qatar:
   begin: 1971
   end: 2025
 United Arab Emirates:
   begin: 1971
   end: 2025
-Bahamas:
-  begin: 1973
-  end: 2025
-Grenada:
-  begin: 1974
-  end: 2025
 Guinea-Bissau:
   begin: 1974
   end: 2025
 Angola:
-  begin: 1975
-  end: 2025
-Cabo Verde:
-  begin: 1975
-  end: 2025
-Comoros:
   begin: 1975
   end: 2025
 Mozambique:
@@ -733,59 +639,14 @@ Mozambique:
 Papua New Guinea:
   begin: 1975
   end: 2025
-Sao Tome and Principe:
-  begin: 1975
-  end: 2025
 Suriname:
   begin: 1975
-  end: 2025
-Seychelles:
-  begin: 1976
   end: 2025
 Djibouti:
   begin: 1977
   end: 2025
-Dominica:
-  begin: 1978
-  end: 2025
-Solomon Islands:
-  begin: 1978
-  end: 2025
-Tuvalu:
-  begin: 1978
-  end: 2025
-Kiribati:
-  begin: 1979
-  end: 2025
-Saint Lucia:
-  begin: 1979
-  end: 2025
-Saint Vincent and the Grenadines:
-  begin: 1979
-  end: 2025
-Vanuatu:
-  begin: 1980
-  end: 2025
 Zimbabwe:
   begin: 1980
-  end: 2025
-Belize:
-  begin: 1981
-  end: 2025
-Saint Kitts and Nevis:
-  begin: 1983
-  end: 2025
-Brunei Darussalam:
-  begin: 1984
-  end: 2025
-Marshall Islands:
-  begin: 1986
-  end: 2025
-Federated States of Micronesia:
-  begin: 1986
-  end: 2025
-State of Palestine:
-  begin: 1988
   end: 2025
 Namibia:
   begin: 1990
@@ -814,16 +675,7 @@ Kazakhstan:
 Kyrgyzstan:
   begin: 1991
   end: 2025
-Moldova:
-  begin: 1991
-  end: 2025
-North Macedonia:
-  begin: 1991
-  end: 2025
 Russia:
-  begin: 1991
-  end: 2025
-Slovenia:
   begin: 1991
   end: 2025
 Tajikistan:
@@ -838,9 +690,6 @@ Ukraine:
 Uzbekistan:
   begin: 1991
   end: 2025
-Bosnia and Herzegovina:
-  begin: 1992
-  end: 2025
 Czechia:
   begin: 1993
   end: 2025
@@ -850,18 +699,8 @@ Eritrea:
 Slovakia:
   begin: 1993
   end: 2025
-Palau:
-  begin: 1994
-  end: 2025
 Somaliland:
   begin: 2001
-  end: 2025
-Timor-Leste:
-  note: East Timor
-  begin: 2002
-  end: 2025
-Montenegro:
-  begin: 2006
   end: 2025
 South Sudan:
   begin: 2011
