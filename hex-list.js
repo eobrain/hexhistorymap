@@ -1,13 +1,33 @@
 export default {
+  '82002ffffffffff': {
+    place: '9170 Longyearbyen, Norway',
+    lon: 22.599926592230535,
+    lat: 79.6496815777728
+  },
   '82006ffffffffff': {
     place: 'Greenland',
     lon: -24.49770036464242,
     lat: 81.90536935625103
   },
+  '820127fffffffff': {
+    place: 'Revsneshamn - Áhpenjárgohppi 36, 9624 Revsneshamn, Norway',
+    lon: 24.354966985767305,
+    lat: 70.68393320247543
+  },
+  '820137fffffffff': {
+    place: 'Barents Sea',
+    lon: 32.28928982024991,
+    lat: 70.30946160907892
+  },
   '820157fffffffff': {
     place: '9170 Longyearbyen, Norway',
     lon: 17.01712162028007,
     lat: 77.27242550013953
+  },
+  '82015ffffffffff': {
+    place: 'Fram Strait',
+    lon: 7.432123210487779,
+    lat: 79.31333152779241
   },
   '820187fffffffff': {
     place: 'Arkhangelsk Oblast, Russia, 163055',
@@ -48,6 +68,11 @@ export default {
     place: 'Qikiqtaaluk Region, Nunavut, Canada',
     lon: -87.71920490880366,
     lat: 72.03930546142755
+  },
+  '820277fffffffff': {
+    place: 'Qikiqtaaluk Region, Nunavut, Canada',
+    lon: -85.48851044332147,
+    lat: 77.1044762683238
   },
   '82028ffffffffff': {
     place: 'Inuvik Region, Northwest Territories, Canada',
@@ -114,6 +139,11 @@ export default {
     lon: 140.2485137443934,
     lat: 72.15766715036091
   },
+  '82041ffffffffff': {
+    place: 'East Siberian Sea',
+    lon: 150.45008474340798,
+    lat: 72.15567352115089
+  },
   '820487fffffffff': {
     place: 'Sakha Republic, Russia, 678871',
     lon: 141.4085042847299,
@@ -168,6 +198,11 @@ export default {
     place: 'Bilibinsky District, Russia',
     lon: 164.305411304109,
     lat: 65.67772285783147
+  },
+  '8204effffffffff': {
+    place: 'East Siberian Sea',
+    lon: 169.3953195191889,
+    lat: 70.64884759270129
   },
   '8204f7fffffffff': {
     place: 'Sakha Republic, Russia, 678837',
@@ -264,6 +299,11 @@ export default {
     lon: -53.22197378002088,
     lat: 70.60594967011066
   },
+  '820697fffffffff': {
+    place: 'Melville Bay',
+    lon: -61.44191438051083,
+    lat: 75.23681204618977
+  },
   '8206a7fffffffff': {
     place: 'Greenland',
     lon: -42.23577544803656,
@@ -314,6 +354,16 @@ export default {
     lon: -18.180080498992847,
     lat: 64.50540974148606
   },
+  '82075ffffffffff': {
+    place: 'Iceland',
+    lon: -24.14719116112845,
+    lat: 64.68896968852494
+  },
+  '820777fffffffff': {
+    place: 'Unknown',
+    lon: -14.090329520900411,
+    lat: 66.66890895848387
+  },
   '820787fffffffff': {
     place: 'Greenland',
     lon: -26.608485446091212,
@@ -344,6 +394,11 @@ export default {
     lon: -19.20698680942433,
     lat: 79.40196958232153
   },
+  '820807fffffffff': {
+    place: 'Nærøysund, Trøndelag, Norway',
+    lon: 10.536199075467644,
+    lat: 64.70000012793489
+  },
   '820817fffffffff': {
     place: 'Røros, Trøndelag, Norway',
     lon: 11.927741453262836,
@@ -354,6 +409,16 @@ export default {
     lon: 15.271850581595896,
     lat: 64.6352946400605
   },
+  '82082ffffffffff': {
+    place: 'Træna, Nordland, Norway',
+    lon: 12.088077712967936,
+    lat: 66.62340292648821
+  },
+  '820837fffffffff': {
+    place: 'Norwegian Sea',
+    lon: 6.880273103370717,
+    lat: 63.452796548421794
+  },
   '820887fffffffff': {
     place: 'Östra Tränsjövägen, Östhammars kommun, Sweden',
     lon: 18.258530119185007,
@@ -363,6 +428,11 @@ export default {
     place: 'Siikainen, Satakunta, Finland',
     lon: 21.820055699630714,
     lat: 61.9654520992716
+  },
+  '820897fffffffff': {
+    place: 'Fårö Vinorvägen, 624 67 Gotland Municipality, Sweden',
+    lon: 19.232212536074744,
+    lat: 57.94913235638695
   },
   '82089ffffffffff': {
     place: 'Lääne County, Estonia',
@@ -729,6 +799,11 @@ export default {
     lon: -149.48471295183913,
     lat: 62.401713340557286
   },
+  '820caffffffffff': {
+    place: 'Bering Sea',
+    lon: -167.2757426421271,
+    lat: 61.11662975498457
+  },
   '820ce7fffffffff': {
     place: 'Unorganized Borough, Alaska, United States of America',
     lon: -158.05978745893526,
@@ -738,6 +813,11 @@ export default {
     place: 'Kodiak Island Borough, Alaska, United States of America',
     lon: -155.20141106669584,
     lat: 57.72791314724104
+  },
+  '820cf7fffffffff': {
+    place: 'Bering Sea',
+    lon: -163.49790477941374,
+    lat: 59.220043823523774
   },
   '820d0ffffffffff': {
     place: 'North Slope Borough, Alaska, United States of America',
@@ -789,10 +869,20 @@ export default {
     lon: -175.8873785638693,
     lat: 67.63697717478911
   },
+  '820d8ffffffffff': {
+    place: 'Chukotka Autonomous Okrug, Russia',
+    lon: -170.19153588637943,
+    lat: 65.79579225140301
+  },
   '820d97fffffffff': {
     place: 'Anadyrsky District, Russia',
     lon: 177.1903799137581,
     lat: 66.26902697873544
+  },
+  '820d9ffffffffff': {
+    place: 'Bering Sea',
+    lon: -176.83131720730404,
+    lat: 64.69457362926333
   },
   '820db7fffffffff': {
     place: 'муниципальный округ Эгвекинот, Russia',
@@ -809,10 +899,20 @@ export default {
     lon: -75.67776433127308,
     lat: 57.41064509743444
   },
+  '820e27fffffffff': {
+    place: 'Qikiqtaaluk Region, Nunavut, Canada',
+    lon: -72.43418130016084,
+    lat: 62.57254654041516
+  },
   '820e2ffffffffff': {
     place: 'Rivière-Koksoak, Quebec, Canada',
     lon: -71.24622738826757,
     lat: 59.503679012669906
+  },
+  '820e37fffffffff': {
+    place: 'Qikiqtaaluk Region, Nunavut, Canada',
+    lon: -79.04893193352831,
+    lat: 63.43384043357977
   },
   '820e47fffffffff': {
     place: 'Caniapiscau, Quebec, Canada',
@@ -933,6 +1033,11 @@ export default {
     place: 'Qikiqtaaluk Region, Nunavut, Canada',
     lon: -69.04309471523405,
     lat: 70.61197205168283
+  },
+  '820f4ffffffffff': {
+    place: 'Labrador, Newfoundland and Labrador, Canada',
+    lon: -60.560953630163624,
+    lat: 56.94214734003773
   },
   '820f5ffffffffff': {
     place: 'Rivière-Koksoak, Quebec, Canada',
@@ -1148,6 +1253,11 @@ export default {
     place: 'сельское поселение Ловозеро, Lovozersky District, Russia',
     lon: 40.151924107054924,
     lat: 66.95529884825231
+  },
+  '82114ffffffffff': {
+    place: 'Zapolyarny District, Russia',
+    lon: 46.254620479478554,
+    lat: 68.50843789667341
   },
   '821157fffffffff': {
     place: 'Primorsky District, Russia',
@@ -1679,6 +1789,11 @@ export default {
     lon: 113.89776148629963,
     lat: 49.82082219125091
   },
+  '821617fffffffff': {
+    place: 'Kamchatka Krai, Russia',
+    lon: 159.9424946693681,
+    lat: 53.27406260726403
+  },
   '821627fffffffff': {
     place: 'Kamchatka Krai, Russia',
     lon: 162.38060990437717,
@@ -1693,6 +1808,16 @@ export default {
     place: 'Magadan Oblast, Russia, 686410',
     lon: 154.85271623607915,
     lat: 61.29925796994681
+  },
+  '82170ffffffffff': {
+    place: 'Magadan Oblast, Russia',
+    lon: 160.9463571427356,
+    lat: 60.721703640767124
+  },
+  '821717fffffffff': {
+    place: 'Magadan Oblast, Russia',
+    lon: 151.16972000716692,
+    lat: 58.96595387138009
   },
   '821727fffffffff': {
     place: 'Magadan Oblast, Russia, 686160',
@@ -1713,6 +1838,11 @@ export default {
     place: 'Olyutorsky District, Russia',
     lon: 171.5859967352311,
     lat: 61.695646643937685
+  },
+  '821757fffffffff': {
+    place: 'Kamchatka Krai, Russia',
+    lon: 166.69884808352782,
+    lat: 59.89206097234027
   },
   '821767fffffffff': {
     place: 'Anadyrsky District, Russia',
@@ -1784,10 +1914,20 @@ export default {
     lon: -2.552052713494834,
     lat: 51.71098292606532
   },
+  '82196ffffffffff': {
+    place: 'Netherlands',
+    lon: 4.401874269701682,
+    lat: 52.83904998715523
+  },
   '821977fffffffff': {
     place: 'North Sea',
     lon: -1.3703836050255414,
     lat: 56.24209961481049
+  },
+  '821aa7fffffffff': {
+    place: 'Newfoundland, Newfoundland and Labrador, Canada',
+    lon: -52.80702667013218,
+    lat: 47.883144033878565
   },
   '821b27fffffffff': {
     place: 'Kujalleq, Greenland',
@@ -1864,6 +2004,11 @@ export default {
     lon: 26.483432783470683,
     lat: 46.795300106987106
   },
+  '821e5ffffffffff': {
+    place: 'Black Sea',
+    lon: 30.387721429372565,
+    lat: 45.58807577320124
+  },
   '821e67fffffffff': {
     place: 'Kyiv Oblast, 07055, Ukraine',
     lon: 29.55377984004356,
@@ -1888,6 +2033,11 @@ export default {
     place: 'Italy',
     lon: 16.801280064516853,
     lat: 41.25581020000331
+  },
+  '821e97fffffffff': {
+    place: 'Tyrrhenian Sea',
+    lon: 10.165326427824565,
+    lat: 39.921542661727585
   },
   '821ea7fffffffff': {
     place: 'Via del Mare, 44025 Massa Fiscaglia FE, Italy',
@@ -1963,6 +2113,11 @@ export default {
     place: 'unnamed road, 370 33 Karlskrona kommun, Sweden',
     lon: 15.479832107585246,
     lat: 56.281021368101484
+  },
+  '821f37fffffffff': {
+    place: 'North Sea',
+    lon: 7.466286574622875,
+    lat: 54.8672133508337
   },
   '821f47fffffffff': {
     place: 'Elektrėnų g., 21332 Musteniai, Lithuania',
@@ -2769,6 +2924,11 @@ export default {
     lon: -109.35659821279626,
     lat: 50.133900690066454
   },
+  '822807fffffffff': {
+    place: 'North Pacific',
+    lon: -124.76072993368852,
+    lat: 40.13171663764596
+  },
   '822817fffffffff': {
     place: 'Lassen County, California, United States of America',
     lon: -121.11364050137061,
@@ -2919,6 +3079,16 @@ export default {
     lon: -78.10733335054294,
     lat: 34.56607502601914
   },
+  '822af7fffffffff': {
+    place: 'United States',
+    lon: -75.6469990705627,
+    lat: 36.38572326218801
+  },
+  '822b0ffffffffff': {
+    place: 'North Atlantic Ocean',
+    lon: -63.82783601389026,
+    lat: 43.4273426382016
+  },
   '822b17fffffffff': {
     place: 'Rivière-Verte Parish, New Brunswick, Canada',
     lon: -68.1016604750261,
@@ -2928,6 +3098,11 @@ export default {
     place: 'Jonesport, ME 04649, United States of America',
     lon: -67.56555105190573,
     lat: 44.5416896950572
+  },
+  '822b2ffffffffff': {
+    place: 'North Atlantic Ocean',
+    lon: -60.35206927308749,
+    lat: 45.02690503166396
   },
   '822b87fffffffff': {
     place: 'Saint-Aimé-du-Lac-des-Îles, Quebec, Canada',
@@ -3024,6 +3199,11 @@ export default {
     lon: 52.05891872488048,
     lat: 47.987559201572026
   },
+  '822c77fffffffff': {
+    place: 'Dagestan, Russia',
+    lon: 47.782134087868826,
+    lat: 43.79663087910309
+  },
   '822c87fffffffff': {
     place: 'Western Ali Central Subdistrict, Western Ali District, Iraq',
     lon: 46.817660965491044,
@@ -3103,6 +3283,11 @@ export default {
     place: 'Zara, Sivas, Turkey',
     lon: 37.801782546330514,
     lat: 39.88975934746455
+  },
+  '822d2ffffffffff': {
+    place: 'Autonomous Republic of Crimea, Ukraine',
+    lon: 34.12900438296178,
+    lat: 44.24990537469756
   },
   '822d37fffffffff': {
     place: 'unnamed road, Alpu, Turkey',
@@ -3184,6 +3369,11 @@ export default {
     lon: 142.13217761411929,
     lat: 42.15616177995037
   },
+  '822e2ffffffffff': {
+    place: 'North Pacific',
+    lon: 141.659652169662,
+    lat: 37.16086534140227
+  },
   '822e67fffffffff': {
     place: 'Kawagoe, Mie County, Japan',
     lon: 136.72644305922185,
@@ -3198,6 +3388,11 @@ export default {
     place: 'Kashiwazaki, Niigata Prefecture, Japan',
     lon: 138.3712874624389,
     lat: 37.34598952531799
+  },
+  '822eaffffffffff': {
+    place: 'Sea of Okhotsk',
+    lon: 144.2856646980019,
+    lat: 44.570171102352624
   },
   '822ec7fffffffff': {
     place: 'Sea of Japan',
@@ -3218,6 +3413,11 @@ export default {
     place: 'Pozharsky District, Russia',
     lon: 135.17612890272176,
     lat: 47.01372338360677
+  },
+  '822f5ffffffffff': {
+    place: 'Minamiboso, Chiba Prefecture, Japan',
+    lon: 139.84603266205656,
+    lat: 34.79826608770677
   },
   '823017fffffffff': {
     place: 'Shandong, Longkou City, unnamed road',
@@ -3394,6 +3594,11 @@ export default {
     lon: 0.5853973163656048,
     lat: 30.97210311455192
   },
+  '823827fffffffff': {
+    place: 'Mediterranean Sea',
+    lon: -1.7281245567060668,
+    lat: 36.439148395260645
+  },
   '82382ffffffffff': {
     place: 'Beni Bouattab, El Karimia District, Algeria',
     lon: 1.6364573366386965,
@@ -3418,6 +3623,16 @@ export default {
     place: 'رمادة الغربية, Tunisia',
     lon: 9.482903249655896,
     lat: 31.963269129970698
+  },
+  '823867fffffffff': {
+    place: 'Mediterranean Sea',
+    lon: 7.527393166112187,
+    lat: 37.72860611155555
+  },
+  '82386ffffffffff': {
+    place: 'Tunisia',
+    lon: 11.127450019158225,
+    lat: 37.06218064246474
   },
   '823877fffffffff': {
     place: 'unnamed road, Guernini, Algeria',
@@ -3524,10 +3739,20 @@ export default {
     lon: -4.441545594395169,
     lat: 41.948059711891545
   },
+  '823957fffffffff': {
+    place: 'Balearic Sea',
+    lon: 0.47324552027924066,
+    lat: 38.69074924333503
+  },
   '823967fffffffff': {
     place: 'Allée de Panayrac, 31280 Drémil-Lafage, France',
     lon: 1.6129412001892156,
     lat: 43.584726891739884
+  },
+  '82396ffffffffff': {
+    place: 'Rue des Bons Voisins, 13000 Marseille, France',
+    lon: 5.3479165063551175,
+    lat: 43.2123871474538
   },
   '823977fffffffff': {
     place: 'Camino a la Ermita de la Virgen de la Magdalena, Mediana de Aragón, Spain',
@@ -3934,6 +4159,16 @@ export default {
     lon: 24.05356150183033,
     lat: 22.013949775533415
   },
+  '823f27fffffffff': {
+    place: 'Ionian Sea',
+    lon: 17.591579901142726,
+    lat: 38.33760855500947
+  },
+  '823f2ffffffffff': {
+    place: 'Greece',
+    lon: 21.258358589534968,
+    lat: 37.35019433365166
+  },
   '823f67fffffffff': {
     place: 'Tire, Izmir, Turkey',
     lon: 27.93453837579485,
@@ -3943,6 +4178,11 @@ export default {
     place: 'unnamed road, 07601 Manavgat, Turkey',
     lon: 31.436949014812914,
     lat: 36.76622716212859
+  },
+  '823f77fffffffff': {
+    place: 'Greece',
+    lon: 24.855403994949334,
+    lat: 36.24262636885188
   },
   '823f87fffffffff': {
     place: 'Wadi al Shatii, Libya',
@@ -4134,6 +4374,11 @@ export default {
     lon: 113.47825479702723,
     lat: 23.604991508345414
   },
+  '824147fffffffff': {
+    place: 'Gulf of Tonkin',
+    lon: 106.67491261580624,
+    lat: 19.584166220507697
+  },
   '82414ffffffffff': {
     place: 'Nakout, Hiam District, Laos',
     lon: 103.49464574989824,
@@ -4148,6 +4393,11 @@ export default {
     place: 'Na Hang, Tuyên Quang Province, Vietnam',
     lon: 105.37624716431606,
     lat: 22.336993148702103
+  },
+  '824167fffffffff': {
+    place: 'Huế, Vietnam',
+    lon: 107.9402383577508,
+    lat: 16.79905047430443
   },
   '82416ffffffffff': {
     place: 'Pakpeng, Thakhek District, Laos',
@@ -4464,10 +4714,30 @@ export default {
     lon: -85.56891212195616,
     lat: 15.462342525107044
   },
+  '824577fffffffff': {
+    place: 'Bay of Campeche',
+    lon: -91.37228914189376,
+    lat: 20.350446617359747
+  },
+  '82458ffffffffff': {
+    place: 'Colón, 42400, Cuba',
+    lon: -80.95736016156542,
+    lat: 22.79776419143777
+  },
   '824597fffffffff': {
     place: 'Manzanillo, Granma, Cuba',
     lon: -77.17256137174476,
     lat: 20.200256567916835
+  },
+  '82459ffffffffff': {
+    place: 'Ciego de Avila, Cuba',
+    lon: -78.23342816283872,
+    lat: 22.645694881257494
+  },
+  '824807fffffffff': {
+    place: 'Gulf of California',
+    lon: -108.22463430197652,
+    lat: 24.486526988568926
   },
   '82480ffffffffff': {
     place: 'Gulf of California',
@@ -4498,6 +4768,11 @@ export default {
     place: 'Municipio de Mexicali, Mexico',
     lon: -114.87464017805418,
     lat: 31.70525800989362
+  },
+  '824877fffffffff': {
+    place: 'Unknown',
+    lon: -113.79930700738346,
+    lat: 26.44255786902045
   },
   '824887fffffffff': {
     place: 'Webb County, TX, United States of America',
@@ -4589,6 +4864,11 @@ export default {
     lon: -99.50222570040016,
     lat: 22.59655458382255
   },
+  '8249a7fffffffff': {
+    place: 'Unknown',
+    lon: -102.31105134286773,
+    lat: 17.00889084422933
+  },
   '8249affffffffff': {
     place: '48962 Región Costa Sur, JAL, Mexico',
     lon: -104.1998490884158,
@@ -4604,10 +4884,30 @@ export default {
     lon: 121.8562274968782,
     lat: 29.15624233926833
   },
+  '824b67fffffffff': {
+    place: 'Saiki, Oita Prefecture, Japan',
+    lon: 132.00434972356942,
+    lat: 32.965729592087534
+  },
+  '824ba7fffffffff': {
+    place: 'Taiwan, 314, Zhudong unnamed road',
+    lon: 121.09608678980489,
+    lat: 24.67996852976351
+  },
   '824c8ffffffffff': {
     place: 'Dominican Republic',
     lon: -71.90762877099245,
     lat: 20.06095244133576
+  },
+  '824cc7fffffffff': {
+    place: 'Caribbean Sea',
+    lon: -67.58143003403521,
+    lat: 17.98904679477415
+  },
+  '824cd7fffffffff': {
+    place: 'Dominican Republic',
+    lon: -70.27077203349324,
+    lat: 18.024088634843352
   },
   '825207fffffffff': {
     place: "'Asir Province, Saudi Arabia",
@@ -4809,6 +5109,11 @@ export default {
     lon: 35.67113538898322,
     lat: 20.13892795010303
   },
+  '82538ffffffffff': {
+    place: 'Tokar, Red Sea State, Sudan',
+    lon: 38.42858522032487,
+    lat: 18.838405014009012
+  },
   '825397fffffffff': {
     place: 'Abu Hamad, River Nile State, Sudan',
     lon: 33.023653884777794,
@@ -4823,6 +5128,11 @@ export default {
     place: 'Ash Shalatin, Red Sea, Egypt',
     lon: 35.51656319508962,
     lat: 23.152658128770966
+  },
+  '8253affffffffff': {
+    place: 'Red Sea',
+    lon: 38.35397527829659,
+    lat: 21.804309173715104
   },
   '8253b7fffffffff': {
     place: 'Abu Hamad, River Nile State, Sudan',
@@ -4908,6 +5218,11 @@ export default {
     place: 'Tambakha Chiefdom, Sierra Leone',
     lon: -12.212417298176776,
     lat: 9.871311613842437
+  },
+  '8254f7fffffffff': {
+    place: 'Guinea-Bissau',
+    lon: -16.399108443804703,
+    lat: 11.89892465116338
   },
   '825507fffffffff': {
     place: 'Tiris Zemmour, Mauritania',
@@ -5264,6 +5579,11 @@ export default {
     lon: -63.75713430130758,
     lat: 9.62597016991196
   },
+  '825f57fffffffff': {
+    place: 'Guyana',
+    lon: -59.36620613933459,
+    lat: 8.201314938599047
+  },
   '825f5ffffffffff': {
     place: '295 Fecal Dump Road, Trinidad and Tobago',
     lon: -61.0861957882247,
@@ -5288,6 +5608,11 @@ export default {
     place: 'Konehalli, Karnataka, India',
     lon: 76.34824200176027,
     lat: 13.306467388698426
+  },
+  '826027fffffffff': {
+    place: 'Laccadive Sea',
+    lon: 76.28477154375979,
+    lat: 8.206586838363163
   },
   '826037fffffffff': {
     place: '-, Tamil Nadu, India',
@@ -5329,6 +5654,11 @@ export default {
     lon: 79.36465027650667,
     lat: 18.43959441768215
   },
+  '826117fffffffff': {
+    place: 'Bay of Bengal',
+    lon: 82.06645449775228,
+    lat: 8.005842805111273
+  },
   '82611ffffffffff': {
     place: 'Laccadive Sea',
     lon: 79.1330653896963,
@@ -5344,6 +5674,11 @@ export default {
     lon: 80.80151164491528,
     lat: 15.882210055630619
   },
+  '8261affffffffff': {
+    place: 'Bay of Bengal',
+    lon: 80.65917647577004,
+    lat: 10.674262204802387
+  },
   '826337fffffffff': {
     place: 'Dhofar Governorate, Oman',
     lon: 55.23745642851,
@@ -5353,6 +5688,11 @@ export default {
     place: 'Iskushuban, Somalia',
     lon: 50.146014314242244,
     lat: 9.980953914627868
+  },
+  '826417fffffffff': {
+    place: 'Tanintharyi Region, 63150, Myanmar',
+    lon: 97.95232815415292,
+    lat: 12.472888314479736
   },
   '826487fffffffff': {
     place: 'Omkoi, Chiang Mai Province 50310, Thailand',
@@ -5379,6 +5719,11 @@ export default {
     lon: 99.77905830751145,
     lat: 15.020911645286066
   },
+  '8264affffffffff': {
+    place: 'Myanmar',
+    lon: 96.56885097367903,
+    lat: 15.281253787412139
+  },
   '8264b7fffffffff': {
     place: 'Ban San, Mueang Loei, Thailand',
     lon: 101.627669222693,
@@ -5388,6 +5733,11 @@ export default {
     place: '27300, Pahang, Malaysia',
     lon: 101.9452995842214,
     lat: 4.029568653926866
+  },
+  '82650ffffffffff': {
+    place: 'Deli Serdang, Indonesia',
+    lon: 98.85580359427912,
+    lat: 4.277009634304244
   },
   '82651ffffffffff': {
     place: 'Ban Khu Nai Sang, Chana, Thailand',
@@ -5404,10 +5754,25 @@ export default {
     lon: 100.17078617591228,
     lat: 1.5035630630747854
   },
+  '826557fffffffff': {
+    place: 'Keude Panga, Aceh, Indonesia',
+    lon: 95.74614553686936,
+    lat: 4.51340265439657
+  },
+  '826577fffffffff': {
+    place: 'Aceh, Indonesia',
+    lon: 97.09259343978408,
+    lat: 1.7360897507733573
+  },
   '826587fffffffff': {
     place: 'unnamed road, Cambodia',
     lon: 104.26621394191997,
     lat: 11.89500135592393
+  },
+  '82658ffffffffff': {
+    place: 'Gulf of Thailand',
+    lon: 101.12666012783019,
+    lat: 12.20063080571399
   },
   '826597fffffffff': {
     place: 'unnamed road, Siem Pang District, Cambodia',
@@ -5434,10 +5799,20 @@ export default {
     lon: -73.11782915548775,
     lat: 6.635780067799035
   },
+  '826617fffffffff': {
+    place: 'Metetí, Distrito de Pinogana, Panama',
+    lon: -77.76225308925845,
+    lat: 8.834808810514392
+  },
   '82661ffffffffff': {
     place: 'Anocozca, ANT, Colombia',
     lon: -76.04173946865842,
     lat: 6.477793272023023
+  },
+  '826627fffffffff': {
+    place: 'Colombia',
+    lon: -73.65155536483907,
+    lat: 11.395034796343392
   },
   '82662ffffffffff': {
     place: 'Parroquia San Carlos, Municipio Colón, Venezuela',
@@ -5484,6 +5859,11 @@ export default {
     lon: -80.7277450395157,
     lat: 8.661515581046206
   },
+  '8266b7fffffffff': {
+    place: 'Puntarenas Province, Costa Rica',
+    lon: -83.7140777518047,
+    lat: 8.46373426178122
+  },
   '8266c7fffffffff': {
     place: 'Florencia, Colombia',
     lon: -75.5298644394643,
@@ -5518,6 +5898,11 @@ export default {
     place: 'Buenaventura, Pacífico, Colombia',
     lon: -77.27754033413991,
     lat: 3.8876113970950965
+  },
+  '826747fffffffff': {
+    place: 'Unknown',
+    lon: -68.05374849152643,
+    lat: 11.537128367836496
   },
   '82674ffffffffff': {
     place: 'El Carito, Municipio Chaguaramas, Venezuela',
@@ -5559,6 +5944,11 @@ export default {
     lon: 125.76718919626826,
     lat: 6.506587976137919
   },
+  '826877fffffffff': {
+    place: 'Philippines',
+    lon: 121.76000670199946,
+    lat: 9.710528305036313
+  },
   '826887fffffffff': {
     place: 'Murung Raya, Indonesia',
     lon: 114.84414572456032,
@@ -5594,10 +5984,20 @@ export default {
     lon: 112.05228459835973,
     lat: 0.5710968416878505
   },
+  '8268d7fffffffff': {
+    place: 'Central Sulawesi, Indonesia',
+    lon: 120.30480370119453,
+    lat: -0.5114857287461736
+  },
   '826937fffffffff': {
     place: 'Cát Hưng, Phù Cát District, Vietnam',
     lon: 109.17230502218132,
     lat: 13.998552128005143
+  },
+  '826947fffffffff': {
+    place: 'Unknown',
+    lon: 119.62771176090519,
+    lat: 15.073207032530537
   },
   '82694ffffffffff': {
     place: 'Jomalig, 4342 Calabarzon, Philippines',
@@ -5888,6 +6288,21 @@ export default {
     place: 'Puncak Jaya, Central Papua, Indonesia',
     lon: 138.13540984260982,
     lat: -3.6833391593822222
+  },
+  '8272a7fffffffff': {
+    place: 'West Papua, Indonesia',
+    lon: 133.99618586259385,
+    lat: -0.2625950723281425
+  },
+  '8272affffffffff': {
+    place: 'Pacific Ocean',
+    lon: 137.06066621273624,
+    lat: -0.790662736929747
+  },
+  '8272b7fffffffff': {
+    place: 'West Papua, Indonesia',
+    lon: 132.0369111514416,
+    lat: -2.624939951995815
   },
   '8272d7fffffffff': {
     place: 'Amanab District, Papua New Guinea',
@@ -6219,6 +6634,11 @@ export default {
     lon: 9.48162288814605,
     lat: -1.9385729679439558
   },
+  '828237fffffffff': {
+    place: 'Moanda, Kongo Central, Democratic Republic of the Congo',
+    lon: 12.167508551849503,
+    lat: -5.95442952257101
+  },
   '828287fffffffff': {
     place: 'Souanké, Congo-Brazzaville',
     lon: 14.105329211791613,
@@ -6253,6 +6673,11 @@ export default {
     place: 'District de Pikounda, Congo-Brazzaville',
     lon: 16.697771709064874,
     lat: 0.4760691114350876
+  },
+  '8282d7fffffffff': {
+    place: 'Gulf of Guinea',
+    lon: 9.176281405994848,
+    lat: 3.5404875739263653
   },
   '8282dffffffffff': {
     place: 'Kebokokiri, Degema, Nigeria',
@@ -6564,6 +6989,11 @@ export default {
     lon: 106.88217084451225,
     lat: -6.635780067799035
   },
+  '828c8ffffffffff': {
+    place: 'Tanjung Jabung Timur, Indonesia',
+    lon: 104.4701355605357,
+    lat: -1.4379093633345084
+  },
   '828c97fffffffff': {
     place: 'Samalantan, West Kalimantan, Indonesia',
     lon: 109.1767350172716,
@@ -6654,6 +7084,11 @@ export default {
     lon: -78.05470041577863,
     lat: -4.0295686539268685
   },
+  '82941ffffffffff': {
+    place: 'Shire Of Wyndham-East Kimberley, Western Australia, Australia',
+    lon: 125.55403602664316,
+    lat: -14.163636471187043
+  },
   '829457fffffffff': {
     place: 'Dundee Beach NT 0840, Australia',
     lon: 130.34394042986904,
@@ -6724,6 +7159,16 @@ export default {
     lon: 126.60734610930125,
     lat: -16.752948028477746
   },
+  '829507fffffffff': {
+    place: 'Pappalluang, South Sulawesi, Indonesia',
+    lon: 119.60144102216913,
+    lat: -5.481219136135664
+  },
+  '829517fffffffff': {
+    place: 'South Sulawesi, Indonesia',
+    lon: 117.89869288862985,
+    lat: -7.595720343600683
+  },
   '82952ffffffffff': {
     place: '93582, Southeast Sulawesi, Indonesia',
     lon: 121.34999896961953,
@@ -6733,6 +7178,11 @@ export default {
     place: 'North Maluku, Indonesia',
     lon: 129.0225417589816,
     lat: -2.0893591276891783
+  },
+  '8295a7fffffffff': {
+    place: 'Indian Ocean',
+    lon: 116.24286569869241,
+    lat: -9.625970169911971
   },
   '829607fffffffff': {
     place: 'unnamed road, Mioba, Democratic Republic of the Congo',
@@ -6904,6 +7354,11 @@ export default {
     lon: 30.401519396463655,
     lat: -22.436756134397466
   },
+  '829737fffffffff': {
+    place: 'Mozambique Channel',
+    lon: 36.0714567765183,
+    lat: -21.564246555357897
+  },
   '829747fffffffff': {
     place: 'North-West District, Botswana',
     lon: 24.2717501397197,
@@ -6974,6 +7429,16 @@ export default {
     lon: 40.406043220761774,
     lat: -14.555908097203654
   },
+  '829b4ffffffffff': {
+    place: 'Ba, Fiji',
+    lon: 178.04355938238234,
+    lat: -16.3897361711339
+  },
+  '829c07fffffffff': {
+    place: 'Hope Vale QLD 4895, Australia',
+    lon: 145.31158796067433,
+    lat: -15.071561241835287
+  },
   '829c0ffffffffff': {
     place: 'Edward River QLD 4892, Australia',
     lon: 142.34137404874488,
@@ -6999,6 +7464,11 @@ export default {
     lon: 134.3931550907738,
     lat: -15.872771158593762
   },
+  '829c5ffffffffff': {
+    place: 'Anindilyakwa NT 0885, Australia',
+    lon: 136.33322629731464,
+    lat: -13.758989386143945
+  },
   '829c67fffffffff': {
     place: 'Lawn Hill QLD 4825, Australia',
     lon: 138.3132947947683,
@@ -7014,6 +7484,11 @@ export default {
     lon: 140.3874912006815,
     lat: -16.816295833554438
   },
+  '829c87fffffffff': {
+    place: 'Morobe, Papua New Guinea',
+    lon: 148.19954593116765,
+    lat: -7.935984450930063
+  },
   '829c8ffffffffff': {
     place: 'Kerema District, Papua New Guinea',
     lon: 145.23874390317167,
@@ -7023,6 +7498,16 @@ export default {
     place: 'Kimbe, West New Britain, Papua New Guinea',
     lon: 150.13608788254248,
     lat: -5.626592710201624
+  },
+  '829ca7fffffffff': {
+    place: 'Unknown',
+    lon: 149.18358997813544,
+    lat: -10.622931493416704
+  },
+  '829cc7fffffffff': {
+    place: 'Arafura Sea',
+    lon: 140.2581866046831,
+    lat: -9.32385133518119
   },
   '829cd7fffffffff': {
     place: 'Nomad District, Papua New Guinea',
@@ -7034,10 +7519,20 @@ export default {
     lon: 139.20145784582112,
     lat: -6.532946652563342
   },
+  '829ce7fffffffff': {
+    place: 'Gulf of Carpentaria',
+    lon: 141.30500868702023,
+    lat: -12.042324229887242
+  },
   '829d0ffffffffff': {
     place: 'Bogie QLD 4805, Australia',
     lon: 147.45537691526772,
     lat: -20.333911460834884
+  },
+  '829d27fffffffff': {
+    place: 'Heron Island, Queensland, Australia',
+    lon: 151.92988010218784,
+    lat: -23.43307331557428
   },
   '829d2ffffffffff': {
     place: 'Mackenzie River QLD 4705, Australia',
@@ -7079,6 +7574,11 @@ export default {
     lon: 145.38984419168284,
     lat: -22.648071655330735
   },
+  '829edffffffffff': {
+    place: 'Guadalcanal, Solomon Islands',
+    lon: 159.34314235283088,
+    lat: -9.391835539000033
+  },
   '82a217fffffffff': {
     place: "Ikalafotsy, District d'Ikongo, Madagascar",
     lon: 47.45290487109739,
@@ -7109,6 +7609,11 @@ export default {
     lon: 46.18922211493465,
     lat: -16.455867032219306
   },
+  '82a377fffffffff': {
+    place: 'Indian Ocean',
+    lon: 50.452821816602864,
+    lat: -12.449021635900667
+  },
   '82a38ffffffffff': {
     place: 'Menabe, Madagascar',
     lon: 44.539572372282535,
@@ -7128,6 +7633,16 @@ export default {
     place: 'Kennedy Range WA 6701, Australia',
     lon: 114.86817741502074,
     lat: -24.599041482572233
+  },
+  '82a6a7fffffffff': {
+    place: 'Error',
+    lon: 115.96595095500335,
+    lat: -20.703562833462385
+  },
+  '82a707fffffffff': {
+    place: 'Indian Ocean',
+    lon: 114.61095105023308,
+    lat: -29.246449676532315
   },
   '82a717fffffffff': {
     place: 'Yalgoo WA 6635, Australia',
@@ -7208,6 +7723,11 @@ export default {
     place: 'Primavera, Região Geográfica Intermediária de Maringá - PR, Brazil',
     lon: -52.88501702942306,
     lat: -24.32900653141787
+  },
+  '82a837fffffffff': {
+    place: 'Unknown',
+    lon: -47.762436192492316,
+    lat: -26.235950149672355
   },
   '82a847fffffffff': {
     place: 'Aquidauana, Região Geográfica Intermediária de Corumbá, Brazil',
@@ -7304,6 +7824,11 @@ export default {
     lon: -47.534482441057435,
     lat: -18.810285142193543
   },
+  '82a907fffffffff': {
+    place: 'Unknown',
+    lon: -50.03444269244506,
+    lat: -30.974594080421234
+  },
   '82a90ffffffffff': {
     place: 'Anta Gorda - RS, 95980-000, Brazil',
     lon: -52.0391832876405,
@@ -7379,10 +7904,25 @@ export default {
     lon: 16.059055608710402,
     lat: -22.230671828980682
   },
+  '82acaffffffffff': {
+    place: 'Unknown',
+    lon: 13.228540725878567,
+    lat: -20.862836003360687
+  },
   '82acb7fffffffff': {
     place: 'Otjozondjupa, Namibia',
     lon: 18.670660664756976,
     lat: -20.56350359652014
+  },
+  '82ad17fffffffff': {
+    place: 'South Atlantic Ocean',
+    lon: 16.91259933867654,
+    lat: -30.916594794154854
+  },
+  '82ad37fffffffff': {
+    place: 'South Atlantic Ocean',
+    lon: 17.214336055881382,
+    lat: -33.66665040240011
   },
   '82ad87fffffffff': {
     place: 'Karas, Namibia',
@@ -7428,6 +7968,11 @@ export default {
     place: 'Iglesia, Argentina',
     lon: -68.93108904827314,
     lat: -28.891368144058532
+  },
+  '82b21ffffffffff': {
+    place: 'South Pacific',
+    lon: -72.11950201410633,
+    lat: -29.416483598567215
   },
   '82b227fffffffff': {
     place: 'Antofagasta, Provincia de Antofagasta, Chile',
@@ -7699,6 +8244,11 @@ export default {
     lon: 137.13295994615686,
     lat: -34.563345274969386
   },
+  '82b91ffffffffff': {
+    place: 'Great Australian Bight',
+    lon: 133.76180644172334,
+    lat: -33.746858608962896
+  },
   '82b987fffffffff': {
     place: 'Clayton Station SA 5733, Australia',
     lon: 138.66453890530937,
@@ -7739,6 +8289,11 @@ export default {
     lon: 176.9738047402448,
     lat: -39.190455174479716
   },
+  '82bc0ffffffffff': {
+    place: 'Indian Ocean',
+    lon: 29.1562812705089,
+    lat: -32.92080493109466
+  },
   '82bc47fffffffff': {
     place: 'George, 6460, South Africa',
     lon: 23.141383249306234,
@@ -7758,6 +8313,11 @@ export default {
     place: 'Kareeberg Local Municipality, Pixley ka Seme District Municipality, South Africa',
     lon: 22.748174259019976,
     lat: -30.660356184881913
+  },
+  '82bc6ffffffffff': {
+    place: 'Unknown',
+    lon: 20.336785690523943,
+    lat: -34.94024283169228
   },
   '82bcc7fffffffff': {
     place: 'Ngwathe Nu, South Africa',
@@ -7824,6 +8384,11 @@ export default {
     lon: 143.12198506246662,
     lat: -33.02357769385508
   },
+  '82be67fffffffff': {
+    place: 'Bass Strait',
+    lon: 145.59550498537843,
+    lat: -38.87144155773961
+  },
   '82be6ffffffffff': {
     place: 'Tyrendarra, Victoria, Australia',
     lon: 141.77273146480064,
@@ -7878,6 +8443,11 @@ export default {
     place: 'Saudridge Road, Cressy TAS 7302, Australia',
     lon: 146.98554981744795,
     lat: -41.76959829076859
+  },
+  '82c21ffffffffff': {
+    place: 'Argentine Sea',
+    lon: -56.56987229847651,
+    lat: -37.278157847421625
   },
   '82c22ffffffffff': {
     place: 'Partido de Benito Juárez, Argentina',
@@ -7969,6 +8539,11 @@ export default {
     lon: -65.10975414551322,
     lat: -39.276763483208114
   },
+  '82c987fffffffff': {
+    place: 'Indian Ocean',
+    lon: 116.81603559096374,
+    lat: -35.44100264561351
+  },
   '82c997fffffffff': {
     place: 'Minigin WA 6312, Australia',
     lon: 116.98777517780606,
@@ -8004,6 +8579,11 @@ export default {
     lon: -71.45346422836572,
     lat: -43.528880582770675
   },
+  '82ceaffffffffff': {
+    place: 'Chile',
+    lon: -74.1094396282814,
+    lat: -41.57473280475284
+  },
   '82ceb7fffffffff': {
     place: 'Departamento Telsen, Argentina',
     lon: -68.2738976959533,
@@ -8023,6 +8603,11 @@ export default {
     place: 'Camino Lago Las Ardillas, Río Ibáñez, Chile',
     lon: -72.0684194458751,
     lat: -46.25937248241504
+  },
+  '82cf97fffffffff': {
+    place: 'Argentina',
+    lon: -65.8105477944953,
+    lat: -47.11146830600143
   },
   '82cf9ffffffffff': {
     place: 'Departamento Sarmiento, Argentina',
@@ -8048,6 +8633,11 @@ export default {
     place: 'Napoleon Hill, New Zealand',
     lon: 171.7044789078821,
     lat: -42.343703477486606
+  },
+  '82de77fffffffff': {
+    place: 'Falkland Islands, United Kingdom',
+    lon: -58.252828862917085,
+    lat: -51.82402534821528
   },
   '82df37fffffffff': {
     place: 'Weddell Sea',
@@ -8094,6 +8684,11 @@ export default {
     lon: 83.21648072540084,
     lat: -66.79670130905869
   },
+  '82e52ffffffffff': {
+    place: 'Unknown',
+    lon: 119.15365860946658,
+    lat: -66.20737319390393
+  },
   '82e547fffffffff': {
     place: 'Antarctica',
     lon: 104.28540808967881,
@@ -8103,6 +8698,11 @@ export default {
     place: 'Antarctica',
     lon: 95.87800112932979,
     lat: -69.26760621510742
+  },
+  '82e557fffffffff': {
+    place: 'Unknown',
+    lon: 106.10960230387923,
+    lat: -65.62000732097056
   },
   '82e55ffffffffff': {
     place: 'Unknown',
@@ -8159,6 +8759,11 @@ export default {
     lon: 5.349260264866217,
     lat: -70.62195055402825
   },
+  '82e757fffffffff': {
+    place: 'Unknown',
+    lon: 19.790905021851426,
+    lat: -69.325989189483
+  },
   '82e767fffffffff': {
     place: 'Antarctica',
     lon: 17.62788864377281,
@@ -8214,6 +8819,11 @@ export default {
     lon: 144.15049662682094,
     lat: -72.08199559197767
   },
+  '82ec17fffffffff': {
+    place: 'Unknown',
+    lon: 145.83810895569417,
+    lat: -67.01542914988971
+  },
   '82ec1ffffffffff': {
     place: 'Antarctica',
     lon: 141.14751402186454,
@@ -8264,6 +8874,11 @@ export default {
     lon: 148.0824048259457,
     lat: -74.70083615111174
   },
+  '82ec8ffffffffff': {
+    place: 'Unknown',
+    lon: 131.90073443275597,
+    lat: -65.70393394013747
+  },
   '82ecaffffffffff': {
     place: 'Unknown',
     lon: 138.79100791940954,
@@ -8309,6 +8924,11 @@ export default {
     lon: 167.41276984605915,
     lat: -74.00955019379434
   },
+  '82ed4ffffffffff': {
+    place: 'Unknown',
+    lon: 164.77855860226083,
+    lat: -76.71330198334861
+  },
   '82ed57fffffffff': {
     place: 'Antarctica',
     lon: 161.51456447334894,
@@ -8329,15 +8949,30 @@ export default {
     lon: -22.79391572045102,
     lat: -74.61324980657085
   },
+  '82ee27fffffffff': {
+    place: 'Antarctica',
+    lon: -41.88738531941062,
+    lat: -77.53878392205296
+  },
   '82ee37fffffffff': {
     place: 'Antarctica',
     lon: -27.382752994275947,
     lat: -77.53595319720485
   },
+  '82ee67fffffffff': {
+    place: 'Antarctica',
+    lon: -58.70778501435258,
+    lat: -70.65798648702926
+  },
   '82ee6ffffffffff': {
     place: 'Antarctica',
     lon: -59.6462715589391,
     lat: -67.62071478609732
+  },
+  '82ee87fffffffff': {
+    place: 'Unknown',
+    lon: -10.604680480811137,
+    lat: -70.64884759270129
   },
   '82eea7fffffffff': {
     place: 'Antarctica',
@@ -8728,6 +9363,11 @@ export default {
     place: 'Unknown',
     lon: -157.40007340776933,
     lat: -79.64968157777277
+  },
+  '82f247fffffffff': {
+    place: 'Antarctica',
+    lon: -118.61920464577489,
+    lat: -73.63531428382275
   },
   '82f257fffffffff': {
     place: 'Antarctica',

@@ -13,7 +13,7 @@ const isLand = (cell) => {
   for (const child of h3.cellToChildren(cell, 3)) {
     if (!isSea(...h3.cellToLatLng(child))) {
       count++
-      if (count > 2) {
+      if (count >= 2) {
         return true
       }
     }
