@@ -2,10 +2,13 @@
   '0':
     hexes:
       82002ffffffffff:
+        name: Svalbard NE
         place: 9170 Longyearbyen, Norway
         states: {}
         land: 2
-    states: {}
+    states:
+      Norway:
+        begin: 1920
   '1':
     hexes:
       82006ffffffffff:
@@ -19,13 +22,12 @@
     hexes:
       820127fffffffff:
         place: Revsneshamn - Áhpenjárgohppi 36, 9624 Revsneshamn, Norway
-        states: {}
         land: 2
       820137fffffffff:
         place: Barents Sea
-        states: {}
         land: 2
-    states: {}
+    states:
+      Norway: {}
   '5':
     hexes:
       820157fffffffff:
@@ -33,8 +35,8 @@
         place: Longyearbyen, southern
         land: 3
       82015ffffffffff:
+        name: Svalbard W
         place: Fram Strait
-        states: {}
         land: 2
     states:
       Norway:
@@ -88,6 +90,7 @@
         place: Qikiqtaaluk Region, Nunavut
         land: 4
       820277fffffffff:
+        name: Prince of Wales Island S
         place: Qikiqtaaluk Region, Nunavut, Canada
         states: {}
         land: 2
@@ -173,17 +176,17 @@
       820417fffffffff:
         name: Yukagir
         place: Sakha Republic
-        states:
-          Russia: {}
-          USSR: {}
-          Russian Empire: {}
-          Tsardom of Russia:
-            begin: 1638
         land: 3
       82041ffffffffff:
         place: East Siberian Sea
         states: {}
         land: 2
+    states:
+      Russia: {}
+      USSR: {}
+      Russian Empire: {}
+      Tsardom of Russia:
+        begin: 1638
   '2':
     hexes:
       820487fffffffff:
@@ -243,8 +246,8 @@
         place: Sakha Republic
         land: 7
       8204effffffffff:
+        name: Ayon Island
         place: East Siberian Sea
-        states: {}
         land: 2
     states:
       Russia: {}
@@ -372,8 +375,8 @@
         place: Avannaata, Greenland
         land: 7
       820697fffffffff:
+        name: Melville Bay
         place: Melville Bay
-        states: {}
         land: 2
     states:
       Denmark:
@@ -427,11 +430,9 @@
         land: 6
       82075ffffffffff:
         place: Iceland
-        states: {}
         land: 2
       820777fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Iceland: {}
@@ -488,15 +489,18 @@
         land: 7
       820807fffffffff:
         place: Nærøysund, Trøndelag, Norway
-        states: {}
+        states:
+          Norway: {}
         land: 2
       82082ffffffffff:
         place: Træna, Nordland, Norway
-        states: {}
+        states:
+          Norway: {}
         land: 2
       820837fffffffff:
         place: Norwegian Sea
-        states: {}
+        states:
+          Norway: {}
         land: 2
   '2':
     hexes:
@@ -560,8 +564,10 @@
           Sweden: {}
         land: 6
       820897fffffffff:
-        place: Fårö Vinorvägen, 624 67 Gotland Municipality, Sweden
-        states: {}
+        name: Gotland
+        place: Fårö Vinorvägen, Gotland Municipality, Sweden
+        states:
+          Sweden: {}
         land: 2
   '3':
     hexes:
@@ -975,7 +981,12 @@
         place: Bering Sea
         states: {}
         land: 2
-    states: {}
+    states:
+      USA:
+        begin: 1867
+      Russian Empire:
+        begin: 1784
+        end: 1867
   '3':
     hexes:
       820ce7fffffffff:
@@ -986,7 +997,6 @@
         land: 4
       820cf7fffffffff:
         place: Bering Sea
-        states: {}
         land: 2
     states:
       USA:
@@ -1074,11 +1084,9 @@
         land: 4
       820d8ffffffffff:
         place: Chukotka Autonomous Okrug, Russia
-        states: {}
         land: 2
       820d9ffffffffff:
         place: Bering Sea
-        states: {}
         land: 2
     states:
       Russia: {}
@@ -1096,12 +1104,11 @@
         place: Rivière-Koksoak, Quebec
         land: 6
       820e27fffffffff:
+        name: Husdson Strait
         place: Qikiqtaaluk Region, Nunavut, Canada
-        states: {}
         land: 2
       820e37fffffffff:
         place: Qikiqtaaluk Region, Nunavut, Canada
-        states: {}
         land: 2
     states:
       Canada: {}
@@ -1199,8 +1206,8 @@
         place: Rivière-Koksoak, Quebec
         land: 6
       820f4ffffffffff:
+        name: Labrador
         place: Labrador, Newfoundland and Labrador, Canada
-        states: {}
         land: 2
     states:
       Canada: {}
@@ -1404,7 +1411,6 @@
         land: 3
       82114ffffffffff:
         place: Zapolyarny District, Russia
-        states: {}
         land: 2
     states:
       Russia: {}
@@ -1847,7 +1853,6 @@
         land: 7
       821617fffffffff:
         place: Kamchatka Krai, Russia
-        states: {}
         land: 2
     states:
       Russia: {}
@@ -1868,11 +1873,9 @@
         land: 7
       82170ffffffffff:
         place: Magadan Oblast, Russia
-        states: {}
         land: 2
       821717fffffffff:
         place: Magadan Oblast, Russia
-        states: {}
         land: 2
     states:
       Russia: {}
@@ -1893,7 +1896,6 @@
         land: 7
       821757fffffffff:
         place: Kamchatka Krai, Russia
-        states: {}
         land: 2
     states:
       Russia: {}
@@ -1966,8 +1968,10 @@
           UK: {}
         land: 3
       82196ffffffffff:
+        name: Netherlands
         place: Netherlands
-        states: {}
+        states:
+          Netherlands: {}
         land: 2
 '13':
   '2':
@@ -2252,7 +2256,7 @@
       821fa7fffffffff:
         place: Trixhe aux Minières, Aywaille
         states:
-          Netherlands: {}
+          Belgium: {}
         land: 7
       821faffffffffff:
         place: Alte, Hammelburg
