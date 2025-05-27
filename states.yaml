@@ -230,12 +230,22 @@ Songhai Empire:
 Portugal:
   begin: 1139
   end: 2025
+Fiji:
+  begin: 1970
+  end: 2025
+Solomon Islands:
+  begin: 1978
+  end: 2025
 Ottoman Empire:
   begin: 1299
   end: 1922
 Safavid Empire:
   begin: 1501
   end: 1736
+Taiwan:
+  note: Republic of China
+  begin: 1912
+  end: 2025
 Thailand:
   begin: 1238
   end: 2025

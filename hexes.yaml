@@ -4,7 +4,6 @@
       82002ffffffffff:
         name: Svalbard NE
         place: 9170 Longyearbyen, Norway
-        states: {}
         land: 2
     states:
       Norway:
@@ -92,7 +91,6 @@
       820277fffffffff:
         name: Prince of Wales Island S
         place: Qikiqtaaluk Region, Nunavut, Canada
-        states: {}
         land: 2
     states:
       Canada: {}
@@ -179,7 +177,6 @@
         land: 3
       82041ffffffffff:
         place: East Siberian Sea
-        states: {}
         land: 2
     states:
       Russia: {}
@@ -979,7 +976,6 @@
     hexes:
       820caffffffffff:
         place: Bering Sea
-        states: {}
         land: 2
     states:
       USA:
@@ -1562,7 +1558,6 @@
         states:
           Canada: {}
         land: 7
-    states: {}
   '4':
     hexes:
       821307fffffffff:
@@ -1875,6 +1870,7 @@
         place: Magadan Oblast, Russia
         land: 2
       821717fffffffff:
+        name: Magadan
         place: Magadan Oblast, Russia
         land: 2
     states:
@@ -1977,10 +1973,11 @@
   '2':
     hexes:
       821aa7fffffffff:
+        name: Newfoundland E
         place: Newfoundland, Newfoundland and Labrador, Canada
-        states: {}
         land: 2
-    states: {}
+    states:
+      Canada: {}
   '4':
     hexes:
       821b27fffffffff:
@@ -2084,8 +2081,11 @@
           USSR: {}
         land: 7
       821e5ffffffffff:
+        name: Odessa
         place: Black Sea
-        states: {}
+        states:
+          Ukraine: {}
+          USSR: {}
         land: 2
   '2':
     hexes:
@@ -2111,8 +2111,10 @@
           Yugoslavia: {}
         land: 4
       821e97fffffffff:
+        name: Sardinia
         place: Tyrrhenian Sea
-        states: {}
+        states:
+          Italy: {}
         land: 2
   '3':
     hexes:
@@ -2186,7 +2188,8 @@
         land: 4
       821f37fffffffff:
         place: North Sea
-        states: {}
+        states:
+          Denmark: {}
         land: 2
   '5':
     hexes:
@@ -3089,8 +3092,10 @@
             end: 1821
         land: 5
       822807fffffffff:
+        name: California NW
         place: North Pacific
-        states: {}
+        states:
+          USA: {}
         land: 2
   '2':
     hexes:
@@ -3214,7 +3219,6 @@
         land: 4
       822af7fffffffff:
         place: United States
-        states: {}
         land: 2
     states:
       USA: {}
@@ -3231,12 +3235,16 @@
           USA: {}
         land: 4
       822b0ffffffffff:
+        name: Nova Scotia S
         place: North Atlantic Ocean
-        states: {}
+        states:
+          Canada: {}
         land: 2
       822b2ffffffffff:
+        name: Nova Scotia N
         place: North Atlantic Ocean
-        states: {}
+        states:
+          Canada: {}
         land: 2
   '6':
     hexes:
@@ -3346,8 +3354,11 @@
           USSR: {}
         land: 6
       822c77fffffffff:
+        name: Da
         place: Dagestan, Russia
-        states: {}
+        states:
+          Russia: {}
+          USSR: {}
         land: 2
   '2':
     hexes:
@@ -3423,22 +3434,32 @@
     hexes:
       822d07fffffffff:
         place: Taşköprü, Kastamonu
+        states:
+          Turkey: {}
         land: 5
       822d17fffffffff:
         place: Doğala Köyü
+        states:
+          Turkey: {}
         land: 7
       822d1ffffffffff:
         place: Zara, Sivas
+        states:
+          Turkey: {}
         land: 7
       822d37fffffffff:
         place: Alpu
+        states:
+          Turkey: {}
         land: 7
       822d2ffffffffff:
         place: Autonomous Republic of Crimea, Ukraine
-        states: {}
+        states:
+          Russia:
+            begin: 2014
+          Ukraine: {}
+          USSR: {}
         land: 2
-    states:
-      Turkey: {}
   '5':
     hexes:
       822d47fffffffff:
@@ -3526,7 +3547,6 @@
         land: 3
       822e2ffffffffff:
         place: North Pacific
-        states: {}
         land: 2
     states:
       Japan: {}
@@ -3546,10 +3566,11 @@
   '2':
     hexes:
       822eaffffffffff:
+        name: Hokkaido N
         place: Sea of Okhotsk
-        states: {}
         land: 2
-    states: {}
+    states:
+      Japan: {}
   '3':
     hexes:
       822ec7fffffffff:
@@ -3570,10 +3591,11 @@
   '5':
     hexes:
       822f5ffffffffff:
+        name: Tokyo
         place: Minamiboso, Chiba Prefecture, Japan
-        states: {}
         land: 2
-    states: {}
+    states:
+      Japan: {}
 '24':
   '0':
     hexes:
@@ -3756,7 +3778,8 @@
         land: 7
       823827fffffffff:
         place: Mediterranean Sea
-        states: {}
+        states:
+          Spain: {}
         land: 2
   '1':
     hexes:
@@ -3788,11 +3811,17 @@
         land: 7
       823867fffffffff:
         place: Mediterranean Sea
-        states: {}
+        states:
+          Algeria: {}
+          France:
+            begin: 1830
+            end: 1962
         land: 2
       82386ffffffffff:
+        name: Tunis
         place: Tunisia
-        states: {}
+        states:
+          Tunisia: {}
         land: 2
   '2':
     hexes:
@@ -3919,12 +3948,16 @@
           Spain: {}
         land: 7
       823957fffffffff:
+        name: Valencia
         place: Balearic Sea
-        states: {}
+        states:
+          Spain: {}
         land: 2
       82396ffffffffff:
+        name: Marseille
         place: Rue des Bons Voisins, 13000 Marseille, France
-        states: {}
+        states:
+          France: {}
         land: 2
   '6':
     hexes:
@@ -4340,28 +4373,34 @@
   '4':
     hexes:
       823f27fffffffff:
+        name: Calabria
         place: Ionian Sea
-        states: {}
+        states:
+          Italy: {}
         land: 2
       823f2ffffffffff:
         place: Greece
-        states: {}
+        states:
+          Greece: {}
         land: 2
-    states: {}
   '5':
     hexes:
       823f67fffffffff:
         place: Tire, Izmir
+        states:
+          Turkey: {}
         land: 5
       823f6ffffffffff:
         place: Manavgat
+        states:
+          Turkey: {}
         land: 5
       823f77fffffffff:
+        name: Crete
         place: Greece
-        states: {}
+        states:
+          Greece: {}
         land: 2
-    states:
-      Turkey: {}
   '6':
     hexes:
       823f87fffffffff:
@@ -4537,11 +4576,14 @@
         land: 7
       824147fffffffff:
         place: Gulf of Tonkin
-        states: {}
+        states:
+          Vietnam: {}
         land: 2
       824167fffffffff:
+        name: Da Nang
         place: Huế, Vietnam
-        states: {}
+        states:
+          Vietnam: {}
         land: 2
   '6':
     hexes:
@@ -4852,14 +4894,13 @@
         states:
           Honduras: {}
         land: 5
-    states: {}
   '5':
     hexes:
       824577fffffffff:
         place: Bay of Campeche
-        states: {}
+        states:
+          Mexico: {}
         land: 2
-    states: {}
   '6':
     hexes:
       824597fffffffff:
@@ -4867,11 +4908,9 @@
         land: 4
       82458ffffffffff:
         place: Colón, 42400, Cuba
-        states: {}
         land: 2
       82459ffffffffff:
         place: Ciego de Avila, Cuba
-        states: {}
         land: 2
     states:
       Cuba: {}
@@ -4891,8 +4930,8 @@
         place: Unknown
         land: 3
       824807fffffffff:
+        name: Sinaloa
         place: Gulf of California
-        states: {}
         land: 2
     states:
       Mexico: {}
@@ -4905,8 +4944,8 @@
         place: Municipio de Mexicali
         land: 6
       824877fffffffff:
+        name: Baja
         place: Unknown
-        states: {}
         land: 2
     states:
       Mexico: {}
@@ -5006,7 +5045,6 @@
         land: 5
       8249a7fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Mexico: {}
@@ -5022,16 +5060,17 @@
     hexes:
       824b67fffffffff:
         place: Saiki, Oita Prefecture, Japan
-        states: {}
         land: 2
-    states: {}
+    states:
+      Japan: {}
   '6':
     hexes:
       824ba7fffffffff:
+        name: Taiwan
         place: Taiwan, 314, Zhudong unnamed road
-        states: {}
         land: 2
-    states: {}
+    states:
+      Taiwan: {}
 '38':
   '2':
     hexes:
@@ -5043,14 +5082,17 @@
   '3':
     hexes:
       824cc7fffffffff:
+        name: Poerto Rico
         place: Caribbean Sea
-        states: {}
+        states:
+          USA: {}
         land: 2
       824cd7fffffffff:
+        name: Dominican Republic
         place: Dominican Republic
-        states: {}
+        states:
+          Dominican Republic: {}
         land: 2
-    states: {}
 '41':
   '0':
     hexes:
@@ -5270,11 +5312,14 @@
         land: 7
       82538ffffffffff:
         place: Tokar, Red Sea State, Sudan
-        states: {}
+        states:
+          Sudan: {}
         land: 2
       8253affffffffff:
+        name: Jeddah
         place: Red Sea
-        states: {}
+        states:
+          Saudi Arabia: {}
         land: 2
 '42':
   '0':
@@ -5356,7 +5401,7 @@
       8254e7fffffffff:
         place: Boké Region
         states:
-          Guinea-Bissau: {}
+          Guinea: {}
         land: 7
       8254effffffffff:
         place: Tambakha Chiefdom
@@ -5365,7 +5410,8 @@
         land: 7
       8254f7fffffffff:
         place: Guinea-Bissau
-        states: {}
+        states:
+          Guinea-Bissau: {}
         land: 2
   '4':
     hexes:
@@ -5794,7 +5840,8 @@
         land: 7
       825f57fffffffff:
         place: Guyana
-        states: {}
+        states:
+          Guyana: {}
         land: 2
 '48':
   '0':
@@ -5806,8 +5853,8 @@
         place: Tamil Nadu
         land: 7
       826027fffffffff:
+        name: Kerala S
         place: Laccadive Sea
-        states: {}
         land: 2
     states:
       India: {}
@@ -5848,8 +5895,8 @@
         place: Laccadive Sea
         land: 3
       826117fffffffff:
+        name: Sri Lanka E
         place: Bay of Bengal
-        states: {}
         land: 2
     states:
       Sri Lanka: {}
@@ -5863,7 +5910,6 @@
         land: 4
       8261affffffffff:
         place: Bay of Bengal
-        states: {}
         land: 2
     states:
       India: {}
@@ -5890,9 +5936,9 @@
     hexes:
       826417fffffffff:
         place: Tanintharyi Region, 63150, Myanmar
-        states: {}
         land: 2
-    states: {}
+    states:
+      Myanmar: {}
   '2':
     hexes:
       826487fffffffff:
@@ -5927,7 +5973,8 @@
         land: 7
       8264affffffffff:
         place: Myanmar
-        states: {}
+        states:
+          Myanmar: {}
         land: 2
   '4':
     hexes:
@@ -5952,20 +5999,22 @@
           Indonesia: {}
         land: 6
       82650ffffffffff:
+        name: Sumatra N
         place: Deli Serdang, Indonesia
-        states: {}
+        states:
+          Indonesia: {}
         land: 2
   '5':
     hexes:
       826557fffffffff:
+        name: Banda Aceh
         place: Keude Panga, Aceh, Indonesia
-        states: {}
         land: 2
       826577fffffffff:
         place: Aceh, Indonesia
-        states: {}
         land: 2
-    states: {}
+    states:
+      Indonesia: {}
   '6':
     hexes:
       826587fffffffff:
@@ -5990,7 +6039,8 @@
         land: 5
       82658ffffffffff:
         place: Gulf of Thailand
-        states: {}
+        states:
+          Thailand: {}
         land: 2
 '51':
   '0':
@@ -6017,11 +6067,13 @@
         land: 6
       826617fffffffff:
         place: Metetí, Distrito de Pinogana, Panama
-        states: {}
+        states:
+          Panama: {}
         land: 2
       826627fffffffff:
         place: Colombia
-        states: {}
+        states:
+          Colombia: {}
         land: 2
   '1':
     hexes:
@@ -6067,7 +6119,8 @@
         land: 4
       8266b7fffffffff:
         place: Puntarenas Province, Costa Rica
-        states: {}
+        states:
+          Costa Rica: {}
         land: 2
     states:
       Panama: {}
@@ -6121,7 +6174,6 @@
         land: 7
       826747fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Venezuela: {}
@@ -6153,7 +6205,6 @@
         land: 4
       826877fffffffff:
         place: Philippines
-        states: {}
         land: 2
     states:
       Philippines: {}
@@ -6198,9 +6249,9 @@
     hexes:
       8268d7fffffffff:
         place: Central Sulawesi, Indonesia
-        states: {}
         land: 2
-    states: {}
+    states:
+      Indonesia: {}
   '4':
     hexes:
       826937fffffffff:
@@ -6218,7 +6269,6 @@
         land: 4
       826947fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Philippines: {}
@@ -6499,15 +6549,12 @@
         land: 7
       8272a7fffffffff:
         place: West Papua, Indonesia
-        states: {}
         land: 2
       8272affffffffff:
         place: Pacific Ocean
-        states: {}
         land: 2
       8272b7fffffffff:
         place: West Papua, Indonesia
-        states: {}
         land: 2
     states:
       Indonesia: {}
@@ -6820,7 +6867,8 @@
         land: 3
       828237fffffffff:
         place: Moanda, Kongo Central, Democratic Republic of the Congo
-        states: {}
+        states:
+          Democratic Republic of the Congo: {}
         land: 2
   '2':
     hexes:
@@ -6871,8 +6919,10 @@
         states: null
         land: 3
       8282d7fffffffff:
+        name: Doula
         place: Gulf of Guinea
-        states: {}
+        states:
+          Cameroon: {}
         land: 2
   '4':
     hexes:
@@ -7172,7 +7222,6 @@
         land: 5
       828c8ffffffffff:
         place: Tanjung Jabung Timur, Indonesia
-        states: {}
         land: 2
     states:
       Indonesia: {}
@@ -7249,9 +7298,9 @@
     hexes:
       82941ffffffffff:
         place: Shire Of Wyndham-East Kimberley, Western Australia, Australia
-        states: {}
         land: 2
-    states: {}
+    states:
+      Australia: {}
   '1':
     hexes:
       829457fffffffff:
@@ -7313,11 +7362,9 @@
         land: 5
       829507fffffffff:
         place: Pappalluang, South Sulawesi, Indonesia
-        states: {}
         land: 2
       829517fffffffff:
         place: South Sulawesi, Indonesia
-        states: {}
         land: 2
     states:
       Indonesia: {}
@@ -7332,9 +7379,9 @@
     hexes:
       8295a7fffffffff:
         place: Indian Ocean
-        states: {}
         land: 2
-    states: {}
+    states:
+      Indonesia: {}
 '75':
   '0':
     hexes:
@@ -7494,7 +7541,8 @@
         land: 7
       829737fffffffff:
         place: Mozambique Channel
-        states: {}
+        states:
+          Mozambique: {}
         land: 2
   '5':
     hexes:
@@ -7575,9 +7623,9 @@
     hexes:
       829b4ffffffffff:
         place: Ba, Fiji
-        states: {}
         land: 2
-    states: {}
+    states:
+      Fiji: {}
 '78':
   '0':
     hexes:
@@ -7592,7 +7640,6 @@
         land: 7
       829c07fffffffff:
         place: Hope Vale QLD 4895, Australia
-        states: {}
         land: 2
     states:
       Australia: {}
@@ -7615,7 +7662,6 @@
         land: 3
       829c5ffffffffff:
         place: Anindilyakwa NT 0885, Australia
-        states: {}
         land: 2
     states:
       Australia: {}
@@ -7629,11 +7675,9 @@
         land: 3
       829c87fffffffff:
         place: Morobe, Papua New Guinea
-        states: {}
         land: 2
       829ca7fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Papua New Guinea: {}
@@ -7651,25 +7695,24 @@
         land: 6
       829cc7fffffffff:
         place: Arafura Sea
-        states: {}
+        states:
+          Indonesia: {}
         land: 2
       829ce7fffffffff:
         place: Gulf of Carpentaria
-        states: {}
+        states:
+          Australia: {}
         land: 2
   '4':
     hexes:
       829d0ffffffffff:
         place: Bogie QLD 4805, Australia
-        states: {}
         land: 5
       829d2ffffffffff:
         place: Mackenzie River QLD 4705, Australia
-        states: {}
         land: 7
       829d27fffffffff:
         place: Heron Island, Queensland, Australia
-        states: {}
         land: 2
     states:
       Australia: {}
@@ -7703,9 +7746,9 @@
     hexes:
       829edffffffffff:
         place: Guadalcanal, Solomon Islands
-        states: {}
         land: 2
-    states: {}
+    states:
+      Solomon Islands: {}
 '81':
   '0':
     hexes:
@@ -7741,9 +7784,9 @@
     hexes:
       82a377fffffffff:
         place: Indian Ocean
-        states: {}
         land: 2
-    states: {}
+    states:
+      Madagascar: {}
   '6':
     hexes:
       82a38ffffffffff:
@@ -7769,9 +7812,9 @@
     hexes:
       82a6a7fffffffff:
         place: City Of Karratha, Western Australia, Australia
-        states: {}
         land: 2
-    states: {}
+    states:
+      Australia: {}
   '4':
     hexes:
       82a717fffffffff:
@@ -7785,7 +7828,6 @@
         land: 7
       82a707fffffffff:
         place: Indian Ocean
-        states: {}
         land: 2
     states:
       Australia: {}
@@ -7837,7 +7879,6 @@
         land: 7
       82a837fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Brazil: {}
@@ -7935,7 +7976,6 @@
         land: 7
       82a907fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Brazil: {}
@@ -8011,19 +8051,22 @@
         land: 7
       82acaffffffffff:
         place: Unknown
-        states: {}
-        land: 2
+        states:
+          Namibia: {}
+        land: 2s
   '4':
     hexes:
       82ad17fffffffff:
         place: South Atlantic Ocean
-        states: {}
+        states:
+          South Africa: {}
         land: 2
       82ad37fffffffff:
+        name: Cape Towm
         place: South Atlantic Ocean
-        states: {}
+        states:
+          South Africa: {}
         land: 2
-    states: {}
   '6':
     hexes:
       82ad87fffffffff:
@@ -8086,7 +8129,8 @@
         land: 7
       82b21ffffffffff:
         place: South Pacific
-        states: {}
+        states:
+          Chile: {}
         land: 2
   '1':
     hexes:
@@ -8309,7 +8353,6 @@
         land: 3
       82b91ffffffffff:
         place: Great Australian Bight
-        states: {}
         land: 2
     states:
       Australia: {}
@@ -8351,9 +8394,9 @@
     hexes:
       82bc0ffffffffff:
         place: Indian Ocean
-        states: {}
         land: 2
-    states: {}
+    states:
+      South Africa: {}
   '1':
     hexes:
       82bc47fffffffff:
@@ -8370,7 +8413,6 @@
         land: 7
       82bc6ffffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       South Africa: {}
@@ -8443,8 +8485,8 @@
         place: Tom Groggin VIC
         land: 7
       82be67fffffffff:
+        name: Melbourne
         place: Bass Strait
-        states: {}
         land: 2
     states:
       Australia: {}
@@ -8495,7 +8537,6 @@
         land: 7
       82c21ffffffffff:
         place: Argentine Sea
-        states: {}
         land: 2
     states:
       Argentina: {}
@@ -8540,15 +8581,12 @@
     hexes:
       82c30ffffffffff:
         place: Cuartel V
-        states: {}
         land: 3
       82c327fffffffff:
         place: Departamento Florentino Ameghino, Chubut Province
-        states: {}
         land: 3
       82c32ffffffffff:
         place: Sierra Grande, Departamento San Antonio
-        states: {}
         land: 5
     states:
       Argentina: {}
@@ -8588,7 +8626,6 @@
         land: 3
       82c987fffffffff:
         place: Indian Ocean
-        states: {}
         land: 2
     states:
       Australia: {}
@@ -8627,7 +8664,8 @@
         land: 7
       82ceaffffffffff:
         place: Chile
-        states: {}
+        states:
+          Chile: {}
         land: 2
   '4':
     hexes:
@@ -8665,7 +8703,8 @@
         land: 7
       82cf97fffffffff:
         place: Argentina
-        states: {}
+        states:
+          Argentina: {}
         land: 2
 '109':
   '2':
@@ -8683,9 +8722,9 @@
     hexes:
       82de77fffffffff:
         place: Falkland Islands, United Kingdom
-        states: {}
         land: 2
-    states: {}
+    states:
+      UK: {}
   '4':
     hexes:
       82df37fffffffff:
@@ -8741,9 +8780,9 @@
     hexes:
       82e52ffffffffff:
         place: Unknown
-        states: {}
         land: 2
-    states: {}
+    states:
+      Antarctica: {}
   '5':
     hexes:
       82e547fffffffff:
@@ -8766,7 +8805,6 @@
         land: 7
       82e557fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Antarctica: {}
@@ -8809,7 +8847,6 @@
         land: 7
       82e757fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Antarctica: {}
@@ -8860,7 +8897,6 @@
         land: 7
       82ec17fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Antarctica: {}
@@ -8896,7 +8932,6 @@
         land: 3
       82ec8ffffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Antarctica: {}
@@ -8941,7 +8976,6 @@
         land: 3
       82ed4ffffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Antarctica: {}
@@ -8956,7 +8990,6 @@
         land: 6
       82ee27fffffffff:
         place: Antarctica
-        states: {}
         land: 2
     states:
       Antarctica: {}
@@ -8967,7 +9000,6 @@
         land: 3
       82ee67fffffffff:
         place: Antarctica
-        states: {}
         land: 2
     states:
       Antarctica: {}
@@ -8981,7 +9013,6 @@
         land: 7
       82ee87fffffffff:
         place: Unknown
-        states: {}
         land: 2
     states:
       Antarctica: {}
@@ -9272,7 +9303,6 @@
         land: 6
       82f247fffffffff:
         place: Antarctica
-        states: {}
         land: 2
     states:
       Antarctica: {}
