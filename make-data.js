@@ -1,17 +1,41 @@
 // import * as h3 from 'h3-js'
 import hexList from './hex-list.js'
-import { cellTreeIndices } from './utils.js'
+import hexData from './hexes.js'
 
-const data = {}
+class Hex {
+  #parent
+  #cellCode
 
-for (const cell in hexList) {
-  const { base, index1 } = cellTreeIndices(cell)
-  if (!data[base]) {
-    data[base] = {}
+  constructor (cellCode) {
+    this.#cellCode = cellCode
+    const fourHexDigits = cellCode.replace(/82(....)fffffffff/, '$1')
+    const int = parseInt(fourHexDigits, 16)
+    const base = (int >> 9) & 0x7f
+
+    if (!hexData[base]) {
+      hexData[base] = {}
+    }
+    const index1 = (int >> 6) & 0x7
+
+    if (!hexData[base][index1]) {
+      hexData[base][index1] = { hexes: {}, states: {} }
+    }
+
+    this.#parent = hexData[base][index1]
+
+    if (!this.#parent.hexes[cellCode]) {
+      this.#parent.hexes[cellCode] = { place: hexList[cellCode].place, states: {} }
+    }
+    this.#parent.hexes[cellCode].land = hexList[cellCode].land
   }
-  if (!data[base][index1]) {
-    data[base][index1] = { states: [], hexes: {} }
+
+  dumpAllHexes () {
+    console.log('export default ', JSON.stringify(hexData, null, 2))
   }
-  data[base][index1].hexes[cell] = { states: [], place: hexList[cell].place }
 }
-console.log('export default ', JSON.stringify(data, null, 2))
+
+let hex
+for (const cellCode in hexList) {
+  hex = new Hex(cellCode)
+}
+hex.dumpAllHexes()
