@@ -3,7 +3,7 @@
     hexes:
       82002ffffffffff:
         name: Svalbard NE
-        place: 9170 Longyearbyen, Norway
+        place: Longyearbyen
         land: 2
     states:
       Norway:
@@ -20,7 +20,7 @@
   '4':
     hexes:
       820127fffffffff:
-        place: Revsneshamn - Áhpenjárgohppi 36, 9624 Revsneshamn, Norway
+        place: Revsneshamn - Áhpenjárgohppi, Revsneshamn
         land: 2
       820137fffffffff:
         place: Barents Sea
@@ -90,7 +90,7 @@
         land: 4
       820277fffffffff:
         name: Prince of Wales Island S
-        place: Qikiqtaaluk Region, Nunavut, Canada
+        place: Qikiqtaaluk Region, Nunavut
         land: 2
     states:
       Canada: {}
@@ -485,12 +485,12 @@
           Sweden: {}
         land: 7
       820807fffffffff:
-        place: Nærøysund, Trøndelag, Norway
+        place: Nærøysund, Trøndelag
         states:
           Norway: {}
         land: 2
       82082ffffffffff:
-        place: Træna, Nordland, Norway
+        place: Træna, Nordland
         states:
           Norway: {}
         land: 2
@@ -562,7 +562,7 @@
         land: 6
       820897fffffffff:
         name: Gotland
-        place: Fårö Vinorvägen, Gotland Municipality, Sweden
+        place: Fårö Vinorvägen, Gotland Municipality
         states:
           Sweden: {}
         land: 2
@@ -1026,7 +1026,7 @@
             end: 1867
         land: 7
       820d4ffffffffff:
-        place: Yukon, Canada
+        place: Yukon
         states:
           Canada: {}
         land: 7
@@ -1079,7 +1079,7 @@
         place: муниципальный округ Эгвекинот
         land: 4
       820d8ffffffffff:
-        place: Chukotka Autonomous Okrug, Russia
+        place: Chukotka Autonomous Okrug
         land: 2
       820d9ffffffffff:
         place: Bering Sea
@@ -1101,10 +1101,10 @@
         land: 6
       820e27fffffffff:
         name: Husdson Strait
-        place: Qikiqtaaluk Region, Nunavut, Canada
+        place: Qikiqtaaluk Region, Nunavut
         land: 2
       820e37fffffffff:
-        place: Qikiqtaaluk Region, Nunavut, Canada
+        place: Qikiqtaaluk Region, Nunavut
         land: 2
     states:
       Canada: {}
@@ -1203,7 +1203,7 @@
         land: 6
       820f4ffffffffff:
         name: Labrador
-        place: Labrador, Newfoundland and Labrador, Canada
+        place: Labrador, Newfoundland and Labrador
         land: 2
     states:
       Canada: {}
@@ -1233,25 +1233,25 @@
   '0':
     hexes:
       821007fffffffff:
-        place: Кичменгско-Городецкий муниципальный округ, Russia
+        place: Кичменгско-Городецкий муниципальный округ
         land: 7
       82100ffffffffff:
-        place: Komi Republic, Russia
+        place: Komi Republic
         land: 7
       821017fffffffff:
-        place: Varnavinsky District, Russia
+        place: Varnavinsky District
         land: 7
       82101ffffffffff:
-        place: Ленинское сельское поселение, Slobodskoy District, Russia
+        place: Ленинское сельское поселение, Slobodskoy District
         land: 7
       821027fffffffff:
-        place: Няндомский муниципальный округ, Russia
+        place: Няндомский муниципальный округ
         land: 7
       82102ffffffffff:
-        place: Верхнетоемский муниципальный округ, Russia
+        place: Верхнетоемский муниципальный округ
         land: 7
       821037fffffffff:
-        place: Грязовецкий муниципальный округ, Russia
+        place: Грязовецкий муниципальный округ
         land: 7
     states:
       Russia: {}
@@ -1259,25 +1259,25 @@
   '1':
     hexes:
       821047fffffffff:
-        place: городское поселение Путеец, Pechora Municipal District, Russia
+        place: городское поселение Путеец, Pechora Municipal District
         land: 7
       82104ffffffffff:
-        place: Yamalo-Nenets Autonomous Okrug, Russia, 629640
+        place: Yamalo-Nenets Autonomous Okrug, 629640
         land: 7
       821057fffffffff:
-        place: сельское поселение Мылва, Troitsko-Pechorsky District, Russia
+        place: сельское поселение Мылва, Troitsko-Pechorsky District
         land: 7
       82105ffffffffff:
-        place: Beryozovsky District, Russia
+        place: Beryozovsky District
         land: 7
       821067fffffffff:
-        place: Zapolyarny District, Russia
+        place: Zapolyarny District
         land: 7
       82106ffffffffff:
-        place: Zapolyarny District, Russia
+        place: Zapolyarny District
         land: 6
       821077fffffffff:
-        place: сельское поселение Замежная, Ust-Tsilemsky District, Russia
+        place: сельское поселение Замежная, Ust-Tsilemsky District
         land: 7
     states:
       Russia: {}
@@ -1285,10 +1285,10 @@
   '2':
     hexes:
       821087fffffffff:
-        place: сельское поселение Владимировка, Khvorostyansky District, Russia
+        place: сельское поселение Владимировка, Khvorostyansky District
         land: 7
       82108ffffffffff:
-        place: Orenburg Oblast, Russia
+        place: Orenburg Oblast
         land: 7
       821097fffffffff:
         place: Тереңкөл ауылдық округі, Kaztal District, Kazakhstan
@@ -1297,13 +1297,13 @@
         place: Қаракұдық ауылдық округі, Börli district, Kazakhstan
         land: 7
       8210a7fffffffff:
-        place: Republic of Mordovia, Russia, 431556
+        place: Republic of Mordovia, 431556
         land: 7
       8210affffffffff:
-        place: Tatarstan, Russia, 422774
+        place: Tatarstan, 422774
         land: 7
       8210b7fffffffff:
-        place: Симоновское сельское поселение, Kalininsky District, Russia
+        place: Симоновское сельское поселение, Kalininsky District
         land: 7
     states:
       Russia: {}
@@ -1311,25 +1311,25 @@
   '3':
     hexes:
       8210c7fffffffff:
-        place: Кушвинский муниципальный округ, Russia
+        place: Кушвинский муниципальный округ
         land: 7
       8210cffffffffff:
-        place: Sverdlovsk Oblast, Russia, 623994
+        place: Sverdlovsk Oblast, 623994
         land: 7
       8210d7fffffffff:
-        place: Vergaza, Chelyabinsk Oblast, Russia
+        place: Vergaza, Chelyabinsk Oblast
         land: 7
       8210dffffffffff:
-        place: Shadrinsky District, Russia
+        place: Shadrinsky District
         land: 7
       8210e7fffffffff:
-        place: Kosinsky District, Russia
+        place: Kosinsky District
         land: 7
       8210effffffffff:
-        place: Ивдельский муниципальный округ, Russia
+        place: Ивдельский муниципальный округ
         land: 7
       8210f7fffffffff:
-        place: Чайковский городской округ, Russia
+        place: Чайковский городской округ
         land: 7
     states:
       Russia: {}
@@ -1337,25 +1337,25 @@
   '4':
     hexes:
       821107fffffffff:
-        place: Рахьинское городское поселение, Vsevolozhsky District, Russia
+        place: Рахьинское городское поселение, Vsevolozhsky District
         states:
           Russia: {}
           USSR: {}
         land: 7
       82110ffffffffff:
-        place: Чёлмужское сельское поселение, Medvezhyegorsky District, Russia
+        place: Чёлмужское сельское поселение, Medvezhyegorsky District
         states:
           Russia: {}
           USSR: {}
         land: 7
       821117fffffffff:
-        place: Полавское сельское поселение, Parfinsky District, Russia
+        place: Полавское сельское поселение, Parfinsky District
         states:
           Russia: {}
           USSR: {}
         land: 7
       82111ffffffffff:
-        place: Игумново, Бабаевский муниципальный округ, Russia
+        place: Игумново, Бабаевский муниципальный округ
         states:
           Russia: {}
           USSR: {}
@@ -1383,7 +1383,7 @@
             end: 1917
         land: 7
       821137fffffffff:
-        place: Gdovsky District, Russia
+        place: Gdovsky District
         states:
           Russia: {}
           USSR: {}
@@ -1391,22 +1391,22 @@
   '5':
     hexes:
       821147fffffffff:
-        place: сельское поселение Ловозеро, Lovozersky District, Russia
+        place: сельское поселение Ловозеро, Lovozersky District
         land: 4
       821157fffffffff:
-        place: Primorsky District, Russia
+        place: Primorsky District
         land: 6
       82115ffffffffff:
-        place: Мезенский муниципальный округ, Russia
+        place: Мезенский муниципальный округ
         land: 7
       821167fffffffff:
-        place: Kirovsk Urban Okrug, Russia
+        place: Kirovsk Urban Okrug
         land: 6
       821177fffffffff:
-        place: Republic of Karelia, Russia, 186620
+        place: Republic of Karelia, 186620
         land: 3
       82114ffffffffff:
-        place: Zapolyarny District, Russia
+        place: Zapolyarny District
         land: 2
     states:
       Russia: {}
@@ -1414,25 +1414,25 @@
   '6':
     hexes:
       821187fffffffff:
-        place: Протасовское сельское поселение, Dubensky District, Russia
+        place: Протасовское сельское поселение, Dubensky District
         land: 7
       82118ffffffffff:
-        place: сельское поселение Анопино, Gus-Khrustalny District, Russia
+        place: сельское поселение Анопино, Gus-Khrustalny District
         land: 7
       821197fffffffff:
-        place: Gubkinsky Urban Okrug, Russia
+        place: Gubkinsky Urban Okrug
         land: 7
       82119ffffffffff:
-        place: Nikiforovsky District, Russia
+        place: Nikiforovsky District
         land: 7
       8211a7fffffffff:
-        place: Yartsevsky District, Russia
+        place: Yartsevsky District
         land: 7
       8211affffffffff:
-        place: Kalininsky District, Russia
+        place: Kalininsky District
         land: 7
       8211b7fffffffff:
-        place: Чаусовское сельское поселение, Pogarsky District, Russia
+        place: Чаусовское сельское поселение, Pogarsky District
         land: 7
     states:
       Russia: {}
@@ -1847,7 +1847,7 @@
         place: Kamchatka Krai
         land: 7
       821617fffffffff:
-        place: Kamchatka Krai, Russia
+        place: Kamchatka Krai
         land: 2
     states:
       Russia: {}
@@ -1867,11 +1867,11 @@
         place: Magadan Oblast
         land: 7
       82170ffffffffff:
-        place: Magadan Oblast, Russia
+        place: Magadan Oblast
         land: 2
       821717fffffffff:
         name: Magadan
-        place: Magadan Oblast, Russia
+        place: Magadan Oblast
         land: 2
     states:
       Russia: {}
@@ -1879,19 +1879,19 @@
   '5':
     hexes:
       821747fffffffff:
-        place: Olyutorsky District, Russia
+        place: Olyutorsky District
         land: 5
       821767fffffffff:
-        place: Anadyrsky District, Russia
+        place: Anadyrsky District
         land: 7
       82176ffffffffff:
-        place: Anadyrsky District, Russia
+        place: Anadyrsky District
         land: 4
       821777fffffffff:
-        place: Penzhinsky District, Russia
+        place: Penzhinsky District
         land: 7
       821757fffffffff:
-        place: Kamchatka Krai, Russia
+        place: Kamchatka Krai
         land: 2
     states:
       Russia: {}
@@ -1974,7 +1974,7 @@
     hexes:
       821aa7fffffffff:
         name: Newfoundland E
-        place: Newfoundland, Newfoundland and Labrador, Canada
+        place: Newfoundland, Newfoundland and Labrador
         land: 2
     states:
       Canada: {}
@@ -2474,7 +2474,7 @@
           USSR: {}
         land: 7
       82214ffffffffff:
-        place: Чаинский сельсовет, Kupinsky District, Russia
+        place: Чаинский сельсовет, Kupinsky District
         states:
           Russia: {}
           USSR: {}
@@ -3355,7 +3355,7 @@
         land: 6
       822c77fffffffff:
         name: Da
-        place: Dagestan, Russia
+        place: Dagestan
         states:
           Russia: {}
           USSR: {}
@@ -3453,7 +3453,7 @@
           Turkey: {}
         land: 7
       822d2ffffffffff:
-        place: Autonomous Republic of Crimea, Ukraine
+        place: Autonomous Republic of Crimea
         states:
           Russia:
             begin: 2014
@@ -3463,7 +3463,7 @@
   '5':
     hexes:
       822d47fffffffff:
-        place: Краснооктябрьское сельское поселение, Vesyolovsky District, Russia
+        place: Краснооктябрьское сельское поселение, Vesyolovsky District
         states:
           Russia: {}
           USSR: {}
@@ -3592,7 +3592,7 @@
     hexes:
       822f5ffffffffff:
         name: Tokyo
-        place: Minamiboso, Chiba Prefecture, Japan
+        place: Minamiboso, Chiba Prefecture
         land: 2
     states:
       Japan: {}
@@ -3955,7 +3955,7 @@
         land: 2
       82396ffffffffff:
         name: Marseille
-        place: Rue des Bons Voisins, 13000 Marseille, France
+        place: Rue des Bons Voisins, Marseille
         states:
           France: {}
         land: 2
@@ -4907,10 +4907,10 @@
         place: Manzanillo, Granma
         land: 4
       82458ffffffffff:
-        place: Colón, 42400, Cuba
+        place: Colón, 42400
         land: 2
       82459ffffffffff:
-        place: Ciego de Avila, Cuba
+        place: Ciego de Avila
         land: 2
     states:
       Cuba: {}
@@ -5059,7 +5059,7 @@
   '5':
     hexes:
       824b67fffffffff:
-        place: Saiki, Oita Prefecture, Japan
+        place: Saiki, Oita Prefecture
         land: 2
     states:
       Japan: {}
@@ -5067,7 +5067,7 @@
     hexes:
       824ba7fffffffff:
         name: Taiwan
-        place: Taiwan, 314, Zhudong unnamed road
+        place: Taiwan, Zhudong
         land: 2
     states:
       Taiwan: {}
@@ -5311,7 +5311,7 @@
           Sudan: {}
         land: 7
       82538ffffffffff:
-        place: Tokar, Red Sea State, Sudan
+        place: Tokar, Red Sea State
         states:
           Sudan: {}
         land: 2
@@ -5935,14 +5935,14 @@
   '0':
     hexes:
       826417fffffffff:
-        place: Tanintharyi Region, 63150, Myanmar
+        place: Tanintharyi Region
         land: 2
     states:
       Myanmar: {}
   '2':
     hexes:
       826487fffffffff:
-        place: Omkoi, Chiang Mai Province 50310
+        place: Omkoi, Chiang Mai Province
         states:
           Thailand: {}
         land: 7
@@ -6000,7 +6000,7 @@
         land: 6
       82650ffffffffff:
         name: Sumatra N
-        place: Deli Serdang, Indonesia
+        place: Deli Serdang
         states:
           Indonesia: {}
         land: 2
@@ -6008,10 +6008,10 @@
     hexes:
       826557fffffffff:
         name: Banda Aceh
-        place: Keude Panga, Aceh, Indonesia
+        place: Keude Panga, Aceh
         land: 2
       826577fffffffff:
-        place: Aceh, Indonesia
+        place: Aceh
         land: 2
     states:
       Indonesia: {}
@@ -6066,7 +6066,7 @@
           Venezuela: {}
         land: 6
       826617fffffffff:
-        place: Metetí, Distrito de Pinogana, Panama
+        place: Metetí, Distrito de Pinogana
         states:
           Panama: {}
         land: 2
@@ -6248,7 +6248,7 @@
   '3':
     hexes:
       8268d7fffffffff:
-        place: Central Sulawesi, Indonesia
+        place: Central Sulawesi
         land: 2
     states:
       Indonesia: {}
@@ -6548,13 +6548,13 @@
         place: Puncak Jaya, Central Papua
         land: 7
       8272a7fffffffff:
-        place: West Papua, Indonesia
+        place: West Papua
         land: 2
       8272affffffffff:
         place: Pacific Ocean
         land: 2
       8272b7fffffffff:
-        place: West Papua, Indonesia
+        place: West Papua
         land: 2
     states:
       Indonesia: {}
@@ -6866,7 +6866,7 @@
           Gabon: {}
         land: 3
       828237fffffffff:
-        place: Moanda, Kongo Central, Democratic Republic of the Congo
+        place: Moanda, Kongo Central
         states:
           Democratic Republic of the Congo: {}
         land: 2
@@ -7221,7 +7221,7 @@
         place: 78874, West Kalimantan
         land: 5
       828c8ffffffffff:
-        place: Tanjung Jabung Timur, Indonesia
+        place: Tanjung Jabung Timur
         land: 2
     states:
       Indonesia: {}
@@ -7297,7 +7297,7 @@
   '0':
     hexes:
       82941ffffffffff:
-        place: Shire Of Wyndham-East Kimberley, Western Australia, Australia
+        place: Shire Of Wyndham-East Kimberley, Western Australia
         land: 2
     states:
       Australia: {}
@@ -7361,10 +7361,10 @@
         place: 93582, Southeast Sulawesi
         land: 5
       829507fffffffff:
-        place: Pappalluang, South Sulawesi, Indonesia
+        place: Pappalluang, South Sulawesi
         land: 2
       829517fffffffff:
-        place: South Sulawesi, Indonesia
+        place: South Sulawesi
         land: 2
     states:
       Indonesia: {}
@@ -7622,7 +7622,7 @@
   '5':
     hexes:
       829b4ffffffffff:
-        place: Ba, Fiji
+        place: Ba
         land: 2
     states:
       Fiji: {}
@@ -7639,7 +7639,7 @@
         place: Red River QLD
         land: 7
       829c07fffffffff:
-        place: Hope Vale QLD 4895, Australia
+        place: Hope Vale QLD 4895
         land: 2
     states:
       Australia: {}
@@ -7661,7 +7661,7 @@
         place: Gulf of Carpentaria
         land: 3
       829c5ffffffffff:
-        place: Anindilyakwa NT 0885, Australia
+        place: Anindilyakwa NT
         land: 2
     states:
       Australia: {}
@@ -7706,13 +7706,13 @@
   '4':
     hexes:
       829d0ffffffffff:
-        place: Bogie QLD 4805, Australia
+        place: Bogie QLD 4805
         land: 5
       829d2ffffffffff:
-        place: Mackenzie River QLD 4705, Australia
+        place: Mackenzie River QLD 4705
         land: 7
       829d27fffffffff:
-        place: Heron Island, Queensland, Australia
+        place: Heron Island, Queensland
         land: 2
     states:
       Australia: {}
@@ -7811,7 +7811,7 @@
   '2':
     hexes:
       82a6a7fffffffff:
-        place: City Of Karratha, Western Australia, Australia
+        place: City Of Karratha, Western Australia
         land: 2
     states:
       Australia: {}
@@ -8721,7 +8721,7 @@
   '1':
     hexes:
       82de77fffffffff:
-        place: Falkland Islands, United Kingdom
+        place: Falkland Islands
         land: 2
     states:
       UK: {}
