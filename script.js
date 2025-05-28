@@ -47,7 +47,11 @@ const updateLocation = (lat, lon) => {
   const [hexLat, hexLon] = hex.latLon()
   projection.rotate([-hexLon, -hexLat])
 
-  milieu = new Milieu(hex, controlYear())
+  if (!milieu || hex.isValid()) {
+    milieu = new Milieu(hex, controlYear())
+  } else {
+    $note.style.display = 'none'
+  }
   update()
 }
 
@@ -128,10 +132,7 @@ $yearControl.max = maxYear
 $yearControl.value = maxYear
 $yearControl.addEventListener('input', () => updateYear(controlYear()))
 
-// $start.addEventListener('click', () => {
-//  navigator.geolocation.getCurrentPosition(async (position) => {
 $start.style.display = 'none'
-// const { latitude, longitude } = position.coords
 
 updateLocation(localeLat, localeLon)
 
@@ -153,6 +154,4 @@ d3Canvas.on('click', function (event) {
   updateLocation(lat, lon)
 })
 
-update(milieu)
-//  })
-// })
+update()

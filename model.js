@@ -7,35 +7,47 @@ import stateData from './states.js'
 class Hex {
   #parent
   #cellCode
+  #valid
 
   constructor (cellCode) {
     this.#cellCode = cellCode
     const fourHexDigits = cellCode.replace(/82(....)fffffffff/, '$1')
     const int = parseInt(fourHexDigits, 16)
     const base = (int >> 9) & 0x7f
-    console.assert(hexData[base])
+    if (!hexData[base]) {
+      this.#valid = false
+      return
+    }
     const index1 = (int >> 6) & 0x7
     this.#parent = hexData[base][index1]
-    console.assert(this.#parent)
-    console.assert(this.#parent.hexes[cellCode])
+    this.#valid = this.#parent && this.#parent.hexes && this.#parent.hexes[cellCode]
   }
 
   place () {
-    return this.#parent.hexes[this.#cellCode].place
+    return this.#valid ? this.#parent.hexes[this.#cellCode].place : 'Ocean'
   }
 
   name () {
-    return this.#parent.hexes[this.#cellCode].name || this.place()
+    return this.#valid
+      ? (this.#parent.hexes[this.#cellCode].name || this.place())
+      : 'Ocean'
   }
 
   stateNames () {
-    return [
-      ...Object.keys(this.#parent.hexes[this.#cellCode].states || {}),
-      ...Object.keys(this.#parent.states || {})
-    ]
+    return this.#valid
+      ? [
+          ...Object.keys(this.#parent.hexes[this.#cellCode].states || {}),
+          ...Object.keys(this.#parent.states || {})
+        ]
+      : []
+  }
+
+  isValid () {
+    return this.#valid
   }
 
   #stateRange (stateName) {
+    console.assert(this.#valid, `Invalid hex: ${this.#cellCode}`)
     let { begin, end } = new State(stateName).stateInfo()
     if (this.#parent.states && this.#parent.states[stateName]) {
       const stateInfo = this.#parent.states[stateName]
