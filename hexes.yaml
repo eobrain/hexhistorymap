@@ -6116,14 +6116,14 @@
     hexes:
       8266a7fffffffff:
         place: Coclé del Norte, Distrito de Donoso
+        states:
+          Panama: {}
         land: 4
       8266b7fffffffff:
         place: Puntarenas Province, Costa Rica
         states:
           Costa Rica: {}
         land: 2
-    states:
-      Panama: {}
   '3':
     hexes:
       8266c7fffffffff:
