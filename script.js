@@ -1,7 +1,7 @@
 import { select, pointer } from 'https://esm.sh/d3-selection'
 import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
-import { Milieu, State, stateCoordinates, locateHex, yearRange } from './model.js'
+import { Milieu, State, stateCoordinates, locateHex, yearRange, hexes } from './model.js'
 import regioncode2state from './regioncode2state.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
@@ -83,19 +83,29 @@ const update = () => {
   context.lineWidth = 1
 
   const coordinatesOfStates = stateCoordinates(milieu.year())
-  for (const stateName in coordinatesOfStates) {
-    const coordinates = coordinatesOfStates[stateName]
+  hexes().map(hex => new Milieu(hex, milieu.year())).forEach(m => {
     context.beginPath()
-    context.lineWidth = stateName === milieu.state()?.name() ? 2 : 0.5
-    context.strokeStyle = `hsl(${Math.floor(MurmurHash3(stateName).result() % 360)} ${saturation}% ${lightness}%)`
+    context.fillstrokeStyle = `hsl(${Math.floor(MurmurHash3(m.state()?.name()).result() % 360)} ${saturation}% ${lightness}%)`
+    const coordinates = m.coordinates()
     geoGenerator(
       {
         type: 'FeatureCollection',
         features: [
-          { type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } }]
+          { type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates } }]
       })
-    context.stroke()
-  }
+    context.fill()
+  })
+  const coordinates = coordinatesOfStates[milieu.state().name()]
+  context.beginPath()
+  // context.lineWidth = stateName === milieu.state()?.name() ? 2 : 0.5
+  context.strokeStyle = 'black'
+  geoGenerator(
+    {
+      type: 'FeatureCollection',
+      features: [
+        { type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } }]
+    })
+  context.stroke()
 
   if (milieu.state()) {
     $note.style.display = 'block'

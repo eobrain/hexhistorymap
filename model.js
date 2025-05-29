@@ -220,6 +220,10 @@ export class Milieu {
     return this.#hex.url()
   }
 
+  coordinates () {
+    return this.#hex.coordinates()
+  }
+
   year () {
     return this.#year
   }
