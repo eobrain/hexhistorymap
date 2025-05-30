@@ -9,6 +9,7 @@ deploy:
   - site/styles.css
   - site/script.js
   - site/model.js
+  - site/regioncode2state.js
   - site/hex-list.js
   - site-js
 
@@ -28,6 +29,12 @@ site/model.js:
   - site
   - model.js
   exec: cp model.js site
+
+site/regioncode2state.js:
+  deps:
+  - site
+  - regioncode2state.js
+  exec: cp regioncode2state.js site
 
 site/hex-list.js:
   deps:
