@@ -1,7 +1,7 @@
 import { select, pointer } from 'https://esm.sh/d3-selection'
 import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
-import { Milieu, State, stateCoordinates, locateHex, yearRange } from './model.js'
+import { Milieu, State, stateCoordinates, locateHex, yearRange, hexes } from './model.js'
 import regioncode2state from './regioncode2state.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
@@ -35,7 +35,6 @@ const projection = geoAzimuthalEqualArea()
 
 const geoGenerator = geoPath()
   .projection(projection)
-  .pointRadius(6.7)
   .context(context)
 
 const controlYear = () => parseInt($yearControl.value, 10)
@@ -66,11 +65,6 @@ const lightness = 50
 const update = () => {
   context.fillStyle = 'white'
   context.fillRect(0, 0, canvas.width, canvas.height)
-  context.lineWidth = 0.5
-  context.strokeStyle = '#333'
-  context.beginPath()
-  geoGenerator({ type: 'FeatureCollection', features: geojson.features })
-  context.stroke()
 
   // Graticule
   const graticule = geoGraticule()
@@ -83,19 +77,32 @@ const update = () => {
   context.lineWidth = 1
 
   const coordinatesOfStates = stateCoordinates(milieu.year())
-  for (const stateName in coordinatesOfStates) {
-    const coordinates = coordinatesOfStates[stateName]
+  hexes().map(hex => new Milieu(hex, milieu.year())).forEach(m => {
+    if (!m.state()) {
+      return
+    }
     context.beginPath()
-    context.lineWidth = stateName === milieu.state()?.name() ? 2 : 0.5
-    context.strokeStyle = `hsl(${Math.floor(MurmurHash3(stateName).result() % 360)} ${saturation}% ${lightness}%)`
-    geoGenerator(
-      {
-        type: 'FeatureCollection',
-        features: [
-          { type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } }]
-      })
+    context.fillStyle = context.strokeStyle = `hsl(${Math.floor(MurmurHash3(m.state()?.name()).result() % 360)} ${saturation}% ${lightness}%)`
+    const coordinates = m.coordinates()
+    geoGenerator({ type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates } })
+    // if (m.land() > 2) {
+    context.fill()
+    // }
     context.stroke()
-  }
+  })
+
+  const coordinates = coordinatesOfStates[milieu.state().name()]
+  context.beginPath()
+  // context.lineWidth = stateName === milieu.state()?.name() ? 2 : 0.5
+  context.strokeStyle = 'black'
+  geoGenerator({ type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } })
+  context.stroke()
+
+  context.lineWidth = 0.5
+  context.strokeStyle = 'white'
+  context.beginPath()
+  geoGenerator({ type: 'FeatureCollection', features: geojson.features })
+  context.stroke()
 
   if (milieu.state()) {
     $note.style.display = 'block'

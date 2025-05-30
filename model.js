@@ -27,6 +27,10 @@ class Hex {
     return this.#valid ? this.#parent.hexes[this.#cellCode].place : 'Ocean'
   }
 
+  land () {
+    return this.#valid ? this.#parent.hexes[this.#cellCode].land : 0
+  }
+
   name () {
     return this.#valid
       ? (this.#parent.hexes[this.#cellCode].name || this.place())
@@ -79,7 +83,7 @@ class Hex {
   }
 
   coordinates () {
-    return h3.cellsToMultiPolygon([this.#cellCode], true)[0]
+    return [h3.cellToBoundary(this.#cellCode, true).reverse()]
   }
 
   latLon () {
@@ -218,6 +222,14 @@ export class Milieu {
 
   hexUrl () {
     return this.#hex.url()
+  }
+
+  land () {
+    return this.#hex.land()
+  }
+
+  coordinates () {
+    return this.#hex.coordinates()
   }
 
   year () {
