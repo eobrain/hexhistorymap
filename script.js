@@ -5,7 +5,7 @@ import { Milieu, State, stateCoordinates, locateHex, yearRange, hexes } from './
 import regioncode2state from './regioncode2state.js'
 import MurmurHash3 from 'https://esm.sh/imurmurhash'
 
-/* global $start, $yearControl, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state, $hexName, $presentDay */
+/* global $yearControl, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state, $hexName, $presentDay */
 
 let milieu
 
@@ -138,8 +138,6 @@ $yearControl.min = minYear
 $yearControl.max = maxYear
 $yearControl.value = maxYear
 $yearControl.addEventListener('input', () => updateYear(controlYear()))
-
-$start.style.display = 'none'
 
 updateLocation(localeLat, localeLon)
 
