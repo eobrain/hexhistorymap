@@ -59,9 +59,6 @@ const updateYear = (newYear) => {
   update()
 }
 
-const saturation = 50
-const lightness = 50
-
 const update = () => {
   context.fillStyle = 'white'
   context.fillRect(0, 0, canvas.width, canvas.height)
@@ -79,9 +76,11 @@ const update = () => {
   const coordinatesOfStates = stateCoordinates(milieu.year())
   hexes().map(hex => new Milieu(hex, milieu.year())).forEach(m => {
     context.beginPath()
-    context.fillStyle = context.strokeStyle = m.state()
-      ? `hsl(${Math.floor(MurmurHash3(m.state().name()).result() % 360)} ${saturation}% ${lightness}%)`
-      : 'hsl(0, 0%, 75%)'
+    context.lineWidth = m.land() > 2 ? 1 : 0.5
+    const hue = m.state() ? MurmurHash3('h' + m.state().name()).result() % 360 : 0
+    const saturation = m.state() ? 25 + MurmurHash3('s' + m.state().name()).result() % 75 : 0
+    const lightness = m.state() ? 50 : 75
+    context.fillStyle = context.strokeStyle = `hsl(${hue} ${saturation}% ${lightness}%)`
     const coordinates = m.coordinates()
     geoGenerator({ type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates } })
     // if (m.land() > 2) {
