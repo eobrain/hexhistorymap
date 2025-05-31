@@ -1,5 +1,5 @@
 import { select, pointer } from 'https://esm.sh/d3-selection'
-import { geoPath, geoAzimuthalEqualArea, geoGraticule } from 'https://esm.sh/d3-geo'
+import { geoPath, geoOrthographic, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
 import { Milieu, State, stateCoordinates, locateHex, yearRange, hexes } from './model.js'
 import regioncode2state from './regioncode2state.js'
@@ -30,7 +30,7 @@ context.font = '12px sans-serif'
 context.textAlign = 'center'
 context.textBaseline = 'middle'
 
-const projection = geoAzimuthalEqualArea()
+const projection = geoOrthographic()
   .fitSize([canvas.width, canvas.height], geojson)
 
 const geoGenerator = geoPath()
@@ -78,11 +78,10 @@ const update = () => {
 
   const coordinatesOfStates = stateCoordinates(milieu.year())
   hexes().map(hex => new Milieu(hex, milieu.year())).forEach(m => {
-    if (!m.state()) {
-      return
-    }
     context.beginPath()
-    context.fillStyle = context.strokeStyle = `hsl(${Math.floor(MurmurHash3(m.state()?.name()).result() % 360)} ${saturation}% ${lightness}%)`
+    context.fillStyle = context.strokeStyle = m.state()
+      ? `hsl(${Math.floor(MurmurHash3(m.state().name()).result() % 360)} ${saturation}% ${lightness}%)`
+      : 'hsl(0, 0%, 75%)'
     const coordinates = m.coordinates()
     geoGenerator({ type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates } })
     // if (m.land() > 2) {
@@ -91,12 +90,14 @@ const update = () => {
     context.stroke()
   })
 
-  const coordinates = coordinatesOfStates[milieu.state().name()]
-  context.beginPath()
-  // context.lineWidth = stateName === milieu.state()?.name() ? 2 : 0.5
-  context.strokeStyle = 'black'
-  geoGenerator({ type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } })
-  context.stroke()
+  if (milieu.state()) {
+    const coordinates = coordinatesOfStates[milieu.state().name()]
+    context.beginPath()
+    // context.lineWidth = stateName === milieu.state()?.name() ? 2 : 0.5
+    context.strokeStyle = 'black'
+    geoGenerator({ type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } })
+    context.stroke()
+  }
 
   context.lineWidth = 0.5
   context.strokeStyle = 'white'
