@@ -65,6 +65,7 @@ export const drawChart = (year, panCallback) => {
   // hammertime.on('pan', panCallback)
   $annotation.onclick = e => {
     const x = Math.trunc(e.offsetX * e.currentTarget.width / e.currentTarget.clientWidth)
-    panCallback(x)
+    const y = Math.trunc(e.offsetY * e.currentTarget.height / e.currentTarget.clientHeight)
+    panCallback(x, hexes()[y])
   }
 }

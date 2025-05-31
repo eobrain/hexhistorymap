@@ -32,8 +32,13 @@ body {
     width: 90vw;
 }
 
+#chart-container canvas {
+    width: 100%;
+}
+
 #annotation-container {
     position: absolute;
+    width: 100%;
     top: 0;
 }
 
@@ -42,10 +47,6 @@ body {
     width: 100%;
     top: -1.5em;
     text-align: right;
-}
-
-#chart-container canvas {
-    width: 100%;
 }
 
 #annotation-container canvas {

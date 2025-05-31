@@ -57,7 +57,7 @@ const updateLocation = (lat, lon) => {
   projection.rotate([-projectionLon, -projectionLat])
 
   if (!milieu || hex.isValid()) {
-    milieu = new Milieu(hex, maxYear)
+    milieu = new Milieu(hex, milieu ? milieu.year() : maxYear)
   } else {
     $note.style.display = 'none'
   }
@@ -173,12 +173,14 @@ d3Canvas.on('click', function (event) {
   updateLocation(lat, lon)
 })
 
-drawChart(maxYear, function (x) {
+drawChart(maxYear, function (x, hex) {
   let updatedYear = x + minYear // milieu.year() + event.deltaX
   updatedYear = Math.max(minYear, Math.min(updatedYear, maxYear))
   if (updatedYear !== milieu.year()) {
     updateYear(updatedYear)
   }
+  const [lat, lon] = hex.latLon()
+  updateLocation(lat, lon)
   console.log(`Year: ${updatedYear}`)
 })
 update()
