@@ -3,11 +3,14 @@ import { geoPath, geoOrthographic, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
 import { Milieu, State, stateCoordinates, locateHex, yearRange, hexes } from './model.js'
 import regioncode2state from './regioncode2state.js'
-import MurmurHash3 from 'https://esm.sh/imurmurhash'
+import { stateColor } from './view.js'
+import { drawChart, updateChart } from './chart.js'
 
-/* global $yearControl, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state, $hexName, $presentDay */
+/* global Hammer, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state, $hexName, $presentDay */
 
 let milieu
+let projectionLat = 0
+let projectionLon = 0
 
 const thisYear = 2025
 
@@ -20,6 +23,9 @@ const [localeLat, localeLon] = new State(currentStateName).centroidLatLon(thisYe
 const $canvas = document.getElementById('map')
 $canvas.width = $canvas.clientWidth
 $canvas.height = $canvas.width
+
+const hammertime = new Hammer($canvas)
+hammertime.get('pan').set({ direction: Hammer.DIRECTION_ALL })
 
 const d3Canvas = select('#map')
 const canvas = d3Canvas.node()
@@ -37,17 +43,21 @@ const geoGenerator = geoPath()
   .projection(projection)
   .context(context)
 
-const controlYear = () => parseInt($yearControl.value, 10)
+// const controlYear = () => parseInt($yearControl.value, 10)
+
+const { minYear, maxYear } = yearRange()
 
 const yearFormat = year => year > 0 ? `${year} CE` : `${-year} BCE`
 
 const updateLocation = (lat, lon) => {
   const hex = locateHex(lat, lon)
   const [hexLat, hexLon] = hex.latLon()
-  projection.rotate([-hexLon, -hexLat])
+  projectionLat = hexLat
+  projectionLon = hexLon
+  projection.rotate([-projectionLon, -projectionLat])
 
   if (!milieu || hex.isValid()) {
-    milieu = new Milieu(hex, controlYear())
+    milieu = new Milieu(hex, maxYear)
   } else {
     $note.style.display = 'none'
   }
@@ -57,6 +67,7 @@ const updateLocation = (lat, lon) => {
 const updateYear = (newYear) => {
   milieu = milieu.inDifferentYear(newYear)
   update()
+  updateChart(newYear)
 }
 
 const update = () => {
@@ -77,10 +88,7 @@ const update = () => {
   hexes().map(hex => new Milieu(hex, milieu.year())).forEach(m => {
     context.beginPath()
     context.lineWidth = m.land() > 2 ? 1 : 0.5
-    const hue = m.state() ? MurmurHash3('h' + m.state().name()).result() % 360 : 0
-    const saturation = m.state() ? 25 + MurmurHash3('s' + m.state().name()).result() % 75 : 0
-    const lightness = m.state() ? 50 : 75
-    context.fillStyle = context.strokeStyle = `hsl(${hue} ${saturation}% ${lightness}%)`
+    context.fillStyle = context.strokeStyle = stateColor(m.state())
     const coordinates = m.coordinates()
     geoGenerator({ type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates } })
     // if (m.land() > 2) {
@@ -133,25 +141,31 @@ const update = () => {
   }
 }
 
-const { minYear, maxYear } = yearRange()
-$yearControl.min = minYear
-$yearControl.max = maxYear
-$yearControl.value = maxYear
-$yearControl.addEventListener('input', () => updateYear(controlYear()))
+// $yearControl.min = minYear
+// $yearControl.max = maxYear
+// $yearControl.value = maxYear
+// $yearControl.addEventListener('input', () => updateYear(controlYear()))
 
 updateLocation(localeLat, localeLon)
 
-let scale = projection.scale()
+// const scale = projection.scale()
 
-d3Canvas.on('wheel', function (event) {
-  scale *= 1.01 ** event.deltaY
-  scale = Math.max(150, Math.min(scale, 500))
-  projection.scale(scale)
-  $canvas.width = $canvas.clientWidth
-  $canvas.height = $canvas.width
-  update()
-  event.preventDefault()
-}, { passive: false })
+hammertime.on('pan', function (event) {
+  /*
+    scale *= 1.01 ** event.deltaY
+    scale = Math.max(150, Math.min(scale, 500))
+    projection.scale(scale)
+    $canvas.width = $canvas.clientWidth
+    $canvas.height = $canvas.width
+    update()
+    console.log(`Scale: ${scale}`)
+    */
+
+  projectionLat += event.deltaY / 100.0
+  projectionLon -= event.deltaX / 100.0
+  projectionLat = Math.max(-90, Math.min(projectionLat, 90))
+  updateLocation(projectionLat, projectionLon)
+})
 
 d3Canvas.on('click', function (event) {
   const pos = pointer(event, canvas)
@@ -159,4 +173,12 @@ d3Canvas.on('click', function (event) {
   updateLocation(lat, lon)
 })
 
+drawChart(maxYear, function (x) {
+  let updatedYear = x + minYear // milieu.year() + event.deltaX
+  updatedYear = Math.max(minYear, Math.min(updatedYear, maxYear))
+  if (updatedYear !== milieu.year()) {
+    updateYear(updatedYear)
+  }
+  console.log(`Year: ${updatedYear}`)
+})
 update()

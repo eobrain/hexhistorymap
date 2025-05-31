@@ -1,7 +1,53 @@
-input {
-    width: 80%
+/*canvas {
+    width: 100%;
+}*/
+
+/* all charts overlay on top of one another */
+/*#chart-container {
+    position: relative;
 }
 
-canvas {
+#chart-container canvas {
+    position: relatiive;
+    top: 0;
+    left: 0;
+}*/
+
+/*.overlay {
+    margin-top: -1898px;
+}*/
+
+body {
+    margin: 5vmin;
+    padding 0;
+}
+
+#map-container canvas{
+    width: 90vmin;
+    height: 90vmin;
+}
+
+#overlay {
+    position: relative;
+    width: 90vw;
+}
+
+#annotation-container {
+    position: absolute;
+    top: 0;
+}
+
+#year-container {
+    position: absolute;
     width: 100%;
-  }
+    top: -1.5em;
+    text-align: right;
+}
+
+#chart-container canvas {
+    width: 100%;
+}
+
+#annotation-container canvas {
+    width: 100%;
+}

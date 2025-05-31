@@ -188,6 +188,7 @@ export const yearRange = () => {
       }
     }
   }
+  minYear = Math.max(1000, minYear) // For now restrict to the last millenium
   return { minYear, maxYear }
 }
 
