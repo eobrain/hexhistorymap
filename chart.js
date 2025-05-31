@@ -58,7 +58,10 @@ export const drawChart = (year, panCallback) => {
         prevColor = color
       }
     }
-  }
+    if (prevColor) {
+      drawLine(prevStartX, 0, y, prevColor)
+    }
+}
 
   drawYear(year)
 
