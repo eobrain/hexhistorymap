@@ -18,7 +18,7 @@ const landCount = (cell) => {
   return count
 }
 
-async function main () {
+const main = async () => {
   console.log('export default {')
 
   for (const cell of hexes) {

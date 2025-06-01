@@ -76,7 +76,7 @@ export const drawChart = (year, panCallback) => {
     panCallback(x, hexes()[y])
   }
 
-  document.addEventListener('keydown', function (event) {
+  document.addEventListener('keydown', (event) => {
     if (event.key === 'ArrowLeft') {
       if (prevX > 0) {
         --prevX

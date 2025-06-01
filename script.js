@@ -170,31 +170,21 @@ updateLocation(localeLat, localeLon)
 
 // const scale = projection.scale()
 
-hammertime.on('pan', function (event) {
-  /*
-    scale *= 1.01 ** event.deltaY
-    scale = Math.max(150, Math.min(scale, 500))
-    projection.scale(scale)
-    $canvas.width = $canvas.clientWidth
-    $canvas.height = $canvas.width
-    update()
-    console.log(`Scale: ${scale}`)
-    */
-
+hammertime.on('pan', (event) => {
   projectionLat += event.deltaY / 100.0
   projectionLon -= event.deltaX / 100.0
   projectionLat = Math.max(-90, Math.min(projectionLat, 90))
   updateLocation(projectionLat, projectionLon)
 })
 
-d3Canvas.on('click', function (event) {
+d3Canvas.on('click', (event) => {
   const pos = pointer(event, canvas)
   const [lon, lat] = projection.invert(pos)
   updateLocation(lat, lon)
 })
 
-drawChart(maxYear, function (x, hex) {
-  let updatedYear = x + minYear // milieu.year() + event.deltaX
+drawChart(maxYear, (x, hex) => {
+  let updatedYear = x + minYear
   updatedYear = Math.max(minYear, Math.min(updatedYear, maxYear))
   if (updatedYear !== milieu.year()) {
     updateYear(updatedYear)
