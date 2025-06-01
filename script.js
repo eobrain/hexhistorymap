@@ -14,7 +14,7 @@ let projectionLon = 0
 
 const thisYear = 2025
 
-const geojson = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
+const coastline = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
 
 const regionCode = new Intl.Locale(navigator.language).region
 const currentStateName = regioncode2state[regionCode] || 'Ireland'
@@ -37,7 +37,7 @@ context.textAlign = 'center'
 context.textBaseline = 'middle'
 
 const projection = geoOrthographic()
-  .fitSize([canvas.width, canvas.height], geojson)
+  .fitSize([canvas.width, canvas.height], coastline)
 
 const geoGenerator = geoPath()
   .projection(projection)
@@ -85,13 +85,6 @@ const update = () => {
   context.fillStyle = 'white'
   context.fillRect(0, 0, canvas.width, canvas.height)
 
-  // Graticule
-  const graticule = geoGraticule()
-  context.beginPath()
-  context.strokeStyle = '#ccc'
-  geoGenerator(graticule())
-  context.stroke()
-
   $yearDisplay.innerHTML = yearFormat(milieu.year())
   context.lineWidth = 1
 
@@ -108,6 +101,22 @@ const update = () => {
     context.stroke()
   })
 
+  context.lineWidth = 0.5
+  context.fillStyle = 'white'
+  context.globalCompositeOperation = "destination-in";
+  context.beginPath()
+  geoGenerator({ type: 'FeatureCollection', features: coastline.features })
+  context.fill()
+  context.globalCompositeOperation = "source-over";
+  context.lineWidth = 1
+
+  // Graticule
+  /*const graticule = geoGraticule()
+  context.beginPath()
+  context.strokeStyle = '#ccc'
+  geoGenerator(graticule())
+  context.stroke()*/
+
   if (milieu.state()) {
     const coordinates = coordinatesOfStates[milieu.state().name()]
     context.beginPath()
@@ -120,13 +129,6 @@ const update = () => {
     context.lineWidth = 1
     shadowOff()
   }
-
-  context.lineWidth = 0.5
-  context.strokeStyle = 'white'
-  context.beginPath()
-  geoGenerator({ type: 'FeatureCollection', features: geojson.features })
-  context.stroke()
-  context.lineWidth = 1
 
   if (milieu.state()) {
     $note.style.display = 'block'
