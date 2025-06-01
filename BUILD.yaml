@@ -75,6 +75,14 @@ site-js:
     cp hexes.js states.js site/
     touch $@
 
+update-colors:
+  exec: |
+    node state-colors.js > states-new.js
+    mv states-new.js states.js
+    node to-yaml.js
+    node from-yaml.js
+    node --test
+
 site:
   exec: mkdir -p $@
 
