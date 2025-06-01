@@ -1089,6 +1089,7 @@
         begin: 1784
         end: 1867
     bighex: 810c3ffffffffff
+    name: Alaska W
   '1':
     hexes:
       820c57fffffffff:
@@ -1110,6 +1111,7 @@
         begin: 1784
         end: 1867
     bighex: 810c7ffffffffff
+    name: Anchorage region
   '2':
     hexes:
       820caffffffffff:
@@ -1122,6 +1124,7 @@
         begin: 1784
         end: 1867
     bighex: 810cbffffffffff
+    name: Bering Sea
   '3':
     hexes:
       820ce7fffffffff:
@@ -1140,6 +1143,7 @@
         begin: 1784
         end: 1867
     bighex: 810cfffffffffff
+    name: Aleutian Peninsula
   '4':
     hexes:
       820d0ffffffffff:
@@ -1155,6 +1159,7 @@
         begin: 1784
         end: 1867
     bighex: 810d3ffffffffff
+    name: Alaska N
   '5':
     hexes:
       820d47fffffffff:
@@ -1209,6 +1214,7 @@
             end: 1867
         land: 4
     bighex: 810d7ffffffffff
+    name: Yukon River
   '6':
     hexes:
       820d87fffffffff:
@@ -1230,6 +1236,7 @@
       Russia: {}
       USSR: {}
     bighex: 810dbffffffffff
+    name: Chukchi Peninsula
 '7':
   '0':
     hexes:
@@ -1252,6 +1259,7 @@
     states:
       Canada: {}
     bighex: 810e3ffffffffff
+    name: Quebec N
   '1':
     hexes:
       820e47fffffffff:
