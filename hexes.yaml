@@ -9,6 +9,7 @@
       Norway:
         begin: 1920
     bighex: 81003ffffffffff
+    name: Svalbard E
   '1':
     hexes:
       82006ffffffffff:
@@ -19,6 +20,7 @@
       Denmark:
         begin: 1721
     bighex: 81007ffffffffff
+    name: Greenland NE
   '4':
     hexes:
       820127fffffffff:
@@ -30,6 +32,7 @@
     states:
       Norway: {}
     bighex: 81013ffffffffff
+    name: Norway N
   '5':
     hexes:
       820157fffffffff:
@@ -44,6 +47,7 @@
       Norway:
         begin: 1920
     bighex: 81017ffffffffff
+    name: Svalbard W
   '6':
     hexes:
       820187fffffffff:
@@ -56,6 +60,7 @@
       Russian Empire:
         begin: 1870
     bighex: 8101bffffffffff
+    name: Novaya Zemlya
 '1':
   '0':
     hexes:
@@ -76,6 +81,7 @@
     states:
       Canada: {}
     bighex: 81023ffffffffff
+    name: Queen Elizabeth Islands
   '1':
     hexes:
       820247fffffffff:
@@ -109,6 +115,7 @@
     states:
       Canada: {}
     bighex: 81027ffffffffff
+    name: Baffin Bay W
   '2':
     hexes:
       82028ffffffffff:
@@ -118,6 +125,7 @@
     states:
       Canada: {}
     bighex: 8102bffffffffff
+    name: Banks Island
   '3':
     hexes:
       8202c7fffffffff:
@@ -143,6 +151,7 @@
     states:
       Canada: {}
     bighex: 8102fffffffffff
+    name: Victoria Island
   '5':
     hexes:
       820347fffffffff:
@@ -207,6 +216,7 @@
             begin: 1721
         land: 7
     bighex: 81037ffffffffff
+    name: Nares Strait
 '2':
   '0':
     hexes:
@@ -261,6 +271,7 @@
       Tsardom of Russia:
         begin: 1638
     bighex: 8104bffffffffff
+    name: Sakha Republic W
   '3':
     hexes:
       8204c7fffffffff:
@@ -293,6 +304,7 @@
       Russian Empire:
         begin: 1778
     bighex: 8104fffffffffff
+    name: Sakha Republic E
   '4':
     hexes:
       820517fffffffff:
@@ -324,6 +336,7 @@
       Russia: {}
       USSR: {}
     bighex: 81053ffffffffff
+    name: Vilkitsky Strait
   '6':
     hexes:
       820587fffffffff:
@@ -361,6 +374,7 @@
       Tsardom of Russia:
         begin: 1638
     bighex: 8105bffffffffff
+    name: Lena River
 '3':
   '0':
     hexes:
@@ -407,6 +421,7 @@
       Denmark:
         begin: 1721
     bighex: 81063ffffffffff
+    name: Greenland E
   '2':
     hexes:
       820687fffffffff:
@@ -454,6 +469,7 @@
       Denmark:
         begin: 1721
     bighex: 8106bffffffffff
+    name: Greenland W
   '3':
     hexes:
       8206c7fffffffff:
@@ -512,6 +528,7 @@
       Denmark:
         begin: 1721
     bighex: 8106fffffffffff
+    name: Greenland S
   '5':
     hexes:
       820747fffffffff:
@@ -534,6 +551,7 @@
         end: 1523
       Icelandic Commonwealth: {}
     bighex: 81077ffffffffff
+    name: Iceland
   '6':
     hexes:
       820787fffffffff:
@@ -564,6 +582,7 @@
       Denmark:
         begin: 1721
     bighex: 8107bffffffffff
+    name: Greenland NE
 '4':
   '0':
     hexes:
@@ -595,6 +614,7 @@
           Norway: {}
         land: 2
     bighex: 81083ffffffffff
+    name: Central Norway
   '2':
     hexes:
       820887fffffffff:
@@ -663,6 +683,7 @@
           Sweden: {}
         land: 2
     bighex: 8108bffffffffff
+    name: Baltic
   '3':
     hexes:
       8208c7fffffffff:
@@ -732,6 +753,7 @@
           Sweden: {}
         land: 4
     bighex: 8108fffffffffff
+    name: Lapland
   '6':
     hexes:
       820987fffffffff:
@@ -755,6 +777,7 @@
         end: 1945
       Norway: {}
     bighex: 8109bffffffffff
+    name: Norway S
 '5':
   '0':
     hexes:
@@ -792,6 +815,7 @@
       Russian Empire:
         begin: 1822
     bighex: 810a3ffffffffff
+    name: Yenisei River
   '1':
     hexes:
       820a47fffffffff:
@@ -830,6 +854,7 @@
       Russian Empire:
         begin: 1822
     bighex: 810a7ffffffffff
+    name: Taymyr
   '2':
     hexes:
       820a87fffffffff:
@@ -868,6 +893,7 @@
         begin: 1640
       Xiongnu Empire: {}
     bighex: 810abffffffffff
+    name: Central Siberian Plateau S
   '3':
     hexes:
       820ac7fffffffff:
@@ -905,6 +931,7 @@
       Tsardom of Russia:
         begin: 1640
     bighex: 810afffffffffff
+    name: Central Siberian Plateau
   '4':
     hexes:
       820b07fffffffff:
@@ -956,6 +983,7 @@
       Russia: {}
       USSR: {}
     bighex: 810b3ffffffffff
+    name: West Siberian Plain
   '5':
     hexes:
       820b47fffffffff:
@@ -1004,6 +1032,7 @@
       Russia: {}
       USSR: {}
     bighex: 810b7ffffffffff
+    name: Ob River mouth
   '6':
     hexes:
       820b87fffffffff:
@@ -1031,6 +1060,7 @@
       Russia: {}
       USSR: {}
     bighex: 810bbffffffffff
+    name: West Siberian Plain S
 '6':
   '0':
     hexes:
