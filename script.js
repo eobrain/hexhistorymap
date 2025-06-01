@@ -105,7 +105,7 @@ const update = () => {
     context.shadowColor = "white";
     context.shadowOffsetX = 1;
     context.shadowOffsetY = 1;
-    context.lineWidth = 2
+    context.lineWidth = 3
     geoGenerator({ type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } })
     context.stroke()
     context.lineWidth = 1
