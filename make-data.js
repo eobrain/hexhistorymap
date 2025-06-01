@@ -1,4 +1,4 @@
-// import * as h3 from 'h3-js'
+import * as h3 from 'h3-js'
 import hexList from './hex-list.js'
 import hexData from './hexes.js'
 
@@ -27,6 +27,10 @@ class Hex {
       this.#parent.hexes[cellCode] = { place: hexList[cellCode].place, states: {} }
     }
     this.#parent.hexes[cellCode].land = hexList[cellCode].land
+
+    if (!this.#parent.bighex) {
+      this.#parent.bighex = h3.cellToParent(cellCode, 1)
+    }
   }
 
   dumpAllHexes () {

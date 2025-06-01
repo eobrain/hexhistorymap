@@ -8,6 +8,7 @@
     states:
       Norway:
         begin: 1920
+    bighex: 81003ffffffffff
   '1':
     hexes:
       82006ffffffffff:
@@ -17,6 +18,7 @@
     states:
       Denmark:
         begin: 1721
+    bighex: 81007ffffffffff
   '4':
     hexes:
       820127fffffffff:
@@ -27,6 +29,7 @@
         land: 2
     states:
       Norway: {}
+    bighex: 81013ffffffffff
   '5':
     hexes:
       820157fffffffff:
@@ -40,6 +43,7 @@
     states:
       Norway:
         begin: 1920
+    bighex: 81017ffffffffff
   '6':
     hexes:
       820187fffffffff:
@@ -51,6 +55,7 @@
       USSR: {}
       Russian Empire:
         begin: 1870
+    bighex: 8101bffffffffff
 '1':
   '0':
     hexes:
@@ -70,6 +75,7 @@
         land: 3
     states:
       Canada: {}
+    bighex: 81023ffffffffff
   '1':
     hexes:
       820247fffffffff:
@@ -102,6 +108,7 @@
         land: 2
     states:
       Canada: {}
+    bighex: 81027ffffffffff
   '2':
     hexes:
       82028ffffffffff:
@@ -110,6 +117,7 @@
         land: 3
     states:
       Canada: {}
+    bighex: 8102bffffffffff
   '3':
     hexes:
       8202c7fffffffff:
@@ -134,6 +142,7 @@
         land: 4
     states:
       Canada: {}
+    bighex: 8102fffffffffff
   '5':
     hexes:
       820347fffffffff:
@@ -197,6 +206,7 @@
           Denmark:
             begin: 1721
         land: 7
+    bighex: 81037ffffffffff
 '2':
   '0':
     hexes:
@@ -213,6 +223,7 @@
       Russian Empire: {}
       Tsardom of Russia:
         begin: 1638
+    bighex: 81043ffffffffff
   '2':
     hexes:
       820487fffffffff:
@@ -249,6 +260,7 @@
       Russian Empire: {}
       Tsardom of Russia:
         begin: 1638
+    bighex: 8104bffffffffff
   '3':
     hexes:
       8204c7fffffffff:
@@ -280,6 +292,7 @@
       USSR: {}
       Russian Empire:
         begin: 1778
+    bighex: 8104fffffffffff
   '4':
     hexes:
       820517fffffffff:
@@ -310,6 +323,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81053ffffffffff
   '6':
     hexes:
       820587fffffffff:
@@ -346,6 +360,7 @@
       Russian Empire: {}
       Tsardom of Russia:
         begin: 1638
+    bighex: 8105bffffffffff
 '3':
   '0':
     hexes:
@@ -391,6 +406,7 @@
     states:
       Denmark:
         begin: 1721
+    bighex: 81063ffffffffff
   '2':
     hexes:
       820687fffffffff:
@@ -437,6 +453,7 @@
     states:
       Denmark:
         begin: 1721
+    bighex: 8106bffffffffff
   '3':
     hexes:
       8206c7fffffffff:
@@ -494,6 +511,7 @@
     states:
       Denmark:
         begin: 1721
+    bighex: 8106fffffffffff
   '5':
     hexes:
       820747fffffffff:
@@ -515,6 +533,7 @@
         begin: 1262
         end: 1523
       Icelandic Commonwealth: {}
+    bighex: 81077ffffffffff
   '6':
     hexes:
       820787fffffffff:
@@ -544,6 +563,7 @@
     states:
       Denmark:
         begin: 1721
+    bighex: 8107bffffffffff
 '4':
   '0':
     hexes:
@@ -574,6 +594,7 @@
         states:
           Norway: {}
         land: 2
+    bighex: 81083ffffffffff
   '2':
     hexes:
       820887fffffffff:
@@ -641,6 +662,7 @@
         states:
           Sweden: {}
         land: 2
+    bighex: 8108bffffffffff
   '3':
     hexes:
       8208c7fffffffff:
@@ -709,6 +731,7 @@
         states:
           Sweden: {}
         land: 4
+    bighex: 8108fffffffffff
   '6':
     hexes:
       820987fffffffff:
@@ -731,6 +754,7 @@
         begin: 1940
         end: 1945
       Norway: {}
+    bighex: 8109bffffffffff
 '5':
   '0':
     hexes:
@@ -767,6 +791,7 @@
       USSR: {}
       Russian Empire:
         begin: 1822
+    bighex: 810a3ffffffffff
   '1':
     hexes:
       820a47fffffffff:
@@ -804,6 +829,7 @@
       USSR: {}
       Russian Empire:
         begin: 1822
+    bighex: 810a7ffffffffff
   '2':
     hexes:
       820a87fffffffff:
@@ -841,6 +867,7 @@
       Tsardom of Russia:
         begin: 1640
       Xiongnu Empire: {}
+    bighex: 810abffffffffff
   '3':
     hexes:
       820ac7fffffffff:
@@ -877,6 +904,7 @@
       Russian Empire: {}
       Tsardom of Russia:
         begin: 1640
+    bighex: 810afffffffffff
   '4':
     hexes:
       820b07fffffffff:
@@ -927,6 +955,7 @@
       Russian Empire: {}
       Russia: {}
       USSR: {}
+    bighex: 810b3ffffffffff
   '5':
     hexes:
       820b47fffffffff:
@@ -974,6 +1003,7 @@
       Russian Empire: {}
       Russia: {}
       USSR: {}
+    bighex: 810b7ffffffffff
   '6':
     hexes:
       820b87fffffffff:
@@ -1000,6 +1030,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 810bbffffffffff
 '6':
   '0':
     hexes:
@@ -1027,6 +1058,7 @@
       Russian Empire:
         begin: 1784
         end: 1867
+    bighex: 810c3ffffffffff
   '1':
     hexes:
       820c57fffffffff:
@@ -1047,6 +1079,7 @@
       Russian Empire:
         begin: 1784
         end: 1867
+    bighex: 810c7ffffffffff
   '2':
     hexes:
       820caffffffffff:
@@ -1058,6 +1091,7 @@
       Russian Empire:
         begin: 1784
         end: 1867
+    bighex: 810cbffffffffff
   '3':
     hexes:
       820ce7fffffffff:
@@ -1075,6 +1109,7 @@
       Russian Empire:
         begin: 1784
         end: 1867
+    bighex: 810cfffffffffff
   '4':
     hexes:
       820d0ffffffffff:
@@ -1089,6 +1124,7 @@
       Russian Empire:
         begin: 1784
         end: 1867
+    bighex: 810d3ffffffffff
   '5':
     hexes:
       820d47fffffffff:
@@ -1142,6 +1178,7 @@
             begin: 1784
             end: 1867
         land: 4
+    bighex: 810d7ffffffffff
   '6':
     hexes:
       820d87fffffffff:
@@ -1162,6 +1199,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 810dbffffffffff
 '7':
   '0':
     hexes:
@@ -1183,6 +1221,7 @@
         land: 2
     states:
       Canada: {}
+    bighex: 810e3ffffffffff
   '1':
     hexes:
       820e47fffffffff:
@@ -1208,6 +1247,7 @@
         land: 7
     states:
       Canada: {}
+    bighex: 810e7ffffffffff
   '2':
     hexes:
       820e87fffffffff:
@@ -1227,6 +1267,7 @@
         land: 7
     states:
       Canada: {}
+    bighex: 810ebffffffffff
   '3':
     hexes:
       820ec7fffffffff:
@@ -1252,6 +1293,7 @@
         land: 3
     states:
       Canada: {}
+    bighex: 810efffffffffff
   '4':
     hexes:
       820f07fffffffff:
@@ -1271,6 +1313,7 @@
         land: 3
     states:
       Canada: {}
+    bighex: 810f3ffffffffff
   '5':
     hexes:
       820f5ffffffffff:
@@ -1282,6 +1325,7 @@
         land: 2
     states:
       Canada: {}
+    bighex: 810f7ffffffffff
   '6':
     hexes:
       820f87fffffffff:
@@ -1304,6 +1348,7 @@
         land: 3
     states:
       Canada: {}
+    bighex: 810fbffffffffff
 '8':
   '0':
     hexes:
@@ -1331,6 +1376,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81103ffffffffff
   '1':
     hexes:
       821047fffffffff:
@@ -1357,6 +1403,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81107ffffffffff
   '2':
     hexes:
       821087fffffffff:
@@ -1383,6 +1430,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 8110bffffffffff
   '3':
     hexes:
       8210c7fffffffff:
@@ -1409,6 +1457,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 8110fffffffffff
   '4':
     hexes:
       821107fffffffff:
@@ -1463,6 +1512,7 @@
           Russia: {}
           USSR: {}
         land: 6
+    bighex: 81113ffffffffff
   '5':
     hexes:
       821147fffffffff:
@@ -1486,6 +1536,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81117ffffffffff
   '6':
     hexes:
       821187fffffffff:
@@ -1512,6 +1563,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 8111bffffffffff
 '9':
   '0':
     hexes:
@@ -1538,6 +1590,7 @@
         land: 7
     states:
       Canada: {}
+    bighex: 81123ffffffffff
   '1':
     hexes:
       821247fffffffff:
@@ -1563,6 +1616,7 @@
         land: 7
     states:
       Canada: {}
+    bighex: 81127ffffffffff
   '2':
     hexes:
       821287fffffffff:
@@ -1596,6 +1650,7 @@
           USA:
             begin: 1867
         land: 3
+    bighex: 8112bffffffffff
   '3':
     hexes:
       8212c7fffffffff:
@@ -1633,6 +1688,7 @@
         states:
           Canada: {}
         land: 7
+    bighex: 8112fffffffffff
   '4':
     hexes:
       821307fffffffff:
@@ -1658,6 +1714,7 @@
         land: 7
     states:
       Canada: {}
+    bighex: 81133ffffffffff
   '5':
     hexes:
       821347fffffffff:
@@ -1683,6 +1740,7 @@
         land: 7
     states:
       Canada: {}
+    bighex: 81137ffffffffff
   '6':
     hexes:
       821387fffffffff:
@@ -1708,6 +1766,7 @@
         land: 7
     states:
       Canada: {}
+    bighex: 8113bffffffffff
 '10':
   '0':
     hexes:
@@ -1735,6 +1794,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81143ffffffffff
   '1':
     hexes:
       821447fffffffff:
@@ -1758,6 +1818,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81147ffffffffff
   '2':
     hexes:
       821487fffffffff:
@@ -1797,6 +1858,7 @@
         states:
           China: {}
         land: 7
+    bighex: 8114bffffffffff
   '3':
     hexes:
       8214c7fffffffff:
@@ -1820,6 +1882,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 8114fffffffffff
   '4':
     hexes:
       821507fffffffff:
@@ -1846,6 +1909,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81153ffffffffff
   '5':
     hexes:
       821547fffffffff:
@@ -1872,6 +1936,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81157ffffffffff
   '6':
     hexes:
       821587fffffffff:
@@ -1912,6 +1977,7 @@
         states:
           Mongolia: {}
         land: 7
+    bighex: 8115bffffffffff
 '11':
   '0':
     hexes:
@@ -1927,6 +1993,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81163ffffffffff
   '4':
     hexes:
       821707fffffffff:
@@ -1951,6 +2018,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81173ffffffffff
   '5':
     hexes:
       821747fffffffff:
@@ -1971,6 +2039,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 81177ffffffffff
   '6':
     hexes:
       82178ffffffffff:
@@ -1979,6 +2048,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 8117bffffffffff
 '12':
   '0':
     hexes:
@@ -1991,6 +2061,7 @@
     states:
       Ireland: {}
       UK: {}
+    bighex: 81183ffffffffff
   '1':
     hexes:
       82184ffffffffff:
@@ -2004,6 +2075,7 @@
         land: 7
     states:
       France: {}
+    bighex: 81187ffffffffff
   '4':
     hexes:
       82190ffffffffff:
@@ -2011,6 +2083,7 @@
         land: 3
     states:
       UK: {}
+    bighex: 81193ffffffffff
   '5':
     hexes:
       821947fffffffff:
@@ -2044,6 +2117,7 @@
         states:
           Netherlands: {}
         land: 2
+    bighex: 81197ffffffffff
 '13':
   '2':
     hexes:
@@ -2053,6 +2127,7 @@
         land: 2
     states:
       Canada: {}
+    bighex: 811abffffffffff
   '4':
     hexes:
       821b27fffffffff:
@@ -2069,6 +2144,7 @@
         begin: 1500
       Inuit:
         end: 1721
+    bighex: 811b3ffffffffff
   '6':
     hexes:
       821b87fffffffff:
@@ -2092,6 +2168,7 @@
         land: 7
     states:
       Canada: {}
+    bighex: 811bbffffffffff
 '15':
   '0':
     hexes:
@@ -2133,6 +2210,7 @@
           Czechia: {}
           Czechoslovakia: {}
         land: 7
+    bighex: 811e3ffffffffff
   '1':
     hexes:
       821e47fffffffff:
@@ -2177,6 +2255,7 @@
           Ukraine: {}
           USSR: {}
         land: 2
+    bighex: 811e7ffffffffff
   '2':
     hexes:
       821e87fffffffff:
@@ -2206,6 +2285,7 @@
         states:
           Italy: {}
         land: 2
+    bighex: 811ebffffffffff
   '3':
     hexes:
       821ec7fffffffff:
@@ -2244,6 +2324,7 @@
           Serbia: {}
           Yugoslavia: {}
         land: 7
+    bighex: 811efffffffffff
   '4':
     hexes:
       821f07fffffffff:
@@ -2281,6 +2362,7 @@
         states:
           Denmark: {}
         land: 2
+    bighex: 811f3ffffffffff
   '5':
     hexes:
       821f47fffffffff:
@@ -2324,6 +2406,7 @@
           Lithuania: {}
           USSR: {}
         land: 3
+    bighex: 811f7ffffffffff
   '6':
     hexes:
       821f87fffffffff:
@@ -2361,6 +2444,7 @@
         states:
           France: {}
         land: 7
+    bighex: 811fbffffffffff
 '16':
   '0':
     hexes:
@@ -2388,6 +2472,7 @@
     states:
       Kazakhstan: {}
       USSR: {}
+    bighex: 81203ffffffffff
   '1':
     hexes:
       822047fffffffff:
@@ -2431,6 +2516,7 @@
           Kazakhstan: {}
           USSR: {}
         land: 7
+    bighex: 81207ffffffffff
   '2':
     hexes:
       822087fffffffff:
@@ -2472,6 +2558,7 @@
           Uzbekistan: {}
           USSR: {}
         land: 7
+    bighex: 8120bffffffffff
   '3':
     hexes:
       8220c7fffffffff:
@@ -2511,6 +2598,7 @@
           Kyrgyzstan: {}
           USSR: {}
         land: 7
+    bighex: 8120fffffffffff
   '4':
     hexes:
       822107fffffffff:
@@ -2555,6 +2643,7 @@
           Kazakhstan: {}
           USSR: {}
         land: 7
+    bighex: 81213ffffffffff
   '5':
     hexes:
       822147fffffffff:
@@ -2599,6 +2688,7 @@
           Kazakhstan: {}
           USSR: {}
         land: 7
+    bighex: 81217ffffffffff
   '6':
     hexes:
       822187fffffffff:
@@ -2643,6 +2733,7 @@
         land: 7
     states:
       USSR: {}
+    bighex: 8121bffffffffff
 '18':
   '0':
     hexes:
@@ -2669,6 +2760,7 @@
         land: 7
     states:
       Mongolia: {}
+    bighex: 81243ffffffffff
   '1':
     hexes:
       822447fffffffff:
@@ -2706,6 +2798,7 @@
         states:
           Mongolia: {}
         land: 7
+    bighex: 81247ffffffffff
   '2':
     hexes:
       822487fffffffff:
@@ -2731,6 +2824,7 @@
         land: 7
     states:
       China: {}
+    bighex: 8124bffffffffff
   '3':
     hexes:
       8224c7fffffffff:
@@ -2756,6 +2850,7 @@
         land: 7
     states:
       China: {}
+    bighex: 8124fffffffffff
   '4':
     hexes:
       822507fffffffff:
@@ -2797,6 +2892,7 @@
           Russia: {}
           USSR: {}
         land: 7
+    bighex: 81253ffffffffff
   '5':
     hexes:
       822547fffffffff:
@@ -2839,6 +2935,7 @@
           Russia: {}
           USSR: {}
         land: 7
+    bighex: 81257ffffffffff
   '6':
     hexes:
       822587fffffffff:
@@ -2876,6 +2973,7 @@
         states:
           China: {}
         land: 7
+    bighex: 8125bffffffffff
 '19':
   '0':
     hexes:
@@ -2902,6 +3000,7 @@
         land: 7
     states:
       USA: {}
+    bighex: 81263ffffffffff
   '1':
     hexes:
       822647fffffffff:
@@ -2927,6 +3026,7 @@
         land: 7
     states:
       USA: {}
+    bighex: 81267ffffffffff
   '2':
     hexes:
       822687fffffffff:
@@ -3011,6 +3111,7 @@
             end: 1802
             begin: 1682
         land: 7
+    bighex: 8126bffffffffff
   '3':
     hexes:
       8226c7fffffffff:
@@ -3036,6 +3137,7 @@
         land: 7
     states:
       USA: {}
+    bighex: 8126fffffffffff
   '4':
     hexes:
       822707fffffffff:
@@ -3073,6 +3175,7 @@
         states:
           Canada: {}
         land: 7
+    bighex: 81273ffffffffff
   '5':
     hexes:
       822747fffffffff:
@@ -3110,6 +3213,7 @@
         states:
           USA: {}
         land: 7
+    bighex: 81277ffffffffff
   '6':
     hexes:
       822787fffffffff:
@@ -3147,6 +3251,7 @@
         states:
           Canada: {}
         land: 7
+    bighex: 8127bffffffffff
 '20':
   '0':
     hexes:
@@ -3187,6 +3292,7 @@
         states:
           USA: {}
         land: 2
+    bighex: 81283ffffffffff
   '2':
     hexes:
       822887fffffffff:
@@ -3212,6 +3318,7 @@
         land: 7
     states:
       USA: {}
+    bighex: 8128bffffffffff
   '3':
     hexes:
       8228d7fffffffff:
@@ -3229,6 +3336,7 @@
         states:
           USA: {}
         land: 6
+    bighex: 8128fffffffffff
   '6':
     hexes:
       822987fffffffff:
@@ -3254,6 +3362,7 @@
         land: 7
     states:
       USA: {}
+    bighex: 8129bffffffffff
 '21':
   '0':
     hexes:
@@ -3265,6 +3374,7 @@
         land: 4
     states:
       USA: {}
+    bighex: 812a3ffffffffff
   '2':
     hexes:
       822a87fffffffff:
@@ -3302,6 +3412,7 @@
         states:
           Canada: {}
         land: 7
+    bighex: 812abffffffffff
   '3':
     hexes:
       822ad7fffffffff:
@@ -3312,6 +3423,7 @@
         land: 2
     states:
       USA: {}
+    bighex: 812afffffffffff
   '4':
     hexes:
       822b17fffffffff:
@@ -3336,6 +3448,7 @@
         states:
           Canada: {}
         land: 2
+    bighex: 812b3ffffffffff
   '6':
     hexes:
       822b87fffffffff:
@@ -3373,6 +3486,7 @@
         states:
           Canada: {}
         land: 7
+    bighex: 812bbffffffffff
 '22':
   '0':
     hexes:
@@ -3411,6 +3525,7 @@
         states:
           Turkey: {}
         land: 7
+    bighex: 812c3ffffffffff
   '1':
     hexes:
       822c47fffffffff:
@@ -3450,6 +3565,7 @@
           Russia: {}
           USSR: {}
         land: 2
+    bighex: 812c7ffffffffff
   '2':
     hexes:
       822c87fffffffff:
@@ -3487,6 +3603,7 @@
         states:
           Iraq: {}
         land: 7
+    bighex: 812cbffffffffff
   '3':
     hexes:
       822cc7fffffffff:
@@ -3520,6 +3637,7 @@
         states:
           Iran: {}
         land: 6
+    bighex: 812cfffffffffff
   '4':
     hexes:
       822d07fffffffff:
@@ -3550,6 +3668,7 @@
           Ukraine: {}
           USSR: {}
         land: 2
+    bighex: 812d3ffffffffff
   '5':
     hexes:
       822d47fffffffff:
@@ -3594,6 +3713,7 @@
           Russia: {}
           USSR: {}
         land: 3
+    bighex: 812d7ffffffffff
   '6':
     hexes:
       822d87fffffffff:
@@ -3626,6 +3746,7 @@
         states:
           Israel: {}
         land: 4
+    bighex: 812dbffffffffff
 '23':
   '0':
     hexes:
@@ -3640,6 +3761,7 @@
         land: 2
     states:
       Japan: {}
+    bighex: 812e3ffffffffff
   '1':
     hexes:
       822e67fffffffff:
@@ -3653,6 +3775,7 @@
         land: 3
     states:
       Japan: {}
+    bighex: 812e7ffffffffff
   '2':
     hexes:
       822eaffffffffff:
@@ -3661,6 +3784,7 @@
         land: 2
     states:
       Japan: {}
+    bighex: 812ebffffffffff
   '3':
     hexes:
       822ec7fffffffff:
@@ -3678,6 +3802,7 @@
     states:
       Russia: {}
       USSR: {}
+    bighex: 812efffffffffff
   '5':
     hexes:
       822f5ffffffffff:
@@ -3686,6 +3811,7 @@
         land: 2
     states:
       Japan: {}
+    bighex: 812f7ffffffffff
 '24':
   '0':
     hexes:
@@ -3709,6 +3835,7 @@
         states:
           China: {}
         land: 3
+    bighex: 81303ffffffffff
   '2':
     hexes:
       823087fffffffff:
@@ -3728,6 +3855,7 @@
         land: 7
     states:
       China: {}
+    bighex: 8130bffffffffff
   '3':
     hexes:
       8230c7fffffffff:
@@ -3741,6 +3869,7 @@
         land: 3
     states:
       South Korea: {}
+    bighex: 8130fffffffffff
   '4':
     hexes:
       823107fffffffff:
@@ -3766,6 +3895,7 @@
         land: 7
     states:
       China: {}
+    bighex: 81313ffffffffff
   '5':
     hexes:
       823147fffffffff:
@@ -3793,6 +3923,7 @@
         states:
           China: {}
         land: 7
+    bighex: 81317ffffffffff
   '6':
     hexes:
       823187fffffffff:
@@ -3818,6 +3949,7 @@
         land: 7
     states:
       China: {}
+    bighex: 8131bffffffffff
 '28':
   '0':
     hexes:
@@ -3871,6 +4003,7 @@
         states:
           Spain: {}
         land: 2
+    bighex: 81383ffffffffff
   '1':
     hexes:
       823847fffffffff:
@@ -3913,6 +4046,7 @@
         states:
           Tunisia: {}
         land: 2
+    bighex: 81387ffffffffff
   '2':
     hexes:
       823887fffffffff:
@@ -3968,6 +4102,7 @@
             begin: 1830
             end: 1962
         land: 7
+    bighex: 8138bffffffffff
   '3':
     hexes:
       8238c7fffffffff:
@@ -3993,6 +4128,7 @@
         land: 7
     states:
       Algeria: {}
+    bighex: 8138fffffffffff
   '4':
     hexes:
       823907fffffffff:
@@ -4025,6 +4161,7 @@
         states:
           Spain: {}
         land: 7
+    bighex: 81393ffffffffff
   '5':
     hexes:
       823967fffffffff:
@@ -4049,6 +4186,7 @@
         states:
           France: {}
         land: 2
+    bighex: 81397ffffffffff
   '6':
     hexes:
       823987fffffffff:
@@ -4068,6 +4206,7 @@
         land: 3
     states:
       Morocco: {}
+    bighex: 8139bffffffffff
 '30':
   '0':
     hexes:
@@ -4112,6 +4251,7 @@
         states:
           Nepal: {}
         land: 7
+    bighex: 813c3ffffffffff
   '1':
     hexes:
       823c47fffffffff:
@@ -4152,6 +4292,7 @@
         states:
           China: {}
         land: 7
+    bighex: 813c7ffffffffff
   '2':
     hexes:
       823c87fffffffff:
@@ -4177,6 +4318,7 @@
       UK:
         begin: 1858
         end: 1947
+    bighex: 813cbffffffffff
   '3':
     hexes:
       823cc7fffffffff:
@@ -4215,6 +4357,7 @@
         states:
           Bangladesh: {}
         land: 7
+    bighex: 813cfffffffffff
   '4':
     hexes:
       823d07fffffffff:
@@ -4258,6 +4401,7 @@
             begin: 1858
             end: 1947
         land: 7
+    bighex: 813d3ffffffffff
   '5':
     hexes:
       823d47fffffffff:
@@ -4283,6 +4427,7 @@
         land: 7
     states:
       China: {}
+    bighex: 813d7ffffffffff
   '6':
     hexes:
       823d87fffffffff:
@@ -4311,6 +4456,7 @@
       UK:
         begin: 1858
         end: 1947
+    bighex: 813dbffffffffff
 '31':
   '0':
     hexes:
@@ -4349,6 +4495,7 @@
         states:
           Libya: {}
         land: 6
+    bighex: 813e3ffffffffff
   '1':
     hexes:
       823e47fffffffff:
@@ -4386,6 +4533,7 @@
         states:
           Egypt: {}
         land: 7
+    bighex: 813e7ffffffffff
   '2':
     hexes:
       823e87fffffffff:
@@ -4423,6 +4571,7 @@
         states:
           Chad: {}
         land: 7
+    bighex: 813ebffffffffff
   '3':
     hexes:
       823ec7fffffffff:
@@ -4460,6 +4609,7 @@
         states:
           Libya: {}
         land: 7
+    bighex: 813efffffffffff
   '4':
     hexes:
       823f27fffffffff:
@@ -4473,6 +4623,7 @@
         states:
           Greece: {}
         land: 2
+    bighex: 813f3ffffffffff
   '5':
     hexes:
       823f67fffffffff:
@@ -4491,6 +4642,7 @@
         states:
           Greece: {}
         land: 2
+    bighex: 813f7ffffffffff
   '6':
     hexes:
       823f87fffffffff:
@@ -4516,6 +4668,7 @@
         land: 7
     states:
       Libya: {}
+    bighex: 813fbffffffffff
 '32':
   '0':
     hexes:
@@ -4542,6 +4695,7 @@
         land: 7
     states:
       China: {}
+    bighex: 81403ffffffffff
   '1':
     hexes:
       824047fffffffff:
@@ -4579,6 +4733,7 @@
         states:
           China: {}
         land: 7
+    bighex: 81407ffffffffff
   '2':
     hexes:
       824087fffffffff:
@@ -4604,6 +4759,7 @@
         land: 7
     states:
       China: {}
+    bighex: 8140bffffffffff
   '3':
     hexes:
       8240c7fffffffff:
@@ -4629,6 +4785,7 @@
         land: 7
     states:
       China: {}
+    bighex: 8140fffffffffff
   '4':
     hexes:
       82410ffffffffff:
@@ -4642,6 +4799,7 @@
         land: 7
     states:
       China: {}
+    bighex: 81413ffffffffff
   '5':
     hexes:
       82414ffffffffff:
@@ -4675,6 +4833,7 @@
         states:
           Vietnam: {}
         land: 2
+    bighex: 81417ffffffffff
   '6':
     hexes:
       824187fffffffff:
@@ -4700,6 +4859,7 @@
         land: 5
     states:
       China: {}
+    bighex: 8141bffffffffff
 '33':
   '0':
     hexes:
@@ -4728,6 +4888,7 @@
         states:
           Iran: {}
         land: 4
+    bighex: 81423ffffffffff
   '1':
     hexes:
       824247fffffffff:
@@ -4771,6 +4932,7 @@
         states:
           Pakistan: {}
         land: 7
+    bighex: 81427ffffffffff
   '3':
     hexes:
       8242c7fffffffff:
@@ -4810,6 +4972,7 @@
             begin: 1858
             end: 1947
         land: 7
+    bighex: 8142fffffffffff
   '4':
     hexes:
       824307fffffffff:
@@ -4835,6 +4998,7 @@
         land: 6
     states:
       Iran: {}
+    bighex: 81433ffffffffff
   '5':
     hexes:
       824347fffffffff:
@@ -4873,6 +5037,7 @@
         states:
           Iran: {}
         land: 7
+    bighex: 81437ffffffffff
   '6':
     hexes:
       824387fffffffff:
@@ -4910,6 +5075,7 @@
         states:
           Saudi Arabia: {}
         land: 7
+    bighex: 8143bffffffffff
 '34':
   '1':
     hexes:
@@ -4930,6 +5096,7 @@
         land: 7
     states:
       USA: {}
+    bighex: 81447ffffffffff
   '2':
     hexes:
       8244affffffffff:
@@ -4937,6 +5104,7 @@
         land: 4
     states:
       USA: {}
+    bighex: 8144bffffffffff
   '3':
     hexes:
       8244c7fffffffff:
@@ -4962,6 +5130,7 @@
         land: 5
     states:
       USA: {}
+    bighex: 8144fffffffffff
   '4':
     hexes:
       82450ffffffffff:
@@ -4984,6 +5153,7 @@
         states:
           Honduras: {}
         land: 5
+    bighex: 81453ffffffffff
   '5':
     hexes:
       824577fffffffff:
@@ -4991,6 +5161,7 @@
         states:
           Mexico: {}
         land: 2
+    bighex: 81457ffffffffff
   '6':
     hexes:
       824597fffffffff:
@@ -5004,6 +5175,7 @@
         land: 2
     states:
       Cuba: {}
+    bighex: 8145bffffffffff
 '36':
   '0':
     hexes:
@@ -5025,6 +5197,7 @@
         land: 2
     states:
       Mexico: {}
+    bighex: 81483ffffffffff
   '1':
     hexes:
       824857fffffffff:
@@ -5039,6 +5212,7 @@
         land: 2
     states:
       Mexico: {}
+    bighex: 81487ffffffffff
   '2':
     hexes:
       824887fffffffff:
@@ -5076,6 +5250,7 @@
         states:
           Mexico: {}
         land: 5
+    bighex: 8148bffffffffff
   '3':
     hexes:
       8248c7fffffffff:
@@ -5113,6 +5288,7 @@
         states:
           Mexico: {}
         land: 7
+    bighex: 8148fffffffffff
   '6':
     hexes:
       824987fffffffff:
@@ -5138,6 +5314,7 @@
         land: 2
     states:
       Mexico: {}
+    bighex: 8149bffffffffff
 '37':
   '4':
     hexes:
@@ -5146,6 +5323,7 @@
         land: 3
     states:
       China: {}
+    bighex: 814b3ffffffffff
   '5':
     hexes:
       824b67fffffffff:
@@ -5153,6 +5331,7 @@
         land: 2
     states:
       Japan: {}
+    bighex: 814b7ffffffffff
   '6':
     hexes:
       824ba7fffffffff:
@@ -5161,6 +5340,7 @@
         land: 2
     states:
       Taiwan: {}
+    bighex: 814bbffffffffff
 '38':
   '2':
     hexes:
@@ -5169,6 +5349,7 @@
         land: 3
     states:
       Dominican Republic: {}
+    bighex: 814cbffffffffff
   '3':
     hexes:
       824cc7fffffffff:
@@ -5183,6 +5364,7 @@
         states:
           Dominican Republic: {}
         land: 2
+    bighex: 814cfffffffffff
 '41':
   '0':
     hexes:
@@ -5216,6 +5398,7 @@
         states:
           Saudi Arabia: {}
         land: 6
+    bighex: 81523ffffffffff
   '1':
     hexes:
       825247fffffffff:
@@ -5253,6 +5436,7 @@
         states:
           Saudi Arabia: {}
         land: 7
+    bighex: 81527ffffffffff
   '2':
     hexes:
       825287fffffffff:
@@ -5290,6 +5474,7 @@
         states:
           Sudan: {}
         land: 7
+    bighex: 8152bffffffffff
   '3':
     hexes:
       8252cffffffffff:
@@ -5326,6 +5511,7 @@
         states:
           Yemen: {}
         land: 5
+    bighex: 8152fffffffffff
   '4':
     hexes:
       825307fffffffff:
@@ -5351,6 +5537,7 @@
         land: 7
     states:
       Saudi Arabia: {}
+    bighex: 81533ffffffffff
   '5':
     hexes:
       825347fffffffff:
@@ -5373,6 +5560,7 @@
         land: 7
     states:
       Saudi Arabia: {}
+    bighex: 81537ffffffffff
   '6':
     hexes:
       825387fffffffff:
@@ -5411,6 +5599,7 @@
         states:
           Saudi Arabia: {}
         land: 2
+    bighex: 8153bffffffffff
 '42':
   '0':
     hexes:
@@ -5449,6 +5638,7 @@
         states:
           Mauritania: {}
         land: 7
+    bighex: 81543ffffffffff
   '1':
     hexes:
       825447fffffffff:
@@ -5486,6 +5676,7 @@
         states:
           Mali: {}
         land: 7
+    bighex: 81547ffffffffff
   '3':
     hexes:
       8254e7fffffffff:
@@ -5503,6 +5694,7 @@
         states:
           Guinea-Bissau: {}
         land: 2
+    bighex: 8154fffffffffff
   '4':
     hexes:
       825507fffffffff:
@@ -5546,6 +5738,7 @@
         states:
           Morocco: {}
         land: 5
+    bighex: 81553ffffffffff
   '5':
     hexes:
       825547fffffffff:
@@ -5583,6 +5776,7 @@
         states:
           Mauritania: {}
         land: 7
+    bighex: 81557ffffffffff
   '6':
     hexes:
       8255affffffffff:
@@ -5590,6 +5784,7 @@
         land: 4
     states:
       Morocco: {}
+    bighex: 8155bffffffffff
 '44':
   '0':
     hexes:
@@ -5628,6 +5823,7 @@
         states:
           Niger: {}
         land: 7
+    bighex: 81583ffffffffff
   '1':
     hexes:
       825847fffffffff:
@@ -5665,6 +5861,7 @@
         states:
           Niger: {}
         land: 7
+    bighex: 81587ffffffffff
   '2':
     hexes:
       825887fffffffff:
@@ -5697,6 +5894,7 @@
         states:
           Togo: {}
         land: 7
+    bighex: 8158bffffffffff
   '3':
     hexes:
       8258c7fffffffff:
@@ -5734,6 +5932,7 @@
         states:
           Nigeria: {}
         land: 7
+    bighex: 8158fffffffffff
   '4':
     hexes:
       825907fffffffff:
@@ -5783,6 +5982,7 @@
         states:
           Mali: {}
         land: 7
+    bighex: 81593ffffffffff
   '5':
     hexes:
       825947fffffffff:
@@ -5826,6 +6026,7 @@
             begin: 1830
             end: 1962
         land: 7
+    bighex: 81597ffffffffff
   '6':
     hexes:
       825987fffffffff:
@@ -5863,6 +6064,7 @@
         states:
           Mali: {}
         land: 7
+    bighex: 8159bffffffffff
 '47':
   '4':
     hexes:
@@ -5896,6 +6098,7 @@
         states:
           Brazil: {}
         land: 7
+    bighex: 815f3ffffffffff
   '5':
     hexes:
       825f47fffffffff:
@@ -5933,6 +6136,7 @@
         states:
           Guyana: {}
         land: 2
+    bighex: 815f7ffffffffff
 '48':
   '0':
     hexes:
@@ -5951,6 +6155,7 @@
       UK:
         begin: 1858
         end: 1947
+    bighex: 81603ffffffffff
   '2':
     hexes:
       826087fffffffff:
@@ -5979,6 +6184,7 @@
       UK:
         begin: 1858
         end: 1947
+    bighex: 8160bffffffffff
   '4':
     hexes:
       82611ffffffffff:
@@ -5990,6 +6196,7 @@
         land: 2
     states:
       Sri Lanka: {}
+    bighex: 81613ffffffffff
   '6':
     hexes:
       82618ffffffffff:
@@ -6006,6 +6213,7 @@
       UK:
         begin: 1858
         end: 1947
+    bighex: 8161bffffffffff
 '49':
   '4':
     hexes:
@@ -6014,6 +6222,7 @@
         land: 5
     states:
       Oman: {}
+    bighex: 81633ffffffffff
   '6':
     hexes:
       826397fffffffff:
@@ -6021,6 +6230,7 @@
         land: 5
     states:
       Somalia: {}
+    bighex: 8163bffffffffff
 '50':
   '0':
     hexes:
@@ -6029,6 +6239,7 @@
         land: 2
     states:
       Myanmar: {}
+    bighex: 81643ffffffffff
   '2':
     hexes:
       826487fffffffff:
@@ -6066,6 +6277,7 @@
         states:
           Myanmar: {}
         land: 2
+    bighex: 8164bffffffffff
   '4':
     hexes:
       826507fffffffff:
@@ -6094,6 +6306,7 @@
         states:
           Indonesia: {}
         land: 2
+    bighex: 81653ffffffffff
   '5':
     hexes:
       826557fffffffff:
@@ -6105,6 +6318,7 @@
         land: 2
     states:
       Indonesia: {}
+    bighex: 81657ffffffffff
   '6':
     hexes:
       826587fffffffff:
@@ -6132,6 +6346,7 @@
         states:
           Thailand: {}
         land: 2
+    bighex: 8165bffffffffff
 '51':
   '0':
     hexes:
@@ -6165,6 +6380,7 @@
         states:
           Colombia: {}
         land: 2
+    bighex: 81663ffffffffff
   '1':
     hexes:
       826647fffffffff:
@@ -6202,6 +6418,7 @@
         states:
           Venezuela: {}
         land: 7
+    bighex: 81667ffffffffff
   '2':
     hexes:
       8266a7fffffffff:
@@ -6214,6 +6431,7 @@
         states:
           Costa Rica: {}
         land: 2
+    bighex: 8166bffffffffff
   '3':
     hexes:
       8266c7fffffffff:
@@ -6251,6 +6469,7 @@
         states:
           Colombia: {}
         land: 5
+    bighex: 8166fffffffffff
   '5':
     hexes:
       82674ffffffffff:
@@ -6267,6 +6486,7 @@
         land: 2
     states:
       Venezuela: {}
+    bighex: 81677ffffffffff
   '6':
     hexes:
       826797fffffffff:
@@ -6274,6 +6494,7 @@
         land: 5
     states:
       Nicaragua: {}
+    bighex: 8167bffffffffff
 '52':
   '0':
     hexes:
@@ -6285,6 +6506,7 @@
         land: 3
     states:
       Malaysia: {}
+    bighex: 81683ffffffffff
   '1':
     hexes:
       826847fffffffff:
@@ -6298,6 +6520,7 @@
         land: 2
     states:
       Philippines: {}
+    bighex: 81687ffffffffff
   '2':
     hexes:
       826887fffffffff:
@@ -6335,6 +6558,7 @@
         states:
           Indonesia: {}
         land: 7
+    bighex: 8168bffffffffff
   '3':
     hexes:
       8268d7fffffffff:
@@ -6342,6 +6566,7 @@
         land: 2
     states:
       Indonesia: {}
+    bighex: 8168fffffffffff
   '4':
     hexes:
       826937fffffffff:
@@ -6349,6 +6574,7 @@
         land: 4
     states:
       Vietnam: {}
+    bighex: 81693ffffffffff
   '5':
     hexes:
       82694ffffffffff:
@@ -6362,6 +6588,7 @@
         land: 2
     states:
       Philippines: {}
+    bighex: 81697ffffffffff
 '53':
   '0':
     hexes:
@@ -6400,6 +6627,7 @@
         states:
           Central African Republic: {}
         land: 7
+    bighex: 816a3ffffffffff
   '1':
     hexes:
       826a47fffffffff:
@@ -6437,6 +6665,7 @@
         states:
           South Sudan: {}
         land: 7
+    bighex: 816a7ffffffffff
   '2':
     hexes:
       826a87fffffffff:
@@ -6462,6 +6691,7 @@
         land: 7
     states:
       Democratic Republic of the Congo: {}
+    bighex: 816abffffffffff
   '3':
     hexes:
       826ac7fffffffff:
@@ -6499,6 +6729,7 @@
         states:
           Democratic Republic of the Congo: {}
         land: 7
+    bighex: 816afffffffffff
   '4':
     hexes:
       826b07fffffffff:
@@ -6536,6 +6767,7 @@
         states:
           Chad: {}
         land: 7
+    bighex: 816b3ffffffffff
   '5':
     hexes:
       826b47fffffffff:
@@ -6561,6 +6793,7 @@
         land: 7
     states:
       Sudan: {}
+    bighex: 816b7ffffffffff
   '6':
     hexes:
       826b87fffffffff:
@@ -6598,6 +6831,7 @@
         states:
           Chad: {}
         land: 7
+    bighex: 816bbffffffffff
 '54':
   '4':
     hexes:
@@ -6616,6 +6850,7 @@
         states:
           Mexico: {}
         land: 7
+    bighex: 816d3ffffffffff
   '5':
     hexes:
       826d67fffffffff:
@@ -6628,6 +6863,7 @@
         states:
           Costa Rica: {}
         land: 4
+    bighex: 816d7ffffffffff
 '57':
   '2':
     hexes:
@@ -6648,6 +6884,7 @@
         land: 2
     states:
       Indonesia: {}
+    bighex: 8172bffffffffff
   '3':
     hexes:
       8272d7fffffffff:
@@ -6658,6 +6895,7 @@
         land: 6
     states:
       Papua New Guinea: {}
+    bighex: 8172fffffffffff
 '58':
   '4':
     hexes:
@@ -6696,6 +6934,7 @@
         states:
           Burkina Faso: {}
         land: 7
+    bighex: 81753ffffffffff
   '6':
     hexes:
       827587fffffffff:
@@ -6718,6 +6957,7 @@
         states:
           Sierra Leone: {}
         land: 7
+    bighex: 8175bffffffffff
 '59':
   '6':
     hexes:
@@ -6726,6 +6966,7 @@
         land: 3
     states:
       Papua New Guinea: {}
+    bighex: 8177bffffffffff
 '61':
   '0':
     hexes:
@@ -6737,6 +6978,7 @@
         land: 6
     states:
       Somalia: {}
+    bighex: 817a3ffffffffff
   '1':
     hexes:
       827a47fffffffff:
@@ -6762,6 +7004,7 @@
         land: 7
     states:
       Kenya: {}
+    bighex: 817a7ffffffffff
   '2':
     hexes:
       827a87fffffffff:
@@ -6784,6 +7027,7 @@
         states:
           Somalia: {}
         land: 5
+    bighex: 817abffffffffff
   '3':
     hexes:
       827ac7fffffffff:
@@ -6821,6 +7065,7 @@
         states:
           Ethiopia: {}
         land: 7
+    bighex: 817afffffffffff
   '5':
     hexes:
       827b4ffffffffff:
@@ -6831,6 +7076,7 @@
         land: 4
     states:
       Tanzania: {}
+    bighex: 817b7ffffffffff
 '64':
   '0':
     hexes:
@@ -6856,6 +7102,7 @@
         land: 7
     states:
       Brazil: {}
+    bighex: 81803ffffffffff
   '1':
     hexes:
       828047fffffffff:
@@ -6875,6 +7122,7 @@
         land: 7
     states:
       Brazil: {}
+    bighex: 81807ffffffffff
   '4':
     hexes:
       828107fffffffff:
@@ -6902,6 +7150,7 @@
         land: 7
     states:
       Brazil: {}
+    bighex: 81813ffffffffff
   '5':
     hexes:
       828147fffffffff:
@@ -6929,6 +7178,7 @@
         land: 7
     states:
       Brazil: {}
+    bighex: 81817ffffffffff
   '6':
     hexes:
       828187fffffffff:
@@ -6942,6 +7192,7 @@
         land: 7
     states:
       Brazil: {}
+    bighex: 8181bffffffffff
 '65':
   '0':
     hexes:
@@ -6960,6 +7211,7 @@
         states:
           Democratic Republic of the Congo: {}
         land: 2
+    bighex: 81823ffffffffff
   '2':
     hexes:
       828287fffffffff:
@@ -6997,6 +7249,7 @@
         states:
           Congo-Brazzaville: {}
         land: 7
+    bighex: 8182bffffffffff
   '3':
     hexes:
       8282dffffffffff:
@@ -7014,6 +7267,7 @@
         states:
           Cameroon: {}
         land: 2
+    bighex: 8182fffffffffff
   '4':
     hexes:
       828317fffffffff:
@@ -7027,6 +7281,7 @@
         land: 7
     states:
       Angola: {}
+    bighex: 81833ffffffffff
   '6':
     hexes:
       828387fffffffff:
@@ -7064,6 +7319,7 @@
         states:
           Democratic Republic of the Congo: {}
         land: 7
+    bighex: 8183bffffffffff
 '69':
   '0':
     hexes:
@@ -7090,6 +7346,7 @@
         land: 7
     states:
       Brazil: {}
+    bighex: 818a3ffffffffff
   '1':
     hexes:
       828a47fffffffff:
@@ -7127,6 +7384,7 @@
         states:
           Brazil: {}
         land: 7
+    bighex: 818a7ffffffffff
   '2':
     hexes:
       828a87fffffffff:
@@ -7152,6 +7410,7 @@
         land: 7
     states:
       Brazil: {}
+    bighex: 818abffffffffff
   '3':
     hexes:
       828ac7fffffffff:
@@ -7191,6 +7450,7 @@
         states:
           Brazil: {}
         land: 7
+    bighex: 818afffffffffff
   '4':
     hexes:
       828b07fffffffff:
@@ -7228,6 +7488,7 @@
         states:
           Bolivia: {}
         land: 7
+    bighex: 818b3ffffffffff
   '5':
     hexes:
       828b47fffffffff:
@@ -7265,6 +7526,7 @@
         states:
           Bolivia: {}
         land: 7
+    bighex: 818b7ffffffffff
   '6':
     hexes:
       828b87fffffffff:
@@ -7290,6 +7552,7 @@
         land: 7
     states:
       Brazil: {}
+    bighex: 818bbffffffffff
 '70':
   '0':
     hexes:
@@ -7298,6 +7561,7 @@
         land: 3
     states:
       Indonesia: {}
+    bighex: 818c3ffffffffff
   '2':
     hexes:
       828c97fffffffff:
@@ -7315,6 +7579,7 @@
         land: 2
     states:
       Indonesia: {}
+    bighex: 818cbffffffffff
   '3':
     hexes:
       828cd7fffffffff:
@@ -7325,6 +7590,7 @@
         land: 5
     states:
       Indonesia: {}
+    bighex: 818cfffffffffff
   '6':
     hexes:
       828d87fffffffff:
@@ -7335,6 +7601,7 @@
         land: 3
     states:
       Indonesia: {}
+    bighex: 818dbffffffffff
 '71':
   '1':
     hexes:
@@ -7346,6 +7613,7 @@
         land: 7
     states:
       Peru: {}
+    bighex: 818e7ffffffffff
   '4':
     hexes:
       828f0ffffffffff:
@@ -7358,6 +7626,7 @@
         states:
           Ecuador: {}
         land: 5
+    bighex: 818f3ffffffffff
   '5':
     hexes:
       828f47fffffffff:
@@ -7383,6 +7652,7 @@
         land: 7
     states:
       Peru: {}
+    bighex: 818f7ffffffffff
 '74':
   '0':
     hexes:
@@ -7391,6 +7661,7 @@
         land: 2
     states:
       Australia: {}
+    bighex: 81943ffffffffff
   '1':
     hexes:
       829457fffffffff:
@@ -7401,6 +7672,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 81947ffffffffff
   '2':
     hexes:
       829487fffffffff:
@@ -7420,6 +7692,7 @@
         land: 3
     states:
       Australia: {}
+    bighex: 8194bffffffffff
   '3':
     hexes:
       8294c7fffffffff:
@@ -7445,6 +7718,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 8194fffffffffff
   '4':
     hexes:
       82952ffffffffff:
@@ -7458,6 +7732,7 @@
         land: 2
     states:
       Indonesia: {}
+    bighex: 81953ffffffffff
   '5':
     hexes:
       82956ffffffffff:
@@ -7465,6 +7740,7 @@
         land: 3
     states:
       Indonesia: {}
+    bighex: 81957ffffffffff
   '6':
     hexes:
       8295a7fffffffff:
@@ -7472,6 +7748,7 @@
         land: 2
     states:
       Indonesia: {}
+    bighex: 8195bffffffffff
 '75':
   '0':
     hexes:
@@ -7510,6 +7787,7 @@
         states:
           Zambia: {}
         land: 7
+    bighex: 81963ffffffffff
   '1':
     hexes:
       829647fffffffff:
@@ -7547,6 +7825,7 @@
         states:
           Zambia: {}
         land: 7
+    bighex: 81967ffffffffff
   '2':
     hexes:
       829687fffffffff:
@@ -7572,6 +7851,7 @@
         land: 7
     states:
       Tanzania: {}
+    bighex: 8196bffffffffff
   '3':
     hexes:
       8296c7fffffffff:
@@ -7597,6 +7877,7 @@
         land: 7
     states:
       Democratic Republic of the Congo: {}
+    bighex: 8196fffffffffff
   '4':
     hexes:
       829707fffffffff:
@@ -7634,6 +7915,7 @@
         states:
           Mozambique: {}
         land: 2
+    bighex: 81973ffffffffff
   '5':
     hexes:
       829747fffffffff:
@@ -7671,6 +7953,7 @@
         states:
           Botswana: {}
         land: 7
+    bighex: 81977ffffffffff
   '6':
     hexes:
       829787fffffffff:
@@ -7708,6 +7991,7 @@
         states:
           Mozambique: {}
         land: 4
+    bighex: 8197bffffffffff
 '77':
   '5':
     hexes:
@@ -7716,6 +8000,7 @@
         land: 2
     states:
       Fiji: {}
+    bighex: 819b7ffffffffff
 '78':
   '0':
     hexes:
@@ -7733,6 +8018,7 @@
         land: 2
     states:
       Australia: {}
+    bighex: 819c3ffffffffff
   '1':
     hexes:
       829c47fffffffff:
@@ -7755,6 +8041,7 @@
         land: 2
     states:
       Australia: {}
+    bighex: 819c7ffffffffff
   '2':
     hexes:
       829c8ffffffffff:
@@ -7771,6 +8058,7 @@
         land: 2
     states:
       Papua New Guinea: {}
+    bighex: 819cbffffffffff
   '3':
     hexes:
       829cd7fffffffff:
@@ -7793,6 +8081,7 @@
         states:
           Australia: {}
         land: 2
+    bighex: 819cfffffffffff
   '4':
     hexes:
       829d0ffffffffff:
@@ -7806,6 +8095,7 @@
         land: 2
     states:
       Australia: {}
+    bighex: 819d3ffffffffff
   '5':
     hexes:
       829d47fffffffff:
@@ -7831,6 +8121,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 819d7ffffffffff
 '79':
   '3':
     hexes:
@@ -7839,6 +8130,7 @@
         land: 2
     states:
       Solomon Islands: {}
+    bighex: 819efffffffffff
 '81':
   '0':
     hexes:
@@ -7853,6 +8145,7 @@
         land: 7
     states:
       Madagascar: {}
+    bighex: 81a23ffffffffff
   '2':
     hexes:
       82a2a7fffffffff:
@@ -7860,6 +8153,7 @@
         land: 7
     states:
       Madagascar: {}
+    bighex: 81a2bffffffffff
   '4':
     hexes:
       82a30ffffffffff:
@@ -7870,6 +8164,7 @@
         land: 5
     states:
       Madagascar: {}
+    bighex: 81a33ffffffffff
   '5':
     hexes:
       82a377fffffffff:
@@ -7877,6 +8172,7 @@
         land: 2
     states:
       Madagascar: {}
+    bighex: 81a37ffffffffff
   '6':
     hexes:
       82a38ffffffffff:
@@ -7887,6 +8183,7 @@
         land: 3
     states:
       Madagascar: {}
+    bighex: 81a3bffffffffff
 '83':
   '0':
     hexes:
@@ -7898,6 +8195,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 81a63ffffffffff
   '2':
     hexes:
       82a6a7fffffffff:
@@ -7905,6 +8203,7 @@
         land: 2
     states:
       Australia: {}
+    bighex: 81a6bffffffffff
   '4':
     hexes:
       82a717fffffffff:
@@ -7921,6 +8220,7 @@
         land: 2
     states:
       Australia: {}
+    bighex: 81a73ffffffffff
   '6':
     hexes:
       82a787fffffffff:
@@ -7946,6 +8246,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 81a7bffffffffff
 '84':
   '0':
     hexes:
@@ -7972,6 +8273,7 @@
         land: 2
     states:
       Brazil: {}
+    bighex: 81a83ffffffffff
   '1':
     hexes:
       82a847fffffffff:
@@ -8009,6 +8311,7 @@
         states:
           Brazil: {}
         land: 7
+    bighex: 81a87ffffffffff
   '2':
     hexes:
       82a887fffffffff:
@@ -8028,6 +8331,7 @@
         land: 7
     states:
       Brazil: {}
+    bighex: 81a8bffffffffff
   '3':
     hexes:
       82a8c7fffffffff:
@@ -8053,6 +8357,7 @@
         land: 7
     states:
       Brazil: {}
+    bighex: 81a8fffffffffff
   '4':
     hexes:
       82a90ffffffffff:
@@ -8069,6 +8374,7 @@
         land: 2
     states:
       Brazil: {}
+    bighex: 81a93ffffffffff
   '5':
     hexes:
       82a947fffffffff:
@@ -8106,6 +8412,7 @@
         states:
           Brazil: {}
         land: 7
+    bighex: 81a97ffffffffff
 '86':
   '2':
     hexes:
@@ -8143,7 +8450,8 @@
         place: Unknown
         states:
           Namibia: {}
-        land: 2s
+        land: 2
+    bighex: 81acbffffffffff
   '4':
     hexes:
       82ad17fffffffff:
@@ -8157,6 +8465,7 @@
         states:
           South Africa: {}
         land: 2
+    bighex: 81ad3ffffffffff
   '6':
     hexes:
       82ad87fffffffff:
@@ -8194,6 +8503,7 @@
         states:
           South Africa: {}
         land: 7
+    bighex: 81adbffffffffff
 '89':
   '0':
     hexes:
@@ -8222,6 +8532,7 @@
         states:
           Chile: {}
         land: 2
+    bighex: 81b23ffffffffff
   '1':
     hexes:
       82b247fffffffff:
@@ -8247,6 +8558,7 @@
         land: 7
     states:
       Argentina: {}
+    bighex: 81b27ffffffffff
   '3':
     hexes:
       82b2c7fffffffff:
@@ -8274,6 +8586,7 @@
         states:
           Argentina: {}
         land: 7
+    bighex: 81b2fffffffffff
   '4':
     hexes:
       82b307fffffffff:
@@ -8301,6 +8614,7 @@
         states:
           Peru: {}
         land: 5
+    bighex: 81b33ffffffffff
   '5':
     hexes:
       82b347fffffffff:
@@ -8338,6 +8652,7 @@
         states:
           Bolivia: {}
         land: 7
+    bighex: 81b37ffffffffff
 '92':
   '0':
     hexes:
@@ -8361,6 +8676,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 81b83ffffffffff
   '1':
     hexes:
       82b847fffffffff:
@@ -8386,6 +8702,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 81b87ffffffffff
   '2':
     hexes:
       82b887fffffffff:
@@ -8411,6 +8728,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 81b8bffffffffff
   '3':
     hexes:
       82b8c7fffffffff:
@@ -8436,6 +8754,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 81b8fffffffffff
   '4':
     hexes:
       82b917fffffffff:
@@ -8446,6 +8765,7 @@
         land: 2
     states:
       Australia: {}
+    bighex: 81b93ffffffffff
   '6':
     hexes:
       82b987fffffffff:
@@ -8471,6 +8791,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 81b9bffffffffff
 '93':
   '4':
     hexes:
@@ -8479,6 +8800,7 @@
         land: 4
     states:
       New Zealand: {}
+    bighex: 81bb3ffffffffff
 '94':
   '0':
     hexes:
@@ -8487,6 +8809,7 @@
         land: 2
     states:
       South Africa: {}
+    bighex: 81bc3ffffffffff
   '1':
     hexes:
       82bc47fffffffff:
@@ -8506,6 +8829,7 @@
         land: 2
     states:
       South Africa: {}
+    bighex: 81bc7ffffffffff
   '3':
     hexes:
       82bcc7fffffffff:
@@ -8543,6 +8867,7 @@
         states:
           South Africa: {}
         land: 5
+    bighex: 81bcfffffffffff
 '95':
   '0':
     hexes:
@@ -8554,6 +8879,7 @@
         land: 4
     states:
       Australia: {}
+    bighex: 81be3ffffffffff
   '1':
     hexes:
       82be47fffffffff:
@@ -8580,6 +8906,7 @@
         land: 2
     states:
       Australia: {}
+    bighex: 81be7ffffffffff
   '2':
     hexes:
       82be8ffffffffff:
@@ -8587,6 +8914,7 @@
         land: 3
     states:
       Australia: {}
+    bighex: 81bebffffffffff
   '3':
     hexes:
       82bec7fffffffff:
@@ -8612,6 +8940,7 @@
         land: 7
     states:
       Australia: {}
+    bighex: 81befffffffffff
   '5':
     hexes:
       82bf4ffffffffff:
@@ -8619,6 +8948,7 @@
         land: 3
     states:
       Australia: {}
+    bighex: 81bf7ffffffffff
 '97':
   '0':
     hexes:
@@ -8630,6 +8960,7 @@
         land: 2
     states:
       Argentina: {}
+    bighex: 81c23ffffffffff
   '3':
     hexes:
       82c2c7fffffffff:
@@ -8667,6 +8998,7 @@
         states:
           Uruguay: {}
         land: 3
+    bighex: 81c2fffffffffff
   '4':
     hexes:
       82c30ffffffffff:
@@ -8680,6 +9012,7 @@
         land: 5
     states:
       Argentina: {}
+    bighex: 81c33ffffffffff
   '5':
     hexes:
       82c347fffffffff:
@@ -8705,6 +9038,7 @@
         land: 7
     states:
       Argentina: {}
+    bighex: 81c37ffffffffff
 '100':
   '6':
     hexes:
@@ -8719,6 +9053,7 @@
         land: 2
     states:
       Australia: {}
+    bighex: 81c9bffffffffff
 '103':
   '2':
     hexes:
@@ -8757,6 +9092,7 @@
         states:
           Chile: {}
         land: 2
+    bighex: 81cebffffffffff
   '4':
     hexes:
       82cf17fffffffff:
@@ -8764,6 +9100,7 @@
         land: 4
     states:
       Chile: {}
+    bighex: 81cf3ffffffffff
   '6':
     hexes:
       82cf87fffffffff:
@@ -8796,6 +9133,7 @@
         states:
           Argentina: {}
         land: 2
+    bighex: 81cfbffffffffff
 '109':
   '2':
     hexes:
@@ -8807,6 +9145,7 @@
         land: 4
     states:
       New Zealand: {}
+    bighex: 81dabffffffffff
 '111':
   '1':
     hexes:
@@ -8815,6 +9154,7 @@
         land: 2
     states:
       UK: {}
+    bighex: 81de7ffffffffff
   '4':
     hexes:
       82df37fffffffff:
@@ -8822,6 +9162,7 @@
         land: 3
     states:
       Antarctica: {}
+    bighex: 81df3ffffffffff
   '5':
     hexes:
       82df47fffffffff:
@@ -8834,6 +9175,7 @@
         states:
           Chile: {}
         land: 4
+    bighex: 81df7ffffffffff
 '112':
   '4':
     hexes:
@@ -8845,6 +9187,7 @@
         land: 4
     states:
       Antarctica: {}
+    bighex: 81e13ffffffffff
   '5':
     hexes:
       82e167fffffffff:
@@ -8855,6 +9198,7 @@
         land: 4
     states:
       Antarctica: {}
+    bighex: 81e17ffffffffff
 '114':
   '1':
     hexes:
@@ -8866,6 +9210,7 @@
         land: 3
     states:
       Antarctica: {}
+    bighex: 81e47ffffffffff
   '4':
     hexes:
       82e52ffffffffff:
@@ -8873,6 +9218,7 @@
         land: 2
     states:
       Antarctica: {}
+    bighex: 81e53ffffffffff
   '5':
     hexes:
       82e547fffffffff:
@@ -8898,6 +9244,7 @@
         land: 2
     states:
       Antarctica: {}
+    bighex: 81e57ffffffffff
 '115':
   '4':
     hexes:
@@ -8918,6 +9265,7 @@
         land: 5
     states:
       Antarctica: {}
+    bighex: 81e73ffffffffff
   '5':
     hexes:
       82e747fffffffff:
@@ -8940,6 +9288,7 @@
         land: 2
     states:
       Antarctica: {}
+    bighex: 81e77ffffffffff
 '116':
   '2':
     hexes:
@@ -8954,6 +9303,7 @@
         land: 3
     states:
       Antarctica: {}
+    bighex: 81e8bffffffffff
   '6':
     hexes:
       82e987fffffffff:
@@ -8967,6 +9317,7 @@
         land: 6
     states:
       Antarctica: {}
+    bighex: 81e9bffffffffff
 '118':
   '0':
     hexes:
@@ -8990,6 +9341,7 @@
         land: 2
     states:
       Antarctica: {}
+    bighex: 81ec3ffffffffff
   '1':
     hexes:
       82ec47fffffffff:
@@ -9015,6 +9367,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81ec7ffffffffff
   '2':
     hexes:
       82ecaffffffffff:
@@ -9025,6 +9378,7 @@
         land: 2
     states:
       Antarctica: {}
+    bighex: 81ecbffffffffff
   '3':
     hexes:
       82ecc7fffffffff:
@@ -9050,6 +9404,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81ecfffffffffff
   '5':
     hexes:
       82ed47fffffffff:
@@ -9069,6 +9424,7 @@
         land: 2
     states:
       Antarctica: {}
+    bighex: 81ed7ffffffffff
 '119':
   '0':
     hexes:
@@ -9083,6 +9439,7 @@
         land: 2
     states:
       Antarctica: {}
+    bighex: 81ee3ffffffffff
   '1':
     hexes:
       82ee6ffffffffff:
@@ -9093,6 +9450,7 @@
         land: 2
     states:
       Antarctica: {}
+    bighex: 81ee7ffffffffff
   '2':
     hexes:
       82eea7fffffffff:
@@ -9106,6 +9464,7 @@
         land: 2
     states:
       Antarctica: {}
+    bighex: 81eebffffffffff
   '4':
     hexes:
       82ef07fffffffff:
@@ -9131,6 +9490,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81ef3ffffffffff
   '5':
     hexes:
       82ef47fffffffff:
@@ -9153,6 +9513,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81ef7ffffffffff
   '6':
     hexes:
       82ef87fffffffff:
@@ -9178,6 +9539,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81efbffffffffff
 '120':
   '0':
     hexes:
@@ -9204,6 +9566,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f03ffffffffff
   '1':
     hexes:
       82f047fffffffff:
@@ -9229,6 +9592,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f07ffffffffff
   '2':
     hexes:
       82f087fffffffff:
@@ -9254,6 +9618,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f0bffffffffff
   '3':
     hexes:
       82f0c7fffffffff:
@@ -9279,6 +9644,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f0fffffffffff
   '4':
     hexes:
       82f107fffffffff:
@@ -9304,6 +9670,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f13ffffffffff
   '5':
     hexes:
       82f147fffffffff:
@@ -9329,6 +9696,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f17ffffffffff
   '6':
     hexes:
       82f187fffffffff:
@@ -9354,6 +9722,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f1bffffffffff
 '121':
   '0':
     hexes:
@@ -9380,6 +9749,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f23ffffffffff
   '1':
     hexes:
       82f257fffffffff:
@@ -9396,6 +9766,7 @@
         land: 2
     states:
       Antarctica: {}
+    bighex: 81f27ffffffffff
   '2':
     hexes:
       82f287fffffffff:
@@ -9421,6 +9792,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f2bffffffffff
   '3':
     hexes:
       82f2c7fffffffff:
@@ -9446,6 +9818,7 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f2fffffffffff
   '6':
     hexes:
       82f387fffffffff:
@@ -9471,3 +9844,4 @@
         land: 7
     states:
       Antarctica: {}
+    bighex: 81f3bffffffffff
