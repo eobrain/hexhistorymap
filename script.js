@@ -15,6 +15,8 @@ let projectionLon = 0
 const thisYear = 2025
 
 const coastline = await json('https://gist.githubusercontent.com/d3indepth/f28e1c3a99ea6d84986f35ac8646fac7/raw/c58cede8dab4673c91a3db702d50f7447b373d98/ne_110m_land.json')
+const lakes = await json('https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_lakes.geojson')
+const rivers = await json('https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_rivers_lake_centerlines.geojson')
 
 const regionCode = new Intl.Locale(navigator.language).region
 const currentStateName = regioncode2state[regionCode] || 'Ireland'
@@ -110,12 +112,15 @@ const update = () => {
   context.globalCompositeOperation = 'source-over'
   context.lineWidth = 1
 
-  // Graticule
-  /* const graticule = geoGraticule()
+  context.strokeStyle = 'white'
   context.beginPath()
-  context.strokeStyle = '#ccc'
-  geoGenerator(graticule())
-  context.stroke() */
+  geoGenerator(rivers)
+  context.stroke()
+
+  context.fillStyle = 'white'
+  context.beginPath()
+  geoGenerator(lakes)
+  context.fill()
 
   if (milieu.state()) {
     const coordinates = coordinatesOfStates[milieu.state().name()]
