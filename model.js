@@ -56,19 +56,19 @@ class Hex {
     if (this.#parent.states && this.#parent.states[stateName]) {
       const stateInfo = this.#parent.states[stateName]
       if (stateInfo.begin) {
-        begin = stateInfo.begin
+        begin = Math.max(begin, stateInfo.begin)
       }
       if (stateInfo.end) {
-        end = stateInfo.end
+        end = Math.min(end, stateInfo.end)
       }
     }
     if (this.#parent.hexes[this.#cellCode].states && this.#parent.hexes[this.#cellCode].states[stateName]) {
       const stateInfo = this.#parent.hexes[this.#cellCode].states[stateName]
       if (stateInfo.begin) {
-        begin = stateInfo.begin
+        begin = Math.max(begin, stateInfo.begin)
       }
       if (stateInfo.end) {
-        end = stateInfo.end
+        end = Math.min(end, stateInfo.end)
       }
     }
     return {

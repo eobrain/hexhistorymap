@@ -34,13 +34,19 @@ test('hexes', () => {
 test('Greenland history', () => {
   const hex = hexes().find(hex => hex.hasCellCode('8206d7fffffffff'))
   assert(hex)
-  assert.deepEqual(hex.stateNames(), ['Norway', 'Denmark'])
+  assert.deepEqual(hex.stateNames(), ['Thule', 'Inuit', 'Denmark'])
+
+  const today = new Milieu(hex, 2025).state()
+  assert.strictEqual(today.name(), 'Denmark')
 
   const danishPeriod = new Milieu(hex, 1800).state()
   assert.strictEqual(danishPeriod.name(), 'Denmark')
 
-  const norweigenPeriod = new Milieu(hex, 1400).state()
-  assert.strictEqual(norweigenPeriod.name(), 'Norway')
+  const thulePeriod = new Milieu(hex, 1550).state()
+  assert.strictEqual(thulePeriod.name(), 'Thule')
+
+  const inuitPeriod = new Milieu(hex, 1650).state()
+  assert.strictEqual(inuitPeriod.name(), 'Inuit')
 })
 
 test('Norway history', () => {

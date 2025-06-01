@@ -250,6 +250,20 @@ Kingdom of France:
   begin: 987
   end: 1792
   color: '#957b05'
+Dorset:
+  note: Paleo-inuit culture
+  begin: -500
+  end: 1500
+  color: '#00fdaf'
+Thule:
+  note: Ancestral inuit culture
+  begin: -200
+  end: 1600
+  color: '#298b62'
+Inuit:
+  begin: 1600
+  end: 2025
+  color: '#e846e1'
 Grand Duchy of Lithuania:
   note: Pre-Commonwealth
   begin: 1236

@@ -91,6 +91,14 @@
       820277fffffffff:
         name: Prince of Wales Island S
         place: Qikiqtaaluk Region, Nunavut
+        states:
+          Dorset:
+            begin: 700
+            end: 1300
+          Thule:
+            begin: 1300
+          Inuit:
+            end: 1867
         land: 2
     states:
       Canada: {}
@@ -134,6 +142,12 @@
         states:
           Denmark:
             begin: 1721
+          Dorset:
+            begin: 700
+            end: 1300
+          Thule:
+            begin: 1300
+            end: 1400
         land: 7
       82034ffffffffff:
         name: Qeqertat
@@ -141,6 +155,13 @@
         states:
           Denmark:
             begin: 1721
+          Dorset:
+            begin: 700
+            end: 1300
+          Thule:
+            begin: 1300
+          Inuit:
+            end: 1721
         land: 7
       820357fffffffff:
         name: Ellesmere Island NW
@@ -153,6 +174,14 @@
         place: Qikiqtaaluk Region, Nunavut
         states:
           Canada: {}
+          Dorset:
+            begin: 700
+            end: 1300
+          Thule:
+            begin: 1300
+            end: 1400
+          Inuit:
+            end: 1867
         land: 5
       820367fffffffff:
         name: Greenland N
@@ -323,10 +352,20 @@
       820607fffffffff:
         name: icesheet SE
         place: Sermersooq, Greenland
+        states:
+          Thule:
+            begin: 1500
+          Inuit:
+            end: 1721
         land: 7
       82060ffffffffff:
         name: Greenland SE
         place: Sermersooq, coast
+        states:
+          Thule:
+            begin: 1500
+          Inuit:
+            end: 1721
         land: 4
       820617fffffffff:
         name: Summit Camp
@@ -339,6 +378,11 @@
       820627fffffffff:
         name: Ittoqqortoormiit
         place: Sermersooq, Scoresby Sound, Greenland
+        states:
+          Thule:
+            begin: 1500
+          Inuit:
+            end: 1721
         land: 3
       820637fffffffff:
         name: Mestersvig military outpost
@@ -352,12 +396,22 @@
       820687fffffffff:
         name: W coast settlements
         place: Avannaata, Greenland
+        states:
+          Thule:
+            begin: 1400
+          Inuit:
+            end: 1721
         land: 6
       82068ffffffffff:
         name: Nuussuaq Peninsula
         place: >-
           Avannaata, Disko Island and several coastal settlements, western
           Greenland
+        states:
+          Thule:
+            begin: 1400
+          Inuit:
+            end: 1721
         land: 5
       8206a7fffffffff:
         name: ice sheet
@@ -374,6 +428,11 @@
       820697fffffffff:
         name: Melville Bay
         place: Melville Bay
+        states:
+          Thule:
+            begin: 1300
+          Inuit:
+            end: 1721
         land: 2
     states:
       Denmark:
@@ -381,36 +440,52 @@
   '3':
     hexes:
       8206c7fffffffff:
-        name: Kapisillit
-        place: Qeqqata, western edge of icesheet, Greenland
+        name: Western Settlement
+        place: Qeqqata, Kapisillit, western edge of icesheet, Greenland
         states:
           Norway:
-            begin: 1263
-            end: 1500
+            begin: 985
+            end: 1360
+          Thule:
+            begin: 1500
+          Inuit:
+            end: 1721
         land: 7
       8206cffffffffff:
         name: Greenland SW
         place: Sermersooq, coast with several settlements, Greenland
         states:
-          Norway:
-            begin: 1263
-            end: 1500
+          Thule:
+            begin: 1500
+          Inuit:
+            end: 1721
         land: 5
       8206d7fffffffff:
         name: Sisimiut
         place: Qeqertalik, western coast, Greenland
         states:
-          Norway:
-            begin: 1263
-            end: 1500
+          Thule:
+            begin: 1500
+          Inuit:
+            end: 1721
         land: 3
       8206e7fffffffff:
         name: icesheet E
         place: Sermersooq, some settlements, Greenland
+        states:
+          Thule:
+            begin: 1500
+          Inuit:
+            end: 1721
         land: 7
       8206effffffffff:
         name: Greenland SE
         place: Sermersooq, coast
+        states:
+          Thule:
+            begin: 1500
+          Inuit:
+            end: 1721
         land: 5
       8206f7fffffffff:
         name: Qasigiannguit
@@ -1981,15 +2056,30 @@
   '4':
     hexes:
       821b27fffffffff:
+        name: Eastern Settlement
         place: Kujalleq, Greenland
         land: 4
     states:
       Denmark:
         begin: 1721
+      Norway:
+        begin: 990
+        end: 1408
+      Thule:
+        begin: 1500
+      Inuit:
+        end: 1721
   '6':
     hexes:
       821b87fffffffff:
+        name: L'Anse aux Meadows
         place: Labrador, Newfoundland and Labrador
+        states:
+          Norway:
+            begin: 1005
+            end: 1024
+          Dorset:
+            end: 700
         land: 4
       821b97fffffffff:
         place: Petit-Mécatina, Quebec
