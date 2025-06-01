@@ -12,6 +12,9 @@ $chart.height = $annotation.height = HEIGHT
 const chartCtx = $chart.getContext('2d')
 const annotationCtx = $annotation.getContext('2d')
 
+let prevX
+let prevY = 0
+
 const drawYear = year => {
   // chartCtx.fillStyle = 'white'
   annotationCtx.clearRect(0, 0, WIDTH, HEIGHT)
@@ -21,6 +24,7 @@ const drawYear = year => {
   annotationCtx.moveTo(x, 0)
   annotationCtx.lineTo(x, HEIGHT - 1)
   annotationCtx.stroke()
+  prevX = x
 }
 
 export const updateChart = year => {
@@ -71,4 +75,28 @@ export const drawChart = (year, panCallback) => {
     const y = Math.trunc(e.offsetY * e.currentTarget.height / e.currentTarget.clientHeight)
     panCallback(x, hexes()[y])
   }
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'ArrowLeft') {
+      if (prevX > 0) {
+        --prevX
+      }
+    } else if (event.key === 'ArrowRight') {
+      if (prevX < WIDTH - 1) {
+        ++prevX
+      }
+    } else if (event.key === 'ArrowUp') {
+      if (prevY > 0) {
+        --prevY
+      }
+    } else if (event.key === 'ArrowDown') {
+      if (prevY < HEIGHT - 1) {
+        ++prevY
+      }
+    } else {
+      return
+    }
+    panCallback(prevX, hexes()[prevY])
+    event.preventDefault()
+  })
 }

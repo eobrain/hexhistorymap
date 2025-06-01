@@ -1,5 +1,5 @@
 import { select, pointer } from 'https://esm.sh/d3-selection'
-import { geoPath, geoOrthographic, geoGraticule } from 'https://esm.sh/d3-geo'
+import { geoPath, geoOrthographic /*, geoGraticule */ } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
 import { Milieu, State, stateCoordinates, locateHex, yearRange, hexes } from './model.js'
 import regioncode2state from './regioncode2state.js'
@@ -103,19 +103,19 @@ const update = () => {
 
   context.lineWidth = 0.5
   context.fillStyle = 'white'
-  context.globalCompositeOperation = "destination-in";
+  context.globalCompositeOperation = 'destination-in'
   context.beginPath()
   geoGenerator({ type: 'FeatureCollection', features: coastline.features })
   context.fill()
-  context.globalCompositeOperation = "source-over";
+  context.globalCompositeOperation = 'source-over'
   context.lineWidth = 1
 
   // Graticule
-  /*const graticule = geoGraticule()
+  /* const graticule = geoGraticule()
   context.beginPath()
   context.strokeStyle = '#ccc'
   geoGenerator(graticule())
-  context.stroke()*/
+  context.stroke() */
 
   if (milieu.state()) {
     const coordinates = coordinatesOfStates[milieu.state().name()]
