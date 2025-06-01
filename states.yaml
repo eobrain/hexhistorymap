@@ -230,22 +230,12 @@ Songhai Empire:
 Portugal:
   begin: 1139
   end: 2025
-Fiji:
-  begin: 1970
-  end: 2025
-Solomon Islands:
-  begin: 1978
-  end: 2025
 Ottoman Empire:
   begin: 1299
   end: 1922
 Safavid Empire:
   begin: 1501
   end: 1736
-Taiwan:
-  note: Republic of China
-  begin: 1912
-  end: 2025
 Thailand:
   begin: 1238
   end: 2025
@@ -370,6 +360,9 @@ Uruguay:
 Greece:
   begin: 1830
   end: 2025
+Belgium:
+  begin: 1830
+  end: 2025
 Dominican Republic:
   begin: 1844
   end: 2025
@@ -429,6 +422,10 @@ South Africa:
   end: 2025
 Mongolia:
   begin: 1911
+  end: 2025
+Taiwan:
+  note: Republic of China
+  begin: 1912
   end: 2025
 Albania:
   begin: 1912
@@ -631,6 +628,9 @@ Equatorial Guinea:
 Eswatini:
   begin: 1968
   end: 2025
+Fiji:
+  begin: 1970
+  end: 2025
 Bangladesh:
   begin: 1971
   end: 2025
@@ -655,6 +655,9 @@ Suriname:
 Djibouti:
   begin: 1977
   end: 2025
+Solomon Islands:
+  begin: 1978
+  end: 2025
 Zimbabwe:
   begin: 1980
   end: 2025
@@ -669,9 +672,6 @@ Armenia:
   end: 2025
 Azerbaijan:
   begin: 1991
-  end: 2025
-Belgium:
-  begin: 1830
   end: 2025
 Belarus:
   begin: 1991
