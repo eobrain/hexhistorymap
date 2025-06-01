@@ -70,6 +70,17 @@ const updateYear = (newYear) => {
   updateChart(newYear)
 }
 
+const shadowOn = () => {
+  context.shadowColor = 'white'
+  context.shadowOffsetX = 1
+  context.shadowOffsetY = 1
+}
+const shadowOff = () => {
+  context.shadowColor = 'transparent'
+  context.shadowOffsetX = 0
+  context.shadowOffsetY = 0
+}
+
 const update = () => {
   context.fillStyle = 'white'
   context.fillRect(0, 0, canvas.width, canvas.height)
@@ -87,7 +98,7 @@ const update = () => {
   const coordinatesOfStates = stateCoordinates(milieu.year())
   hexes().map(hex => new Milieu(hex, milieu.year())).forEach(m => {
     context.beginPath()
-    //context.lineWidth = m.land() > 2 ? 1 : 0.5
+    // context.lineWidth = m.land() > 2 ? 1 : 0.5
     context.fillStyle = context.strokeStyle = stateColor(m.state())
     const coordinates = m.coordinates()
     geoGenerator({ type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates } })
@@ -102,36 +113,29 @@ const update = () => {
     context.beginPath()
     // context.lineWidth = stateName === milieu.state()?.name() ? 2 : 0.5
     context.strokeStyle = 'black'
-    context.shadowColor = "white";
-    context.shadowOffsetX = 1;
-    context.shadowOffsetY = 1;
+    shadowOn()
     context.lineWidth = 3
     geoGenerator({ type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates } })
     context.stroke()
     context.lineWidth = 1
-    context.shadowColor = 'transparent';
-    context.shadowOffsetX = 0;
-    context.shadowOffsetY = 0;
+    shadowOff()
   }
 
-  //context.lineWidth = 0.5
+  context.lineWidth = 0.5
   context.strokeStyle = 'white'
   context.beginPath()
   geoGenerator({ type: 'FeatureCollection', features: geojson.features })
   context.stroke()
+  context.lineWidth = 1
 
   if (milieu.state()) {
     $note.style.display = 'block'
     context.fillStyle = 'black'
-    context.shadowColor = "white";
-    context.shadowOffsetX = 1;
-    context.shadowOffsetY = 1;
+    shadowOn()
     const [hexLat, hexLon] = milieu.latLon()
     const [xx, yy] = projection([hexLon, hexLat])
     context.fillText(milieu.state().name(), xx, yy)
-    context.shadowColor = 'transparent';
-    context.shadowOffsetX = 0;
-    context.shadowOffsetY = 0;
+    shadowOff()
     $note.style.display = 'block'
     // $googleMap.href = `https://www.google.com/maps/place/${milieu.state().name()}`
     $state.innerHTML = milieu.state().name()
