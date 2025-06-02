@@ -301,6 +301,10 @@ Sweden:
   begin: 1000
   end: 2025
   color: '#ffbdb3'
+Gutes:
+  begin: -1500
+  end: 1000
+  color: '#9ac30b'
 Hungary:
   begin: 1000
   end: 2025
@@ -383,6 +387,10 @@ Inuit:
   begin: 1600
   end: 2025
   color: '#e846e1'
+Sámi:
+  begin: -8000
+  end: 2025
+  color: '#0ffada'
 Russian Empire:
   begin: 1721
   end: 1917
@@ -399,6 +407,25 @@ British Empire:
   begin: 1707
   end: 1997
   color: '#60581b'
+Yakuts:
+  begin: 1200
+  end: 2025
+  color: '#8d9639'
+Samoyedic:
+  note: Nenets, Yurats, Enets, Nganasans, Selkups, Kamasins, Mators 
+  begin: -2000
+  end: 2025
+  color: '#3d4f00'
+Yukaghir:
+  note: Indigenous peoples of Northern Siberia
+  begin: -2000
+  end: 2025
+  color: '#8e03d4'
+Tungusic:
+  note: Evens, Evenks
+  begin: -2000
+  end: 2025
+  color: '#3a3f00'
 Empire of Brazil:
   begin: 1822
   end: 1889
@@ -582,6 +609,11 @@ Albania:
   begin: 1912
   end: 2025
   color: '#3df400'
+Yeniseian:
+  note: Ket
+  begin: 1000
+  end: 2025
+  color: '#002f51'
 Finland:
   begin: 1917
   end: 2025
@@ -591,8 +623,14 @@ Austria:
   end: 2025
   color: '#002f51'
 Estonia:
+  note: modern state
   begin: 1918
   end: 2025
+  color: '#00681d'
+Estonians:
+  note: Indigenous people
+  begin: -2000
+  end: 1227
   color: '#00681d'
 Latvia:
   begin: 1918

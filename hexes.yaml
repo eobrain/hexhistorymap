@@ -30,7 +30,10 @@
         place: Barents Sea
         land: 2
     states:
-      Norway: {}
+      Norway:
+        begin: 1397
+      Sámi:
+        end: 1397
     bighex: 81013ffffffffff
     name: Norway N
   '5':
@@ -79,7 +82,8 @@
           Nunavut
         land: 3
     states:
-      Canada: {}
+      Canada:
+        begin: 1900
     bighex: 81023ffffffffff
     name: Queen Elizabeth Islands
   '1':
@@ -113,7 +117,14 @@
             end: 1867
         land: 2
     states:
-      Canada: {}
+      Canada:
+        begin: 1900
+      Inuit:
+        end: 1900
+      Thule:
+        begin: 1200
+      Dorset:
+        end: 1200
     bighex: 81027ffffffffff
     name: Baffin Bay W
   '2':
@@ -123,7 +134,8 @@
         place: Inuvik Region, Northwest Territories
         land: 3
     states:
-      Canada: {}
+      Canada:
+        begin: 1900
     bighex: 8102bffffffffff
     name: Banks Island
   '3':
@@ -149,7 +161,14 @@
         place: Inuvik Region, Northwest Territories
         land: 4
     states:
-      Canada: {}
+      Canada:
+        begin: 1900
+      Inuit:
+        end: 1900
+      Thule:
+        begin: 1200
+      Dorset:
+        end: 1200
     bighex: 8102fffffffffff
     name: Victoria Island
   '5':
@@ -185,13 +204,15 @@
         name: Ellesmere Island NW
         place: Qikiqtaaluk Region, Nunavut
         states:
-          Canada: {}
+          Canada:
+            begin: 1900
         land: 6
       82035ffffffffff:
         name: Ellesmere Island E
         place: Qikiqtaaluk Region, Nunavut
         states:
-          Canada: {}
+          Canada:
+            begin: 1900
           Dorset:
             begin: 700
             end: 1300
@@ -233,6 +254,9 @@
       Russian Empire: {}
       Tsardom of Russia:
         begin: 1638
+      Yakuts:
+        begin: 1400
+        end: 1638
     bighex: 81043ffffffffff
   '2':
     hexes:
@@ -270,8 +294,14 @@
       Russian Empire: {}
       Tsardom of Russia:
         begin: 1638
+      Yakuts:
+        begin: 1200
+        end: 1638
+      Yukaghir:
+        begin: -2000
+        end: 1200
     bighex: 8104bffffffffff
-    name: Sakha Republic W
+    name: Indigirka River
   '3':
     hexes:
       8204c7fffffffff:
@@ -303,8 +333,17 @@
       USSR: {}
       Russian Empire:
         begin: 1778
+      Yukaghir:
+        begin: -2000
+        end: 1100
+      Tungusic:
+        begin: 1100
+        end: 1778
+      Yakuts:
+        begin: 1650
+        end: 1778
     bighex: 8104fffffffffff
-    name: Sakha Republic E
+    name: Kolyma River
   '4':
     hexes:
       820517fffffffff:
@@ -313,6 +352,8 @@
         states:
           Russian Empire:
             begin: 1778
+          Samoyedic:
+            end: 1778
         land: 4
       820527fffffffff:
         name: Severnaya Zemlya islands
@@ -331,6 +372,8 @@
         states:
           Russian Empire:
             begin: 1778
+          Samoyedic:
+            end: 1778
         land: 4
     states:
       Russia: {}
@@ -373,6 +416,14 @@
       Russian Empire: {}
       Tsardom of Russia:
         begin: 1638
+      Yukaghir:
+        end: 1300
+      Tungusic:
+        begin: 1300
+        end: 1400
+      Yakuts:
+        begin: 1400
+        end: 1638
     bighex: 8105bffffffffff
     name: Lena River
 '3':
@@ -613,6 +664,9 @@
         states:
           Norway: {}
         land: 2
+    states:
+      Sámi:
+        end: 885
     bighex: 81083ffffffffff
     name: Central Norway
   '2':
@@ -656,6 +710,8 @@
           Denmark:
             end: 1345
             begin: 1227
+          Estonians:
+            end: 1227
           Estonia: {}
         land: 3
       8208a7fffffffff:
@@ -663,24 +719,31 @@
         place: Malung-Sälens kommun, interior southern region
         states:
           Sweden: {}
+          Sámi:
+            end: 1000
         land: 7
       8208affffffffff:
         name: Sweden coast
         place: Gamla Klingstavägen, Tuna District, central coastal
         states:
           Sweden: {}
+          Sámi:
+            end: 1000
         land: 5
       8208b7fffffffff:
         name: Sweden S
         place: Karlsborgs kommun, interior far south region
         states:
           Sweden: {}
+          Sámi:
+            end: 1000
         land: 6
       820897fffffffff:
         name: Gotland
         place: Fårö Vinorvägen, Gotland Municipality
         states:
           Sweden: {}
+          Gutes: {}
         land: 2
     bighex: 8108bffffffffff
     name: Baltic
@@ -692,7 +755,7 @@
         states:
           Finland: {}
           Sweden:
-            begin: 1280
+            begin: 1600
             end: 1809
           Russian Empire:
             begin: 1809
@@ -704,7 +767,7 @@
         states:
           Finland: {}
           Sweden:
-            begin: 1280
+            begin: 1600
             end: 1809
           Russian Empire:
             begin: 1809
@@ -716,7 +779,7 @@
         states:
           Finland: {}
           Sweden:
-            begin: 1280
+            begin: 1600
             end: 1809
           Russian Empire:
             begin: 1809
@@ -728,7 +791,7 @@
         states:
           Finland: {}
           Sweden:
-            begin: 1280
+            begin: 1600
             end: 1809
           Russian Empire:
             begin: 1809
@@ -738,20 +801,26 @@
         name: Swedish Laplan
         place: Jokkmokks kommun, Norrbotten County, Lapland
         states:
-          Sweden: {}
+          Sweden:
+            begin: 1600
         land: 7
       8208effffffffff:
         name: Kiruna
         place: Kiruna kommun, Norrbotten County, northern Lapland
         states:
-          Sweden: {}
+          Sweden:
+            begin: 1600
         land: 7
       8208f7fffffffff:
         name: Umeå
         place: Grans sameby, north eastern coast
         states:
-          Sweden: {}
+          Sweden:
+            begin: 1600
         land: 4
+    states:
+      Sámi:
+        end: 1600
     bighex: 8108fffffffffff
     name: Lapland
   '6':
@@ -1026,6 +1095,11 @@
             begin: 1600
         land: 7
     states:
+      Yeniseian:
+        end: 1500
+      Samoyedic:
+        begin: 1500
+        end: 1619
       Tsardom of Russia:
         begin: 1619
       Russian Empire: {}
