@@ -1,5 +1,5 @@
 import { select, pointer } from 'https://esm.sh/d3-selection'
-import { geoPath, geoOrthographic /*, geoGraticule */ } from 'https://esm.sh/d3-geo'
+import { geoPath, geoOrthographic, geoGraticule } from 'https://esm.sh/d3-geo'
 import { json } from 'https://esm.sh/d3-fetch'
 import { Milieu, State, stateCoordinates, locateHex, yearRange, hexes } from './model.js'
 import regioncode2state from './regioncode2state.js'
@@ -28,13 +28,14 @@ $canvas.height = $canvas.width
 
 const hammertime = new Hammer($canvas)
 hammertime.get('pan').set({ direction: Hammer.DIRECTION_ALL })
+hammertime.get('pinch').set({ enable: true })
 
 const d3Canvas = select('#map')
 const canvas = d3Canvas.node()
 const context = canvas.getContext('2d')
 
 context.fillStyle = 'black'
-context.font = '12px sans-serif'
+context.font = '16px sans-serif'
 context.textAlign = 'center'
 context.textBaseline = 'middle'
 
@@ -74,8 +75,8 @@ const updateYear = (newYear) => {
 
 const shadowOn = () => {
   context.shadowColor = 'white'
-  context.shadowOffsetX = 1
-  context.shadowOffsetY = 1
+  context.shadowOffsetX = 2
+  context.shadowOffsetY = 2
 }
 const shadowOff = () => {
   context.shadowColor = 'transparent'
@@ -112,6 +113,12 @@ const update = () => {
   context.globalCompositeOperation = 'source-over'
   context.lineWidth = 1
 
+  const graticule = geoGraticule()
+  context.beginPath()
+  context.strokeStyle = '#88888822'
+  geoGenerator(graticule())
+  context.stroke()
+
   context.strokeStyle = 'white'
   context.beginPath()
   geoGenerator(rivers)
@@ -123,7 +130,9 @@ const update = () => {
   context.fill()
 
   if (milieu.state()) {
-    const coordinates = coordinatesOfStates[milieu.state().name()]
+    const coordinates = coordinatesOfStates[milieu.state().name()].map(a =>
+      a.map(b => b.reverse())
+    )
     context.beginPath()
     // context.lineWidth = stateName === milieu.state()?.name() ? 2 : 0.5
     context.strokeStyle = 'black'
@@ -173,13 +182,22 @@ const update = () => {
 
 updateLocation(localeLat, localeLon)
 
-// const scale = projection.scale()
+const initialProjScale = projection.scale()
 
 hammertime.on('pan', (event) => {
   projectionLat += event.deltaY / 100.0
   projectionLon -= event.deltaX / 100.0
   projectionLat = Math.max(-90, Math.min(projectionLat, 90))
   updateLocation(projectionLat, projectionLon)
+})
+
+hammertime.on('pinch', function (ev) {
+  const scale = projection.scale()
+  const newScale = initialProjScale * ev.scale
+  projection.scale(newScale)
+  // projection.translate([canvas.width / 2, canvas.height / 2])
+  update()
+  console.log(ev.scale, scale, newScale)
 })
 
 d3Canvas.on('click', (event) => {
