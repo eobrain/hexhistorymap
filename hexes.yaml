@@ -1133,6 +1133,12 @@
     states:
       Russia: {}
       USSR: {}
+      Russian Empire: {}
+      Tsardom of Russia:
+        begin: 1604
+      Yeniseian:
+        begin: 950
+        end: 1604
     bighex: 810bbffffffffff
     name: West Siberian Plain S
 '6':
@@ -1155,6 +1161,7 @@
         land: 7
       820c37fffffffff:
         place: Northwest Arctic Borough, Alaska
+        states:
         land: 5
     states:
       USA:
@@ -1162,6 +1169,12 @@
       Russian Empire:
         begin: 1784
         end: 1867
+      Thule:
+        begin: 950
+        end: 1500
+      Yup'ik:
+        begin: 1500
+        end: 1784
     bighex: 810c3ffffffffff
     name: Alaska W
   '1':
@@ -1184,6 +1197,12 @@
       Russian Empire:
         begin: 1784
         end: 1867
+      Athabascans:
+        begin: 500
+        end: 1784
+      Kachemak:
+        begin: -1000
+        end: 500
     bighex: 810c7ffffffffff
     name: Anchorage region
   '2':
@@ -1197,6 +1216,9 @@
       Russian Empire:
         begin: 1784
         end: 1867
+      Yup'ik:
+        begin: 1500
+        end: 1784
     bighex: 810cbffffffffff
     name: Bering Sea
   '3':
@@ -1216,6 +1238,12 @@
       Russian Empire:
         begin: 1784
         end: 1867
+      Yup'ik:
+        begin: 1000
+        end: 1784
+      Kachemak:
+        begin: -1500
+        end: 1000
     bighex: 810cfffffffffff
     name: Aleutian Peninsula
   '4':

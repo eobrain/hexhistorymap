@@ -136,11 +136,25 @@ Japan:
   begin: -660
   end: 2025
   color: '#ff9487'
+Yup'ik:
+  note: Alutiiq, Sugpiaq
+  begin: -2000
+  end: 2025
+  color: '#851316'
 Thule:
   note: Ancestral inuit culture
   begin: -200
   end: 1600
   color: '#298b62'
+Athabascans:
+  note: Dena, Navajo, Apache
+  begin: -2000
+  end: 2025
+  color: '#b2682a'
+Kachemak:
+  begin: -1000
+  end: 500
+  color: '#9e8600'
 Umayyad Caliphate:
   begin: 661
   end: 750
@@ -611,7 +625,7 @@ Albania:
   color: '#3df400'
 Yeniseian:
   note: Ket
-  begin: 1000
+  begin: 950
   end: 2025
   color: '#002f51'
 Finland:
