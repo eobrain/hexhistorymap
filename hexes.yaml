@@ -2322,12 +2322,18 @@
         land: 4
       821b97fffffffff:
         place: Petit-Mécatina, Quebec
+        states:
+          Innu:
+            end: 1770
         land: 4
       821b9ffffffffff:
         place: Newfoundland
         land: 5
       821bb7fffffffff:
         place: Labrador, Newfoundland and Labrador
+        states:
+          Innu:
+            end: 1770
         land: 7
     states:
       Canada: {}

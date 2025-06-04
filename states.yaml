@@ -397,6 +397,11 @@ Inuit:
   begin: -2000
   end: 2025
   color: '#e846e1'
+Innu:
+  note: Naskapi, Montagnais
+  begin: -2000
+  end: 2025
+  color: '#9233f9'
 Sámi:
   begin: -8000
   end: 2025
