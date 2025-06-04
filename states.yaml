@@ -136,11 +136,6 @@ Japan:
   begin: -660
   end: 2025
   color: '#ff9487'
-Yup'ik:
-  note: Alutiiq, Sugpiaq
-  begin: -2000
-  end: 2025
-  color: '#851316'
 Thule:
   note: Ancestral inuit culture
   begin: -200
@@ -398,7 +393,8 @@ Netherlands:
   end: 2025
   color: '#530a42'
 Inuit:
-  begin: 1600
+  note: Yup'ik (Alutiiq, Sugpiaq)
+  begin: -2000
   end: 2025
   color: '#e846e1'
 Sámi:

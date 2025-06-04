@@ -114,12 +114,14 @@
           Thule:
             begin: 1300
           Inuit:
+            begin: 1600
             end: 1867
         land: 2
     states:
       Canada:
         begin: 1900
       Inuit:
+        begin: 1600
         end: 1900
       Thule:
         begin: 1200
@@ -164,6 +166,7 @@
       Canada:
         begin: 1900
       Inuit:
+        begin: 1600
         end: 1900
       Thule:
         begin: 1200
@@ -198,6 +201,7 @@
           Thule:
             begin: 1300
           Inuit:
+            begin: 1600
             end: 1721
         land: 7
       820357fffffffff:
@@ -220,6 +224,7 @@
             begin: 1300
             end: 1400
           Inuit:
+            begin: 1600
             end: 1867
         land: 5
       820367fffffffff:
@@ -436,6 +441,7 @@
           Thule:
             begin: 1500
           Inuit:
+            begin: 1600
             end: 1721
         land: 7
       82060ffffffffff:
@@ -445,6 +451,7 @@
           Thule:
             begin: 1500
           Inuit:
+            begin: 1600
             end: 1721
         land: 4
       820617fffffffff:
@@ -462,6 +469,7 @@
           Thule:
             begin: 1500
           Inuit:
+            begin: 1600
             end: 1721
         land: 3
       820637fffffffff:
@@ -482,6 +490,7 @@
           Thule:
             begin: 1400
           Inuit:
+            begin: 1600
             end: 1721
         land: 6
       82068ffffffffff:
@@ -493,6 +502,7 @@
           Thule:
             begin: 1400
           Inuit:
+            begin: 1600
             end: 1721
         land: 5
       8206a7fffffffff:
@@ -514,6 +524,7 @@
           Thule:
             begin: 1300
           Inuit:
+            begin: 1600
             end: 1721
         land: 2
     states:
@@ -533,6 +544,7 @@
           Thule:
             begin: 1500
           Inuit:
+            begin: 1600
             end: 1721
         land: 7
       8206cffffffffff:
@@ -542,6 +554,7 @@
           Thule:
             begin: 1500
           Inuit:
+            begin: 1600
             end: 1721
         land: 5
       8206d7fffffffff:
@@ -551,6 +564,7 @@
           Thule:
             begin: 1500
           Inuit:
+            begin: 1600
             end: 1721
         land: 3
       8206e7fffffffff:
@@ -560,6 +574,7 @@
           Thule:
             begin: 1500
           Inuit:
+            begin: 1600
             end: 1721
         land: 7
       8206effffffffff:
@@ -569,6 +584,7 @@
           Thule:
             begin: 1500
           Inuit:
+            begin: 1600
             end: 1721
         land: 5
       8206f7fffffffff:
@@ -1172,7 +1188,7 @@
       Thule:
         begin: 950
         end: 1500
-      Yup'ik:
+      Inuit:
         begin: 1500
         end: 1784
     bighex: 810c3ffffffffff
@@ -1216,7 +1232,7 @@
       Russian Empire:
         begin: 1784
         end: 1867
-      Yup'ik:
+      Inuit:
         begin: 1500
         end: 1784
     bighex: 810cbffffffffff
@@ -1238,7 +1254,7 @@
       Russian Empire:
         begin: 1784
         end: 1867
-      Yup'ik:
+      Inuit:
         begin: 1000
         end: 1784
       Kachemak:
@@ -1260,6 +1276,12 @@
       Russian Empire:
         begin: 1784
         end: 1867
+      Thule:
+        begin: 950
+        end: 1500
+      Inuit:
+        begin: 1500
+        end: 1784
     bighex: 810d3ffffffffff
     name: Alaska N
   '5':
@@ -2283,6 +2305,7 @@
       Thule:
         begin: 1500
       Inuit:
+        begin: 1600
         end: 1721
     bighex: 811b3ffffffffff
   '6':
