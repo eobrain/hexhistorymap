@@ -83,6 +83,25 @@ test('Bay Area history', () => {
   assert.strictEqual(spanish.name(), 'Spain')
 })
 
+test('Labrador', () => {
+  const hex = hexes().find(hex => hex.hasCellCode('821bb7fffffffff'))
+
+  assert.strictEqual(new Milieu(hex, 2025).state().name(), 'Canada')
+  assert.strictEqual(new Milieu(hex, 1810).state().name(), 'Britain')
+  assert.strictEqual(new Milieu(hex, 1750).state().name(), 'France')
+  assert.strictEqual(new Milieu(hex, 1720).state().name(), 'France')
+  assert.strictEqual(new Milieu(hex, 1400).state().name(), 'Innu')
+})
+
+test('Newfoundland', () => {
+  const hex = hexes().find(hex => hex.hasCellCode('821b9ffffffffff'))
+
+  assert.strictEqual(new Milieu(hex, 2025).state().name(), 'Canada')
+  assert.strictEqual(new Milieu(hex, 1810).state().name(), 'Britain')
+  assert.strictEqual(new Milieu(hex, 1750).state().name(), 'Britain')
+  assert.strictEqual(new Milieu(hex, 1720).state().name(), 'France')
+})
+
 test('region codes', () => {
   for (const regionCode of Object.keys(regioncode2state)) {
     const stateName = regioncode2state[regionCode]

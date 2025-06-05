@@ -131,7 +131,7 @@ export default {
   TN: 'Tunisia',
   TR: 'Turkey',
   TM: 'Turkmenistan',
-  GB: 'UK',
+  GB: 'Britain',
   US: 'USA',
   UG: 'Uganda',
   UA: 'Ukraine',

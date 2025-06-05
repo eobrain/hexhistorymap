@@ -2222,7 +2222,7 @@
         land: 4
     states:
       Ireland: {}
-      UK: {}
+      Britain: {}
     bighex: 81183ffffffffff
   '1':
     hexes:
@@ -2244,14 +2244,14 @@
         place: Galmisdale
         land: 3
     states:
-      UK: {}
+      Britain: {}
     bighex: 81193ffffffffff
   '5':
     hexes:
       821947fffffffff:
         place: England
         states:
-          UK: {}
+          Britain: {}
         land: 4
       82194ffffffffff:
         place: Metropolitan France
@@ -2261,17 +2261,17 @@
       821957fffffffff:
         place: Isle of Man
         states:
-          UK: {}
+          Britain: {}
         land: 3
       82195ffffffffff:
         place: Aylburton
         states:
-          UK: {}
+          Britain: {}
         land: 7
       821977fffffffff:
         place: North Sea
         states:
-          UK: {}
+          Britain: {}
         land: 3
       82196ffffffffff:
         name: Netherlands
@@ -2314,26 +2314,54 @@
         name: L'Anse aux Meadows
         place: Labrador, Newfoundland and Labrador
         states:
+          Dorset:
+            end: 700
           Norway:
             begin: 1005
             end: 1024
-          Dorset:
-            end: 700
+          Basque:
+            begin: 1530
+            end: 1620
+          France:
+            begin: 1713
+            end: 1763
+          Britain:
+            begin: 1763
+            end: 1867
         land: 4
       821b97fffffffff:
         place: Petit-Mécatina, Quebec
         states:
           Innu:
-            end: 1770
+            end: 1713
+          France:
+            begin: 1713
+            end: 1763
+          Britain:
+            begin: 1763
+            end: 1867
         land: 4
       821b9ffffffffff:
         place: Newfoundland
+        states:
+          France:
+            begin: 1680
+            end: 1722
+          Britain:
+            begin: 1722
+            end: 1867
         land: 5
       821bb7fffffffff:
         place: Labrador, Newfoundland and Labrador
         states:
           Innu:
-            end: 1770
+            end: 1713
+          France:
+            begin: 1713
+            end: 1763
+          Britain:
+            begin: 1763
+            end: 1867
         land: 7
     states:
       Canada: {}
@@ -4393,7 +4421,7 @@
         place: Raghunathpur
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -4401,7 +4429,7 @@
         place: Bihar
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -4442,7 +4470,7 @@
         place: Hunli SDO
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -4484,7 +4512,7 @@
         land: 7
     states:
       India: {}
-      UK:
+      Britain:
         begin: 1858
         end: 1947
     bighex: 813cbffffffffff
@@ -4509,7 +4537,7 @@
         place: Dudhnai, Assam
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -4517,7 +4545,7 @@
         place: Tsiemekhuma, Botsa
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -4543,7 +4571,7 @@
         place: Mach, Himachal Pradesh
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -4566,7 +4594,7 @@
         place: taddi, Doda
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -4622,7 +4650,7 @@
         land: 7
     states:
       India: {}
-      UK:
+      Britain:
         begin: 1858
         end: 1947
     bighex: 813dbffffffffff
@@ -5069,7 +5097,7 @@
         place: Jandwala Kharta, Punjab
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -5082,7 +5110,7 @@
         place: Raoneri - 334302, Rajasthan
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -5108,7 +5136,7 @@
         place: Jodiya - 361250, Gujarat
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -5116,7 +5144,7 @@
         place: Balasinor - 388255, Gujarat
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -5124,7 +5152,7 @@
         place: India
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 4
@@ -5137,7 +5165,7 @@
         place: Rajasthan
         states:
           India: {}
-          UK:
+          Britain:
             begin: 1858
             end: 1947
         land: 7
@@ -6321,7 +6349,7 @@
         land: 2
     states:
       India: {}
-      UK:
+      Britain:
         begin: 1858
         end: 1947
     bighex: 81603ffffffffff
@@ -6350,7 +6378,7 @@
         land: 7
     states:
       India: {}
-      UK:
+      Britain:
         begin: 1858
         end: 1947
     bighex: 8160bffffffffff
@@ -6379,7 +6407,7 @@
         land: 2
     states:
       India: {}
-      UK:
+      Britain:
         begin: 1858
         end: 1947
     bighex: 8161bffffffffff
@@ -9322,7 +9350,7 @@
         place: Falkland Islands
         land: 2
     states:
-      UK: {}
+      Britain: {}
     bighex: 81de7ffffffffff
   '4':
     hexes:

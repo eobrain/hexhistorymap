@@ -230,14 +230,9 @@ Kingdom of Poland:
   begin: 1025
   end: 1569
   color: '#966117'
-Kingdom of England:
-  note: Pre-Great Britain/UK
-  begin: 927
-  end: 1707
-  color: '#783e00'
 England:
   begin: 927
-  end: 1707
+  end: 1603
   color: '#731124'
 Teutonic Order:
   begin: 1230
@@ -264,11 +259,6 @@ Oman:
   begin: 751
   end: 2025
   color: '#fea8a8'
-Kingdom of France:
-  note: Capetian and Valois periods, distinct from modern France entry if desired
-  begin: 987
-  end: 1792
-  color: '#957b05'
 Grand Duchy of Lithuania:
   note: Pre-Commonwealth
   begin: 1236
@@ -418,10 +408,6 @@ Gran Colombia:
   begin: 1819
   end: 1831
   color: '#5e6508'
-British Empire:
-  begin: 1707
-  end: 1997
-  color: '#60581b'
 Yakuts:
   begin: 1200
   end: 2025
@@ -467,8 +453,8 @@ USA:
   begin: 1776
   end: 2025
   color: '#597200'
-UK:
-  begin: 1801
+Britain:
+  begin: 1603
   end: 2025
   color: '#757d2e'
 Ecuador:
@@ -903,6 +889,11 @@ Fiji:
   begin: 1970
   end: 2025
   color: '#09bc90'
+Basque:
+  note: North Atlantic fishing culture
+  begin: 1530
+  end: 1760
+  color: '#008ead'
 Bangladesh:
   begin: 1971
   end: 2025
