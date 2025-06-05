@@ -2372,38 +2372,118 @@
       821e07fffffffff:
         place: Horné Naštice
         states:
+          Hungary:
+            begin: 991
+            end: 1699
+          Austria:
+            begin: 1699
+            end: 1867
+          Austro-Hungary:
+            begin: 1867
+            end: 1918
+          Germany:
+            begin: 1939
+            end: 1945
           Slovakia: {}
           Czechoslovakia: {}
         land: 7
       821e0ffffffffff:
         place: Nagyecsed
         states:
+          Ottomans:
+            begin: 1566
+            end: 1699
+          Austria:
+            begin: 1699
+            end: 1867
+          Austro-Hungary:
+            begin: 1867
+            end: 1918
+          Germany:
+            begin: 1944
+            end: 1945
           Hungary: {}
         land: 7
       821e17fffffffff:
         place: Deutschlandsberg, Bezirk Deutschlandsberg
         states:
+          Holy Roman Empire:
+            begin: 962
+            end: 1156
+          Austro-Hungary:
+            begin: 1867
+            end: 1918
+          Germany:
+            begin: 1938
+            end: 1945
           Austria: {}
         land: 7
       821e1ffffffffff:
         place: Ridjica, West Backa Administrative District
         states:
-          Serbia: {}
-          Yugoslavia: {}
+          Ottomans:
+            begin: 1566
+            end: 1717
+          Austria:
+            begin: 1717
+            end: 1867
+          Austro-Hungary:
+            begin: 1867
+            end: 1918
+          Germany:
+            begin: 1944
+            end: 1945
+          Hungary: {}
         land: 7
       821e27fffffffff:
-        place: Olszówka
+        place: Olszówka, Wroclaw
         states:
+          Austria:
+            begin: 1570
+            end: 1808
+          Prussia:
+            begin: 1808
+            end: 1871
+          Germany:
+            begin: 1871
+            end: 1945
           Poland: {}
         land: 7
       821e2ffffffffff:
         place: Jana Pawła II,  Stale
         states:
+          Poland-Lithuania:
+            begin: 1569
+            end: 1795
+          France:
+            begin: 1807
+            end: 1816
+          Russia:
+            begin: 1816
+            end: 1918
+          Germany:
+            begin: 1939
+            end: 1945
           Poland: {}
         land: 7
       821e37fffffffff:
         place: 83, 398 04 Králova Lhota
         states:
+          Holy Roman Empire:
+            begin: 870
+            end: 1198
+          Bohemia:
+            begin: 1198
+            end: 1805
+          Austria:
+            begin: 1815
+            end: 1867
+          Austro-Hungary:
+            begin: 1867
+            end: 1918
+          Germany:
+            begin: 1939
+            end: 1945
           Czechia: {}
           Czechoslovakia: {}
         land: 7

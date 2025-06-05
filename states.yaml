@@ -305,7 +305,7 @@ Gutes:
   end: 1000
   color: '#9ac30b'
 Hungary:
-  begin: 1000
+  begin: 991
   end: 2025
   color: '#54001f'
 Songhai Empire:
@@ -316,10 +316,18 @@ Portugal:
   begin: 1139
   end: 2025
   color: '#b3de00'
-Ottoman Empire:
+Ottomans:
   begin: 1299
   end: 1922
   color: '#660e3b'
+Prussia:
+  begin: 1701
+  end: 1871
+  color: '#82582b'
+Bohemia:
+  begin: 1198
+  end: 1806
+  color: '#95a41c'
 Safavid Empire:
   begin: 1501
   end: 1736
@@ -332,7 +340,7 @@ Tsardom of Russia:
   begin: 1547
   end: 1721
   color: '#7a650f'
-Polish-Lithuanian Commonwealth:
+Poland-Lithuania:
   begin: 1569
   end: 1795
   color: '#fda6d5'
@@ -436,15 +444,10 @@ Qajar Dynasty:
   begin: 1789
   end: 1925
   color: '#798a22'
-Austro-Hungarian Empire:
+Austro-Hungary:
   begin: 1867
   end: 1918
   color: '#3b3000'
-Second French Colonial Empire:
-  note: Similar to above
-  begin: 1830
-  end: 1962
-  color: '#362403'
 Nepal:
   begin: 1768
   end: 2025
@@ -620,7 +623,7 @@ Finland:
   end: 2025
   color: '#1e1f9c'
 Austria:
-  begin: 1918
+  begin: 1156
   end: 2025
   color: '#002f51'
 Estonia:
@@ -642,7 +645,8 @@ Lithuania:
   end: 2025
   color: '#005432'
 Poland:
-  begin: 1918
+  note: Duchy of Poland, Kingdom of Poland, modern Poland
+  begin: 966
   end: 2025
   color: '#187840'
 Iceland:
