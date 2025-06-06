@@ -5,36 +5,46 @@ import stateData from './states.js'
 /* global h3 */
 
 class Hex {
-  #parent
   #cellCode
   #valid
+  #land
+  #place
+  #index
+  #name
+  #parent
 
-  constructor (cellCode) {
+  constructor (cellCode, parent, cellData) {
     this.#cellCode = cellCode
-    const fourHexDigits = cellCode.replace(/82(....)fffffffff/, '$1')
-    const int = parseInt(fourHexDigits, 16)
-    const base = (int >> 9) & 0x7f
-    if (!hexData[base]) {
-      this.#valid = false
-      return
+    if (!parent || !cellData) {
+      const fourHexDigits = cellCode.replace(/82(....)fffffffff/, '$1')
+      const int = parseInt(fourHexDigits, 16)
+      const base = (int >> 9) & 0x7f
+      if (!hexData[base]) {
+        this.#valid = false
+        return
+      }
+      const index1 = (int >> 6) & 0x7
+      parent = hexData[base][index1]
+      cellData = parent.hexes[cellCode]
     }
-    const index1 = (int >> 6) & 0x7
-    this.#parent = hexData[base][index1]
-    this.#valid = this.#parent && this.#parent.hexes && this.#parent.hexes[cellCode]
+    this.#parent = parent
+    this.#index = cellData.index
+    this.#land = cellData.land
+    this.#place = cellData.place
+    this.#name = cellData.name || this.#place || '????'
+    this.#valid = true
   }
 
   place () {
-    return this.#valid ? this.#parent.hexes[this.#cellCode].place : 'Ocean'
+    return this.#place
   }
 
   land () {
-    return this.#valid ? this.#parent.hexes[this.#cellCode].land : 0
+    return this.#land
   }
 
   name () {
-    return this.#valid
-      ? (this.#parent.hexes[this.#cellCode].name || this.place())
-      : 'Ocean'
+    return this.#name
   }
 
   stateNames () {
@@ -48,6 +58,10 @@ class Hex {
 
   isValid () {
     return this.#valid
+  }
+
+  index () {
+    return this.#index
   }
 
   #stateRange (stateName) {
@@ -106,15 +120,27 @@ class Hex {
 const hexesArray = []
 for (const base of Object.keys(hexData)) {
   for (const index1 of Object.keys(hexData[base])) {
-    const hexes = hexData[base][index1].hexes
-    for (const cellCode of Object.keys(hexes)) {
-      hexesArray.push(new Hex(cellCode))
+    const parent = hexData[base][index1]
+    for (const cellCode of Object.keys(parent.hexes)) {
+      hexesArray.push(new Hex(cellCode, parent, parent.hexes[cellCode]))
     }
   }
 }
 export const hexes = () => hexesArray
 
-export const locateHex = (lat, lon) => new Hex(h3.latLngToCell(lat, lon, 2))
+export const locateHex = (lat, lon) => {
+  const point = [lat, lon]
+  let closestHex
+  let closestDistance = Infinity
+  for (const hex of hexesArray) {
+    const distance = h3.greatCircleDistance(point, hex.latLon(), h3.UNITS.rads)
+    if (distance < closestDistance) {
+      closestDistance = distance
+      closestHex = hex
+    }
+  }
+  return closestHex
+}
 
 export const stateCoordinates = (year) => {
   const stateCells = {}

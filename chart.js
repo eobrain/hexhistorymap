@@ -15,7 +15,7 @@ const annotationCtx = $annotation.getContext('2d')
 let prevX
 let prevY = 0
 
-const drawYear = year => {
+const drawYear = (year, hex) => {
   // chartCtx.fillStyle = 'white'
   annotationCtx.clearRect(0, 0, WIDTH, HEIGHT)
   const x = year - minYear
@@ -25,10 +25,14 @@ const drawYear = year => {
   annotationCtx.lineTo(x, HEIGHT - 1)
   annotationCtx.stroke()
   prevX = x
+
+  if (hex) {
+    prevY = hex.index()
+  }
 }
 
-export const updateChart = year => {
-  drawYear(year)
+export const updateChart = (year, hex) => {
+  drawYear(year, hex)
 }
 
 export const drawChart = (year, panCallback) => {

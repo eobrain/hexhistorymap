@@ -65,12 +65,12 @@ const updateLocation = (lat, lon) => {
     $note.style.display = 'none'
   }
   update()
+  updateChart(milieu.year(), hex)
 }
 
 const updateYear = (newYear) => {
   milieu = milieu.inDifferentYear(newYear)
   update()
-  updateChart(newYear)
 }
 
 const shadowOn = () => {
@@ -211,9 +211,11 @@ drawChart(maxYear, (x, hex) => {
   updatedYear = Math.max(minYear, Math.min(updatedYear, maxYear))
   if (updatedYear !== milieu.year()) {
     updateYear(updatedYear)
+    updateChart(updatedYear, hex)
   }
-  const [lat, lon] = hex.latLon()
-  updateLocation(lat, lon)
-  console.log(`Year: ${updatedYear}`)
+  if (hex) {
+    const [lat, lon] = hex.latLon()
+    updateLocation(lat, lon)
+  }
 })
 update()

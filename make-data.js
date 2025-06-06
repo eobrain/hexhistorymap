@@ -27,6 +27,7 @@ class Hex {
       this.#parent.hexes[cellCode] = { place: hexList[cellCode].place, states: {} }
     }
     this.#parent.hexes[cellCode].land = hexList[cellCode].land
+    this.#parent.hexes[cellCode].index = Object.keys(hexList).findIndex(c => c === cellCode)
 
     if (!this.#parent.bighex) {
       this.#parent.bighex = h3.cellToParent(cellCode, 1)
