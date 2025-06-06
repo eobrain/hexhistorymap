@@ -1,3 +1,7 @@
+Sámi:
+  begin: -8000
+  end: 2025
+  color: '#0ffada'
 Old Kingdom of Egypt:
   begin: -2686
   end: -2181
@@ -48,6 +52,11 @@ Achaemenid Empire:
   begin: -550
   end: -330
   color: '#a52900'
+Estonians:
+  note: Indigenous people
+  begin: -2000
+  end: 1227
+  color: '#00681d'
 Scythians:
   note: Broad cultural/political entity
   begin: -800
@@ -57,6 +66,14 @@ Maurya Empire:
   begin: -322
   end: -185
   color: '#b24400'
+Kachemak:
+  begin: -1000
+  end: 500
+  color: '#9e8600'
+Gutes:
+  begin: -1500
+  end: 1000
+  color: '#9ac30b'
 Seleucid Empire:
   begin: -312
   end: -63
@@ -81,6 +98,36 @@ Han Dynasty:
   begin: -206
   end: 220
   color: '#a81030'
+Athabascans:
+  note: Dena, Navajo, Apache
+  begin: -2000
+  end: 2025
+  color: '#b2682a'
+Inuit:
+  note: Yup'ik (Alutiiq, Sugpiaq)
+  begin: -2000
+  end: 2025
+  color: '#e846e1'
+Innu:
+  note: Naskapi, Montagnais
+  begin: -2000
+  end: 2025
+  color: '#9233f9'
+Samoyedic:
+  note: Nenets, Yurats, Enets, Nganasans, Selkups, Kamasins, Mators
+  begin: -2000
+  end: 2025
+  color: '#3d4f00'
+Yukaghir:
+  note: Indigenous peoples of Northern Siberia
+  begin: -2000
+  end: 2025
+  color: '#8e03d4'
+Tungusic:
+  note: Evens, Evenks
+  begin: -2000
+  end: 2025
+  color: '#3a3f00'
 Kushan Empire:
   begin: 30
   end: 375
@@ -141,15 +188,6 @@ Thule:
   begin: -200
   end: 1600
   color: '#298b62'
-Athabascans:
-  note: Dena, Navajo, Apache
-  begin: -2000
-  end: 2025
-  color: '#b2682a'
-Kachemak:
-  begin: -1000
-  end: 500
-  color: '#9e8600'
 Umayyad Caliphate:
   begin: 661
   end: 750
@@ -216,6 +254,10 @@ Ayyubid Sultanate:
   begin: 1171
   end: 1260
   color: '#ff93b4'
+England:
+  begin: 927
+  end: 1603
+  color: '#731124'
 Kingdom of Scotland:
   note: Pre-Great Britain/UK
   begin: 843
@@ -230,10 +272,6 @@ Kingdom of Poland:
   begin: 1025
   end: 1569
   color: '#966117'
-England:
-  begin: 927
-  end: 1603
-  color: '#731124'
 Teutonic Order:
   begin: 1230
   end: 1466
@@ -292,22 +330,32 @@ Denmark:
   begin: 950
   end: 2025
   color: '#aa11b0'
+Yeniseian:
+  note: Ket
+  begin: 950
+  end: 2025
+  color: '#002f51'
 Vijayanagara Empire:
   begin: 1336
   end: 1646
   color: '#bb7372'
-Sweden:
-  begin: 1000
+Poland:
+  note: Duchy of Poland, Kingdom of Poland, modern Poland
+  begin: 966
   end: 2025
-  color: '#ffbdb3'
-Gutes:
-  begin: -1500
-  end: 1000
-  color: '#9ac30b'
+  color: '#187840'
+Bohemia:
+  begin: 1198
+  end: 1806
+  color: '#95a41c'
 Hungary:
   begin: 991
   end: 2025
   color: '#54001f'
+Sweden:
+  begin: 1000
+  end: 2025
+  color: '#ffbdb3'
 Songhai Empire:
   begin: 1464
   end: 1591
@@ -316,18 +364,18 @@ Portugal:
   begin: 1139
   end: 2025
   color: '#b3de00'
+Austria:
+  begin: 1156
+  end: 2025
+  color: '#002f51'
 Ottomans:
   begin: 1299
   end: 1922
   color: '#660e3b'
-Prussia:
-  begin: 1701
-  end: 1871
-  color: '#82582b'
-Bohemia:
-  begin: 1198
-  end: 1806
-  color: '#95a41c'
+Yakuts:
+  begin: 1200
+  end: 2025
+  color: '#8d9639'
 Safavid Empire:
   begin: 1501
   end: 1736
@@ -340,6 +388,11 @@ Tsardom of Russia:
   begin: 1547
   end: 1721
   color: '#7a650f'
+Basque:
+  note: North Atlantic fishing culture
+  begin: 1530
+  end: 1760
+  color: '#008ead'
 Poland-Lithuania:
   begin: 1569
   end: 1795
@@ -368,6 +421,10 @@ Qing Dynasty:
   begin: 1636
   end: 1912
   color: '#9ac30b'
+Prussia:
+  begin: 1701
+  end: 1871
+  color: '#82582b'
 Kingdom of Prussia:
   begin: 1701
   end: 1871
@@ -390,20 +447,10 @@ Netherlands:
   begin: 1581
   end: 2025
   color: '#530a42'
-Inuit:
-  note: Yup'ik (Alutiiq, Sugpiaq)
-  begin: -2000
+Britain:
+  begin: 1603
   end: 2025
-  color: '#e846e1'
-Innu:
-  note: Naskapi, Montagnais
-  begin: -2000
-  end: 2025
-  color: '#9233f9'
-Sámi:
-  begin: -8000
-  end: 2025
-  color: '#0ffada'
+  color: '#757d2e'
 Russian Empire:
   begin: 1721
   end: 1917
@@ -416,25 +463,6 @@ Gran Colombia:
   begin: 1819
   end: 1831
   color: '#5e6508'
-Yakuts:
-  begin: 1200
-  end: 2025
-  color: '#8d9639'
-Samoyedic:
-  note: Nenets, Yurats, Enets, Nganasans, Selkups, Kamasins, Mators 
-  begin: -2000
-  end: 2025
-  color: '#3d4f00'
-Yukaghir:
-  note: Indigenous peoples of Northern Siberia
-  begin: -2000
-  end: 2025
-  color: '#8e03d4'
-Tungusic:
-  note: Evens, Evenks
-  begin: -2000
-  end: 2025
-  color: '#3a3f00'
 Empire of Brazil:
   begin: 1822
   end: 1889
@@ -456,10 +484,6 @@ USA:
   begin: 1776
   end: 2025
   color: '#597200'
-Britain:
-  begin: 1603
-  end: 2025
-  color: '#757d2e'
 Ecuador:
   begin: 1809
   end: 2025
@@ -613,28 +637,14 @@ Albania:
   begin: 1912
   end: 2025
   color: '#3df400'
-Yeniseian:
-  note: Ket
-  begin: 950
-  end: 2025
-  color: '#002f51'
 Finland:
   begin: 1917
   end: 2025
   color: '#1e1f9c'
-Austria:
-  begin: 1156
-  end: 2025
-  color: '#002f51'
 Estonia:
   note: modern state
   begin: 1918
   end: 2025
-  color: '#00681d'
-Estonians:
-  note: Indigenous people
-  begin: -2000
-  end: 1227
   color: '#00681d'
 Latvia:
   begin: 1918
@@ -644,11 +654,6 @@ Lithuania:
   begin: 1918
   end: 2025
   color: '#005432'
-Poland:
-  note: Duchy of Poland, Kingdom of Poland, modern Poland
-  begin: 966
-  end: 2025
-  color: '#187840'
 Iceland:
   begin: 1918
   end: 2025
@@ -893,11 +898,6 @@ Fiji:
   begin: 1970
   end: 2025
   color: '#09bc90'
-Basque:
-  note: North Atlantic fishing culture
-  begin: 1530
-  end: 1760
-  color: '#008ead'
 Bangladesh:
   begin: 1971
   end: 2025
