@@ -83,6 +83,14 @@ update-colors:
     node from-yaml.js
     node --test
 
+update-hexes:
+  exec: |
+    node make-data.js > hexes-new.js
+    mv hexes-new.js hexes.js
+    node to-yaml.js
+    node from-yaml.js
+    node --test
+
 site:
   exec: mkdir -p $@
 
