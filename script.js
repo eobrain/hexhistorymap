@@ -200,10 +200,20 @@ hammertime.on('pinch', function (ev) {
   console.log(ev.scale, scale, newScale)
 })
 
-d3Canvas.on('click', (event) => {
+const whenClicked = (event) => {
   const pos = pointer(event, canvas)
   const [lon, lat] = projection.invert(pos)
   updateLocation(lat, lon)
+}
+
+d3Canvas.on('click', whenClicked)
+
+d3Canvas.on('dblclick', (event) => {
+  if (projection.scale() !== initialProjScale) {
+    projection.scale(initialProjScale)
+  } else {
+    projection.scale(initialProjScale * 2)
+  }
 })
 
 drawChart(maxYear, (x, hex) => {
