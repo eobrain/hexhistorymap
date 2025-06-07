@@ -81,7 +81,7 @@ update-colors:
     mv states-new.js states.js
     node to-yaml.js
     node from-yaml.js
-    node --test
+    ava
 
 update-hexes:
   exec: |
@@ -89,7 +89,7 @@ update-hexes:
     mv hexes-new.js hexes.js
     node to-yaml.js
     node from-yaml.js
-    node --test
+    ava
 
 site:
   exec: mkdir -p $@
