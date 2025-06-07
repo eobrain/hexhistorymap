@@ -3,7 +3,6 @@ export default {
   AL: 'Albania',
   DZ: 'Algeria',
   AO: 'Angola',
-  AQ: 'Antarctica',
   AR: 'Argentina',
   AM: 'Armenia',
   AU: 'Australia',

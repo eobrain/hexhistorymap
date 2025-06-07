@@ -11164,8 +11164,6 @@
         place: Weddell Sea
         land: 3
         index: 1728
-    states:
-      Antarctica: {}
     bighex: 81df3ffffffffff
   '5':
     hexes:
@@ -11193,8 +11191,6 @@
         place: Unknown
         land: 4
         index: 1732
-    states:
-      Antarctica: {}
     bighex: 81e13ffffffffff
   '5':
     hexes:
@@ -11206,8 +11202,6 @@
         place: Antarctica
         land: 4
         index: 1734
-    states:
-      Antarctica: {}
     bighex: 81e17ffffffffff
 '114':
   '1':
@@ -11220,8 +11214,6 @@
         place: Unknown
         land: 3
         index: 1736
-    states:
-      Antarctica: {}
     bighex: 81e47ffffffffff
   '4':
     hexes:
@@ -11229,8 +11221,6 @@
         place: Unknown
         land: 2
         index: 1737
-    states:
-      Antarctica: {}
     bighex: 81e53ffffffffff
   '5':
     hexes:
@@ -11262,8 +11252,6 @@
         place: Unknown
         land: 2
         index: 1740
-    states:
-      Antarctica: {}
     bighex: 81e57ffffffffff
 '115':
   '4':
@@ -11288,8 +11276,6 @@
         place: Antarctica
         land: 5
         index: 1749
-    states:
-      Antarctica: {}
     bighex: 81e73ffffffffff
   '5':
     hexes:
@@ -11317,8 +11303,6 @@
         place: Unknown
         land: 2
         index: 1752
-    states:
-      Antarctica: {}
     bighex: 81e77ffffffffff
 '116':
   '2':
@@ -11335,8 +11319,6 @@
         place: Unknown
         land: 3
         index: 1758
-    states:
-      Antarctica: {}
     bighex: 81e8bffffffffff
   '6':
     hexes:
@@ -11352,8 +11334,6 @@
         place: Antarctica
         land: 6
         index: 1761
-    states:
-      Antarctica: {}
     bighex: 81e9bffffffffff
 '118':
   '0':
@@ -11382,8 +11362,6 @@
         place: Unknown
         land: 2
         index: 1764
-    states:
-      Antarctica: {}
     bighex: 81ec3ffffffffff
   '1':
     hexes:
@@ -11415,8 +11393,6 @@
         place: Antarctica
         land: 7
         index: 1774
-    states:
-      Antarctica: {}
     bighex: 81ec7ffffffffff
   '2':
     hexes:
@@ -11428,8 +11404,6 @@
         place: Unknown
         land: 2
         index: 1775
-    states:
-      Antarctica: {}
     bighex: 81ecbffffffffff
   '3':
     hexes:
@@ -11461,8 +11435,6 @@
         place: Antarctica
         land: 7
         index: 1783
-    states:
-      Antarctica: {}
     bighex: 81ecfffffffffff
   '5':
     hexes:
@@ -11486,8 +11458,6 @@
         place: Unknown
         land: 2
         index: 1785
-    states:
-      Antarctica: {}
     bighex: 81ed7ffffffffff
 '119':
   '0':
@@ -11504,8 +11474,6 @@
         place: Antarctica
         land: 2
         index: 1790
-    states:
-      Antarctica: {}
     bighex: 81ee3ffffffffff
   '1':
     hexes:
@@ -11517,8 +11485,6 @@
         place: Antarctica
         land: 2
         index: 1792
-    states:
-      Antarctica: {}
     bighex: 81ee7ffffffffff
   '2':
     hexes:
@@ -11534,8 +11500,6 @@
         place: Unknown
         land: 2
         index: 1794
-    states:
-      Antarctica: {}
     bighex: 81eebffffffffff
   '4':
     hexes:
@@ -11567,8 +11531,6 @@
         place: Unknown
         land: 7
         index: 1803
-    states:
-      Antarctica: {}
     bighex: 81ef3ffffffffff
   '5':
     hexes:
@@ -11596,8 +11558,6 @@
         place: Unknown
         land: 7
         index: 1809
-    states:
-      Antarctica: {}
     bighex: 81ef7ffffffffff
   '6':
     hexes:
@@ -11629,8 +11589,6 @@
         place: Antarctica
         land: 7
         index: 1816
-    states:
-      Antarctica: {}
     bighex: 81efbffffffffff
 '120':
   '0':
@@ -11663,8 +11621,6 @@
         place: Antarctica
         land: 7
         index: 1823
-    states:
-      Antarctica: {}
     bighex: 81f03ffffffffff
   '1':
     hexes:
@@ -11696,8 +11652,6 @@
         place: Antarctica
         land: 7
         index: 1830
-    states:
-      Antarctica: {}
     bighex: 81f07ffffffffff
   '2':
     hexes:
@@ -11729,8 +11683,6 @@
         place: Antarctica
         land: 7
         index: 1837
-    states:
-      Antarctica: {}
     bighex: 81f0bffffffffff
   '3':
     hexes:
@@ -11762,8 +11714,6 @@
         place: Antarctica
         land: 7
         index: 1844
-    states:
-      Antarctica: {}
     bighex: 81f0fffffffffff
   '4':
     hexes:
@@ -11795,8 +11745,6 @@
         place: Antarctica
         land: 7
         index: 1851
-    states:
-      Antarctica: {}
     bighex: 81f13ffffffffff
   '5':
     hexes:
@@ -11828,8 +11776,6 @@
         place: Unknown
         land: 7
         index: 1858
-    states:
-      Antarctica: {}
     bighex: 81f17ffffffffff
   '6':
     hexes:
@@ -11861,8 +11807,6 @@
         place: Antarctica
         land: 7
         index: 1865
-    states:
-      Antarctica: {}
     bighex: 81f1bffffffffff
 '121':
   '0':
@@ -11895,8 +11839,6 @@
         place: Unknown
         land: 7
         index: 1872
-    states:
-      Antarctica: {}
     bighex: 81f23ffffffffff
   '1':
     hexes:
@@ -11916,8 +11858,6 @@
         place: Antarctica
         land: 2
         index: 1873
-    states:
-      Antarctica: {}
     bighex: 81f27ffffffffff
   '2':
     hexes:
@@ -11949,8 +11889,6 @@
         place: Unknown
         land: 7
         index: 1883
-    states:
-      Antarctica: {}
     bighex: 81f2bffffffffff
   '3':
     hexes:
@@ -11982,8 +11920,6 @@
         place: Antarctica
         land: 7
         index: 1890
-    states:
-      Antarctica: {}
     bighex: 81f2fffffffffff
   '6':
     hexes:
@@ -12015,6 +11951,4 @@
         place: Antarctica
         land: 7
         index: 1897
-    states:
-      Antarctica: {}
     bighex: 81f3bffffffffff

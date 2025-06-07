@@ -610,10 +610,6 @@ Guinea:
   begin: 1958
   end: 2025
   color: '#0b408b'
-Antarctica:
-  begin: 1959
-  end: 2025
-  color: '#6d9af7'
 Benin:
   begin: 1960
   end: 2025
