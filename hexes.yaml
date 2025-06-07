@@ -677,14 +677,13 @@
         land: 2
         index: 72
     states:
-      Iceland: {}
       Denmark:
         begin: 1523
         end: 1918
       Norway:
         begin: 1262
         end: 1523
-      Icelandic Commonwealth: {}
+      Iceland: {}
     bighex: 81077ffffffffff
     name: Iceland
   '6':
