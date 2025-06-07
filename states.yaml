@@ -297,11 +297,6 @@ Oman:
   begin: 751
   end: 2025
   color: '#fea8a8'
-Grand Duchy of Lithuania:
-  note: Pre-Commonwealth
-  begin: 1236
-  end: 1569
-  color: '#a11f7a'
 Morocco:
   begin: 789
   end: 2025
@@ -643,7 +638,8 @@ Latvia:
   end: 2025
   color: '#094157'
 Lithuania:
-  begin: 1918
+  note: Grand Duchy of Lithuania, modern Lithuania
+  begin: 1236
   end: 2025
   color: '#005432'
 Iceland:

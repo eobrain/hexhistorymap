@@ -26,6 +26,16 @@ test('All states in hexes exist', t => {
   t.is(missingStates.size, 0, `Missing states: ${Array.from(missingStates).join(', ')}`)
 })
 
+test('Hex state ranges are within extant years of states', t => {
+  for (const hex of hexes()) {
+    for (const { stateName, begin, end } of hex.statesRanges()) {
+      const state = new State(stateName)
+      t.true(state.extantIn(begin), `${stateName} should exist in ${begin}`)
+      t.true(state.extantIn(end), `${stateName} should exist in ${end}`)
+    }
+  }
+})
+
 test('hexes', t => {
   t.true(hexes().length > 700)
 })
