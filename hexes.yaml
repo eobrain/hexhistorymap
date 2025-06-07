@@ -65,9 +65,8 @@
         land: 3
         index: 6
     states:
-      Russia: {}
       USSR: {}
-      Russian Empire:
+      Russia:
         begin: 1870
     bighex: 8101bffffffffff
     name: Novaya Zemlya
@@ -283,10 +282,8 @@
         land: 2
         index: 28
     states:
-      Russia: {}
       USSR: {}
-      Russian Empire: {}
-      Tsardom of Russia:
+      Russia:
         begin: 1638
       Yakuts:
         begin: 1400
@@ -330,10 +327,8 @@
         land: 7
         index: 35
     states:
-      Russia: {}
       USSR: {}
-      Russian Empire: {}
-      Tsardom of Russia:
+      Russia:
         begin: 1638
       Yakuts:
         begin: 1200
@@ -376,9 +371,8 @@
         land: 2
         index: 40
     states:
-      Russia: {}
       USSR: {}
-      Russian Empire:
+      Russia:
         begin: 1778
       Yukaghir:
         begin: -2000
@@ -397,7 +391,8 @@
         name: Taymyr Peninsula E
         place: Krasnoyarsk Krai
         states:
-          Russian Empire:
+          USSR: {}
+          Russia:
             begin: 1778
           Samoyedic:
             end: 1778
@@ -409,7 +404,8 @@
           городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
           Russia
         states:
-          Russian Empire:
+          USSR: {}
+          Russia:
             begin: 1914
         land: 3
         index: 43
@@ -419,15 +415,16 @@
           городское поселение Диксон, Taymyrsky Dolgano-Nenetsky District,
           Russia
         states:
-          Russian Empire:
+          USSR: {}
+          Russia:
             begin: 1778
           Samoyedic:
             end: 1778
         land: 4
         index: 44
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81053ffffffffff
     name: Vilkitsky Strait
   '6':
@@ -468,10 +465,8 @@
         land: 7
         index: 51
     states:
-      Russia: {}
       USSR: {}
-      Russian Empire: {}
-      Tsardom of Russia:
+      Russia:
         begin: 1638
       Yukaghir:
         end: 1300
@@ -786,7 +781,7 @@
           Sweden:
             begin: 1280
             end: 1809
-          Russian Empire:
+          Russia:
             begin: 1809
             end: 1917
         land: 4
@@ -797,7 +792,7 @@
         states:
           USSR:
             begin: 1940
-          Russian Empire:
+          Russia:
             end: 1917
             begin: 1710
           Sweden:
@@ -864,7 +859,7 @@
           Sweden:
             begin: 1600
             end: 1809
-          Russian Empire:
+          Russia:
             begin: 1809
             end: 1917
         land: 6
@@ -877,7 +872,7 @@
           Sweden:
             begin: 1600
             end: 1809
-          Russian Empire:
+          Russia:
             begin: 1809
             end: 1917
         land: 7
@@ -890,7 +885,7 @@
           Sweden:
             begin: 1600
             end: 1809
-          Russian Empire:
+          Russia:
             begin: 1809
             end: 1917
         land: 6
@@ -903,7 +898,7 @@
           Sweden:
             begin: 1600
             end: 1809
-          Russian Empire:
+          Russia:
             begin: 1809
             end: 1917
         land: 7
@@ -1003,9 +998,8 @@
         land: 7
         index: 107
     states:
-      Russia: {}
       USSR: {}
-      Russian Empire:
+      Russia:
         begin: 1822
     bighex: 810a3ffffffffff
     name: Yenisei River
@@ -1049,9 +1043,8 @@
         land: 7
         index: 114
     states:
-      Russia: {}
       USSR: {}
-      Russian Empire:
+      Russia:
         begin: 1822
     bighex: 810a7ffffffffff
     name: Taymyr
@@ -1093,10 +1086,8 @@
         land: 7
         index: 121
     states:
-      Russia: {}
       USSR: {}
-      Russian Empire: {}
-      Tsardom of Russia:
+      Russia:
         begin: 1640
       Xiongnu Empire: {}
     bighex: 810abffffffffff
@@ -1139,10 +1130,8 @@
         land: 7
         index: 128
     states:
-      Russia: {}
       USSR: {}
-      Russian Empire: {}
-      Tsardom of Russia:
+      Russia:
         begin: 1640
     bighex: 810afffffffffff
     name: Central Siberian Plateau
@@ -1154,9 +1143,9 @@
         states:
           Golden Horde:
             end: 1465
-          Tsardom of Russia:
+          USSR: {}
+          Russia:
             begin: 1594
-          Russian Empire: {}
         land: 7
         index: 129
       820b0ffffffffff:
@@ -1198,11 +1187,9 @@
         land: 7
         index: 135
     states:
-      Tsardom of Russia:
-        begin: 1600
-      Russian Empire: {}
-      Russia: {}
       USSR: {}
+      Russia:
+        begin: 1600
     bighex: 810b3ffffffffff
     name: West Siberian Plain
   '5':
@@ -1233,7 +1220,8 @@
         name: Kara meteorite crater
         place: Yamalo-Nenets Autonomous Okrug
         states:
-          Tsardom of Russia:
+          USSR: {}
+          Russia:
             begin: 1600
         land: 5
         index: 140
@@ -1241,7 +1229,8 @@
         name: Yamal Peninsula
         place: Yamalsky Rayon
         states:
-          Tsardom of Russia:
+          USSR: {}
+          Russia:
             begin: 1600
         land: 4
         index: 141
@@ -1249,7 +1238,8 @@
         name: Ob River mouth
         place: Yamalsky Rayon
         states:
-          Tsardom of Russia:
+          USSR: {}
+          Russia:
             begin: 1600
         land: 7
         index: 142
@@ -1259,11 +1249,9 @@
       Samoyedic:
         begin: 1500
         end: 1619
-      Tsardom of Russia:
-        begin: 1619
-      Russian Empire: {}
-      Russia: {}
       USSR: {}
+      Russia:
+        begin: 1619
     bighex: 810b7ffffffffff
     name: Ob River mouth
   '6':
@@ -1297,10 +1285,8 @@
         land: 7
         index: 149
     states:
-      Russia: {}
       USSR: {}
-      Russian Empire: {}
-      Tsardom of Russia:
+      Russia:
         begin: 1604
       Yeniseian:
         begin: 950
@@ -1337,7 +1323,7 @@
     states:
       USA:
         begin: 1867
-      Russian Empire:
+      Russia:
         begin: 1784
         end: 1867
       Thule:
@@ -1369,7 +1355,7 @@
     states:
       USA:
         begin: 1867
-      Russian Empire:
+      Russia:
         begin: 1784
         end: 1867
       Athabascans:
@@ -1389,7 +1375,7 @@
     states:
       USA:
         begin: 1867
-      Russian Empire:
+      Russia:
         begin: 1784
         end: 1867
       Inuit:
@@ -1414,7 +1400,7 @@
     states:
       USA:
         begin: 1867
-      Russian Empire:
+      Russia:
         begin: 1784
         end: 1867
       Inuit:
@@ -1438,7 +1424,7 @@
     states:
       USA:
         begin: 1867
-      Russian Empire:
+      Russia:
         begin: 1784
         end: 1867
       Thule:
@@ -1456,7 +1442,7 @@
         states:
           USA:
             begin: 1867
-          Russian Empire:
+          Russia:
             begin: 1784
             end: 1867
         land: 7
@@ -1472,7 +1458,7 @@
         states:
           USA:
             begin: 1867
-          Russian Empire:
+          Russia:
             begin: 1784
             end: 1867
         land: 7
@@ -1482,7 +1468,7 @@
         states:
           USA:
             begin: 1867
-          Russian Empire:
+          Russia:
             begin: 1784
             end: 1867
         land: 7
@@ -1504,7 +1490,7 @@
         states:
           USA:
             begin: 1867
-          Russian Empire:
+          Russia:
             begin: 1784
             end: 1867
         land: 4
@@ -1534,8 +1520,8 @@
         land: 2
         index: 176
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 810dbffffffffff
     name: Chukchi Peninsula
 '7':
@@ -1757,8 +1743,8 @@
         land: 7
         index: 221
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81103ffffffffff
   '1':
     hexes:
@@ -1791,8 +1777,8 @@
         land: 7
         index: 228
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81107ffffffffff
   '2':
     hexes:
@@ -1825,8 +1811,8 @@
         land: 7
         index: 235
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 8110bffffffffff
   '3':
     hexes:
@@ -1859,37 +1845,37 @@
         land: 7
         index: 242
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 8110fffffffffff
   '4':
     hexes:
       821107fffffffff:
         place: Рахьинское городское поселение, Vsevolozhsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 243
       82110ffffffffff:
         place: Чёлмужское сельское поселение, Medvezhyegorsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 244
       821117fffffffff:
         place: Полавское сельское поселение, Parfinsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 245
       82111ffffffffff:
         place: Игумново, Бабаевский муниципальный округ
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 246
       821127fffffffff:
@@ -1899,7 +1885,7 @@
           Sweden:
             begin: 1280
             end: 1809
-          Russian Empire:
+          Russia:
             begin: 1809
             end: 1917
         land: 7
@@ -1911,7 +1897,7 @@
           Sweden:
             begin: 1280
             end: 1809
-          Russian Empire:
+          Russia:
             begin: 1809
             end: 1917
         land: 7
@@ -1919,8 +1905,8 @@
       821137fffffffff:
         place: Gdovsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 6
         index: 249
     bighex: 81113ffffffffff
@@ -1951,8 +1937,8 @@
         land: 2
         index: 251
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81117ffffffffff
   '6':
     hexes:
@@ -1985,8 +1971,8 @@
         land: 7
         index: 262
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 8111bffffffffff
 '9':
   '0':
@@ -2271,8 +2257,8 @@
         land: 7
         index: 317
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81143ffffffffff
   '1':
     hexes:
@@ -2301,8 +2287,8 @@
         land: 7
         index: 323
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81147ffffffffff
   '2':
     hexes:
@@ -2315,8 +2301,8 @@
       82148ffffffffff:
         place: Jewish Autonomous Oblast, 679120
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 325
       821497fffffffff:
@@ -2340,8 +2326,8 @@
       8214affffffffff:
         place: Romnensky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 329
       8214b7fffffffff:
@@ -2378,8 +2364,8 @@
         land: 7
         index: 336
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 8114fffffffffff
   '4':
     hexes:
@@ -2412,8 +2398,8 @@
         land: 7
         index: 343
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81153ffffffffff
   '5':
     hexes:
@@ -2446,16 +2432,16 @@
         land: 7
         index: 350
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81157ffffffffff
   '6':
     hexes:
       821587fffffffff:
         place: Alexandrovo-Zavodsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 351
       82158ffffffffff:
@@ -2479,15 +2465,15 @@
       8215a7fffffffff:
         place: Шишкинское сельское поселение, Chitinsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 355
       8215affffffffff:
         place: Zabaykalsky Krai, 673478
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 356
       8215b7fffffffff:
@@ -2513,8 +2499,8 @@
         land: 2
         index: 358
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81163ffffffffff
   '4':
     hexes:
@@ -2544,8 +2530,8 @@
         land: 2
         index: 363
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81173ffffffffff
   '5':
     hexes:
@@ -2570,8 +2556,8 @@
         land: 2
         index: 368
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 81177ffffffffff
   '6':
     hexes:
@@ -2580,8 +2566,8 @@
         land: 3
         index: 372
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 8117bffffffffff
 '12':
   '0':
@@ -2885,6 +2871,7 @@
         land: 7
         index: 397
     bighex: 811e3ffffffffff
+    name: Mitteleuropa
   '1':
     hexes:
       821e47fffffffff:
@@ -2937,6 +2924,7 @@
         land: 2
         index: 401
     bighex: 811e7ffffffffff
+    name: Ukraine
   '2':
     hexes:
       821e87fffffffff:
@@ -3102,8 +3090,8 @@
       821f6ffffffffff:
         place: Себежское сельское поселение, Sebezhsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 429
       821f77fffffffff:
@@ -3206,8 +3194,8 @@
       82204ffffffffff:
         place: Джазаторское сельское поселение, Kosh-Agachsky Rayon
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 446
       822057fffffffff:
@@ -3226,15 +3214,15 @@
       822067fffffffff:
         place: Altai Krai
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 449
       82206ffffffffff:
         place: Алтайское — Булатово, Altai Krai
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 450
       822077fffffffff:
@@ -3374,15 +3362,15 @@
       822127fffffffff:
         place: Бердяшский сельсовет, Zilairsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 470
       82212ffffffffff:
         place: Николаевское сельское поселение, Varnensky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 471
       822137fffffffff:
@@ -3405,8 +3393,8 @@
       82214ffffffffff:
         place: Чаинский сельсовет, Kupinsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 474
       822157fffffffff:
@@ -3426,15 +3414,15 @@
       822167fffffffff:
         place: Tyumen Oblast
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 477
       82216ffffffffff:
         place: Самсоновское сельское поселение, Tarsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 478
       822177fffffffff:
@@ -3647,8 +3635,8 @@
       822507fffffffff:
         place: сумон Дурген, Tandinsky Kozhuun
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 515
       82250ffffffffff:
@@ -3672,22 +3660,22 @@
       822527fffffffff:
         place: Krasnoyarsk Krai
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 519
       82252ffffffffff:
         place: Тофаларское сельское поселение, Nizhneudinsky Rayon
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 520
       822537fffffffff:
         place: Tuva Republic
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 521
     bighex: 81253ffffffffff
@@ -3696,15 +3684,15 @@
       822547fffffffff:
         place: Каменское городское поселение, Kabansky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 522
       82254ffffffffff:
         place: Хилогосонское сельское поселение, Khiloksky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 523
       822557fffffffff:
@@ -3722,22 +3710,22 @@
       822567fffffffff:
         place: Чиканское сельское поселение, Жигаловский район
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 526
       82256ffffffffff:
         place: Buryatia
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 527
       822577fffffffff:
         place: Тальниковское сельское поселение, Черемховский район
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 528
     bighex: 81257ffffffffff
@@ -4463,8 +4451,8 @@
       822c67fffffffff:
         place: ООО «Газпром добыча Астрахань», Krasnoyarsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 638
       822c6ffffffffff:
@@ -4478,8 +4466,8 @@
         name: Da
         place: Dagestan
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 2
         index: 640
     bighex: 812c7ffffffffff
@@ -4609,29 +4597,29 @@
       822d47fffffffff:
         place: Краснооктябрьское сельское поселение, Vesyolovsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 659
       822d4ffffffffff:
         place: Bol'shie Chapurniki, Volgograd Oblast
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 660
       822d57fffffffff:
         place: Предгорненское сельское поселение, Urupsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 6
         index: 661
       822d5ffffffffff:
         place: Stavropol Krai
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 662
       822d67fffffffff:
@@ -4644,15 +4632,15 @@
       822d6ffffffffff:
         place: Новолиманское сельское поселение, Petropavlovsky District
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 7
         index: 664
       822d77fffffffff:
         place: Krasnodar Krai
         states:
-          Russia: {}
           USSR: {}
+          Russia: {}
         land: 3
         index: 665
     bighex: 812d7ffffffffff
@@ -4759,8 +4747,8 @@
         land: 7
         index: 682
     states:
-      Russia: {}
       USSR: {}
+      Russia: {}
     bighex: 812efffffffffff
   '5':
     hexes:
