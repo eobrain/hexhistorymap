@@ -1089,7 +1089,6 @@
       USSR: {}
       Russia:
         begin: 1640
-      Xiongnu Empire: {}
     bighex: 810abffffffffff
     name: Central Siberian Plateau S
   '3':
@@ -1157,7 +1156,6 @@
         name: Nizhnevartovsk city
         place: Александровское сельское поселение, Alexandrovsky District, oilfields
         states:
-          Western Turkic Khanate: {}
           Golden Horde:
             end: 1465
         land: 7
@@ -1181,7 +1179,6 @@
         name: Gornopravdinsk
         place: Uvatsky District
         states:
-          Western Turkic Khanate: {}
           Golden Horde:
             end: 1465
         land: 7
@@ -1361,9 +1358,6 @@
       Athabascans:
         begin: 500
         end: 1784
-      Kachemak:
-        begin: -1000
-        end: 500
     bighex: 810c7ffffffffff
     name: Anchorage region
   '2':
@@ -1406,9 +1400,6 @@
       Inuit:
         begin: 1000
         end: 1784
-      Kachemak:
-        begin: -1500
-        end: 1000
     bighex: 810cfffffffffff
     name: Aleutian Peninsula
   '4':

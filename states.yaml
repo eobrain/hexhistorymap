@@ -2,93 +2,15 @@ Sámi:
   begin: -8000
   end: 2025
   color: '#0ffada'
-Old Kingdom of Egypt:
-  begin: -2686
-  end: -2181
-  color: '#e62e17'
-Akkadian Empire:
-  begin: -2334
-  end: -2154
-  color: '#ff4c31'
-Minoan Civilization:
-  begin: -2700
-  end: -1450
-  color: '#ed284f'
-Hittite Old Kingdom:
-  begin: -1600
-  end: -1400
-  color: '#df5513'
-Mycenaean Civilization:
-  begin: -1600
-  end: -1100
-  color: '#ce2729'
-Shang Dynasty:
-  begin: -1600
-  end: -1046
-  color: '#fd506d'
-New Kingdom of Egypt:
-  begin: -1550
-  end: -1077
-  color: '#d92e48'
-Hittite New Kingdom:
-  note: Empire
-  begin: -1400
-  end: -1178
-  color: '#faa218'
-Kingdom of Kush:
-  begin: -2500
-  end: 350
-  color: '#ba2318'
-Neo-Assyrian Empire:
-  begin: -911
-  end: -609
-  color: '#f86e4b'
-Carthaginian Empire:
-  begin: -814
-  end: -146
-  color: '#fec500'
-Achaemenid Empire:
-  note: First Persian Empire
-  begin: -550
-  end: -330
-  color: '#a52900'
 Estonians:
   note: Indigenous people
   begin: -2000
   end: 1227
   color: '#00681d'
-Maurya Empire:
-  begin: -322
-  end: -185
-  color: '#b24400'
-Kachemak:
-  begin: -1000
-  end: 500
-  color: '#9e8600'
 Gutes:
   begin: -1500
   end: 1000
   color: '#9ac30b'
-Ptolemaic Kingdom:
-  begin: -305
-  end: -30
-  color: '#ff697c'
-Xiongnu Empire:
-  begin: -209
-  end: 155
-  color: '#fd924f'
-Parthian Empire:
-  begin: -247
-  end: 224
-  color: '#c02447'
-Satavahana Dynasty:
-  begin: -230
-  end: 220
-  color: '#ff7e6b'
-Han Dynasty:
-  begin: -206
-  end: 220
-  color: '#a81030'
 Athabascans:
   note: Dena, Navajo, Apache
   begin: -2000
@@ -119,28 +41,6 @@ Tungusic:
   begin: -2000
   end: 2025
   color: '#3a3f00'
-Kushan Empire:
-  begin: 30
-  end: 375
-  color: '#da2a7b'
-Roman Empire:
-  note: Western
-  begin: -27
-  end: 476
-  color: '#991b0a'
-Gupta Empire:
-  begin: 320
-  end: 550
-  color: '#ff4aa7'
-Sasanian Empire:
-  note: Neo-Persian Empire
-  begin: 224
-  end: 651
-  color: '#db7f2b'
-Vandal Kingdom:
-  begin: 439
-  end: 534
-  color: '#cb266b'
 Dorset:
   note: Paleo-inuit culture
   begin: -500
@@ -154,22 +54,6 @@ Ethiopia:
   begin: -980
   end: 2025
   color: '#b67405'
-Ostrogothic Kingdom:
-  begin: 493
-  end: 553
-  color: '#dd9c32'
-Visigothic Kingdom:
-  begin: 418
-  end: 721
-  color: '#941132'
-Merovingian Kingdoms:
-  begin: 481
-  end: 751
-  color: '#ad2452'
-Western Turkic Khanate:
-  begin: 603
-  end: 704
-  color: '#ff66b4'
 Japan:
   begin: -660
   end: 2025
@@ -179,10 +63,6 @@ Thule:
   begin: -200
   end: 1600
   color: '#298b62'
-Umayyad Caliphate:
-  begin: 661
-  end: 750
-  color: '#851316'
 Iran:
   begin: -550
   end: 2025
@@ -191,10 +71,6 @@ Tang Dynasty:
   begin: 618
   end: 907
   color: '#fe7f9c'
-Carolingian Empire:
-  begin: 751
-  end: 888
-  color: '#ffa678'
 Byzantine Empire:
   note: Eastern Roman Empire
   begin: 395
