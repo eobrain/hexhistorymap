@@ -57,11 +57,6 @@ Estonians:
   begin: -2000
   end: 1227
   color: '#00681d'
-Cumania:
-  note: Cuman-Kipchak confederation
-  begin: 900
-  end: 1300
-  color: '#ea2e85'
 Maurya Empire:
   begin: -322
   end: -185
@@ -74,10 +69,6 @@ Gutes:
   begin: -1500
   end: 1000
   color: '#9ac30b'
-Pechenegs:
-  begin: 800
-  end: 1100
-  color: '#f6379b'
 Ptolemaic Kingdom:
   begin: -305
   end: -30
@@ -209,6 +200,10 @@ Byzantine Empire:
   begin: 395
   end: 1453
   color: '#b92276'
+Pechenegs:
+  begin: 800
+  end: 1100
+  color: '#f6379b'
 Ghana Empire:
   begin: 700
   end: 1240
@@ -238,6 +233,11 @@ Icelandic Commonwealth:
   begin: 930
   end: 1262
   color: '#d632b7'
+Cumania:
+  note: Cuman-Kipchak confederation
+  begin: 900
+  end: 1300
+  color: '#ea2e85'
 Seljuk Empire:
   begin: 1037
   end: 1194
@@ -375,6 +375,11 @@ Safavid Empire:
   begin: 1501
   end: 1736
   color: '#82166c'
+Lithuania:
+  note: Grand Duchy of Lithuania, modern Lithuania
+  begin: 1236
+  end: 2025
+  color: '#005432'
 Thailand:
   begin: 1238
   end: 2025
@@ -420,6 +425,10 @@ Kingdom of Prussia:
   begin: 1701
   end: 1871
   color: '#5d4c08'
+Russia:
+  begin: 1547
+  end: 2025
+  color: '#1bc4fb'
 Durrani Empire:
   note: End could be 1842, based on definition
   begin: 1747
@@ -637,11 +646,6 @@ Latvia:
   begin: 1918
   end: 2025
   color: '#094157'
-Lithuania:
-  note: Grand Duchy of Lithuania, modern Lithuania
-  begin: 1236
-  end: 2025
-  color: '#005432'
 Iceland:
   begin: 1918
   end: 2025
@@ -962,10 +966,6 @@ Kyrgyzstan:
   begin: 1991
   end: 2025
   color: '#00ea9b'
-Russia:
-  begin: 1547
-  end: 2025
-  color: '#1bc4fb'
 Tajikistan:
   begin: 1991
   end: 2025
