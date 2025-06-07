@@ -97,7 +97,7 @@ site:
 test:
   deps:
     - standard
-  exec: node --test
+  exec: ava
 
 hex-list-new.js:
   deps:
