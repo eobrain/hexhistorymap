@@ -57,10 +57,10 @@ Estonians:
   begin: -2000
   end: 1227
   color: '#00681d'
-Scythians:
-  note: Broad cultural/political entity
-  begin: -800
-  end: 200
+Cumania:
+  note: Cuman-Kipchak confederation
+  begin: 900
+  end: 1300
   color: '#ea2e85'
 Maurya Empire:
   begin: -322
@@ -74,9 +74,9 @@ Gutes:
   begin: -1500
   end: 1000
   color: '#9ac30b'
-Seleucid Empire:
-  begin: -312
-  end: -63
+Pechenegs:
+  begin: 800
+  end: 1100
   color: '#f6379b'
 Ptolemaic Kingdom:
   begin: -305
@@ -263,7 +263,7 @@ Kingdom of Scotland:
   begin: 843
   end: 1707
   color: '#9e8600'
-Mongol Empire:
+Mongols:
   begin: 1206
   end: 1368
   color: '#c82ab1'

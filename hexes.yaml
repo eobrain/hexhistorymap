@@ -2879,6 +2879,27 @@
         states:
           Ukraine: {}
           USSR: {}
+          Russia:
+            begin: 1793
+            end: 1991
+          Poland-Lithuania:
+            begin: 1570
+            end: 1793
+          Lithuania:
+            begin: 1400
+            end: 1570
+          Mongols:
+            begin: 1258
+            end: 1360
+          Kievan Rus':
+            begin: 1360
+            end: 1132
+          Cumania:
+            begin: 1100
+            end: 1241
+          Pechenegs:
+            begin: 895
+            end: 1091
         land: 7
         index: 398
       821e4ffffffffff:
