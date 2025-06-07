@@ -185,6 +185,11 @@ Kalmar Union:
   begin: 1397
   end: 1523
   color: '#b78053'
+Iceland:
+  note: Icelandic Commonwealth, modern Iceland
+  begin: 930
+  end: 2025
+  color: '#97b7ff'
 Inca Empire:
   begin: 1438
   end: 1533
@@ -501,11 +506,6 @@ Latvia:
   begin: 1918
   end: 2025
   color: '#094157'
-Iceland:
-  note: Icelandic Commonwealth, modern Iceland
-  begin: 930
-  end: 2025
-  color: '#97b7ff'
 Afghanistan:
   begin: 1919
   end: 2025
