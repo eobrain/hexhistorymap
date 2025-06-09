@@ -46,7 +46,7 @@ Dorset:
   begin: -500
   end: 1500
   color: '#c4232a'
-Axumite Empire:
+Aksum:
   begin: 100
   end: 940
   color: '#e28900'
@@ -64,16 +64,18 @@ Thule:
   end: 1600
   color: '#ff3891'
 Iran:
-  begin: -550
+  note: Persia, modern Iran, Qajar Dynasty, Afsharid Dynasty, Safavid dynasty
+  begin: 1501
   end: 2025
   color: '#f49422'
-Tang Dynasty:
+Tang:
+  note: Tang Dynasty
   begin: 618
   end: 907
   color: '#ffad24'
-Byzantine Empire:
-  note: Eastern Roman Empire
-  begin: 395
+Byzantine:
+  note: Byzantine Empire, Eastern Roman Empire
+  begin: 476
   end: 1453
   color: '#d0294d'
 Pechenegs:
@@ -81,14 +83,16 @@ Pechenegs:
   end: 1100
   color: '#d97a0f'
 Ghana Empire:
-  begin: 700
-  end: 1240
+  begin: 300
+  end: 1100
   color: '#ef2e88'
-Srivijayan Empire:
-  begin: 650
-  end: 1377
+Srivijaya:
+  note: Sumatra-based maritime empiry
+  begin: 671
+  end: 1025
   color: '#ff7277'
-Fatimid Caliphate:
+Fatimid:
+  note: Fatimid Caliphate
   begin: 909
   end: 1171
   color: '#c3195c'
@@ -96,12 +100,13 @@ Kievan Rus':
   begin: 882
   end: 1240
   color: '#aa4902'
-Chola Dynasty:
-  note: Imperial Cholas
+Cholas:
+  note: Imperial Cholas, Chola Empire, Tamil Empire
   begin: 848
   end: 1279
   color: '#b2203c'
-Almoravid Dynasty:
+Almoravid:
+  note: Almoravid dynasty, Berber
   begin: 1040
   end: 1147
   color: '#b86d00'
@@ -110,19 +115,23 @@ Cumania:
   begin: 900
   end: 1300
   color: '#e3c400'
-Seljuk Empire:
+Seljuk:
+  note: Seljuk Empire
   begin: 1037
   end: 1194
   color: '#f715e1'
-Khmer Empire:
+Khmer:
+  note: Khmer Empire, Angkor Empire
   begin: 802
   end: 1431
   color: '#ff9f68'
-Almohad Caliphate:
-  begin: 1121
+Almohad:
+  note: Almohad Caliphate
+  begin: 1147
   end: 1269
   color: '#cc2084'
-Ayyubid Sultanate:
+Ayyubid:
+  note: Ayyubid dynasty
   begin: 1171
   end: 1260
   color: '#981825'
@@ -147,12 +156,13 @@ Golden Horde:
   begin: 1240
   end: 1481
   color: '#d9ac24'
-Delhi Sultanate:
+Delhi:
+  note: Delhi Sultanate
   begin: 1206
   end: 1526
   color: '#b88f00'
-Mamluk Sultanate:
-  note: Cairo
+Mamluk:
+  note: Mamluk Sultanate
   begin: 1250
   end: 1517
   color: '#841b0d'
@@ -165,7 +175,7 @@ Oman:
   end: 2025
   color: '#b36027'
 Morocco:
-  begin: 789
+  begin: 1666
   end: 2025
   color: '#ff74af'
 France:
@@ -174,23 +184,20 @@ France:
   end: 2025
   color: '#9b6104'
 Mali Empire:
-  begin: 1235
-  end: 1670
+  begin: 1230
+  end: 1610
   color: '#fe8d9f'
 Norway:
   begin: 885
   end: 2025
   color: '#833502'
-Kalmar Union:
-  begin: 1397
-  end: 1523
-  color: '#8c4904'
 Iceland:
   note: Icelandic Commonwealth, modern Iceland
   begin: 930
   end: 2025
   color: '#881137'
-Inca Empire:
+Inca:
+  note: Inca Empire
   begin: 1438
   end: 1533
   color: '#d02bb1'
@@ -203,7 +210,8 @@ Yeniseian:
   begin: 950
   end: 2025
   color: '#aa256e'
-Vijayanagara Empire:
+Karnata:
+  note: Karnata Kingdom, Vijayanagara Empire
   begin: 1336
   end: 1646
   color: '#cedb00'
@@ -224,8 +232,9 @@ Sweden:
   begin: 1000
   end: 2025
   color: '#610e00'
-Songhai Empire:
-  begin: 1464
+Songhai:
+  note: Songhai Empire
+  begin: 1429
   end: 1591
   color: '#feb794'
 Portugal:
@@ -244,10 +253,6 @@ Yakuts:
   begin: 1200
   end: 2025
   color: '#957f00'
-Safavid Empire:
-  begin: 1501
-  end: 1736
-  color: '#ff57fd'
 Lithuania:
   note: Grand Duchy of Lithuania, modern Lithuania
   begin: 1236
@@ -266,11 +271,13 @@ Poland-Lithuania:
   begin: 1569
   end: 1795
   color: '#891865'
-Mughal Empire:
+Mughal:
+  note: Mughal empire
   begin: 1526
   end: 1857
   color: '#770e4f'
-Maratha Empire:
+Maratha:
+  note: Maratha Confederacy, Maratha Empire
   begin: 1674
   end: 1818
   color: '#a9c400'
@@ -279,30 +286,22 @@ Spain:
   begin: 1479
   end: 2025
   color: '#962080'
-Qing Dynasty:
-  begin: 1636
-  end: 1912
-  color: '#6e4c08'
 Prussia:
   begin: 1701
   end: 1871
   color: '#fdb8c4'
-Kingdom of Prussia:
-  begin: 1701
-  end: 1871
-  color: '#640744'
 Russia:
   begin: 1547
   end: 2025
   color: '#b922d4'
-Durrani Empire:
-  note: End could be 1842, based on definition
+Durrani:
+  note: Afghan Empire, Durrani Empire
   begin: 1747
   end: 1826
   color: '#aed30d'
-Kingdom of Sardinia:
-  note: Piedmont-Sardinia
-  begin: 1720
+Sardinia:
+  note: Kingdom of Sardinia, Piedmont-Sardinia
+  begin: 1324
   end: 1861
   color: '#f8a4d2'
 Netherlands:
@@ -314,19 +313,11 @@ Britain:
   begin: 1603
   end: 2025
   color: '#90aa00'
-Sikh Empire:
+Sikh:
+  note: Sikh Empire
   begin: 1799
   end: 1849
   color: '#819000'
-Gran Colombia:
-  begin: 1819
-  end: 1831
-  color: '#727500'
-Qajar Dynasty:
-  note: Persia/Iran
-  begin: 1789
-  end: 1925
-  color: '#645c04'
 Austro-Hungary:
   begin: 1867
   end: 1918
@@ -344,6 +335,7 @@ Ecuador:
   end: 2025
   color: '#59451d'
 Colombia:
+  note: Gran Colombia, modern Colombia
   begin: 1810
   end: 2025
   color: '#6a8500'
@@ -515,7 +507,7 @@ Egypt:
   end: 2025
   color: '#005923'
 Ireland:
-  begin: 1922
+  begin: -1000
   end: 2025
   color: '#90a0ff'
 Turkey:
@@ -575,7 +567,8 @@ Sri Lanka:
   end: 2025
   color: '#065f4b'
 China:
-  begin: 1949
+  note: People's Republic of China, pre-revolution, ublic of China, Qing Dynasty
+  begin: 1636
   end: 2025
   color: '#00a400'
 Laos:

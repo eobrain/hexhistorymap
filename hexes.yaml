@@ -2571,8 +2571,10 @@
         land: 4
         index: 374
     states:
+      Britain:
+        begin: 1607
+        end: 1922
       Ireland: {}
-      Britain: {}
     bighex: 81183ffffffffff
   '1':
     hexes:
@@ -2599,12 +2601,14 @@
         index: 378
     states:
       Britain: {}
+      Scotland: {}
     bighex: 81193ffffffffff
   '5':
     hexes:
       821947fffffffff:
         place: England
         states:
+          England: {}
           Britain: {}
         land: 4
         index: 379
@@ -2618,18 +2622,21 @@
         place: Isle of Man
         states:
           Britain: {}
+          England: {}
         land: 3
         index: 381
       82195ffffffffff:
         place: Aylburton
         states:
           Britain: {}
+          England: {}
         land: 7
         index: 382
       821977fffffffff:
         place: North Sea
         states:
           Britain: {}
+          Scotland: {}
         land: 3
         index: 384
       82196ffffffffff:
@@ -2968,6 +2975,7 @@
         place: Tyrrhenian Sea
         states:
           Italy: {}
+          Sardinia: {}
         land: 2
         index: 407
     bighex: 811ebffffffffff
@@ -2980,10 +2988,14 @@
         land: 7
         index: 410
       821ecffffffffff:
+        name: Istanbul
         place: Tarla Yolu, Süleymanpaşa
         states:
           Turkey: {}
-        land: 5
+          Byzantine: {}
+          Ottomans:
+            begin: 1453
+        land: 5 
         index: 411
       821ed7fffffffff:
         place: Bashkia Kolonjë
@@ -4823,6 +4835,7 @@
         index: 692
     states:
       China: {}
+      Tang: {}
     bighex: 8130bffffffffff
   '3':
     hexes:
@@ -5050,6 +5063,10 @@
         land: 2
         index: 726
     bighex: 81387ffffffffff
+    states:
+      Fatimid:
+        end: 1099
+      Almohad: {}
   '2':
     hexes:
       823887fffffffff:
@@ -5237,6 +5254,7 @@
         land: 3
         index: 756
     states:
+      Almoravid: {}
       Morocco: {}
     bighex: 8139bffffffffff
 '30':
@@ -5532,6 +5550,11 @@
         index: 803
     states:
       India: {}
+      Delhi:
+        begin: 1236
+        end: 1526
+      Mughal:
+        end: 1740
       Britain:
         begin: 1858
         end: 1947
@@ -5627,6 +5650,10 @@
         land: 7
         index: 817
     bighex: 813e7ffffffffff
+    states:
+      Mamluk: {}
+      Ayyubid:
+        end: 1249
   '2':
     hexes:
       823e87fffffffff:
@@ -6069,6 +6096,7 @@
         place: Jandwala Kharta, Punjab
         states:
           India: {}
+          Sikh: {}
           Britain:
             begin: 1858
             end: 1947
@@ -6232,6 +6260,14 @@
         land: 7
         index: 918
     bighex: 81437ffffffffff
+    name: Khorasan
+    states:
+      Durrani:
+        begin: 1747
+        end: 1826
+      Seljuk:
+        begin: 1037
+        end: 1194
   '6':
     hexes:
       824387fffffffff:
@@ -6752,6 +6788,8 @@
         land: 7
         index: 1001
     bighex: 8152bffffffffff
+    states:
+      Aksum: {}
   '3':
     hexes:
       8252cffffffffff:
@@ -6994,6 +7032,9 @@
         land: 7
         index: 1041
     bighex: 81547ffffffffff
+    states:
+      Mali Empire:
+        end: 1499
   '3':
     hexes:
       8254e7fffffffff:
@@ -7111,6 +7152,8 @@
         land: 7
         index: 1058
     bighex: 81557ffffffffff
+    states:
+      Ghana Empire: {}
   '6':
     hexes:
       8255affffffffff:
@@ -7166,6 +7209,8 @@
         land: 7
         index: 1066
     bighex: 81583ffffffffff
+    states:
+      Songhai: {} 
   '1':
     hexes:
       825847fffffffff:
@@ -7493,12 +7538,18 @@
       825f47fffffffff:
         place: Bolivar State
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Venezuela: {}
         land: 7
         index: 1114
       825f4ffffffffff:
         place: Monagas State
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Venezuela: {}
         land: 6
         index: 1115
@@ -7511,12 +7562,18 @@
       825f67fffffffff:
         place: Parroquia Barceloneta, Municipio Angostura
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Venezuela: {}
         land: 7
         index: 1118
       825f6ffffffffff:
         place: Parroquia Aripao, Municipio Sucre
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Venezuela: {}
         land: 7
         index: 1119
@@ -7554,6 +7611,7 @@
       Britain:
         begin: 1858
         end: 1947
+      Karnata: {}
     bighex: 81603ffffffffff
   '2':
     hexes:
@@ -7565,6 +7623,8 @@
         place: Harpud, Maharashtra
         land: 5
         index: 1125
+        states:
+          Maratha: {}
       826097fffffffff:
         place: Pimpal Khuta, Amravati
         land: 7
@@ -7619,6 +7679,8 @@
         place: Bay of Bengal
         land: 2
         index: 1135
+        states:
+          Cholas: {}
     states:
       India: {}
       Britain:
@@ -7733,6 +7795,8 @@
         land: 2
         index: 1147
     bighex: 81653ffffffffff
+    states:
+      Srivijaya: {}
   '5':
     hexes:
       826557fffffffff:
@@ -7780,6 +7844,8 @@
         land: 2
         index: 1154
     bighex: 8165bffffffffff
+    states:
+      Khmer: {}
 '51':
   '0':
     hexes:
@@ -7804,6 +7870,9 @@
       82662ffffffffff:
         place: Parroquia San Carlos, Municipio Colón
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Venezuela: {}
         land: 6
         index: 1163
@@ -7831,6 +7900,9 @@
       82664ffffffffff:
         place: Parroquia La Comunidad, Municipio Autónomo Maroa
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Venezuela: {}
         land: 7
         index: 1165
@@ -7849,18 +7921,27 @@
       826667fffffffff:
         place: Parroquia Cunaviche, Municipio Pedro Camejo
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Venezuela: {}
         land: 7
         index: 1168
       82666ffffffffff:
         place: Parroquia Bajo Ventuari, Municipio Autónomo Manapiare
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Venezuela: {}
         land: 7
         index: 1169
       826677fffffffff:
         place: Arauca
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Venezuela: {}
         land: 7
         index: 1170
@@ -7897,12 +7978,18 @@
       8266d7fffffffff:
         place: Ecuador
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Ecuador: {}
         land: 6
         index: 1175
       8266dffffffffff:
         place: Curaray, Arajuno
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Ecuador: {}
         land: 7
         index: 1176
@@ -9066,6 +9153,9 @@
       828acffffffffff:
         place: Parroquia Mavaca, Municipio Autónomo Alto Orinoco
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Venezuela: {}
         land: 7
         index: 1370
@@ -9256,6 +9346,7 @@
         index: 1398
     states:
       Indonesia: {}
+      Srivijaya: {}
     bighex: 818cbffffffffff
   '3':
     hexes:
@@ -9269,6 +9360,7 @@
         index: 1403
     states:
       Indonesia: {}
+      Srivijaya: {}
     bighex: 818cfffffffffff
   '6':
     hexes:
@@ -9308,6 +9400,9 @@
       828f2ffffffffff:
         place: Vinces
         states:
+          Colombia:
+            begin: 1819
+            end: 1831
           Ecuador: {}
         land: 5
         index: 1409
@@ -10504,6 +10599,9 @@
         land: 5
         index: 1613
     bighex: 81b33ffffffffff
+    states:
+      Inca:
+        begin: 1494
   '5':
     hexes:
       82b347fffffffff:
