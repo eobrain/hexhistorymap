@@ -52,6 +52,11 @@ const { minYear, maxYear } = yearRange()
 $yearDisplay.min = minYear
 $yearDisplay.max = maxYear
 
+for (const hex of hexes()) {
+  $hexName.insertAdjacentHTML('beforeend',
+    `<option value="${hex.index()}">${hex.name()}</option>`)
+}
+
 // const yearFormat = year => year > 0 ? `${year}` : `${-year} BCE`
 
 const updateLocation = (lat, lon) => {
@@ -130,11 +135,6 @@ const update = () => {
   context.beginPath()
   geoGenerator(lakes)
   context.fill()
-
-  for (const hex of hexes()) {
-    $hexName.insertAdjacentHTML('beforeend',
-      `<option value="${hex.index()}">${hex.name()}</option>`)
-  }
 
   if (milieu.state()) {
     const coordinates = coordinatesOfStates[milieu.state().name()].map(a =>
