@@ -762,7 +762,7 @@
       Sámi:
         end: 885
     bighex: 81083ffffffffff
-    name: Central Norway
+    name:  Scandinavian Peninsula W
   '2':
     hexes:
       820887fffffffff:
@@ -1743,7 +1743,7 @@
         land: 7
         index: 222
       82104ffffffffff:
-        place: Yamalo-Nenets Autonomous Okrug, 629640
+        place: Yamalo-Nenets Autonomous Okrug
         land: 7
         index: 223
       821057fffffffff:
@@ -1789,11 +1789,11 @@
         land: 7
         index: 232
       8210a7fffffffff:
-        place: Republic of Mordovia, 431556
+        place: Republic of Mordovia
         land: 7
         index: 233
       8210affffffffff:
-        place: Tatarstan, 422774
+        place: Tatarstan
         land: 7
         index: 234
       8210b7fffffffff:
@@ -1811,7 +1811,7 @@
         land: 7
         index: 236
       8210cffffffffff:
-        place: Sverdlovsk Oblast, 623994
+        place: Sverdlovsk Oblast
         land: 7
         index: 237
       8210d7fffffffff:
@@ -1869,7 +1869,7 @@
         land: 7
         index: 246
       821127fffffffff:
-        place: Mikkelintie, 52730 Mäntyharju, Finland
+        place: Mikkelintie, Mäntyharju, Finland
         states:
           Finland: {}
           Sweden:
@@ -1919,7 +1919,7 @@
         land: 6
         index: 254
       821177fffffffff:
-        place: Republic of Karelia, 186620
+        place: Republic of Karelia
         land: 3
         index: 255
       82114ffffffffff:
@@ -2231,7 +2231,7 @@
         land: 7
         index: 313
       82141ffffffffff:
-        place: Amur Oblast, 676572
+        place: Amur Oblast
         land: 7
         index: 314
       821427fffffffff:
@@ -2239,7 +2239,7 @@
         land: 7
         index: 315
       82142ffffffffff:
-        place: Sakha Republic, 678916
+        place: Sakha Republic
         land: 7
         index: 316
       821437fffffffff:
@@ -2289,7 +2289,7 @@
         land: 7
         index: 324
       82148ffffffffff:
-        place: Jewish Autonomous Oblast, 679120
+        place: Jewish Autonomous Oblast
         states:
           USSR: {}
           Russia: {}
@@ -2364,7 +2364,7 @@
         land: 7
         index: 337
       82150ffffffffff:
-        place: Irkutsk Oblast, 678150
+        place: Irkutsk Oblast
         land: 7
         index: 338
       821517fffffffff:
@@ -2394,23 +2394,23 @@
   '5':
     hexes:
       821547fffffffff:
-        place: Sakha Republic, 678034
+        place: Sakha Republic
         land: 7
         index: 344
       82154ffffffffff:
-        place: Sakha Republic, 678364
+        place: Sakha Republic
         land: 7
         index: 345
       821557fffffffff:
-        place: Sakha Republic, 678134
+        place: Sakha Republic
         land: 7
         index: 346
       82155ffffffffff:
-        place: Sakha Republic, 678013
+        place: Sakha Republic
         land: 7
         index: 347
       821567fffffffff:
-        place: Sakha Republic, 678244
+        place: Sakha Republic
         land: 7
         index: 348
       82156ffffffffff:
@@ -2460,7 +2460,7 @@
         land: 7
         index: 355
       8215affffffffff:
-        place: Zabaykalsky Krai, 673478
+        place: Zabaykalsky Krai
         states:
           USSR: {}
           Russia: {}
@@ -3044,7 +3044,7 @@
         land: 6
         index: 418
       821f17fffffffff:
-        place: Rickerstraße 24, 49419 Ströhen
+        place: Rickerstraße 24, Ströhen
         states:
           Germany: {}
         land: 7
@@ -3077,7 +3077,7 @@
   '5':
     hexes:
       821f47fffffffff:
-        place: Elektrėnų g., 21332 Musteniai
+        place: Elektrėnų g., Musteniai
         states:
           Lithuania: {}
           USSR: {}
@@ -3594,7 +3594,7 @@
         land: 7
         index: 501
       82248ffffffffff:
-        place: 810100 China, Qinghai, Datong
+        place: China, Qinghai, Datong
         land: 7
         index: 502
       822497fffffffff:
@@ -4217,7 +4217,7 @@
         land: 6
         index: 597
       8228f7fffffffff:
-        place: Portland, OR 97227
+        place: Portland, OR
         states:
           USA: {}
         land: 6
@@ -4318,7 +4318,7 @@
   '3':
     hexes:
       822ad7fffffffff:
-        place: Pender County, NC 28478
+        place: Pender County, NC
         land: 4
         index: 615
       822af7fffffffff:
@@ -4406,7 +4406,7 @@
   '0':
     hexes:
       822c07fffffffff:
-        place: 04400 Doğubayazıt
+        place: Doğubayazıt
         states:
           Armenia: {}
         land: 7
@@ -4509,7 +4509,7 @@
         land: 7
         index: 642
       822c97fffffffff:
-        place: Al-Basra Governorate, 61005, Iraq
+        place: Al-Basra Governorate, Iraq
         states:
           Kuwait: {}
         land: 7
@@ -5137,7 +5137,7 @@
         land: 7
         index: 735
       8238cffffffffff:
-        place: 33000 Illizi
+        place: Illizi
         land: 7
         index: 736
       8238d7fffffffff:
@@ -5184,7 +5184,7 @@
         land: 3
         index: 744
       82391ffffffffff:
-        place: 16692 Setenil de las Bodegas
+        place: Setenil de las Bodegas
         states:
           Spain: {}
         land: 5
@@ -5537,7 +5537,7 @@
         land: 7
         index: 800
       823da7fffffffff:
-        place: Narnaul - 123001, Haryana
+        place: Narnaul, Haryana
         land: 7
         index: 801
       823daffffffffff:
@@ -6109,7 +6109,7 @@
         land: 7
         index: 895
       82425ffffffffff:
-        place: Raoneri - 334302, Rajasthan
+        place: Raoneri, Rajasthan
         states:
           India: {}
           Britain:
@@ -6139,7 +6139,7 @@
   '3':
     hexes:
       8242c7fffffffff:
-        place: Jodiya - 361250, Gujarat
+        place: Jodiya, Gujarat
         states:
           India: {}
           Britain:
@@ -6148,7 +6148,7 @@
         land: 7
         index: 900
       8242cffffffffff:
-        place: Balasinor - 388255, Gujarat
+        place: Balasinor, Gujarat
         states:
           India: {}
           Britain:
@@ -6166,7 +6166,7 @@
         land: 4
         index: 902
       8242e7fffffffff:
-        place: Mirpur Bathoro 73030
+        place: Mirpur Bathoro
         states:
           Pakistan: {}
         land: 5
@@ -6325,7 +6325,7 @@
         land: 7
         index: 927
       824457fffffffff:
-        place: Mobile, AL 36633
+        place: Mobile, AL
         land: 4
         index: 928
       82445ffffffffff:
@@ -6424,7 +6424,7 @@
         land: 4
         index: 945
       82458ffffffffff:
-        place: Colón, 42400
+        place: Colón
         land: 2
         index: 944
       82459ffffffffff:
@@ -6572,7 +6572,7 @@
   '6':
     hexes:
       824987fffffffff:
-        place: 58980 San Lucas Pio, MIC
+        place: San Lucas Pio, MIC
         land: 7
         index: 969
       82498ffffffffff:
@@ -6588,7 +6588,7 @@
         land: 7
         index: 972
       8249affffffffff:
-        place: 48962 Región Costa Sur, JAL
+        place: Región Costa Sur, JAL
         land: 5
         index: 974
       8249b7fffffffff:
@@ -7352,7 +7352,7 @@
         land: 7
         index: 1087
       82590ffffffffff:
-        place: 11130 In Guezzam
+        place: In Guezzam
         states:
           Algeria: {}
           France:
@@ -7373,7 +7373,7 @@
         land: 7
         index: 1090
       825927fffffffff:
-        place: 01010 Bordj Badji Mokhtar
+        place: Bordj Badji Mokhtar
         states:
           Algeria: {}
           France:
@@ -7424,7 +7424,7 @@
         land: 7
         index: 1097
       825967fffffffff:
-        place: 33100 Djanet
+        place: Djanet
         states:
           Algeria: {}
           France:
@@ -7737,7 +7737,7 @@
         land: 7
         index: 1141
       82649ffffffffff:
-        place: Shan State, 06081
+        place: Shan State
         states:
           Myanmar: {}
         land: 7
@@ -7764,7 +7764,7 @@
   '4':
     hexes:
       826507fffffffff:
-        place: 27300, Pahang
+        place:  Pahang
         states:
           Malaysia: {}
         land: 6
@@ -7907,7 +7907,7 @@
         land: 7
         index: 1165
       826657fffffffff:
-        place: 502001 Puerto Gaitán, MET
+        place: Puerto Gaitán, MET
         states:
           Colombia: {}
         land: 7
@@ -8693,7 +8693,7 @@
         land: 7
         index: 1289
       827ad7fffffffff:
-        place: JH 09010 Somali Region
+        place: JH Somali Region
         states:
           Ethiopia: {}
         land: 7
@@ -8870,11 +8870,11 @@
         land: 3
         index: 1322
       82818ffffffffff:
-        place: Caicó - RN, 59300-000
+        place: Caicó - RN
         land: 7
         index: 1323
       8281affffffffff:
-        place: Pariconha - AL, 57475-000
+        place: Pariconha - AL
         land: 7
         index: 1324
     states:
@@ -9319,7 +9319,7 @@
   '0':
     hexes:
       828c17fffffffff:
-        place: 16770, West Java
+        place:  West Java
         land: 3
         index: 1397
     states:
@@ -9337,7 +9337,7 @@
         land: 5
         index: 1400
       828cb7fffffffff:
-        place: 78874, West Kalimantan
+        place:  West Kalimantan
         land: 5
         index: 1401
       828c8ffffffffff:
@@ -9365,7 +9365,7 @@
   '6':
     hexes:
       828d87fffffffff:
-        place: Banyuurip 61154, East Java
+        place: Banyuurip  East Java
         land: 3
         index: 1404
       828d8ffffffffff:
@@ -9524,7 +9524,7 @@
   '4':
     hexes:
       82952ffffffffff:
-        place: 93582, Southeast Sulawesi
+        place:  Southeast Sulawesi
         land: 5
         index: 1434
       829507fffffffff:
@@ -9650,7 +9650,7 @@
   '2':
     hexes:
       829687fffffffff:
-        place: 45301 Sikonge, Tabora Region
+        place: Sikonge, Tabora Region
         land: 7
         index: 1451
       82968ffffffffff:

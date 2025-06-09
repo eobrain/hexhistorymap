@@ -31,7 +31,9 @@ class Hex {
     this.#index = cellData.index
     this.#land = cellData.land
     this.#place = cellData.place
-    this.#name = cellData.name || this.#place || '????'
+
+    this.#name = (cellData.name || this.#place || '') +
+      (parent.name ? ', ' + parent.name : '')
     this.#valid = true
   }
 

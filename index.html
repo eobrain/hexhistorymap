@@ -13,8 +13,14 @@
 </head>
 
 <body>
+    <nav>
+        In
+        <span id="$yearDisplay"></span>,
+        <span id="$hexName"></span>
+        was controlled by
+        <span id="$state"></span>
+    </nav>
     <main>
-        <nav></nav>
         <section id="map-container">
             <canvas id="map"></canvas>
         </section>
@@ -25,16 +31,11 @@
             <div id="annotation-container">
                 <canvas id="$annotation" class="overlay"></canvas>
             </div>
-            <div id="year-container">
-                <span id="$yearDisplay"></span>
-            </div>
         </section>
         <aside>
             <div id="$note">
-                <p><span id="$hexName"></span> was controlled by <span id="$state"></span></p>
                 <p><span id="$presentDay"></a></p>
             </div>
-            <p id="$place"></p>
             <p>
                 <a target="_blank" id="$googleMap" href="">Map</a>
                 (<a target="_blank" id="$hex" href="">hex</a>)

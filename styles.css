@@ -1,29 +1,11 @@
-/*canvas {
-    width: 100%;
-}*/
-
-/* all charts overlay on top of one another */
-/*#chart-container {
-    position: relative;
-}
-
-#chart-container canvas {
-    position: relatiive;
-    top: 0;
-    left: 0;
-}*/
-
-/*.overlay {
-    margin-top: -1898px;
-}*/
-
-body {
-    margin: 5vmin;
-    padding: 0;
-}
-
 /* Wide */
 @media (min-width: 1200px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+
     main {
         display: flex;
         flex-wrap: wrap;
@@ -55,13 +37,6 @@ body {
         top: 0;
     }
 
-    #year-container {
-        position: absolute;
-        width: 100%;
-        top: -1.5em;
-        text-align: right;
-    }
-
     #annotation-container canvas {
         width: 100%;
     }
@@ -69,6 +44,12 @@ body {
 
 /* Narrow */
 @media (max-width: 1200px) {
+    body {
+        margin: 5vmin;
+        padding: 0;
+    }
+
+
     #map-container canvas {
         width: 90vmin;
         height: 90vmin;
@@ -89,14 +70,13 @@ body {
         top: 0;
     }
 
-    #year-container {
-        position: absolute;
-        width: 100%;
-        top: -1.5em;
-        text-align: right;
-    }
 
     #annotation-container canvas {
         width: 100%;
     }
+}
+
+nav, aside {
+    text-align: center;
+    margin: 0.5em;
 }

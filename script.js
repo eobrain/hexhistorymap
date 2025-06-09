@@ -6,7 +6,7 @@ import regioncode2state from './regioncode2state.js'
 import { stateColor } from './view.js'
 import { drawChart, updateChart } from './chart.js'
 
-/* global Hammer, $yearDisplay, $google, $googleMap, $note, $hex, $place, $state, $hexName, $presentDay */
+/* global Hammer, $yearDisplay, $google, $googleMap, $note, $hex, $state, $hexName, $presentDay */
 
 let milieu
 let projectionLat = 0
@@ -50,7 +50,7 @@ const geoGenerator = geoPath()
 
 const { minYear, maxYear } = yearRange()
 
-const yearFormat = year => year > 0 ? `${year} CE` : `${-year} BCE`
+const yearFormat = year => year > 0 ? `${year}` : `${-year} BCE`
 
 const updateLocation = (lat, lon) => {
   const hex = locateHex(lat, lon)
@@ -163,7 +163,7 @@ const update = () => {
       }
     }
     $presentDay.innerHTML = presentDayMilieuName
-    $place.innerHTML = milieu.place()
+    // $place.innerHTML = milieu.place()
     $hexName.innerHTML = milieu.hexName()
     const googleQuery = `${milieu.state().name()} in ${milieu.year()}`
     $google.innerHTML = googleQuery
