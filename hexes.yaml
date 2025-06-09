@@ -8787,10 +8787,12 @@
           Inês-Bacabal - MA
         land: 7
         index: 1301
+        name: Maranhão state
       828037fffffffff:
         place: Assaré, Região Geográfica Intermediária de Juazeiro do Norte
         land: 7
         index: 1302
+        name: Ceará S
     states:
       Brazil: {}
     bighex: 81803ffffffffff
