@@ -19,36 +19,84 @@
 
 body {
     margin: 5vmin;
-    padding 0;
+    padding: 0;
 }
 
-#map-container canvas{
-    width: 90vmin;
-    height: 90vmin;
+/* Wide */
+@media (min-width: 1200px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    #map-container canvas {
+        width: 45vw;
+        height: 45vw;
+    }
+
+    #map-container,
+    #overlay {
+        width: 45vw;
+    }
+
+    #overlay {
+        position: relative;
+        width: 45vw;
+    }
+
+    #chart-container canvas {
+        width: 100%;
+    }
+
+    #annotation-container {
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+
+    #year-container {
+        position: absolute;
+        width: 100%;
+        top: -1.5em;
+        text-align: right;
+    }
+
+    #annotation-container canvas {
+        width: 100%;
+    }
 }
 
-#overlay {
-    position: relative;
-    width: 90vw;
-}
+/* Narrow */
+@media (max-width: 1200px) {
+    #map-container canvas {
+        width: 90vmin;
+        height: 90vmin;
+    }
 
-#chart-container canvas {
-    width: 100%;
-}
+    #overlay {
+        position: relative;
+        width: 90vw;
+    }
 
-#annotation-container {
-    position: absolute;
-    width: 100%;
-    top: 0;
-}
+    #chart-container canvas {
+        width: 100%;
+    }
 
-#year-container {
-    position: absolute;
-    width: 100%;
-    top: -1.5em;
-    text-align: right;
-}
+    #annotation-container {
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
 
-#annotation-container canvas {
-    width: 100%;
+    #year-container {
+        position: absolute;
+        width: 100%;
+        top: -1.5em;
+        text-align: right;
+    }
+
+    #annotation-container canvas {
+        width: 100%;
+    }
 }
