@@ -11,11 +11,6 @@ Gutes:
   begin: -1500
   end: 1000
   color: '#ff582b'
-Polisario Front:
-  note: Sahrawi Arab Democratic Republic
-  begin: 1973
-  end: 2025
-  color: '#d32903'
 Athabascans:
   note: Dena, Navajo, Apache
   begin: -2000
@@ -51,6 +46,10 @@ Dorset:
   begin: -500
   end: 1500
   color: '#c4232a'
+Ireland:
+  begin: -1000
+  end: 2025
+  color: '#90a0ff'
 Aksum:
   begin: 100
   end: 940
@@ -68,34 +67,29 @@ Thule:
   begin: -200
   end: 1600
   color: '#ff3891'
-Iran:
-  note: Persia, modern Iran, Qajar Dynasty, Afsharid Dynasty, Safavid dynasty
-  begin: 1501
-  end: 2025
-  color: '#f49422'
+Ghana Empire:
+  begin: 300
+  end: 1100
+  color: '#ef2e88'
 Tang:
   note: Tang Dynasty
   begin: 618
   end: 907
   color: '#ffad24'
-Byzantine:
-  note: Byzantine Empire, Eastern Roman Empire
-  begin: 476
-  end: 1453
-  color: '#d0294d'
-Pechenegs:
-  begin: 800
-  end: 1100
-  color: '#d97a0f'
-Ghana Empire:
-  begin: 300
-  end: 1100
-  color: '#ef2e88'
 Srivijaya:
   note: Sumatra-based maritime empiry
   begin: 671
   end: 1025
   color: '#ff7277'
+Pechenegs:
+  begin: 800
+  end: 1100
+  color: '#d97a0f'
+Byzantine:
+  note: Byzantine Empire, Eastern Roman Empire
+  begin: 476
+  end: 1453
+  color: '#d0294d'
 Fatimid:
   note: Fatimid Caliphate
   begin: 909
@@ -179,19 +173,15 @@ Oman:
   begin: 751
   end: 2025
   color: '#b36027'
-Morocco:
-  begin: 1666
-  end: 2025
-  color: '#ff74af'
+Mali Empire:
+  begin: 1230
+  end: 1610
+  color: '#fe8d9f'
 France:
   note: Kingdom of France, French Republic, French Colonial Empire, modern France
   begin: 843
   end: 2025
   color: '#9b6104'
-Mali Empire:
-  begin: 1230
-  end: 1610
-  color: '#fe8d9f'
 Norway:
   begin: 885
   end: 2025
@@ -233,15 +223,15 @@ Hungary:
   begin: 991
   end: 2025
   color: '#fea4a1'
-Sweden:
-  begin: 1000
-  end: 2025
-  color: '#610e00'
 Songhai:
   note: Songhai Empire
   begin: 1429
   end: 1591
   color: '#feb794'
+Sweden:
+  begin: 1000
+  end: 2025
+  color: '#610e00'
 Portugal:
   begin: 1139
   end: 2025
@@ -250,6 +240,11 @@ Austria:
   begin: 1156
   end: 2025
   color: '#855b00'
+Sardinia:
+  note: Kingdom of Sardinia, Piedmont-Sardinia
+  begin: 1324
+  end: 1861
+  color: '#f8a4d2'
 Ottomans:
   begin: 1299
   end: 1922
@@ -291,6 +286,11 @@ Spain:
   begin: 1479
   end: 2025
   color: '#962080'
+Iran:
+  note: Persia, modern Iran, Qajar Dynasty, Afsharid Dynasty, Safavid dynasty
+  begin: 1501
+  end: 2025
+  color: '#f49422'
 Prussia:
   begin: 1701
   end: 1871
@@ -304,11 +304,6 @@ Durrani:
   begin: 1747
   end: 1826
   color: '#aed30d'
-Sardinia:
-  note: Kingdom of Sardinia, Piedmont-Sardinia
-  begin: 1324
-  end: 1861
-  color: '#f8a4d2'
 Netherlands:
   node: Dutch Republic, Dutch empire, modern Netherlands
   begin: 1581
@@ -323,6 +318,15 @@ Sikh:
   begin: 1799
   end: 1849
   color: '#819000'
+China:
+  note: People's Republic of China, pre-revolution, ublic of China, Qing Dynasty
+  begin: 1636
+  end: 2025
+  color: '#00a400'
+Morocco:
+  begin: 1666
+  end: 2025
+  color: '#ff74af'
 Austro-Hungary:
   begin: 1867
   end: 1918
@@ -511,10 +515,6 @@ Egypt:
   begin: 1922
   end: 2025
   color: '#005923'
-Ireland:
-  begin: -1000
-  end: 2025
-  color: '#90a0ff'
 Turkey:
   begin: 1923
   end: 2025
@@ -571,11 +571,6 @@ Sri Lanka:
   begin: 1948
   end: 2025
   color: '#065f4b'
-China:
-  note: People's Republic of China, pre-revolution, ublic of China, Qing Dynasty
-  begin: 1636
-  end: 2025
-  color: '#00a400'
 Laos:
   begin: 1949
   end: 2025
@@ -748,6 +743,11 @@ United Arab Emirates:
   begin: 1971
   end: 2025
   color: '#33c6e0'
+Polisario Front:
+  note: Sahrawi Arab Democratic Republic
+  begin: 1973
+  end: 2025
+  color: '#d32903'
 Guinea-Bissau:
   begin: 1974
   end: 2025

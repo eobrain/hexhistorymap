@@ -762,7 +762,7 @@
       Sámi:
         end: 885
     bighex: 81083ffffffffff
-    name:  Scandinavian Peninsula W
+    name: Scandinavian Peninsula W
   '2':
     hexes:
       820887fffffffff:
@@ -2995,7 +2995,7 @@
           Byzantine: {}
           Ottomans:
             begin: 1453
-        land: 5 
+        land: 5
         index: 411
       821ed7fffffffff:
         place: Bashkia Kolonjë
@@ -7236,7 +7236,7 @@
         index: 1066
     bighex: 81583ffffffffff
     states:
-      Songhai: {} 
+      Songhai: {}
   '1':
     hexes:
       825847fffffffff:
@@ -7790,7 +7790,7 @@
   '4':
     hexes:
       826507fffffffff:
-        place:  Pahang
+        place: Pahang
         states:
           Malaysia: {}
         land: 6
@@ -9347,7 +9347,7 @@
   '0':
     hexes:
       828c17fffffffff:
-        place:  West Java
+        place: West Java
         land: 3
         index: 1397
     states:
@@ -9365,7 +9365,7 @@
         land: 5
         index: 1400
       828cb7fffffffff:
-        place:  West Kalimantan
+        place: West Kalimantan
         land: 5
         index: 1401
       828c8ffffffffff:
@@ -9552,7 +9552,7 @@
   '4':
     hexes:
       82952ffffffffff:
-        place:  Southeast Sulawesi
+        place: Southeast Sulawesi
         land: 5
         index: 1434
       829507fffffffff:
