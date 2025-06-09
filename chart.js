@@ -27,6 +27,12 @@ const drawYear = (year, hex) => {
   prevX = x
 
   if (hex) {
+    const y = hex.index()
+    annotationCtx.beginPath()
+    annotationCtx.strokeStyle = 'black'
+    annotationCtx.moveTo(0, y)
+    annotationCtx.lineTo(WIDTH - 1, y)
+    annotationCtx.stroke()
     prevY = hex.index()
   }
 }
