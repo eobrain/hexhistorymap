@@ -131,6 +131,11 @@ const update = () => {
   geoGenerator(lakes)
   context.fill()
 
+  for (const hex of hexes()) {
+    $hexName.insertAdjacentHTML('beforeend',
+      `<option value="${hex.index()}">${hex.name()}</option>`)
+  }
+
   if (milieu.state()) {
     const coordinates = coordinatesOfStates[milieu.state().name()].map(a =>
       a.map(b => b.reverse())
@@ -166,7 +171,7 @@ const update = () => {
     }
     $presentDay.innerHTML = presentDayMilieuName
     // $place.innerHTML = milieu.place()
-    $hexName.innerHTML = milieu.hexName()
+    $hexName.selectedIndex = milieu.hex().index()
     const googleQuery = `${milieu.state().name()} in ${milieu.year()}`
     $google.innerHTML = googleQuery
     $google.href = `https://google.com/search?q=${googleQuery}`
@@ -224,6 +229,12 @@ $yearDisplay.addEventListener('change', () => {
     updateYear(updatedYear)
     updateChart(updatedYear, milieu.hex())
   }
+})
+
+$hexName.addEventListener('change', () => {
+  const hex = hexes()[$hexName.selectedIndex]
+  const [lat, lon] = hex.latLon()
+  updateLocation(lat, lon)
 })
 
 drawChart(maxYear, (x, hex) => {
