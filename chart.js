@@ -20,7 +20,7 @@ const drawYear = (year, hex) => {
   annotationCtx.clearRect(0, 0, WIDTH, HEIGHT)
   const x = year - minYear
   annotationCtx.beginPath()
-  annotationCtx.strokeStyle = 'black'
+  annotationCtx.strokeStyle = 'white'
   annotationCtx.moveTo(x, 0)
   annotationCtx.lineTo(x, HEIGHT - 1)
   annotationCtx.stroke()
@@ -29,7 +29,7 @@ const drawYear = (year, hex) => {
   if (hex) {
     const y = hex.index()
     annotationCtx.beginPath()
-    annotationCtx.strokeStyle = 'black'
+    annotationCtx.strokeStyle = 'white'
     annotationCtx.moveTo(0, y)
     annotationCtx.lineTo(WIDTH - 1, y)
     annotationCtx.stroke()

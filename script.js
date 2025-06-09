@@ -49,8 +49,10 @@ const geoGenerator = geoPath()
 // const controlYear = () => parseInt($yearControl.value, 10)
 
 const { minYear, maxYear } = yearRange()
+$yearDisplay.min = minYear
+$yearDisplay.max = maxYear
 
-const yearFormat = year => year > 0 ? `${year}` : `${-year} BCE`
+// const yearFormat = year => year > 0 ? `${year}` : `${-year} BCE`
 
 const updateLocation = (lat, lon) => {
   const hex = locateHex(lat, lon)
@@ -88,7 +90,7 @@ const update = () => {
   context.fillStyle = 'white'
   context.fillRect(0, 0, canvas.width, canvas.height)
 
-  $yearDisplay.innerHTML = yearFormat(milieu.year())
+  $yearDisplay.value = milieu.year()
   context.lineWidth = 1
 
   const coordinatesOfStates = stateCoordinates(milieu.year())
@@ -216,6 +218,14 @@ d3Canvas.on('dblclick', (event) => {
   }
 })
 
+$yearDisplay.addEventListener('change', () => {
+  const updatedYear = parseInt($yearDisplay.value, 10)
+  if (updatedYear !== milieu.year()) {
+    updateYear(updatedYear)
+    updateChart(updatedYear, milieu.hex())
+  }
+})
+
 drawChart(maxYear, (x, hex) => {
   let updatedYear = x + minYear
   updatedYear = Math.max(minYear, Math.min(updatedYear, maxYear))
@@ -228,4 +238,5 @@ drawChart(maxYear, (x, hex) => {
     updateLocation(lat, lon)
   }
 })
+
 update()

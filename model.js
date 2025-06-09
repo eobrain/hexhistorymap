@@ -241,6 +241,10 @@ export class Milieu {
     return this.#place
   }
 
+  hex () {
+    return this.#hex
+  }
+
   state () {
     return this.#state
   }
