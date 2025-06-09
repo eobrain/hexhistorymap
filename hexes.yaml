@@ -7073,7 +7073,11 @@
       825517fffffffff:
         place: Bir Anzarane, Dakhla-Oued Ed-Dahab
         states:
-          Morocco: {}
+          Spain:
+            begin: 1884
+            end: 1975
+          Morocco:
+            begin: 1975
         land: 5
         index: 1047
       82551ffffffffff:
@@ -7081,19 +7085,33 @@
           Zuk, Cercle d'Aousserd دائرة أوسرد, Sahrawi Arab Democratic Republic
           (Western Sahara, controlled by Moroccos. Disuputed)
         states:
-          Morocco:
+          Spain:
+            begin: 1884
+            end: 1975
+          Mauritania:
             begin: 1975
+            end: 1979
+          Polisario Front:
+            begin: 1979
         land: 7
         index: 1048
+        name: Agounit
       825527fffffffff:
         place: >-
           Tifariti, Laâyoune-Sakia El Hamra, Sahrawi Arab Democratic Republic 
           (Western Sahara, controlled by Moroccos. Disuputed)
         states:
-          Morocco:
+          Spain:
+            begin: 1884
+            end: 1975
+          Mauritania:
             begin: 1975
+            end: 1979
+          Polisario Front:
+            begin: 1979
         land: 7
         index: 1049
+        name: Bir Lehlou
       82552ffffffffff:
         place: Tiris Zemmour
         states:
@@ -7103,7 +7121,11 @@
       825537fffffffff:
         place: Boucraa, Cercle de Laâyoune دائرة العيون
         states:
-          Morocco: {}
+          Spain:
+            begin: 1884
+            end: 1975
+          Morocco:
+            begin: 1975
         land: 5
         index: 1051
     bighex: 81553ffffffffff
@@ -7161,7 +7183,11 @@
         land: 4
         index: 1059
     states:
-      Morocco: {}
+      Spain:
+        begin: 1884
+        end: 1975
+      Morocco:
+        begin: 1975
     bighex: 8155bffffffffff
 '44':
   '0':

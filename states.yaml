@@ -11,6 +11,11 @@ Gutes:
   begin: -1500
   end: 1000
   color: '#ff582b'
+Polisario Front:
+  note: Sahrawi Arab Democratic Republic
+  begin: 1973
+  end: 2025
+  color: '#d32903'
 Athabascans:
   note: Dena, Navajo, Apache
   begin: -2000
