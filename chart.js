@@ -39,7 +39,7 @@ const drawYear = (year, hex) => {
 
     window.scrollTo({
       left: 0,
-      top: y * $annotation.clientHeight / $annotation.height - window.innerHeight / 2,
+      top: y * $annotation.clientHeight / $annotation.height - 3 * window.innerHeight / 4,
       behavior: 'smooth'
     })
   }

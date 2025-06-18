@@ -1,3 +1,22 @@
+nav {
+    top: 0;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    text-wrap: nowrap;
+}
+
+#map-container {
+    position: fixed;
+    z-index: 1;
+    top: 2em;
+    background-color: white;
+}
+
+select {
+    max-width: 30vw;
+}
+
 /* Wide */
 @media (min-width: 1200px) {
     body {
@@ -13,13 +32,6 @@
 
     #map-container {
         left: 50vw;
-        top: 2em;
-        position: fixed;
-    }
-
-    nav {
-        position: fixed;
-        z-index: 1;
     }
 
     #map-container canvas {
@@ -35,7 +47,6 @@
     #overlay {
         position: relative;
         width: 45vw;
-        margin-top: 2em;
     }
 
     #chart-container canvas {
@@ -69,6 +80,7 @@
     #overlay {
         position: relative;
         width: 90vw;
+        padding-top: 100vw;
     }
 
     #chart-container canvas {
@@ -87,11 +99,12 @@
     }
 }
 
-nav, aside {
+nav,
+aside {
     text-align: center;
     margin: 0.5em;
 }
 
 input[type="number"] {
-    width: 5em;
+    width: 3em;
 }
