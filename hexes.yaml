@@ -2999,8 +2999,18 @@
         index: 411
       821ed7fffffffff:
         place: Bashkia Kolonjë
+        name: Koloneia
         states:
           Albania: {}
+          Ottomans:
+            begin: 1451
+            end: 1912
+          Serbia:
+            begin: 1379
+            end: 1396
+          Byzantine:
+            begin: 867
+            end: 1349
         land: 5
         index: 412
       821edffffffffff:

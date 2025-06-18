@@ -86,7 +86,7 @@ Pechenegs:
   end: 1100
   color: '#c82658'
 Byzantine:
-  note: Byzantine Empire, Eastern Roman Empire
+  note: Byzantine Empire, Eastern Roman Empire, Despotate of Epirus
   begin: 476
   end: 1453
   color: '#c0650b'
@@ -433,7 +433,8 @@ Romania:
   end: 2025
   color: '#42a200'
 Serbia:
-  begin: 1878
+  note: Kingdom of Serbia, Serbian Empire,  Kingdom of Prilep, modern Serbia
+  begin: 1217
   end: 2025
   color: '#43733b'
 Czechoslovakia:
