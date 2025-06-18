@@ -5,35 +5,37 @@ import { stateColor } from './view.js'
 
 const { minYear, maxYear } = yearRange()
 
-const HEIGHT = hexes().length
+const STRETCH = 5 // stretch factor for the chart
+const HEX_COUNT = hexes().length
+const HEIGHT_PX = STRETCH * HEX_COUNT
 const WIDTH = maxYear - minYear + 1
 $chart.width = $annotation.width = WIDTH
-$chart.height = $annotation.height = HEIGHT
+$chart.height = $annotation.height = HEIGHT_PX
 const chartCtx = $chart.getContext('2d')
 const annotationCtx = $annotation.getContext('2d')
 
 let prevX
-let prevY = 0
+let prevJ = 0
 
 const drawYear = (year, hex) => {
   // chartCtx.fillStyle = 'white'
-  annotationCtx.clearRect(0, 0, WIDTH, HEIGHT)
+  annotationCtx.clearRect(0, 0, WIDTH, HEIGHT_PX)
   const x = year - minYear
   annotationCtx.beginPath()
   annotationCtx.strokeStyle = 'white'
   annotationCtx.moveTo(x, 0)
-  annotationCtx.lineTo(x, HEIGHT - 1)
+  annotationCtx.lineTo(x, HEIGHT_PX - 1)
   annotationCtx.stroke()
   prevX = x
 
   if (hex) {
-    const y = hex.index()
+    const y = hex.index() * STRETCH
     annotationCtx.beginPath()
     annotationCtx.strokeStyle = 'white'
     annotationCtx.moveTo(0, y)
     annotationCtx.lineTo(WIDTH - 1, y)
     annotationCtx.stroke()
-    prevY = hex.index()
+    prevJ = hex.index()
   }
 }
 
@@ -46,7 +48,7 @@ export const drawChart = (year, panCallback) => {
   hammertime.get('pan').set({ threshold: 1 })
 
   chartCtx.fillStyle = 'white'
-  chartCtx.fillRect(0, 0, WIDTH, HEIGHT)
+  chartCtx.fillRect(0, 0, WIDTH, HEIGHT_PX)
 
   const drawLine = (x1, x2, y, color) => {
     chartCtx.beginPath()
@@ -56,10 +58,12 @@ export const drawChart = (year, panCallback) => {
     chartCtx.stroke()
   }
 
-  for (let y = 0; y < HEIGHT; ++y) {
-    const hex = hexes()[y]
+  for (let j = 0; j < HEX_COUNT; ++j) {
+    const y = j * STRETCH
+    const hex = hexes()[j]
     let prevColor
     let prevStartX
+    chartCtx.lineWidth = STRETCH + 1
     for (let x = WIDTH - 1; x >= 0; --x) {
       const year = minYear + x
       const milieu = new Milieu(hex, year)
@@ -83,7 +87,8 @@ export const drawChart = (year, panCallback) => {
   $annotation.onclick = e => {
     const x = Math.trunc(e.offsetX * e.currentTarget.width / e.currentTarget.clientWidth)
     const y = Math.trunc(e.offsetY * e.currentTarget.height / e.currentTarget.clientHeight)
-    panCallback(x, hexes()[y])
+    const j = Math.trunc(y / STRETCH)
+    panCallback(x, hexes()[j])
   }
 
   document.addEventListener('keydown', (event) => {
@@ -96,17 +101,17 @@ export const drawChart = (year, panCallback) => {
         ++prevX
       }
     } else if (event.key === 'ArrowUp') {
-      if (prevY > 0) {
-        --prevY
+      if (prevJ > 0) {
+        --prevJ
       }
     } else if (event.key === 'ArrowDown') {
-      if (prevY < HEIGHT - 1) {
-        ++prevY
+      if (prevJ < HEX_COUNT - 1) {
+        ++prevJ
       }
     } else {
       return
     }
-    panCallback(prevX, hexes()[prevY])
+    panCallback(prevX, hexes()[prevJ])
     event.preventDefault()
   })
 }
