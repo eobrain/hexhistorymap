@@ -11,6 +11,16 @@
         flex-wrap: wrap;
     }
 
+    #map-container {
+        left: 50vw;
+        top: 2em;
+        position: fixed;
+    }
+
+    nav {
+        position: fixed;
+        z-index: 1;
+    }
 
     #map-container canvas {
         width: 45vw;
@@ -25,6 +35,7 @@
     #overlay {
         position: relative;
         width: 45vw;
+        margin-top: 2em;
     }
 
     #chart-container canvas {

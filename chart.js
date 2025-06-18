@@ -36,6 +36,12 @@ const drawYear = (year, hex) => {
     annotationCtx.lineTo(WIDTH - 1, y)
     annotationCtx.stroke()
     prevJ = hex.index()
+
+    window.scrollTo({
+      left: 0,
+      top: y * $annotation.clientHeight / $annotation.height - window.innerHeight / 2,
+      behavior: 'smooth'
+    })
   }
 }
 
