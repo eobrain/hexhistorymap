@@ -3,7 +3,7 @@ import maxichrome from 'maxichrome'
 
 const stateNames = Object.keys(stateData)
 
-const colors = await maxichrome(stateNames.length, ['black', 'white'])
+const colors = await maxichrome(stateNames.length, ['black', 'black', 'white', 'white'])
 
 for (let i = 0; i < stateNames.length; ++i) {
   const stateName = stateNames[i]
