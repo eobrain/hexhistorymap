@@ -253,6 +253,11 @@ Yakuts:
   begin: 1200
   end: 2025
   color: '#6d3c00'
+Serbia:
+  note: Kingdom of Serbia, Serbian Empire,  Kingdom of Prilep, modern Serbia
+  begin: 1217
+  end: 2025
+  color: '#43733b'
 Lithuania:
   note: Grand Duchy of Lithuania, modern Lithuania
   begin: 1236
@@ -432,11 +437,6 @@ Romania:
   begin: 1878
   end: 2025
   color: '#42a200'
-Serbia:
-  note: Kingdom of Serbia, Serbian Empire,  Kingdom of Prilep, modern Serbia
-  begin: 1217
-  end: 2025
-  color: '#43733b'
 Czechoslovakia:
   begin: 1918
   end: 1992
