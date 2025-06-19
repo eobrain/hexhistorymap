@@ -1000,6 +1000,9 @@
       USSR: {}
       Russia:
         begin: 1822
+      Samoyedic:
+        begin: 550
+        end: 1822
     bighex: 810a3ffffffffff
     name: Yenisei River
   '1':
@@ -1045,6 +1048,12 @@
       USSR: {}
       Russia:
         begin: 1822
+      Tungusic:
+        begin: 1750
+        end: 1822
+      Samoyedic:
+        begin: 400
+        end: 1750
     bighex: 810a7ffffffffff
     name: Taymyr
   '2':
