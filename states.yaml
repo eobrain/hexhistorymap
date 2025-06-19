@@ -257,186 +257,186 @@ Serbia:
   note: Kingdom of Serbia, Serbian Empire,  Kingdom of Prilep, modern Serbia
   begin: 1217
   end: 2025
-  color: '#43733b'
+  color: '#938900'
 Lithuania:
   note: Grand Duchy of Lithuania, modern Lithuania
   begin: 1236
   end: 2025
-  color: '#938900'
+  color: '#62240a'
 Thailand:
   begin: 1238
   end: 2025
-  color: '#62240a'
+  color: '#e750e9'
 Basque:
   note: North Atlantic fishing culture
   begin: 1530
   end: 1760
-  color: '#e750e9'
+  color: '#adc600'
 Poland-Lithuania:
   begin: 1569
   end: 1795
-  color: '#adc600'
+  color: '#feb8b9'
 Mughal:
   note: Mughal empire
   begin: 1526
   end: 1857
-  color: '#feb8b9'
+  color: '#6b4d00'
 Maratha:
   note: Maratha Confederacy, Maratha Empire
   begin: 1674
   end: 1818
-  color: '#6b4d00'
+  color: '#ff89ed'
 Spain:
   note: Kingdom of Spain, Spanish Empire, modern Spain
   begin: 1479
   end: 2025
-  color: '#ff89ed'
+  color: '#ffa5d3'
 Iran:
   note: Persia, modern Iran, Qajar Dynasty, Afsharid Dynasty, Safavid dynasty
   begin: 1501
   end: 2025
-  color: '#ffa5d3'
+  color: '#6a0f42'
 Prussia:
   begin: 1701
   end: 1871
-  color: '#6a0f42'
+  color: '#5a0035'
 Russia:
   begin: 1547
   end: 2025
-  color: '#5a0035'
+  color: '#725a0b'
 Durrani:
   note: Afghan Empire, Durrani Empire
   begin: 1747
   end: 1826
-  color: '#725a0b'
+  color: '#93a900'
 Netherlands:
   node: Dutch Republic, Dutch empire, modern Netherlands
   begin: 1581
   end: 2025
-  color: '#93a900'
+  color: '#9bb804'
 Britain:
   begin: 1603
   end: 2025
-  color: '#9bb804'
+  color: '#4a2100'
 Sikh:
   note: Sikh Empire
   begin: 1799
   end: 1849
-  color: '#4a2100'
+  color: '#727700'
 China:
   note: People's Republic of China, pre-revolution, ublic of China, Qing Dynasty
   begin: 1636
   end: 2025
-  color: '#727700'
+  color: '#7f0d86'
 Morocco:
   begin: 1666
   end: 2025
-  color: '#7f0d86'
+  color: '#6a6a00'
 Austro-Hungary:
   begin: 1867
   end: 1918
-  color: '#6a6a00'
+  color: '#8d07ac'
 Nepal:
   begin: 1768
   end: 2025
-  color: '#8d07ac'
+  color: '#4e4500'
 USA:
   begin: 1776
   end: 2025
-  color: '#4e4500'
+  color: '#690c7b'
 Ecuador:
   begin: 1809
   end: 2025
-  color: '#690c7b'
+  color: '#483814'
 Colombia:
   note: Gran Colombia, modern Colombia
   begin: 1810
   end: 2025
-  color: '#483814'
+  color: '#372f00'
 Paraguay:
   begin: 1811
   end: 2025
-  color: '#372f00'
+  color: '#560768'
 Venezuela:
   begin: 1811
   end: 2025
-  color: '#560768'
+  color: '#465300'
 Argentina:
   begin: 1816
   end: 2025
-  color: '#465300'
+  color: '#5f8a00'
 Chile:
   begin: 1818
   end: 2025
-  color: '#5f8a00'
+  color: '#94f500'
 Costa Rica:
   begin: 1821
   end: 2025
-  color: '#94f500'
+  color: '#465f00'
 Guatemala:
   begin: 1821
   end: 2025
-  color: '#465f00'
+  color: '#cf77ff'
 Honduras:
   begin: 1821
   end: 2025
-  color: '#cf77ff'
+  color: '#5b9500'
 Mexico:
   begin: 1821
   end: 2025
-  color: '#5b9500'
+  color: '#8e0ff3'
 Nicaragua:
   begin: 1821
   end: 2025
-  color: '#8e0ff3'
+  color: '#2a3f00'
 Peru:
   begin: 1821
   end: 2025
-  color: '#2a3f00'
+  color: '#c994ee'
 Bolivia:
   begin: 1825
   end: 2025
-  color: '#c994ee'
+  color: '#59a900'
 Uruguay:
   begin: 1828
   end: 2025
-  color: '#59a900'
+  color: '#aa6edf'
 Greece:
   begin: 1830
   end: 2025
-  color: '#aa6edf'
+  color: '#dab6fa'
 Belgium:
   begin: 1830
   end: 2025
-  color: '#dab6fa'
+  color: '#376c00'
 Dominican Republic:
   begin: 1844
   end: 2025
-  color: '#376c00'
+  color: '#2d4b17'
 Liberia:
   begin: 1847
   end: 2025
-  color: '#2d4b17'
+  color: '#7a5da4'
 Italy:
   begin: 1861
   end: 2025
-  color: '#7a5da4'
+  color: '#9767d6'
 Canada:
   begin: 1867
   end: 2025
-  color: '#9767d6'
+  color: '#123600'
 Germany:
   begin: 1871
   end: 2025
-  color: '#123600'
+  color: '#c7a7fe'
 Bulgaria:
   begin: 1878
   end: 2025
-  color: '#c7a7fe'
+  color: '#42a200'
 Romania:
   begin: 1878
   end: 2025
-  color: '#42a200'
+  color: '#43733b'
 Czechoslovakia:
   begin: 1918
   end: 1992
