@@ -13,51 +13,33 @@
 </head>
 
 <body>
-    <nav>
-        In
-        <input id="$yearDisplay" type="number" /> <!--list="centuries" /-->
-        <select id="$hexName">
-        </select>
-        was controlled by
-        <span id="$state"></span>
-    </nav>
-    <main>
-        <section id="map-container">
-            <canvas id="map"></canvas>
-        </section>
-        <section id="overlay">
-            <div id="chart-container">
-                <canvas id="$chart"></canvas>
-            </div>
-            <div id="annotation-container">
-                <canvas id="$annotation" class="overlay"></canvas>
-            </div>
-        </section>
-        <aside>
-            <div id="$note">
-                <p><span id="$presentDay"></a></p>
-            </div>
-            <p>
-                <a target="_blank" id="$googleMap" href="">Map</a>
-                (<a target="_blank" id="$hex" href="">hex</a>)
-            </p>
-            <p><a target="_blank" id="$google" href=""></a></p>
-        </aside>
-    </main>
-    <footer>&copy; 2025 Eamonn O'Brien-Strain</footer>
-    <!--datalist id="centuries">
-        <option value="1000"></option>
-        <option value="1100"></option>
-        <option value="1200"></option>
-        <option value="1300"></option>
-        <option value="1400"></option>
-        <option value="1500"></option>
-        <option value="1600"></option>
-        <option value="1700"></option>
-        <option value="1800"></option>
-        <option value="1900"></option>
-        <option value="2000"></option>
-    </datalist-->
+    <div id="map-container">
+        <canvas id="map"></canvas>
+    </div>
+    <div id="overlay">
+        <div id="chart-container">
+            <canvas id="$chart"></canvas>
+        </div>
+        <div id="annotation-container">
+            <canvas id="$annotation" class="overlay"></canvas>
+        </div>
+        <div id="year-container">
+            <span id="$yearDisplay"></span>
+        </div>
+    </div>
+    <div id="text-container">
+        <div id="$note">
+            <p><span id="$hexName"></span> was controlled by <span id="$state"></span></p>
+            <p><span id="$presentDay"></a></p>
+        </div>
+        <p id="$place"></p>
+        <p>
+            <a target="_blank" id="$googleMap" href="">Map</a>
+            (<a target="_blank" id="$hex" href="">hex</a>)
+        </p>
+        <p><a target="_blank" id="$google" href=""></a></p>
+        <p>&copy; 2025 Eamonn O'Brien-Strain</p>
+    </div>
 </body>
 
 </html>

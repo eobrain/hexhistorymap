@@ -1097,6 +1097,13 @@
       USSR: {}
       Russia:
         begin: 1640
+      Tungusic:
+        begin: 1400
+        end: 1640
+      Mongols:
+        begin: 1200
+        end: 1400
+      Kurykans: {}
     bighex: 810abffffffffff
     name: Central Siberian Plateau S
   '3':
@@ -1140,6 +1147,11 @@
       USSR: {}
       Russia:
         begin: 1640
+      Tungusic:
+        end: 1200
+      Yakuts:
+        begin: 1200
+        end: 1640
     bighex: 810afffffffffff
     name: Central Siberian Plateau
   '4':
@@ -1194,7 +1206,13 @@
     states:
       USSR: {}
       Russia:
-        begin: 1600
+        begin: 1598
+      Sibir: {}
+      Novgorod:
+        begin: 1200
+        end: 1468
+      Ugeric:
+        end: 1200
     bighex: 810b3ffffffffff
     name: West Siberian Plain
   '5':

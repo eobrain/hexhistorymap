@@ -145,7 +145,7 @@ Scotland:
   color: '#ae215c'
 Mongols:
   begin: 1206
-  end: 1368
+  end: 1400
   color: '#cfaa16'
 Teutonic Order:
   begin: 1230
@@ -209,6 +209,21 @@ Karnata:
   note: Karnata Kingdom, Vijayanagara Empire
   begin: 1336
   end: 1646
+  color: '#946511'
+Novgorod:
+  note: Novgorod Republic
+  begin: 1136
+  end: 1478
+  color: '#ce9c6a'
+Ugeric:
+  note: Uralic peoples, Khanty, Mansi
+  begin: 950
+  end: 2025
+  color: '#733602'
+Sibir:
+  note: Khanate of Sibir
+  begin: 1468
+  end: 1598
   color: '#946511'
 Poland:
   note: Duchy of Poland, Kingdom of Poland, modern Poland
@@ -516,6 +531,11 @@ Egypt:
   begin: 1922
   end: 2025
   color: '#726bf9'
+Kurykans:
+  note: Turkic people
+  begin: 550
+  end: 1200
+  color: '#0e9c00'
 Turkey:
   begin: 1923
   end: 2025

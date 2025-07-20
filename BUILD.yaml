@@ -83,14 +83,6 @@ update-colors:
     node from-yaml.js
     ava
 
-update-hexes:
-  exec: |
-    node make-data.js > hexes-new.js
-    mv hexes-new.js hexes.js
-    node to-yaml.js
-    node from-yaml.js
-    ava
-
 site:
   exec: mkdir -p $@
 
@@ -121,6 +113,6 @@ standard:
 js:
   deps:
     - from-yaml.js
-    - hexes.yaml
-    - states.yaml
+    - data/hexes.yaml
+    - data/states.yaml
   exec: node $< && touch $@

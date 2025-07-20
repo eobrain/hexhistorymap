@@ -16,5 +16,5 @@ const statesSorted = Object.fromEntries(
   Object.entries(states).sort((a, b) => middle(a[1]) - middle(b[1]))
 )
 
-fs.writeFileSync('hexes.yaml', dump(hexesSorted, options))
-fs.writeFileSync('states.yaml', dump(statesSorted, options))
+fs.writeFileSync('data/hexes.yaml', dump(hexesSorted, options))
+fs.writeFileSync('data/states.yaml', dump(statesSorted, options))
