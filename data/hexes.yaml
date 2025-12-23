@@ -6354,7 +6354,10 @@
   '1':
     hexes:
       824447fffffffff:
-        place: West Feliciana Parish, Louisiana
+        place: Southern Lower Mississippi (West Feliciana Parish, Louisiana)
+        states:
+          Plaquemine: {}
+          Coles Creek: {}
         land: 6
         index: 926
       82444ffffffffff:
