@@ -6354,8 +6354,9 @@
   '1':
     hexes:
       824447fffffffff:
-        place: Southern Lower Mississippi (West Feliciana Parish, Louisiana)
+        place: Southern Lower Mississippi Rover (West Feliciana Parish, Louisiana)
         states:
+          Natchez: {}
           Plaquemine: {}
           Coles Creek: {}
         land: 6
@@ -6366,10 +6367,20 @@
         index: 927
       824457fffffffff:
         place: Mobile, AL
+        states:
+          Choctaw:
+            begin: 1200
+            end: 1698
+          Spain:
+            begin: 1698
+            end: 1763
         land: 4
         index: 928
       82445ffffffffff:
-        place: Carroll County, MS
+        place: Northern MS (Carroll County, MS)
+        states:
+          Plaquemine: {}
+          Coles Creek: {} 
         land: 7
         index: 929
       82446ffffffffff:
@@ -6412,6 +6423,8 @@
         index: 936
       8244effffffffff:
         place: Talladega County, AL
+        states:
+          Chickasaw: {}
         land: 7
         index: 937
       8244f7fffffffff:

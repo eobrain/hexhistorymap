@@ -39,13 +39,28 @@ Yukaghir:
 Plaquemine:
   note: Plaquemine culture
   begin: 1200
-  end: 1700
+  end: 1500
   color: '#e00973'
 Coles Creek:
   note: Coles Creek culture
   begin: 700
   end: 1200
   color: '#f52285'
+Natchez:
+  note: Natchez Tribe
+  begin: 1500
+  end: 1829
+  color: '#fb9c2d'
+Choctaw:
+  note: Choctaw Tribe
+  begin: 1200
+  end: 1820
+  color: '#ff3a95'
+Chickasaw:
+  note: Chickasaw Tribe
+  begin: 1501
+  end: 1825
+  color: '#dc7743'
 Tungusic:
   note: Evens, Evenks
   begin: -2000
