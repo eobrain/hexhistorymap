@@ -6356,7 +6356,17 @@
       824447fffffffff:
         place: Southern Lower Mississippi Rover (West Feliciana Parish, Louisiana)
         states:
-          Natchez: {}
+          France:
+            begin: 1718
+            end: 1763
+          Spain:
+            begin: 1763
+            end: 1803
+          USA:
+            begin: 1803
+          Natchez:
+            begin: 1500
+            end: 1718
           Plaquemine: {}
           Coles Creek: {}
         land: 6
@@ -6371,9 +6381,17 @@
           Choctaw:
             begin: 1200
             end: 1698
+          France:
+            begin: 1719
+            end: 1722
+          Britain:
+            begin: 1763
+            end: 1781
           Spain:
             begin: 1698
-            end: 1763
+            end: 1819
+          USA:
+            begin: 1819
         land: 4
         index: 928
       82445ffffffffff:
@@ -6389,6 +6407,7 @@
         index: 930
     states:
       USA: {}
+      CSA: {}
     bighex: 81447ffffffffff
   '2':
     hexes:

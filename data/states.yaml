@@ -363,6 +363,11 @@ Britain:
   begin: 1603
   end: 2025
   color: '#afd229'
+CSA:
+  note: Confederate States of America
+  begin: 1861
+  end: 1865
+  color: '#6a7a03'
 Sikh:
   note: Sikh Empire
   begin: 1799
