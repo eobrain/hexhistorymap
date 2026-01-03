@@ -1967,6 +1967,17 @@
         place: сельское поселение Анопино, Gus-Khrustalny District
         land: 7
         index: 257
+        states:
+          Kievan Rus':
+            end: 1240
+          Mongols:
+            begin: 1240
+            end: 1480
+          Muscovy:
+            begin: 1300
+          Russia:
+            begin: 1547
+          USSR: {}
       821197fffffffff:
         place: Gubkinsky Urban Okrug
         land: 7
@@ -2975,7 +2986,13 @@
       821e87fffffffff:
         place: Cascate di Rioscuro, Cineto Romano RM
         states:
-          Italy: {}
+          France:
+            begin: 1808
+            end: 1814
+          Papal States:
+            end: 1870
+          Italy:
+            begin: 1870
         land: 4
         index: 405
       821e8ffffffffff:
@@ -2987,7 +3004,12 @@
       821ea7fffffffff:
         place: Via del Mare, Massa Fiscaglia FE
         states:
-          Italy: {}
+          Venice: {}
+          Austria:
+            begin: 1797
+            end: 1866
+          Italy:
+            begin: 1866
         land: 6
         index: 408
       821eaffffffffff:
@@ -3634,6 +3656,10 @@
         place: China, Qinghai, Datong
         land: 7
         index: 502
+        states:
+          Yuan: {}
+          Ming: {}
+          China: {}
       822497fffffffff:
         place: Qumarlêb County
         land: 7
@@ -4560,7 +4586,14 @@
       822ca7fffffffff:
         place: Ubayd Yusif, Dujail District, Iraq
         states:
-          Iraq: {}
+          Abbasid: {}
+          Ilkhanate:
+            begin: 1258
+          Ottomans:
+            begin: 1534
+            end: 1920
+          Iraq:
+            begin: 1920
         land: 7
         index: 645
       822caffffffffff:
@@ -4767,6 +4800,10 @@
         place: Kawagoe, Mie County
         land: 3
         index: 675
+        states:
+          Kamakura: {}
+          Ashikaga: {}
+          Tokugawa: {}
       822e6ffffffffff:
         place: Maniwa, Okayama Prefecture 717-0013
         land: 3
@@ -4815,6 +4852,10 @@
       822f5ffffffffff:
         name: Tokyo
         place: Minamiboso, Chiba Prefecture
+        states:
+          Kamakura: {}
+          Ashikaga: {}
+          Tokugawa: {}
         land: 2
         index: 683
     states:
@@ -4826,7 +4867,13 @@
       823017fffffffff:
         place: Shandong, Longkou City
         states:
-          China: {}
+          Tang:
+            end: 907
+          Song: {}
+          Yuan: {}
+          Ming: {}
+          China:
+            begin: 1636
         land: 3
         index: 684
       823027fffffffff:
@@ -5205,7 +5252,15 @@
       823907fffffffff:
         place: Camino del Vaqueril, Brozas
         states:
-          Spain: {}
+          Cordoba:
+            end: 1031
+          Leon:
+            begin: 1157
+            end: 1230
+          Castile:
+            begin: 1230
+          Spain:
+            begin: 1479
         land: 7
         index: 742
       82390ffffffffff:
@@ -5257,7 +5312,18 @@
         name: Valencia
         place: Balearic Sea
         states:
-          Spain: {}
+          Cordoba:
+            end: 1031
+          Almoravid:
+            begin: 1102
+            end: 1147
+          Almohad:
+            begin: 1172
+            end: 1238
+          Aragon:
+            begin: 1238
+          Spain:
+            begin: 1479
         land: 2
         index: 748
       82396ffffffffff:
@@ -6458,7 +6524,12 @@
       82450ffffffffff:
         place: Tziui, Tixcacalcupul
         states:
-          Mexico: {}
+          Maya: {}
+          Spain:
+            begin: 1542
+            end: 1821
+          Mexico:
+            begin: 1821
         land: 6
         index: 939
       824527fffffffff:
@@ -6539,6 +6610,14 @@
         place: Mexico
         land: 4
         index: 952
+        states:
+          Toltec: {}
+          Aztec: {}
+          Spain:
+            begin: 1521
+            end: 1821
+          Mexico:
+            begin: 1821
       82485ffffffffff:
         place: Municipio de Mexicali
         land: 6
@@ -6682,6 +6761,11 @@
         land: 3
         index: 976
     states:
+      Tang:
+        end: 907
+      Song: {}
+      Yuan: {}
+      Ming: {}
       China: {}
     bighex: 814b3ffffffffff
   '5':
@@ -7843,7 +7927,11 @@
       8264a7fffffffff:
         place: Chai Nat Province
         states:
-          Thailand: {}
+          Khmer:
+            end: 1350
+          Ayutthaya: {}
+          Thailand:
+            begin: 1767
         land: 7
         index: 1143
       8264b7fffffffff:
@@ -9466,6 +9554,12 @@
     hexes:
       828d87fffffffff:
         place: Banyuurip  East Java
+        states:
+          Majapahit: {}
+          Netherlands:
+            begin: 1600
+            end: 1949
+          Indonesia: {}
         land: 3
         index: 1404
       828d8ffffffffff:

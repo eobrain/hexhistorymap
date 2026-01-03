@@ -355,7 +355,7 @@ Durrani:
   end: 1826
   color: '#574700'
 Netherlands:
-  node: Dutch Republic, Dutch empire, modern Netherlands
+  node: Dutch Republic, VOC/Dutch East Indies, Dutch empire, modern Netherlands
   begin: 1581
   end: 2025
   color: '#4a2e00'
@@ -903,3 +903,112 @@ South Sudan:
   begin: 2011
   end: 2025
   color: '#00e6ff'
+Song:
+  note: Song Dynasty
+  begin: 960
+  end: 1279
+  color: '#88c599'
+Yuan:
+  note: Yuan Dynasty
+  begin: 1271
+  end: 1368
+  color: '#9977aa'
+Ming:
+  note: Ming Dynasty
+  begin: 1368
+  end: 1644
+  color: '#cc5555'
+Muscovy:
+  note: Grand Duchy of Moscow
+  begin: 1283
+  end: 1547
+  color: '#880000'
+Cordoba:
+  note: Caliphate of Cordoba
+  begin: 929
+  end: 1031
+  color: '#009944'
+Leon:
+  note: Kingdom of León
+  begin: 910
+  end: 1230
+  color: '#bb0044'
+Castile:
+  note: Kingdom/Crown of Castile
+  begin: 1035
+  end: 1715
+  color: '#ddbb00'
+Aragon:
+  note: Crown of Aragon
+  begin: 1035
+  end: 1707
+  color: '#dd6600'
+Abbasid:
+  note: Abbasid Caliphate
+  begin: 750
+  end: 1258
+  color: '#333333'
+Ilkhanate:
+  note: Ilkhanate (Mongol)
+  begin: 1256
+  end: 1335
+  color: '#664488'
+
+
+# JAPAN
+Kamakura:
+  note: Kamakura Shogunate
+  begin: 1185
+  end: 1333
+  color: '#772200'
+Ashikaga:
+  note: Ashikaga Shogunate
+  begin: 1336
+  end: 1573
+  color: '#994400'
+Tokugawa:
+  note: Tokugawa Shogunate (Edo Period)
+  begin: 1603
+  end: 1868
+  color: '#aa6600'
+
+# MESOAMERICA
+Maya:
+  note: Maya Civilization (Classic/Post-Classic)
+  begin: 250
+  end: 1697
+  color: '#11aa44'
+Aztec:
+  note: Aztec Empire (Triple Alliance)
+  begin: 1428
+  end: 1521
+  color: '#cc3300'
+Toltec:
+  note: Toltec Civilization
+  begin: 900
+  end: 1168
+  color: '#dd8822'
+
+# SOUTHEAST ASIA
+Majapahit:
+  note: Majapahit Empire
+  begin: 1293
+  end: 1527
+  color: '#d4af37'
+Ayutthaya:
+  note: Ayutthaya Kingdom
+  begin: 1351
+  end: 1767
+  color: '#993333'
+
+# ITALY
+Venice:
+  note: Republic of Venice
+  begin: 697
+  end: 1797
+  color: '#00aabb'
+Papal States:
+  note: Papal States
+  begin: 754
+  end: 1870
+  color: '#eeee00'
