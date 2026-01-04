@@ -1,90 +1,16 @@
 dev-server:
   deps:
+    - js
     - hex-list.js
-  exec: live-server
-
-deploy:
-  deps:
-  - site/index.html
-  - site/styles.css
-  - site/script.js
-  - site/model.js
-  - site/chart.js
-  - site/view.js
-  - site/regioncode2state.js
-  - site/hex-list.js
-  - site-js
-
-deploy-server:
-  deps:
-  - deploy
   exec: cd site && live-server
-
-site/script.js:
-  deps:
-  - site
-  - script.js
-  exec: cp script.js site
-
-site/model.js:
-  deps:
-  - site
-  - model.js
-  exec: cp model.js site
-
-site/chart.js:
-  deps:
-  - site
-  - chart.js
-  exec: cp chart.js site
-
-site/view.js:
-  deps:
-  - site
-  - view.js
-  exec: cp view.js site
-
-site/regioncode2state.js:
-  deps:
-  - site
-  - regioncode2state.js
-  exec: cp regioncode2state.js site
-
-site/hex-list.js:
-  deps:
-  - site
-  - hex-list.js
-  exec: cp hex-list.js site
-
-site/styles.css:
-  deps:
-  - site
-  - styles.css
-  exec: cp styles.css site
-
-site/index.html:
-  deps:
-  - site
-  - index.html
-  exec: cp index.html site
-
-site-js:
-  deps:
-  - js
-  exec: |
-    cp hexes.js states.js site/
-    touch $@
 
 update-colors:
   exec: |
     node state-colors.js > states-new.js
-    mv states-new.js states.js
+    mv states-new.js site/states.js
     node to-yaml.js
     node from-yaml.js
     ava
-
-site:
-  exec: mkdir -p $@
 
 test:
   deps:
@@ -99,15 +25,13 @@ hex-list-new.js:
 yaml:
   deps:
     - to-yaml.js
-    - hexes.js
-    - states.js
+    - site/hexes.js
+    - site/states.js
   exec: node $<  && touch $@
 
 standard:
   deps:
     - js
-    - script.js
-    - model.js
   exec: standard --fix
 
 js:

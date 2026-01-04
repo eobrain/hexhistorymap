@@ -1,6 +1,6 @@
 import test from 'ava'
-import { hexes, Milieu, State } from './model.js'
-import regioncode2state from './regioncode2state.js'
+import { hexes, Milieu, State } from './site/model.js'
+import regioncode2state from './site/regioncode2state.js'
 import * as h3 from 'h3-js'
 
 global.h3 = h3
