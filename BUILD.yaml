@@ -1,7 +1,6 @@
 dev-server:
   deps:
     - js
-    - hex-list.js
   exec: cd site && live-server
 
 update-colors:

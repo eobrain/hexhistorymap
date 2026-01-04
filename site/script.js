@@ -6,7 +6,7 @@ import regioncode2state from './regioncode2state.js'
 import { stateColor } from './view.js'
 import { drawChart, updateChart } from './chart.js'
 
-/* global Hammer, $yearDisplay, $google, $googleMap, $note, $hex, $state, $hexName, $presentDay */
+/* global Hammer, $yearDisplay, $google, $googleMap, $note, $hex, $state, $hexName, $hexChooser, $presentDay */
 
 let milieu
 let projectionLat = 0
@@ -53,7 +53,7 @@ $yearDisplay.min = minYear
 $yearDisplay.max = maxYear
 
 for (const hex of hexes()) {
-  $hexName.insertAdjacentHTML('beforeend',
+  $hexChooser.insertAdjacentHTML('beforeend',
     `<option value="${hex.index()}">${hex.name()}</option>`)
 }
 
