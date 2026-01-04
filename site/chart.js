@@ -5,7 +5,7 @@ import { stateColor } from './view.js'
 
 const { minYear, maxYear } = yearRange()
 
-const STRETCH = 5 // stretch factor for the chart
+const STRETCH = 15 // stretch factor for the chart
 const HEX_COUNT = hexes().length
 const HEIGHT_PX = STRETCH * HEX_COUNT
 const WIDTH = maxYear - minYear + 1

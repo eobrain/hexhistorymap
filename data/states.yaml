@@ -104,902 +104,902 @@ Maya:
   note: Maya Civilization (Classic/Post-Classic)
   begin: 250
   end: 1697
-  color: '#19d7e8'
+  color: '#d8842c'
 Cordoba:
   note: Caliphate of Cordoba
   begin: 929
   end: 1031
-  color: '#00bfa4'
+  color: '#a41e2b'
 Abbasid:
   note: Abbasid Caliphate
   begin: 750
   end: 1258
-  color: '#00adc4'
+  color: '#a24700'
 Toltec:
   note: Toltec Civilization
   begin: 900
   end: 1168
-  color: '#0df9be'
+  color: '#b76510'
 Fatimid:
   note: Fatimid Caliphate
   begin: 909
   end: 1171
-  color: '#d8842c'
+  color: '#f8b146'
 Kievan Rus':
   begin: 882
   end: 1240
-  color: '#a41e2b'
+  color: '#8d1417'
 Cholas:
   note: Imperial Cholas, Chola Empire, Tamil Empire
   begin: 848
   end: 1279
-  color: '#a24700'
+  color: '#980f3a'
 Leon:
   note: Kingdom of León
   begin: 910
   end: 1230
-  color: '#00b5af'
+  color: '#a51554'
 Almoravid:
   note: Almoravid dynasty, Berber
   begin: 1040
   end: 1147
-  color: '#b76510'
+  color: '#b42166'
 Cumania:
   note: Cuman-Kipchak confederation
   begin: 900
   end: 1300
-  color: '#f8b146'
+  color: '#d9c012'
 Seljuk:
   note: Seljuk Empire
   begin: 1037
   end: 1194
-  color: '#8d1417'
+  color: '#d87a5b'
 Khmer:
   note: Khmer Empire, Angkor Empire
   begin: 802
   end: 1431
-  color: '#980f3a'
+  color: '#c1a800'
 Song:
   note: Song Dynasty
   begin: 960
   end: 1279
-  color: '#25cecc'
+  color: '#c6971c'
 Almohad:
   note: Almohad Caliphate
   begin: 1147
   end: 1269
-  color: '#a51554'
+  color: '#800424'
 Ayyubid:
   note: Ayyubid dynasty
   begin: 1171
   end: 1260
-  color: '#b42166'
+  color: '#fea87e'
 Venice:
   note: Republic of Venice
   begin: 697
   end: 1797
-  color: '#00ecc8'
+  color: '#fe9790'
 Kamakura:
   note: Kamakura Shogunate
   begin: 1185
   end: 1333
-  color: '#04f195'
+  color: '#761e00'
 England:
   begin: 927
   end: 1603
-  color: '#d9c012'
+  color: '#9a6900'
 Scotland:
   note: Pre-Great Britain/UK
   begin: 843
   end: 1707
-  color: '#d87a5b'
+  color: '#f18a90'
 Ilkhanate:
   note: Ilkhanate (Mongol)
   begin: 1256
   end: 1335
-  color: '#09b9ce'
+  color: '#c07f3a'
 Mongols:
   begin: 1206
   end: 1400
-  color: '#c1a800'
+  color: '#c16655'
 Novgorod:
   note: Novgorod Republic
   begin: 1136
   end: 1478
-  color: '#c6971c'
+  color: '#6b0e05'
 Papal States:
   note: Papal States
   begin: 754
   end: 1870
-  color: '#0ef5e5'
+  color: '#c02994'
 Yuan:
   note: Yuan Dynasty
   begin: 1271
   end: 1368
-  color: '#00e869'
+  color: '#ff7cc1'
 Teutonic Order:
   begin: 1230
   end: 1466
-  color: '#800424'
+  color: '#ffbf86'
 Plaquemine:
   note: Plaquemine culture
   begin: 1200
   end: 1500
-  color: '#fea87e'
+  color: '#834d01'
 Golden Horde:
   begin: 1240
   end: 1481
-  color: '#fe9790'
+  color: '#997604'
 Delhi:
   note: Delhi Sultanate
   begin: 1206
   end: 1526
-  color: '#761e00'
+  color: '#753400'
 Aragon:
   note: Crown of Aragon
   begin: 1035
   end: 1707
-  color: '#27b9ff'
+  color: '#aa8d12'
 Castile:
   note: Kingdom/Crown of Castile
   begin: 1035
   end: 1715
-  color: '#33cdff'
+  color: '#940f67'
 Mamluk:
   note: Mamluk Sultanate
   begin: 1250
   end: 1517
-  color: '#9a6900'
+  color: '#851148'
 Holy Roman Empire:
   begin: 962
   end: 1806
-  color: '#f18a90'
+  color: '#c832b0'
 Oman:
   begin: 751
   end: 2025
-  color: '#c07f3a'
+  color: '#af624f'
 Majapahit:
   note: Majapahit Empire
   begin: 1293
   end: 1527
-  color: '#00a6ff'
+  color: '#835b00'
 Muscovy:
   note: Grand Duchy of Moscow
   begin: 1283
   end: 1547
-  color: '#1991ff'
+  color: '#9a8309'
 Mali Empire:
   begin: 1230
   end: 1610
-  color: '#c16655'
+  color: '#ffaaac'
 France:
   note: Kingdom of France, French Republic, French Colonial Empire, modern France
   begin: 843
   end: 2025
-  color: '#6b0e05'
+  color: '#c0db00'
 Ashikaga:
   note: Ashikaga Shogunate
   begin: 1336
   end: 1573
-  color: '#00d7b5'
+  color: '#754500'
 Norway:
   begin: 885
   end: 2025
-  color: '#c02994'
+  color: '#ff93c8'
 Aztec:
   note: Aztec Empire (Triple Alliance)
   begin: 1428
   end: 1521
-  color: '#00b1e9'
+  color: '#560b00'
 Iceland:
   note: Icelandic Commonwealth, modern Iceland
   begin: 930
   end: 2025
-  color: '#ff7cc1'
+  color: '#a21f86'
 Inca:
   note: Inca Empire
   begin: 1438
   end: 1533
-  color: '#ffbf86'
+  color: '#945f2d'
 Denmark:
   begin: 950
   end: 2025
-  color: '#834d01'
+  color: '#7f6900'
 Yeniseian:
   note: Ket
   begin: 950
   end: 2025
-  color: '#997604'
+  color: '#a8be00'
 Ugeric:
   note: Uralic peoples, Khanty, Mansi
   begin: 950
   end: 2025
-  color: '#753400'
+  color: '#610d25'
 Karnata:
   note: Karnata Kingdom, Vijayanagara Empire
   begin: 1336
   end: 1646
-  color: '#aa8d12'
+  color: '#6f103e'
 Poland:
   note: Duchy of Poland, Kingdom of Poland, modern Poland
   begin: 966
   end: 2025
-  color: '#940f67'
+  color: '#ab27a4'
 Bohemia:
   begin: 1198
   end: 1806
-  color: '#851148'
+  color: '#dd80af'
 Ming:
   note: Ming Dynasty
   begin: 1368
   end: 1644
-  color: '#00da82'
+  color: '#febfb6'
 Hungary:
   begin: 991
   end: 2025
-  color: '#c832b0'
+  color: '#7d7700'
 Choctaw:
   note: Choctaw Tribe
   begin: 1200
   end: 1820
-  color: '#af624f'
+  color: '#a8cf00'
 Songhai:
   note: Songhai Empire
   begin: 1429
   end: 1591
-  color: '#835b00'
+  color: '#5a3600'
 Sweden:
   begin: 1000
   end: 2025
-  color: '#9a8309'
+  color: '#a09d26'
 Sibir:
   note: Khanate of Sibir
   begin: 1468
   end: 1598
-  color: '#ffaaac'
+  color: '#ca33e6'
 Ayutthaya:
   note: Ayutthaya Kingdom
   begin: 1351
   end: 1767
-  color: '#00e0d1'
+  color: '#c5828d'
 Portugal:
   begin: 1139
   end: 2025
-  color: '#c0db00'
+  color: '#fea8da'
 Austria:
   begin: 1156
   end: 2025
-  color: '#754500'
+  color: '#520328'
 Sardinia:
   note: Kingdom of Sardinia, Piedmont-Sardinia
   begin: 1324
   end: 1861
-  color: '#ff93c8'
+  color: '#b502f0'
 Ottomans:
   begin: 1299
   end: 1922
-  color: '#560b00'
+  color: '#685a00'
 Yakuts:
   begin: 1200
   end: 2025
-  color: '#a21f86'
+  color: '#d858e2'
 Serbia:
   note: Kingdom of Serbia, Serbian Empire,  Kingdom of Prilep, modern Serbia
   begin: 1217
   end: 2025
-  color: '#945f2d'
+  color: '#5c4400'
 Lithuania:
   note: Grand Duchy of Lithuania, modern Lithuania
   begin: 1236
   end: 2025
-  color: '#7f6900'
+  color: '#e65ff9'
 Thailand:
   begin: 1238
   end: 2025
-  color: '#a8be00'
+  color: '#4b2803'
 Basque:
   note: North Atlantic fishing culture
   begin: 1530
   end: 1760
-  color: '#610d25'
+  color: '#731468'
 Chickasaw:
   note: Chickasaw Tribe
   begin: 1501
   end: 1825
-  color: '#6f103e'
+  color: '#810692'
 Natchez:
   note: Natchez Tribe
   begin: 1500
   end: 1829
-  color: '#ab27a4'
+  color: '#93b309'
 Poland-Lithuania:
   begin: 1569
   end: 1795
-  color: '#dd80af'
+  color: '#666700'
 Mughal:
   note: Mughal empire
   begin: 1526
   end: 1857
-  color: '#febfb6'
+  color: '#585200'
 Tokugawa:
   note: Tokugawa Shogunate (Edo Period)
   begin: 1603
   end: 1868
-  color: '#00e3a9'
+  color: '#76860b'
 Maratha:
   note: Maratha Confederacy, Maratha Empire
   begin: 1674
   end: 1818
-  color: '#7d7700'
+  color: '#e778fd'
 Spain:
   note: Kingdom of Spain, Spanish Empire, modern Spain
   begin: 1479
   end: 2025
-  color: '#a8cf00'
+  color: '#610e61'
 Iran:
   note: Persia, modern Iran, Qajar Dynasty, Afsharid Dynasty, Safavid dynasty
   begin: 1501
   end: 2025
-  color: '#5a3600'
+  color: '#849327'
 Prussia:
   begin: 1701
   end: 1871
-  color: '#a09d26'
+  color: '#87259c'
 Russia:
   begin: 1547
   end: 2025
-  color: '#ca33e6'
+  color: '#51094e'
 Durrani:
   note: Afghan Empire, Durrani Empire
   begin: 1747
   end: 1826
-  color: '#c5828d'
+  color: '#403500'
 Netherlands:
   node: Dutch Republic, VOC/Dutch East Indies, Dutch empire, modern Netherlands
   begin: 1581
   end: 2025
-  color: '#fea8da'
+  color: '#9402dc'
 Britain:
   begin: 1603
   end: 2025
-  color: '#520328'
+  color: '#5f7600'
 Sikh:
   note: Sikh Empire
   begin: 1799
   end: 1849
-  color: '#685a00'
+  color: '#a8749b'
 China:
   note: People's Republic of China, pre-revolution, ublic of China, Qing Dynasty
   begin: 1636
   end: 2025
-  color: '#d858e2'
+  color: '#444108'
 Morocco:
   begin: 1666
   end: 2025
-  color: '#5c4400'
+  color: '#e691fd'
 CSA:
   note: Confederate States of America
   begin: 1861
   end: 1865
-  color: '#b502f0'
+  color: '#35240a'
 Austro-Hungary:
   begin: 1867
   end: 1918
-  color: '#e65ff9'
+  color: '#93f200'
 Nepal:
   begin: 1768
   end: 2025
-  color: '#4b2803'
+  color: '#efc2e9'
 USA:
   begin: 1776
   end: 2025
-  color: '#731468'
+  color: '#6aae00'
 Ecuador:
   begin: 1809
   end: 2025
-  color: '#810692'
+  color: '#436100'
 Colombia:
   note: Gran Colombia, modern Colombia
   begin: 1810
   end: 2025
-  color: '#93b309'
+  color: '#2c2e08'
 Paraguay:
   begin: 1811
   end: 2025
-  color: '#666700'
+  color: '#538302'
 Venezuela:
   begin: 1811
   end: 2025
-  color: '#585200'
+  color: '#3f4e13'
 Argentina:
   begin: 1816
   end: 2025
-  color: '#76860b'
+  color: '#ddacff'
 Chile:
   begin: 1818
   end: 2025
-  color: '#e778fd'
+  color: '#253d02'
 Costa Rica:
   begin: 1821
   end: 2025
-  color: '#610e61'
+  color: '#336e00'
 Guatemala:
   begin: 1821
   end: 2025
-  color: '#849327'
+  color: '#7759a3'
 Honduras:
   begin: 1821
   end: 2025
-  color: '#87259c'
+  color: '#36007d'
 Mexico:
   begin: 1821
   end: 2025
-  color: '#51094e'
+  color: '#a967fe'
 Nicaragua:
   begin: 1821
   end: 2025
-  color: '#403500'
+  color: '#4900ae'
 Peru:
   begin: 1821
   end: 2025
-  color: '#9402dc'
+  color: '#b288fd'
 Bolivia:
   begin: 1825
   end: 2025
-  color: '#5f7600'
+  color: '#9f83e2'
 Uruguay:
   begin: 1828
   end: 2025
-  color: '#a8749b'
+  color: '#1f491d'
 Greece:
   begin: 1830
   end: 2025
-  color: '#444108'
+  color: '#855fd3'
 Belgium:
   begin: 1830
   end: 2025
-  color: '#e691fd'
+  color: '#cec9fc'
 Dominican Republic:
   begin: 1844
   end: 2025
-  color: '#35240a'
+  color: '#b29aff'
 Liberia:
   begin: 1847
   end: 2025
-  color: '#93f200'
+  color: '#b7acf7'
 Italy:
   begin: 1861
   end: 2025
-  color: '#efc2e9'
+  color: '#8f62f4'
 Canada:
   begin: 1867
   end: 2025
-  color: '#6aae00'
+  color: '#0c2d29'
 Germany:
   begin: 1871
   end: 2025
-  color: '#436100'
+  color: '#5d41b7'
 Bulgaria:
   begin: 1878
   end: 2025
-  color: '#2c2e08'
+  color: '#580de4'
 Romania:
   begin: 1878
   end: 2025
-  color: '#538302'
+  color: '#34ab00'
 Czechoslovakia:
   begin: 1918
   end: 1992
-  color: '#3f4e13'
+  color: '#0c5e01'
 Yugoslavia:
   begin: 1918
   end: 1992
-  color: '#ddacff'
+  color: '#003711'
 USSR:
   begin: 1922
   end: 1991
-  color: '#253d02'
+  color: '#b7bdff'
 Brazil:
   note: Empire of Brazil, modern Brazil
   begin: 1889
   end: 2025
-  color: '#336e00'
+  color: '#0f3f32'
 Philippines:
   begin: 1898
   end: 2025
-  color: '#7759a3'
+  color: '#082b3e'
 Australia:
   begin: 1901
   end: 2025
-  color: '#36007d'
+  color: '#0b363f'
 Cuba:
   begin: 1902
   end: 2025
-  color: '#a967fe'
+  color: '#3c7661'
 Panama:
   begin: 1903
   end: 2025
-  color: '#4900ae'
+  color: '#b5d6fe'
 Bhutan:
   begin: 1907
   end: 2025
-  color: '#b288fd'
+  color: '#3f9655'
 New Zealand:
   begin: 1907
   end: 2025
-  color: '#9f83e2'
+  color: '#8a9eed'
 South Africa:
   begin: 1910
   end: 2025
-  color: '#1f491d'
+  color: '#185d4d'
 Mongolia:
   begin: 1911
   end: 2025
-  color: '#855fd3'
+  color: '#007b00'
 Taiwan:
   note: Republic of China
   begin: 1912
   end: 2025
-  color: '#cec9fc'
+  color: '#35bc29'
 Albania:
   begin: 1912
   end: 2025
-  color: '#b29aff'
+  color: '#11a300'
 Finland:
   begin: 1917
   end: 2025
-  color: '#b7acf7'
+  color: '#172390'
 Estonia:
   note: modern state
   begin: 1918
   end: 2025
-  color: '#8f62f4'
+  color: '#015534'
 Latvia:
   begin: 1918
   end: 2025
-  color: '#0c2d29'
+  color: '#054151'
 Afghanistan:
   begin: 1919
   end: 2025
-  color: '#5d41b7'
+  color: '#1d3391'
 Egypt:
   begin: 1922
   end: 2025
-  color: '#580de4'
+  color: '#7476ff'
 Turkey:
   begin: 1923
   end: 2025
-  color: '#34ab00'
+  color: '#8dacfb'
 Iraq:
   begin: 1932
   end: 2025
-  color: '#0c5e01'
+  color: '#00226c'
 Saudi Arabia:
   begin: 1932
   end: 2025
-  color: '#003711'
+  color: '#004b43'
 Indonesia:
   begin: 1945
   end: 2025
-  color: '#b7bdff'
+  color: '#1dc900'
 Vietnam:
   begin: 1945
   end: 2025
-  color: '#0f3f32'
+  color: '#3b8581'
 Jordan:
   begin: 1946
   end: 2025
-  color: '#082b3e'
+  color: '#009300'
 Syria:
   begin: 1946
   end: 2025
-  color: '#0b363f'
+  color: '#1b5f6b'
 India:
   begin: 1947
   end: 2025
-  color: '#3c7661'
+  color: '#0a4c5f'
 Pakistan:
   begin: 1947
   end: 2025
-  color: '#b5d6fe'
+  color: '#013564'
 Israel:
   begin: 1948
   end: 2025
-  color: '#3f9655'
+  color: '#006833'
 Myanmar:
   begin: 1948
   end: 2025
-  color: '#8a9eed'
+  color: '#503eff'
 North Korea:
   begin: 1948
   end: 2025
-  color: '#185d4d'
+  color: '#0d714a'
 South Korea:
   begin: 1948
   end: 2025
-  color: '#007b00'
+  color: '#4ebe7f'
 Sri Lanka:
   begin: 1948
   end: 2025
-  color: '#35bc29'
+  color: '#8bbcff'
 Laos:
   begin: 1949
   end: 2025
-  color: '#11a300'
+  color: '#7391fd'
 Libya:
   begin: 1951
   end: 2025
-  color: '#172390'
+  color: '#02832d'
 Cambodia:
   begin: 1953
   end: 2025
-  color: '#015534'
+  color: '#148a4b'
 Sudan:
   begin: 1956
   end: 2025
-  color: '#054151'
+  color: '#034276'
 Tunisia:
   begin: 1956
   end: 2025
-  color: '#1d3391'
+  color: '#1a40a6'
 Ghana:
   begin: 1957
   end: 2025
-  color: '#7476ff'
+  color: '#1b5c91'
 Malaysia:
   begin: 1957
   end: 2025
-  color: '#8dacfb'
+  color: '#12e000'
 Guinea:
   begin: 1958
   end: 2025
-  color: '#00226c'
+  color: '#379f92'
 Benin:
   begin: 1960
   end: 2025
-  color: '#004b43'
+  color: '#43a0af'
 Burkina Faso:
   begin: 1960
   end: 2025
-  color: '#1dc900'
+  color: '#025579'
 Cameroon:
   begin: 1960
   end: 2025
-  color: '#3b8581'
+  color: '#106884'
 Central African Republic:
   begin: 1960
   end: 2025
-  color: '#009300'
+  color: '#006a64'
 Chad:
   begin: 1960
   end: 2025
-  color: '#1b5f6b'
+  color: '#4e72fc'
 Congo-Brazzaville:
   begin: 1960
   end: 2025
-  color: '#0a4c5f'
+  color: '#1003f0'
 Côte d'Ivoire:
   begin: 1960
   end: 2025
-  color: '#013564'
+  color: '#00d500'
 Democratic Republic of the Congo:
   begin: 1960
   end: 2025
-  color: '#006833'
+  color: '#18b353'
 Gabon:
   begin: 1960
   end: 2025
-  color: '#503eff'
+  color: '#4bfa75'
 Madagascar:
   begin: 1960
   end: 2025
-  color: '#0d714a'
+  color: '#0cf300'
 Mali:
   begin: 1960
   end: 2025
-  color: '#4ebe7f'
+  color: '#117b83'
 Mauritania:
   begin: 1960
   end: 2025
-  color: '#8bbcff'
+  color: '#157196'
 Niger:
   begin: 1960
   end: 2025
-  color: '#7391fd'
+  color: '#0c4eac'
 Nigeria:
   begin: 1960
   end: 2025
-  color: '#02832d'
+  color: '#1a987f'
 Senegal:
   begin: 1960
   end: 2025
-  color: '#148a4b'
+  color: '#007375'
 Somalia:
   begin: 1960
   end: 2025
-  color: '#034276'
+  color: '#1663b4'
 Togo:
   begin: 1960
   end: 2025
-  color: '#1a40a6'
+  color: '#008369'
 Kuwait:
   begin: 1961
   end: 2025
-  color: '#1b5c91'
+  color: '#2f82ca'
 Sierra Leone:
   begin: 1961
   end: 2025
-  color: '#12e000'
+  color: '#1baa7d'
 Algeria:
   begin: 1962
   end: 2025
-  color: '#379f92'
+  color: '#3867fe'
 Rwanda:
   begin: 1962
   end: 2025
-  color: '#43a0af'
+  color: '#019169'
 Trinidad and Tobago:
   begin: 1962
   end: 2025
-  color: '#025579'
+  color: '#6dd7ff'
 Uganda:
   begin: 1962
   end: 2025
-  color: '#106884'
+  color: '#00a268'
 Kenya:
   begin: 1963
   end: 2025
-  color: '#006a64'
+  color: '#339eda'
 Malawi:
   begin: 1964
   end: 2025
-  color: '#4e72fc'
+  color: '#1e5bf4'
 Tanzania:
   begin: 1964
   end: 2025
-  color: '#1003f0'
+  color: '#0f6dcd'
 Zambia:
   begin: 1964
   end: 2025
-  color: '#00d500'
+  color: '#0080a0'
 Botswana:
   begin: 1966
   end: 2025
-  color: '#18b353'
+  color: '#009191'
 Guyana:
   begin: 1966
   end: 2025
-  color: '#4bfa75'
+  color: '#0351d8'
 Lesotho:
   begin: 1966
   end: 2025
-  color: '#0cf300'
+  color: '#31c2c3'
 Equatorial Guinea:
   begin: 1968
   end: 2025
-  color: '#117b83'
+  color: '#1178cf'
 Eswatini:
   begin: 1968
   end: 2025
-  color: '#157196'
+  color: '#63edff'
 Fiji:
   begin: 1970
   end: 2025
-  color: '#0c4eac'
+  color: '#2a85f8'
 Bangladesh:
   begin: 1971
   end: 2025
-  color: '#1a987f'
+  color: '#0089a5'
 United Arab Emirates:
   begin: 1971
   end: 2025
-  color: '#007375'
+  color: '#3cc3e4'
 Polisario Front:
   note: Sahrawi Arab Democratic Republic
   begin: 1973
   end: 2025
-  color: '#1663b4'
+  color: '#0099a2'
 Guinea-Bissau:
   begin: 1974
   end: 2025
-  color: '#008369'
+  color: '#00b68a'
 Angola:
   begin: 1975
   end: 2025
-  color: '#2f82ca'
+  color: '#46e3ef'
 Mozambique:
   begin: 1975
   end: 2025
-  color: '#1baa7d'
+  color: '#0090ba'
 Papua New Guinea:
   begin: 1975
   end: 2025
-  color: '#3867fe'
+  color: '#00ce7c'
 Suriname:
   begin: 1975
   end: 2025
-  color: '#019169'
+  color: '#00aba2'
 Djibouti:
   begin: 1977
   end: 2025
-  color: '#6dd7ff'
+  color: '#0899c4'
 Solomon Islands:
   begin: 1978
   end: 2025
-  color: '#00a268'
+  color: '#25cecc'
 Zimbabwe:
   begin: 1980
   end: 2025
-  color: '#339eda'
+  color: '#00e869'
 Namibia:
   begin: 1990
   end: 2025
-  color: '#1e5bf4'
+  color: '#00da82'
 Yemen:
   begin: 1990
   end: 2025
-  color: '#0f6dcd'
+  color: '#1991ff'
 Armenia:
   begin: 1991
   end: 2025
-  color: '#0080a0'
+  color: '#00bfa4'
 Azerbaijan:
   begin: 1991
   end: 2025
-  color: '#009191'
+  color: '#00b5af'
 Belarus:
   begin: 1991
   end: 2025
-  color: '#0351d8'
+  color: '#33cdff'
 Croatia:
   begin: 1991
   end: 2025
-  color: '#31c2c3'
+  color: '#27b9ff'
 Georgia:
   begin: 1991
   end: 2025
-  color: '#1178cf'
+  color: '#00adc4'
 Kazakhstan:
   begin: 1991
   end: 2025
-  color: '#63edff'
+  color: '#09b9ce'
 Kyrgyzstan:
   begin: 1991
   end: 2025
-  color: '#2a85f8'
+  color: '#04f195'
 Tajikistan:
   begin: 1991
   end: 2025
-  color: '#0089a5'
+  color: '#00d7b5'
 Turkmenistan:
   begin: 1991
   end: 2025
-  color: '#3cc3e4'
+  color: '#00e3a9'
 Ukraine:
   begin: 1991
   end: 2025
-  color: '#0099a2'
+  color: '#19d7e8'
 Uzbekistan:
   begin: 1991
   end: 2025
-  color: '#00b68a'
+  color: '#00b1e9'
 Czechia:
   begin: 1993
   end: 2025
-  color: '#46e3ef'
+  color: '#0df9be'
 Eritrea:
   begin: 1993
   end: 2025
-  color: '#0090ba'
+  color: '#00a6ff'
 Slovakia:
   begin: 1993
   end: 2025
-  color: '#00ce7c'
+  color: '#00e0d1'
 Somaliland:
   begin: 2001
   end: 2025
-  color: '#00aba2'
+  color: '#00ecc8'
 South Sudan:
   begin: 2011
   end: 2025
-  color: '#0899c4'
+  color: '#0ef5e5'

@@ -1,5 +1,5 @@
-import hexes from './hexes.js'
-import states from './states.js'
+import hexes from './site/hexes.js'
+import states from './site/states.js'
 import { dump } from 'js-yaml'
 import fs from 'fs'
 

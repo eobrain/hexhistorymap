@@ -1,6 +1,6 @@
 import test from 'ava'
-import hexData from './hexes.js'
-import stateData from './states.js'
+import hexData from './site/hexes.js'
+import stateData from './site/states.js'
 
 const stateNamesInHexes = () => {
   const stateNames = new Set()

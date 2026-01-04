@@ -1,4 +1,4 @@
-import stateData from './states.js'
+import stateData from './site/states.js'
 import maxichrome from 'maxichrome'
 
 const stateNames = Object.keys(stateData)

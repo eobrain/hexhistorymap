@@ -4,7 +4,7 @@ import fs from 'fs'
 const convert = base => {
   const data = load(fs.readFileSync(`data/${base}.yaml`, 'utf8'))
   const json = JSON.stringify(data)
-  fs.writeFileSync(`${base}.js`, `export default ${json};`)
+  fs.writeFileSync(`site/${base}.js`, `export default ${json};`)
 }
 
 convert('hexes')
