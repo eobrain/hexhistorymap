@@ -23,38 +23,38 @@ deploy-server:
 site/script.js:
   deps:
   - site
-  - script.js
-  exec: cp script.js site
+  - webcode/script.js
+  exec: cp webcode/script.js site
 
 site/model.js:
   deps:
   - site
-  - model.js
-  exec: cp model.js site
+  - webcode/model.js
+  exec: cp webcode/model.js site
 
 site/chart.js:
   deps:
   - site
-  - chart.js
-  exec: cp chart.js site
+  - webcode/chart.js
+  exec: cp webcode/chart.js site
 
 site/view.js:
   deps:
   - site
-  - view.js
-  exec: cp view.js site
+  - webcode/view.js
+  exec: cp webcode/view.js site
 
 site/regioncode2state.js:
   deps:
   - site
-  - regioncode2state.js
-  exec: cp regioncode2state.js site
+  - webcode/regioncode2state.js
+  exec: cp webcode/regioncode2state.js site
 
 site/hex-list.js:
   deps:
   - site
-  - hex-list.js
-  exec: cp hex-list.js site
+  - webcode/hex-list.js
+  exec: cp webcode/hex-list.js site
 
 site/styles.css:
   deps:
@@ -72,13 +72,13 @@ site-js:
   deps:
   - js
   exec: |
-    cp hexes.js states.js site/
+    cp webcode/hexes.js webcode/states.js site/
     touch $@
 
 update-colors:
   exec: |
     node state-colors.js > states-new.js
-    mv states-new.js states.js
+    mv states-new.js webcode/states.js
     node to-yaml.js
     node from-yaml.js
     ava
@@ -99,15 +99,15 @@ hex-list-new.js:
 yaml:
   deps:
     - to-yaml.js
-    - hexes.js
-    - states.js
+    - webcode/hexes.js
+    - webcode/states.js
   exec: node $<  && touch $@
 
 standard:
   deps:
     - js
-    - script.js
-    - model.js
+    - webcode/script.js
+    - webcode/model.js
   exec: standard --fix
 
 js:
