@@ -6,7 +6,7 @@ import regioncode2state from './regioncode2state.js'
 import { stateColor } from './view.js'
 import { drawChart, updateChart } from './chart.js'
 
-/* global Hammer, $yearDisplay, $google, $googleMap, $note, $hex, $state, $hexChooser, $presentDay */
+/* global Hammer, $yearDisplay, $google, $googleFrame, $googleMap, $note, $hex, $state, $hexChooser, $presentDay */
 
 let milieu
 let projectionLat = 0
@@ -177,6 +177,7 @@ const update = () => {
     $google.href = `https://google.com/search?q=${googleQuery}`
     $googleMap.href = `https://maps.google.com/?ll=${hexLat},${hexLon}&z=8`
     $hex.href = milieu.hexUrl()
+    $googleFrame.src = `https://google.com/search?udm=50&igu=1&q=${googleQuery}`
   } else {
     $note.style.display = 'none'
   }

@@ -6,6 +6,10 @@ nav {
     text-wrap: nowrap;
 }
 
+iframe {
+    width: 50%;
+}
+
 #text-container {
     display:flex;
 }
@@ -69,7 +73,7 @@ select {
 }
 
 /* Narrow */
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
     body {
         margin: 5vmin;
         padding: 0;
