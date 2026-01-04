@@ -6,6 +6,10 @@ nav {
     text-wrap: nowrap;
 }
 
+#text-container {
+    display:flex;
+}
+
 #map-container {
     position: fixed;
     z-index: 1;

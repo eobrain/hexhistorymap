@@ -13,6 +13,17 @@
 </head>
 
 <body>
+    <nav id="text-container">
+        <select id="$hexChooser"></select>
+        <input type="number" id="$yearDisplay" name="year" min="0" max="1" />
+        <div>
+            <span id="$note">
+                was controlled by <span id="$state"></span>
+                <span id="$presentDay"></span>
+                <span id="$place"></span>
+
+        </div>
+    </nav>
     <div id="map-container">
         <canvas id="map"></canvas>
     </div>
@@ -23,24 +34,14 @@
         <div id="annotation-container">
             <canvas id="$annotation" class="overlay"></canvas>
         </div>
-        <div id="year-container">
-            <span id="$yearDisplay"></span>
-        </div>
     </div>
-    <div id="text-container">
-        <select id="$hexChooser"></select>
-        <div id="$note">
-            <p><span id="$hexName"></span> was controlled by <span id="$state"></span></p>
-            <p><span id="$presentDay"></a></p>
-        </div>
-        <p id="$place"></p>
-        <p>
-            <a target="_blank" id="$googleMap" href="">Map</a>
-            (<a target="_blank" id="$hex" href="">hex</a>)
-        </p>
-        <p><a target="_blank" id="$google" href=""></a></p>
-        <p>&copy; 2025 Eamonn O'Brien-Strain</p>
-    </div>
+    <footer>
+        <a target="_blank" id="$googleMap" href="">Map</a>
+
+        (<a target="_blank" id="$hex" href="">hex</a>)
+        <a target="_blank" id="$google" href=""></a>
+        <p>&copy; 2026 Eamonn O'Brien-Strain</p>
+    </footer>
 </body>
 
 </html>
