@@ -7,12 +7,19 @@ nav {
 }
 
 iframe {
-    height: 1500px; 
-    width: 100%;}
+    height: 800px; 
+    width: 800px;
+}
 #iframe-container {
-    overflow: scroll; /* Use the container's scrollbar */
-    height: 400px;    /* Define visible height */
-    width: 50%;
+    overflow: hidden; 
+    height: 160px;    /* Define visible height */
+    width: 700px;
+    overflow-x: hidden;
+}
+
+#overlay {
+    height: 50vh;
+    overflow: scroll; 
 }
 
 #text-container {
@@ -84,7 +91,9 @@ select {
         padding: 0;
     }
 
-
+    #map-container {
+       top: 10em;
+    }
     #map-container canvas {
         width: 90vmin;
         height: 90vmin;

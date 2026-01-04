@@ -27,7 +27,10 @@ $canvas.width = $canvas.clientWidth
 $canvas.height = $canvas.width
 
 const $iframeContainer = document.getElementById('iframe-container')
-const scrollIframe = () => $iframeContainer.scrollTop = 160
+const scrollIframe = () => {
+  $iframeContainer.scrollTop = 160
+  $iframeContainer.scrollLeft = 160
+}
 
 const hammertime = new Hammer($canvas)
 hammertime.get('pan').set({ direction: Hammer.DIRECTION_ALL })
