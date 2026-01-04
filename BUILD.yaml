@@ -1,6 +1,6 @@
 dev-server:
   deps:
-    - js
+    - deploy
   exec: cd site && live-server
 
 update-colors:
@@ -30,10 +30,10 @@ yaml:
 
 standard:
   deps:
-    - js
+    - deploy
   exec: standard --fix
 
-js:
+deploy:
   deps:
     - from-yaml.js
     - data/hexes.yaml
