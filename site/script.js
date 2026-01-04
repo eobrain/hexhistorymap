@@ -26,6 +26,9 @@ const $canvas = document.getElementById('map')
 $canvas.width = $canvas.clientWidth
 $canvas.height = $canvas.width
 
+const $iframeContainer = document.getElementById('iframe-container')
+const scrollIframe = () => $iframeContainer.scrollTop = 160
+
 const hammertime = new Hammer($canvas)
 hammertime.get('pan').set({ direction: Hammer.DIRECTION_ALL })
 hammertime.get('pinch').set({ enable: true })
@@ -181,6 +184,7 @@ const update = () => {
   } else {
     $note.style.display = 'none'
   }
+  setTimeout(scrollIframe, 5000)
 }
 
 // $yearControl.min = minYear

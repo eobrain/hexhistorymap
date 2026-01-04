@@ -7,6 +7,11 @@ nav {
 }
 
 iframe {
+    height: 1500px; 
+    width: 100%;}
+#iframe-container {
+    overflow: scroll; /* Use the container's scrollbar */
+    height: 400px;    /* Define visible height */
     width: 50%;
 }
 
